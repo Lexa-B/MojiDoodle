@@ -103,6 +103,12 @@ interface Point { x: number; y: number; t: number; }  // t = timestamp relative 
 - Undo removes last stroke and redraws
 - On CHECK: sends strokes to Google Input Tools API, shows recognized candidates
 
+**Shodo-style brush rendering** (visual only, doesn't affect API data):
+- Velocity-based thickness: slow = thick, fast = thin (like a real brush)
+- Smoothed transitions between thickness changes
+- Harai (払い) flicks: tapered tails on stroke ends based on lift-off velocity
+- Settings in `workbook.page.ts`: `minBrushSize`, `maxBrushSize`, `brushSmoothing`
+
 ### Handwriting Recognition Flow
 
 1. User draws on canvas → strokes captured with relative timestamps
