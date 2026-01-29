@@ -35,10 +35,29 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
 
   isChecking = false;
   showResults = false;
-  resultScore = 0;
+  resultStatus: 'correct' | 'befuddled' | 'wrong' | '' = '';
   resultFeedback = '';
   strokeCountInfo = '';
   topMatches: { character: string; score: number }[] = [];
+
+  private correctFeedback = [
+    '正解!',
+    'まる!',
+    'はなまる!',
+    'よくやった!',
+    'すごい!',
+    'かんぺき!',
+    'ばっちり!',
+    'その調子!',
+  ];
+
+  private wrongFeedback = [
+    'ちがう!',
+    'ざんねん!',
+    'はずれ!',
+    'ふせいかい!',
+    'バツ!',
+  ];
 
   constructor(
     private strokeRecognition: StrokeRecognitionService,
@@ -201,7 +220,7 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
   }
 
   async onCheck() {
-    if (this.strokes.length === 0) return;
+    if (this.strokes.length === 0 || !this.currentLesson) return;
 
     this.isChecking = true;
 
@@ -213,35 +232,38 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
         canvas.height
       );
 
-      // Check if target character is in results
-      const targetResult = results.find(r => r.character === this.currentCharacter);
-      const bestMatch = results[0];
+      // Top 5 matches
+      this.topMatches = results.slice(0, 5);
+      const top5Characters = this.topMatches.map(r => r.character);
 
-      // Score based on whether we got the right character
-      if (targetResult && results.indexOf(targetResult) === 0) {
-        this.resultScore = 100;
-        this.resultFeedback = '素晴らしい! (Excellent!)';
-      } else if (targetResult && results.indexOf(targetResult) <= 2) {
-        this.resultScore = 70;
-        this.resultFeedback = 'いいね! (Good!)';
-      } else if (bestMatch) {
-        this.resultScore = 30;
-        this.resultFeedback = `Recognized as: ${bestMatch.character}`;
+      // Check if target character is in top 5
+      const targetIndex = top5Characters.indexOf(this.currentCharacter);
+
+      if (targetIndex >= 0 && targetIndex < 5) {
+        this.resultStatus = 'correct';
+        this.resultFeedback = this.randomFrom(this.correctFeedback);
       } else {
-        this.resultScore = 0;
-        this.resultFeedback = 'もう一度 (Try again!)';
+        // Answer not in top 5 - check for befuddlers
+        const befuddler = this.currentLesson.befuddlers.find(b =>
+          top5Characters.includes(b.answer)
+        );
+
+        if (befuddler) {
+          this.resultStatus = 'befuddled';
+          this.resultFeedback = befuddler.toast;
+        } else {
+          this.resultStatus = 'wrong';
+          this.resultFeedback = this.randomFrom(this.wrongFeedback);
+        }
       }
 
       // Get stroke count info
       const expectedStrokes = this.strokeRecognition.getExpectedStrokeCount(this.currentCharacter);
       this.strokeCountInfo = `Strokes: ${this.strokes.length}/${expectedStrokes}`;
 
-      // Top matches
-      this.topMatches = results.slice(0, 5);
-
     } catch (error: any) {
       console.error('Recognition error:', error);
-      this.resultScore = 0;
+      this.resultStatus = 'wrong';
       this.resultFeedback = error.message || 'Recognition failed. Please try on a device.';
       this.topMatches = [];
       this.strokeCountInfo = '';
@@ -253,6 +275,12 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
 
   dismissResults() {
     this.showResults = false;
+    this.clearCanvas();
+
+    // Load new lesson if correct or wrong, keep same if befuddled
+    if (this.resultStatus === 'correct' || this.resultStatus === 'wrong') {
+      this.loadRandomLesson();
+    }
   }
 
   onUndo() {
@@ -283,5 +311,9 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
     this.ctx.clearRect(0, 0, canvas.width, canvas.height);
     this.strokes = [];
     this.drawStartTime = 0;
+  }
+
+  private randomFrom<T>(arr: T[]): T {
+    return arr[Math.floor(Math.random() * arr.length)];
   }
 }
