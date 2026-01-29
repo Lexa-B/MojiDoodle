@@ -1,7 +1,7 @@
 <ion-content [fullscreen]="true" class="workbook-content" [scrollY]="false">
   <div class="prompt-bar">
     <ion-menu-button color="light"></ion-menu-button>
-    <span class="prompt-text">A (Hiragana)</span>
+    <span class="prompt-text">{{ promptText }}</span>
   </div>
 
   <div class="canvas-wrapper">
@@ -11,5 +11,29 @@
     </ion-button>
   </div>
 
-  <ion-button class="check-btn" (click)="onCheck()">CHECK!</ion-button>
+  <ion-button class="check-btn" (click)="onCheck()" [disabled]="isChecking">
+    <ion-spinner *ngIf="isChecking" name="crescent"></ion-spinner>
+    <span *ngIf="!isChecking">CHECK!</span>
+  </ion-button>
+
+  <div class="results-overlay" *ngIf="showResults" (click)="dismissResults()">
+    <div class="results-card" (click)="$event.stopPropagation()">
+      <div class="score-display">
+        <div class="score-number">{{ resultScore }}</div>
+        <div class="score-label">/ 100</div>
+      </div>
+      <div class="feedback">{{ resultFeedback }}</div>
+      <div class="stroke-info">{{ strokeCountInfo }}</div>
+      <div class="matches-section">
+        <div class="matches-title">Closest matches:</div>
+        <div class="matches-list">
+          <div class="match-item" *ngFor="let m of topMatches">
+            <span class="match-char">{{ m.character }}</span>
+            <span class="match-score">{{ m.score }}%</span>
+          </div>
+        </div>
+      </div>
+      <ion-button expand="block" (click)="dismissResults()">OK</ion-button>
+    </div>
+  </div>
 </ion-content>

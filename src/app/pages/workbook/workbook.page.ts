@@ -1,11 +1,15 @@
 import { Component, OnInit, ViewChild, ElementRef, AfterViewInit, OnDestroy } from '@angular/core';
-import { IonContent, IonMenuButton, IonButton, IonIcon } from '@ionic/angular/standalone';
+import { IonContent, IonMenuButton, IonButton, IonIcon, IonSpinner } from '@ionic/angular/standalone';
+import { CommonModule } from '@angular/common';
 import { addIcons } from 'ionicons';
 import { backspace } from 'ionicons/icons';
+import { StrokeRecognitionService } from '../../services/stroke-recognition.service';
+import { LessonsService, Lesson } from '../../services/lessons.service';
 
 interface Point {
   x: number;
   y: number;
+  t: number; // timestamp relative to drawing start
 }
 
 @Component({
@@ -13,7 +17,7 @@ interface Point {
   templateUrl: './workbook.page.html',
   styleUrls: ['./workbook.page.scss'],
   standalone: true,
-  imports: [IonContent, IonMenuButton, IonButton, IonIcon],
+  imports: [IonContent, IonMenuButton, IonButton, IonIcon, IonSpinner, CommonModule],
 })
 export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
   @ViewChild('canvas') canvasRef!: ElementRef<HTMLCanvasElement>;
@@ -22,15 +26,40 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
   private resizeObserver!: ResizeObserver;
   private strokes: Point[][] = [];
   private currentStroke: Point[] = [];
+  private drawStartTime = 0; // timestamp when drawing started
 
-  constructor() {
+  // Current lesson
+  currentLesson: Lesson | undefined;
+  currentCharacter = '';
+  promptText = '';
+
+  isChecking = false;
+  showResults = false;
+  resultScore = 0;
+  resultFeedback = '';
+  strokeCountInfo = '';
+  topMatches: { character: string; score: number }[] = [];
+
+  constructor(
+    private strokeRecognition: StrokeRecognitionService,
+    private lessonsService: LessonsService
+  ) {
     addIcons({ backspace });
   }
 
-  ngOnInit() { }
+  ngOnInit() {
+    this.loadRandomLesson();
+  }
+
+  private loadRandomLesson() {
+    this.currentLesson = this.lessonsService.getRandomUnlockedLesson();
+    if (this.currentLesson) {
+      this.currentCharacter = this.currentLesson.answer;
+      this.promptText = this.currentLesson.prompt;
+    }
+  }
 
   ngAfterViewInit() {
-    // Delay setup to ensure DOM is ready
     setTimeout(() => this.setupCanvas(), 100);
   }
 
@@ -46,24 +75,19 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
 
     if (!container) return;
 
-    // Set canvas size
     this.resizeCanvas();
 
-    // Watch for container resize
     this.resizeObserver = new ResizeObserver(() => this.resizeCanvas());
     this.resizeObserver.observe(container);
 
-    // Get context
     this.ctx = canvas.getContext('2d')!;
     this.setCanvasStyle();
 
-    // Mouse events
     canvas.addEventListener('mousedown', this.handleMouseDown.bind(this));
     canvas.addEventListener('mousemove', this.handleMouseMove.bind(this));
     canvas.addEventListener('mouseup', this.handleMouseUp.bind(this));
     canvas.addEventListener('mouseleave', this.handleMouseUp.bind(this));
 
-    // Touch events
     canvas.addEventListener('touchstart', this.handleTouchStart.bind(this), { passive: false });
     canvas.addEventListener('touchmove', this.handleTouchMove.bind(this), { passive: false });
     canvas.addEventListener('touchend', this.handleTouchEnd.bind(this));
@@ -138,31 +162,97 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
     this.isDrawing = false;
   }
 
-  private getMousePos(e: MouseEvent): { x: number; y: number } {
+  private getMousePos(e: MouseEvent): Point {
     const canvas = this.canvasRef.nativeElement;
     const rect = canvas.getBoundingClientRect();
     const scaleX = canvas.width / rect.width;
     const scaleY = canvas.height / rect.height;
+    const now = Date.now();
+
+    // Set start time on first point
+    if (this.drawStartTime === 0) {
+      this.drawStartTime = now;
+    }
+
     return {
       x: (e.clientX - rect.left) * scaleX,
-      y: (e.clientY - rect.top) * scaleY
+      y: (e.clientY - rect.top) * scaleY,
+      t: now - this.drawStartTime
     };
   }
 
-  private getTouchPos(e: TouchEvent): { x: number; y: number } {
+  private getTouchPos(e: TouchEvent): Point {
     const canvas = this.canvasRef.nativeElement;
     const rect = canvas.getBoundingClientRect();
     const scaleX = canvas.width / rect.width;
     const scaleY = canvas.height / rect.height;
+    const now = Date.now();
+
+    // Set start time on first point
+    if (this.drawStartTime === 0) {
+      this.drawStartTime = now;
+    }
+
     return {
       x: (e.touches[0].clientX - rect.left) * scaleX,
-      y: (e.touches[0].clientY - rect.top) * scaleY
+      y: (e.touches[0].clientY - rect.top) * scaleY,
+      t: now - this.drawStartTime
     };
   }
 
-  onCheck() {
-    // TODO: Implement character recognition
-    console.log('Check button pressed');
+  async onCheck() {
+    if (this.strokes.length === 0) return;
+
+    this.isChecking = true;
+
+    try {
+      const canvas = this.canvasRef.nativeElement;
+      const results = await this.strokeRecognition.recognize(
+        this.strokes,
+        canvas.width,
+        canvas.height
+      );
+
+      // Check if target character is in results
+      const targetResult = results.find(r => r.character === this.currentCharacter);
+      const bestMatch = results[0];
+
+      // Score based on whether we got the right character
+      if (targetResult && results.indexOf(targetResult) === 0) {
+        this.resultScore = 100;
+        this.resultFeedback = '素晴らしい! (Excellent!)';
+      } else if (targetResult && results.indexOf(targetResult) <= 2) {
+        this.resultScore = 70;
+        this.resultFeedback = 'いいね! (Good!)';
+      } else if (bestMatch) {
+        this.resultScore = 30;
+        this.resultFeedback = `Recognized as: ${bestMatch.character}`;
+      } else {
+        this.resultScore = 0;
+        this.resultFeedback = 'もう一度 (Try again!)';
+      }
+
+      // Get stroke count info
+      const expectedStrokes = this.strokeRecognition.getExpectedStrokeCount(this.currentCharacter);
+      this.strokeCountInfo = `Strokes: ${this.strokes.length}/${expectedStrokes}`;
+
+      // Top matches
+      this.topMatches = results.slice(0, 5);
+
+    } catch (error: any) {
+      console.error('Recognition error:', error);
+      this.resultScore = 0;
+      this.resultFeedback = error.message || 'Recognition failed. Please try on a device.';
+      this.topMatches = [];
+      this.strokeCountInfo = '';
+    }
+
+    this.isChecking = false;
+    this.showResults = true;
+  }
+
+  dismissResults() {
+    this.showResults = false;
   }
 
   onUndo() {
@@ -192,5 +282,6 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
     const canvas = this.canvasRef.nativeElement;
     this.ctx.clearRect(0, 0, canvas.width, canvas.height);
     this.strokes = [];
+    this.drawStartTime = 0;
   }
 }

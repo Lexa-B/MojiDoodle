@@ -9,7 +9,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "lint": "ng lint"
+    "lint": "ng lint",
+    "deploy": "ionic build --prod -- --base-href /MojiDoodle/ && npx angular-cli-ghpages --dir=www"
   },
   "private": true,
   "dependencies": {
@@ -21,9 +22,11 @@
     "@angular/platform-browser": "^20.0.0",
     "@angular/platform-browser-dynamic": "^20.0.0",
     "@angular/router": "^20.0.0",
+    "@capacitor/android": "8.0.2",
     "@capacitor/app": "8.0.0",
     "@capacitor/core": "8.0.2",
     "@capacitor/haptics": "8.0.0",
+    "@capacitor/ios": "8.0.2",
     "@capacitor/keyboard": "8.0.0",
     "@capacitor/status-bar": "8.0.0",
     "@ionic/angular": "^8.0.0",

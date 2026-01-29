@@ -15,7 +15,7 @@
   text-align: center;
   font-size: 28px;
   color: #fff;
-  margin-right: 40px; // offset for menu button
+  margin-right: 40px;
 }
 
 .canvas-wrapper {
@@ -42,6 +42,95 @@
   --padding-start: 8px;
   --padding-end: 8px;
   font-size: 24px;
+}
+
+.results-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+
+.results-card {
+  background: #1a1a1a;
+  border-radius: 16px;
+  padding: 24px;
+  min-width: 280px;
+  max-width: 90%;
+  text-align: center;
+}
+
+.score-display {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+
+.score-number {
+  font-size: 72px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.score-label {
+  font-size: 24px;
+  color: #666;
+  margin-left: 4px;
+}
+
+.feedback {
+  font-size: 20px;
+  color: #4ecdc4;
+  margin-bottom: 16px;
+}
+
+.stroke-info {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 20px;
+}
+
+.matches-section {
+  border-top: 1px solid #333;
+  padding-top: 16px;
+  margin-bottom: 20px;
+}
+
+.matches-title {
+  font-size: 12px;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 12px;
+}
+
+.matches-list {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.match-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.match-char {
+  font-size: 32px;
+  color: #fff;
+}
+
+.match-score {
+  font-size: 12px;
+  color: #888;
 }
 
 .check-btn {
