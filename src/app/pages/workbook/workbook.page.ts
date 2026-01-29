@@ -67,7 +67,18 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
     '確認',
   ];
 
+  private dismissButtonLabels = [
+    '次！',
+    'つぎ！',
+    'よし！',
+    'オッケー！',
+    'はい！',
+    '了解！',
+    'いくぞ！',
+  ];
+
   checkButtonText = '';
+  dismissButtonText = '';
 
   constructor(
     private strokeRecognition: StrokeRecognitionService,
@@ -409,6 +420,7 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
     }
 
     this.isChecking = false;
+    this.dismissButtonText = this.randomFrom(this.dismissButtonLabels);
     this.showResults = true;
   }
 
