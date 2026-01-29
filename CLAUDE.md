@@ -13,10 +13,7 @@ ionic serve                    # Dev server at localhost:8100
 ionic build --prod             # Production build
 ng test                        # Unit tests
 ng lint                        # Linting
-
-# Deploy to GitHub Pages
-ionic build --prod -- --base-href /MojiDoodle/
-npx angular-cli-ghpages --dir=www
+npm run deploy                 # Build and deploy to GitHub Pages
 
 # Native platforms
 ionic capacitor add ios
@@ -53,11 +50,11 @@ src/theme/variables.scss     # Ionic theme colors
 
 - **Dashboard** (`/dashboard`) - Home page, currently minimal
 - **Workbook** (`/workbook`) - Drawing practice with:
-  - Prompt bar showing current character
+  - Prompt bar showing current character (random unlocked lesson on load)
   - Full-screen black canvas (OLED-friendly)
   - Undo button (backspace icon)
   - CHECK! button for handwriting recognition
-  - Results overlay showing score, feedback, matches
+  - Results overlay: ◯ correct, ？ befuddled (try again), ✕ wrong
 
 ### Services
 
@@ -83,7 +80,9 @@ interface Lesson {
   prompt: string;        // "A (Hiragana)"
   answer: string;        // "あ"
   hint?: string;         // "3 strokes"
+  strokeCount?: number;  // Expected stroke count for feedback
   stage: number;         // -1 = unavailable, 0+ = unlocked
+  unlocks: string;       // ISO timestamp when lesson becomes available
   befuddlers: Befuddler[];
 }
 
@@ -111,4 +110,7 @@ interface Point { x: number; y: number; t: number; }  // t = timestamp relative 
 3. Strokes converted to Google format: `[[x1,x2,...], [y1,y2,...], [t1,t2,...]]`
 4. POST to Google Input Tools API
 5. Response parsed → returns array of `{character, score}` candidates
-6. UI shows if target character was recognized and top matches
+6. Result logic:
+   - If answer in top 5 → correct (◯), load new lesson
+   - If befuddler in top 5 → befuddled (？), show toast, retry same lesson
+   - Otherwise → wrong (✕), load new lesson

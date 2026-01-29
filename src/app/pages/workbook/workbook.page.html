@@ -11,9 +11,9 @@
     </ion-button>
   </div>
 
-  <ion-button class="check-btn" (click)="onCheck()" [disabled]="isChecking">
+  <ion-button class="check-btn" color="primary" (click)="onCheck()" [disabled]="isChecking">
     <ion-spinner *ngIf="isChecking" name="crescent"></ion-spinner>
-    <span *ngIf="!isChecking">CHECK!</span>
+    <span *ngIf="!isChecking">{{ checkButtonText }}</span>
   </ion-button>
 
   <div class="results-overlay" *ngIf="showResults" (click)="dismissResults()">

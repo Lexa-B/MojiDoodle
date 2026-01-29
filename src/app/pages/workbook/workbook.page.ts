@@ -59,6 +59,16 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
     'バツ!',
   ];
 
+  private checkButtonLabels = [
+    'よし！',
+    '判定！',
+    'できた！',
+    'いざ！',
+    '確認',
+  ];
+
+  checkButtonText = '';
+
   constructor(
     private strokeRecognition: StrokeRecognitionService,
     private lessonsService: LessonsService
@@ -67,6 +77,7 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
   }
 
   ngOnInit() {
+    this.checkButtonText = this.randomFrom(this.checkButtonLabels);
     this.loadRandomLesson();
   }
 
