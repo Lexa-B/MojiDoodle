@@ -1,0 +1,64 @@
+.workbook-content {
+  --background: #000;
+}
+
+.prompt-bar {
+  display: flex;
+  align-items: center;
+  height: 48px;
+  background: #111;
+  padding: 0 8px;
+}
+
+.prompt-text {
+  flex: 1;
+  text-align: center;
+  font-size: 28px;
+  color: #fff;
+  margin-right: 40px; // offset for menu button
+}
+
+.canvas-wrapper {
+  position: absolute;
+  top: 48px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #000;
+}
+
+.drawing-canvas {
+  width: 100%;
+  height: 100%;
+  touch-action: none;
+  display: block;
+}
+
+.undo-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  --color: #666;
+  --padding-start: 8px;
+  --padding-end: 8px;
+  font-size: 24px;
+}
+
+.check-btn {
+  position: absolute;
+  bottom: 32px;
+  left: 50%;
+  transform: translateX(-50%);
+  --background: #222;
+  --background-hover: #333;
+  --color: #fff;
+  --border-radius: 32px;
+  --padding-start: 12vw;
+  --padding-end: 12vw;
+  --padding-top: 16px;
+  --padding-bottom: 16px;
+  min-height: 60px;
+  font-size: clamp(20px, 5vw, 28px);
+  font-weight: 600;
+  letter-spacing: 2px;
+}
