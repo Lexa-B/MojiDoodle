@@ -15,7 +15,8 @@ lessons:
     file: lesson_h_ka.yaml
     status: locked
     reset-by: hiragana
-    requires: []
+    requires:
+      - h_a
 
   - id: h_all
     name: "All Hiragana"
