@@ -1,0 +1,67 @@
+# SRS Timetable Reference
+# Stage 0 = 15 minutes, Stage 15 = 360 days
+# Soon-heavy distribution: more stages in early intervals
+
+- stage: 0
+  interval: 15m
+  minutes: 15
+
+- stage: 1
+  interval: 30m
+  minutes: 30
+
+- stage: 2
+  interval: 1h
+  minutes: 60
+
+- stage: 3
+  interval: 4h
+  minutes: 240
+
+- stage: 4
+  interval: 12h
+  minutes: 720
+
+- stage: 5
+  interval: 1d
+  minutes: 1440
+
+- stage: 6
+  interval: 2d
+  minutes: 2880
+
+- stage: 7
+  interval: 4d
+  minutes: 5760
+
+- stage: 8
+  interval: 1w
+  minutes: 10080
+
+- stage: 9
+  interval: 2w
+  minutes: 20160
+
+- stage: 10
+  interval: 1mo
+  minutes: 43200
+
+- stage: 11
+  interval: 2mo
+  minutes: 86400
+
+- stage: 12
+  interval: 3mo
+  minutes: 129600
+
+- stage: 13
+  interval: 5mo
+  minutes: 216000
+
+- stage: 14
+  interval: 8mo
+  minutes: 345600
+
+- stage: 15
+  interval: 12mo
+  minutes: 518400

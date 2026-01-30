@@ -35,47 +35,62 @@ ionic capacitor open ios       # Open in Xcode
 src/
 ├── app/
 │   ├── pages/
-│   │   ├── dashboard/           # Home page
+│   │   ├── dashboard/           # Home page with lesson selection
 │   │   ├── workbook/            # Drawing practice page
 │   │   └── settings/            # Reset progression, app settings
 │   ├── services/
-│   │   ├── cards.service.ts     # Card database (SQLite + IndexedDB)
-│   │   ├── lessons.service.ts   # Legacy, unused
+│   │   ├── cards.service.ts     # Card & lesson database (SQLite + IndexedDB)
 │   │   └── stroke-recognition.service.ts  # Google Input Tools API
 │   ├── app.component.ts         # Sidemenu config
 │   └── app-routing.module.ts    # Routes (default: /dashboard)
 ├── data/
-│   └── cards/                   # YAML card definitions (source of truth)
-│       ├── hiragana.yaml
-│       ├── katakana.yaml
-│       ├── kanji.yaml
-│       ├── katakana-words.yaml
-│       └── kanji-words.yaml
+│   ├── cards/                   # YAML card definitions
+│   │   ├── hiragana.yaml
+│   │   ├── katakana.yaml
+│   │   ├── kanji.yaml
+│   │   ├── katakana-words.yaml
+│   │   └── kanji-words.yaml
+│   ├── lessons/                 # YAML lesson definitions
+│   │   ├── lessons.yaml         # Lesson index with prerequisites
+│   │   ├── lesson_h_a.yaml      # Hiragana A row
+│   │   ├── lesson_h_all.yaml    # All hiragana
+│   │   └── lesson_k_all.yaml    # All katakana
+│   └── timetable.yaml           # SRS timing intervals
 └── theme/variables.scss         # Ionic theme colors
 
 extra-webpack.config.js          # Webpack fallbacks for sql.js
 ```
 
-### Cards Database
+### Database Architecture
 
 The app uses a hybrid YAML → SQLite architecture:
 
-**Source of truth**: Human-readable YAML files in `src/data/cards/`
+**Source of truth**: Human-readable YAML files in `src/data/`
 **Runtime**: SQLite database built on-device, persisted to IndexedDB
 
 **How it works:**
 1. First launch shows "ちょっと待ってください..." spinner
-2. Fetches YAML files, parses them, builds SQLite in-memory via sql.js
+2. Fetches YAML files (cards, lessons, timetable), parses them, builds SQLite in-memory via sql.js
 3. Saves compiled database to IndexedDB
 4. Subsequent launches load instantly from IndexedDB
 
-**To add/edit cards**: Edit the YAML files directly. Users will get updates on next fresh install or when `cardsService.rebuild()` is called.
+**To add/edit data**: Edit the YAML files directly. Users will get updates on next fresh install or when `cardsService.rebuild()` is called.
 
 **Cross-platform**: Works on desktop web, mobile web, Android, and iOS using the same sql.js + IndexedDB approach.
 
+**Database tables:**
+- `cards` - Character cards with stage and unlock time
+- `befuddlers` - Wrong answers with helpful toasts
+- `lessons` - Lesson definitions with status (locked/available/unlocked)
+- `lesson_cards` - Maps lessons to their cards
+- `lesson_requires` - Lesson prerequisites
+
 ### Pages
 
-- **Dashboard** (`/dashboard`) - Home page, currently minimal
+- **Dashboard** (`/dashboard`) - Home page with lesson selection:
+  - Shows available lessons as buttons ("I want to practice...")
+  - Unlocking a lesson sets its cards to stage 0 and navigates to workbook
+  - Completing prerequisites unlocks dependent lessons
 - **Workbook** (`/workbook`) - Drawing practice with:
   - Prompt bar showing current character (random unlocked card on load)
   - Full-screen black canvas (OLED-friendly)
@@ -89,10 +104,18 @@ The app uses a hybrid YAML → SQLite architecture:
 ### Services
 
 **CardsService** (`cards.service.ts`)
-- Loads card database from IndexedDB or builds from YAML on first run
+- Loads card/lesson database from IndexedDB or builds from YAML on first run
 - SQLite queries via sql.js (pure JS, works everywhere)
-- Methods: `getRandomUnlockedCard()`, `getCardByAnswer()`, `setCardStage()`, `resetCategory()`, etc.
 - Call `initialize()` before using (shows loading spinner if building)
+
+Card methods:
+- `getRandomUnlockedCard()`, `getCardByAnswer()`, `setCardStage()`, `resetCategory()`
+- `advanceCard(id)` - Increments stage and sets unlock time based on SRS timetable
+
+Lesson methods:
+- `getAvailableLessons()`, `getAllLessons()`, `unlockLesson(id)`
+- `isLessonCompleted(id)` - Checks if all cards have stage > 0
+- `updateLessonStatuses()` - Unlocks lessons whose prerequisites are complete
 
 **StrokeRecognitionService** (`stroke-recognition.service.ts`)
 - Uses Google Input Tools API for handwriting recognition
@@ -111,7 +134,7 @@ interface Card {
   answer: string;        // "あ"
   hint?: string;         // "3 strokes"
   strokeCount?: number;  // Expected stroke count for feedback
-  stage: number;         // -1 = unavailable, 0+ = unlocked
+  stage: number;         // -1 = unavailable, 0 = unlocked, 1-15 = SRS stages
   unlocks: string;       // ISO timestamp when card becomes available
   category: string;      // "hiragana", "katakana", etc.
   befuddlers: Befuddler[];
@@ -122,8 +145,39 @@ interface Befuddler {
   toast: string;         // "That's katakana!\n..." (no spoilers)
 }
 
+interface Lesson {
+  id: string;            // "h_a", "h_all", "k_all"
+  name: string;          // "Hiragana あ行"
+  file: string;          // "lesson_h_a.yaml"
+  status: 'locked' | 'available' | 'unlocked';
+  requires: string[];    // Prerequisite lesson IDs
+}
+
 interface Point { x: number; y: number; t: number; }  // t = timestamp relative to draw start
 ```
+
+### SRS Timetable
+
+Defined in `src/data/timetable.yaml`. When a card is answered correctly, it advances to the next stage with increasing review intervals:
+
+| Stage | Interval |
+|-------|----------|
+| 0 | 15 min |
+| 1 | 30 min |
+| 2 | 1 hour |
+| 3 | 4 hours |
+| 4 | 12 hours |
+| 5 | 1 day |
+| 6 | 2 days |
+| 7 | 4 days |
+| 8 | 1 week |
+| 9 | 2 weeks |
+| 10 | 1 month |
+| 11 | 2 months |
+| 12 | 3 months |
+| 13 | 5 months |
+| 14 | 8 months |
+| 15 | 12 months |
 
 ### YAML Card Format
 
@@ -133,11 +187,44 @@ interface Point { x: number; y: number; t: number; }  // t = timestamp relative 
   answer: "あ"
   hint: "3 strokes"
   strokeCount: 3
-  stage: 0
+  stage: -1                              # -1 = locked until lesson unlocked
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
     - answer: "ア"
       toast: "That's katakana!\nThe prompt asks for hiragana, which is curvy."
+```
+
+### YAML Lesson Format
+
+**lessons.yaml** (index):
+```yaml
+lessons:
+  - id: h_a
+    name: "Hiragana あ行"
+    file: lesson_h_a.yaml
+    status: available
+    requires: []
+
+  - id: h_all
+    name: "All Hiragana"
+    file: lesson_h_all.yaml
+    status: locked
+    requires:
+      - h_a
+```
+
+**lesson_h_a.yaml** (individual lesson):
+```yaml
+id: h_a
+name: "Hiragana あ行"
+requires: []
+
+ids:
+  - h-a
+  - h-i
+  - h-u
+  - h-e
+  - h-o
 ```
 
 ### Workbook Drawing System
@@ -163,6 +250,6 @@ interface Point { x: number; y: number; t: number; }  // t = timestamp relative 
 4. POST to Google Input Tools API
 5. Response parsed → returns array of `{character, score}` candidates
 6. Result logic:
-   - If answer in top 5 → correct (◯), load new card
+   - If answer in top 5 → correct (◯), advance card via SRS, check for lesson unlocks, load new card
    - If befuddler in top 5 → befuddled (？), show toast, retry same card
    - Otherwise → wrong (✕), load new card

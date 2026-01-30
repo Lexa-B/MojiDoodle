@@ -42,6 +42,16 @@
                 "output": "data/cards"
               },
               {
+                "glob": "*.yaml",
+                "input": "src/data/lessons",
+                "output": "data/lessons"
+              },
+              {
+                "glob": "timetable.yaml",
+                "input": "src/data",
+                "output": "data"
+              },
+              {
                 "glob": "sql-wasm.wasm",
                 "input": "node_modules/sql.js/dist",
                 "output": "/"

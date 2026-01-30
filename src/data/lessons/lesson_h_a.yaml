@@ -1,0 +1,13 @@
+# Hiragana A Row (あ行)
+# The vowels: A, I, U, E, O
+
+id: h_a
+name: "Hiragana あ行"
+requires: []
+
+ids:
+  - h-a
+  - h-i
+  - h-u
+  - h-e
+  - h-o

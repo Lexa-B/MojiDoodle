@@ -401,6 +401,8 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
         this.resultFeedback = this.randomFrom(this.correctFeedback);
         // Only show matches up to and including the correct answer
         this.displayMatches = this.topMatches.slice(0, targetIndex + 1);
+        // Advance card to next SRS stage
+        this.cardsService.advanceCard(this.currentCard.id);
       } else {
         // Answer not in top 5 - check for befuddlers
         const befuddler = this.currentCard.befuddlers.find(b =>

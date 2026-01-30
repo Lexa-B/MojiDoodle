@@ -19,6 +19,15 @@ export interface Card {
   befuddlers: Befuddler[];
 }
 
+export interface Lesson {
+  id: string;
+  name: string;
+  file: string;
+  status: 'locked' | 'available' | 'unlocked';
+  requires: string[];
+  ids?: string[];
+}
+
 const DB_NAME = 'mojidoodle-cards';
 const DB_VERSION = 1;
 
@@ -34,6 +43,7 @@ function getBaseUrl(): string {
 export class CardsService {
   private db: Database | null = null;
   private initPromise: Promise<void> | null = null;
+  private timetable: Map<number, number> = new Map(); // stage -> minutes
 
   constructor(private loadingCtrl: LoadingController) {}
 
@@ -50,6 +60,9 @@ export class CardsService {
     const SQL = await initSqlJs({
       locateFile: (file: string) => `${baseUrl}${file}`
     });
+
+    // Load timetable
+    await this.loadTimetable();
 
     // Try to load from IndexedDB
     const stored = await this.loadFromStorage();
@@ -77,6 +90,38 @@ export class CardsService {
     }
   }
 
+  private async loadTimetable(): Promise<void> {
+    try {
+      const response = await fetch(`${getBaseUrl()}data/timetable.yaml`);
+      if (!response.ok) return;
+
+      const yaml = await response.text();
+      const lines = yaml.split('\n');
+      let currentStage: number | null = null;
+
+      for (const line of lines) {
+        const trimmed = line.trim();
+        if (!trimmed || trimmed.startsWith('#')) continue;
+
+        const stageMatch = trimmed.match(/^-?\s*stage:\s*(\d+)/);
+        if (stageMatch) {
+          currentStage = parseInt(stageMatch[1], 10);
+          continue;
+        }
+
+        const minutesMatch = trimmed.match(/^minutes:\s*(\d+)/);
+        if (minutesMatch && currentStage !== null) {
+          this.timetable.set(currentStage, parseInt(minutesMatch[1], 10));
+          currentStage = null;
+        }
+      }
+
+      console.log(`Loaded ${this.timetable.size} timetable entries`);
+    } catch (err) {
+      console.warn('Failed to load timetable:', err);
+    }
+  }
+
   private async buildDatabase(): Promise<void> {
     if (!this.db) return;
 
@@ -101,10 +146,35 @@ export class CardsService {
         FOREIGN KEY (card_id) REFERENCES cards(id)
       );
 
+      CREATE TABLE lessons (
+        id TEXT PRIMARY KEY,
+        name TEXT NOT NULL,
+        status TEXT NOT NULL DEFAULT 'locked',
+        original_status TEXT NOT NULL DEFAULT 'locked',
+        reset_by TEXT
+      );
+
+      CREATE TABLE lesson_cards (
+        lesson_id TEXT NOT NULL,
+        card_id TEXT NOT NULL,
+        PRIMARY KEY (lesson_id, card_id),
+        FOREIGN KEY (lesson_id) REFERENCES lessons(id),
+        FOREIGN KEY (card_id) REFERENCES cards(id)
+      );
+
+      CREATE TABLE lesson_requires (
+        lesson_id TEXT NOT NULL,
+        required_lesson_id TEXT NOT NULL,
+        PRIMARY KEY (lesson_id, required_lesson_id),
+        FOREIGN KEY (lesson_id) REFERENCES lessons(id),
+        FOREIGN KEY (required_lesson_id) REFERENCES lessons(id)
+      );
+
       CREATE INDEX idx_cards_stage ON cards(stage);
       CREATE INDEX idx_cards_answer ON cards(answer);
       CREATE INDEX idx_cards_category ON cards(category);
       CREATE INDEX idx_befuddlers_card ON befuddlers(card_id);
+      CREATE INDEX idx_lesson_cards_lesson ON lesson_cards(lesson_id);
     `);
 
     // Fetch and parse all YAML files
@@ -141,6 +211,123 @@ export class CardsService {
         console.warn(`Failed to load ${category}:`, err);
       }
     }
+
+    // Load lessons
+    await this.buildLessons();
+  }
+
+  private async buildLessons(): Promise<void> {
+    if (!this.db) return;
+
+    try {
+      // Load lessons index
+      const indexResponse = await fetch(`${getBaseUrl()}data/lessons/lessons.yaml`);
+      if (!indexResponse.ok) return;
+
+      const indexYaml = await indexResponse.text();
+      const lessonEntries = this.parseLessonsIndex(indexYaml);
+
+      for (const entry of lessonEntries) {
+        // Insert lesson
+        this.db.run(
+          'INSERT INTO lessons (id, name, status, original_status, reset_by) VALUES (?, ?, ?, ?, ?)',
+          [entry.id, entry.name, entry.status, entry.status, entry.resetBy || null]
+        );
+
+        // Insert requires
+        for (const reqId of entry.requires) {
+          this.db.run(
+            'INSERT INTO lesson_requires (lesson_id, required_lesson_id) VALUES (?, ?)',
+            [entry.id, reqId]
+          );
+        }
+
+        // Load and insert card IDs from lesson file
+        const fileResponse = await fetch(`${getBaseUrl()}data/lessons/${entry.file}`);
+        if (!fileResponse.ok) continue;
+
+        const fileYaml = await fileResponse.text();
+        const cardIds = this.parseLessonCardIds(fileYaml);
+
+        for (const cardId of cardIds) {
+          this.db.run(
+            'INSERT OR IGNORE INTO lesson_cards (lesson_id, card_id) VALUES (?, ?)',
+            [entry.id, cardId]
+          );
+        }
+
+        console.log(`Loaded lesson ${entry.id} with ${cardIds.length} cards`);
+      }
+    } catch (err) {
+      console.warn('Failed to load lessons:', err);
+    }
+  }
+
+  private parseLessonsIndex(yaml: string): Array<{ id: string; name: string; file: string; status: string; resetBy: string; requires: string[] }> {
+    const lessons: Array<{ id: string; name: string; file: string; status: string; resetBy: string; requires: string[] }> = [];
+    let current: { id: string; name: string; file: string; status: string; resetBy: string; requires: string[] } | null = null;
+    let inRequires = false;
+
+    for (const line of yaml.split('\n')) {
+      const trimmed = line.trim();
+      if (!trimmed || trimmed.startsWith('#')) continue;
+
+      if (trimmed.startsWith('- id:')) {
+        if (current) lessons.push(current);
+        current = { id: '', name: '', file: '', status: 'locked', resetBy: '', requires: [] };
+        const match = trimmed.match(/^- id:\s*(.+)$/);
+        if (match) current.id = match[1];
+        inRequires = false;
+        continue;
+      }
+
+      if (!current) continue;
+
+      const propMatch = trimmed.match(/^([\w-]+):\s*(.*)$/);
+      if (propMatch) {
+        const [, key, value] = propMatch;
+        if (key === 'name') {
+          current.name = value.replace(/^["']|["']$/g, '');
+        } else if (key === 'file') {
+          current.file = value;
+        } else if (key === 'status') {
+          current.status = value;
+        } else if (key === 'reset-by') {
+          current.resetBy = value;
+        } else if (key === 'requires') {
+          inRequires = value !== '[]';
+          if (value === '[]') current.requires = [];
+        }
+        continue;
+      }
+
+      if (inRequires && trimmed.startsWith('- ')) {
+        current.requires.push(trimmed.slice(2).trim());
+      }
+    }
+
+    if (current) lessons.push(current);
+    return lessons;
+  }
+
+  private parseLessonCardIds(yaml: string): string[] {
+    const ids: string[] = [];
+    let inIds = false;
+
+    for (const line of yaml.split('\n')) {
+      const trimmed = line.trim();
+      if (trimmed === 'ids:') {
+        inIds = true;
+        continue;
+      }
+      if (inIds && trimmed.startsWith('- ')) {
+        ids.push(trimmed.slice(2).trim());
+      } else if (inIds && trimmed && !trimmed.startsWith('#') && !trimmed.startsWith('-')) {
+        inIds = false;
+      }
+    }
+
+    return ids;
   }
 
   private parseYaml(content: string): Partial<Card>[] {
@@ -381,10 +568,149 @@ export class CardsService {
     return this.attachBefuddlers(card);
   }
 
+  hasUnavailableCards(category: string): boolean {
+    const result = this.queryOne<{ count: number }>(
+      'SELECT COUNT(*) as count FROM cards WHERE category = ? AND stage = -1',
+      [category]
+    );
+    return (result?.count ?? 0) > 0;
+  }
+
+  unlockAllInCategory(category: string): void {
+    if (!this.db) return;
+    const now = new Date().toISOString();
+    this.db.run(
+      'UPDATE cards SET stage = 0, unlocks = ? WHERE category = ? AND stage = -1',
+      [now, category]
+    );
+    this.saveToStorage();
+  }
+
+  // Lessons API
+  getAvailableLessons(): Lesson[] {
+    const rows = this.queryAll<{ id: string; name: string; status: string }>(
+      'SELECT id, name, status FROM lessons WHERE status = ?',
+      ['available']
+    );
+    return rows.map(r => ({
+      id: r.id,
+      name: r.name,
+      file: '',
+      status: r.status as Lesson['status'],
+      requires: []
+    }));
+  }
+
+  getAllLessons(): Lesson[] {
+    const rows = this.queryAll<{ id: string; name: string; status: string }>(
+      'SELECT id, name, status FROM lessons'
+    );
+    return rows.map(r => ({
+      id: r.id,
+      name: r.name,
+      file: '',
+      status: r.status as Lesson['status'],
+      requires: []
+    }));
+  }
+
+  unlockLesson(lessonId: string): void {
+    if (!this.db) return;
+
+    // Check lesson exists and is available
+    const lesson = this.queryOne<{ status: string }>(
+      'SELECT status FROM lessons WHERE id = ?',
+      [lessonId]
+    );
+    if (!lesson || lesson.status !== 'available') return;
+
+    // Get card IDs for this lesson
+    const cardRows = this.queryAll<{ card_id: string }>(
+      'SELECT card_id FROM lesson_cards WHERE lesson_id = ?',
+      [lessonId]
+    );
+
+    // Unlock all cards in the lesson
+    const now = new Date().toISOString();
+    for (const row of cardRows) {
+      this.db.run(
+        'UPDATE cards SET stage = 0, unlocks = ? WHERE id = ? AND stage = -1',
+        [now, row.card_id]
+      );
+    }
+
+    // Mark lesson as unlocked
+    this.db.run(
+      'UPDATE lessons SET status = ? WHERE id = ?',
+      ['unlocked', lessonId]
+    );
+
+    this.saveToStorage();
+  }
+
+  // Check if a lesson is completed (all cards have stage > 0)
+  isLessonCompleted(lessonId: string): boolean {
+    const result = this.queryOne<{ incomplete: number }>(
+      `SELECT COUNT(*) as incomplete FROM lesson_cards lc
+       JOIN cards c ON lc.card_id = c.id
+       WHERE lc.lesson_id = ? AND c.stage <= 0`,
+      [lessonId]
+    );
+    return (result?.incomplete ?? 1) === 0;
+  }
+
+  // Update locked lessons to available if their prerequisites are met
+  updateLessonStatuses(): void {
+    if (!this.db) return;
+
+    // Get all locked lessons
+    const lockedLessons = this.queryAll<{ id: string }>(
+      'SELECT id FROM lessons WHERE status = ?',
+      ['locked']
+    );
+
+    for (const lesson of lockedLessons) {
+      // Get all required lessons for this lesson
+      const requires = this.queryAll<{ required_lesson_id: string }>(
+        'SELECT required_lesson_id FROM lesson_requires WHERE lesson_id = ?',
+        [lesson.id]
+      );
+
+      // Check if all required lessons are completed
+      const allCompleted = requires.every(req => this.isLessonCompleted(req.required_lesson_id));
+
+      if (allCompleted && requires.length > 0) {
+        this.db.run(
+          'UPDATE lessons SET status = ? WHERE id = ?',
+          ['available', lesson.id]
+        );
+        console.log(`Lesson ${lesson.id} is now available`);
+      }
+    }
+
+    this.saveToStorage();
+  }
+
   setCardStage(id: string, stage: number): void {
     if (!this.db) return;
     this.db.run('UPDATE cards SET stage = ? WHERE id = ?', [stage, id]);
     this.saveToStorage(); // Persist change
+  }
+
+  advanceCard(id: string): void {
+    if (!this.db) return;
+
+    const card = this.queryOne<{ stage: number }>('SELECT stage FROM cards WHERE id = ?', [id]);
+    if (!card) return;
+
+    const newStage = Math.min(card.stage + 1, 15); // Cap at stage 15
+    const minutes = this.timetable.get(newStage) ?? 15; // Default to 15 min if not found
+    const unlocks = new Date(Date.now() + minutes * 60 * 1000).toISOString();
+
+    this.db.run('UPDATE cards SET stage = ?, unlocks = ? WHERE id = ?', [newStage, unlocks, id]);
+
+    // Check if this unlocks any new lessons
+    this.updateLessonStatuses();
   }
 
   getStrokeCount(answer: string): number {
@@ -408,6 +734,12 @@ export class CardsService {
         const stage = card.stage ?? 0;
         this.db.run('UPDATE cards SET stage = ? WHERE id = ?', [stage, card.id]);
       }
+
+      // Reset lessons that belong to this category
+      this.db.run(
+        'UPDATE lessons SET status = original_status WHERE reset_by = ?',
+        [category]
+      );
 
       await this.saveToStorage();
     } catch (err) {

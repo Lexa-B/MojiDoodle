@@ -1,0 +1,14 @@
+# Hiragana か行
+# Complete hiragana set including dakuten and handakuten
+
+id: h_ka
+name: "Hiragana か行"
+requires:
+  - h_a
+
+ids:
+  - h-ka
+  - h-ki
+  - h-ku
+  - h-ke
+  - h-ko

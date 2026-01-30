@@ -13,4 +13,23 @@
       <ion-title size="large">dashboard</ion-title>
     </ion-toolbar>
   </ion-header>
+
+  <div class="practice-section">
+    <fieldset class="practice-box">
+      <legend>I want to practice...</legend>
+      <div class="practice-content">
+        <ng-container *ngIf="hasAnyToUnlock; else allDone">
+          <ion-button *ngFor="let lesson of availableLessons" expand="block" (click)="unlockLesson(lesson)">
+            {{ lesson.name }}
+          </ion-button>
+        </ng-container>
+        <ng-template #allDone>
+          <div class="all-done-message">
+            <p>よく頑張ったね!</p>
+            <p>You've learned everything you have available... for now!</p>
+          </div>
+        </ng-template>
+      </div>
+    </fieldset>
+  </div>
 </ion-content>
