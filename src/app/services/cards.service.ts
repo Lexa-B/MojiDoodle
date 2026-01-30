@@ -22,6 +22,12 @@ export interface Card {
 const DB_NAME = 'mojidoodle-cards';
 const DB_VERSION = 1;
 
+// Get base URL for asset paths (handles /MojiDoodle/ on GitHub Pages)
+function getBaseUrl(): string {
+  const base = document.baseURI || '/';
+  return base.endsWith('/') ? base : base + '/';
+}
+
 @Injectable({
   providedIn: 'root'
 })
@@ -40,8 +46,9 @@ export class CardsService {
   }
 
   private async doInitialize(): Promise<void> {
+    const baseUrl = getBaseUrl();
     const SQL = await initSqlJs({
-      locateFile: (file: string) => `/${file}`
+      locateFile: (file: string) => `${baseUrl}${file}`
     });
 
     // Try to load from IndexedDB
@@ -105,7 +112,7 @@ export class CardsService {
 
     for (const category of categories) {
       try {
-        const response = await fetch(`/data/cards/${category}.yaml`);
+        const response = await fetch(`${getBaseUrl()}data/cards/${category}.yaml`);
         if (!response.ok) continue;
 
         const yaml = await response.text();
