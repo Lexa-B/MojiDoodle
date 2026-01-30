@@ -4,7 +4,7 @@ import { CommonModule } from '@angular/common';
 import { addIcons } from 'ionicons';
 import { backspace } from 'ionicons/icons';
 import { StrokeRecognitionService } from '../../services/stroke-recognition.service';
-import { LessonsService, Lesson } from '../../services/lessons.service';
+import { CardsService, Card } from '../../services/cards.service';
 
 interface Point {
   x: number;
@@ -28,8 +28,8 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
   private currentStroke: Point[] = [];
   private drawStartTime = 0; // timestamp when drawing started
 
-  // Current lesson
-  currentLesson: Lesson | undefined;
+  // Current card
+  currentCard: Card | undefined;
   currentCharacter = '';
   promptText = '';
 
@@ -83,21 +83,22 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
 
   constructor(
     private strokeRecognition: StrokeRecognitionService,
-    private lessonsService: LessonsService
+    private cardsService: CardsService
   ) {
     addIcons({ backspace });
   }
 
-  ngOnInit() {
+  async ngOnInit() {
     this.checkButtonText = this.randomFrom(this.checkButtonLabels);
-    this.loadRandomLesson();
+    await this.cardsService.initialize();
+    this.loadRandomCard();
   }
 
-  private loadRandomLesson() {
-    this.currentLesson = this.lessonsService.getRandomUnlockedLesson();
-    if (this.currentLesson) {
-      this.currentCharacter = this.currentLesson.answer;
-      this.promptText = this.currentLesson.prompt;
+  private loadRandomCard() {
+    this.currentCard = this.cardsService.getRandomUnlockedCard();
+    if (this.currentCard) {
+      this.currentCharacter = this.currentCard.answer;
+      this.promptText = this.currentCard.prompt;
     }
   }
 
@@ -371,7 +372,7 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
   }
 
   async onCheck() {
-    if (this.strokes.length === 0 || !this.currentLesson) return;
+    if (this.strokes.length === 0 || !this.currentCard) return;
 
     this.isChecking = true;
 
@@ -397,7 +398,7 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
         this.displayMatches = this.topMatches.slice(0, targetIndex + 1);
       } else {
         // Answer not in top 5 - check for befuddlers
-        const befuddler = this.currentLesson.befuddlers.find(b =>
+        const befuddler = this.currentCard.befuddlers.find(b =>
           top5Characters.includes(b.answer)
         );
 
@@ -440,7 +441,7 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
 
     // Load new lesson if correct or wrong, keep same if befuddled
     if (this.resultStatus === 'correct' || this.resultStatus === 'wrong') {
-      this.loadRandomLesson();
+      this.loadRandomCard();
     }
   }
 

@@ -3,5 +3,10 @@
   "integrations": {
     "capacitor": {}
   },
-  "type": "angular"
+  "type": "angular",
+  "servers": {
+    "dev": {
+      "command": "ng serve"
+    }
+  }
 }
