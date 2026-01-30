@@ -1,0 +1,33 @@
+# Lessons Index
+# Each lesson references a separate file with card IDs
+# reset-by: which category reset should reset this lesson
+
+lessons:
+  - id: h_a
+    name: "Hiragana あ行"
+    file: lesson_h_a.yaml
+    status: available
+    reset-by: hiragana
+    requires: []
+
+  - id: h_ka
+    name: "Hiragana か行"
+    file: lesson_h_ka.yaml
+    status: locked
+    reset-by: hiragana
+    requires: []
+
+  - id: h_all
+    name: "All Hiragana"
+    file: lesson_h_all.yaml
+    status: available
+    reset-by: hiragana
+    requires:
+      - h_a
+
+  - id: k_all
+    name: "All Katakana"
+    file: lesson_k_all.yaml
+    status: available
+    reset-by: katakana
+    requires: []

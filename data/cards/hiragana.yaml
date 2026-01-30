@@ -3,7 +3,7 @@
   answer: "あ"
   hint: "3 strokes"
   strokeCount: 3
-  stage: 0
+  stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
     - answer: "ア"
@@ -16,7 +16,7 @@
   answer: "い"
   hint: "2 strokes"
   strokeCount: 2
-  stage: 0
+  stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
     - answer: "イ"
@@ -29,7 +29,7 @@
   answer: "う"
   hint: "2 strokes"
   strokeCount: 2
-  stage: 0
+  stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
     - answer: "ウ"
@@ -40,7 +40,7 @@
   answer: "え"
   hint: "2 strokes"
   strokeCount: 2
-  stage: 0
+  stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
     - answer: "エ"
@@ -53,7 +53,7 @@
   answer: "お"
   hint: "3 strokes"
   strokeCount: 3
-  stage: 0
+  stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
     - answer: "オ"
@@ -66,7 +66,7 @@
   answer: "か"
   hint: "3 strokes"
   strokeCount: 3
-  stage: 0
+  stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
     - answer: "カ"
@@ -79,7 +79,7 @@
   answer: "き"
   hint: "4 strokes"
   strokeCount: 4
-  stage: 0
+  stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
     - answer: "キ"
@@ -94,7 +94,7 @@
   answer: "く"
   hint: "1 stroke"
   strokeCount: 1
-  stage: 0
+  stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
     - answer: "ク"
@@ -109,7 +109,7 @@
   answer: "け"
   hint: "3 strokes"
   strokeCount: 3
-  stage: 0
+  stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
     - answer: "ケ"
@@ -124,7 +124,7 @@
   answer: "こ"
   hint: "2 strokes"
   strokeCount: 2
-  stage: 0
+  stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
     - answer: "コ"
@@ -139,7 +139,7 @@
   answer: "さ"
   hint: "3 strokes"
   strokeCount: 3
-  stage: 0
+  stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
     - answer: "サ"
@@ -154,7 +154,7 @@
   answer: "し"
   hint: "1 stroke"
   strokeCount: 1
-  stage: 0
+  stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
     - answer: "シ"
@@ -169,7 +169,7 @@
   answer: "す"
   hint: "2 strokes"
   strokeCount: 2
-  stage: 0
+  stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
     - answer: "ス"
@@ -184,7 +184,7 @@
   answer: "せ"
   hint: "3 strokes"
   strokeCount: 3
-  stage: 0
+  stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
     - answer: "セ"
@@ -197,7 +197,7 @@
   answer: "そ"
   hint: "1 stroke"
   strokeCount: 1
-  stage: 0
+  stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
     - answer: "ソ"
@@ -212,7 +212,7 @@
   answer: "た"
   hint: "4 strokes"
   strokeCount: 4
-  stage: 0
+  stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
     - answer: "タ"
@@ -227,7 +227,7 @@
   answer: "ち"
   hint: "2 strokes"
   strokeCount: 2
-  stage: 0
+  stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
     - answer: "チ"
@@ -242,7 +242,7 @@
   answer: "つ"
   hint: "1 stroke"
   strokeCount: 1
-  stage: 0
+  stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
     - answer: "ツ"
@@ -257,7 +257,7 @@
   answer: "て"
   hint: "1 stroke"
   strokeCount: 1
-  stage: 0
+  stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
     - answer: "テ"
@@ -270,7 +270,7 @@
   answer: "と"
   hint: "2 strokes"
   strokeCount: 2
-  stage: 0
+  stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
     - answer: "ト"
@@ -283,7 +283,7 @@
   answer: "な"
   hint: "4 strokes"
   strokeCount: 4
-  stage: 0
+  stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
     - answer: "ナ"
@@ -296,7 +296,7 @@
   answer: "に"
   hint: "3 strokes"
   strokeCount: 3
-  stage: 0
+  stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
     - answer: "ニ"
@@ -309,7 +309,7 @@
   answer: "ぬ"
   hint: "2 strokes"
   strokeCount: 2
-  stage: 0
+  stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
     - answer: "ヌ"
@@ -322,7 +322,7 @@
   answer: "ね"
   hint: "2 strokes"
   strokeCount: 2
-  stage: 0
+  stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
     - answer: "ネ"
@@ -335,7 +335,7 @@
   answer: "の"
   hint: "1 stroke"
   strokeCount: 1
-  stage: 0
+  stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
     - answer: "ノ"
@@ -346,7 +346,7 @@
   answer: "は"
   hint: "3 strokes"
   strokeCount: 3
-  stage: 0
+  stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
     - answer: "ハ"
@@ -363,7 +363,7 @@
   answer: "ひ"
   hint: "1 stroke"
   strokeCount: 1
-  stage: 0
+  stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
     - answer: "ヒ"
@@ -378,7 +378,7 @@
   answer: "ふ"
   hint: "4 strokes"
   strokeCount: 4
-  stage: 0
+  stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
     - answer: "フ"
@@ -393,7 +393,7 @@
   answer: "へ"
   hint: "1 stroke"
   strokeCount: 1
-  stage: 0
+  stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
     - answer: "ヘ"
@@ -410,7 +410,7 @@
   answer: "ほ"
   hint: "4 strokes"
   strokeCount: 4
-  stage: 0
+  stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
     - answer: "ホ"
@@ -427,7 +427,7 @@
   answer: "ま"
   hint: "3 strokes"
   strokeCount: 3
-  stage: 0
+  stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
     - answer: "マ"
@@ -440,7 +440,7 @@
   answer: "み"
   hint: "2 strokes"
   strokeCount: 2
-  stage: 0
+  stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
     - answer: "ミ"
@@ -451,7 +451,7 @@
   answer: "む"
   hint: "3 strokes"
   strokeCount: 3
-  stage: 0
+  stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
     - answer: "ム"
@@ -464,7 +464,7 @@
   answer: "め"
   hint: "2 strokes"
   strokeCount: 2
-  stage: 0
+  stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
     - answer: "メ"
@@ -477,7 +477,7 @@
   answer: "も"
   hint: "3 strokes"
   strokeCount: 3
-  stage: 0
+  stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
     - answer: "モ"
@@ -490,7 +490,7 @@
   answer: "や"
   hint: "3 strokes"
   strokeCount: 3
-  stage: 0
+  stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
     - answer: "ヤ"
@@ -503,7 +503,7 @@
   answer: "ゆ"
   hint: "2 strokes"
   strokeCount: 2
-  stage: 0
+  stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
     - answer: "ユ"
@@ -514,7 +514,7 @@
   answer: "よ"
   hint: "2 strokes"
   strokeCount: 2
-  stage: 0
+  stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
     - answer: "ヨ"
@@ -527,7 +527,7 @@
   answer: "ら"
   hint: "2 strokes"
   strokeCount: 2
-  stage: 0
+  stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
     - answer: "ラ"
@@ -540,7 +540,7 @@
   answer: "り"
   hint: "2 strokes"
   strokeCount: 2
-  stage: 0
+  stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
     - answer: "リ"
@@ -553,7 +553,7 @@
   answer: "る"
   hint: "1 stroke"
   strokeCount: 1
-  stage: 0
+  stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
     - answer: "ル"
@@ -566,7 +566,7 @@
   answer: "れ"
   hint: "2 strokes"
   strokeCount: 2
-  stage: 0
+  stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
     - answer: "レ"
@@ -579,7 +579,7 @@
   answer: "ろ"
   hint: "1 stroke"
   strokeCount: 1
-  stage: 0
+  stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
     - answer: "ロ"
@@ -592,7 +592,7 @@
   answer: "わ"
   hint: "2 strokes"
   strokeCount: 2
-  stage: 0
+  stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
     - answer: "ワ"
@@ -605,7 +605,7 @@
   answer: "を"
   hint: "3 strokes"
   strokeCount: 3
-  stage: 0
+  stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
     - answer: "ヲ"
@@ -616,7 +616,7 @@
   answer: "ん"
   hint: "1 stroke"
   strokeCount: 1
-  stage: 0
+  stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
     - answer: "ン"
@@ -629,7 +629,7 @@
   answer: "が"
   hint: "3 strokes + dakuten"
   strokeCount: 3
-  stage: 0
+  stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
     - answer: "ガ"
@@ -642,7 +642,7 @@
   answer: "ぎ"
   hint: "4 strokes + dakuten"
   strokeCount: 4
-  stage: 0
+  stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
     - answer: "ギ"
@@ -655,7 +655,7 @@
   answer: "ぐ"
   hint: "1 stroke + dakuten"
   strokeCount: 1
-  stage: 0
+  stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
     - answer: "グ"
@@ -668,7 +668,7 @@
   answer: "げ"
   hint: "3 strokes + dakuten"
   strokeCount: 3
-  stage: 0
+  stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
     - answer: "ゲ"
@@ -681,7 +681,7 @@
   answer: "ご"
   hint: "2 strokes + dakuten"
   strokeCount: 2
-  stage: 0
+  stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
     - answer: "ゴ"
@@ -694,7 +694,7 @@
   answer: "ざ"
   hint: "3 strokes + dakuten"
   strokeCount: 3
-  stage: 0
+  stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
     - answer: "ザ"
@@ -707,7 +707,7 @@
   answer: "じ"
   hint: "1 stroke + dakuten"
   strokeCount: 1
-  stage: 0
+  stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
     - answer: "ジ"
@@ -720,7 +720,7 @@
   answer: "ず"
   hint: "2 strokes + dakuten"
   strokeCount: 2
-  stage: 0
+  stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
     - answer: "ズ"
@@ -733,7 +733,7 @@
   answer: "ぜ"
   hint: "3 strokes + dakuten"
   strokeCount: 3
-  stage: 0
+  stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
     - answer: "ゼ"
@@ -746,7 +746,7 @@
   answer: "ぞ"
   hint: "1 stroke + dakuten"
   strokeCount: 1
-  stage: 0
+  stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
     - answer: "ゾ"
@@ -759,7 +759,7 @@
   answer: "だ"
   hint: "4 strokes + dakuten"
   strokeCount: 4
-  stage: 0
+  stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
     - answer: "ダ"
@@ -772,7 +772,7 @@
   answer: "ぢ"
   hint: "2 strokes + dakuten"
   strokeCount: 2
-  stage: 0
+  stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
     - answer: "ヂ"
@@ -787,7 +787,7 @@
   answer: "づ"
   hint: "1 stroke + dakuten"
   strokeCount: 1
-  stage: 0
+  stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
     - answer: "ヅ"
@@ -802,7 +802,7 @@
   answer: "で"
   hint: "1 stroke + dakuten"
   strokeCount: 1
-  stage: 0
+  stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
     - answer: "デ"
@@ -815,7 +815,7 @@
   answer: "ど"
   hint: "2 strokes + dakuten"
   strokeCount: 2
-  stage: 0
+  stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
     - answer: "ド"
@@ -828,7 +828,7 @@
   answer: "ば"
   hint: "3 strokes + dakuten"
   strokeCount: 3
-  stage: 0
+  stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
     - answer: "バ"
@@ -843,7 +843,7 @@
   answer: "び"
   hint: "1 stroke + dakuten"
   strokeCount: 1
-  stage: 0
+  stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
     - answer: "ビ"
@@ -858,7 +858,7 @@
   answer: "ぶ"
   hint: "4 strokes + dakuten"
   strokeCount: 4
-  stage: 0
+  stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
     - answer: "ブ"
@@ -873,7 +873,7 @@
   answer: "べ"
   hint: "1 stroke + dakuten"
   strokeCount: 1
-  stage: 0
+  stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
     - answer: "ベ"
@@ -888,7 +888,7 @@
   answer: "ぼ"
   hint: "4 strokes + dakuten"
   strokeCount: 4
-  stage: 0
+  stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
     - answer: "ボ"
@@ -903,7 +903,7 @@
   answer: "ぱ"
   hint: "3 strokes + handakuten"
   strokeCount: 3
-  stage: 0
+  stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
     - answer: "パ"
@@ -918,7 +918,7 @@
   answer: "ぴ"
   hint: "1 stroke + handakuten"
   strokeCount: 1
-  stage: 0
+  stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
     - answer: "ピ"
@@ -933,7 +933,7 @@
   answer: "ぷ"
   hint: "4 strokes + handakuten"
   strokeCount: 4
-  stage: 0
+  stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
     - answer: "プ"
@@ -948,7 +948,7 @@
   answer: "ぺ"
   hint: "1 stroke + handakuten"
   strokeCount: 1
-  stage: 0
+  stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
     - answer: "ペ"
@@ -963,7 +963,7 @@
   answer: "ぽ"
   hint: "4 strokes + handakuten"
   strokeCount: 4
-  stage: 0
+  stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
     - answer: "ポ"
