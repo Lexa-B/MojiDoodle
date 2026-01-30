@@ -14,6 +14,10 @@ const routes: Routes = [
   {
     path: 'workbook',
     loadChildren: () => import('./pages/workbook/workbook.module').then( m => m.WorkbookPageModule)
+  },
+  {
+    path: 'settings',
+    loadChildren: () => import('./pages/settings/settings.module').then( m => m.SettingsPageModule)
   }
 ];
 

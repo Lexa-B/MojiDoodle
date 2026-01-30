@@ -9,8 +9,8 @@ MojiDoodle is a Japanese character practice application (文字の練習) built 
 ## Commands
 
 ```bash
-ionic serve                    # Dev server at localhost:8100
-ionic build --prod             # Production build
+npm start                      # Dev server (ng serve with custom webpack)
+npm run build                  # Production build
 ng test                        # Unit tests
 ng lint                        # Linting
 npm run deploy                 # Build and deploy to GitHub Pages
@@ -26,43 +26,73 @@ ionic capacitor open ios       # Open in Xcode
 
 ## Architecture
 
-**Stack**: Ionic 8 / Angular 20 / Capacitor 8
+**Stack**: Ionic 8 / Angular 20 / Capacitor 8 / sql.js
 **App ID**: `com.lexab.mojidoodle`
 
 ### Key Paths
 
 ```
-src/app/
-├── pages/
-│   ├── dashboard/           # Home page
-│   └── workbook/            # Drawing practice page
-├── services/
-│   ├── lessons.service.ts   # Lesson database
-│   └── stroke-recognition.service.ts  # Google Input Tools API integration
-├── app.component.ts         # Sidemenu config (appPages array)
-├── app.component.html       # Sidemenu template
-└── app-routing.module.ts    # Routes (default: /dashboard)
+src/
+├── app/
+│   ├── pages/
+│   │   ├── dashboard/           # Home page
+│   │   ├── workbook/            # Drawing practice page
+│   │   └── settings/            # Reset progression, app settings
+│   ├── services/
+│   │   ├── cards.service.ts     # Card database (SQLite + IndexedDB)
+│   │   ├── lessons.service.ts   # Legacy, unused
+│   │   └── stroke-recognition.service.ts  # Google Input Tools API
+│   ├── app.component.ts         # Sidemenu config
+│   └── app-routing.module.ts    # Routes (default: /dashboard)
+├── data/
+│   └── cards/                   # YAML card definitions (source of truth)
+│       ├── hiragana.yaml
+│       ├── katakana.yaml
+│       ├── kanji.yaml
+│       ├── katakana-words.yaml
+│       └── kanji-words.yaml
+└── theme/variables.scss         # Ionic theme colors
 
-src/theme/variables.scss     # Ionic theme colors
+extra-webpack.config.js          # Webpack fallbacks for sql.js
 ```
+
+### Cards Database
+
+The app uses a hybrid YAML → SQLite architecture:
+
+**Source of truth**: Human-readable YAML files in `src/data/cards/`
+**Runtime**: SQLite database built on-device, persisted to IndexedDB
+
+**How it works:**
+1. First launch shows "ちょっと待ってください..." spinner
+2. Fetches YAML files, parses them, builds SQLite in-memory via sql.js
+3. Saves compiled database to IndexedDB
+4. Subsequent launches load instantly from IndexedDB
+
+**To add/edit cards**: Edit the YAML files directly. Users will get updates on next fresh install or when `cardsService.rebuild()` is called.
+
+**Cross-platform**: Works on desktop web, mobile web, Android, and iOS using the same sql.js + IndexedDB approach.
 
 ### Pages
 
 - **Dashboard** (`/dashboard`) - Home page, currently minimal
 - **Workbook** (`/workbook`) - Drawing practice with:
-  - Prompt bar showing current character (random unlocked lesson on load)
+  - Prompt bar showing current character (random unlocked card on load)
   - Full-screen black canvas (OLED-friendly)
   - Undo button (backspace icon)
   - CHECK! button for handwriting recognition
   - Results overlay: ◯ correct, ？ befuddled (try again), ✕ wrong
+  - "All caught up" message when no cards available
+- **Settings** (`/settings`) - App settings:
+  - Reset Progression: buttons to reset each category to original YAML values
 
 ### Services
 
-**LessonsService** (`lessons.service.ts`)
-- Lesson database with hiragana, katakana, kanji, and words
-- Each lesson has: `id`, `prompt`, `answer`, `hint`, `stage`, `befuddlers[]`
-- Befuddlers are common mistakes with toast explanations (don't reveal answer)
-- Stage -1 = not yet available
+**CardsService** (`cards.service.ts`)
+- Loads card database from IndexedDB or builds from YAML on first run
+- SQLite queries via sql.js (pure JS, works everywhere)
+- Methods: `getRandomUnlockedCard()`, `getCardByAnswer()`, `setCardStage()`, `resetCategory()`, etc.
+- Call `initialize()` before using (shows loading spinner if building)
 
 **StrokeRecognitionService** (`stroke-recognition.service.ts`)
 - Uses Google Input Tools API for handwriting recognition
@@ -75,14 +105,15 @@ src/theme/variables.scss     # Ionic theme colors
 ### Data Models
 
 ```typescript
-interface Lesson {
+interface Card {
   id: string;
   prompt: string;        // "A (Hiragana)"
   answer: string;        // "あ"
   hint?: string;         // "3 strokes"
   strokeCount?: number;  // Expected stroke count for feedback
   stage: number;         // -1 = unavailable, 0+ = unlocked
-  unlocks: string;       // ISO timestamp when lesson becomes available
+  unlocks: string;       // ISO timestamp when card becomes available
+  category: string;      // "hiragana", "katakana", etc.
   befuddlers: Befuddler[];
 }
 
@@ -92,6 +123,21 @@ interface Befuddler {
 }
 
 interface Point { x: number; y: number; t: number; }  // t = timestamp relative to draw start
+```
+
+### YAML Card Format
+
+```yaml
+- id: h-a
+  prompt: "A (Hiragana)"
+  answer: "あ"
+  hint: "3 strokes"
+  strokeCount: 3
+  stage: 0
+  unlocks: "2026-01-29T12:06:14+00:00"
+  befuddlers:
+    - answer: "ア"
+      toast: "That's katakana!\nThe prompt asks for hiragana, which is curvy."
 ```
 
 ### Workbook Drawing System
@@ -117,6 +163,6 @@ interface Point { x: number; y: number; t: number; }  // t = timestamp relative 
 4. POST to Google Input Tools API
 5. Response parsed → returns array of `{character, score}` candidates
 6. Result logic:
-   - If answer in top 5 → correct (◯), load new lesson
-   - If befuddler in top 5 → befuddled (？), show toast, retry same lesson
-   - Otherwise → wrong (✕), load new lesson
+   - If answer in top 5 → correct (◯), load new card
+   - If befuddler in top 5 → befuddled (？), show toast, retry same card
+   - Otherwise → wrong (✕), load new card

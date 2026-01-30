@@ -392,6 +392,29 @@ export class CardsService {
     return card?.stroke_count ?? 0;
   }
 
+  // Reset all cards in a category to their original YAML values
+  async resetCategory(category: string): Promise<void> {
+    if (!this.db) return;
+
+    try {
+      const response = await fetch(`${getBaseUrl()}data/cards/${category}.yaml`);
+      if (!response.ok) return;
+
+      const yaml = await response.text();
+      const cards = this.parseYaml(yaml);
+
+      for (const card of cards) {
+        if (!card.id) continue;
+        const stage = card.stage ?? 0;
+        this.db.run('UPDATE cards SET stage = ? WHERE id = ?', [stage, card.id]);
+      }
+
+      await this.saveToStorage();
+    } catch (err) {
+      console.error(`Failed to reset category ${category}:`, err);
+    }
+  }
+
   // Force rebuild (for updates)
   async rebuild(): Promise<void> {
     // Clear storage

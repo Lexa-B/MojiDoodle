@@ -5,13 +5,18 @@
   </div>
 
   <div class="canvas-wrapper">
-    <canvas #canvas class="drawing-canvas"></canvas>
-    <ion-button class="undo-btn" fill="clear" (click)="onUndo()">
+    <canvas #canvas class="drawing-canvas" *ngIf="!noCardsAvailable"></canvas>
+    <ion-button class="undo-btn" fill="clear" (click)="onUndo()" *ngIf="!noCardsAvailable">
       <ion-icon name="backspace"></ion-icon>
     </ion-button>
+
+    <div class="caught-up-box" *ngIf="noCardsAvailable">
+      <div class="caught-up-title">おめでとう🥳</div>
+      <div class="caught-up-message">You're all caught up. Come back again soon for more lessons!</div>
+    </div>
   </div>
 
-  <ion-button class="check-btn" color="primary" (click)="onCheck()" [disabled]="isChecking">
+  <ion-button class="check-btn" color="primary" (click)="onCheck()" [disabled]="isChecking" *ngIf="!noCardsAvailable">
     <ion-spinner *ngIf="isChecking" name="crescent"></ion-spinner>
     <span *ngIf="!isChecking">{{ checkButtonText }}</span>
   </ion-button>

@@ -32,6 +32,7 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
   currentCard: Card | undefined;
   currentCharacter = '';
   promptText = '';
+  noCardsAvailable = false;
 
   isChecking = false;
   showResults = false;
@@ -99,6 +100,10 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
     if (this.currentCard) {
       this.currentCharacter = this.currentCard.answer;
       this.promptText = this.currentCard.prompt;
+      this.noCardsAvailable = false;
+    } else {
+      this.noCardsAvailable = true;
+      this.promptText = '';
     }
   }
 

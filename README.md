@@ -13,6 +13,8 @@ Draw Japanese characters on a canvas and get instant feedback via handwriting re
 - Harai (払い) flicks on stroke endings
 - Instant recognition via Google Input Tools API
 - OLED-friendly dark canvas
+- Works offline after first load
+- Reset progression per category in Settings
 
 ## Try it
 
@@ -22,18 +24,28 @@ https://lexa-b.github.io/MojiDoodle/
 
 ```bash
 npm install
-ionic serve
+npm start
 ```
 
 ## Tech
 
 - Ionic 8 / Angular 20 / Capacitor 8
+- sql.js (SQLite in the browser)
 - Google Input Tools API (no key required)
 - Canvas 2D for brush rendering
+- IndexedDB for offline persistence
+
+## Card Database
+
+Cards are defined in human-readable YAML files (`src/data/cards/*.yaml`). On first launch, the app compiles these into a SQLite database stored in IndexedDB. This hybrid approach gives you:
+
+- **Dev-friendly**: Edit YAML files directly, easy to read and version control
+- **Production-ready**: Efficient SQLite queries, works offline
+- **Cross-platform**: Same code works on web, Android, and iOS
 
 ## TODO
 
-- [ ] More lessons (kanji, words)
+- [ ] More kanji and vocabulary
 - [ ] Progress tracking
 - [ ] Spaced repetition
 - [ ] Stroke order hints
