@@ -39,6 +39,7 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
   resultFeedback = '';
   strokeCountInfo = '';
   topMatches: { character: string; score: number }[] = [];
+  displayMatches: { character: string; score: number }[] = [];
 
   private correctFeedback = [
     '正解!',
@@ -60,21 +61,21 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
   ];
 
   private checkButtonLabels = [
-    'よし！',
-    '判定！',
-    'できた！',
-    'いざ！',
+    'よし!',
+    '判定!',
+    'できた!',
+    'いざ!',
     '確認',
   ];
 
   private dismissButtonLabels = [
-    '次！',
-    'つぎ！',
-    'よし！',
-    'オッケー！',
-    'はい！',
-    '了解！',
-    'いくぞ！',
+    '次!',
+    'つぎ!',
+    'よし!',
+    'オッケー!',
+    'はい!',
+    '了解!',
+    'いくぞ!',
   ];
 
   checkButtonText = '';
@@ -392,6 +393,8 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
       if (targetIndex >= 0 && targetIndex < 5) {
         this.resultStatus = 'correct';
         this.resultFeedback = this.randomFrom(this.correctFeedback);
+        // Only show matches up to and including the correct answer
+        this.displayMatches = this.topMatches.slice(0, targetIndex + 1);
       } else {
         // Answer not in top 5 - check for befuddlers
         const befuddler = this.currentLesson.befuddlers.find(b =>
@@ -401,9 +404,14 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
         if (befuddler) {
           this.resultStatus = 'befuddled';
           this.resultFeedback = befuddler.toast;
+          // Only show matches up to and including the befuddler
+          const befuddlerIndex = top5Characters.indexOf(befuddler.answer);
+          this.displayMatches = this.topMatches.slice(0, befuddlerIndex + 1);
         } else {
           this.resultStatus = 'wrong';
           this.resultFeedback = this.randomFrom(this.wrongFeedback);
+          // Show all matches for wrong answers
+          this.displayMatches = this.topMatches;
         }
       }
 
@@ -416,10 +424,12 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
       this.resultStatus = 'wrong';
       this.resultFeedback = error.message || 'Recognition failed. Please try on a device.';
       this.topMatches = [];
+      this.displayMatches = [];
       this.strokeCountInfo = '';
     }
 
     this.isChecking = false;
+    this.checkButtonText = this.randomFrom(this.checkButtonLabels);
     this.dismissButtonText = this.randomFrom(this.dismissButtonLabels);
     this.showResults = true;
   }

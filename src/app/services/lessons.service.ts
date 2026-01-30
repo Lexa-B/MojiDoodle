@@ -88,7 +88,7 @@ export class LessonsService {
     },
     {
       id: 'h-ka',
-      prompt: 'KA (Hiragana)',
+      prompt: 'Ka (Hiragana)',
       answer: 'か',
       hint: '3 strokes',
       strokeCount: 3,
@@ -101,7 +101,7 @@ export class LessonsService {
     },
     {
       id: 'h-ki',
-      prompt: 'KI (Hiragana)',
+      prompt: 'Ki (Hiragana)',
       answer: 'き',
       hint: '4 strokes',
       strokeCount: 4,
@@ -109,12 +109,13 @@ export class LessonsService {
       unlocks: '2026-01-29T12:06:14+00:00',
       befuddlers: [
         { answer: 'キ', toast: 'That\'s katakana!\nThe prompt asks for hiragana, which is curvy.' },
-        { answer: 'さ', toast: 'That\'s "SA"!\nThis one has a simpler top.' }
+        { answer: 'ぎ', toast: 'That\'s "Gi" with dakuten!\nThe prompt asks for "Ki" without the marks.' },
+        { answer: 'さ', toast: 'That\'s "Sa"!\nThis one has a simpler top.' }
       ]
     },
     {
       id: 'h-ku',
-      prompt: 'KU (Hiragana)',
+      prompt: 'Ku (Hiragana)',
       answer: 'く',
       hint: '1 stroke',
       strokeCount: 1,
@@ -122,12 +123,13 @@ export class LessonsService {
       unlocks: '2026-01-29T12:06:14+00:00',
       befuddlers: [
         { answer: 'ク', toast: 'That\'s katakana!\nThe prompt asks for hiragana, which is curvy.' },
-        { answer: 'へ', toast: 'That\'s "HE"!\nThis one is more horizontal.' }
+        { answer: 'ぐ', toast: 'That\'s "Gu" with dakuten!\nThe prompt asks for "Ku" without the marks.' },
+        { answer: 'へ', toast: 'That\'s "He"!\nThis one is more horizontal.' }
       ]
     },
     {
       id: 'h-ke',
-      prompt: 'KE (Hiragana)',
+      prompt: 'Ke (Hiragana)',
       answer: 'け',
       hint: '3 strokes',
       strokeCount: 3,
@@ -135,12 +137,13 @@ export class LessonsService {
       unlocks: '2026-01-29T12:06:14+00:00',
       befuddlers: [
         { answer: 'ケ', toast: 'That\'s katakana!\nThe prompt asks for hiragana, which is curvy.' },
-        { answer: 'は', toast: 'That\'s "HA"!\nThis one has a loop on the right.' }
+        { answer: 'げ', toast: 'That\'s "Ge" with dakuten!\nThe prompt asks for "Ke" without the marks.' },
+        { answer: 'は', toast: 'That\'s "Ha"!\nThis one has a loop on the right.' }
       ]
     },
     {
       id: 'h-ko',
-      prompt: 'KO (Hiragana)',
+      prompt: 'Ko (Hiragana)',
       answer: 'こ',
       hint: '2 strokes',
       strokeCount: 2,
@@ -148,12 +151,13 @@ export class LessonsService {
       unlocks: '2026-01-29T12:06:14+00:00',
       befuddlers: [
         { answer: 'コ', toast: 'That\'s katakana!\nThe prompt asks for hiragana, which is curvy.' },
-        { answer: 'に', toast: 'That\'s "NI"!\nThis one has a vertical stroke on the left.' }
+        { answer: 'ご', toast: 'That\'s "Go" with dakuten!\nThe prompt asks for "Ko" without the marks.' },
+        { answer: 'に', toast: 'That\'s "Ni"!\nThis one has a vertical stroke on the left.' }
       ]
     },
     {
       id: 'h-sa',
-      prompt: 'SA (Hiragana)',
+      prompt: 'Sa (Hiragana)',
       answer: 'さ',
       hint: '3 strokes',
       strokeCount: 3,
@@ -161,12 +165,13 @@ export class LessonsService {
       unlocks: '2026-01-29T12:06:14+00:00',
       befuddlers: [
         { answer: 'サ', toast: 'That\'s katakana!\nThe prompt asks for hiragana, which is curvy.' },
-        { answer: 'き', toast: 'That\'s "KI"!\nThis one has an extra horizontal stroke.' }
+        { answer: 'ざ', toast: 'That\'s "Za" with dakuten!\nThe prompt asks for "Sa" without the marks.' },
+        { answer: 'き', toast: 'That\'s "Ki"!\nThis one has an extra horizontal stroke.' }
       ]
     },
     {
       id: 'h-shi',
-      prompt: 'SHI (Hiragana)',
+      prompt: 'Shi (Hiragana)',
       answer: 'し',
       hint: '1 stroke',
       strokeCount: 1,
@@ -174,12 +179,13 @@ export class LessonsService {
       unlocks: '2026-01-29T12:06:14+00:00',
       befuddlers: [
         { answer: 'シ', toast: 'That\'s katakana!\nThe prompt asks for hiragana, which is curvy.' },
-        { answer: 'つ', toast: 'That\'s "TSU"!\nThis one curves horizontally.' }
+        { answer: 'じ', toast: 'That\'s "Ji" with dakuten!\nThe prompt asks for "Shi" without the marks.' },
+        { answer: 'つ', toast: 'That\'s "Tsu"!\nThis one curves horizontally.' }
       ]
     },
     {
       id: 'h-su',
-      prompt: 'SU (Hiragana)',
+      prompt: 'Su (Hiragana)',
       answer: 'す',
       hint: '2 strokes',
       strokeCount: 2,
@@ -187,24 +193,26 @@ export class LessonsService {
       unlocks: '2026-01-29T12:06:14+00:00',
       befuddlers: [
         { answer: 'ス', toast: 'That\'s katakana!\nThe prompt asks for hiragana, which is curvy.' },
-        { answer: 'む', toast: 'That\'s "MU"!\nThis one has a loop at the bottom.' }
+        { answer: 'ず', toast: 'That\'s "Zu" with dakuten!\nThe prompt asks for "Su" without the marks.' },
+        { answer: 'む', toast: 'That\'s "Mu"!\nThis one has a loop at the bottom.' }
       ]
     },
     {
       id: 'h-se',
-      prompt: 'SE (Hiragana)',
+      prompt: 'Se (Hiragana)',
       answer: 'せ',
       hint: '3 strokes',
       strokeCount: 3,
       stage: 0,
       unlocks: '2026-01-29T12:06:14+00:00',
       befuddlers: [
-        { answer: 'セ', toast: 'That\'s katakana!\nThe prompt asks for hiragana, which is curvy.' }
+        { answer: 'セ', toast: 'That\'s katakana!\nThe prompt asks for hiragana, which is curvy.' },
+        { answer: 'ぜ', toast: 'That\'s "Ze" with dakuten!\nThe prompt asks for "Se" without the marks.' }
       ]
     },
     {
       id: 'h-so',
-      prompt: 'SO (Hiragana)',
+      prompt: 'So (Hiragana)',
       answer: 'そ',
       hint: '1 stroke',
       strokeCount: 1,
@@ -212,12 +220,13 @@ export class LessonsService {
       unlocks: '2026-01-29T12:06:14+00:00',
       befuddlers: [
         { answer: 'ソ', toast: 'That\'s katakana!\nThe prompt asks for hiragana, which is curvy.' },
+        { answer: 'ぞ', toast: 'That\'s "Zo" with dakuten!\nThe prompt asks for "So" without the marks.' },
         { answer: 'ん', toast: 'That\'s "N"!\nThis one curves differently at the end.' }
       ]
     },
     {
       id: 'h-ta',
-      prompt: 'TA (Hiragana)',
+      prompt: 'Ta (Hiragana)',
       answer: 'た',
       hint: '4 strokes',
       strokeCount: 4,
@@ -225,12 +234,13 @@ export class LessonsService {
       unlocks: '2026-01-29T12:06:14+00:00',
       befuddlers: [
         { answer: 'タ', toast: 'That\'s katakana!\nThe prompt asks for hiragana, which is curvy.' },
-        { answer: 'な', toast: 'That\'s "NA"!\nThis one has a different right side.' }
+        { answer: 'だ', toast: 'That\'s "Da" with dakuten!\nThe prompt asks for "Ta" without the marks.' },
+        { answer: 'な', toast: 'That\'s "Na"!\nThis one has a different right side.' }
       ]
     },
     {
       id: 'h-chi',
-      prompt: 'CHI (Hiragana)',
+      prompt: 'Chi (Hiragana)',
       answer: 'ち',
       hint: '2 strokes',
       strokeCount: 2,
@@ -238,12 +248,13 @@ export class LessonsService {
       unlocks: '2026-01-29T12:06:14+00:00',
       befuddlers: [
         { answer: 'チ', toast: 'That\'s katakana!\nThe prompt asks for hiragana, which is curvy.' },
-        { answer: 'さ', toast: 'That\'s "SA"!\nThis one has a longer top.' }
+        { answer: 'ぢ', toast: 'That\'s "Di" with dakuten!\nThe prompt asks for "Chi" without the marks.' },
+        { answer: 'さ', toast: 'That\'s "Sa"!\nThis one has a longer top.' }
       ]
     },
     {
       id: 'h-tsu',
-      prompt: 'TSU (Hiragana)',
+      prompt: 'Tsu (Hiragana)',
       answer: 'つ',
       hint: '1 stroke',
       strokeCount: 1,
@@ -251,36 +262,39 @@ export class LessonsService {
       unlocks: '2026-01-29T12:06:14+00:00',
       befuddlers: [
         { answer: 'ツ', toast: 'That\'s katakana!\nThe prompt asks for hiragana, which is curvy.' },
-        { answer: 'し', toast: 'That\'s "SHI"!\nThis one curves vertically.' }
+        { answer: 'づ', toast: 'That\'s "Du" with dakuten!\nThe prompt asks for "Tsu" without the marks.' },
+        { answer: 'し', toast: 'That\'s "Shi"!\nThis one curves vertically.' }
       ]
     },
     {
       id: 'h-te',
-      prompt: 'TE (Hiragana)',
+      prompt: 'Te (Hiragana)',
       answer: 'て',
       hint: '1 stroke',
       strokeCount: 1,
       stage: 0,
       unlocks: '2026-01-29T12:06:14+00:00',
       befuddlers: [
-        { answer: 'テ', toast: 'That\'s katakana!\nThe prompt asks for hiragana, which is curvy.' }
+        { answer: 'テ', toast: 'That\'s katakana!\nThe prompt asks for hiragana, which is curvy.' },
+        { answer: 'で', toast: 'That\'s "De" with dakuten!\nThe prompt asks for "Te" without the marks.' }
       ]
     },
     {
       id: 'h-to',
-      prompt: 'TO (Hiragana)',
+      prompt: 'To (Hiragana)',
       answer: 'と',
       hint: '2 strokes',
       strokeCount: 2,
       stage: 0,
       unlocks: '2026-01-29T12:06:14+00:00',
       befuddlers: [
-        { answer: 'ト', toast: 'That\'s katakana!\nThe prompt asks for hiragana, which is curvy.' }
+        { answer: 'ト', toast: 'That\'s katakana!\nThe prompt asks for hiragana, which is curvy.' },
+        { answer: 'ど', toast: 'That\'s "Do" with dakuten!\nThe prompt asks for "To" without the marks.' }
       ]
     },
     {
       id: 'h-na',
-      prompt: 'NA (Hiragana)',
+      prompt: 'Na (Hiragana)',
       answer: 'な',
       hint: '4 strokes',
       strokeCount: 4,
@@ -293,7 +307,7 @@ export class LessonsService {
     },
     {
       id: 'h-ni',
-      prompt: 'NI (Hiragana)',
+      prompt: 'Ni (Hiragana)',
       answer: 'に',
       hint: '3 strokes',
       strokeCount: 3,
@@ -306,7 +320,7 @@ export class LessonsService {
     },
     {
       id: 'h-nu',
-      prompt: 'NU (Hiragana)',
+      prompt: 'Nu (Hiragana)',
       answer: 'ぬ',
       hint: '2 strokes',
       strokeCount: 2,
@@ -319,7 +333,7 @@ export class LessonsService {
     },
     {
       id: 'h-ne',
-      prompt: 'NE (Hiragana)',
+      prompt: 'Ne (Hiragana)',
       answer: 'ね',
       hint: '2 strokes',
       strokeCount: 2,
@@ -332,7 +346,7 @@ export class LessonsService {
     },
     {
       id: 'h-no',
-      prompt: 'NO (Hiragana)',
+      prompt: 'No (Hiragana)',
       answer: 'の',
       hint: '1 stroke',
       strokeCount: 1,
@@ -344,7 +358,7 @@ export class LessonsService {
     },
     {
       id: 'h-ha',
-      prompt: 'HA (Hiragana)',
+      prompt: 'Ha (Hiragana)',
       answer: 'は',
       hint: '3 strokes',
       strokeCount: 3,
@@ -352,36 +366,42 @@ export class LessonsService {
       unlocks: '2026-01-29T12:06:14+00:00',
       befuddlers: [
         { answer: 'ハ', toast: 'That\'s katakana!\nThe prompt asks for hiragana, which is curvy.' },
-        { answer: 'け', toast: 'That\'s "KE"!\nThis one has no loop on the right.' }
+        { answer: 'ば', toast: 'That\'s "Ba" with dakuten!\nThe prompt asks for "Ha" without the marks.' },
+        { answer: 'ぱ', toast: 'That\'s "Pa" with handakuten!\nThe prompt asks for "Ha" without the circle.' },
+        { answer: 'け', toast: 'That\'s "Ke"!\nThis one has no loop on the right.' }
       ]
     },
     {
       id: 'h-hi',
-      prompt: 'HI (Hiragana)',
+      prompt: 'Hi (Hiragana)',
       answer: 'ひ',
       hint: '1 stroke',
       strokeCount: 1,
       stage: 0,
       unlocks: '2026-01-29T12:06:14+00:00',
       befuddlers: [
-        { answer: 'ヒ', toast: 'That\'s katakana!\nThe prompt asks for hiragana, which is curvy.' }
+        { answer: 'ヒ', toast: 'That\'s katakana!\nThe prompt asks for hiragana, which is curvy.' },
+        { answer: 'び', toast: 'That\'s "Bi" with dakuten!\nThe prompt asks for "Hi" without the marks.' },
+        { answer: 'ぴ', toast: 'That\'s "Pi" with handakuten!\nThe prompt asks for "Hi" without the circle.' }
       ]
     },
     {
       id: 'h-fu',
-      prompt: 'FU (Hiragana)',
+      prompt: 'Fu (Hiragana)',
       answer: 'ふ',
       hint: '4 strokes',
       strokeCount: 4,
       stage: 0,
       unlocks: '2026-01-29T12:06:14+00:00',
       befuddlers: [
-        { answer: 'フ', toast: 'That\'s katakana!\nThe prompt asks for hiragana, which is curvy.' }
+        { answer: 'フ', toast: 'That\'s katakana!\nThe prompt asks for hiragana, which is curvy.' },
+        { answer: 'ぶ', toast: 'That\'s "Bu" with dakuten!\nThe prompt asks for "Fu" without the marks.' },
+        { answer: 'ぷ', toast: 'That\'s "Pu" with handakuten!\nThe prompt asks for "Fu" without the circle.' }
       ]
     },
     {
       id: 'h-he',
-      prompt: 'HE (Hiragana)',
+      prompt: 'He (Hiragana)',
       answer: 'へ',
       hint: '1 stroke',
       strokeCount: 1,
@@ -389,12 +409,14 @@ export class LessonsService {
       unlocks: '2026-01-29T12:06:14+00:00',
       befuddlers: [
         { answer: 'ヘ', toast: 'That\'s katakana!\nActually they look the same, but context matters!' },
-        { answer: 'く', toast: 'That\'s "KU"!\nThis one is more angled.' }
+        { answer: 'べ', toast: 'That\'s "Be" with dakuten!\nThe prompt asks for "He" without the marks.' },
+        { answer: 'ぺ', toast: 'That\'s "Pe" with handakuten!\nThe prompt asks for "He" without the circle.' },
+        { answer: 'く', toast: 'That\'s "Ku"!\nThis one is more angled.' }
       ]
     },
     {
       id: 'h-ho',
-      prompt: 'HO (Hiragana)',
+      prompt: 'Ho (Hiragana)',
       answer: 'ほ',
       hint: '4 strokes',
       strokeCount: 4,
@@ -402,12 +424,14 @@ export class LessonsService {
       unlocks: '2026-01-29T12:06:14+00:00',
       befuddlers: [
         { answer: 'ホ', toast: 'That\'s katakana!\nThe prompt asks for hiragana, which is curvy.' },
-        { answer: 'は', toast: 'That\'s "HA"!\nThis one has no extra horizontal stroke.' }
+        { answer: 'ぼ', toast: 'That\'s "Bo" with dakuten!\nThe prompt asks for "Ho" without the marks.' },
+        { answer: 'ぽ', toast: 'That\'s "Po" with handakuten!\nThe prompt asks for "Ho" without the circle.' },
+        { answer: 'は', toast: 'That\'s "Ha"!\nThis one has no extra horizontal stroke.' }
       ]
     },
     {
       id: 'h-ma',
-      prompt: 'MA (Hiragana)',
+      prompt: 'Ma (Hiragana)',
       answer: 'ま',
       hint: '3 strokes',
       strokeCount: 3,
@@ -420,7 +444,7 @@ export class LessonsService {
     },
     {
       id: 'h-mi',
-      prompt: 'MI (Hiragana)',
+      prompt: 'Mi (Hiragana)',
       answer: 'み',
       hint: '2 strokes',
       strokeCount: 2,
@@ -432,7 +456,7 @@ export class LessonsService {
     },
     {
       id: 'h-mu',
-      prompt: 'MU (Hiragana)',
+      prompt: 'Mu (Hiragana)',
       answer: 'む',
       hint: '3 strokes',
       strokeCount: 3,
@@ -445,7 +469,7 @@ export class LessonsService {
     },
     {
       id: 'h-me',
-      prompt: 'ME (Hiragana)',
+      prompt: 'Me (Hiragana)',
       answer: 'め',
       hint: '2 strokes',
       strokeCount: 2,
@@ -458,7 +482,7 @@ export class LessonsService {
     },
     {
       id: 'h-mo',
-      prompt: 'MO (Hiragana)',
+      prompt: 'Mo (Hiragana)',
       answer: 'も',
       hint: '3 strokes',
       strokeCount: 3,
@@ -471,7 +495,7 @@ export class LessonsService {
     },
     {
       id: 'h-ya',
-      prompt: 'YA (Hiragana)',
+      prompt: 'Ya (Hiragana)',
       answer: 'や',
       hint: '3 strokes',
       strokeCount: 3,
@@ -484,7 +508,7 @@ export class LessonsService {
     },
     {
       id: 'h-yu',
-      prompt: 'YU (Hiragana)',
+      prompt: 'Yu (Hiragana)',
       answer: 'ゆ',
       hint: '2 strokes',
       strokeCount: 2,
@@ -496,7 +520,7 @@ export class LessonsService {
     },
     {
       id: 'h-yo',
-      prompt: 'YO (Hiragana)',
+      prompt: 'Yo (Hiragana)',
       answer: 'よ',
       hint: '2 strokes',
       strokeCount: 2,
@@ -509,7 +533,7 @@ export class LessonsService {
     },
     {
       id: 'h-ra',
-      prompt: 'RA (Hiragana)',
+      prompt: 'Ra (Hiragana)',
       answer: 'ら',
       hint: '2 strokes',
       strokeCount: 2,
@@ -522,7 +546,7 @@ export class LessonsService {
     },
     {
       id: 'h-ri',
-      prompt: 'RI (Hiragana)',
+      prompt: 'Ri (Hiragana)',
       answer: 'り',
       hint: '2 strokes',
       strokeCount: 2,
@@ -535,7 +559,7 @@ export class LessonsService {
     },
     {
       id: 'h-ru',
-      prompt: 'RU (Hiragana)',
+      prompt: 'Ru (Hiragana)',
       answer: 'る',
       hint: '1 stroke',
       strokeCount: 1,
@@ -548,7 +572,7 @@ export class LessonsService {
     },
     {
       id: 'h-re',
-      prompt: 'RE (Hiragana)',
+      prompt: 'Re (Hiragana)',
       answer: 'れ',
       hint: '2 strokes',
       strokeCount: 2,
@@ -561,7 +585,7 @@ export class LessonsService {
     },
     {
       id: 'h-ro',
-      prompt: 'RO (Hiragana)',
+      prompt: 'Ro (Hiragana)',
       answer: 'ろ',
       hint: '1 stroke',
       strokeCount: 1,
@@ -574,7 +598,7 @@ export class LessonsService {
     },
     {
       id: 'h-wa',
-      prompt: 'WA (Hiragana)',
+      prompt: 'Wa (Hiragana)',
       answer: 'わ',
       hint: '2 strokes',
       strokeCount: 2,
@@ -587,7 +611,7 @@ export class LessonsService {
     },
     {
       id: 'h-wo',
-      prompt: 'WO (Hiragana)',
+      prompt: 'Wo (Hiragana)',
       answer: 'を',
       hint: '3 strokes',
       strokeCount: 3,
@@ -608,6 +632,343 @@ export class LessonsService {
       befuddlers: [
         { answer: 'ン', toast: 'That\'s katakana!\nThe prompt asks for hiragana, which is curvy.' },
         { answer: 'そ', toast: 'That\'s "SO"!\nThis one curves differently.' }
+      ]
+    },
+    {
+      id: 'h-ga',
+      prompt: 'Ga (Hiragana)',
+      answer: 'が',
+      hint: '3 strokes + dakuten',
+      strokeCount: 3,
+      stage: 0,
+      unlocks: '2026-01-29T12:06:14+00:00',
+      befuddlers: [
+        { answer: 'ガ', toast: 'That\'s katakana!\nThe prompt asks for hiragana, which is curvy.' },
+        { answer: 'か', toast: 'That\'s "Ka" without dakuten!\nAdd the two small marks (゛) for "Ga".' }
+      ]
+    },
+    {
+      id: 'h-gi',
+      prompt: 'Gi (Hiragana)',
+      answer: 'ぎ',
+      hint: '4 strokes + dakuten',
+      strokeCount: 4,
+      stage: 0,
+      unlocks: '2026-01-29T12:06:14+00:00',
+      befuddlers: [
+        { answer: 'ギ', toast: 'That\'s katakana!\nThe prompt asks for hiragana, which is curvy.' },
+        { answer: 'き', toast: 'That\'s "Ki" without dakuten!\nAdd the two small marks (゛) for "Gi".' }
+      ]
+    },
+    {
+      id: 'h-gu',
+      prompt: 'Gu (Hiragana)',
+      answer: 'ぐ',
+      hint: '1 stroke + dakuten',
+      strokeCount: 1,
+      stage: 0,
+      unlocks: '2026-01-29T12:06:14+00:00',
+      befuddlers: [
+        { answer: 'グ', toast: 'That\'s katakana!\nThe prompt asks for hiragana, which is curvy.' },
+        { answer: 'く', toast: 'That\'s "Ku" without dakuten!\nAdd the two small marks (゛) for "Gu".' }
+      ]
+    },
+    {
+      id: 'h-ge',
+      prompt: 'Ge (Hiragana)',
+      answer: 'げ',
+      hint: '3 strokes + dakuten',
+      strokeCount: 3,
+      stage: 0,
+      unlocks: '2026-01-29T12:06:14+00:00',
+      befuddlers: [
+        { answer: 'ゲ', toast: 'That\'s katakana!\nThe prompt asks for hiragana, which is curvy.' },
+        { answer: 'け', toast: 'That\'s "Ke" without dakuten!\nAdd the two small marks (゛) for "Ge".' }
+      ]
+    },
+    {
+      id: 'h-go',
+      prompt: 'Go (Hiragana)',
+      answer: 'ご',
+      hint: '2 strokes + dakuten',
+      strokeCount: 2,
+      stage: 0,
+      unlocks: '2026-01-29T12:06:14+00:00',
+      befuddlers: [
+        { answer: 'ゴ', toast: 'That\'s katakana!\nThe prompt asks for hiragana, which is curvy.' },
+        { answer: 'こ', toast: 'That\'s "Ko" without dakuten!\nAdd the two small marks (゛) for "Go".' }
+      ]
+    },
+    {
+      id: 'h-za',
+      prompt: 'Za (Hiragana)',
+      answer: 'ざ',
+      hint: '3 strokes + dakuten',
+      strokeCount: 3,
+      stage: 0,
+      unlocks: '2026-01-29T12:06:14+00:00',
+      befuddlers: [
+        { answer: 'ザ', toast: 'That\'s katakana!\nThe prompt asks for hiragana, which is curvy.' },
+        { answer: 'さ', toast: 'That\'s "Sa" without dakuten!\nAdd the two small marks (゛) for "Za".' }
+      ]
+    },
+    {
+      id: 'h-ji',
+      prompt: 'Ji (Hiragana)',
+      answer: 'じ',
+      hint: '1 stroke + dakuten',
+      strokeCount: 1,
+      stage: 0,
+      unlocks: '2026-01-29T12:06:14+00:00',
+      befuddlers: [
+        { answer: 'ジ', toast: 'That\'s katakana!\nThe prompt asks for hiragana, which is curvy.' },
+        { answer: 'し', toast: 'That\'s "Shi" without dakuten!\nAdd the two small marks (゛) for "Ji".' }
+      ]
+    },
+    {
+      id: 'h-zu',
+      prompt: 'Zu (Hiragana)',
+      answer: 'ず',
+      hint: '2 strokes + dakuten',
+      strokeCount: 2,
+      stage: 0,
+      unlocks: '2026-01-29T12:06:14+00:00',
+      befuddlers: [
+        { answer: 'ズ', toast: 'That\'s katakana!\nThe prompt asks for hiragana, which is curvy.' },
+        { answer: 'す', toast: 'That\'s "Su" without dakuten!\nAdd the two small marks (゛) for "Zu".' }
+      ]
+    },
+    {
+      id: 'h-ze',
+      prompt: 'Ze (Hiragana)',
+      answer: 'ぜ',
+      hint: '3 strokes + dakuten',
+      strokeCount: 3,
+      stage: 0,
+      unlocks: '2026-01-29T12:06:14+00:00',
+      befuddlers: [
+        { answer: 'ゼ', toast: 'That\'s katakana!\nThe prompt asks for hiragana, which is curvy.' },
+        { answer: 'せ', toast: 'That\'s "Se" without dakuten!\nAdd the two small marks (゛) for "Ze".' }
+      ]
+    },
+    {
+      id: 'h-zo',
+      prompt: 'Zo (Hiragana)',
+      answer: 'ぞ',
+      hint: '1 stroke + dakuten',
+      strokeCount: 1,
+      stage: 0,
+      unlocks: '2026-01-29T12:06:14+00:00',
+      befuddlers: [
+        { answer: 'ゾ', toast: 'That\'s katakana!\nThe prompt asks for hiragana, which is curvy.' },
+        { answer: 'そ', toast: 'That\'s "So" without dakuten!\nAdd the two small marks (゛) for "Zo".' }
+      ]
+    },
+    {
+      id: 'h-da',
+      prompt: 'Da (Hiragana)',
+      answer: 'だ',
+      hint: '4 strokes + dakuten',
+      strokeCount: 4,
+      stage: 0,
+      unlocks: '2026-01-29T12:06:14+00:00',
+      befuddlers: [
+        { answer: 'ダ', toast: 'That\'s katakana!\nThe prompt asks for hiragana, which is curvy.' },
+        { answer: 'た', toast: 'That\'s "Ta" without dakuten!\nAdd the two small marks (゛) for "Da".' }
+      ]
+    },
+    {
+      id: 'h-di',
+      prompt: 'Di (Hiragana)',
+      answer: 'ぢ',
+      hint: '2 strokes + dakuten',
+      strokeCount: 2,
+      stage: 0,
+      unlocks: '2026-01-29T12:06:14+00:00',
+      befuddlers: [
+        { answer: 'ヂ', toast: 'That\'s katakana!\nThe prompt asks for hiragana, which is curvy.' },
+        { answer: 'ち', toast: 'That\'s "Chi" without dakuten!\nAdd the two small marks (゛) for "Di".' },
+        { answer: 'じ', toast: 'That\'s "Ji" (from shi)!\nThis one comes from "Chi" instead.' }
+      ]
+    },
+    {
+      id: 'h-du',
+      prompt: 'Du (Hiragana)',
+      answer: 'づ',
+      hint: '1 stroke + dakuten',
+      strokeCount: 1,
+      stage: 0,
+      unlocks: '2026-01-29T12:06:14+00:00',
+      befuddlers: [
+        { answer: 'ヅ', toast: 'That\'s katakana!\nThe prompt asks for hiragana, which is curvy.' },
+        { answer: 'つ', toast: 'That\'s "Tsu" without dakuten!\nAdd the two small marks (゛) for "Du".' },
+        { answer: 'ず', toast: 'That\'s "Zu" (from su)!\nThis one comes from "Tsu" instead.' }
+      ]
+    },
+    {
+      id: 'h-de',
+      prompt: 'De (Hiragana)',
+      answer: 'で',
+      hint: '1 stroke + dakuten',
+      strokeCount: 1,
+      stage: 0,
+      unlocks: '2026-01-29T12:06:14+00:00',
+      befuddlers: [
+        { answer: 'デ', toast: 'That\'s katakana!\nThe prompt asks for hiragana, which is curvy.' },
+        { answer: 'て', toast: 'That\'s "Te" without dakuten!\nAdd the two small marks (゛) for "De".' }
+      ]
+    },
+    {
+      id: 'h-do',
+      prompt: 'Do (Hiragana)',
+      answer: 'ど',
+      hint: '2 strokes + dakuten',
+      strokeCount: 2,
+      stage: 0,
+      unlocks: '2026-01-29T12:06:14+00:00',
+      befuddlers: [
+        { answer: 'ド', toast: 'That\'s katakana!\nThe prompt asks for hiragana, which is curvy.' },
+        { answer: 'と', toast: 'That\'s "To" without dakuten!\nAdd the two small marks (゛) for "Do".' }
+      ]
+    },
+    {
+      id: 'h-ba',
+      prompt: 'Ba (Hiragana)',
+      answer: 'ば',
+      hint: '3 strokes + dakuten',
+      strokeCount: 3,
+      stage: 0,
+      unlocks: '2026-01-29T12:06:14+00:00',
+      befuddlers: [
+        { answer: 'バ', toast: 'That\'s katakana!\nThe prompt asks for hiragana, which is curvy.' },
+        { answer: 'は', toast: 'That\'s "Ha" without dakuten!\nAdd the two small marks (゛) for "Ba".' },
+        { answer: 'ぱ', toast: 'That\'s "Pa" with handakuten!\nUse two marks (゛) not a circle (゜).' }
+      ]
+    },
+    {
+      id: 'h-bi',
+      prompt: 'Bi (Hiragana)',
+      answer: 'び',
+      hint: '1 stroke + dakuten',
+      strokeCount: 1,
+      stage: 0,
+      unlocks: '2026-01-29T12:06:14+00:00',
+      befuddlers: [
+        { answer: 'ビ', toast: 'That\'s katakana!\nThe prompt asks for hiragana, which is curvy.' },
+        { answer: 'ひ', toast: 'That\'s "Hi" without dakuten!\nAdd the two small marks (゛) for "Bi".' },
+        { answer: 'ぴ', toast: 'That\'s "Pi" with handakuten!\nUse two marks (゛) not a circle (゜).' }
+      ]
+    },
+    {
+      id: 'h-bu',
+      prompt: 'Bu (Hiragana)',
+      answer: 'ぶ',
+      hint: '4 strokes + dakuten',
+      strokeCount: 4,
+      stage: 0,
+      unlocks: '2026-01-29T12:06:14+00:00',
+      befuddlers: [
+        { answer: 'ブ', toast: 'That\'s katakana!\nThe prompt asks for hiragana, which is curvy.' },
+        { answer: 'ふ', toast: 'That\'s "Fu" without dakuten!\nAdd the two small marks (゛) for "Bu".' },
+        { answer: 'ぷ', toast: 'That\'s "Pu" with handakuten!\nUse two marks (゛) not a circle (゜).' }
+      ]
+    },
+    {
+      id: 'h-be',
+      prompt: 'Be (Hiragana)',
+      answer: 'べ',
+      hint: '1 stroke + dakuten',
+      strokeCount: 1,
+      stage: 0,
+      unlocks: '2026-01-29T12:06:14+00:00',
+      befuddlers: [
+        { answer: 'ベ', toast: 'That\'s katakana!\nThe prompt asks for hiragana, which is curvy.' },
+        { answer: 'へ', toast: 'That\'s "He" without dakuten!\nAdd the two small marks (゛) for "Be".' },
+        { answer: 'ぺ', toast: 'That\'s "Pe" with handakuten!\nUse two marks (゛) not a circle (゜).' }
+      ]
+    },
+    {
+      id: 'h-bo',
+      prompt: 'Bo (Hiragana)',
+      answer: 'ぼ',
+      hint: '4 strokes + dakuten',
+      strokeCount: 4,
+      stage: 0,
+      unlocks: '2026-01-29T12:06:14+00:00',
+      befuddlers: [
+        { answer: 'ボ', toast: 'That\'s katakana!\nThe prompt asks for hiragana, which is curvy.' },
+        { answer: 'ほ', toast: 'That\'s "Ho" without dakuten!\nAdd the two small marks (゛) for "Bo".' },
+        { answer: 'ぽ', toast: 'That\'s "Po" with handakuten!\nUse two marks (゛) not a circle (゜).' }
+      ]
+    },
+    {
+      id: 'h-pa',
+      prompt: 'Pa (Hiragana)',
+      answer: 'ぱ',
+      hint: '3 strokes + handakuten',
+      strokeCount: 3,
+      stage: 0,
+      unlocks: '2026-01-29T12:06:14+00:00',
+      befuddlers: [
+        { answer: 'パ', toast: 'That\'s katakana!\nThe prompt asks for hiragana, which is curvy.' },
+        { answer: 'は', toast: 'That\'s "Ha" without handakuten!\nAdd the small circle (゜) for "Pa".' },
+        { answer: 'ば', toast: 'That\'s "Ba" with dakuten!\nUse a circle (゜) not two marks (゛).' }
+      ]
+    },
+    {
+      id: 'h-pi',
+      prompt: 'Pi (Hiragana)',
+      answer: 'ぴ',
+      hint: '1 stroke + handakuten',
+      strokeCount: 1,
+      stage: 0,
+      unlocks: '2026-01-29T12:06:14+00:00',
+      befuddlers: [
+        { answer: 'ピ', toast: 'That\'s katakana!\nThe prompt asks for hiragana, which is curvy.' },
+        { answer: 'ひ', toast: 'That\'s "Hi" without handakuten!\nAdd the small circle (゜) for "Pi".' },
+        { answer: 'び', toast: 'That\'s "Bi" with dakuten!\nUse a circle (゜) not two marks (゛).' }
+      ]
+    },
+    {
+      id: 'h-pu',
+      prompt: 'Pu (Hiragana)',
+      answer: 'ぷ',
+      hint: '4 strokes + handakuten',
+      strokeCount: 4,
+      stage: 0,
+      unlocks: '2026-01-29T12:06:14+00:00',
+      befuddlers: [
+        { answer: 'プ', toast: 'That\'s katakana!\nThe prompt asks for hiragana, which is curvy.' },
+        { answer: 'ふ', toast: 'That\'s "Fu" without handakuten!\nAdd the small circle (゜) for "Pu".' },
+        { answer: 'ぶ', toast: 'That\'s "Bu" with dakuten!\nUse a circle (゜) not two marks (゛).' }
+      ]
+    },
+    {
+      id: 'h-pe',
+      prompt: 'Pe (Hiragana)',
+      answer: 'ぺ',
+      hint: '1 stroke + handakuten',
+      strokeCount: 1,
+      stage: 0,
+      unlocks: '2026-01-29T12:06:14+00:00',
+      befuddlers: [
+        { answer: 'ペ', toast: 'That\'s katakana!\nThe prompt asks for hiragana, which is curvy.' },
+        { answer: 'へ', toast: 'That\'s "He" without handakuten!\nAdd the small circle (゜) for "Pe".' },
+        { answer: 'べ', toast: 'That\'s "Be" with dakuten!\nUse a circle (゜) not two marks (゛).' }
+      ]
+    },
+    {
+      id: 'h-po',
+      prompt: 'Po (Hiragana)',
+      answer: 'ぽ',
+      hint: '4 strokes + handakuten',
+      strokeCount: 4,
+      stage: 0,
+      unlocks: '2026-01-29T12:06:14+00:00',
+      befuddlers: [
+        { answer: 'ポ', toast: 'That\'s katakana!\nThe prompt asks for hiragana, which is curvy.' },
+        { answer: 'ほ', toast: 'That\'s "Ho" without handakuten!\nAdd the small circle (゜) for "Po".' },
+        { answer: 'ぼ', toast: 'That\'s "Bo" with dakuten!\nUse a circle (゜) not two marks (゛).' }
       ]
     },
 
@@ -677,7 +1038,7 @@ export class LessonsService {
     },
     {
       id: 'k-ka',
-      prompt: 'KA (Katakana)',
+      prompt: 'Ka (Katakana)',
       answer: 'カ',
       hint: '2 strokes, angular',
       strokeCount: 2,
@@ -690,19 +1051,20 @@ export class LessonsService {
     },
     {
       id: 'k-ki',
-      prompt: 'KI (Katakana)',
+      prompt: 'Ki (Katakana)',
       answer: 'キ',
       hint: '3 strokes',
       strokeCount: 3,
       stage: 0,
       unlocks: '2026-01-29T12:06:14+00:00',
       befuddlers: [
-        { answer: 'き', toast: 'That\'s hiragana!\nThe prompt asks for katakana, which is angular.' }
+        { answer: 'き', toast: 'That\'s hiragana!\nThe prompt asks for katakana, which is angular.' },
+        { answer: 'ギ', toast: 'That\'s "Gi" with dakuten!\nThe prompt asks for "Ki" without the marks.' }
       ]
     },
     {
       id: 'k-ku',
-      prompt: 'KU (Katakana)',
+      prompt: 'Ku (Katakana)',
       answer: 'ク',
       hint: '2 strokes',
       strokeCount: 2,
@@ -710,36 +1072,39 @@ export class LessonsService {
       unlocks: '2026-01-29T12:06:14+00:00',
       befuddlers: [
         { answer: 'く', toast: 'That\'s hiragana!\nThe prompt asks for katakana, which is angular.' },
-        { answer: 'タ', toast: 'That\'s "TA"!\nThis one has an extra stroke.' }
+        { answer: 'グ', toast: 'That\'s "Gu" with dakuten!\nThe prompt asks for "Ku" without the marks.' },
+        { answer: 'タ', toast: 'That\'s "Ta"!\nThis one has an extra stroke.' }
       ]
     },
     {
       id: 'k-ke',
-      prompt: 'KE (Katakana)',
+      prompt: 'Ke (Katakana)',
       answer: 'ケ',
       hint: '3 strokes',
       strokeCount: 3,
       stage: 0,
       unlocks: '2026-01-29T12:06:14+00:00',
       befuddlers: [
-        { answer: 'け', toast: 'That\'s hiragana!\nThe prompt asks for katakana, which is angular.' }
+        { answer: 'け', toast: 'That\'s hiragana!\nThe prompt asks for katakana, which is angular.' },
+        { answer: 'ゲ', toast: 'That\'s "Ge" with dakuten!\nThe prompt asks for "Ke" without the marks.' }
       ]
     },
     {
       id: 'k-ko',
-      prompt: 'KO (Katakana)',
+      prompt: 'Ko (Katakana)',
       answer: 'コ',
       hint: '2 strokes',
       strokeCount: 2,
       stage: 0,
       unlocks: '2026-01-29T12:06:14+00:00',
       befuddlers: [
-        { answer: 'こ', toast: 'That\'s hiragana!\nThe prompt asks for katakana, which is angular.' }
+        { answer: 'こ', toast: 'That\'s hiragana!\nThe prompt asks for katakana, which is angular.' },
+        { answer: 'ゴ', toast: 'That\'s "Go" with dakuten!\nThe prompt asks for "Ko" without the marks.' }
       ]
     },
     {
       id: 'k-sa',
-      prompt: 'SA (Katakana)',
+      prompt: 'Sa (Katakana)',
       answer: 'サ',
       hint: '3 strokes',
       strokeCount: 3,
@@ -747,12 +1112,13 @@ export class LessonsService {
       unlocks: '2026-01-29T12:06:14+00:00',
       befuddlers: [
         { answer: 'さ', toast: 'That\'s hiragana!\nThe prompt asks for katakana, which is angular.' },
-        { answer: 'セ', toast: 'That\'s "SE"!\nThis one has a different shape.' }
+        { answer: 'ザ', toast: 'That\'s "Za" with dakuten!\nThe prompt asks for "Sa" without the marks.' },
+        { answer: 'セ', toast: 'That\'s "Se"!\nThis one has a different shape.' }
       ]
     },
     {
       id: 'k-shi',
-      prompt: 'SHI (Katakana)',
+      prompt: 'Shi (Katakana)',
       answer: 'シ',
       hint: '3 strokes',
       strokeCount: 3,
@@ -760,24 +1126,26 @@ export class LessonsService {
       unlocks: '2026-01-29T12:06:14+00:00',
       befuddlers: [
         { answer: 'し', toast: 'That\'s hiragana!\nThe prompt asks for katakana, which is angular.' },
-        { answer: 'ツ', toast: 'That\'s "TSU"!\nThe strokes angle differently.' }
+        { answer: 'ジ', toast: 'That\'s "Ji" with dakuten!\nThe prompt asks for "Shi" without the marks.' },
+        { answer: 'ツ', toast: 'That\'s "Tsu"!\nThe strokes angle differently.' }
       ]
     },
     {
       id: 'k-su',
-      prompt: 'SU (Katakana)',
+      prompt: 'Su (Katakana)',
       answer: 'ス',
       hint: '2 strokes',
       strokeCount: 2,
       stage: 0,
       unlocks: '2026-01-29T12:06:14+00:00',
       befuddlers: [
-        { answer: 'す', toast: 'That\'s hiragana!\nThe prompt asks for katakana, which is angular.' }
+        { answer: 'す', toast: 'That\'s hiragana!\nThe prompt asks for katakana, which is angular.' },
+        { answer: 'ズ', toast: 'That\'s "Zu" with dakuten!\nThe prompt asks for "Su" without the marks.' }
       ]
     },
     {
       id: 'k-se',
-      prompt: 'SE (Katakana)',
+      prompt: 'Se (Katakana)',
       answer: 'セ',
       hint: '2 strokes',
       strokeCount: 2,
@@ -785,12 +1153,13 @@ export class LessonsService {
       unlocks: '2026-01-29T12:06:14+00:00',
       befuddlers: [
         { answer: 'せ', toast: 'That\'s hiragana!\nThe prompt asks for katakana, which is angular.' },
-        { answer: 'サ', toast: 'That\'s "SA"!\nThis one has a different shape.' }
+        { answer: 'ゼ', toast: 'That\'s "Ze" with dakuten!\nThe prompt asks for "Se" without the marks.' },
+        { answer: 'サ', toast: 'That\'s "Sa"!\nThis one has a different shape.' }
       ]
     },
     {
       id: 'k-so',
-      prompt: 'SO (Katakana)',
+      prompt: 'So (Katakana)',
       answer: 'ソ',
       hint: '2 strokes',
       strokeCount: 2,
@@ -798,12 +1167,13 @@ export class LessonsService {
       unlocks: '2026-01-29T12:06:14+00:00',
       befuddlers: [
         { answer: 'そ', toast: 'That\'s hiragana!\nThe prompt asks for katakana, which is angular.' },
+        { answer: 'ゾ', toast: 'That\'s "Zo" with dakuten!\nThe prompt asks for "So" without the marks.' },
         { answer: 'ン', toast: 'That\'s "N"!\nThe strokes angle differently.' }
       ]
     },
     {
       id: 'k-ta',
-      prompt: 'TA (Katakana)',
+      prompt: 'Ta (Katakana)',
       answer: 'タ',
       hint: '3 strokes',
       strokeCount: 3,
@@ -811,12 +1181,13 @@ export class LessonsService {
       unlocks: '2026-01-29T12:06:14+00:00',
       befuddlers: [
         { answer: 'た', toast: 'That\'s hiragana!\nThe prompt asks for katakana, which is angular.' },
-        { answer: 'ク', toast: 'That\'s "KU"!\nThis one has fewer strokes.' }
+        { answer: 'ダ', toast: 'That\'s "Da" with dakuten!\nThe prompt asks for "Ta" without the marks.' },
+        { answer: 'ク', toast: 'That\'s "Ku"!\nThis one has fewer strokes.' }
       ]
     },
     {
       id: 'k-chi',
-      prompt: 'CHI (Katakana)',
+      prompt: 'Chi (Katakana)',
       answer: 'チ',
       hint: '3 strokes',
       strokeCount: 3,
@@ -824,12 +1195,13 @@ export class LessonsService {
       unlocks: '2026-01-29T12:06:14+00:00',
       befuddlers: [
         { answer: 'ち', toast: 'That\'s hiragana!\nThe prompt asks for katakana, which is angular.' },
-        { answer: 'テ', toast: 'That\'s "TE"!\nThis one has a different bottom.' }
+        { answer: 'ヂ', toast: 'That\'s "Di" with dakuten!\nThe prompt asks for "Chi" without the marks.' },
+        { answer: 'テ', toast: 'That\'s "Te"!\nThis one has a different bottom.' }
       ]
     },
     {
       id: 'k-tsu',
-      prompt: 'TSU (Katakana)',
+      prompt: 'Tsu (Katakana)',
       answer: 'ツ',
       hint: '3 strokes',
       strokeCount: 3,
@@ -837,36 +1209,39 @@ export class LessonsService {
       unlocks: '2026-01-29T12:06:14+00:00',
       befuddlers: [
         { answer: 'つ', toast: 'That\'s hiragana!\nThe prompt asks for katakana, which is angular.' },
-        { answer: 'シ', toast: 'That\'s "SHI"!\nThe strokes angle differently.' }
+        { answer: 'ヅ', toast: 'That\'s "Du" with dakuten!\nThe prompt asks for "Tsu" without the marks.' },
+        { answer: 'シ', toast: 'That\'s "Shi"!\nThe strokes angle differently.' }
       ]
     },
     {
       id: 'k-te',
-      prompt: 'TE (Katakana)',
+      prompt: 'Te (Katakana)',
       answer: 'テ',
       hint: '3 strokes',
       strokeCount: 3,
       stage: 0,
       unlocks: '2026-01-29T12:06:14+00:00',
       befuddlers: [
-        { answer: 'て', toast: 'That\'s hiragana!\nThe prompt asks for katakana, which is angular.' }
+        { answer: 'て', toast: 'That\'s hiragana!\nThe prompt asks for katakana, which is angular.' },
+        { answer: 'デ', toast: 'That\'s "De" with dakuten!\nThe prompt asks for "Te" without the marks.' }
       ]
     },
     {
       id: 'k-to',
-      prompt: 'TO (Katakana)',
+      prompt: 'To (Katakana)',
       answer: 'ト',
       hint: '2 strokes',
       strokeCount: 2,
       stage: 0,
       unlocks: '2026-01-29T12:06:14+00:00',
       befuddlers: [
-        { answer: 'と', toast: 'That\'s hiragana!\nThe prompt asks for katakana, which is angular.' }
+        { answer: 'と', toast: 'That\'s hiragana!\nThe prompt asks for katakana, which is angular.' },
+        { answer: 'ド', toast: 'That\'s "Do" with dakuten!\nThe prompt asks for "To" without the marks.' }
       ]
     },
     {
       id: 'k-na',
-      prompt: 'NA (Katakana)',
+      prompt: 'Na (Katakana)',
       answer: 'ナ',
       hint: '2 strokes',
       strokeCount: 2,
@@ -879,7 +1254,7 @@ export class LessonsService {
     },
     {
       id: 'k-ni',
-      prompt: 'NI (Katakana)',
+      prompt: 'Ni (Katakana)',
       answer: 'ニ',
       hint: '2 strokes',
       strokeCount: 2,
@@ -891,7 +1266,7 @@ export class LessonsService {
     },
     {
       id: 'k-nu',
-      prompt: 'NU (Katakana)',
+      prompt: 'Nu (Katakana)',
       answer: 'ヌ',
       hint: '2 strokes',
       strokeCount: 2,
@@ -903,7 +1278,7 @@ export class LessonsService {
     },
     {
       id: 'k-ne',
-      prompt: 'NE (Katakana)',
+      prompt: 'Ne (Katakana)',
       answer: 'ネ',
       hint: '4 strokes',
       strokeCount: 4,
@@ -915,7 +1290,7 @@ export class LessonsService {
     },
     {
       id: 'k-no',
-      prompt: 'NO (Katakana)',
+      prompt: 'No (Katakana)',
       answer: 'ノ',
       hint: '1 stroke',
       strokeCount: 1,
@@ -927,55 +1302,63 @@ export class LessonsService {
     },
     {
       id: 'k-ha',
-      prompt: 'HA (Katakana)',
+      prompt: 'Ha (Katakana)',
       answer: 'ハ',
       hint: '2 strokes',
       strokeCount: 2,
       stage: 0,
       unlocks: '2026-01-29T12:06:14+00:00',
       befuddlers: [
-        { answer: 'は', toast: 'That\'s hiragana!\nThe prompt asks for katakana, which is angular.' }
+        { answer: 'は', toast: 'That\'s hiragana!\nThe prompt asks for katakana, which is angular.' },
+        { answer: 'バ', toast: 'That\'s "Ba" with dakuten!\nThe prompt asks for "Ha" without the marks.' },
+        { answer: 'パ', toast: 'That\'s "Pa" with handakuten!\nThe prompt asks for "Ha" without the circle.' }
       ]
     },
     {
       id: 'k-hi',
-      prompt: 'HI (Katakana)',
+      prompt: 'Hi (Katakana)',
       answer: 'ヒ',
       hint: '2 strokes',
       strokeCount: 2,
       stage: 0,
       unlocks: '2026-01-29T12:06:14+00:00',
       befuddlers: [
-        { answer: 'ひ', toast: 'That\'s hiragana!\nThe prompt asks for katakana, which is angular.' }
+        { answer: 'ひ', toast: 'That\'s hiragana!\nThe prompt asks for katakana, which is angular.' },
+        { answer: 'ビ', toast: 'That\'s "Bi" with dakuten!\nThe prompt asks for "Hi" without the marks.' },
+        { answer: 'ピ', toast: 'That\'s "Pi" with handakuten!\nThe prompt asks for "Hi" without the circle.' }
       ]
     },
     {
       id: 'k-fu',
-      prompt: 'FU (Katakana)',
+      prompt: 'Fu (Katakana)',
       answer: 'フ',
       hint: '1 stroke',
       strokeCount: 1,
       stage: 0,
       unlocks: '2026-01-29T12:06:14+00:00',
       befuddlers: [
-        { answer: 'ふ', toast: 'That\'s hiragana!\nThe prompt asks for katakana, which is angular.' }
+        { answer: 'ふ', toast: 'That\'s hiragana!\nThe prompt asks for katakana, which is angular.' },
+        { answer: 'ブ', toast: 'That\'s "Bu" with dakuten!\nThe prompt asks for "Fu" without the marks.' },
+        { answer: 'プ', toast: 'That\'s "Pu" with handakuten!\nThe prompt asks for "Fu" without the circle.' }
       ]
     },
     {
       id: 'k-he',
-      prompt: 'HE (Katakana)',
+      prompt: 'He (Katakana)',
       answer: 'ヘ',
       hint: '1 stroke',
       strokeCount: 1,
       stage: 0,
       unlocks: '2026-01-29T12:06:14+00:00',
       befuddlers: [
-        { answer: 'へ', toast: 'That\'s hiragana!\nActually they look the same, but context matters!' }
+        { answer: 'へ', toast: 'That\'s hiragana!\nActually they look the same, but context matters!' },
+        { answer: 'ベ', toast: 'That\'s "Be" with dakuten!\nThe prompt asks for "He" without the marks.' },
+        { answer: 'ペ', toast: 'That\'s "Pe" with handakuten!\nThe prompt asks for "He" without the circle.' }
       ]
     },
     {
       id: 'k-ho',
-      prompt: 'HO (Katakana)',
+      prompt: 'Ho (Katakana)',
       answer: 'ホ',
       hint: '4 strokes',
       strokeCount: 4,
@@ -983,12 +1366,14 @@ export class LessonsService {
       unlocks: '2026-01-29T12:06:14+00:00',
       befuddlers: [
         { answer: 'ほ', toast: 'That\'s hiragana!\nThe prompt asks for katakana, which is angular.' },
+        { answer: 'ボ', toast: 'That\'s "Bo" with dakuten!\nThe prompt asks for "Ho" without the marks.' },
+        { answer: 'ポ', toast: 'That\'s "Po" with handakuten!\nThe prompt asks for "Ho" without the circle.' },
         { answer: 'オ', toast: 'That\'s "O"!\nThis one has no middle vertical stroke.' }
       ]
     },
     {
       id: 'k-ma',
-      prompt: 'MA (Katakana)',
+      prompt: 'Ma (Katakana)',
       answer: 'マ',
       hint: '2 strokes',
       strokeCount: 2,
@@ -1001,7 +1386,7 @@ export class LessonsService {
     },
     {
       id: 'k-mi',
-      prompt: 'MI (Katakana)',
+      prompt: 'Mi (Katakana)',
       answer: 'ミ',
       hint: '3 strokes',
       strokeCount: 3,
@@ -1013,7 +1398,7 @@ export class LessonsService {
     },
     {
       id: 'k-mu',
-      prompt: 'MU (Katakana)',
+      prompt: 'Mu (Katakana)',
       answer: 'ム',
       hint: '2 strokes',
       strokeCount: 2,
@@ -1025,7 +1410,7 @@ export class LessonsService {
     },
     {
       id: 'k-me',
-      prompt: 'ME (Katakana)',
+      prompt: 'Me (Katakana)',
       answer: 'メ',
       hint: '2 strokes',
       strokeCount: 2,
@@ -1038,7 +1423,7 @@ export class LessonsService {
     },
     {
       id: 'k-mo',
-      prompt: 'MO (Katakana)',
+      prompt: 'Mo (Katakana)',
       answer: 'モ',
       hint: '3 strokes',
       strokeCount: 3,
@@ -1050,7 +1435,7 @@ export class LessonsService {
     },
     {
       id: 'k-ya',
-      prompt: 'YA (Katakana)',
+      prompt: 'Ya (Katakana)',
       answer: 'ヤ',
       hint: '2 strokes',
       strokeCount: 2,
@@ -1062,7 +1447,7 @@ export class LessonsService {
     },
     {
       id: 'k-yu',
-      prompt: 'YU (Katakana)',
+      prompt: 'Yu (Katakana)',
       answer: 'ユ',
       hint: '2 strokes',
       strokeCount: 2,
@@ -1074,7 +1459,7 @@ export class LessonsService {
     },
     {
       id: 'k-yo',
-      prompt: 'YO (Katakana)',
+      prompt: 'Yo (Katakana)',
       answer: 'ヨ',
       hint: '3 strokes',
       strokeCount: 3,
@@ -1086,7 +1471,7 @@ export class LessonsService {
     },
     {
       id: 'k-ra',
-      prompt: 'RA (Katakana)',
+      prompt: 'Ra (Katakana)',
       answer: 'ラ',
       hint: '2 strokes',
       strokeCount: 2,
@@ -1098,7 +1483,7 @@ export class LessonsService {
     },
     {
       id: 'k-ri',
-      prompt: 'RI (Katakana)',
+      prompt: 'Ri (Katakana)',
       answer: 'リ',
       hint: '2 strokes',
       strokeCount: 2,
@@ -1110,7 +1495,7 @@ export class LessonsService {
     },
     {
       id: 'k-ru',
-      prompt: 'RU (Katakana)',
+      prompt: 'Ru (Katakana)',
       answer: 'ル',
       hint: '2 strokes',
       strokeCount: 2,
@@ -1122,7 +1507,7 @@ export class LessonsService {
     },
     {
       id: 'k-re',
-      prompt: 'RE (Katakana)',
+      prompt: 'Re (Katakana)',
       answer: 'レ',
       hint: '1 stroke',
       strokeCount: 1,
@@ -1134,7 +1519,7 @@ export class LessonsService {
     },
     {
       id: 'k-ro',
-      prompt: 'RO (Katakana)',
+      prompt: 'Ro (Katakana)',
       answer: 'ロ',
       hint: '3 strokes',
       strokeCount: 3,
@@ -1146,7 +1531,7 @@ export class LessonsService {
     },
     {
       id: 'k-wa',
-      prompt: 'WA (Katakana)',
+      prompt: 'Wa (Katakana)',
       answer: 'ワ',
       hint: '2 strokes',
       strokeCount: 2,
@@ -1159,7 +1544,7 @@ export class LessonsService {
     },
     {
       id: 'k-wo',
-      prompt: 'WO (Katakana)',
+      prompt: 'Wo (Katakana)',
       answer: 'ヲ',
       hint: '3 strokes',
       strokeCount: 3,
@@ -1180,6 +1565,343 @@ export class LessonsService {
       befuddlers: [
         { answer: 'ん', toast: 'That\'s hiragana!\nThe prompt asks for katakana, which is angular.' },
         { answer: 'ソ', toast: 'That\'s "SO"!\nThe strokes angle differently.' }
+      ]
+    },
+    {
+      id: 'k-ga',
+      prompt: 'Ga (Katakana)',
+      answer: 'ガ',
+      hint: '2 strokes + dakuten',
+      strokeCount: 2,
+      stage: 0,
+      unlocks: '2026-01-29T12:06:14+00:00',
+      befuddlers: [
+        { answer: 'が', toast: 'That\'s hiragana!\nThe prompt asks for katakana, which is angular.' },
+        { answer: 'カ', toast: 'That\'s "Ka" without dakuten!\nAdd the two small marks (゛) for "Ga".' }
+      ]
+    },
+    {
+      id: 'k-gi',
+      prompt: 'Gi (Katakana)',
+      answer: 'ギ',
+      hint: '3 strokes + dakuten',
+      strokeCount: 3,
+      stage: 0,
+      unlocks: '2026-01-29T12:06:14+00:00',
+      befuddlers: [
+        { answer: 'ぎ', toast: 'That\'s hiragana!\nThe prompt asks for katakana, which is angular.' },
+        { answer: 'キ', toast: 'That\'s "Ki" without dakuten!\nAdd the two small marks (゛) for "Gi".' }
+      ]
+    },
+    {
+      id: 'k-gu',
+      prompt: 'Gu (Katakana)',
+      answer: 'グ',
+      hint: '2 strokes + dakuten',
+      strokeCount: 2,
+      stage: 0,
+      unlocks: '2026-01-29T12:06:14+00:00',
+      befuddlers: [
+        { answer: 'ぐ', toast: 'That\'s hiragana!\nThe prompt asks for katakana, which is angular.' },
+        { answer: 'ク', toast: 'That\'s "Ku" without dakuten!\nAdd the two small marks (゛) for "Gu".' }
+      ]
+    },
+    {
+      id: 'k-ge',
+      prompt: 'Ge (Katakana)',
+      answer: 'ゲ',
+      hint: '3 strokes + dakuten',
+      strokeCount: 3,
+      stage: 0,
+      unlocks: '2026-01-29T12:06:14+00:00',
+      befuddlers: [
+        { answer: 'げ', toast: 'That\'s hiragana!\nThe prompt asks for katakana, which is angular.' },
+        { answer: 'ケ', toast: 'That\'s "Ke" without dakuten!\nAdd the two small marks (゛) for "Ge".' }
+      ]
+    },
+    {
+      id: 'k-go',
+      prompt: 'Go (Katakana)',
+      answer: 'ゴ',
+      hint: '2 strokes + dakuten',
+      strokeCount: 2,
+      stage: 0,
+      unlocks: '2026-01-29T12:06:14+00:00',
+      befuddlers: [
+        { answer: 'ご', toast: 'That\'s hiragana!\nThe prompt asks for katakana, which is angular.' },
+        { answer: 'コ', toast: 'That\'s "Ko" without dakuten!\nAdd the two small marks (゛) for "Go".' }
+      ]
+    },
+    {
+      id: 'k-za',
+      prompt: 'Za (Katakana)',
+      answer: 'ザ',
+      hint: '3 strokes + dakuten',
+      strokeCount: 3,
+      stage: 0,
+      unlocks: '2026-01-29T12:06:14+00:00',
+      befuddlers: [
+        { answer: 'ざ', toast: 'That\'s hiragana!\nThe prompt asks for katakana, which is angular.' },
+        { answer: 'サ', toast: 'That\'s "Sa" without dakuten!\nAdd the two small marks (゛) for "Za".' }
+      ]
+    },
+    {
+      id: 'k-ji',
+      prompt: 'Ji (Katakana)',
+      answer: 'ジ',
+      hint: '3 strokes + dakuten',
+      strokeCount: 3,
+      stage: 0,
+      unlocks: '2026-01-29T12:06:14+00:00',
+      befuddlers: [
+        { answer: 'じ', toast: 'That\'s hiragana!\nThe prompt asks for katakana, which is angular.' },
+        { answer: 'シ', toast: 'That\'s "Shi" without dakuten!\nAdd the two small marks (゛) for "Ji".' }
+      ]
+    },
+    {
+      id: 'k-zu',
+      prompt: 'Zu (Katakana)',
+      answer: 'ズ',
+      hint: '2 strokes + dakuten',
+      strokeCount: 2,
+      stage: 0,
+      unlocks: '2026-01-29T12:06:14+00:00',
+      befuddlers: [
+        { answer: 'ず', toast: 'That\'s hiragana!\nThe prompt asks for katakana, which is angular.' },
+        { answer: 'ス', toast: 'That\'s "Su" without dakuten!\nAdd the two small marks (゛) for "Zu".' }
+      ]
+    },
+    {
+      id: 'k-ze',
+      prompt: 'Ze (Katakana)',
+      answer: 'ゼ',
+      hint: '2 strokes + dakuten',
+      strokeCount: 2,
+      stage: 0,
+      unlocks: '2026-01-29T12:06:14+00:00',
+      befuddlers: [
+        { answer: 'ぜ', toast: 'That\'s hiragana!\nThe prompt asks for katakana, which is angular.' },
+        { answer: 'セ', toast: 'That\'s "Se" without dakuten!\nAdd the two small marks (゛) for "Ze".' }
+      ]
+    },
+    {
+      id: 'k-zo',
+      prompt: 'Zo (Katakana)',
+      answer: 'ゾ',
+      hint: '2 strokes + dakuten',
+      strokeCount: 2,
+      stage: 0,
+      unlocks: '2026-01-29T12:06:14+00:00',
+      befuddlers: [
+        { answer: 'ぞ', toast: 'That\'s hiragana!\nThe prompt asks for katakana, which is angular.' },
+        { answer: 'ソ', toast: 'That\'s "So" without dakuten!\nAdd the two small marks (゛) for "Zo".' }
+      ]
+    },
+    {
+      id: 'k-da',
+      prompt: 'Da (Katakana)',
+      answer: 'ダ',
+      hint: '3 strokes + dakuten',
+      strokeCount: 3,
+      stage: 0,
+      unlocks: '2026-01-29T12:06:14+00:00',
+      befuddlers: [
+        { answer: 'だ', toast: 'That\'s hiragana!\nThe prompt asks for katakana, which is angular.' },
+        { answer: 'タ', toast: 'That\'s "Ta" without dakuten!\nAdd the two small marks (゛) for "Da".' }
+      ]
+    },
+    {
+      id: 'k-di',
+      prompt: 'Di (Katakana)',
+      answer: 'ヂ',
+      hint: '3 strokes + dakuten',
+      strokeCount: 3,
+      stage: 0,
+      unlocks: '2026-01-29T12:06:14+00:00',
+      befuddlers: [
+        { answer: 'ぢ', toast: 'That\'s hiragana!\nThe prompt asks for katakana, which is angular.' },
+        { answer: 'チ', toast: 'That\'s "Chi" without dakuten!\nAdd the two small marks (゛) for "Di".' },
+        { answer: 'ジ', toast: 'That\'s "Ji" (from Shi)!\nThis one comes from "Chi" instead.' }
+      ]
+    },
+    {
+      id: 'k-du',
+      prompt: 'Du (Katakana)',
+      answer: 'ヅ',
+      hint: '3 strokes + dakuten',
+      strokeCount: 3,
+      stage: 0,
+      unlocks: '2026-01-29T12:06:14+00:00',
+      befuddlers: [
+        { answer: 'づ', toast: 'That\'s hiragana!\nThe prompt asks for katakana, which is angular.' },
+        { answer: 'ツ', toast: 'That\'s "Tsu" without dakuten!\nAdd the two small marks (゛) for "Du".' },
+        { answer: 'ズ', toast: 'That\'s "Zu" (from Su)!\nThis one comes from "Tsu" instead.' }
+      ]
+    },
+    {
+      id: 'k-de',
+      prompt: 'De (Katakana)',
+      answer: 'デ',
+      hint: '3 strokes + dakuten',
+      strokeCount: 3,
+      stage: 0,
+      unlocks: '2026-01-29T12:06:14+00:00',
+      befuddlers: [
+        { answer: 'で', toast: 'That\'s hiragana!\nThe prompt asks for katakana, which is angular.' },
+        { answer: 'テ', toast: 'That\'s "Te" without dakuten!\nAdd the two small marks (゛) for "De".' }
+      ]
+    },
+    {
+      id: 'k-do',
+      prompt: 'Do (Katakana)',
+      answer: 'ド',
+      hint: '2 strokes + dakuten',
+      strokeCount: 2,
+      stage: 0,
+      unlocks: '2026-01-29T12:06:14+00:00',
+      befuddlers: [
+        { answer: 'ど', toast: 'That\'s hiragana!\nThe prompt asks for katakana, which is angular.' },
+        { answer: 'ト', toast: 'That\'s "To" without dakuten!\nAdd the two small marks (゛) for "Do".' }
+      ]
+    },
+    {
+      id: 'k-ba',
+      prompt: 'Ba (Katakana)',
+      answer: 'バ',
+      hint: '2 strokes + dakuten',
+      strokeCount: 2,
+      stage: 0,
+      unlocks: '2026-01-29T12:06:14+00:00',
+      befuddlers: [
+        { answer: 'ば', toast: 'That\'s hiragana!\nThe prompt asks for katakana, which is angular.' },
+        { answer: 'ハ', toast: 'That\'s "Ha" without dakuten!\nAdd the two small marks (゛) for "Ba".' },
+        { answer: 'パ', toast: 'That\'s "Pa" with handakuten!\nUse two marks (゛) not a circle (゜).' }
+      ]
+    },
+    {
+      id: 'k-bi',
+      prompt: 'Bi (Katakana)',
+      answer: 'ビ',
+      hint: '2 strokes + dakuten',
+      strokeCount: 2,
+      stage: 0,
+      unlocks: '2026-01-29T12:06:14+00:00',
+      befuddlers: [
+        { answer: 'び', toast: 'That\'s hiragana!\nThe prompt asks for katakana, which is angular.' },
+        { answer: 'ヒ', toast: 'That\'s "Hi" without dakuten!\nAdd the two small marks (゛) for "Bi".' },
+        { answer: 'ピ', toast: 'That\'s "Pi" with handakuten!\nUse two marks (゛) not a circle (゜).' }
+      ]
+    },
+    {
+      id: 'k-bu',
+      prompt: 'Bu (Katakana)',
+      answer: 'ブ',
+      hint: '1 stroke + dakuten',
+      strokeCount: 1,
+      stage: 0,
+      unlocks: '2026-01-29T12:06:14+00:00',
+      befuddlers: [
+        { answer: 'ぶ', toast: 'That\'s hiragana!\nThe prompt asks for katakana, which is angular.' },
+        { answer: 'フ', toast: 'That\'s "Fu" without dakuten!\nAdd the two small marks (゛) for "Bu".' },
+        { answer: 'プ', toast: 'That\'s "Pu" with handakuten!\nUse two marks (゛) not a circle (゜).' }
+      ]
+    },
+    {
+      id: 'k-be',
+      prompt: 'Be (Katakana)',
+      answer: 'ベ',
+      hint: '1 stroke + dakuten',
+      strokeCount: 1,
+      stage: 0,
+      unlocks: '2026-01-29T12:06:14+00:00',
+      befuddlers: [
+        { answer: 'べ', toast: 'That\'s hiragana!\nThe prompt asks for katakana, which is angular.' },
+        { answer: 'ヘ', toast: 'That\'s "He" without dakuten!\nAdd the two small marks (゛) for "Be".' },
+        { answer: 'ペ', toast: 'That\'s "Pe" with handakuten!\nUse two marks (゛) not a circle (゜).' }
+      ]
+    },
+    {
+      id: 'k-bo',
+      prompt: 'Bo (Katakana)',
+      answer: 'ボ',
+      hint: '4 strokes + dakuten',
+      strokeCount: 4,
+      stage: 0,
+      unlocks: '2026-01-29T12:06:14+00:00',
+      befuddlers: [
+        { answer: 'ぼ', toast: 'That\'s hiragana!\nThe prompt asks for katakana, which is angular.' },
+        { answer: 'ホ', toast: 'That\'s "Ho" without dakuten!\nAdd the two small marks (゛) for "Bo".' },
+        { answer: 'ポ', toast: 'That\'s "Po" with handakuten!\nUse two marks (゛) not a circle (゜).' }
+      ]
+    },
+    {
+      id: 'k-pa',
+      prompt: 'Pa (Katakana)',
+      answer: 'パ',
+      hint: '2 strokes + handakuten',
+      strokeCount: 2,
+      stage: 0,
+      unlocks: '2026-01-29T12:06:14+00:00',
+      befuddlers: [
+        { answer: 'ぱ', toast: 'That\'s hiragana!\nThe prompt asks for katakana, which is angular.' },
+        { answer: 'ハ', toast: 'That\'s "Ha" without handakuten!\nAdd the small circle (゜) for "Pa".' },
+        { answer: 'バ', toast: 'That\'s "Ba" with dakuten!\nUse a circle (゜) not two marks (゛).' }
+      ]
+    },
+    {
+      id: 'k-pi',
+      prompt: 'Pi (Katakana)',
+      answer: 'ピ',
+      hint: '2 strokes + handakuten',
+      strokeCount: 2,
+      stage: 0,
+      unlocks: '2026-01-29T12:06:14+00:00',
+      befuddlers: [
+        { answer: 'ぴ', toast: 'That\'s hiragana!\nThe prompt asks for katakana, which is angular.' },
+        { answer: 'ヒ', toast: 'That\'s "Hi" without handakuten!\nAdd the small circle (゜) for "Pi".' },
+        { answer: 'ビ', toast: 'That\'s "Bi" with dakuten!\nUse a circle (゜) not two marks (゛).' }
+      ]
+    },
+    {
+      id: 'k-pu',
+      prompt: 'Pu (Katakana)',
+      answer: 'プ',
+      hint: '1 stroke + handakuten',
+      strokeCount: 1,
+      stage: 0,
+      unlocks: '2026-01-29T12:06:14+00:00',
+      befuddlers: [
+        { answer: 'ぷ', toast: 'That\'s hiragana!\nThe prompt asks for katakana, which is angular.' },
+        { answer: 'フ', toast: 'That\'s "Fu" without handakuten!\nAdd the small circle (゜) for "Pu".' },
+        { answer: 'ブ', toast: 'That\'s "Bu" with dakuten!\nUse a circle (゜) not two marks (゛).' }
+      ]
+    },
+    {
+      id: 'k-pe',
+      prompt: 'Pe (Katakana)',
+      answer: 'ペ',
+      hint: '1 stroke + handakuten',
+      strokeCount: 1,
+      stage: 0,
+      unlocks: '2026-01-29T12:06:14+00:00',
+      befuddlers: [
+        { answer: 'ぺ', toast: 'That\'s hiragana!\nThe prompt asks for katakana, which is angular.' },
+        { answer: 'ヘ', toast: 'That\'s "He" without handakuten!\nAdd the small circle (゜) for "Pe".' },
+        { answer: 'ベ', toast: 'That\'s "Be" with dakuten!\nUse a circle (゜) not two marks (゛).' }
+      ]
+    },
+    {
+      id: 'k-po',
+      prompt: 'Po (Katakana)',
+      answer: 'ポ',
+      hint: '4 strokes + handakuten',
+      strokeCount: 4,
+      stage: 0,
+      unlocks: '2026-01-29T12:06:14+00:00',
+      befuddlers: [
+        { answer: 'ぽ', toast: 'That\'s hiragana!\nThe prompt asks for katakana, which is angular.' },
+        { answer: 'ホ', toast: 'That\'s "Ho" without handakuten!\nAdd the small circle (゜) for "Po".' },
+        { answer: 'ボ', toast: 'That\'s "Bo" with dakuten!\nUse a circle (゜) not two marks (゛).' }
       ]
     },
 

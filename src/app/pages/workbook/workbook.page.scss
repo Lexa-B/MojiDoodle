@@ -97,6 +97,7 @@
 }
 
 .feedback {
+  font-family: 'Shippori Mincho', serif;
   font-size: 18px;
   margin-bottom: 16px;
   white-space: pre-line;
@@ -153,7 +154,13 @@
   --padding-top: 16px;
   --padding-bottom: 16px;
   min-height: 60px;
+  font-family: 'Shippori Mincho', serif;
   font-size: clamp(20px, 5vw, 28px);
   font-weight: 600;
   letter-spacing: 2px;
+}
+
+.results-card ion-button {
+  font-family: 'Shippori Mincho', serif;
+  font-weight: 700;
 }

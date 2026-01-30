@@ -25,10 +25,10 @@
       </div>
       <div class="feedback">{{ resultFeedback }}</div>
       <div class="stroke-info">{{ strokeCountInfo }}</div>
-      <div class="matches-section" *ngIf="topMatches.length > 0">
+      <div class="matches-section" *ngIf="displayMatches.length > 0">
         <div class="matches-title">Recognized:</div>
         <div class="matches-list">
-          <div class="match-item" *ngFor="let m of topMatches">
+          <div class="match-item" *ngFor="let m of displayMatches">
             <span class="match-char">{{ m.character }}</span>
           </div>
         </div>
