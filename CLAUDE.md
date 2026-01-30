@@ -81,7 +81,7 @@ The app uses a hybrid YAML → SQLite architecture:
 **Database tables:**
 - `cards` - Character cards with stage and unlock time
 - `befuddlers` - Wrong answers with helpful toasts
-- `lessons` - Lesson definitions with status (locked/available/unlocked)
+- `lessons` - Lesson definitions with status, original_status, and reset_by
 - `lesson_cards` - Maps lessons to their cards
 - `lesson_requires` - Lesson prerequisites
 
@@ -99,7 +99,7 @@ The app uses a hybrid YAML → SQLite architecture:
   - Results overlay: ◯ correct, ？ befuddled (try again), ✕ wrong
   - "All caught up" message when no cards available
 - **Settings** (`/settings`) - App settings:
-  - Reset Progression: buttons to reset each category to original YAML values
+  - Reset Progression: buttons to reset each category (cards and associated lessons) to original values
 
 ### Services
 
@@ -151,6 +151,9 @@ interface Lesson {
   file: string;          // "lesson_h_a.yaml"
   status: 'locked' | 'available' | 'unlocked';
   requires: string[];    // Prerequisite lesson IDs
+  // In DB only:
+  // original_status - Initial status for reset
+  // reset_by - Category that resets this lesson (e.g., "hiragana")
 }
 
 interface Point { x: number; y: number; t: number; }  // t = timestamp relative to draw start
@@ -203,12 +206,14 @@ lessons:
     name: "Hiragana あ行"
     file: lesson_h_a.yaml
     status: available
+    reset-by: hiragana       # Reset when hiragana category is reset
     requires: []
 
   - id: h_all
     name: "All Hiragana"
     file: lesson_h_all.yaml
     status: locked
+    reset-by: hiragana
     requires:
       - h_a
 ```
