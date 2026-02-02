@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>MojiDoodle</title>
+  <script>
+    // GitHub Pages SPA redirect
+    // Saves the current path and redirects to root where Angular can handle routing
+    var pathSegmentsToKeep = 1; // Keep /MojiDoodle/
+    var l = window.location;
+    var base = l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '');
+    var path = l.pathname.split('/').slice(pathSegmentsToKeep + 1).join('/');
+    var search = l.search;
+
+    // Store the path in sessionStorage so index.html can restore it
+    if (path || search) {
+      sessionStorage.setItem('spa-redirect', JSON.stringify({
+        path: '/' + path,
+        search: search
+      }));
+    }
+
+    // Redirect to the base URL
+    l.replace(base + '/MojiDoodle/');
+  </script>
+</head>
+<body>
+  Redirecting...
+</body>
+</html>
