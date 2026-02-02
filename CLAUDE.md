@@ -40,7 +40,10 @@ src/
 │   │   └── settings/            # Reset progression, app settings
 │   ├── services/
 │   │   ├── cards.service.ts     # Card & lesson database (SQLite + IndexedDB)
-│   │   └── stroke-recognition.service.ts  # Google Input Tools API
+│   │   ├── stroke-recognition.service.ts  # Google Input Tools API
+│   │   └── character-segmentation.service.ts  # Multi-char segmentation
+│   ├── models/
+│   │   └── segmentation.types.ts  # Mesh grid types
 │   ├── app.component.ts         # Sidemenu config, version checking
 │   └── app-routing.module.ts    # Routes (default: /dashboard)
 ├── data/
@@ -144,6 +147,13 @@ Lesson methods:
 - No API key required, works in browser
 - Stroke format: `[[x coords], [y coords], [timestamps]]` per stroke
 - Returns ranked character candidates
+- `recognize()` - Single recognition for all strokes combined
+- `recognizeBatch()` - Batch recognition for segmented cells (one API call, multiple results)
+
+**CharacterSegmentationService** (`character-segmentation.service.ts`)
+- Segments multi-character handwriting into individual character cells
+- Uses density-based mesh grid approach (see "Character Segmentation" section below)
+- `segment()` - Returns `MeshGrid` with cells and stroke assignments
 
 ### Data Models
 
@@ -177,6 +187,24 @@ interface Lesson {
 }
 
 interface Point { x: number; y: number; t: number; }  // t = timestamp relative to draw start
+
+// Character segmentation types
+interface Vertex { x: number; y: number; }
+
+interface GridCell {
+  column: number;           // Right-to-left (0 = rightmost)
+  row: number;              // Top-to-bottom within column
+  vertexIndices: [number, number, number, number];  // TL, TR, BR, BL
+  strokeIndices: number[];  // Strokes belonging to this cell
+}
+
+interface MeshGrid {
+  vertices: Vertex[];       // Shared vertex pool
+  cells: GridCell[];
+  columns: number;
+  maxRows: number;
+  estimatedCharSize: number;
+}
 ```
 
 ### SRS Stages
@@ -275,3 +303,60 @@ ids:
    - Otherwise → wrong (✕), load new card
 
 **Grading normalization**: All comparisons strip whitespace/newlines from both API results and card answers using `.replace(/\s+/g, '')`. This handles any extra whitespace in YAML data or API responses.
+
+### Character Segmentation (Multi-Character Words)
+
+For vocabulary cards with multiple characters (e.g., "たべる"), the app segments handwriting into individual characters before recognition.
+
+**Files:**
+- `src/app/models/segmentation.types.ts` - Type definitions
+- `src/app/services/character-segmentation.service.ts` - Segmentation algorithm
+- `src/app/services/stroke-recognition.service.ts` - Batch recognition
+
+**Approach: Density-Based Deformable Mesh Grid**
+
+Instead of clustering strokes (which fails for characters like い with separate strokes, or だ with dakuten), the system finds **gaps between characters** using density analysis:
+
+1. **Estimate character size** - Uses median stroke bounding box × 2, clamped to 10-40% of canvas height
+2. **Find density valleys** - Creates histogram of stroke density along X/Y axes, finds local minima (gaps)
+3. **Create mesh grid** - Valleys become column/row boundaries; grid has shared vertices like epithelial cells
+4. **Deform to content** - Vertices nudge toward stroke content for organic (non-rectangular) cells
+5. **Validate** - Removes valleys that create empty interior cells or violate size uniformity (max 1.75× ratio)
+
+**Mesh Structure:**
+```
+V0----V1----V2
+|  C0  |  C1  |     Vertices are shared between adjacent cells
+V3----V4----V5     Moving V4 affects cells C0, C1, C2, C3
+|  C2  |  C3  |
+V6----V7----V8
+```
+
+**Reading Order:** Japanese vertical writing - right-to-left columns (column 0 = rightmost), top-to-bottom within columns.
+
+**Batch API Recognition:**
+- Google Input Tools API supports multiple requests in single call via `requests` array
+- Each cell's strokes sent as separate request
+- Results filtered to single characters only (no multi-char, no punctuation)
+- Punctuation filter: `/^[\p{P}\p{S}\p{M}]$/u` (Unicode categories)
+
+**Backwards Grading:**
+For multi-character cards, grading works backwards from the expected answer:
+1. Split target answer into characters using Unicode-safe `[...answer]`
+2. Check if each character appears in the corresponding cell's top 5 candidates
+3. All characters must match for correct (◯)
+4. Befuddlers use same logic - if any befuddler's characters all match, show befuddled (？)
+
+```typescript
+// Example: target "たべる" (3 chars), 3 cells with results
+const isCorrect = targetChars.every((char, idx) => {
+  const cellCandidates = batchResults[idx].slice(0, 5).map(r => r.character);
+  return cellCandidates.includes(char);
+});
+```
+
+**Why This Fixes Problem Characters:**
+- **い** (two separate strokes) - No density valley between strokes, stays in one cell
+- **だ** (dakuten appears separate) - Dakuten within cell bounds, no valley separates it
+
+**Visualization:** Workbook draws dashed gray quadrilaterals showing cell boundaries when multiple cells detected.

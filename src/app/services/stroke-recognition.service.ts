@@ -99,8 +99,21 @@ export class StrokeRecognitionService {
   }
 
   /**
-   * Recognize multiple cell interpretations in a single batch request.
-   * Each cell's strokes are sent as a separate request item.
+   * Recognize multiple character cells in a single batch API request.
+   *
+   * Used for multi-character words where each cell contains one character.
+   * The Google Input Tools API supports batching via the `requests` array.
+   *
+   * @param cells Array of cells, each with strokes and bounding box dimensions
+   * @returns Array of results per cell, each containing ranked character candidates
+   *
+   * FILTERING:
+   * - Only single characters (multi-char results discarded)
+   * - No punctuation or symbols
+   *
+   * EXAMPLE:
+   * Input: [{strokes for あ}, {strokes for い}]
+   * Output: [[{char:'あ'}, {char:'お'}...], [{char:'い'}, {char:'り'}...]]
    */
   async recognizeBatch(
     cells: { strokes: Point[][]; bounds: { width: number; height: number } }[]

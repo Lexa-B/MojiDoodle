@@ -1,7 +1,14 @@
 /**
  * Types for character segmentation in Japanese handwriting recognition.
- * Uses a deformable mesh grid approach with density-based division.
- * Supports vertical writing layout (top-to-bottom, right-to-left).
+ *
+ * Uses a deformable mesh grid approach where:
+ * - Density valleys in stroke data determine character boundaries
+ * - Cells are quadrilaterals with shared vertices (like epithelial tissue)
+ * - Vertices deform to organically fit stroke content
+ * - Grid enforces size uniformity (no cell > 1.75x another)
+ *
+ * Reading order: right-to-left columns, top-to-bottom within columns
+ * (standard Japanese vertical writing)
  */
 
 export interface Point {
@@ -57,18 +64,6 @@ export interface MeshGrid {
   columns: number;          // Number of columns (right-to-left)
   maxRows: number;          // Maximum rows in any column
   estimatedCharSize: number;
-}
-
-/**
- * Legacy type for backward compatibility.
- * @deprecated Use MeshGrid instead
- */
-export interface CharacterCluster {
-  id: number;
-  strokes: StrokeWithBounds[];
-  bounds: BoundingBox;
-  gridColumn: number;
-  gridRow: number;
 }
 
 /**

@@ -12,9 +12,33 @@ import {
 /**
  * Character segmentation service using density-based deformable mesh grid.
  *
- * Creates organic, non-rectangular quadrilateral cells that adapt to stroke content.
- * Vertices are shared between adjacent cells and can move freely to create
- * "squished" shapes that follow the natural boundaries of handwritten characters.
+ * PURPOSE:
+ * Segments handwritten Japanese text into individual character cells for recognition.
+ * Handles vertical writing (top-to-bottom, right-to-left columns).
+ *
+ * APPROACH:
+ * Instead of clustering strokes (which fails for い, だ, etc.), this uses density
+ * analysis to find natural gaps between characters:
+ *
+ * 1. Estimate character size from stroke dimensions and gaps
+ * 2. Create density histograms along X and Y axes
+ * 3. Find valleys (low-density areas) that indicate character boundaries
+ * 4. Build a unified mesh grid with shared vertices between cells
+ * 5. Deform vertices to organically fit stroke content
+ *
+ * VALIDATION:
+ * - No empty interior cells (cells between content are invalid)
+ * - Size uniformity: all cells within 1.75x of each other
+ * - If validation fails, simplify by removing valleys
+ *
+ * MESH STRUCTURE:
+ * ```
+ * V0----V1----V2
+ * |  C0  |  C1  |    Vertices are shared (V1 belongs to C0 and C1)
+ * V3----V4----V5    Cells are quadrilaterals that can deform
+ * |  C2  |  C3  |    Column 0 = rightmost (Japanese reading order)
+ * V6----V7----V8
+ * ```
  */
 @Injectable({
   providedIn: 'root',

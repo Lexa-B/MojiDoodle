@@ -409,13 +409,34 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
     }
   }
 
+  /**
+   * Check the user's handwriting against the current card's answer.
+   *
+   * FLOW:
+   * 1. Segment strokes into character cells using density-based mesh grid
+   * 2. Sort cells in Japanese reading order (right-to-left, top-to-bottom)
+   * 3. Send cells to API:
+   *    - Single cell: regular recognition
+   *    - Multiple cells: batch recognition (one request per cell)
+   * 4. Grade by working BACKWARDS from the answer:
+   *    - Split target answer into characters
+   *    - Check if each character appears in corresponding cell's top 5 results
+   *    - All match = correct, any miss = check befuddlers, then wrong
+   *
+   * EXAMPLE (target: "あい"):
+   *   Cell 0 results: ['あ', 'お', 'ぁ', ...] ← 'あ' found ✓
+   *   Cell 1 results: ['い', 'り', 'し', ...] ← 'い' found ✓
+   *   Result: CORRECT
+   *
+   * BEFUDDLERS:
+   * Same backwards logic - if befuddler chars match cells, show befuddler toast.
+   */
   async onCheck() {
     if (this.strokes.length === 0 || !this.currentCard) return;
 
     this.isChecking = true;
 
     try {
-      // Use segmentation to split strokes into cells
       const canvas = this.canvasRef.nativeElement;
 
       // Run segmentation if not already done
