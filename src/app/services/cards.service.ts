@@ -816,6 +816,42 @@ export class CardsService {
     return card?.stroke_count ?? 0;
   }
 
+  // Get upcoming unlocks grouped by hour for the next N hours
+  getUpcomingUnlocksByHour(hours: number = 48): { hour: number; count: number; label: string }[] {
+    const now = new Date();
+    const result: { hour: number; count: number; label: string }[] = [];
+
+    // Get all cards with stage >= 0 that unlock in the future (within the time window)
+    const endTime = new Date(now.getTime() + hours * 60 * 60 * 1000);
+    const cards = this.queryAll<{ unlocks: string }>(
+      'SELECT unlocks FROM cards WHERE stage >= 0 AND unlocks > ? AND unlocks <= ?',
+      [now.toISOString(), endTime.toISOString()]
+    );
+
+    // Group by hour offset from now
+    const hourCounts = new Map<number, number>();
+    for (const card of cards) {
+      const unlockTime = new Date(card.unlocks);
+      const hourOffset = Math.floor((unlockTime.getTime() - now.getTime()) / (60 * 60 * 1000));
+      if (hourOffset >= 0 && hourOffset < hours) {
+        hourCounts.set(hourOffset, (hourCounts.get(hourOffset) ?? 0) + 1);
+      }
+    }
+
+    // Build result array for all hours (including zeros)
+    for (let h = 0; h < hours; h++) {
+      const futureDate = new Date(now.getTime() + h * 60 * 60 * 1000);
+      const hourLabel = futureDate.getHours().toString().padStart(2, '0') + ':00';
+      result.push({
+        hour: h,
+        count: hourCounts.get(h) ?? 0,
+        label: hourLabel
+      });
+    }
+
+    return result;
+  }
+
   // Reset all cards in a category to their original YAML values
   async resetCategory(category: string): Promise<void> {
     if (!this.db) return;

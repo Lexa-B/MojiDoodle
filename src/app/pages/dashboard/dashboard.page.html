@@ -14,6 +14,50 @@
     </ion-toolbar>
   </ion-header>
 
+  <div class="unlocks-section">
+    <fieldset class="unlocks-box">
+      <legend>Upcoming unlocks:</legend>
+      <div class="bar-chart" *ngIf="hasUpcomingUnlocks; else noUnlocks">
+        <div class="chart-area">
+          <!-- Y-axis -->
+          <div class="y-axis">
+            <div class="y-tick" *ngFor="let tick of yAxisTicks">
+              <span class="y-label">{{ tick }}</span>
+              <span class="y-tick-mark"></span>
+            </div>
+          </div>
+          <!-- Chart body -->
+          <div class="chart-body">
+            <div class="grid-lines">
+              <div class="grid-line" *ngFor="let tick of yAxisTicks"></div>
+            </div>
+            <div class="bars-container">
+              <div class="bar-wrapper" *ngFor="let unlock of upcomingUnlocks; let i = index">
+                <div class="bar"
+                     [style.height]="getBarHeight(unlock.count)"
+                     [class.has-unlocks]="unlock.count > 0"
+                     [title]="unlock.count + ' unlock' + (unlock.count !== 1 ? 's' : '') + ' at ' + unlock.label"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- X-axis -->
+        <div class="x-axis">
+          <div class="x-axis-spacer"></div>
+          <div class="x-axis-ticks">
+            <div class="x-tick" *ngFor="let tick of xAxisTicks" [style.left.%]="tick.position">
+              <span class="x-tick-mark"></span>
+              <span class="x-label">{{ tick.label }}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <ng-template #noUnlocks>
+        <div class="no-unlocks-message">No reviews scheduled in the next 48 hours</div>
+      </ng-template>
+    </fieldset>
+  </div>
+
   <div class="practice-section">
     <fieldset class="practice-box">
       <legend>I want to practice...</legend>
