@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { LessonsService } from './lessons.service';
+import { CardsService } from './cards.service';
 
 interface Point {
   x: number;
@@ -34,7 +34,7 @@ interface GoogleInputRequest {
 export class StrokeRecognitionService {
   private readonly API_URL = 'https://inputtools.google.com/request?itc=ja-t-i0-handwrit&app=translate';
 
-  constructor(private lessonsService: LessonsService) {}
+  constructor(private cardsService: CardsService) {}
 
   /**
    * Recognize handwritten strokes using Google Input Tools API
@@ -110,13 +110,14 @@ export class StrokeRecognitionService {
     }
 
     // Convert to scored results - first candidate is best match
+    // Trim whitespace/newlines from API results
     return candidates.map((char: string, index: number) => ({
-      character: char,
+      character: char.replace(/\s+/g, ''),
       score: Math.max(100 - index * 10, 10)
     }));
   }
 
   getExpectedStrokeCount(character: string): number {
-    return this.lessonsService.getStrokeCount(character);
+    return this.cardsService.getStrokeCount(character);
   }
 }

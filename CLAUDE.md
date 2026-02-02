@@ -96,6 +96,7 @@ The app uses a hybrid YAML → JSON → SQLite architecture:
 - `lessons` - Lesson definitions with status, original_status, and reset_by
 - `lesson_cards` - Maps lessons to their cards
 - `lesson_requires` - Lesson prerequisites
+- `lesson_supercedes` - Lessons that replace others when unlocked
 
 ### Pages
 
@@ -103,13 +104,16 @@ The app uses a hybrid YAML → JSON → SQLite architecture:
   - Shows available lessons as buttons ("I want to practice...")
   - Unlocking a lesson sets its cards to stage 0 and navigates to workbook
   - Completing prerequisites unlocks dependent lessons
+  - 48-hour forecast chart showing upcoming card unlocks by hour (stacked by stage color)
 - **Workbook** (`/workbook`) - Drawing practice with:
-  - Prompt bar showing current character (random unlocked card on load)
+  - Prompt bar showing current character (random unlocked card on load), colored by SRS stage
   - Full-screen black canvas (OLED-friendly)
   - Undo button (backspace icon)
-  - CHECK! button for handwriting recognition
+  - Check button with random Japanese labels (よし!, 判定!, できた!, etc.)
   - Results overlay: ◯ correct, ？ befuddled (try again), ✕ wrong
+  - Japanese feedback messages (正解!, ちがう!, etc.)
   - "All caught up" message when no cards available
+  - Auto-loads new card when cards become available (subscribes to polling)
 - **Settings** (`/settings`) - App settings:
   - Reset Progression: buttons to reset each category (cards and associated lessons) to original values
 
@@ -124,10 +128,13 @@ The app uses a hybrid YAML → JSON → SQLite architecture:
 Card methods:
 - `getRandomUnlockedCard()`, `getCardByAnswer()`, `setCardStage()`, `resetCategory()`
 - `advanceCard(id)` - Increments stage and sets unlock time based on SRS timetable
+- `getStrokeCount(answer)` - Get expected stroke count for a character
+- `getStageColor(stage)` - Get the color for a given SRS stage
+- `getUpcomingUnlocksByHour(hours)` - Get card unlock forecast grouped by hour (for dashboard chart)
 
 Lesson methods:
 - `getAvailableLessons()`, `getAllLessons()`, `unlockLesson(id)`
-- `isLessonCompleted(id)` - Checks if all cards have stage > 0
+- `isLessonCompleted(id)` - Checks if all cards have stage >= 5
 - `updateLessonStatuses()` - Unlocks lessons whose prerequisites are complete
 
 **StrokeRecognitionService** (`stroke-recognition.service.ts`)
@@ -262,7 +269,9 @@ ids:
 3. Strokes converted to Google format: `[[x1,x2,...], [y1,y2,...], [t1,t2,...]]`
 4. POST to Google Input Tools API
 5. Response parsed → returns array of `{character, score}` candidates
-6. Result logic:
+6. Result logic (whitespace-normalized comparison):
    - If answer in top 5 → correct (◯), advance card via SRS, check for lesson unlocks, load new card
    - If befuddler in top 5 → befuddled (？), show toast, retry same card
    - Otherwise → wrong (✕), load new card
+
+**Grading normalization**: All comparisons strip whitespace/newlines from both API results and card answers using `.replace(/\s+/g, '')`. This handles any extra whitespace in YAML data or API responses.

@@ -410,8 +410,9 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
       this.topMatches = results.slice(0, 5);
       const top5Characters = this.topMatches.map(r => r.character);
 
-      // Check if target character is in top 5
-      const targetIndex = top5Characters.indexOf(this.currentCharacter);
+      // Check if target character is in top 5 (normalize whitespace)
+      const normalizedTarget = this.currentCharacter.replace(/\s+/g, '');
+      const targetIndex = top5Characters.indexOf(normalizedTarget);
 
       if (targetIndex >= 0 && targetIndex < 5) {
         this.resultStatus = 'correct';
@@ -421,16 +422,17 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
         // Advance card to next SRS stage
         this.cardsService.advanceCard(this.currentCard.id);
       } else {
-        // Answer not in top 5 - check for befuddlers
+        // Answer not in top 5 - check for befuddlers (normalize whitespace)
         const befuddler = this.currentCard.befuddlers.find(b =>
-          top5Characters.includes(b.answer)
+          top5Characters.includes(b.answer.replace(/\s+/g, ''))
         );
 
         if (befuddler) {
           this.resultStatus = 'befuddled';
           this.resultFeedback = befuddler.toast;
           // Only show matches up to and including the befuddler
-          const befuddlerIndex = top5Characters.indexOf(befuddler.answer);
+          const normalizedBefuddler = befuddler.answer.replace(/\s+/g, '');
+          const befuddlerIndex = top5Characters.indexOf(normalizedBefuddler);
           this.displayMatches = this.topMatches.slice(0, befuddlerIndex + 1);
         } else {
           this.resultStatus = 'wrong';

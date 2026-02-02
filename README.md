@@ -19,6 +19,57 @@ Draw Japanese characters on a canvas and get instant feedback via handwriting re
 
 https://lexa-b.github.io/MojiDoodle/
 
+## How to Use
+
+### Getting Started
+
+1. **Open the app** - You'll land on the Dashboard showing available lessons
+2. **Pick a lesson** - Tap a lesson button (e.g., "Hiragana あ Row") to unlock those characters
+3. **Start practicing** - You'll be taken to the Workbook where cards appear one at a time
+
+### Drawing Characters
+
+1. **Read the prompt** - The top bar shows what to draw (e.g., "A (Hiragana)")
+2. **Draw on the canvas** - Use your finger or mouse to write the character
+3. **Tap the check button** (よし!, 判定!, etc.) - The app recognizes your handwriting and shows the result:
+   - **◯** Correct! The card advances to the next SRS stage
+   - **？** Befuddled - you drew a similar but wrong character (e.g., katakana instead of hiragana). Try again!
+   - **✕** Wrong - a new card loads
+
+### Tips for Better Recognition
+
+- Draw characters at a reasonable size (not too small)
+- Use the correct stroke count when possible
+- The hint below the prompt shows expected stroke count
+- Tap the undo button (⌫) to remove your last stroke
+
+### Progression System
+
+- **Unlock lessons** from the Dashboard to add new cards to your practice queue
+- **Complete lessons** by getting all cards to stage 5 (requires multiple review sessions over ~12 hours)
+- **Unlock advanced lessons** by completing their prerequisites (e.g., finish all basic rows to unlock "All Hiragana")
+- **Review cards** as they become available - the app uses spaced repetition to optimize your learning
+
+### Spaced Repetition (SRS)
+
+Each correct answer advances a card to the next stage with a longer review interval:
+
+| Stage | Next Review |
+|-------|-------------|
+| 0 → 1 | 15 minutes |
+| 1 → 2 | 30 minutes |
+| 2 → 3 | 1 hour |
+| 3 → 4 | 4 hours |
+| 4 → 5 | 12 hours |
+| 5+ | 1 day → 12 months |
+
+When you see "All caught up!", all your unlocked cards are waiting for their next review time.
+
+### Settings
+
+Access Settings from the menu (☰) to:
+- **Reset Progression** - Start over with a specific category (Hiragana, Katakana, or Genki Vocabulary)
+
 ## Run locally
 
 ```bash
@@ -47,8 +98,8 @@ Cards and lessons are defined in human-readable YAML files (`src/data/`). At bui
 
 Lessons group cards together and can have prerequisites:
 - Complete "Hiragana あ Row" to unlock "All Hiragana"
-- Dashboard shows available lessons to start
-- Completing a lesson (all cards practiced) unlocks dependent lessons
+- Dashboard shows available lessons to start, plus a 48-hour forecast chart
+- Completing a lesson (all cards reach stage 5) unlocks dependent lessons
 
 ### SRS Stages
 

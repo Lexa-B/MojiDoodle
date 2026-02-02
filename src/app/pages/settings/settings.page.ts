@@ -15,9 +15,7 @@ export class SettingsPage implements OnInit {
   categories = [
     { id: 'hiragana', label: 'Hiragana' },
     { id: 'katakana', label: 'Katakana' },
-    { id: 'kanji', label: 'Kanji' },
-    { id: 'katakana-words', label: 'Katakana Words' },
-    { id: 'kanji-words', label: 'Kanji Words' },
+    { id: 'genki', label: 'Genki Vocabulary' },
   ];
 
   constructor(
