@@ -10,7 +10,8 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "lint": "ng lint",
-    "deploy": "ionic build --prod -- --base-href /MojiDoodle/ && npx angular-cli-ghpages --dir=www"
+    "deploy": "./scripts/deploy.sh",
+    "deploy:dev": "./scripts/deploy-dev.sh"
   },
   "private": true,
   "dependencies": {
