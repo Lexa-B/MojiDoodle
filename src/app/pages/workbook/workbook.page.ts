@@ -3,6 +3,7 @@ import { IonContent, IonMenuButton, IonButton, IonIcon, IonSpinner } from '@ioni
 import { CommonModule } from '@angular/common';
 import { addIcons } from 'ionicons';
 import { backspace } from 'ionicons/icons';
+import { Subscription } from 'rxjs';
 import { StrokeRecognitionService } from '../../services/stroke-recognition.service';
 import { CardsService, Card } from '../../services/cards.service';
 
@@ -42,6 +43,9 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
   strokeCountInfo = '';
   topMatches: { character: string; score: number }[] = [];
   displayMatches: { character: string; score: number }[] = [];
+
+  // Subscription for card availability polling
+  private cardAvailabilitySubscription: Subscription | null = null;
 
   private correctFeedback = [
     '正解!',
@@ -94,6 +98,13 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
     this.checkButtonText = this.randomFrom(this.checkButtonLabels);
     await this.cardsService.initialize();
     this.loadRandomCard();
+
+    // Subscribe to card availability for auto-loading when cards become available
+    this.cardAvailabilitySubscription = this.cardsService.cardAvailability$.subscribe(count => {
+      if (this.noCardsAvailable && count > 0) {
+        this.loadRandomCard();
+      }
+    });
   }
 
   private loadRandomCard() {
@@ -117,6 +128,9 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
   ngOnDestroy() {
     if (this.resizeObserver) {
       this.resizeObserver.disconnect();
+    }
+    if (this.cardAvailabilitySubscription) {
+      this.cardAvailabilitySubscription.unsubscribe();
     }
   }
 

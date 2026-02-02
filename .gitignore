@@ -71,3 +71,6 @@ Thumbs.db
 
 # Environment variables
 .env
+
+# Generated version file
+src/data/version.json

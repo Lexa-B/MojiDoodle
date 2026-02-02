@@ -5,6 +5,8 @@
   "homepage": "https://ionicframework.com/",
   "scripts": {
     "ng": "ng",
+    "prebuild": "node scripts/generate-version.js",
+    "prestart": "node scripts/generate-version.js",
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",

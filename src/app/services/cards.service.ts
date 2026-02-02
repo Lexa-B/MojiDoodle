@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { LoadingController } from '@ionic/angular';
 import initSqlJs, { Database } from 'sql.js';
+import { BehaviorSubject, Observable } from 'rxjs';
 
 export interface Befuddler {
   answer: string;
@@ -46,7 +47,18 @@ export class CardsService {
   private stages: Map<number, number> = new Map(); // stage -> minutes
   private stageColors: Map<number, string> = new Map(); // stage -> color
 
+  // Polling for card availability
+  private availableCardCount$ = new BehaviorSubject<number>(0);
+  private pollingIntervalId: ReturnType<typeof setInterval> | null = null;
+  private visibilityHandler: (() => void) | null = null;
+  private readonly POLLING_INTERVAL_MS = 30000; // 30 seconds
+
   constructor(private loadingCtrl: LoadingController) {}
+
+  /** Observable that emits the count of currently available cards */
+  get cardAvailability$(): Observable<number> {
+    return this.availableCardCount$.asObservable();
+  }
 
   async initialize(): Promise<void> {
     if (this.db) return;
@@ -71,6 +83,7 @@ export class CardsService {
     if (stored) {
       this.db = new SQL.Database(stored);
       console.log('Loaded cards database from storage');
+      this.startPolling();
       return;
     }
 
@@ -86,6 +99,7 @@ export class CardsService {
       await this.buildDatabase();
       await this.saveToStorage();
       console.log('Built and saved cards database');
+      this.startPolling();
     } finally {
       await loading.dismiss();
     }
@@ -560,6 +574,11 @@ export class CardsService {
     }
   }
 
+  async hasStoredData(): Promise<boolean> {
+    const data = await this.loadFromStorage();
+    return data !== null;
+  }
+
   private async saveToStorage(): Promise<void> {
     if (!this.db) return;
     try {
@@ -930,8 +949,65 @@ export class CardsService {
       tx.objectStore('data').delete('db');
     } catch {}
 
+    this.stopPolling();
     this.db = null;
     this.initPromise = null;
     await this.initialize();
+  }
+
+  // Polling for card availability
+  /** Start background polling for available cards (every 30 seconds) */
+  private startPolling(): void {
+    // Initial check
+    this.checkAvailableCards();
+
+    // Set up interval polling
+    if (this.pollingIntervalId === null) {
+      this.pollingIntervalId = setInterval(() => {
+        if (document.visibilityState === 'visible') {
+          this.checkAvailableCards();
+        }
+      }, this.POLLING_INTERVAL_MS);
+    }
+
+    // Set up visibility change handler
+    if (this.visibilityHandler === null) {
+      this.visibilityHandler = () => {
+        if (document.visibilityState === 'visible') {
+          // Immediately check when returning to foreground
+          this.checkAvailableCards();
+        }
+      };
+      document.addEventListener('visibilitychange', this.visibilityHandler);
+    }
+  }
+
+  /** Stop background polling */
+  stopPolling(): void {
+    if (this.pollingIntervalId !== null) {
+      clearInterval(this.pollingIntervalId);
+      this.pollingIntervalId = null;
+    }
+    if (this.visibilityHandler !== null) {
+      document.removeEventListener('visibilitychange', this.visibilityHandler);
+      this.visibilityHandler = null;
+    }
+  }
+
+  /** Check how many cards are currently available and emit the count */
+  private checkAvailableCards(): void {
+    const count = this.getAvailableCardCount();
+    this.availableCardCount$.next(count);
+  }
+
+  /** Get count of currently available (unlocked and ready for review) cards */
+  private getAvailableCardCount(): number {
+    if (!this.db) return 0;
+    const now = new Date().toISOString();
+    const result = this.queryOne<{ count: number }>(
+      'SELECT COUNT(*) as count FROM cards WHERE stage >= 0 AND unlocks <= ?',
+      [now]
+    );
+    return result?.count ?? 0;
   }
 }
