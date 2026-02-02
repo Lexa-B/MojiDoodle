@@ -14,7 +14,6 @@ Draw Japanese characters on a canvas and get instant feedback via handwriting re
 - Harai (払い) flicks on stroke endings
 - Instant recognition via Google Input Tools API
 - OLED-friendly dark canvas
-- Works offline after first load
 
 ## Try it
 
@@ -37,9 +36,10 @@ npm start
 
 ## Data Architecture
 
-Cards and lessons are defined in human-readable YAML files (`src/data/`). On first launch, the app compiles these into a SQLite database stored in IndexedDB. This hybrid approach gives you:
+Cards and lessons are defined in human-readable YAML files (`src/data/`). At build time, these are compiled into a single `bundle.json`. On first launch, the app loads this bundle and builds a SQLite database stored in IndexedDB. This hybrid approach gives you:
 
 - **Dev-friendly**: Edit YAML files directly, easy to read and version control
+- **Fast loading**: Single HTTP request instead of 70+ individual files
 - **Production-ready**: Efficient SQLite queries, works offline
 - **Cross-platform**: Same code works on web, Android, and iOS
 
@@ -50,7 +50,7 @@ Lessons group cards together and can have prerequisites:
 - Dashboard shows available lessons to start
 - Completing a lesson (all cards practiced) unlocks dependent lessons
 
-### SRS Timetable
+### SRS Stages
 
 Cards advance through 16 stages with increasing intervals:
 - Stage 0: 15 minutes

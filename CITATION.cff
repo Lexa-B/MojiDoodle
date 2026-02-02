@@ -1,0 +1,40 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: MojiDoodle
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Lexa
+    family-names: Baldwin
+    email: lexa@sakana.ai
+    affiliation: Sakana AI
+    orcid: 'https://orcid.org/0000-0002-3990-2875'
+repository-code: 'https://github.com/Lexa-B/MojiDoodle'
+url: 'https://lexa-b.github.io/MojiDoodle'
+abstract: >-
+  Draw Japanese characters on a canvas and get instant
+  feedback via handwriting recognition. The app uses
+  velocity-based brush rendering to simulate the feel of
+  writing with a calligraphy brush.
+
+
+  - Lesson-based progression: unlock new character sets as
+  you learn
+
+  - Spaced repetition (SRS): cards reappear at optimal
+  intervals (15min → 12 months)
+
+  - Shodo-style strokes that respond to drawing speed
+
+  - Harai (払い) flicks on stroke endings
+
+  - Instant recognition via Google Input Tools API
+keywords:
+  - Japanese Language Learning
+  - Spaced Repetition System (SRS)
+  - Writing Practice
+license: MIT

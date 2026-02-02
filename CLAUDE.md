@@ -41,42 +41,54 @@ src/
 │   ├── services/
 │   │   ├── cards.service.ts     # Card & lesson database (SQLite + IndexedDB)
 │   │   └── stroke-recognition.service.ts  # Google Input Tools API
-│   ├── app.component.ts         # Sidemenu config
+│   ├── app.component.ts         # Sidemenu config, version checking
 │   └── app-routing.module.ts    # Routes (default: /dashboard)
 ├── data/
-│   ├── cards/                   # YAML card definitions
-│   │   ├── hiragana.yaml
-│   │   ├── katakana.yaml
-│   │   ├── kanji.yaml
-│   │   ├── katakana-words.yaml
-│   │   └── kanji-words.yaml
-│   ├── lessons/                 # YAML lesson definitions
-│   │   ├── lessons.yaml         # Lesson index with prerequisites
-│   │   ├── lesson_h_a.yaml      # Hiragana A row
-│   │   ├── lesson_h_all.yaml    # All hiragana
-│   │   └── lesson_k_all.yaml    # All katakana
-│   └── timetable.yaml           # SRS timing intervals
+│   ├── cards/
+│   │   ├── manifest.yaml        # Card pack definitions
+│   │   ├── hiragana/            # Hiragana cards
+│   │   ├── katakana/            # Katakana cards
+│   │   └── genki/               # Genki textbook vocabulary
+│   ├── lessons/
+│   │   ├── manifest.yaml        # Lesson pack definitions
+│   │   ├── hiragana/            # Hiragana row lessons
+│   │   ├── katakana/            # Katakana row lessons
+│   │   └── genki/               # Genki chapter lessons
+│   ├── stages.yaml              # SRS timing intervals & colors
+│   ├── bundle.json              # Pre-compiled data (generated at build)
+│   └── version.json             # Build timestamp (generated at build)
+├── 404.html                     # GitHub Pages SPA redirect handler
 └── theme/variables.scss         # Ionic theme colors
+
+scripts/
+├── compile-data.js              # Compiles YAML → bundle.json
+├── generate-version.js          # Generates version.json timestamp
+├── deploy.sh                    # Deploy to GitHub Pages (production)
+└── deploy-dev.sh                # Deploy to /dev path
 
 extra-webpack.config.js          # Webpack fallbacks for sql.js
 ```
 
 ### Database Architecture
 
-The app uses a hybrid YAML → SQLite architecture:
+The app uses a hybrid YAML → JSON → SQLite architecture:
 
 **Source of truth**: Human-readable YAML files in `src/data/`
-**Runtime**: SQLite database built on-device, persisted to IndexedDB
+**Build time**: YAML compiled to `bundle.json` (single file, ~500KB)
+**Runtime**: SQLite database built on-device from bundle, persisted to IndexedDB
 
 **How it works:**
-1. First launch shows "ちょっと待ってください..." spinner
-2. Fetches YAML files (cards, lessons, timetable), parses them, builds SQLite in-memory via sql.js
-3. Saves compiled database to IndexedDB
-4. Subsequent launches load instantly from IndexedDB
+1. Build runs `compile-data.js` → creates `bundle.json` from all YAML files
+2. First launch shows "ちょっと待ってください..." spinner
+3. Fetches single `bundle.json` (instead of 70+ individual files), builds SQLite in-memory
+4. Saves compiled database to IndexedDB
+5. Subsequent launches load instantly from IndexedDB
 
-**To add/edit data**: Edit the YAML files directly. Users will get updates on next fresh install or when `cardsService.rebuild()` is called.
+**To add/edit data**: Edit the YAML files directly. Run `npm run build` to regenerate bundle. Users get updates on next fresh install or when prompted by version mismatch.
 
 **Cross-platform**: Works on desktop web, mobile web, Android, and iOS using the same sql.js + IndexedDB approach.
+
+**GitHub Pages SPA**: Uses `404.html` redirect trick to handle client-side routing (saves path to sessionStorage, redirects to root, `index.html` restores path).
 
 **Database tables:**
 - `cards` - Character cards with stage and unlock time
@@ -104,9 +116,10 @@ The app uses a hybrid YAML → SQLite architecture:
 ### Services
 
 **CardsService** (`cards.service.ts`)
-- Loads card/lesson database from IndexedDB or builds from YAML on first run
+- Loads card/lesson database from IndexedDB or builds from `bundle.json` on first run
 - SQLite queries via sql.js (pure JS, works everywhere)
 - Call `initialize()` before using (shows loading spinner if building)
+- Polls for card availability every 30 seconds, emits via `cardAvailability$` observable
 
 Card methods:
 - `getRandomUnlockedCard()`, `getCardByAnswer()`, `setCardStage()`, `resetCategory()`
@@ -159,9 +172,9 @@ interface Lesson {
 interface Point { x: number; y: number; t: number; }  // t = timestamp relative to draw start
 ```
 
-### SRS Timetable
+### SRS Stages
 
-Defined in `src/data/timetable.yaml`. When a card is answered correctly, it advances to the next stage with increasing review intervals:
+Defined in `src/data/stages.yaml`. When a card is answered correctly, it advances to the next stage with increasing review intervals. Each stage also has a color for UI display:
 
 | Stage | Interval |
 |-------|----------|
@@ -197,32 +210,27 @@ Defined in `src/data/timetable.yaml`. When a card is answered correctly, it adva
       toast: "That's katakana!\nThe prompt asks for hiragana, which is curvy."
 ```
 
-### YAML Lesson Format
+### YAML Manifest Format
 
-**lessons.yaml** (index):
+**cards/manifest.yaml** and **lessons/manifest.yaml** define packs:
 ```yaml
-lessons:
-  - id: h_a
-    name: "Hiragana あ行"
-    file: lesson_h_a.yaml
-    status: available
-    reset-by: hiragana       # Reset when hiragana category is reset
-    requires: []
-
-  - id: h_all
-    name: "All Hiragana"
-    file: lesson_h_all.yaml
-    status: locked
-    reset-by: hiragana
-    requires:
-      - h_a
+packs:
+  - id: hiragana
+    name: Hiragana
+    category: hiragana        # Used for reset_by in DB
+    files:
+      - hiragana/hiragana.yaml
 ```
 
-**lesson_h_a.yaml** (individual lesson):
+### YAML Lesson Format
+
+**lesson_h_a.yaml** (individual lesson file):
 ```yaml
 id: h_a
 name: "Hiragana あ行"
-requires: []
+status: available             # locked, available, or unlocked
+requires: []                  # Prerequisite lesson IDs
+supercedes: []                # Lessons this one replaces when unlocked
 
 ids:
   - h-a
