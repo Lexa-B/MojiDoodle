@@ -1,0 +1,78 @@
+# Genki Chapter 16 Vocabulary
+
+id: g_16
+name: "Genki Chapter 16"
+status: locked
+requires:
+  - g_15
+supercedes: []
+
+ids:
+  - g-16-iron
+  - g-16-overslp
+  - g-16-gather
+  - g-16-igai
+  - g-16-insert
+  - g-16-copy
+  - g-16-eeto
+  - g-16-ekiin
+  - g-16-size
+  - g-16-wake
+  - g-16-treat
+  - g-16-down
+  - g-16-parent
+  - g-16-iron-kkr
+  - g-16-lend
+  - g-16-dirty
+  - g-16-finals
+  - g-16-kyou
+  - g-16-research
+  - g-16-gurai
+  - g-16-trouble
+  - g-16-trash
+  - g-16-gomen
+  - g-16-sugar
+  - g-16-jitsu
+  - g-16-shitsurei
+  - g-16-jibun
+  - g-16-class
+  - g-16-scholar
+  - g-16-kids
+  - g-16-relatives
+  - g-16-reco
+  - g-16-suruto
+  - g-16-explain
+  - g-16-sky
+  - g-16-sonna
+  - g-16-grad
+  - g-16-typhoon
+  - g-16-handin
+  - g-16-rescue
+  - g-16-wrong
+  - g-16-cont
+  - g-16-take
+  - g-16-tools
+  - g-16-anywhere
+  - g-16-fly
+  - g-16-fix
+  - g-16-youna
+  - g-16-miss
+  - g-16-tvprog
+  - g-16-secret
+  - g-16-file
+  - g-16-other
+  - g-16-pocket
+  - g-16-plus
+  - g-16-ally
+  - g-16-show
+  - g-16-road
+  - g-16-lost
+  - g-16-found
+  - g-16-future
+  - g-16-pickup-go
+  - g-16-pickup-come
+  - g-16-return
+  - g-16-translate
+  - g-16-weak
+  - g-16-robot
+  - g-16-laugh

@@ -1,0 +1,82 @@
+# Genki Chapter 7 Vocabulary
+
+id: g_07
+name: "Genki Chapter 7"
+status: locked
+requires:
+  - g_06
+supercedes: []
+
+ids:
+  - g-07-ashi
+  - g-07-atama
+  - g-07-atama-ii
+  - g-07-ani
+  - g-07-ane
+  - g-07-uta
+  - g-07-utau
+  - g-07-ojiisan
+  - g-07-oshiri
+  - g-07-onaka
+  - g-07-obaasan
+  - g-07-kaisha
+  - g-07-kao
+  - g-07-kakeru
+  - g-07-kazoku
+  - g-07-kata
+  - g-07-kaburu
+  - g-07-kami
+  - g-07-kara
+  - g-07-kiwotsu
+  - g-07-kawaii
+  - g-07-kyodai
+  - g-07-kiru
+  - g-07-kuchi
+  - g-07-kubi
+  - g-07-kuruma
+  - g-07-kekkon
+  - g-07-circle
+  - g-07-shitte
+  - g-07-juku
+  - g-07-shokudo
+  - g-07-shiri
+  - g-07-shirn
+  - g-07-shiru
+  - g-07-shinsetsu
+  - g-07-sukoshi
+  - g-07-sumu
+  - g-07-setaka
+  - g-07-sehiku
+  - g-07-senaka
+  - g-07-tanoshimi
+  - g-07-chichi
+  - g-07-te
+  - g-07-depa
+  - g-07-toru
+  - g-07-nagai
+  - g-07-nanimo
+  - g-07-nin
+  - g-07-ha
+  - g-07-haku
+  - g-07-hataraku
+  - g-07-hana
+  - g-07-haha
+  - g-07-hayai
+  - g-07-hitori
+  - g-07-futari
+  - g-07-futot
+  - g-07-futoru
+  - g-07-betsuni
+  - g-07-benri
+  - g-07-mayuge
+  - g-07-mijikai
+  - g-07-mimi
+  - g-07-minna
+  - g-07-mune
+  - g-07-me
+  - g-07-megane
+  - g-07-mochiron
+  - g-07-yasete
+  - g-07-yaseru
+  - g-07-yubi
+  - g-07-yokattara

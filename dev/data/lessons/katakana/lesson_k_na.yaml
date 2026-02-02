@@ -1,0 +1,16 @@
+# Katakana ナ Row
+# na, ni, nu, ne, no
+
+id: k_na
+name: "Katakana ナ Row"
+status: locked
+requires:
+  - k_ta
+supercedes: []
+
+ids:
+  - k-na
+  - k-ni
+  - k-nu
+  - k-ne
+  - k-no

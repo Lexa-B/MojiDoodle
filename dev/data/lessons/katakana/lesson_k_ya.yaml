@@ -1,0 +1,14 @@
+# Katakana ヤ Row
+# ya, yu, yo
+
+id: k_ya
+name: "Katakana ヤ Row"
+status: locked
+requires:
+  - k_ma
+supercedes: []
+
+ids:
+  - k-ya
+  - k-yu
+  - k-yo

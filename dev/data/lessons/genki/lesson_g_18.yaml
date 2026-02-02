@@ -1,0 +1,76 @@
+# Genki Chapter 18 Vocabulary
+
+id: g_18
+name: "Genki Chapter 18"
+status: locked
+requires:
+  - g_17
+supercedes: []
+
+ids:
+  - g-18-akarui
+  - g-18-hiraku
+  - g-18-ato
+  - g-18-ayamaru
+  - g-18-ijou
+  - g-18-imasugu
+  - g-18-okage
+  - g-18-osaki
+  - g-18-osu
+  - g-18-ochiru
+  - g-18-otsukare
+  - g-18-otosu
+  - g-18-yuwaku
+  - g-18-katazu
+  - g-18-katei
+  - g-18-kangae
+  - g-18-kieru
+  - g-18-kurai
+  - g-18-keitai
+  - g-18-korobu
+  - g-18-kowasu
+  - g-18-kowareru
+  - g-18-saku
+  - g-18-sakura
+  - g-18-shitashii
+  - g-18-shimaru
+  - g-18-shunyuu
+  - g-18-shoyu
+  - g-18-shokuhi
+  - g-18-joshigaku
+  - g-18-switch
+  - g-18-soup
+  - g-18-skirt
+  - g-18-yutori
+  - g-18-seikatsuhi
+  - g-18-soto
+  - g-18-sofa
+  - g-18-taisetsu
+  - g-18-towel
+  - g-18-tasukaru
+  - g-18-tanomu
+  - g-18-darou
+  - g-18-danshi
+  - g-18-chikar
+  - g-18-chumon
+  - g-18-chokin
+  - g-18-tsuku
+  - g-18-doushiyo
+  - g-18-hajime
+  - g-18-hazuka
+  - g-18-banana
+  - g-18-hikkoshi
+  - g-18-popcorn
+  - g-18-maitsuki
+  - g-18-miman
+  - g-18-mushi
+  - g-18-muri
+  - g-18-mokuteki
+  - g-18-yachin
+  - g-18-yugata
+  - g-18-youfuku
+  - g-18-yogosu
+  - g-18-yogoreru
+  - g-18-reizou
+  - g-18-rousoku
+  - g-18-oneroom

@@ -1,0 +1,28 @@
+# Genki Chapter 0 Vocabulary
+
+id: g_00
+name: "Genki Chapter 0"
+status: available
+requires: []
+supercedes: []
+
+ids:
+  - g-00-thanks
+  - g-00-thanks-pol
+  - g-00-nope
+  - g-00-itadaki
+  - g-00-itteki
+  - g-00-ittera
+  - g-00-okaeri
+  - g-00-ohayo
+  - g-00-ohayo-pol
+  - g-00-oyasumi
+  - g-00-gochisou
+  - g-00-konnichi
+  - g-00-konban
+  - g-00-sayonara
+  - g-00-sumimas
+  - g-00-tadaima
+  - g-00-desu
+  - g-00-hajime
+  - g-00-yoroshiku

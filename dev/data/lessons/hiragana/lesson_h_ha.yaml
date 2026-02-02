@@ -1,0 +1,16 @@
+# Hiragana は Row
+# ha, hi, fu, he, ho
+
+id: h_ha
+name: "Hiragana は Row"
+status: locked
+requires:
+  - h_na
+supercedes: []
+
+ids:
+  - h-ha
+  - h-hi
+  - h-fu
+  - h-he
+  - h-ho

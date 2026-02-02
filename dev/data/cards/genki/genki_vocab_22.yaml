@@ -1,0 +1,1216 @@
+- id: g-22-aikawa
+  prompt: as usual
+  answer: 相変わらず
+  hint: 'aikawarazu — used when something hasn’t changed (often with a slightly negative
+    nuance): 相変わらず元気だ'
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: いつも
+    toast: |-
+      That means "always / usually" in a neutral way.
+      The prompt is for "still (unchanged)"—often commenting that nothing has improved.
+  - answer: やはり
+    toast: |-
+      That means "as expected / after all" (a conclusion).
+      The prompt is about something continuing without change.
+  - answer: 変わらず
+    toast: |-
+      That means "without changing" but is missing the extra nuance of "as before" in set-phrase style.
+      The prompt expects the more idiomatic fixed expression.
+- id: g-22-aite
+  prompt: partner; the other person
+  answer: 相手
+  hint: aite — often means “the other party/person” (e.g., 話し相手 conversation partner,
+    相手にする to deal with someone)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 相方
+    toast: |-
+      That’s more like “partner/buddy” (often a pair, coworkers, or comedy duo).
+      The prompt is the general “other party/person.”
+  - answer: 手相
+    toast: |-
+      Those kanji are reversed.
+      This word means “palm lines/palmistry,” not a person you’re dealing with.
+  - answer: 相違
+    toast: |-
+      That means “difference/discrepancy.”
+      It uses the same first kanji but isn’t about a person.
+- id: g-22-uketsuke
+  prompt: reception desk
+  answer: 受付
+  hint: uketsuke — reception/registration counter (e.g., 受付で名前を書く)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 受取
+    toast: |-
+      That's "receipt / to receive (something)".
+      This one is about taking or collecting items, not a counter where you register.
+  - answer: 窓口
+    toast: |-
+      That's "service window / contact point".
+      It’s often a bank/city office window, not specifically a front desk reception.
+  - answer: 受け付ける
+    toast: |-
+      That's the verb form "to accept / to receive (applications)".
+      The prompt is asking for the noun meaning a place/counter.
+- id: g-22-umaku
+  prompt: well; successfully; skillfully
+  answer: うまく
+  hint: umaku — adverb meaning “well/skillfully”; often used with verbs like できる (can
+    do) or いく (go well)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 上手く
+    toast: |-
+      That uses kanji spelling.
+      This card expects the kana-only form.
+  - answer: うまい
+    toast: |-
+      That’s the plain adjective form (“good/tasty/skilled”).
+      Here you need the adverb form used to modify a verb.
+  - answer: うま
+    toast: |-
+      That means “horse.”
+      The prompt is about doing something successfully/skillfully, not an animal.
+- id: g-22-umakuiku
+  prompt: to go well
+  answer: うまくいく
+  hint: umaku iku - used when things proceed smoothly (e.g., 計画がうまくいく)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: うまくいかない
+    toast: |-
+      That's the negative form.
+      It means things do NOT proceed smoothly.
+  - answer: 順調にいく
+    toast: |-
+      Similar meaning, but more formal.
+      Often used for schedules/projects going smoothly.
+  - answer: 成功する
+    toast: |-
+      That's "to succeed."
+      This focuses on achieving success, not the process going smoothly.
+- id: g-22-urayama
+  prompt: (somebody is) envious
+  answer: うらやましがる
+  hint: |-
+    urayamashigaru - to show/act envious (about someone else).
+    Often used in 3rd person: 彼は友だちの車をうらやましがっている。
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: うらやましい
+    toast: |-
+      That's the i-adjective meaning "(I am) envious."
+      The prompt is about someone showing/acting that way (often 3rd person).
+  - answer: ねたむ
+    toast: |-
+      That's "to envy/resent" with a more negative nuance.
+      This one can imply ill will rather than just wanting what someone has.
+  - answer: あこがれる
+    toast: |-
+      That's "to admire/long for."
+      It’s closer to looking up to someone, not feeling envy.
+- id: g-22-urusai
+  prompt: noisy; annoying
+  answer: うるさい
+  hint: urusai - used for loud sounds or for someone being a nuisance (can sound rude
+    depending on tone)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: うれしい
+    toast: |-
+      That's "happy".
+      Watch the middle kana: れ (re) vs る (ru).
+  - answer: やかましい
+    toast: |-
+      That's also "noisy" but feels stronger/more harsh.
+      Different word entirely.
+  - answer: にぎやか
+    toast: |-
+      That's "lively/bustling" (often positive).
+      Not the same as being annoying or too loud.
+- id: g-22-eikaiwa
+  prompt: English conversation
+  answer: 英会話
+  hint: 'eikaiwa — often used for classes/lessons: 英会話レッスン (English conversation lesson)'
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 英語
+    toast: |-
+      That's "English (the language)"!
+      This one is the language itself, not practicing speaking with others.
+  - answer: 会話
+    toast: |-
+      That's "conversation" in general!
+      This one doesn't specify the language.
+  - answer: 英会話教室
+    toast: |-
+      That's an "English conversation school/class"!
+      This one refers to the place/institution, not just the activity.
+- id: g-22-ojosan
+  prompt: (someone’s) daughter (polite)
+  answer: お嬢さん
+  hint: ojou-san — polite term for another person’s daughter; also used to address
+    a young lady
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 娘さん
+    toast: |-
+      This is the more neutral/polite "daughter".
+      It’s less honorific/ladylike than the one requested.
+  - answer: お嬢様
+    toast: |-
+      This is a more respectful (higher honorific) form.
+      Often used for a rich/upper-class young lady.
+  - answer: お姉さん
+    toast: |-
+      This means "(someone’s) older sister".
+      Be careful: the polite prefix and さん make it look similar.
+- id: g-22-onegai
+  prompt: to request help
+  answer: お願いする
+  hint: 'onegaishisuru - polite request (e.g., 手伝ってくださいとお願いする). Kanji: 願 = “wish/request”'
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 頼む
+    toast: |-
+      That's "to ask a favor / to rely on" (more direct, casual).
+      This prompt is for a more polite request, often used with 〜てください.
+  - answer: 依頼する
+    toast: |-
+      That's "to commission / to formally request" (business-like).
+      This prompt is for the everyday polite way to ask for help.
+  - answer: お願い
+    toast: |-
+      That's just the noun "request/favor".
+      The prompt needs the verb form meaning "to request (someone)".
+- id: g-22-kaji
+  prompt: housework
+  answer: 家事
+  hint: kaji — chores/household tasks (cleaning, cooking, laundry). Not 火事 (kaji)
+    “fire”.
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 火事
+    toast: |-
+      That means “fire (accidental fire)”.
+      Different first kanji: fire-related vs home-related.
+  - answer: 家
+    toast: |-
+      That’s just “house/home”.
+      The prompt is about chores/tasks, so it needs a word meaning household work.
+  - answer: 仕事
+    toast: |-
+      That means “work/job” in general.
+      The prompt is specifically chores done at home.
+- id: g-22-kaze
+  prompt: wind
+  answer: 風
+  hint: kaze — 9 strokes (also read かぜ / ふう / か)
+  strokeCount: 9
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 凧
+    toast: |-
+      That's "kite".
+      It has the 冫 (ice) component on the left, not an enclosing shape.
+  - answer: 鳳
+    toast: |-
+      That's part of "phoenix" words.
+      It uses 鳥 (bird) components and looks much denser.
+  - answer: 凡
+    toast: |-
+      That's "ordinary".
+      It’s much simpler with far fewer strokes and no inner details.
+- id: g-22-kazefuku
+  prompt: the wind blows
+  answer: 風が吹く
+  hint: 'kazega fuku — intransitive (wind is the subject). Pattern: 風が吹く / 風が強く吹く'
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 風吹く
+    toast: |-
+      Missing the particle!
+      This version is read "かぜふく" and is a set/poetic expression.
+      The prompt expects a normal sentence pattern with が.
+  - answer: 風が拭く
+    toast: |-
+      Different kanji and meaning.
+      拭く means "to wipe (something)"—a hand action, not weather.
+  - answer: 風が浮く
+    toast: |-
+      Different verb and meaning.
+      浮く means "to float" or "to stand out," not "to blow."
+- id: g-22-katsu
+  prompt: to win
+  answer: 勝つ
+  hint: katsu — intransitive verb; often used for winning a game/contest (試合に勝つ).
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 負ける
+    toast: |-
+      That's "to lose" (the opposite).
+      Be careful not to swap the meanings.
+  - answer: 勝ち
+    toast: |-
+      That's the noun form ("a win/victory").
+      The prompt is asking for the verb.
+  - answer: 買つ
+    toast: |-
+      That's using the kanji for "to buy" (old-style spelling).
+      Different meaning; watch the left-side radical.
+- id: g-22-kawari
+  prompt: instead
+  answer: 代わりに
+  hint: 'kawari ni - used for substitution/replacement: Aの代わりにB = do/use B instead
+    of A'
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: かわりに
+    toast: |-
+      That's the kana-only spelling.
+      This prompt expects the kanji form, so include the character for "substitute/replace".
+  - answer: 代わって
+    toast: |-
+      That's the te-form ("replacing/changing").
+      Here you want the set phrase used as "instead of".
+  - answer: 代わり
+    toast: |-
+      That's missing the particle に.
+      The full expression needs に to mean "instead (of)".
+- id: g-22-ki
+  prompt: tree
+  answer: 木
+  hint: ki — 4 strokes; looks like a trunk with branches
+  strokeCount: 4
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 本
+    toast: |-
+      That's "book" / "origin".
+      It has an extra short line at the base of the trunk.
+  - answer: 未
+    toast: |-
+      That's "not yet".
+      The top horizontal stroke is longer, and the crossing is higher.
+  - answer: 末
+    toast: |-
+      That's "end".
+      The bottom horizontal stroke is longer, and the crossing is lower.
+- id: g-22-keikaku
+  prompt: to make a plan
+  answer: 計画を立てる
+  hint: keikaku o tateru - use when deciding and setting up a plan (e.g., 旅行の計画を立てる).
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 予定を立てる
+    toast: |-
+      That's "to set a schedule"!
+      More about arranging dates/times rather than a detailed plan.
+  - answer: 計画する
+    toast: |-
+      That's "to plan" (verb form)!
+      This one doesn't use the pattern "〜を立てる".
+  - answer: 計画を建てる
+    toast: |-
+      That's using the wrong kanji for "tateru" here.
+      This kanji is used for building buildings; not for setting up a plan.
+- id: g-22-kohai
+  prompt: junior member of a group
+  answer: 後輩
+  hint: 'kouhai — someone junior in school/work/club; your junior (opposite: 先輩 senpai)'
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 先輩
+    toast: |-
+      That's "senior" (someone ahead of you).
+      The prompt is for the junior member.
+  - answer: 後半
+    toast: |-
+      That's "second half/latter half."
+      Different meaning; the second kanji is "half," not "junior."
+  - answer: 後悔
+    toast: |-
+      That's "regret."
+      Same first kanji, but the second kanji means "repent/regret."
+- id: g-22-copytoru
+  prompt: to make a photocopy
+  answer: コピーを取る
+  hint: kopii o toru - literally “take a copy” (コピーを取ってください = Please make a copy.)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: コピーする
+    toast: |-
+      That's “to copy” using する.
+      The prompt expects the set phrase with を + a verb meaning “to take.”
+  - answer: 写真を撮る
+    toast: |-
+      That's “to take a photo.”
+      Same pattern (を + verb), but it’s for cameras, not documents.
+  - answer: コピーを撮る
+    toast: |-
+      That uses the verb for “to take (a photo).”
+      For photocopies, use the verb meaning “to take/get” instead.
+- id: g-22-konnahu
+  prompt: like this
+  answer: こんなふう
+  hint: konna fuu — used to describe the manner/style of something (e.g., こんなふうに かいてください
+    “Please write it like this”).
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: こんなに
+    toast: |-
+      That means “this much/so much” (degree/extent), not “in this way/manner”.
+      It often answers “how much?” rather than “how?”
+  - answer: こんなふうに
+    toast: |-
+      That includes the particle に.
+      Your answer should be the base expression without adding particles.
+  - answer: そんなふう
+    toast: |-
+      That means “like that” (referring to something near the listener or previously mentioned).
+      The prompt is for “like this” (near the speaker).
+- id: g-22-saru
+  prompt: monkey
+  answer: 猿
+  hint: saru — Kanji meaning “monkey”; left side is the animal radical 犭
+  strokeCount: 13
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 猿人
+    toast: |-
+      That's “ape-man / early human” (a compound word).
+      The prompt is just the animal name, not a longer term.
+  - answer: 犬
+    toast: |-
+      That's “dog.”
+      This one is a simpler animal kanji with fewer parts.
+  - answer: 猶
+    toast: |-
+      Different kanji meaning “still / yet.”
+      It shares a similar left-side shape, so watch the right side.
+- id: g-22-sansei
+  prompt: to agree
+  answer: 賛成する
+  hint: sansei suru — used for agreeing with an idea/opinion (〜に賛成する = agree with
+    ~)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 同意する
+    toast: |-
+      That's "to consent/agree (formally)"!
+      Often used in formal contexts like contracts or consent.
+  - answer: 承諾する
+    toast: |-
+      That's "to accept/consent"!
+      Used for accepting an offer/request, not agreeing with an opinion.
+  - answer: 反対する
+    toast: |-
+      That's "to oppose"!
+      This is the opposite meaning: not agreeing.
+- id: g-22-shikata
+  prompt: cannot be helped
+  answer: しかたがない
+  hint: 'shikata ga nai — said when there’s no way around it (often resigned). Similar:
+    しょうがない.'
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: しょうがない
+    toast: |-
+      That means the same idea, but it uses a different wording.
+      One is more like "there's no way (to do it)," the other is "it can't be helped."
+  - answer: 仕方がない
+    toast: |-
+      That’s the kanji spelling.
+      This prompt expects the all-hiragana form, so don’t switch scripts.
+  - answer: しかたない
+    toast: |-
+      That’s a shortened casual form.
+      Make sure you include the particle in the middle.
+- id: g-22-shippai
+  prompt: to fail; to be unsuccessful
+  answer: 失敗する
+  hint: 'shippai suru — often used with に: 試験に失敗する (fail an exam)'
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 成功する
+    toast: |-
+      That's "to succeed" (the opposite meaning).
+      Check whether the situation ended well vs. not.
+  - answer: 間違える
+    toast: |-
+      That's "to make a mistake" (choosing the wrong thing).
+      This prompt is about the overall result being unsuccessful.
+  - answer: 失礼する
+    toast: |-
+      That's used for "excuse me" / "to be rude" in polite situations.
+      It’s a different word and context (manners, not outcomes).
+- id: g-22-jiyuu
+  prompt: freedom
+  answer: 自由
+  hint: jiyuu — "freedom/liberty" (often used like 自由に = freely)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 理由
+    toast: |-
+      That's "reason" (riyuu)!
+      It uses 理 (logic) instead of the character for "self".
+  - answer: 自分
+    toast: |-
+      That's "oneself" (jibun)!
+      It refers to "me/myself," not the idea of liberty.
+  - answer: 勝手
+    toast: |-
+      That's "selfish / doing as one pleases" (katte)!
+      It has a negative nuance, unlike a neutral word for liberty.
+- id: g-22-jiyuuni
+  prompt: freely
+  answer: 自由に
+  hint: jiyuu ni — "in a free way"; often modifies verbs (e.g., 自由に選ぶ = choose freely)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 勝手に
+    toast: |-
+      That's "selfishly / on one's own (without permission)".
+      It often implies acting without regard for others or rules.
+  - answer: 気軽に
+    toast: |-
+      That's "casually / without worry".
+      It focuses on ease of mind rather than freedom of choice.
+  - answer: 勝手
+    toast: |-
+      That's a noun meaning "selfishness / one's convenience".
+      It's not the adverbial form meaning "freely".
+- id: g-22-shorui
+  prompt: document
+  answer: 書類
+  hint: shorui — papers/forms (often official or business documents)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 書く
+    toast: |-
+      That's the verb "to write".
+      The prompt is a noun meaning paperwork/documents.
+  - answer: 資料
+    toast: |-
+      That's "materials/reference资料".
+      This is about info/resources, not official paperwork.
+  - answer: 証明書
+    toast: |-
+      That's "certificate/proof".
+      More specific than general documents.
+- id: g-22-shinyuu
+  prompt: best friend
+  answer: 親友
+  hint: shinyuu — close friend (very intimate); often used like 「親友だ」 / 「親友と」
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 友達
+    toast: |-
+      That's “friend” in general.
+      The prompt is for a much closer relationship (a very close, intimate friend).
+  - answer: 親友達
+    toast: |-
+      That’s not the usual form.
+      Typically you don’t add 達 here; it’s normally written as a two-kanji noun.
+  - answer: 親子
+    toast: |-
+      That means “parent and child.”
+      Be careful: it uses the same first kanji, but the second kanji is different.
+- id: g-22-zutto
+  prompt: for a long time; all the time
+  answer: ずっと
+  hint: zutto — duration/continuity (e.g., ずっと前, ずっと待つ). Often written in hiragana.
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: ずつ
+    toast: |-
+      That means "a little at a time / in increments."
+      It describes gradual change or distribution, not continuous time.
+  - answer: もっと
+    toast: |-
+      That means "more".
+      It compares amounts/degree rather than describing a long duration.
+  - answer: ずっとも
+    toast: |-
+      That includes the particle も.
+      It emphasizes "even (if)" or adds contrast, not just plain "for a long time".
+- id: g-22-sodateru
+  prompt: to raise; to bring up
+  answer: 育てる
+  hint: |-
+    sodateru — to raise (a child/animal) or grow (plants)
+    Often used with を: 子どもを育てる / 野菜を育てる
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 育つ
+    toast: |-
+      That's the intransitive form.
+      Something grows/gets raised on its own (no direct object).
+  - answer: 養う
+    toast: |-
+      That's "to support/maintain" (provide for).
+      Often about financial support or keeping someone/something alive.
+  - answer: 飼う
+    toast: |-
+      That's specifically "to keep/raise (an animal as a pet)".
+      Used for pets/livestock rather than general upbringing or growing plants.
+- id: g-22-sonnakoto
+  prompt: I don’t think so.
+  answer: そんなこと（は）ない
+  hint: |-
+    sonna koto (wa) nai - used to deny what was just said ("That's not true/No way").
+    （は） is often omitted in casual speech: そんなことない
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: そうじゃない
+    toast: |-
+      That means "That's not it / That's not the case".
+      More direct correction; not the fixed "such a thing doesn't exist" style denial.
+  - answer: そんなわけない
+    toast: |-
+      That means "No way / That's impossible".
+      Stronger and more emphatic; often used for disbelief.
+  - answer: そんなことないよ
+    toast: |-
+      That adds a sentence-ending よ.
+      It sounds more casual and reassuring; the prompt is for the base expression.
+- id: g-22-taipu
+  prompt: type
+  answer: タイプ
+  hint: taipu (katakana) — used for “type/kind” or “to type (on a keyboard)” as タイプする
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: たいぷ
+    toast: |-
+      That's hiragana.
+      The prompt expects katakana for a loanword.
+  - answer: タープ
+    toast: |-
+      Careful: the long vowel mark 「ー」 changes the sound.
+      This one has a long “aa” sound.
+  - answer: テープ
+    toast: |-
+      Different first vowel.
+      This starts with 「テ」 (te), not 「タ」 (ta).
+- id: g-22-tanoshiso
+  prompt: joyfully
+  answer: 楽しそうに
+  hint: tanoshisou ni — 「楽しそうだ」(looks like having fun) + に (adverb). Used for how
+    someone appears/acts, not necessarily their true feelings.
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 楽しげに
+    toast: |-
+      Close, but this uses げ to mean "with an air of / in a ...-looking way".
+      Often a bit more literary than そう.
+  - answer: 嬉しそうに
+    toast: |-
+      This is "happily/gladly" (feeling pleased).
+      Different nuance from "having fun / enjoyable".
+  - answer: 楽しみに
+    toast: |-
+      This means "looking forward to" (anticipation).
+      It’s about expectation, not the visible manner of doing something.
+- id: g-22-chan
+  prompt: suffix for names of children
+  answer: ～ちゃん
+  hint: chan - affectionate name suffix (esp. for kids, close friends, pets); attach
+    to a name (e.g., たろうちゃん)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: ～さん
+    toast: |-
+      That's the polite, neutral honorific.
+      Used for general respect; not the cute/affectionate kids-style suffix.
+  - answer: ～くん
+    toast: |-
+      That's often used for boys/younger males or subordinates.
+      More casual than the polite honorific, but not the cute childlike suffix.
+  - answer: ～さま
+    toast: |-
+      That's a very respectful/formal honorific.
+      Used for customers, letters, and high respect—not for a cute nickname style.
+- id: g-22-tetsuya
+  prompt: to stay up all night
+  answer: 徹夜する
+  hint: tetsuya suru — to pull an all-nighter (often for studying/work). 徹夜 = staying
+    awake all night
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 夜更かしする
+    toast: |-
+      That's “to stay up late” (not necessarily all night).
+      Often just going to bed very late.
+  - answer: 寝不足
+    toast: |-
+      That's “lack of sleep.”
+      It describes the condition, not the act of staying awake.
+  - answer: 徹夜
+    toast: |-
+      That's the noun form.
+      The prompt expects the verb form with する.
+- id: g-22-toka
+  prompt: '... for example (quoting/introducing examples with “...とか”)'
+  answer: ～とか
+  hint: toka — used after words/phrases to give an example; often used in lists like
+    AとかBとか (“A and B, for instance”).
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: ～など
+    toast: |-
+      That means “etc.” / “and so on.”
+      It lists examples more generally and doesn’t have the same quoted “for example” feel.
+  - answer: 例えば
+    toast: |-
+      That’s the standalone word “for example.”
+      The prompt is for the particle-like form attached after an example.
+  - answer: ～というか
+    toast: |-
+      That’s used to rephrase or correct yourself (“or rather…”).
+      It’s not for listing examples.
+- id: g-22-nandaka
+  prompt: somehow
+  answer: なんだか
+  hint: 'nandaka — used when you can’t explain why: なんだか眠い (Somehow I’m sleepy).'
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: なんとなく
+    toast: |-
+      That's "somehow / without any particular reason"!
+      It often implies doing/feeling something vaguely, without clear intention.
+  - answer: どうにか
+    toast: |-
+      That's "somehow / by some means"!
+      It suggests managing to do something, often with effort or barely.
+  - answer: なぜか
+    toast: |-
+      That's "for some reason"!
+      It asks about an unknown reason rather than a vague, hard-to-pin-down feeling.
+- id: g-22-nigeru
+  prompt: to run away; to escape
+  answer: 逃げる
+  hint: |-
+    nigeru (ru-verb) — often used for escaping danger/responsibility
+    Ex: 彼は家から逃げた。
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 走る
+    toast: |-
+      That's “to run” (movement), not necessarily escaping.
+      This is about fleeing/escaping from something.
+  - answer: 避ける
+    toast: |-
+      That's “to avoid” (to steer clear).
+      This is about not getting involved, rather than fleeing.
+  - answer: 隠れる
+    toast: |-
+      That's “to hide”.
+      This is about concealing yourself, not getting away from a place/situation.
+- id: g-22-hakobu
+  prompt: to carry
+  answer: 運ぶ
+  hint: hakobu (う-v.) — to carry/transport; often used for carrying something to another
+    place
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 持つ
+    toast: |-
+      That's "to hold/have"!
+      It focuses on possessing or holding, not transporting from place to place.
+  - answer: 運ぶ
+    toast: |-
+      Careful with the writing:
+      Make sure the left radical is 辶 (movement) with the final long sweep, not ⻌ or a boxed shape.
+  - answer: 搬ぶ
+    toast: |-
+      That's not the usual spelling in modern Japanese.
+      This meaning is typically written with a different kanji in everyday use.
+- id: g-22-hantai
+  prompt: to oppose; to object to
+  answer: 反対する
+  hint: 'hantaisuru — often used with に: 「〜に反対する」 = to oppose ~'
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 賛成する
+    toast: |-
+      That's “to agree/support” (the opposite meaning).
+      Used when you are in favor of a proposal.
+  - answer: 抗議する
+    toast: |-
+      That's “to protest.”
+      This is a stronger action (often public/voiced protest), not just being against something.
+  - answer: 反抗する
+    toast: |-
+      That's “to rebel/defy.”
+      Usually resisting authority or orders, more like rebellion than objection.
+- id: g-22-hitorigu
+  prompt: living alone
+  answer: 一人暮らし
+  hint: hitorigurashi — a lifestyle/household term (e.g., 一人暮らしです “I live alone.”)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 独り暮らし
+    toast: |-
+      This uses a different kanji for “alone.”
+      Often used with a nuance of being by oneself/solitary rather than just “one-person household.”
+  - answer: 一人暮らす
+    toast: |-
+      That’s a verb form (“to live alone”).
+      The prompt is for the noun form used as a lifestyle/condition.
+  - answer: 一人住まい
+    toast: |-
+      This is another common word meaning “living alone.”
+      Different kanji: “reside” vs “daily living.”
+- id: g-22-hirou
+  prompt: to pick up (something)
+  answer: 拾う
+  hint: hirou — to pick up something from the ground; also used for “to find/come
+    across” (拾った財布 = a wallet I found)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 取る
+    toast: |-
+      That's “to take/get” in general.
+      It’s not specifically about picking something up from the ground.
+  - answer: 拾い
+    toast: |-
+      That's the noun/masu-stem form.
+      The prompt is for the dictionary verb form ending in う.
+  - answer: 捨てる
+    toast: |-
+      That's “to throw away.”
+      Opposite direction: discarding instead of picking up.
+- id: g-22-binbou
+  prompt: poor
+  answer: 貧乏
+  hint: binbou (na) — な-adj; often used as 貧乏な人 (a poor person) or 貧乏で… (being poor
+    and…).
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 不便
+    toast: |-
+      That's "inconvenient" (fuben)!
+      It means something is hard to use or not convenient, not lacking money.
+  - answer: 貧しい
+    toast: |-
+      That's "poor" too, but a different word (mazushii)!
+      Often used for poverty in a broader sense; this one is a な-adj noun-type word.
+  - answer: 乏しい
+    toast: |-
+      That's "scarce/insufficient" (toboshii)!
+      It describes a lack of something (time, resources), not necessarily being poor.
+- id: g-22-buka
+  prompt: subordinate
+  answer: 部下
+  hint: buka — a subordinate in a company/organization (someone under you in rank)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 部長
+    toast: |-
+      That's a manager/department head.
+      This is a higher rank, not someone who reports to you.
+  - answer: 手下
+    toast: |-
+      That's a henchman/lackey.
+      It has a more negative/crime-story nuance than workplace hierarchy.
+  - answer: 後輩
+    toast: |-
+      That's a junior (in seniority), like in school or a workplace.
+      It's based on senior–junior relationship, not necessarily being your direct report.
+- id: g-22-fukushuu
+  prompt: review of a lesson
+  answer: 復習
+  hint: 'fukushuu — to review/refresh what you already learned (often: 予習 prep, 復習
+    review)'
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 予習
+    toast: |-
+      That's "pre-study" (preparation before class).
+      Look for the sense of "before" vs reviewing after.
+  - answer: 復讐
+    toast: |-
+      That's "revenge" — same reading but different meaning.
+      Watch the right-hand character: it involves "speech/words" instead of "to learn".
+  - answer: 練習
+    toast: |-
+      That's "practice" (drills/doing exercises).
+      This prompt is about going back over learned material, not training a skill.
+- id: g-22-futsuka
+  prompt: for two days
+  answer: 二日間
+  hint: 'futsukakan — duration expression: 二日 (two days) + 間 (period of time).'
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 二日
+    toast: |-
+      That means "two days" (the length of time), but it's missing the "interval/period" kanji.
+      Add the time-span marker for "for ~ days".
+  - answer: 二日間に
+    toast: |-
+      That's adding the particle に.
+      The prompt is just the duration phrase without particles.
+  - answer: 三日間
+    toast: |-
+      That's "for three days."
+      Check the number kanji at the start.
+- id: g-22-project
+  prompt: project
+  answer: プロジェクト
+  hint: 'purojekuto (katakana loanword). Often used for work/IT projects: プロジェクトを進める'
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: プロダクト
+    toast: |-
+      That's “product”.
+      One is about an ongoing plan/undertaking; the other is the finished item/service.
+  - answer: プログラム
+    toast: |-
+      That's “program”.
+      This is code/a scheduled program, not an overall project plan.
+  - answer: プロセス
+    toast: |-
+      That's “process”.
+      This focuses on steps/procedure rather than the whole project.
+- id: g-22-perapera
+  prompt: fluent
+  answer: ぺらぺら（な）
+  hint: perapera (na) - fluent (esp. speaking a language); often used like「日本語がぺらぺらだ」
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 流暢（な）
+    toast: |-
+      That's a formal/kanji word meaning "fluent".
+      The prompt expects the casual onomatopoeic expression.
+  - answer: すらすら
+    toast: |-
+      That's "smoothly" (no pauses), often about reading/writing/speaking flow.
+      The prompt is specifically the common expression for being fluent in a language.
+  - answer: ぺこぺこ（な）
+    toast: |-
+      That's "very hungry" or "bowing repeatedly" depending on context.
+      Watch the middle consonant sound and meaning.
+- id: g-22-hotto
+  prompt: to leave (someone/something) alone; to neglect
+  answer: 放っておく
+  hint: hotte oku — literally “leave it as-is”; used for leaving someone/something
+    alone or neglecting it
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 置いておく
+    toast: |-
+      That's “to put/leave something somewhere” (to keep it there).
+      It’s about placement/storage, not neglecting or ignoring.
+  - answer: ほっとく
+    toast: |-
+      That's the casual contracted form.
+      The prompt expects the full spelling (with kanji) rather than the slangy abbreviation.
+  - answer: 放置する
+    toast: |-
+      That's a more formal/technical “to leave unattended/abandon.”
+      The prompt is for the everyday expression with 〜ておく.
+- id: g-22-ball
+  prompt: ball
+  answer: ボール
+  hint: bōru (katakana) — long vowel ー in the middle
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: ぼーる
+    toast: |-
+      That's hiragana.
+      The prompt expects katakana for a loanword.
+  - answer: ポール
+    toast: |-
+      Watch the diacritic marks.
+      This one uses a small circle (handakuten) instead of two dots.
+  - answer: ビール
+    toast: |-
+      Different first character.
+      Be careful not to add two dots to the first katakana.
+- id: g-22-honyaku
+  prompt: to translate
+  answer: 翻訳する
+  hint: |-
+    honyaku suru — to translate (language)
+    Often used as 翻訳する (a document) / ～を翻訳する
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 通訳する
+    toast: |-
+      That's "to interpret" (spoken, real-time).
+      This is for live conversation, not written translation.
+  - answer: 訳す
+    toast: |-
+      That's a shorter verb meaning "to translate".
+      More casual/simple; often used when translating a passage.
+  - answer: 翻訳
+    toast: |-
+      That's the noun "translation".
+      The prompt needs the verb form with する.
+- id: g-22-makeru
+  prompt: to lose (a match)
+  answer: 負ける
+  hint: makeru — used for losing a game/match/competition (vs. 勝つ).
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 勝てる
+    toast: |-
+      That's "can win"!
+      This is the opposite outcome (winning), not losing.
+  - answer: 負う
+    toast: |-
+      That's a different verb meaning "to bear/owe".
+      Be careful: it's shorter and doesn't express losing a match.
+  - answer: 負け
+    toast: |-
+      That's the noun form "a loss/defeat".
+      The prompt wants the verb form ending in る.
+- id: g-22-machido
+  prompt: to wait eagerly for . . .
+  answer: 待ち遠しい
+  hint: machidooshii (まちどおしい) - used when you’re looking forward to something so much
+    you can’t wait
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 楽しみ
+    toast: |-
+      That means "looking forward to it / excited".
+      This prompt is about the feeling of not being able to wait (impatient eagerness).
+  - answer: 待つ
+    toast: |-
+      That’s just "to wait".
+      This prompt needs the nuance of waiting eagerly/longingly.
+  - answer: 待ち望む
+    toast: |-
+      That means "to long for / to hope for".
+      This one is more like wishing/aspiring; the prompt is about eager anticipation while waiting.
+- id: g-22-muda
+  prompt: to be in time
+  answer: 間に合う
+  hint: maniau — used for making it on time / being sufficient (e.g., 時間に間に合う)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 間に合わない
+    toast: |-
+      That's the negative form.
+      It means you won't make it in time / it won't be enough.
+  - answer: 間に合わせる
+    toast: |-
+      That's the causative form.
+      It means to make something in time (to meet a deadline).
+  - answer: 間に合います
+    toast: |-
+      That's the polite form.
+      Same meaning, but in ます-style speech.
+- id: g-22-message
+  prompt: waste (money)
+  answer: 無駄遣い
+  hint: mudazukai — spending money needlessly; often used as 「〜を無駄遣いする」
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 浪費
+    toast: |-
+      That's "wasteful spending" (often in a more serious/financial sense).
+      This one is a noun that frequently appears in formal contexts.
+  - answer: 無駄
+    toast: |-
+      That's just "waste/uselessness" in general.
+      The prompt is specifically about spending/using up money.
+  - answer: 無駄使い
+    toast: |-
+      Close, but this uses a different kanji for "つかい".
+      Be careful: the spending/using meaning here is written with a different character.
+- id: g-22-menkyo
+  prompt: message; text
+  answer: メッセージ
+  hint: messēji — long vowel ー and small ッ (pause) in メッセージ
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: メッセイジ
+    toast: |-
+      Close, but the last part is different.
+      Watch the 「ジ／ージ」 sound and write it as one unit.
+  - answer: メセージ
+    toast: |-
+      Missing the small ッ.
+      That small ッ indicates a brief pause (double consonant).
+  - answer: めっせーじ
+    toast: |-
+      That's hiragana.
+      The prompt expects katakana for this loanword.
+- id: g-22-mousuko
+  prompt: license
+  answer: 免許
+  hint: menkyo — often 免許証 (めんきょしょう) “license card” (e.g., driver’s license)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 許可
+    toast: |-
+      That's “permission/approval”!
+      This is about being allowed to do something, not an official license you hold.
+  - answer: 運転免許
+    toast: |-
+      That's specifically a “driver’s license”!
+      The prompt is asking for the general word.
+  - answer: 免税
+    toast: |-
+      That's “tax-free/exemption from tax”!
+      It uses a similar first kanji but refers to taxes, not a license.
+- id: g-22-yuuki
+  prompt: a little more
+  answer: もう少し
+  hint: mou sukoshi — used to ask/expect a small additional amount (e.g., もう少し待って
+    = wait a bit more)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: もうちょっと
+    toast: |-
+      That's a more casual, spoken expression.
+      This prompt expects the version that uses 少し.
+  - answer: もうすこし
+    toast: |-
+      That's all-hiragana.
+      The prompt expects you to include the kanji for the last part.
+  - answer: あと少し
+    toast: |-
+      That means "just a little left / almost" (remaining amount).
+      This prompt is about "a little more" as an additional amount.
+- id: g-22-europe
+  prompt: courage
+  answer: 勇気
+  hint: yuuki — courage/bravery; often used in phrases like 勇気を出す (to muster courage).
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 元気
+    toast: |-
+      That's "energy/health"!
+      This is about feeling well/energetic, not bravery.
+  - answer: 有機
+    toast: |-
+      That's "organic"!
+      This one is used in science/food contexts (organic compounds, organic farming).
+  - answer: 勇者
+    toast: |-
+      That's "hero/brave person"!
+      This refers to a person, not the feeling/quality.
+- id: g-22-yoshuu
+  prompt: Europe
+  answer: ヨーロッパ
+  hint: Yooroppa (katakana). Long vowel mark 「ー」 after ヨ, and small 「ッ」 before パ.
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: よーろっぱ
+    toast: |-
+      That's hiragana.
+      This prompt expects the loanword written in katakana.
+  - answer: ヨーロパ
+    toast: |-
+      Missing the small 「ッ」.
+      Without it, the consonant isn’t doubled.
+  - answer: ヨーロッバ
+    toast: |-
+      Check the last character.
+      This one ends with 「バ」 (dakuten), not the plain sound.
+- id: g-22-raku
+  prompt: preparation of a lesson
+  answer: 予習
+  hint: yoshuu — studying in advance (before class); often used as 予習する
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 復習
+    toast: |-
+      That's "review" after learning.
+      This one uses 復 (return/repeat) and is done after class.
+  - answer: 練習
+    toast: |-
+      That's "practice" (drills/doing exercises).
+      Not specifically about studying before a lesson.
+  - answer: 予想
+    toast: |-
+      That's "prediction/expectation."
+      The second kanji is different and relates to guessing, not studying.
+- id: g-22-61
+  prompt: easy; comfortable (na-adjective)
+  answer: 楽
+  hint: |-
+    raku (na)
+    Used for “comfortable/easy” situations: 楽(な)です / 楽にする
+  strokeCount: 13
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 薬
+    toast: |-
+      That means “medicine.”
+      Watch the top: this one has the grass radical (艹).
+  - answer: 音
+    toast: |-
+      That means “sound.”
+      Be careful: this one has a “standing” top and looks more symmetrical.
+  - answer: 苦
+    toast: |-
+      That means “painful/bitter.”
+      Opposite meaning; also has the grass radical (艹) on top.

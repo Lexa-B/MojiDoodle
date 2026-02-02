@@ -1,0 +1,16 @@
+# Hiragana だ Row (Dakuten)
+# da, di, du, de, do
+
+id: h_da
+name: "Hiragana だ Row"
+status: locked
+requires:
+  - h_za
+supercedes: []
+
+ids:
+  - h-da
+  - h-di
+  - h-du
+  - h-de
+  - h-do

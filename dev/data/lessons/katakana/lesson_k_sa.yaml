@@ -1,0 +1,16 @@
+# Katakana サ Row
+# sa, shi, su, se, so
+
+id: k_sa
+name: "Katakana サ Row"
+status: locked
+requires:
+  - k_ka
+supercedes: []
+
+ids:
+  - k-sa
+  - k-shi
+  - k-su
+  - k-se
+  - k-so

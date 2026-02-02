@@ -1,0 +1,67 @@
+# Genki Chapter 2 Vocabulary
+
+id: g_02
+name: "Genki Chapter 2"
+status: locked
+requires:
+  - g_01
+supercedes: []
+
+ids:
+  - g-02-asoko
+  - g-02-ano
+  - g-02-are
+  - g-02-ikura
+  - g-02-isu
+  - g-02-irasshai
+  - g-02-eigo
+  - g-02-yen
+  - g-02-oishii
+  - g-02-onegai
+  - g-02-curtain
+  - g-02-kasa
+  - g-02-kaban
+  - g-02-ginko
+  - g-02-kudasai
+  - g-02-kutsu
+  - g-02-keshig
+  - g-02-kokuban
+  - g-02-koko
+  - g-02-kono
+  - g-02-kore
+  - g-02-konbini
+  - g-02-saifu
+  - g-02-sakana
+  - g-02-jeans
+  - g-02-jisho
+  - g-02-jitensha
+  - g-02-jaa
+  - g-02-shinbun
+  - g-02-sumaho
+  - g-02-soko
+  - g-02-sono
+  - g-02-sore
+  - g-02-takai
+  - g-02-dare
+  - g-02-tsukue
+  - g-02-tshirt
+  - g-02-denki
+  - g-02-doa
+  - g-02-toire
+  - g-02-douzo
+  - g-02-doumo
+  - g-02-tokei
+  - g-02-doko
+  - g-02-toshokan
+  - g-02-dono
+  - g-02-dore
+  - g-02-tonkatsu
+  - g-02-niku
+  - g-02-note
+  - g-02-pen
+  - g-02-boshi
+  - g-02-hon
+  - g-02-mado
+  - g-02-menu
+  - g-02-yasai
+  - g-02-yubin

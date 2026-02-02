@@ -1,0 +1,1749 @@
+- id: g-17-akachan
+  prompt: baby
+  answer: 赤ちゃん
+  hint: akachan — common, affectionate word for a baby; often written with ちゃん in
+    hiragana
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 赤ん坊
+    toast: |-
+      That's a more formal word for an infant.
+      This one uses 坊 and is not the casual "-chan" form.
+  - answer: 子ども
+    toast: |-
+      That's "child/kid," not specifically a baby.
+      It refers to a broader age range.
+  - answer: 新生児
+    toast: |-
+      That's "newborn" in a medical/formal sense.
+      It refers specifically to the newborn period.
+- id: g-17-abunai
+  prompt: dangerous
+  answer: 危ない
+  hint: abunai — い-adjective meaning dangerous/unsafe; often used as a warning (e.g.,
+    危ない！)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 危うい
+    toast: |-
+      That's read "ayaui".
+      It means "precarious / risky" (on the verge), not a general warning of danger.
+  - answer: 危険
+    toast: |-
+      That's a noun ("kiken").
+      Used for "danger" as a concept/sign (e.g., 危険！), not an い-adjective.
+  - answer: 怖い
+    toast: |-
+      That's read "kowai".
+      It means "scary / frightening" (feeling fear), not "dangerous/unsafe".
+- id: g-17-brew
+  prompt: To make tea, coffee, etc.
+  answer: いれる
+  hint: ireru — often written as 「お茶をいれる」 (to brew tea) / 「コーヒーをいれる」 (to make coffee)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 入れる
+    toast: |-
+      This is the kanji spelling.
+      The prompt expects the all-kana form, so write it in hiragana.
+  - answer: 淹れる
+    toast: |-
+      This kanji specifically means “to brew (tea/coffee)”.
+      Here, you should use the kana-only form.
+  - answer: 入る
+    toast: |-
+      That's the intransitive verb “to enter”.
+      This prompt is about preparing a drink (transitive usage).
+- id: g-17-urayama
+  prompt: envious
+  answer: うらやましい
+  hint: urayamashii — used when you envy someone’s situation/thing (e.g., うらやましいな)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: ねたましい
+    toast: |-
+      That means "jealous/spiteful".
+      It often implies resentment or ill will, not just admiration-based envy.
+  - answer: くやしい
+    toast: |-
+      That means "frustrated/regretful".
+      It’s about feeling upset at losing or failing, not envying someone else.
+  - answer: いいな
+    toast: |-
+      That’s "Nice!/Lucky!".
+      It’s a casual reaction of admiration and doesn’t directly mean feeling envy.
+- id: g-17-eikyo
+  prompt: to be affected
+  answer: 影響を受ける
+  hint: eikyō o ukeru — used for being influenced/affected by something (Xの影響を受ける).
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 影響を与える
+    toast: |-
+      That's "to affect/influence" (to give influence).
+      Check direction: giving vs receiving.
+  - answer: 影響する
+    toast: |-
+      That's "to influence" as a verb.
+      This one is a shorter form and not the same pattern as Xを〜.
+  - answer: 感化される
+    toast: |-
+      That's "to be influenced" in a more personal/moral sense.
+      Often used for people/attitudes rather than general effects.
+- id: g-17-erabu
+  prompt: to choose; to select
+  answer: 選ぶ
+  hint: erabu — to choose from options (e.g., メニューから選ぶ).
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 選べる
+    toast: |-
+      That's the potential form (“can choose”).
+      The prompt is the dictionary form (plain verb).
+  - answer: 決める
+    toast: |-
+      That's “to decide.”
+      This one emphasizes making a decision, not selecting among options.
+  - answer: 拾ぶ
+    toast: |-
+      That's a different verb/kanji.
+      Be careful: it means “to pick up,” not “to select.”
+- id: g-17-inori
+  prompt: to pray
+  answer: お祈りする
+  hint: oinori suru — polite/neutral verb meaning “to pray” (often used for wishes
+    like ご無事をお祈りします).
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 祈る
+    toast: |-
+      That’s the plain verb form.
+      The prompt expects the “〜する” expression with the honorific prefix.
+  - answer: お願いする
+    toast: |-
+      That means “to request/ask a favor.”
+      It’s about asking someone, not praying.
+  - answer: お参りする
+    toast: |-
+      That means “to visit a shrine/temple.”
+      It describes going there, not the act of praying itself.
+- id: g-17-okyaku
+  prompt: guest; visitor; client; customer
+  answer: お客さん
+  hint: okyaku-san — polite term for a customer/guest; often used by staff toward
+    customers.
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 客
+    toast: |-
+      This is just the kanji for "guest" by itself.
+      The prompt is asking for the polite full word with prefix + suffix.
+  - answer: お客様
+    toast: |-
+      This uses a more formal honorific ending.
+      A different level of politeness than the prompt.
+  - answer: お客
+    toast: |-
+      This is a shorter form without the polite suffix.
+      Common in compounds, but not the full polite form.
+- id: g-17-omedeto
+  prompt: Congratulations!
+  answer: おめでとうございます
+  hint: omedetou gozaimasu - polite set phrase; often said with 「〜おめでとうございます」 (e.g.,
+    誕生日おめでとうございます)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: おめでとう
+    toast: |-
+      That’s the casual version.
+      The prompt is aiming for a more polite/formal expression (often used with seniors, customers, formal occasions).
+  - answer: お祝いします
+    toast: That means “to celebrate” (a verb), not the set congratulatory phrase you
+      say to someone.
+  - answer: ありがとうございます
+    toast: |-
+      That’s “thank you.”
+      This is used to express gratitude, not to congratulate someone.
+- id: g-17-omoni
+  prompt: mainly
+  answer: 主に
+  hint: omoni — used to mean “primarily/mostly,” often with 主に〜(は) like “主に学生です” (I’m
+    mainly a student).
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 主な
+    toast: |-
+      That's the adjectival form (“main/primary”)!
+      Use it before a noun (e.g., about the main reason), not as an adverb.
+  - answer: 主として
+    toast: |-
+      That's a more formal/written “mainly/primarily”!
+      This one often appears in official or academic writing.
+  - answer: 主役
+    toast: |-
+      That's “leading role / protagonist”!
+      Different meaning: it refers to the main character or main performer.
+- id: g-17-oyu
+  prompt: hot water
+  answer: お湯
+  hint: oyu — polite お + 湯 (ゆ, hot water). Often used for bathing or making tea.
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: お水
+    toast: |-
+      That's "water"!
+      This uses the water kanji (more general), not specifically heated water.
+  - answer: お茶
+    toast: |-
+      That's "tea"!
+      This is the drink itself, not the hot water used to make it.
+  - answer: お風呂
+    toast: |-
+      That's "bath"!
+      This refers to the bath/bathroom, not the hot water itself.
+- id: g-17-yuwakasu
+  prompt: to boil water
+  answer: お湯を沸かす
+  hint: oyu o wakasu — お湯(おゆ)=hot water; 沸かす=to bring to a boil (transitive, you boil
+    something)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 湯を沸かす
+    toast: |-
+      Missing the honorific prefix.
+      In everyday Japanese, adding お- makes it sound more natural/polite for hot water.
+  - answer: お湯が沸く
+    toast: |-
+      This is intransitive: "the water boils" by itself.
+      The prompt is about boiling something (you do it).
+  - answer: 水を沸かす
+    toast: |-
+      This says "boil (cold) water".
+      The prompt is specifically about hot water (like for tea/bath).
+- id: g-17-kagi
+  prompt: lock; key
+  answer: 鍵
+  hint: kagi — often means “key” (e.g., 鍵をかける = to lock)
+  strokeCount: 17
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 銀
+    toast: |-
+      Looks similar because of the metal radical (金/釒) on the left.
+      Check the right side: this one has a simpler component and fewer small parts.
+  - answer: 錠
+    toast: |-
+      This is “lock” (as in a lock mechanism), not “key.”
+      The right side uses a different component; watch the shape and placement of the strokes.
+  - answer: 鉛
+    toast: |-
+      Also has the metal radical on the left.
+      The right side here is a different structure; be careful not to round it into the “mouth”-like shape.
+- id: g-17-kagikake
+  prompt: to lock
+  answer: 鍵をかける
+  hint: kagi o kakeru — use for locking a door/bike, etc. (かける = “to put on/apply”)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 鍵を開ける
+    toast: |-
+      That means “to unlock/open (a lock)”.
+      開ける is “open”, used for doors/locks.
+  - answer: 戸を閉める
+    toast: |-
+      That means “to close a door”.
+      Closing isn’t the same as securing it with a lock.
+  - answer: 鍵をする
+    toast: |-
+      That also means “to lock”, but it’s a shorter expression.
+      Be careful not to swap かける and する forms.
+- id: g-17-kake-key
+  prompt: To lock (e.g., a key/door)
+  answer: かける（鍵を）
+  hint: kakeru (kagi o) — used as 鍵をかける “to lock (a door)”
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 開ける
+    toast: |-
+      That's “to open”!
+      This is the opposite action (unlock/open) rather than securing something.
+  - answer: 閉める
+    toast: |-
+      That's “to close”!
+      Closing a door isn’t the same as locking it with a key.
+  - answer: かける（電話を）
+    toast: |-
+      That means “to make a phone call”!
+      Same verb reading, but the object changes the meaning.
+- id: g-17-kake-perm
+  prompt: to have one’s hair permed
+  answer: かける（パーマを）
+  hint: kakeru (paama o) - used for getting a perm (パーマをかける). Not the same as 掛ける/懸ける
+    meanings like “to hang” or “to bet.”
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 切る（髪を）
+    toast: |-
+      That means “to cut (hair).”
+      Different action: haircut, not a chemical treatment.
+  - answer: 染める（髪を）
+    toast: |-
+      That means “to dye (hair).”
+      Color change, not changing curl/texture.
+  - answer: かける（電話を）
+    toast: |-
+      That means “to make a phone call.”
+      Same verb reading, but a totally different common set phrase.
+- id: g-17-kaji
+  prompt: fire
+  answer: 火事
+  hint: kaji — house/building fire (not a campfire). Often used in 火事だ！("Fire!")
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 花火
+    toast: |-
+      That's "fireworks"!
+      This is about entertainment fireworks, not a dangerous building fire.
+  - answer: 火山
+    toast: |-
+      That's "volcano"!
+      This refers to a mountain/eruption, not an accidental fire.
+  - answer: 事故
+    toast: |-
+      That's "accident"!
+      This is a general mishap; the prompt is specifically about a fire.
+- id: g-17-kazoeru
+  prompt: to count
+  answer: 数える
+  hint: kazoeru (ru-verb) — used for counting things (often with counters, e.g., 人・枚・回).
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 計算する
+    toast: |-
+      That's "to calculate"!
+      This is doing arithmetic rather than counting items one by one.
+  - answer: 数え
+    toast: |-
+      That's the stem/masu-form base!
+      The prompt expects the dictionary form ending in ～る.
+  - answer: 数
+    toast: |-
+      That's only the kanji meaning "number"!
+      The prompt expects a verb form (includes okurigana).
+- id: g-17-cutto
+  prompt: cut
+  answer: カット
+  hint: katto — loanword used for a haircut or a cut/edit (e.g., カットする).
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: カチット
+    toast: |-
+      That's "kachitto" (a clicking/snapping sound).
+      It includes an extra チ and small ッ, and is usually an onomatopoeia.
+  - answer: キャット
+    toast: |-
+      That's "kyatto" (cat).
+      It uses a small ャ to make a "kya" sound.
+  - answer: カットー
+    toast: |-
+      That's not standard spelling.
+      A long vowel mark (ー) is generally not used for this word.
+- id: g-17-kana
+  prompt: I wonder... (casual)
+  answer: ～かな（あ）
+  hint: |-
+    kana (a) — sentence-ending particle used for wondering to yourself / lightly asking.
+    例: どうしようかな。= I wonder what I should do.
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: ～かしら
+    toast: |-
+      That's a more feminine-sounding "I wonder...".
+      Often used by women; feels softer/older-fashioned in casual speech.
+  - answer: ～かな？
+    toast: |-
+      That's the question version with a question mark.
+      It feels more like asking someone (seeking confirmation) than just wondering to yourself.
+  - answer: ～かも
+    toast: |-
+      That's "maybe".
+      It expresses uncertainty/possibility rather than wondering or musing.
+- id: g-17-kami
+  prompt: paper
+  answer: 紙
+  hint: kami — 紙 (paper). Left side is the thread radical 糸, often related to paper/cloth.
+  strokeCount: 10
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 神
+    toast: |-
+      That's "god/spirit"!
+      Watch the left side: 礻 (altar radical) vs 糸 (thread radical).
+  - answer: 髪
+    toast: |-
+      That's "hair"!
+      It has the hair radical on top (髟), making it much more complex.
+- id: g-17-kamigata
+  prompt: hairstyle
+  answer: 髪形
+  hint: kamigata — often refers to a person’s hairdo/style (e.g., 髪形を変える).
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 髪型
+    toast: |-
+      Close, but different kanji choice.
+      One uses the kanji for “type/model,” often seen in everyday writing.
+  - answer: 髪の毛
+    toast: |-
+      That means “hair” (the strands), not the style.
+      The prompt is asking for the way hair is arranged.
+  - answer: 頭髪
+    toast: |-
+      That means “head hair” as a general term.
+      It’s not specifically about the style/arrangement.
+- id: g-17-kamitokasu
+  prompt: to comb one’s hair
+  answer: 髪をとかす
+  hint: |-
+    kami o tokasu — use を + とかす (to comb/untangle)
+    Often written as 髪を梳かす too.
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 髪をとく
+    toast: |-
+      That's a more common phrasing meaning “to comb/brush hair.”
+      This prompt expects the causative/transitive feel (“to comb out/untangle”) with a different verb ending.
+  - answer: 神をとかす
+    toast: |-
+      That's “god” (神), not “hair” (髪).
+      Check the left-side radical: hair uses the long hair-like radical.
+  - answer: 髪を溶かす
+    toast: |-
+      That uses the kanji for “to melt/dissolve” (溶かす).
+      Comb/untangle is written with a different verb/kanji.
+- id: g-17-color
+  prompt: hair coloring
+  answer: カラー
+  hint: 'karā — salon word meaning hair dye/coloring (katakana loanword). Long vowel:
+    ー.'
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: カラーリング
+    toast: |-
+      That's the longer form meaning "(hair) coloring".
+      The prompt expects the shorter noun form.
+  - answer: カラ
+    toast: |-
+      That's missing the long vowel mark (ー).
+      Check the vowel length in katakana.
+  - answer: カラーー
+    toast: |-
+      That's an extra long vowel mark.
+      Use only one ー at the end.
+- id: g-17-karu
+  prompt: to crop
+  answer: 刈る
+  hint: karu — to reap/mow (cut plants like grass or rice)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 借りる
+    toast: |-
+      That's “to borrow”!
+      This one uses a different first kanji (person/borrow), not cutting plants.
+  - answer: 狩る
+    toast: |-
+      That's “to hunt”!
+      Watch the left side: this one has the animal radical (犭), not the knife/cutting radical.
+  - answer: 切る
+    toast: |-
+      That's “to cut” (general)!
+      The prompt is specifically for cutting down plants (reap/mow).
+- id: g-17-kansei
+  prompt: to be completed
+  answer: 完成する
+  hint: kansei suru — to be completed/finished (often for projects, products, works)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 完了する
+    toast: |-
+      That's "to be finished/terminated" (often tasks or procedures).
+      It’s more about an item being done, not necessarily a work being fully formed.
+  - answer: 達成する
+    toast: |-
+      That's "to achieve".
+      Used for goals/targets, not for something being completed as a finished product.
+  - answer: 完成
+    toast: |-
+      That's the noun form "completion".
+      The prompt expects a verb form ending in する.
+- id: g-17-kyuryo
+  prompt: salary
+  answer: 給料
+  hint: kyuuryou — wages/pay (often monthly pay from a company)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 給与
+    toast: |-
+      That's another common spelling.
+      Often used in formal contexts (e.g., payroll, compensation).
+  - answer: 給食
+    toast: |-
+      That's "school lunch".
+      Different second kanji: "meal/food" vs. pay.
+  - answer: 料金
+    toast: |-
+      That's a "fee/charge" (like admission or service fees).
+      Not money you receive from work.
+- id: g-17-kumo
+  prompt: cloud
+  answer: 雲
+  hint: kumo — 12 strokes
+  strokeCount: 12
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 電
+    toast: |-
+      That's "electric" (as in electricity)!
+      Watch the bottom: this one has a clear "rain" top but a different lower part.
+  - answer: 雷
+    toast: |-
+      That's "thunder"!
+      It looks weather-related too, but the lower component is different.
+  - answer: 雪
+    toast: |-
+      That's "snow"!
+      Same weather theme, but this one has different strokes under the top component.
+- id: g-17-geijutsu
+  prompt: art
+  answer: 芸術
+  hint: geijutsu — fine arts/culture; often used in compounds like 芸術家 (artist)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 美術
+    toast: |-
+      That's "fine arts" (often visual arts like painting).
+      This one uses the kanji for "beauty" and is narrower in meaning.
+  - answer: 技術
+    toast: |-
+      That's "technology/technique".
+      It’s about skills and methods, not creative art.
+  - answer: 演芸
+    toast: |-
+      That's "performing entertainment" (stage acts).
+      It refers to performances rather than art in general.
+- id: g-17-keshou
+  prompt: to put makeup on
+  answer: 化粧する
+  hint: keshou suru — to apply makeup (often used as 化粧をする). 化=change, 粧=makeup/appearance.
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 化粧
+    toast: |-
+      That's the noun form ("makeup").
+      The prompt is asking for the "do" form with する.
+  - answer: 仮装する
+    toast: |-
+      That's "to dress up / wear a costume".
+      It uses 仮 (temporary) instead of the makeup word.
+  - answer: 着替える
+    toast: |-
+      That's "to change clothes".
+      This is about clothing, not applying makeup.
+- id: g-17-contacts
+  prompt: contact lenses
+  answer: コンタクト（レンズ）
+  hint: kontakuto (renzu) - often shortened to コンタクト; レンズ is optional in writing
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: コンタクト
+    toast: |-
+      That’s the shortened form.
+      The prompt expects the full expression with the optional part in parentheses.
+  - answer: メガネ
+    toast: |-
+      That’s "glasses".
+      Different item you wear on your face.
+  - answer: レンズ
+    toast: |-
+      That’s just "lens".
+      The prompt is specifically about the wearable item, not a lens in general.
+- id: g-17-saiaku
+  prompt: the worst
+  answer: 最悪
+  hint: saiaku (na-adj.) — often used as 「最悪だ」 / 「最悪な〜」 to say something is terrible
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 最低
+    toast: |-
+      That's "the lowest / the worst" in a moral or evaluative sense.
+      Often used for calling someone or behavior awful, like 最低なやつ.
+  - answer: 悪い
+    toast: |-
+      That's "bad" (general).
+      The prompt is asking for the superlative, meaning the absolute worst.
+  - answer: 最悪い
+    toast: |-
+      That's not a natural form.
+      As a な-adjective, it typically attaches with な or ends with だ (e.g., 〜な / 〜だ).
+- id: g-17-sakuhin
+  prompt: work (of art, etc.)
+  answer: 作品
+  hint: sakuhin — a created work (art, writing, film, etc.); often used as a formal
+    term for an artist’s/author’s work
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 製品
+    toast: |-
+      That's "product" (manufactured item).
+      This one is about something made in a factory or for sale, not an artistic/creative work.
+  - answer: 作業
+    toast: |-
+      That's "work/task" (labor, operation).
+      This one refers to doing tasks or work processes, not a finished creative piece.
+  - answer: 作品集
+    toast: |-
+      That's a "collection" of works.
+      This one implies multiple pieces gathered together, not a single work.
+- id: g-17-salariman
+  prompt: salaryman; office worker
+  answer: サラリーマン
+  hint: sararīman - katakana word meaning a (typically male) company employee in Japan
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: オフィスワーカー
+    toast: |-
+      That's "office worker" in English loanword form.
+      The prompt targets the common Japanese term for a company employee.
+  - answer: 会社員
+    toast: |-
+      That's the kanji form meaning "company employee".
+      Here you need the katakana loanword form.
+  - answer: サラリーマンー
+    toast: |-
+      Watch the long vowel mark "ー" placement.
+      It should extend the "ri" sound, not appear at the end.
+- id: g-17-shi-poem
+  prompt: poem
+  answer: 詩
+  hint: shi — 13 strokes; written works/poetry (often contrasted with 歌 "song")
+  strokeCount: 13
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 誌
+    toast: |-
+      That's "magazine/journal"!
+      Look for the speech radical (言) vs. the "say"-style parts used in publications.
+  - answer: 詞
+    toast: |-
+      That's "lyrics/words" (especially song lyrics)!
+      This one is about wording/phrasing rather than a poem as a work.
+  - answer: 詠
+    toast: |-
+      That's "to compose/recite (a poem)"!
+      This one is a verb related to creating/chanting poetry.
+- id: g-17-shikashi
+  prompt: however
+  answer: しかし
+  hint: shikashi — formal "however/but"; often used at the start of a sentence to
+    contrast with what came before
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: でも
+    toast: |-
+      That’s a more casual "but/however".
+      The prompt is aiming for a more formal transition word.
+  - answer: ところが
+    toast: |-
+      That means "and yet / even so" with a stronger sense of unexpected contrast.
+      Often used when the result is surprising.
+  - answer: しかしながら
+    toast: |-
+      That’s a longer, very formal variant.
+      If the prompt is short, don’t add extra kana.
+- id: g-17-shampoo
+  prompt: shampoo
+  answer: シャンプー
+  hint: shanpuu (katakana loanword; long vowel ー at the end)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: シャンプ
+    toast: |-
+      Missing the long vowel mark.
+      Check if the word ends with a stretched sound (ー).
+  - answer: シャンバー
+    toast: |-
+      Different middle character.
+      Look closely at the small ャ + ン sequence after シ.
+  - answer: しゃんぷー
+    toast: |-
+      That's hiragana.
+      The prompt is a loanword, so it’s usually written in katakana.
+- id: g-17-shushoku
+  prompt: to get a full-time job (at . . . )
+  answer: 就職する
+  hint: shuushoku suru — getting hired for regular employment (e.g., 会社に就職する).
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 転職する
+    toast: |-
+      That's changing jobs.
+      Used when you move from one company/job to another, not first getting regular employment.
+  - answer: 就業する
+    toast: |-
+      That's to be employed / to start work.
+      More formal; focuses on working/being in service rather than getting hired at a company.
+  - answer: 就職
+    toast: |-
+      That's the noun form.
+      The prompt expects a verb expression ending with する.
+- id: g-17-shoot
+  prompt: to be shot
+  answer: 銃で撃たれる
+  hint: juu de utareru — passive form (撃つ → 撃たれる). Often implies being shot (by a
+    gun).
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 撃たれる
+    toast: |-
+      Missing the tool/means phrase.
+      This one just says "to be shot/attacked" without specifying "with a gun".
+  - answer: 銃で撃つ
+    toast: |-
+      That's the active form.
+      This one means "to shoot (someone) with a gun," not "to be shot."
+  - answer: 弾に当たる
+    toast: |-
+      Different expression.
+      This one means "to be hit by a bullet" rather than the passive of "to shoot."
+- id: g-17-shusho
+  prompt: prime minister
+  answer: 首相
+  hint: shushou — Japan’s prime minister (e.g., 日本の首相)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 大統領
+    toast: |-
+      That means “president.”
+      Used for countries with a presidential system, not this role.
+  - answer: 首都
+    toast: |-
+      That means “capital city.”
+      The first kanji is the same, but the second one is different.
+  - answer: 相手
+    toast: |-
+      That means “opponent/partner.”
+      It starts with the same kanji, but it’s a different word and meaning.
+- id: g-17-shufu
+  prompt: house husband
+  answer: 主夫
+  hint: 'shufu — a man who manages the household (contrast: 主婦 for women)'
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 主婦
+    toast: |-
+      That's "housewife".
+      The second kanji means "wife" (woman radical on the left), not "husband".
+  - answer: 夫
+    toast: |-
+      That's just "husband" by itself.
+      The prompt is about being the household manager, so it's a two-kanji noun.
+  - answer: 主
+    toast: |-
+      That's just "main/master".
+      You're missing the second kanji that indicates the role in the household.
+- id: g-17-junbi
+  prompt: preparation
+  answer: 準備
+  hint: 'junbi — often used with する (準備する = to prepare); common collocation: 準備ができた
+    (ready)'
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 用意
+    toast: |-
+      That's more like "getting things ready / having something prepared" (often physical items).
+      The prompt is for a general "preparation" that can include planning.
+  - answer: 支度
+    toast: |-
+      That's "getting ready" (especially personal readiness like clothes, going out).
+      The prompt is broader and used for arrangements/prep work.
+  - answer: 準備中
+    toast: |-
+      That's "in preparation / preparing now".
+      The prompt is the noun form meaning preparation itself, not the "-in progress" expression.
+- id: g-17-mall
+  prompt: shopping mall
+  answer: ショッピングモール
+  hint: |-
+    shoppingu mooru (katakana loanword)
+    Often written with 長音「ー」 for long vowels.
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: ショッピングセンター
+    toast: |-
+      That's "shopping center"!
+      This is a more general term and not necessarily a mall with many stores.
+  - answer: デパート
+    toast: |-
+      That's a "department store"!
+      A single large store, not a complex with many separate shops.
+  - answer: スーパー
+    toast: |-
+      That's a "supermarket"!
+      Mainly for groceries and daily necessities.
+- id: g-17-zuibun
+  prompt: very
+  answer: ずいぶん
+  hint: zuibun — means “quite/very; a lot,” often more than expected (e.g., ずいぶん寒い
+    = quite cold)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: だいぶ
+    toast: |-
+      That means “considerably/quite,” often about how much something has changed or progressed.
+      This prompt is the one that often implies “more than expected.”
+  - answer: とても
+    toast: |-
+      That’s the most direct “very.”
+      This prompt’s word can also mean “a lot” and often carries a nuance of surprise.
+  - answer: かなり
+    toast: |-
+      That means “fairly/quite,” usually describing a high degree.
+      This prompt’s word often feels like “unexpectedly (so).”
+- id: g-17-suku
+  prompt: to thin out (hair)
+  answer: すく
+  hint: suku (u-verb) — e.g., 髪をすく = to thin out hair (remove some volume, not “cut
+    short”).
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: すき
+    toast: |-
+      That ends with き.
+      This one is a different word (often used for “liking” or “gap/space”), not the verb for thinning hair.
+  - answer: すくう
+    toast: |-
+      That has an extra う at the end.
+      This one means “to scoop up/rescue,” not “to thin out hair.”
+  - answer: 透く
+    toast: |-
+      That uses a kanji.
+      This one is used for “to be transparent / to be empty (stomach),” not the hair-thinning action.
+- id: g-17-sukunai
+  prompt: a little; a few
+  answer: 少ない
+  hint: sukunai — used for small quantity/number (e.g., 人が少ない). Often contrasts with
+    多い.
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 少し
+    toast: |-
+      That's "a little" as an adverb/noun.
+      This prompt needs an i-adjective form (ends like an adjective).
+  - answer: 少ないです
+    toast: |-
+      That's the polite form.
+      Here you should write the plain dictionary form only.
+  - answer: 小さい
+    toast: |-
+      That's "small" (size).
+      This prompt is about quantity/number, not physical size.
+- id: g-17-spoon
+  prompt: spoon
+  answer: スプーン
+  hint: supuun (katakana loanword)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: すぷーん
+    toast: |-
+      That's hiragana.
+      The prompt expects a loanword in katakana (more angular shapes).
+  - answer: フォーク
+    toast: |-
+      That's "fork."
+      Different utensil; also note the small ォ in katakana.
+  - answer: スープ
+    toast: |-
+      That's "soup."
+      Looks similar, but check the long vowel mark and the final character.
+- id: g-17-suru-wear
+  prompt: to wear small items (necktie, watch, etc.)
+  answer: する
+  hint: suru — used for wearing accessories (e.g., ネクタイをする, 時計をする). Not the general
+    “to do.”
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: やる
+    toast: |-
+      That means “to do / to carry out.”
+      It’s an action verb, not specifically “to wear” an accessory.
+  - answer: かける
+    toast: |-
+      That’s used for things you hang on/over something (e.g., glasses, a mask).
+      Different wearing nuance than accessories like ties/watches.
+  - answer: つける
+    toast: |-
+      That’s “to attach/apply” (e.g., put on makeup, switch on a light).
+      Not the common verb for wearing a tie or a watch.
+- id: g-17-setto
+  prompt: set
+  answer: セット
+  hint: setto (katakana) - often used for a set/pack or a combo (e.g., セットメニュー)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: せっと
+    toast: |-
+      That's hiragana.
+      The prompt is for a loanword, usually written in katakana.
+  - answer: ネット
+    toast: |-
+      That's "net".
+      Watch the first character: it changes the meaning completely.
+  - answer: ベッド
+    toast: |-
+      That's "bed".
+      Be careful with the middle smallッ and the final sounds.
+- id: g-17-sixties
+  prompt: 1960’s
+  answer: 1960年代
+  hint: senkyuuhyakurokujuu nendai — use for decades/era talk (e.g., 1960年代の音楽). 「年代」=
+    decade/period.
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 1960年
+    toast: |-
+      That’s a specific year (1960).
+      The prompt is asking for a decade/period, not one year.
+  - answer: 1970年代
+    toast: |-
+      That’s the 1970s.
+      Double-check the middle digit of the year range.
+  - answer: 1960年台
+    toast: |-
+      That uses an incorrect/less standard kanji choice here.
+      For decades, the common spelling uses the kanji meaning “generation/period.”
+- id: g-17-soka
+  prompt: I see. (casual)
+  answer: そうか
+  hint: sou ka — casual acknowledgment (like “oh, is that so?”). Often said with falling
+    intonation.
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: そうだ
+    toast: |-
+      That means “I heard so / it seems so.”
+      It’s confirming information rather than reacting with “I see.”
+  - answer: そっか
+    toast: |-
+      That’s the contracted version.
+      The prompt expects the full form, not the shortened one.
+  - answer: そうかな
+    toast: |-
+      That means “maybe / I wonder if that’s so.”
+      It adds uncertainty instead of simple understanding.
+- id: g-17-sonogo
+  prompt: after that
+  answer: その後
+  hint: sonogo — used to mean “after that/afterwards” in sequence (e.g., その後どうなった？)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: その前
+    toast: |-
+      That means “before that.”
+      It refers to an earlier time, not what happens later.
+  - answer: そのうち
+    toast: |-
+      That means “before long / eventually.”
+      It’s about “sometime soon,” not the next point in a sequence.
+  - answer: 後で
+    toast: |-
+      That means “later (on).”
+      It’s a general “later,” not specifically “after that” in a narrated sequence.
+- id: g-17-someru
+  prompt: to dye
+  answer: そめる
+  hint: someru (ru-verb) - to dye/colour (hair, cloth, etc.)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 染める
+    toast: |-
+      That's the kanji spelling.
+      This prompt expects the kana form, so write it in hiragana.
+  - answer: とめる
+    toast: |-
+      That's "to stop".
+      Check the first character: SO vs TO.
+  - answer: こめる
+    toast: |-
+      That's "to put into / to include" (depending on context).
+      Be careful: SO vs KO at the start.
+- id: g-17-soru
+  prompt: to shave
+  answer: そる
+  hint: |-
+    soru — often written as 剃る (to shave a beard/hair)
+    Example: ひげをそる = to shave (one’s beard)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: する
+    toast: |-
+      That's "to do"!
+      Watch the vowel: そ (so) vs す (su).
+  - answer: そむ
+    toast: |-
+      Different verb ending!
+      Be careful: the last kana is る (ru) vs む (mu).
+  - answer: ソル
+    toast: |-
+      That's katakana!
+      The prompt expects hiragana, which is more rounded.
+- id: g-17-soroeru
+  prompt: To make hair even; to trim
+  answer: そろえる
+  hint: soroeru — 「髪をそろえる」= to trim/make the ends even (often at a haircut)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: そろう
+    toast: |-
+      That's the intransitive form.
+      It means things become even/aligned by themselves (no direct object).
+  - answer: 整える
+    toast: |-
+      That's the kanji form often used for "to arrange/put in order".
+      Be careful: this prompt expects the all-kana spelling.
+  - answer: そろえ
+    toast: |-
+      That's only the stem form.
+      You need the full dictionary form ending in 「る」.
+- id: g-17-o-hit
+  prompt: big hit
+  answer: 大ヒット
+  hint: dai hitto — used for a product/song/movie that becomes a huge success (katakana
+    ヒット = “hit”)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: ヒット
+    toast: |-
+      That’s just “hit”!
+      The prompt is asking for a *big* hit, so it needs an extra modifier in front.
+  - answer: 大当たり
+    toast: |-
+      That means “jackpot / huge win” (often in lotteries or gacha)!
+      Not the common term for a popular song/movie becoming a hit.
+  - answer: 大成功
+    toast: |-
+      That’s “great success” in a general sense!
+      The prompt is specifically about something becoming a “hit” (popular with the public).
+- id: g-17-takarakuji
+  prompt: lottery
+  answer: 宝くじ
+  hint: takarakuji — 宝 (treasure) + くじ (lot/draw); used for lottery tickets (宝くじを買う)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 福引き
+    toast: |-
+      That's a raffle/prize drawing (often at events or shops).
+      It's not the general lottery with tickets and big jackpots.
+  - answer: くじ引き
+    toast: |-
+      That's a generic drawing lots.
+      This refers to picking a random slip/item, not a ticket-based lottery.
+  - answer: 抽選
+    toast: |-
+      That's a lottery/selection process (a drawing), often for tickets or applications.
+      It describes the process, not the lottery tickets themselves.
+- id: g-17-lotto-win
+  prompt: to win a lottery
+  answer: 宝くじに当たる
+  hint: |-
+    takarakuji ni ataru - 「当たる」= to hit/strike → to win (a prize)
+    Used like: 宝くじに当たった (I won the lottery)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 宝くじを買う
+    toast: |-
+      That's "to buy a lottery ticket"!
+      It’s about purchasing, not winning.
+  - answer: 宝くじに当てる
+    toast: |-
+      That's the transitive form (to hit/guess/get it right)!
+      Lottery winning is usually expressed as something happens to you.
+  - answer: 宝くじに外れる
+    toast: |-
+      That's "to miss/lose (the lottery)"!
+      It means the ticket didn't win.
+- id: g-17-tariru
+  prompt: to be sufficient; to be enough
+  answer: 足りる
+  hint: 'tariru — often used with quantity/amount: お金が足りる (have enough money), 時間が足りない
+    (not enough time)'
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 足す
+    toast: |-
+      That's "to add"!
+      It means increasing an amount, not having enough already.
+  - answer: 十分
+    toast: |-
+      That's "sufficient/enough" as a noun/na-adjective!
+      This one describes a state/degree rather than the verb "to be enough".
+  - answer: 余る
+    toast: |-
+      That's "to be left over"!
+      It means there's more than needed, not just enough.
+- id: g-17-chigai
+  prompt: difference
+  answer: 違い
+  hint: chigai — used for differences between things (e.g., 〜の違い)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 間違い
+    toast: |-
+      That's "mistake/wrong"!
+      It includes the idea of being incorrect, not just being different.
+  - answer: 違う
+    toast: |-
+      That's the verb form ("to differ")!
+      The prompt is asking for the noun form.
+  - answer: 差
+    toast: |-
+      That's "difference/gap" (often numerical/amount)!
+      Used more for measurable differences like scores or prices.
+- id: g-17-tsugou
+  prompt: Inconvenient; to have a scheduling conflict
+  answer: 都合が悪い
+  hint: tsugou ga warui — used to say your schedule/situation doesn’t work (e.g.,
+    都合が悪くて行けない)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 都合がいい
+    toast: |-
+      That means "convenient"!
+      Used when timing/situation works in your favor.
+  - answer: 都合がつく
+    toast: |-
+      That means "to be able to arrange (time/schedule)"!
+      Focuses on making time rather than judging the situation.
+  - answer: 具合が悪い
+    toast: |-
+      That usually means "to feel sick / in bad condition"!
+      This one is about physical condition rather than scheduling.
+- id: g-17-tsuyoi
+  prompt: strong
+  answer: 強い
+  hint: tsuyoi — i-adjective meaning strong (physical strength, flavor, intensity)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 弱い
+    toast: |-
+      That's "weak" (opposite meaning).
+      Be careful not to swap antonyms.
+  - answer: 強く
+    toast: |-
+      That's the adverb form ("strongly").
+      The prompt needs the dictionary i-adjective form.
+  - answer: 固い
+    toast: |-
+      That's "hard/solid" (rigid, firm).
+      Different nuance from strength or intensity.
+- id: g-17-tenjo
+  prompt: ceiling
+  answer: 天井
+  hint: 'tenjou — the ceiling (inside a room). Note: 天 = sky/heaven, 井 = well.'
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 屋根
+    toast: |-
+      That's "roof" (the outside/top of a building).
+      The prompt is for the inside surface of a room.
+  - answer: 床
+    toast: |-
+      That's "floor".
+      Opposite surface: what you walk on, not what’s above you.
+  - answer: 壁
+    toast: |-
+      That's "wall".
+      Vertical surface, not the top surface of a room.
+- id: g-17-denchi
+  prompt: microwave oven
+  answer: 電子レンジ
+  hint: denshi renji — often shortened to 「レンジ」 in conversation
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 電気レンジ
+    toast: |-
+      That's "electric range" (electric stove/oven style)!
+      Different term from the common household appliance used to heat food quickly.
+  - answer: オーブンレンジ
+    toast: |-
+      That's a microwave with an oven function!
+      This refers to a combined unit (microwave + oven features).
+  - answer: 洗濯機
+    toast: |-
+      That's a washing machine!
+      Both are household appliances, but this one is for laundry, not heating food.
+- id: g-17-tenrankai
+  prompt: art exhibition
+  answer: 展覧会
+  hint: tenrankai — often used for museum/gallery exhibitions (e.g., 絵画の展覧会).
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 展示会
+    toast: |-
+      That's a general "display/trade show".
+      This one is often for products, booths, or industry events.
+  - answer: 博覧会
+    toast: |-
+      That's an "expo" (large-scale fair).
+      Bigger public events rather than a gallery-style showing.
+  - answer: 個展
+    toast: |-
+      That's a "solo exhibition".
+      It’s specifically one artist’s show.
+- id: g-17-nametsuke
+  prompt: to name
+  answer: 名前をつける
+  hint: namae o tsukeru — literally “attach a name”; used when naming a person/thing/pet
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 名付ける
+    toast: |-
+      This is a more formal/single-verb version.
+      Be careful: it’s written as one kanji compound verb.
+  - answer: 名前をつけて
+    toast: |-
+      This is the て-form.
+      The prompt expects the dictionary form, not a connecting form.
+  - answer: 名前をきめる
+    toast: |-
+      This means “to decide a name.”
+      It focuses on choosing/deciding, not attaching/giving.
+- id: g-17-nareru
+  prompt: to get used to ...
+  answer: 慣れる
+  hint: 'nareru — to become accustomed (慣れる + に/と). Ex: 日本の生活に慣れる'
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 慣らす
+    toast: |-
+      That's the transitive verb.
+      It means "to accustom (someone/something)" or "to break in" (e.g., shoes).
+  - answer: 馴れる
+    toast: |-
+      Different kanji.
+      This one is often used for "to become tame" or "to get familiar" (esp. animals/people).
+  - answer: 慣う
+    toast: |-
+      Uncommon spelling.
+      The intended everyday form uses the okurigana with れる.
+- id: g-17-nandomo
+  prompt: many times
+  answer: 何度も
+  hint: nando mo — used for repetition (e.g., 何度も言った = I said it many times)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 何回も
+    toast: |-
+      That's 'many times' counted by occurrences (〜回).
+      Use it for events/actions: 'many times (as occurrences)'.
+  - answer: 何度でも
+    toast: |-
+      That's 'as many times as you want / no matter how many times'.
+      It emphasizes 'again and again' with 'even if'.
+  - answer: 何度か
+    toast: |-
+      That's 'a few times / several times'.
+      It means an indefinite small number, not 'many times'.
+- id: g-17-kurabe
+  prompt: compared with ...
+  answer: ～に比べて
+  hint: |-
+    ni kurabete — used to compare A with B.
+    Example: 去年に比べて、今年は暑い。(Compared with last year, this year is hot.)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: ～と比べて
+    toast: |-
+      This uses と for comparison.
+      Common when directly comparing A and B side-by-side (AとBを比べる).
+  - answer: ～に比べると
+    toast: |-
+      This form adds と after the verb.
+      Often used to set up a contrast before stating the result.
+  - answer: ～に対して
+    toast: |-
+      This is more like "in contrast to / towards" (often with people/groups).
+      It’s not the general “compare A with B” expression.
+- id: g-17-news
+  prompt: news
+  answer: ニュース
+  hint: nyuusu (katakana) — long vowel ー after ニュ
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: にゅーす
+    toast: |-
+      That's hiragana.
+      The prompt expects katakana for a loanword.
+  - answer: ヌース
+    toast: |-
+      Careful: the first character here is different.
+      Look for the small ュ right after ニ.
+  - answer: ニュ一ス
+    toast: |-
+      That middle mark is the kanji for "one" (一), not the long vowel mark (ー).
+      Use the long dash used in katakana.
+- id: g-17-yoruto
+  prompt: according to . . .
+  answer: ～によると
+  hint: 'ni yoru to — “according to …” (information source). Often used with reports/people:
+    「天気予報によると…」'
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: ～によれば
+    toast: |-
+      Close meaning: “according to …”.
+      This one is a conditional-style form and often sounds a bit more formal in writing.
+  - answer: ～として
+    toast: |-
+      That means “as; in the role of”.
+      It describes a position/role, not an information source.
+  - answer: ～から
+    toast: |-
+      That’s “from; because”.
+      It marks origin or reason, not “according to a source”.
+- id: g-17-nugu
+  prompt: to take off (clothes)
+  answer: 脱ぐ
+  hint: nugu — used for taking off clothing (e.g., 靴を脱ぐ).
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 着る
+    toast: |-
+      That's "to put on / wear"!
+      This is the opposite action (putting clothes on).
+  - answer: 取る
+    toast: |-
+      That's "to take/remove" in a general sense!
+      Not specifically used for taking off clothes.
+  - answer: 脱いだ
+    toast: |-
+      That's the past tense form!
+      The prompt is asking for the dictionary form.
+- id: g-17-notameno
+  prompt: for the sake of ...; intended for ...
+  answer: ～のための
+  hint: no tame no - modifies a noun (e.g., 子どものための本 = a book for children). Often
+    implies purpose/benefit.
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: ～のために
+    toast: |-
+      That's the adverbial form.
+      Use it before a verb (e.g., ～のために勉強する), not to modify a noun directly.
+  - answer: ～のせいで
+    toast: |-
+      That's "because of" with a negative nuance.
+      It blames a cause rather than showing purpose/benefit.
+  - answer: ～の目的で
+    toast: |-
+      That's a more formal "for the purpose of".
+      It tends to sound official and is often used with actions/events.
+- id: g-17-perm
+  prompt: perm
+  answer: パーマ
+  hint: paama - katakana loanword for a hair perm (permanent wave)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: パパ
+    toast: |-
+      That's "papa".
+      Be careful: this one repeats the same character twice and is much shorter.
+  - answer: バーマ
+    toast: |-
+      That starts with "BA" (dakuten ゛).
+      Check whether the first character has the two small marks.
+  - answer: パーム
+    toast: |-
+      That's "paamu".
+      Watch the last vowel: this one ends with ム, not the long vowel mark ー.
+- id: g-17-perm-kake
+  prompt: to have one’s hair permed
+  answer: パーマをかける
+  hint: paama o kakeru — salon phrase meaning “to get a perm” (lit. “to apply a perm”).
+    Often used as パーマをかけたい / パーマをかけました.
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: パーマをあてる
+    toast: |-
+      Also means “to get a perm,” but this expression is especially common in Kansai.
+      Different verb choice; both are used at salons.
+  - answer: 髪を切る
+    toast: |-
+      That means “to cut hair.”
+      This one is for changing length, not adding curls/waves.
+  - answer: 髪を染める
+    toast: |-
+      That means “to dye hair.”
+      This one changes color, not texture.
+- id: g-17-haiku
+  prompt: haiku
+  answer: 俳句
+  hint: 'haiku — 5-7-5 syllable poem (often with a seasonal word: 季語)'
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 俳優
+    toast: |-
+      That's "actor"!
+      The second kanji means "performer" (優), not "phrase/verse".
+  - answer: 川柳
+    toast: |-
+      That's "senryu"!
+      Similar short poems, but typically humorous and not focused on seasonal words.
+  - answer: 短歌
+    toast: |-
+      That's "tanka"!
+      This one has a longer 5-7-5-7-7 pattern.
+- id: g-17-hashigo
+  prompt: ladders
+  answer: はしご
+  hint: hashigo (hiragana) — usually written in kana; also appears as 梯子 in some texts
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: はさみ
+    toast: |-
+      That's "scissors".
+      Watch the middle kana: し (shi) can be misread as さ (sa).
+  - answer: ばしょ
+    toast: |-
+      That's "place".
+      Be careful with dakuten (゛): は (ha) vs ば (ba), and しょ vs ご.
+  - answer: ハシゴ
+    toast: |-
+      That's katakana.
+      The prompt expects hiragana; use the curvier hiragana shapes.
+- id: g-17-panda
+  prompt: panda
+  answer: パンダ
+  hint: panda (katakana) — loanword; write in katakana
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: ぱんだ
+    toast: |-
+      That's hiragana.
+      The prompt expects katakana for this loanword.
+  - answer: パンだ
+    toast: |-
+      Mixed scripts.
+      Write the whole word in the same script (katakana).
+  - answer: パソダ
+    toast: |-
+      Watch the middle character.
+      The correct one has a clear "ン" shape, not "ソ".
+- id: g-17-heater
+  prompt: heater
+  answer: ヒーター
+  hint: 'hiitaa (katakana loanword). Long vowels: ヒー・ター (use ー twice).'
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: ヘーター
+    toast: |-
+      Looks close, but the first character is different.
+      Be careful: ヘ starts with a different stroke shape than the intended first kana.
+  - answer: ヒータ
+    toast: |-
+      Missing the long-vowel mark at the end.
+      The final sound should be stretched with ー.
+  - answer: ヒーターー
+    toast: |-
+      Too many long-vowel marks.
+      Only one ー after ヒ and one ー after タ.
+- id: g-17-hige
+  prompt: beard
+  answer: ひげ
+  hint: hige (beard/facial hair). Often written as 髭 in kanji, but here use hiragana.
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: ヒゲ
+    toast: |-
+      That's katakana.
+      The prompt expects hiragana (more curvy, used for native words).
+  - answer: ひそ
+    toast: |-
+      Looks similar, but check the middle character.
+      The second kana here is different from what the prompt asks.
+  - answer: ひる
+    toast: |-
+      Different word.
+      Be careful: the last kana is not the same as the one for this prompt.
+- id: g-17-higesoru
+  prompt: to shave one’s beard
+  answer: ひげをそる
+  hint: 'hige o soru — phrase: ひげ(beard) + を + そる(to shave). Often written as ひげを剃る.'
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: かみをきる
+    toast: |-
+      That's “to cut hair.”
+      This uses きる (to cut), not そる (to shave).
+  - answer: ひげをのばす
+    toast: |-
+      That's “to grow a beard.”
+      It means letting facial hair get longer, not removing it.
+  - answer: ひげをぬく
+    toast: |-
+      That's “to pluck beard hairs.”
+      Plucking is pulling hairs out one by one, not shaving.
+- id: g-17-boots
+  prompt: boots
+  answer: ブーツ
+  hint: 'buutsu (katakana) — long vowel: ー makes the long “u” sound'
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: ぶーつ
+    toast: |-
+      That's hiragana.
+      The prompt expects katakana for a loanword.
+  - answer: ブーッ
+    toast: |-
+      That ends with a small ッ (pause sound).
+      This word ends with ツ, not a pause.
+  - answer: ブース
+    toast: |-
+      That's "booth".
+      The last character is ス, not ツ (compare the number/direction of strokes).
+- id: g-17-blow
+  prompt: blow-dry
+  answer: ブロー
+  hint: burō - salon term for hair blow-drying (e.g., ブローする)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: プロー
+    toast: |-
+      Looks close, but check the first character.
+      The left-side mark changes the consonant sound.
+  - answer: ブロウ
+    toast: |-
+      Same pronunciation, but this uses a different long-vowel spelling.
+      Make sure you write the long sound with the correct symbol.
+  - answer: ブロ一
+    toast: |-
+      That last mark is the kanji number "one".
+      The long vowel mark is a horizontal line used in katakana.
+- id: g-17-bunya
+  prompt: field; realm
+  answer: 分野
+  hint: bunya — often used for academic/professional fields (e.g., 専門分野).
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 分別
+    toast: |-
+      That means "sorting/discrimination"!
+      This one uses 別 (separate), not the character for "field" (wild/plain).
+  - answer: 野外
+    toast: |-
+      That means "outdoors/field (outside)"!
+      This is about being outside, not an area of study or expertise.
+  - answer: 領域
+    toast: |-
+      That means "territory/domain" (more formal/technical)!
+      Similar meaning, but different kanji and nuance.
+- id: g-17-mae
+  prompt: before ... (suffix)
+  answer: 前
+  hint: 'mae — used after time/quantity: 3分前 (3 minutes ago), 出発前 (before departure)'
+  strokeCount: 9
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 後
+    toast: |-
+      That means "after / later".
+      Watch the left side: this one uses 彳 (step radical), not the box-like top component.
+  - answer: 午
+    toast: |-
+      That’s the kanji for "noon" (as in 午前/午後).
+      It’s much simpler and doesn’t have the knife-like part on the right.
+  - answer: 全
+    toast: |-
+      That means "all/whole".
+      Check the bottom: it has 王, not the legs/step-like shapes.
+- id: g-17-mushimegane
+  prompt: magnifying glass
+  answer: 虫めがね
+  hint: 'mushimegane — literally "bug glasses"; common everyday word (also: 拡大鏡).'
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 拡大鏡
+    toast: |-
+      That's the more technical term ("magnifying lens").
+      The prompt expects the everyday word written partly in kana.
+  - answer: 虫眼鏡
+    toast: |-
+      That's a full-kanji spelling.
+      The prompt expects the mixed form with kana for めがね.
+  - answer: 眼鏡
+    toast: |-
+      That's just "glasses" (eyeglasses), not a magnifying tool.
+      A magnifying glass is a specific kind of lens.
+- id: g-17-moji
+  prompt: letter; character
+  answer: 文字
+  hint: moji — written characters (e.g., 漢字・ひらがな・カタカナ). Often used as 「〜文字」 = “~ characters
+    (in length)”.
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 文
+    toast: |-
+      That's “sentence/writing style” as a single kanji.
+      The prompt is for a word meaning individual written characters.
+  - answer: 字
+    toast: |-
+      That's just the “character” kanji by itself.
+      The prompt is for the common two-kanji noun used for letters/characters in general.
+  - answer: 言葉
+    toast: |-
+      That's “words/language”.
+      The prompt is about written symbols/characters, not vocabulary or spoken words.
+- id: g-17-yu
+  prompt: hot water
+  answer: 湯
+  hint: yu — hot water (bath/hot water for drinking); 氵(さんずい) + 昜. 12 strokes
+  strokeCount: 12
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 油
+    toast: |-
+      That's "oil"!
+      Watch the right side: it uses 由, not the complex shape with a sun-like part.
+  - answer: 温
+    toast: |-
+      That's "warm"!
+      This is a different word; it includes a box-like part (皿) at the bottom.
+  - answer: 水
+    toast: |-
+      That's "water" (general)!
+      The target is specifically hot water and has the water radical on the left plus a more complex right side.
+- id: g-17-rikon
+  prompt: to get a divorce
+  answer: 離婚する
+  hint: rikon suru — "離"(separate) + "婚"(marriage); often used as 離婚した/離婚している
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 結婚する
+    toast: |-
+      That's "to get married".
+      This is the opposite situation (starting a marriage vs ending one).
+  - answer: 別れる
+    toast: |-
+      That's "to break up/separate" (general).
+      This isn't specifically the legal end of a marriage.
+  - answer: 離れる
+    toast: |-
+      That's "to separate/move away" (physical distance).
+      Not the legal/relationship meaning.
+- id: g-17-ryokogaisha
+  prompt: travel agency
+  answer: 旅行会社
+  hint: ryokou gaisha — a company that arranges trips (tickets, hotels, tours).
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 旅行
+    toast: |-
+      That's just "travel".
+      The prompt is asking for the business/agency, not the activity itself.
+  - answer: 旅行者
+    toast: |-
+      That's "traveler".
+      This refers to a person, not a company.
+  - answer: 観光会社
+    toast: |-
+      That's a "sightseeing/tourism company".
+      This is related, but it's not the standard term for an agency that sells/arranges travel.
