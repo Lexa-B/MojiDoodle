@@ -13,7 +13,7 @@ import { CardsService, Lesson } from '../../services/cards.service';
 })
 export class DashboardPage implements OnInit, ViewWillEnter {
   availableLessons: Lesson[] = [];
-  upcomingUnlocks: { hour: number; count: number; label: string }[] = [];
+  upcomingUnlocks: { hour: number; count: number; segments: { stage: number; count: number; color: string }[]; label: string }[] = [];
   maxUnlockCount = 0;
 
   constructor(
@@ -46,12 +46,29 @@ export class DashboardPage implements OnInit, ViewWillEnter {
     return (count / this.maxUnlockCount * 100) + '%';
   }
 
+  getSegmentHeight(count: number): string {
+    if (this.maxUnlockCount === 0) return '0%';
+    return (count / this.maxUnlockCount * 100) + '%';
+  }
+
   get yAxisTicks(): number[] {
-    const ticks: number[] = [];
     const max = this.maxUnlockCount;
-    // Create 5 ticks from max to 0
-    for (let i = 0; i <= 4; i++) {
-      ticks.push(Math.round(max * (4 - i) / 4));
+    if (max <= 5) {
+      // For small counts, show each integer from max down to 0
+      const ticks: number[] = [];
+      for (let i = max; i >= 0; i--) {
+        ticks.push(i);
+      }
+      return ticks;
+    }
+    // For larger counts, pick ~5 nice integer ticks
+    const step = Math.ceil(max / 4);
+    const ticks: number[] = [];
+    for (let i = 4; i >= 0; i--) {
+      const tick = Math.min(step * i, max);
+      if (ticks.length === 0 || ticks[ticks.length - 1] !== tick) {
+        ticks.push(tick);
+      }
     }
     return ticks;
   }

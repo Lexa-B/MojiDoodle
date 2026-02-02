@@ -32,6 +32,7 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
   currentCard: Card | undefined;
   currentCharacter = '';
   promptText = '';
+  promptColor = '#FFFFFF';
   noCardsAvailable = false;
 
   isChecking = false;
@@ -100,10 +101,12 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
     if (this.currentCard) {
       this.currentCharacter = this.currentCard.answer;
       this.promptText = this.currentCard.prompt;
+      this.promptColor = this.cardsService.getStageColor(this.currentCard.stage);
       this.noCardsAvailable = false;
     } else {
       this.noCardsAvailable = true;
       this.promptText = '';
+      this.promptColor = '#FFFFFF';
     }
   }
 

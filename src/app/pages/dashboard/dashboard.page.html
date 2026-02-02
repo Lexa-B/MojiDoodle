@@ -32,11 +32,12 @@
               <div class="grid-line" *ngFor="let tick of yAxisTicks"></div>
             </div>
             <div class="bars-container">
-              <div class="bar-wrapper" *ngFor="let unlock of upcomingUnlocks; let i = index">
-                <div class="bar"
-                     [style.height]="getBarHeight(unlock.count)"
-                     [class.has-unlocks]="unlock.count > 0"
-                     [title]="unlock.count + ' unlock' + (unlock.count !== 1 ? 's' : '') + ' at ' + unlock.label"></div>
+              <div class="bar-wrapper" *ngFor="let unlock of upcomingUnlocks; let i = index"
+                     [title]="unlock.count + ' unlock' + (unlock.count !== 1 ? 's' : '') + ' at ' + unlock.label">
+                <div class="bar-segment"
+                     *ngFor="let segment of unlock.segments"
+                     [style.height]="getSegmentHeight(segment.count)"
+                     [style.background-color]="segment.color"></div>
               </div>
             </div>
           </div>

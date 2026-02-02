@@ -1,7 +1,7 @@
 <ion-content [fullscreen]="true" class="workbook-content" [scrollY]="false">
   <div class="prompt-bar">
     <ion-menu-button color="light"></ion-menu-button>
-    <span class="prompt-text">{{ promptText }}</span>
+    <span class="prompt-text" [style.color]="promptColor">{{ promptText }}</span>
   </div>
 
   <div class="canvas-wrapper">

@@ -43,7 +43,8 @@ function getBaseUrl(): string {
 export class CardsService {
   private db: Database | null = null;
   private initPromise: Promise<void> | null = null;
-  private timetable: Map<number, number> = new Map(); // stage -> minutes
+  private stages: Map<number, number> = new Map(); // stage -> minutes
+  private stageColors: Map<number, string> = new Map(); // stage -> color
 
   constructor(private loadingCtrl: LoadingController) {}
 
@@ -61,8 +62,8 @@ export class CardsService {
       locateFile: (file: string) => `${baseUrl}${file}`
     });
 
-    // Load timetable
-    await this.loadTimetable();
+    // Load stages
+    await this.loadStages();
 
     // Try to load from IndexedDB
     const stored = await this.loadFromStorage();
@@ -134,9 +135,9 @@ export class CardsService {
     return packs;
   }
 
-  private async loadTimetable(): Promise<void> {
+  private async loadStages(): Promise<void> {
     try {
-      const response = await fetch(`${getBaseUrl()}data/timetable.yaml`);
+      const response = await fetch(`${getBaseUrl()}data/stages.yaml`);
       if (!response.ok) return;
 
       const yaml = await response.text();
@@ -153,16 +154,22 @@ export class CardsService {
           continue;
         }
 
-        const minutesMatch = trimmed.match(/^minutes:\s*(\d+)/);
-        if (minutesMatch && currentStage !== null) {
-          this.timetable.set(currentStage, parseInt(minutesMatch[1], 10));
-          currentStage = null;
+        if (currentStage !== null) {
+          const minutesMatch = trimmed.match(/^minutes:\s*(\d+)/);
+          if (minutesMatch) {
+            this.stages.set(currentStage, parseInt(minutesMatch[1], 10));
+          }
+
+          const colorMatch = trimmed.match(/^color:\s*"?(#[0-9A-Fa-f]{6})"?/);
+          if (colorMatch) {
+            this.stageColors.set(currentStage, colorMatch[1]);
+          }
         }
       }
 
-      console.log(`Loaded ${this.timetable.size} timetable entries`);
+      console.log(`Loaded ${this.stages.size} stage entries`);
     } catch (err) {
-      console.warn('Failed to load timetable:', err);
+      console.warn('Failed to load stages:', err);
     }
   }
 
@@ -678,6 +685,11 @@ export class CardsService {
     this.saveToStorage();
   }
 
+  // Stage colors
+  getStageColor(stage: number): string {
+    return this.stageColors.get(stage) ?? '#FFFFFF';
+  }
+
   // Lessons API
   getAvailableLessons(): Lesson[] {
     // Get available lessons that are NOT superceded by an unlocked lesson
@@ -746,12 +758,12 @@ export class CardsService {
     this.saveToStorage();
   }
 
-  // Check if a lesson is completed (all cards have stage > 0)
+  // Check if a lesson is completed (all cards have stage >= 5)
   isLessonCompleted(lessonId: string): boolean {
     const result = this.queryOne<{ incomplete: number }>(
       `SELECT COUNT(*) as incomplete FROM lesson_cards lc
        JOIN cards c ON lc.card_id = c.id
-       WHERE lc.lesson_id = ? AND c.stage <= 0`,
+       WHERE lc.lesson_id = ? AND c.stage < 5`,
       [lessonId]
     );
     return (result?.incomplete ?? 1) === 0;
@@ -802,7 +814,7 @@ export class CardsService {
     if (!card) return;
 
     const newStage = Math.min(card.stage + 1, 15); // Cap at stage 15
-    const minutes = this.timetable.get(newStage) ?? 15; // Default to 15 min if not found
+    const minutes = this.stages.get(newStage) ?? 15; // Default to 15 min if not found
     const unlocks = new Date(Date.now() + minutes * 60 * 1000).toISOString();
 
     this.db.run('UPDATE cards SET stage = ?, unlocks = ? WHERE id = ?', [newStage, unlocks, id]);
@@ -817,24 +829,28 @@ export class CardsService {
   }
 
   // Get upcoming unlocks grouped by hour for the next N hours
-  getUpcomingUnlocksByHour(hours: number = 48): { hour: number; count: number; label: string }[] {
+  getUpcomingUnlocksByHour(hours: number = 48): { hour: number; count: number; segments: { stage: number; count: number; color: string }[]; label: string }[] {
     const now = new Date();
-    const result: { hour: number; count: number; label: string }[] = [];
+    const result: { hour: number; count: number; segments: { stage: number; count: number; color: string }[]; label: string }[] = [];
 
     // Get all cards with stage >= 0 that unlock in the future (within the time window)
     const endTime = new Date(now.getTime() + hours * 60 * 60 * 1000);
-    const cards = this.queryAll<{ unlocks: string }>(
-      'SELECT unlocks FROM cards WHERE stage >= 0 AND unlocks > ? AND unlocks <= ?',
+    const cards = this.queryAll<{ unlocks: string; stage: number }>(
+      'SELECT unlocks, stage FROM cards WHERE stage >= 0 AND unlocks > ? AND unlocks <= ?',
       [now.toISOString(), endTime.toISOString()]
     );
 
-    // Group by hour offset from now
-    const hourCounts = new Map<number, number>();
+    // Group by hour offset and stage
+    const hourStageCounts = new Map<number, Map<number, number>>();
     for (const card of cards) {
       const unlockTime = new Date(card.unlocks);
       const hourOffset = Math.floor((unlockTime.getTime() - now.getTime()) / (60 * 60 * 1000));
       if (hourOffset >= 0 && hourOffset < hours) {
-        hourCounts.set(hourOffset, (hourCounts.get(hourOffset) ?? 0) + 1);
+        if (!hourStageCounts.has(hourOffset)) {
+          hourStageCounts.set(hourOffset, new Map());
+        }
+        const stageCounts = hourStageCounts.get(hourOffset)!;
+        stageCounts.set(card.stage, (stageCounts.get(card.stage) ?? 0) + 1);
       }
     }
 
@@ -842,9 +858,24 @@ export class CardsService {
     for (let h = 0; h < hours; h++) {
       const futureDate = new Date(now.getTime() + h * 60 * 60 * 1000);
       const hourLabel = futureDate.getHours().toString().padStart(2, '0') + ':00';
+      const stageCounts = hourStageCounts.get(h);
+      const segments: { stage: number; count: number; color: string }[] = [];
+      let total = 0;
+
+      if (stageCounts) {
+        // Sort by stage ascending so lower stages are at the bottom
+        const sortedStages = Array.from(stageCounts.keys()).sort((a, b) => a - b);
+        for (const stage of sortedStages) {
+          const count = stageCounts.get(stage)!;
+          segments.push({ stage, count, color: this.getStageColor(stage) });
+          total += count;
+        }
+      }
+
       result.push({
         hour: h,
-        count: hourCounts.get(h) ?? 0,
+        count: total,
+        segments,
         label: hourLabel
       });
     }

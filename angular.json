@@ -47,7 +47,7 @@
                 "output": "data/lessons"
               },
               {
-                "glob": "timetable.yaml",
+                "glob": "stages.yaml",
                 "input": "src/data",
                 "output": "data"
               },
