@@ -1,0 +1,1410 @@
+- id: g-07-ashi
+  prompt: leg; foot
+  answer: 足
+  hint: ashi — can mean both "leg" and "foot" depending on context
+  strokeCount: 7
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 定
+    toast: |-
+      Watch the bottom part.
+      This one ends with a 「疋」-like shape; the other has a different base.
+  - answer: 走
+    toast: |-
+      Different meaning: "to run."
+      This one has the 「土」 on top; check the top shape carefully.
+  - answer: 手
+    toast: "Different body part: \"hand.\" \nCheck the overall structure: this one\
+      \ is simpler and doesn’t have the same lower shape."
+- id: g-07-atama
+  prompt: head
+  answer: 頭
+  hint: atama — body part; also used for “top” (e.g., 頭がいい = smart)
+  strokeCount: 16
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 顔
+    toast: |-
+      That's “face”!
+      This refers to facial features, not the whole head.
+  - answer: 首
+    toast: |-
+      That's “neck”!
+      This is the part connecting the head and body.
+  - answer: 体
+    toast: |-
+      That's “body”!
+      This refers to the whole body rather than a specific part.
+- id: g-07-atama-ii
+  prompt: bright; smart; clever
+  answer: 頭がいい
+  hint: atama ga ii — literally “has a good head”; used for being smart/clever
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 頭が悪い
+    toast: |-
+      That means “not smart.”
+      Same first kanji, but the adjective is the opposite.
+  - answer: 賢い
+    toast: |-
+      That also means “wise/clever,” but it’s a single い-adjective.
+      The prompt is the common set phrase with “head.”
+  - answer: 頭が高い
+    toast: |-
+      That means “arrogant/impudent” (lit. “head is high”).
+      Different meaning even though it starts the same.
+- id: g-07-ani
+  prompt: (my) older brother
+  answer: 兄
+  hint: 'ani (older brother; used for your own family, polite: 兄(あに))'
+  strokeCount: 5
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 弟
+    toast: |-
+      That's "younger brother".
+      Watch for the different top component and the overall shape.
+  - answer: 先
+    toast: |-
+      That's often read as "saki/sen" (previous/first).
+      The bottom part is different from the 'mouth' shape.
+  - answer: 兄弟
+    toast: |-
+      That's "siblings/brothers" as a word.
+      The prompt is singular, so don't add extra characters.
+- id: g-07-ane
+  prompt: (my) older sister
+  answer: 姉
+  hint: 'ane — used for your own older sister; polite: 姉(あね)です / someone else’s: お姉さん(おねえさん)'
+  strokeCount: 8
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 妹
+    toast: |-
+      That’s “younger sister.”
+      Watch the meaning: younger vs older.
+  - answer: 姫
+    toast: |-
+      That’s “princess.”
+      The right side differs: this one has 「臣」, not the woman-with-city shape.
+  - answer: 姐
+    toast: |-
+      That’s also “older sister,” but a different/less common kanji.
+      The left side is 女, but the right side uses a different component.
+- id: g-07-uta
+  prompt: song
+  answer: 歌
+  hint: uta — the 歌 in 歌う (to sing); 14 strokes
+  strokeCount: 14
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 唄
+    toast: |-
+      That kanji is also read うた, but it's less common.
+      You'll often see it for specific “songs” (e.g., folk/ballads) or in names.
+  - answer: 詩
+    toast: |-
+      That's “poem/poetry.”
+      This is written language, not something sung with a melody.
+  - answer: 曲
+    toast: |-
+      That's “tune/piece of music.”
+      It refers to a musical composition, not specifically the lyrics/song itself.
+- id: g-07-utau
+  prompt: to sing
+  answer: 歌う
+  hint: utau — often used for singing a song (歌). Not the same as 謳う (to praise/advertise).
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 謳う
+    toast: |-
+      That's the verb meaning “to praise/advertise (extol)”!
+      Used for slogans/claims rather than singing a melody.
+  - answer: 歌
+    toast: |-
+      That's the noun “song”!
+      The prompt needs the verb form meaning “to sing.”
+  - answer: 唄う
+    toast: |-
+      That's an alternate kanji spelling, often seen for folk songs/ballads!
+      The standard spelling is usually used in modern writing.
+- id: g-07-ojiisan
+  prompt: grandfather; old man
+  answer: おじいさん
+  hint: 'ojiisan — polite/common term for “grandfather” (also used to refer to an
+    elderly man). Long vowel: じい.'
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: おじさん
+    toast: |-
+      That means “uncle / middle-aged man.”
+      Watch the long vowel: this one doesn’t have じい.
+  - answer: おばあさん
+    toast: |-
+      That means “grandmother / old woman.”
+      Different vowel sound in the middle.
+  - answer: おじいちゃん
+    toast: |-
+      That’s a more casual/family-style way to say it.
+      The prompt expects the more polite/common form.
+- id: g-07-oshiri
+  prompt: buttocks
+  answer: お尻
+  hint: oshiri — polite/common word for “butt”; written with 尻 (read しり)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: お腹
+    toast: |-
+      That’s “belly/abdomen.”
+      This refers to the front of the body, not the back.
+  - answer: お尻り
+    toast: |-
+      Looks like an extra り was added.
+      Write only the word once with no repeated kana.
+  - answer: しり
+    toast: |-
+      That’s the plain hiragana version.
+      The prompt expects the form that uses kanji after the honorific お.
+- id: g-07-onaka
+  prompt: stomach
+  answer: おなか
+  hint: 'onaka — everyday word for belly/stomach (often used for hunger: おなかがすいた)'
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: なか
+    toast: |-
+      That's just "inside/middle".
+      The prompt is a body word meaning belly/stomach.
+  - answer: おなかいっぱい
+    toast: |-
+      That's the phrase "full".
+      The prompt is the noun by itself, not the expression.
+  - answer: 胃
+    toast: |-
+      That's the anatomical "stomach" organ.
+      The prompt expects the common everyday word.
+- id: g-07-obaasan
+  prompt: grandmother; old woman
+  answer: おばあさん
+  hint: obaasan (romaji) — long 「あ」 sound; 「おばさん」 is “aunt” (short あ).
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: おばさん
+    toast: |-
+      That's “aunt; middle-aged woman.”
+      Listen for the long vowel: one has a stretched 「あ」 sound.
+  - answer: おじいさん
+    toast: |-
+      That's “grandfather; old man.”
+      Different gender term; watch the middle vowel.
+  - answer: おばあちゃん
+    toast: |-
+      That's a more casual/familial way to say “grandma.”
+      The prompt asks for the standard polite form.
+- id: g-07-kaisha
+  prompt: company
+  answer: 会社
+  hint: kaisha — a business/company (e.g., 会社員 = company employee)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 会社員
+    toast: |-
+      That's "company employee".
+      The prompt is just the organization, not a person who works there.
+  - answer: 会議
+    toast: |-
+      That's "meeting".
+      Same first kanji, but the second kanji is different (talk/discuss vs. company).
+  - answer: 社長
+    toast: |-
+      That's "company president".
+      This one refers to a role/title, not the company itself.
+- id: g-07-kao
+  prompt: face
+  answer: 顔
+  hint: kao — common word for someone's face (not just a specific part like eyes or
+    mouth)
+  strokeCount: 18
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 頭
+    toast: |-
+      That's "head" (atama)!
+      It refers to the whole head, not someone's facial appearance.
+  - answer: 頬
+    toast: |-
+      That's "cheek" (hoo)!
+      It’s just one part of the face.
+  - answer: 首
+    toast: |-
+      That's "neck" (kubi)!
+      Different body part; watch the overall shape and components.
+- id: g-07-kakeru
+  prompt: to put on (glasses)
+  answer: かける（眼鏡を）
+  hint: kakeru (megane o) - used for wearing/putting on glasses; also used for things
+    like headphones
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 着る
+    toast: |-
+      That's "to put on (clothes)"!
+      Used for clothing you wear on your upper body (shirts, coats), not eyewear.
+  - answer: はめる
+    toast: |-
+      That's "to put on/insert (tight-fitting items)"!
+      Often for rings, gloves, or fitting something into a slot.
+  - answer: 被る
+    toast: |-
+      That's "to put on (headwear)"!
+      Used for hats/helmets—things you wear on your head.
+- id: g-07-kazoku
+  prompt: family
+  answer: 家族
+  hint: kazoku — 家 (house) + 族 (clan/group); often used as 家族(かぞく)です “(It’s my) family.”
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 親族
+    toast: |-
+      That's "relatives" (extended family)!
+      It refers to kin/relations beyond the immediate household.
+  - answer: 家庭
+    toast: |-
+      That's "home/household"!
+      It focuses on the household life/environment rather than the family members.
+  - answer: 家
+    toast: |-
+      That's "house/home"!
+      It's a single kanji meaning a home or (sometimes) a family line, not the full word for family.
+- id: g-07-kata
+  prompt: shoulder
+  answer: 肩
+  hint: |-
+    kata — body part: shoulder (left/right)
+    漢字ヒント: 「月」(body) + 「戸」(door) の形に見える
+  strokeCount: 8
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 胸
+    toast: |-
+      That's "chest".
+      Look closely: it has the "凶"-like part above the body radical, not a door-like shape.
+  - answer: 肩
+    toast: |-
+      Check your stroke order and proportions.
+      Keep the top part compact, and make the 「月」 part vertical and balanced.
+- id: g-07-kaburu
+  prompt: to put on (a hat)
+  answer: かぶる
+  hint: kaburu — used for wearing something that goes over the head (帽子をかぶる).
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 着る
+    toast: |-
+      That's "to wear" for clothes on the upper body (shirts, jackets).
+      The prompt is for something you put on over your head.
+  - answer: かける
+    toast: |-
+      That's "to put on/hang"—often for glasses (眼鏡をかける) or to hang something.
+      The prompt is for headwear like a hat.
+  - answer: はく
+    toast: |-
+      That's "to put on" for things you wear on the lower body/feet (pants, shoes).
+      The prompt is for something worn on the head.
+- id: g-07-kami
+  prompt: hair
+  answer: 髪
+  hint: kami — 「髪の毛」 means “head hair.” Distinguish from 紙 (paper) and 神 (god).
+  strokeCount: 14
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 紙
+    toast: |-
+      That's “paper.”
+      Look for the thread/radical on the left (糸) in paper-related words.
+  - answer: 神
+    toast: |-
+      That's “god/deity.”
+      This one uses the 礻(しめすへん) radical on the left.
+  - answer: 鬚
+    toast: |-
+      That's “beard/mustache.”
+      Different kanji used for facial hair, not hair on the head.
+- id: g-07-kara
+  prompt: from ... (starting point)
+  answer: ～から
+  hint: 'kara — marks the starting point (time/place/source): 3時から, 日本から'
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: ～まで
+    toast: |-
+      That's "until/to" (an end point).
+      Use it to show where something ends, not where it starts.
+  - answer: ～ので
+    toast: |-
+      That's "because" (so/therefore).
+      It gives a reason, not a starting point.
+  - answer: ～より
+    toast: |-
+      That's "than / from" (comparison or starting point in some contexts).
+      Commonly used for comparisons (AよりB).
+- id: g-07-kiwotsu
+  prompt: to take care of oneself
+  answer: 体に気をつける
+  hint: 'karada ni ki o tsukeru — literal: "pay attention to your body"; often used
+    as 体に気をつけてね (Take care!)'
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 気をつける
+    toast: |-
+      That's "be careful / pay attention" in general.
+      The prompt is about taking care of yourself/your health.
+  - answer: 体を大事にする
+    toast: |-
+      That's "take good care of your body" (cherish your health).
+      Similar meaning, but a different expression/nuance.
+  - answer: 健康に気をつける
+    toast: |-
+      That's "watch your health".
+      Similar idea, but it specifically mentions health rather than the body in general.
+- id: g-07-kawaii
+  prompt: cute
+  answer: かわいい
+  hint: kawaii — い-adj. used for people/animals/things that feel charming or adorable
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 可愛い
+    toast: |-
+      That's the kanji form.
+      This prompt expects the all-hiragana spelling, so write it in kana.
+  - answer: かっこいい
+    toast: |-
+      That's "cool/good-looking".
+      Different meaning and the small っ changes the rhythm.
+  - answer: こわいい
+    toast: |-
+      That looks like a mix-up with こわい (scary).
+      Watch the first kana: か (ka) vs こ (ko).
+- id: g-07-kyodai
+  prompt: brothers and sisters
+  answer: 兄弟
+  hint: 'kyoudai — siblings (usually refers to brothers/siblings; for “sisters” only:
+    姉妹)'
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 姉妹
+    toast: |-
+      That means “sisters.”
+      Use it when talking about only female siblings.
+  - answer: 兄妹
+    toast: |-
+      That means “older brother and younger sister.”
+      The second kanji is “younger sister,” not “younger brother.”
+  - answer: 姉弟
+    toast: |-
+      That means “older sister and younger brother.”
+      The first kanji is “older sister,” not “older brother.”
+- id: g-07-kiru
+  prompt: to put on (clothes above your waist)
+  answer: 着る
+  hint: kiru — for wearing on your upper body (e.g., シャツを着る). Not 切る (to cut).
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 切る
+    toast: |-
+      That's "to cut"!
+      Often used with objects like 紙 (paper) or 髪 (hair), not clothing.
+  - answer: 穿く
+    toast: |-
+      That's "to wear" for lower-body items!
+      Used for pants, skirts, shoes, socks, etc.
+  - answer: 被る
+    toast: |-
+      That's "to put on" something worn on the head!
+      Used for hats, caps, helmets, etc.
+- id: g-07-kuchi
+  prompt: mouth
+  answer: 口
+  hint: kuchi — 3 strokes; looks like a box (mouth opening)
+  strokeCount: 3
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 日
+    toast: |-
+      That's "sun/day"!
+      It has an extra line inside, making it look divided.
+  - answer: 目
+    toast: |-
+      That's "eye"!
+      It has multiple inner lines, not an empty box.
+  - answer: 回
+    toast: |-
+      That's "times/round"!
+      It has a smaller box inside (double enclosure).
+- id: g-07-kubi
+  prompt: neck
+  answer: 首
+  hint: kubi (neck). Also used in phrases like 首になる (to get fired). 9 strokes.
+  strokeCount: 9
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 目
+    toast: |-
+      That's "eye"!
+      This one is a simple box with inner lines; the target kanji has a more complex top and additional strokes.
+  - answer: 頁
+    toast: |-
+      That's the "page/head" radical kanji!
+      It has a distinctive head component and different bottom structure.
+  - answer: 白
+    toast: |-
+      That's "white"!
+      It looks like a box with a single line inside; the target has extra strokes and a different top.
+- id: g-07-kuruma
+  prompt: car
+  answer: 車
+  hint: kuruma — 7 strokes; also used in words like 電車 (train) and 自動車 (automobile).
+  strokeCount: 7
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 東
+    toast: |-
+      Easy to mix up because the inside lines look similar.
+      Check whether the middle is boxed in (enclosed) or open.
+  - answer: 軍
+    toast: |-
+      Similar overall shape.
+      Look at the bottom: one has a 'car' component feel, the other has a different lower structure.
+  - answer: 卓
+    toast: |-
+      Can be mistaken due to the top and central strokes.
+      Pay attention to whether there is an enclosing frame around the middle.
+- id: g-07-kekkon
+  prompt: to get married
+  answer: 結婚する
+  hint: 'kekkon suru — common pattern: 結婚します／結婚しました (to marry/get married)'
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 離婚する
+    toast: |-
+      That's "to get divorced."
+      It means ending a marriage, not starting one.
+  - answer: 結婚式
+    toast: |-
+      That's "wedding ceremony."
+      It refers to the event, not the act of marrying.
+  - answer: 結婚
+    toast: |-
+      That's the noun form "marriage."
+      For "to get married," you need the verb form with する.
+- id: g-07-circle
+  prompt: club activity
+  answer: サークル
+  hint: 'saakuru — usually a student club/circle (e.g., 大学のサークル). Long vowel: サー.'
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: クラブ
+    toast: |-
+      That's more like an (often sports) club or a nightlife club.
+      This prompt is for an organized campus-style group/activity.
+  - answer: 部活
+    toast: |-
+      That's school club activities (often formal, sports/arts) with strict practice.
+      This prompt is for a more casual group/circle.
+  - answer: サッカー
+    toast: |-
+      That's the sport "soccer".
+      Watch the middle: small ッ changes the sound; this word has a long vowel instead.
+- id: g-07-shitte
+  prompt: I know
+  answer: 知っています
+  hint: 'shitteimasu — polite form of 知る (to know). Often used as: 〜を知っています (I know
+    ~).'
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 分かっています
+    toast: "That means \"I understand / I get it.\" \nUse it for comprehension, not\
+      \ for knowing information/facts."
+  - answer: 知りました
+    toast: "That means \"I found out / I learned.\" \nIt's about becoming aware (past),\
+      \ not already knowing."
+  - answer: 知りません
+    toast: "That means \"I don't know.\" \nThis one is the negative form."
+- id: g-07-juku
+  prompt: cram school
+  answer: 塾
+  hint: juku — after-school prep academy (often for exams); 14 strokes
+  strokeCount: 14
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 熟
+    toast: |-
+      That's a different kanji meaning "ripe" / "mature".
+      Check the left side: this one has the fire radical (灬) at the bottom.
+  - answer: 塊
+    toast: |-
+      That's "lump / chunk".
+      This one has a more complex right side; watch for the shape on the right component.
+  - answer: 堕
+    toast: |-
+      That's "to fall / degenerate".
+      The right-side components differ; make sure the right part matches the school-related kanji form.
+- id: g-07-shokudo
+  prompt: cafeteria; dining commons
+  answer: 食堂
+  hint: shokudou — a place to eat (often in schools/companies). 食 = food, 堂 = hall
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 食事
+    toast: |-
+      That's "a meal / eating" (the act or event).
+      The prompt is asking for the place where people eat.
+  - answer: 台所
+    toast: |-
+      That's "kitchen".
+      A kitchen is where food is prepared, not the public place to eat.
+  - answer: 食堂車
+    toast: |-
+      That's a "dining car" on a train.
+      The prompt is a general cafeteria/dining hall, not a train car.
+- id: g-07-shiri
+  prompt: buttocks
+  answer: 尻
+  hint: shiri — common word for “butt”; often in 尻尾(しっぽ) “tail”
+  strokeCount: 5
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 尼
+    toast: |-
+      Looks similar at the bottom.
+      Watch the inner shape and how the left part is formed.
+  - answer: 尾
+    toast: |-
+      This is “tail”.
+      It adds the hair/feather element on top, not used for the body part.
+  - answer: 尻尾
+    toast: |-
+      This is the compound meaning “tail”.
+      The prompt is just the body-part word by itself.
+- id: g-07-shirn
+  prompt: I do not know
+  answer: 知りません
+  hint: shirimasen — polite negative of 知る (to know). Often used as 「知りません」 / 「知りませんでした」.
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 分かりません
+    toast: |-
+      That's "I don't understand / I'm not sure"!
+      Use it when you can't figure something out, not when you lack the information.
+  - answer: 知っています
+    toast: |-
+      That's the affirmative "I know"!
+      The ending changes to indicate the opposite meaning.
+  - answer: 知らない
+    toast: |-
+      That's the casual form.
+      The prompt expects a polite expression ending in ません.
+- id: g-07-shiru
+  prompt: to get to know
+  answer: 知る
+  hint: shiru (u-verb) — to come to know/learn a fact; often used as 知っている for “to
+    know (state)”
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 分かる
+    toast: |-
+      That means “to understand / to be clear.”
+      It’s about comprehension, not newly learning or finding out information.
+  - answer: 覚える
+    toast: |-
+      That means “to memorize / to learn by heart.”
+      It’s about storing something in memory rather than finding out or coming to know it.
+  - answer: 知らせる
+    toast: |-
+      That means “to inform / to let someone know.”
+      It’s about giving information to others (transitive).
+- id: g-07-shinsetsu
+  prompt: kind
+  answer: 親切
+  hint: 'shinsetsu(na) - な-adj: 親切な人 (a kind person); often used for being considerate/helpful'
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 優しい
+    toast: |-
+      That's "kind/gentle" in a warm, gentle way.
+      This prompt targets being considerate/helpful (e.g., doing someone a favor).
+  - answer: 切親
+    toast: |-
+      The kanji are reversed.
+      Write them in the usual order: first the one meaning "parent/relative," then the one meaning "cut."
+  - answer: 親近
+    toast: |-
+      Different second kanji.
+      This one means "close/intimate" (like close relationship), not "kind."
+- id: g-07-sukoshi
+  prompt: a little
+  answer: 少し
+  hint: 'sukoshi — often used with negatives: 少しも〜ない (not even a little)'
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 少々
+    toast: |-
+      That's read しょうしょう and means "a little" in a more formal/polite tone.
+      Often used like: 少々お待ちください (Please wait a moment).
+  - answer: ちょっと
+    toast: |-
+      That's the casual kana version meaning "a bit/just a moment".
+      It’s more conversational and can also mean "hey" or "kind of" depending on context.
+  - answer: 少ない
+    toast: |-
+      That's the adjective meaning "few; little (quantity)".
+      The prompt is asking for the adverb meaning "a little".
+- id: g-07-sumu
+  prompt: to live (to reside)
+  answer: 住む
+  hint: |-
+    sumu — to live/reside at a place (住む in + location に)
+    Usage: 東京に住む = live in Tokyo
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 休む
+    toast: |-
+      That's "to rest"!
+      Different meaning, and the left side is the person radical (亻) with a "tree" (木) on the right.
+  - answer: 泊まる
+    toast: |-
+      That's "to stay overnight"!
+      It’s about lodging for a night, not living somewhere long-term.
+  - answer: 進む
+    toast: |-
+      That's "to advance/proceed"!
+      Be careful: similar ending, but the kanji and meaning are about moving forward.
+- id: g-07-setaka
+  prompt: tall (stature)
+  answer: 背が高い
+  hint: 'se ga takai — used for a person''s height (stature). Often: 背が高いです。'
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 身長が高い
+    toast: |-
+      That means "(someone's) height is high" in a more formal/medical register.
+      This prompt expects the common everyday phrasing with せ (back/height).
+  - answer: 背が低い
+    toast: |-
+      That's the opposite meaning (short in stature).
+      Watch for the last kanji: 低 vs 高.
+  - answer: 背が多い
+    toast: |-
+      That's a mix-up of the last kanji.
+      多 means "many" and doesn't fit describing height.
+- id: g-07-sehiku
+  prompt: short (stature)
+  answer: 背が低い
+  hint: se ga hikui — used for a person's height (stature), not for objects.
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 背が高い
+    toast: |-
+      That's "tall".
+      Check the adjective: 高い vs 低い.
+  - answer: 背が小さい
+    toast: |-
+      Natural Japanese usually uses 高い/低い for height.
+      小さい is for overall size, not stature.
+  - answer: 身長が低い
+    toast: |-
+      This means "height (measurement) is low" (more formal/neutral).
+      The prompt is the everyday phrasing with 背.
+- id: g-07-senaka
+  prompt: back (body)
+  answer: 背中
+  hint: senaka — the back of the body (not a “background” or “back side” of an object)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 背景
+    toast: |-
+      That's "background" (like in a picture or scene)!
+      This is about scenery/setting, not a body part.
+  - answer: 背
+    toast: |-
+      That's only the kanji meaning "back" by itself!
+      The prompt is for the common body-part word, which is usually written with two kanji.
+  - answer: 背中側
+    toast: |-
+      That's "the back side" (the side facing away)!
+      This one is a more descriptive phrase, not the basic body-part noun.
+- id: g-07-tanoshimi
+  prompt: to look forward (to)
+  answer: 楽しみにする
+  hint: tanoshimi ni suru — use with 〜を (e.g., 旅行を楽しみにしています = I’m looking forward
+    to the trip)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 期待する
+    toast: |-
+      That's "to expect / to anticipate" (more formal, expectation-based).
+      The prompt is the common everyday phrase meaning “I’m looking forward to it.”
+  - answer: 楽しむ
+    toast: |-
+      That's "to enjoy" (having fun in the moment).
+      The prompt is about anticipation before it happens.
+  - answer: 嬉しい
+    toast: |-
+      That's "happy / glad" (a feeling right now).
+      The prompt is about looking ahead to something.
+- id: g-07-chichi
+  prompt: (my) father
+  answer: 父
+  hint: chichi — humble form for your own father (vs お父さん for someone else’s). 4 strokes.
+  strokeCount: 4
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 母
+    toast: |-
+      That's "mother".
+      Look for the two dots inside (like "毋") instead of the simpler inner strokes.
+  - answer: 交
+    toast: |-
+      That's a different kanji meaning "to mix/associate".
+      This one has a clearer crossing structure and different top stroke direction.
+  - answer: お父さん
+    toast: |-
+      That's the polite way to say "father".
+      The prompt is asking for the humble form used for your own family member.
+- id: g-07-te
+  prompt: hand; arm
+  answer: 手
+  hint: 'te — 4 strokes (meaning: hand)'
+  strokeCount: 4
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 毛
+    toast: |-
+      Looks similar, but this one means "hair/fur".
+      Pay attention to the top part: it has an extra short stroke.
+  - answer: 才
+    toast: |-
+      Looks similar, but this one means "talent" (or is used as a counter suffix).
+      Check the shape: it’s simpler and doesn’t form the same "hand" structure.
+  - answer: 午
+    toast: |-
+      Looks similar, but this one means "noon".
+      The middle strokes cross differently from the "hand" kanji.
+- id: g-07-depa
+  prompt: department store
+  answer: デパート
+  hint: depaato — katakana loanword (from “department store”)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: スーパー
+    toast: |-
+      That's a supermarket.
+      Usually for groceries and daily necessities, not a big multi-floor retail building.
+  - answer: デート
+    toast: |-
+      That's “date/going out together.”
+      It’s much shorter and refers to an activity, not a place.
+  - answer: デザート
+    toast: |-
+      That's “dessert.”
+      Refers to sweet food, not a store.
+- id: g-07-toru
+  prompt: to take (a class); to get (a grade)
+  answer: 取る
+  hint: toru — used for taking a class/course (授業を取る) or getting a grade/points (点を取る).
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 撮る
+    toast: |-
+      That's "to take (a photo/video)"!
+      Used with 写真/ビデオ, not classes or grades.
+  - answer: 採る
+    toast: |-
+      That's "to pick/collect; to adopt"!
+      Often used for採用, 採点, or gathering things.
+  - answer: 盗る
+    toast: |-
+      That's "to steal"!
+      This implies taking illegally, not enrolling or earning points.
+- id: g-07-nagai
+  prompt: long
+  answer: 長い
+  hint: 'nagai — い-adj. meaning “long” (length/time). Often used as: 長い間 (a long time),
+    髪が長い (hair is long).'
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 高い
+    toast: |-
+      That means “high / expensive” (たかい).
+      Common い-adjective, but it describes height/price—not length.
+  - answer: 遠い
+    toast: |-
+      That means “far” (とおい).
+      It describes distance, not something being long in length or duration.
+  - answer: 広い
+    toast: |-
+      That means “wide / spacious” (ひろい).
+      It describes width/area rather than length.
+- id: g-07-nanimo
+  prompt: not ... anything (used with a negative verb)
+  answer: 何も
+  hint: nani mo + NEGATIVE (e.g., 何もない = there isn't anything; 何も食べない = don't eat
+    anything)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 何か
+    toast: |-
+      That's "something"!
+      Use it for an unspecified thing in affirmative contexts (e.g., "something happened").
+  - answer: 誰も
+    toast: |-
+      That's "no one" (with a negative)!
+      This is for people, not things.
+  - answer: どれも
+    toast: |-
+      That's "every one / any of them"!
+      It refers to selecting among items ("which one"), not "anything" with negation.
+- id: g-07-nin
+  prompt: '[counter for people]'
+  answer: ～人
+  hint: |-
+    〜nin / 〜jin — counter suffix for people.
+    Readings vary: 一人 hitori, 二人 futari, 三人 sannin, 四人 yonin, 何人 nan-nin.
+    Write the kanji 人 after a number.
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: ～名
+    toast: |-
+      That's also a people counter, but it's more polite/formal.
+      Often used in announcements, reservations, and customer service.
+  - answer: ～人前
+    toast: |-
+      That's for servings/portions of food.
+      Used when talking about how many people a dish serves.
+  - answer: ～匹
+    toast: |-
+      That's the counter for small animals.
+      This prompt is for counting people.
+- id: g-07-ha
+  prompt: tooth
+  answer: 歯
+  hint: |-
+    ha — means “tooth”; note this is 歯 (tooth), not は (hiragana particle “wa”)
+    12 strokes
+  strokeCount: 12
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 葉
+    toast: |-
+      That's “leaf”!
+      Watch the top radical: this one is the grass radical (艹).
+  - answer: は
+    toast: |-
+      That's hiragana!
+      The prompt is a noun written with kanji, not the particle.
+  - answer: 牙
+    toast: |-
+      That's “fang/tusk”!
+      Different kanji and used for animal fangs rather than regular teeth.
+- id: g-07-haku
+  prompt: to put on (items below your waist)
+  answer: はく
+  hint: 'haku — used for lower-body clothing: ズボンをはく / 靴下をはく'
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 履く
+    toast: |-
+      That's the kanji form.
+      This prompt expects the kana spelling, so write it in hiragana.
+  - answer: きる
+    toast: |-
+      That's "to wear" for upper-body clothing.
+      This one is for shirts/jackets, not items below the waist.
+  - answer: はめる
+    toast: |-
+      That's "to put on" by inserting/fitting (rings, gloves, etc.).
+      Not the verb used for pants/skirts/shoes.
+- id: g-07-hataraku
+  prompt: to work
+  answer: 働く
+  hint: hataraku (u-verb) — often used for working at a job; kanji has the 亻(person)
+    radical on the left
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 動く
+    toast: |-
+      That's "to move" (physical movement).
+      Check whether the left side is the person radical (亻) or the heavy-looking 力/動 components.
+  - answer: 勤める
+    toast: |-
+      That's "to be employed / to serve (at a company)".
+      This focuses on being employed at a particular place rather than the act of working.
+  - answer: 作る
+    toast: |-
+      That's "to make / to create".
+      This is about producing something, not working (in general).
+- id: g-07-hana
+  prompt: nose
+  answer: 鼻
+  hint: hana — 14 strokes. Looks like 自 on top; remember it’s the body part you breathe
+    with.
+  strokeCount: 14
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 花
+    toast: |-
+      That's "flower" (はな)!
+      Different kanji: this one has the grass radical at the top (艹).
+  - answer: 耳
+    toast: |-
+      That's "ear"!
+      Different body part; also the shape is simpler and more vertical.
+  - answer: 首
+    toast: |-
+      That's "neck"!
+      Watch the overall structure: this one has a clearer top 'lid' and a different bottom shape.
+- id: g-07-haha
+  prompt: (my) mother
+  answer: 母
+  hint: 'haha — used for your own mother (humble). For someone else’s mother: お母さん
+    (okaasan).'
+  strokeCount: 5
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 毎
+    toast: |-
+      Common mix-up: similar overall shape.
+      This one has the extra stroke at the top and is used in words like "every day".
+  - answer: 毋
+    toast: |-
+      Looks very close, but this is a different kanji.
+      Pay attention to the interior line placement and overall proportions.
+  - answer: お母さん
+    toast: |-
+      That’s the polite way to say "mother" (often for someone else’s mother).
+      The prompt is asking for the plain word you use for your own mother.
+- id: g-07-hayai
+  prompt: fast
+  answer: 速い
+  hint: hayai — 速い is “fast/quick” (speed). Often contrasted with 早い (early).
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 早い
+    toast: |-
+      That means “early” (timing) or “fast” in the sense of happening quickly.
+      The prompt here is about speed (how fast something moves).
+  - answer: 遅い
+    toast: |-
+      That means “slow/late.”
+      It’s the opposite meaning.
+  - answer: 速く
+    toast: |-
+      That’s the adverb form (“quickly/fast”).
+      The prompt is asking for the dictionary adjective form.
+- id: g-07-hitori
+  prompt: one person
+  answer: 一人
+  hint: hitori — counter for people; can also mean "alone" depending on context
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 独り
+    toast: |-
+      This means "alone" (emphasis on being by oneself).
+      Often used as a standalone word, not as the general people counter.
+  - answer: 一人で
+    toast: |-
+      This includes "de" (meaning "by/with").
+      It's the form used for doing something solo ("by oneself").
+  - answer: 一人前
+    toast: |-
+      This means "one portion" or "fully fledged / as an adult" depending on context.
+      Not just the number of people.
+- id: g-07-futari
+  prompt: two people
+  answer: 二人
+  hint: futari — counter/expression for two people (irregular; 1人=ひとり, 2人=ふたり)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 二つ
+    toast: |-
+      That's "two (things)"!
+      Used for counting items, not people.
+  - answer: 二名
+    toast: |-
+      That's a more formal way to say "two persons"!
+      Often used in announcements or writing.
+  - answer: 二人で
+    toast: |-
+      That means "together as two"!
+      It adds the particle で, changing the phrase.
+- id: g-07-futot
+  prompt: to be on the heavy side
+  answer: 太っています
+  hint: futotte imasu (polite progressive) — describes a current/ongoing state of
+    being overweight
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 太りました
+    toast: |-
+      That's past tense ("became/got heavy").
+      The prompt is about a current state, not a change that already happened.
+  - answer: 太っていますか
+    toast: |-
+      That's a question form.
+      The prompt is a statement, so no question ending.
+  - answer: 太っていました
+    toast: |-
+      That's past progressive ("was on the heavy side").
+      The prompt is present/ongoing, not in the past.
+- id: g-07-futoru
+  prompt: to gain weight; overweight
+  answer: 太る
+  hint: futoru (u-verb) — to gain weight (body). Often used as 太った “got fat/put on
+    weight.”
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 太い
+    toast: |-
+      That's the i-adjective “thick/fat (object)”.
+      It describes something’s thickness (like a line or a leg), not the act of gaining weight.
+  - answer: 肥える
+    toast: |-
+      That's “to grow fat/fatten (often animals/soil)”.
+      It’s more literary/nuanced and not the common everyday verb for a person putting on weight.
+  - answer: 太るな
+    toast: |-
+      That's the command “Don’t gain weight.”
+      The prompt is for the dictionary form, not a negative imperative.
+- id: g-07-betsuni
+  prompt: nothing in particular (used with negatives)
+  answer: 別に
+  hint: betsuni — usually followed by a negative (e.g., 別に〜ない) to mean “not really
+    / nothing in particular”
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 特に
+    toast: |-
+      That means “especially/particularly.”
+      Often used to single something out (特に〜は…).
+  - answer: 別の
+    toast: |-
+      That means “another/different (one)” and modifies a noun.
+      Not the common “not really” adverb used with negatives.
+  - answer: 別にする
+    toast: |-
+      That means “to separate/set apart.”
+      It’s not the adverb meaning “not really / nothing in particular.”
+- id: g-07-benri
+  prompt: convenient
+  answer: 便利
+  hint: benri (na-adj) — often used as 便利な + noun / 便利です
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 便り
+    toast: |-
+      That's "news/letter" (たより)!
+      Same first kanji, but the second kanji means "to rely on" and the meaning changes.
+  - answer: 有利
+    toast: |-
+      That's "advantageous" (ゆうり)!
+      Same second kanji, but it describes having an advantage, not ease of use.
+  - answer: 不便
+    toast: |-
+      That's "inconvenient"!
+      It adds a negative prefix, reversing the meaning.
+- id: g-07-mayuge
+  prompt: eyebrow
+  answer: 眉毛
+  hint: mayuge — written with 眉 (eyebrow) + 毛 (hair/fur). Often used as 眉毛が太い/薄い (thick/thin
+    eyebrows).
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: まつげ
+    toast: |-
+      That's "eyelashes"!
+      These are the hairs on the edge of the eyelid, not above the eye.
+  - answer: 髭
+    toast: |-
+      That's "beard/mustache"!
+      This refers to facial hair around the mouth/chin area.
+  - answer: 眉
+    toast: |-
+      That's only the "eyebrow" part!
+      The prompt expects the full word with the hair component included.
+- id: g-07-mijikai
+  prompt: short (length)
+  answer: 短い
+  hint: mijikai — length/time is short (shorter than expected)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 近い
+    toast: |-
+      That's "near/close"!
+      Check the left side: this one uses the walking radical (辶).
+  - answer: 少ない
+    toast: |-
+      That's "few/little (amount)"!
+      This is about quantity, not length.
+  - answer: 細い
+    toast: |-
+      That's "thin/slender"!
+      This describes thickness, not length.
+- id: g-07-mimi
+  prompt: ear
+  answer: 耳
+  hint: mimi — 6 strokes (looks like an ear shape on the side of a head)
+  strokeCount: 6
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 目
+    toast: |-
+      That's "eye".
+      This one has a box shape with an internal line.
+  - answer: 自
+    toast: |-
+      That's "self".
+      This one has a longer vertical line running through the middle.
+  - answer: 取
+    toast: |-
+      That's "to take".
+      This one adds an extra component on the right side.
+- id: g-07-minna
+  prompt: all (everyone)
+  answer: みんな
+  hint: 'minna — used for people: “everyone/all (of us/you/them)” (e.g., みんなで = together)'
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: みな
+    toast: |-
+      This is a shorter, more formal-sounding version meaning “everyone/all.”
+      The prompt expects the more common casual form.
+  - answer: ぜんぶ
+    toast: |-
+      This means “all of it / everything” (things).
+      The prompt is about people (“everyone”).
+  - answer: みんなで
+    toast: |-
+      This includes “together” and means “as a group.”
+      The prompt is just “everyone/all,” without the extra meaning.
+- id: g-07-mune
+  prompt: breast
+  answer: 胸
+  hint: mune — also means "chest"; often used as 胸が痛い (my heart/chest hurts)
+  strokeCount: 10
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 脳
+    toast: |-
+      That's "brain".
+      Check the right-side component: this one uses 凶 (box with an X) rather than something like 甬.
+  - answer: 能
+    toast: |-
+      That's the kanji for "ability".
+      It lacks the left-side "flesh" radical (月) that body-part kanji often have.
+  - answer: 肺
+    toast: |-
+      That's "lung".
+      Both are body parts with the 月 radical, but the right side here is different (not the "凶" component).
+- id: g-07-me
+  prompt: eye
+  answer: 目
+  hint: me — 5 strokes; the box shape should close neatly
+  strokeCount: 5
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 日
+    toast: |-
+      That's "sun/day"!
+      This one is written more simply, without the extra internal line detail.
+  - answer: 白
+    toast: |-
+      That's "white"!
+      Watch the inside stroke placement—this character has a different inner mark.
+  - answer: 自
+    toast: |-
+      That's "self"!
+      The top portion is different; be careful with the inner stroke direction and placement.
+- id: g-07-megane
+  prompt: glasses
+  answer: 眼鏡
+  hint: megane — usually written in kana (めがね) in everyday use, but this is the kanji
+    form.
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 目
+    toast: |-
+      That's just "eye".
+      The prompt is for the object you wear to help you see.
+  - answer: 眼
+    toast: |-
+      That's only the first kanji meaning "eyeball/eye".
+      You need the full word for the wearable item.
+  - answer: 鏡
+    toast: |-
+      That's "mirror".
+      It uses the metal radical and looks similar, but the meaning is different.
+- id: g-07-mochiron
+  prompt: of course
+  answer: もちろん
+  hint: 'mochiron — used to agree/confirm (“of course”, “sure”). Often: もちろんです／もちろん〜'
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 当然
+    toast: |-
+      That's “naturally / as expected” (more formal, matter-of-fact).
+      Often implies it’s only natural given the situation.
+  - answer: やっぱり
+    toast: |-
+      That's “as I thought / 역시” (based on expectation).
+      Used when something matches what you suspected.
+  - answer: もちろんです
+    toast: |-
+      That’s the polite full sentence form.
+      The prompt expects the base adverb only (no です).
+- id: g-07-yasete
+  prompt: to be thin
+  answer: やせています
+  hint: yaseteimasu — polite progressive state (“is thin”). Often describes someone’s
+    current appearance/condition.
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 痩せています
+    toast: |-
+      That uses kanji.
+      This prompt expects the kana-only form.
+  - answer: ふとっています
+    toast: |-
+      That means “to be fat / have gained weight.”
+      Opposite meaning.
+  - answer: やせました
+    toast: |-
+      That means “lost weight / became thin” (past change).
+      This prompt is about the current state.
+- id: g-07-yaseru
+  prompt: to lose weight
+  answer: やせる
+  hint: yaseru - intransitive ru-verb (to become thin/lose weight)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: たべる
+    toast: |-
+      That's "to eat"!
+      Opposite meaning: gaining weight vs. becoming thinner.
+  - answer: ふとる
+    toast: |-
+      That's "to gain weight"!
+      Careful: this one means your body gets bigger/heavier.
+  - answer: ヤセル
+    toast: |-
+      That's katakana!
+      The prompt expects hiragana, which is more rounded.
+- id: g-07-yubi
+  prompt: finger
+  answer: 指
+  hint: yubi — 9 strokes; means “finger/to point” depending on context
+  strokeCount: 9
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 旨
+    toast: |-
+      That’s “meaning/purport” (うま・むね)!
+      It has a different left side component than the finger/pointing kanji.
+  - answer: 持
+    toast: |-
+      That’s “to hold” (もつ)!
+      Watch the left radical: this one uses the hand radical (扌), not the one used for pointing.
+  - answer: 枝
+    toast: |-
+      That’s “branch” (えだ)!
+      This one has the tree radical (木) on the left, not the radical used for pointing/fingers.
+- id: g-07-yokattara
+  prompt: if you like
+  answer: よかったら
+  hint: yokattara - polite/soft way to say “if it’s okay with you” (often used to
+    make an offer or invitation)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: よければ
+    toast: |-
+      Similar meaning (“if it’s okay/if you don’t mind”).
+      This one uses the conditional form of いい and is common in polite speech.
+  - answer: よかった
+    toast: |-
+      This means “I’m glad” / “it was good.”
+      Not the conditional “if …” form.
+  - answer: よかったらどうぞ
+    toast: |-
+      This adds “please go ahead.”
+      The prompt is just the base phrase without the extra invitation.

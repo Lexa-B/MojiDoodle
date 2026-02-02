@@ -1,0 +1,68 @@
+# Card Packs Manifest
+
+packs:
+  - id: hiragana
+    name: Hiragana
+    description: The 46 basic hiragana characters
+    category: hiragana
+    files:
+      - hiragana.yaml
+
+  - id: katakana
+    name: Katakana
+    description: The 46 basic katakana characters
+    category: katakana
+    files:
+      - katakana.yaml
+
+  - id: kanji
+    name: Kanji
+    description: Common kanji characters
+    category: kanji
+    files:
+      - kanji.yaml
+
+  - id: katakana-words
+    name: Katakana Words
+    description: Common words written in katakana
+    category: katakana-words
+    files:
+      - katakana-words.yaml
+
+  - id: kanji-words
+    name: Kanji Words
+    description: Common words using kanji
+    category: kanji-words
+    files:
+      - kanji-words.yaml
+
+  - id: genki
+    name: Genki Textbook
+    description: Vocabulary from Genki I & II (Chapters 0-23)
+    category: genki
+    source: "Genki: An Integrated Course in Elementary Japanese"
+    files:
+      - genki/genki_vocab_00.yaml
+      - genki/genki_vocab_01.yaml
+      - genki/genki_vocab_02.yaml
+      - genki/genki_vocab_03.yaml
+      - genki/genki_vocab_04.yaml
+      - genki/genki_vocab_05.yaml
+      - genki/genki_vocab_06.yaml
+      - genki/genki_vocab_07.yaml
+      - genki/genki_vocab_08.yaml
+      - genki/genki_vocab_09.yaml
+      - genki/genki_vocab_10.yaml
+      - genki/genki_vocab_11.yaml
+      - genki/genki_vocab_12.yaml
+      - genki/genki_vocab_13.yaml
+      - genki/genki_vocab_14.yaml
+      - genki/genki_vocab_15.yaml
+      - genki/genki_vocab_16.yaml
+      - genki/genki_vocab_17.yaml
+      - genki/genki_vocab_18.yaml
+      - genki/genki_vocab_19.yaml
+      - genki/genki_vocab_20.yaml
+      - genki/genki_vocab_21.yaml
+      - genki/genki_vocab_22.yaml
+      - genki/genki_vocab_23.yaml

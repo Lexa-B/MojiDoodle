@@ -1,0 +1,1427 @@
+- id: g-20-achira
+  prompt: that way (polite)
+  answer: あちら
+  hint: achira — polite/distant form of あっち; also used to mean “that person/that place”
+    politely
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: こちら
+    toast: |-
+      That's “this way / here” (polite).
+      This one refers to the speaker’s side, not over there.
+  - answer: そちら
+    toast: |-
+      That's “that way / there” (polite, near the listener).
+      This one points closer to the listener, not farther away.
+  - answer: あっち
+    toast: |-
+      That's the casual version.
+      The prompt asks for the polite/distant form.
+- id: g-20-anime
+  prompt: animation
+  answer: アニメ
+  hint: anime (katakana) — abbreviation of アニメーション
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: あにめ
+    toast: |-
+      That's hiragana.
+      The prompt expects katakana (more angular).
+  - answer: アニマル
+    toast: |-
+      That's "animal".
+      Different ending: マル vs メ.
+  - answer: アニメーション
+    toast: |-
+      That's the full word "animation".
+      The prompt is for the shortened form.
+- id: g-20-annani
+  prompt: so; such (that much)
+  answer: あんなに
+  hint: 'annani — used to emphasize degree: "(not) that much/so much" (e.g., あんなに高い
+    = so expensive)'
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: そんなに
+    toast: |-
+      That's "to that extent / so much" about something near the listener or generally.
+      This prompt refers to something over there or previously mentioned.
+  - answer: こんなに
+    toast: |-
+      That's "this much" about something near the speaker.
+      This prompt is for something not close to the speaker.
+  - answer: あのように
+    toast: |-
+      That's "like that / in that way" (manner), not degree.
+      This prompt is mainly about how much / how strongly.
+- id: g-20-itasu
+  prompt: Extra-modest expression for する (to do)
+  answer: 致す
+  hint: itasu - humble (kenjōgo) for する; used when referring to your own actions (e.g.,
+    私が致します).
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: します
+    toast: |-
+      That's the standard polite form of "to do".
+      The prompt asks for an extra-modest (humble) expression.
+  - answer: する
+    toast: |-
+      That's the plain form "to do".
+      The prompt asks for a humble (extra-modest) form used for your own actions.
+  - answer: 頂く
+    toast: |-
+      That's a humble verb meaning "to receive/eat/drink".
+      Different verb and usage from "to do".
+- id: g-20-itadaki-eat
+  prompt: Extra-modest expression for “to eat” and “to drink”
+  answer: 頂く
+  hint: itadaku — humble verb used when you receive food/drink (e.g., いただきます / 頂きます
+    before eating).
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 食べる
+    toast: |-
+      That's the plain verb “to eat.”
+      The prompt asks for an extra-modest/humble expression.
+  - answer: 飲む
+    toast: |-
+      That's the plain verb “to drink.”
+      The prompt asks for an extra-modest/humble expression.
+  - answer: 召し上がる
+    toast: |-
+      That's an honorific (for the other person's action).
+      The prompt asks for a humble form used for your own action.
+- id: g-20-itadaki-recv
+  prompt: humble expression for もらう
+  answer: 頂く
+  hint: itadaku (humble) — used when you receive/accept something from someone of
+    higher status; also used as “to eat/drink (humble)”
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 貰う
+    toast: |-
+      That's the plain verb “to receive”!
+      The prompt asks for the humble form used to lower the speaker.
+  - answer: 受け取る
+    toast: |-
+      That's “to receive/take” in a neutral, concrete sense.
+      Not the humble giving/receiving verb used for politeness.
+  - answer: 食べる
+    toast: |-
+      That's “to eat” (plain).
+      The prompt is about the humble receiving verb; it can also be used in humble speech for eating, but this is not it.
+- id: g-20-ikkai
+  prompt: first floor
+  answer: 一階
+  hint: ikkai — means “1st floor” in a building (e.g., 一階にコンビニがある).
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 二階
+    toast: |-
+      That’s “second floor.”
+      Watch the number: 二 vs 三 or 一.
+  - answer: 一回
+    toast: |-
+      That’s “one time / once.”
+      Different meaning: count of occurrences, not a building level.
+  - answer: 一階建て
+    toast: |-
+      That’s “one-story building.”
+      It describes the whole building, not the specific floor.
+- id: g-20-inaka
+  prompt: countryside
+  answer: いなか
+  hint: inaka (romaji) — rural area; often contrasted with 町 (まち, town/city)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: なか
+    toast: |-
+      That's "inside/middle" (inside something).
+      The prompt is a place type (rural area), not a position.
+  - answer: いなこ
+    toast: |-
+      That's a different ending sound.
+      Watch the last character: it should be か, not こ.
+  - answer: いなけ
+    toast: |-
+      That's a different ending sound.
+      Watch the last character: it should be か, not け.
+- id: g-20-ukagau
+  prompt: to humbly visit; to humbly ask
+  answer: 伺う
+  hint: ukagau — humble form (謙譲語). Used for visiting someone (esp. a superior) or
+    asking politely (e.g., お話を伺う).
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 訪ねる
+    toast: |-
+      That's "to visit" in a neutral/polite way.
+      The prompt requires a humble (keigo) verb used toward someone of higher status.
+  - answer: 聞く
+    toast: |-
+      That's the plain verb "to ask/hear".
+      The prompt is for a humble expression often used in polite speech.
+  - answer: 参る
+    toast: |-
+      That's a humble verb meaning "to go/come".
+      The prompt is specifically for humbly visiting/asking (often used with a question or with someone you visit).
+- id: g-20-uchujin
+  prompt: space alien
+  answer: 宇宙人
+  hint: uchuujin — 「宇宙」(space) + 「人」(person); long vowel うちゅう
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 宇宙
+    toast: |-
+      That's just "space" (a place).
+      The prompt is a living being, so it includes the person/person-related part.
+  - answer: 地球人
+    toast: |-
+      That's "Earthling".
+      Different origin: Earth vs. outer space.
+  - answer: 宇宙船
+    toast: |-
+      That's a "spaceship".
+      It's a vehicle, not a person/creature.
+- id: g-20-ureru
+  prompt: to be sold
+  answer: 売れる
+  hint: 'ureru — intransitive (something sells / is sold). Contrast: 売る (to sell).'
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 売る
+    toast: |-
+      That's the transitive verb: "to sell".
+      It needs a seller doing the action (someone sells something).
+  - answer: 買われる
+    toast: |-
+      That's "to be bought" (passive of buy).
+      Different nuance: focuses on the buyer rather than the item selling.
+  - answer: 売れない
+    toast: |-
+      That's the negative form: "doesn't sell".
+      Make sure the ending is the plain present affirmative.
+- id: g-20-esa
+  prompt: feed
+  answer: えさ
+  hint: esa — animal feed/bait (餌). Often used for pets, livestock, or fishing bait.
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: さえ
+    toast: |-
+      That swaps the order of the kana.
+      Watch the sequence: first the character with the loop, then the one with the vertical stroke and curve.
+  - answer: えび
+    toast: |-
+      That's "shrimp".
+      The last kana is different: look closely at the extra mark and how the strokes end.
+  - answer: エサ
+    toast: |-
+      That's katakana.
+      The prompt expects hiragana (rounder, softer shapes).
+- id: g-20-edo
+  prompt: former name of Tokyo
+  answer: 江戸
+  hint: Edo (えど) — historical period/city name; written 江 (inlet/river) + 戸 (door/household)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 東京
+    toast: |-
+      That's the modern name: Tokyo.
+      The prompt asks for the historical former name.
+  - answer: 京都
+    toast: |-
+      That's Kyoto.
+      Different city name and different kanji.
+  - answer: 江東
+    toast: |-
+      These kanji look similar (starts with 江), but this reads differently and means a different area/name.
+      Watch the second character.
+- id: g-20-edo-jidai
+  prompt: Edo period (1603–1868)
+  answer: 江戸時代
+  hint: edojidai — Japan’s Tokugawa shogunate era; often appears in history contexts
+    (江戸＝Edo, 時代＝era/period).
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 明治時代
+    toast: |-
+      That's the Meiji period.
+      It comes after the shogunate ended (late 1800s onward).
+  - answer: 平安時代
+    toast: |-
+      That's the Heian period.
+      Much earlier era; associated with court culture and classical literature.
+  - answer: 戦国時代
+    toast: |-
+      That's the Sengoku period.
+      Era of civil war and warring states, earlier than the long peace of the shogunate.
+- id: g-20-otaku
+  prompt: (someone’s) home/house
+  answer: お宅
+  hint: otaku — polite word for someone else’s home (e.g., お宅はどちらですか)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 自宅
+    toast: |-
+      That's "one's own home"!
+      This one refers to your/one's own house, not someone else's.
+  - answer: 家
+    toast: |-
+      That's the plain word "house/home"!
+      This prompt expects a more polite expression used for someone else's place.
+  - answer: お家
+    toast: |-
+      That's a polite/cute "home" word!
+      This is common in speech, but a different expression from the one asked.
+- id: g-20-oto
+  prompt: sound
+  answer: 音
+  hint: oto — also used in 音楽(おんがく, music) and 音(おと)がする (to hear a sound)
+  strokeCount: 9
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 暗
+    toast: |-
+      That's "dark"!
+      It uses the 日 (sun/day) part, while the target is about sounds.
+  - answer: 意
+    toast: |-
+      That's "meaning/intent"!
+      Watch the top: this one has a different structure and a 心 at the bottom.
+  - answer: 耳
+    toast: |-
+      That's "ear"!
+      That's a body part; the prompt is for the thing you hear.
+- id: g-20-onigiri
+  prompt: rice ball
+  answer: おにぎり
+  hint: onigiri - often triangular rice ball, usually with a filling (e.g., 梅/鮭) and
+    sometimes wrapped in 海苔
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: おむすび
+    toast: |-
+      That's another word for a rice ball.
+      More common in some regions/contexts; the prompt expects the other common term.
+  - answer: おにく
+    toast: |-
+      That's "meat".
+      Watch the ending: this one is shorter and doesn't have the "gi-ri" sounds.
+  - answer: おにぎりり
+    toast: |-
+      Looks like you repeated the last character.
+      Make sure the word ends once after the final "り".
+- id: g-20-omoi
+  prompt: heavy; serious (illness)
+  answer: 重い
+  hint: omoi — for physical heaviness or a serious condition (e.g., 病気が重い)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 想い
+    toast: |-
+      This means "feelings/thoughts" (often emotional).
+      Not about weight or severity.
+  - answer: 思い
+    toast: |-
+      This relates to "thoughts/feelings" (to think/feel).
+      Different meaning from heaviness or seriousness.
+  - answer: 軽い
+    toast: |-
+      This is the opposite meaning: "light" / "mild".
+      Be careful not to flip the meaning.
+- id: g-20-oru
+  prompt: Extra-modest expression for いる (to be; to exist)
+  answer: おる
+  hint: 'oru — humble/polite form of いる (used about oneself or in humble speech).
+    Often in: 〜ておる / 〜ております'
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: いる
+    toast: |-
+      That's the plain verb for "to be/exist".
+      The prompt asks for an extra-modest (humble) expression.
+  - answer: あります
+    toast: |-
+      That's the polite verb for "to exist" (mainly for things).
+      The prompt is the humble form used in humble speech.
+  - answer: おれる
+    toast: |-
+      That's a different verb meaning "to break/snap".
+      Watch out for the extra え sound.
+- id: g-20-kai-suf
+  prompt: '...th floor (counter suffix)'
+  answer: ～階
+  hint: ~kai (e.g., 3階 = さんがい, 1階 = いっかい). Used to count building floors.
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: ～回
+    toast: |-
+      That's the counter for times/occurrences.
+      Use it for how many times something happens, not building floors.
+  - answer: ～街
+    toast: |-
+      That's "town/city".
+      Different meaning and the right-side shape is different.
+  - answer: ～段
+    toast: |-
+      That's the counter for steps/levels (like stairs or ranks).
+      Not used for floors of a building.
+- id: g-20-kakari
+  prompt: our person in charge
+  answer: 係の者
+  hint: kakari no mono — polite phrase for the staff member responsible (e.g., 「係の者を呼びます」
+    “I’ll call the person in charge.”)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 担当者
+    toast: |-
+      That means “the person in charge / 담당자,” especially in offices.
+      This prompt expects a more set, polite phrasing often used by staff.
+  - answer: 係員
+    toast: |-
+      That’s “attendant/clerk.”
+      It refers to staff, but it’s shorter and less of a set phrase than what the prompt is asking for.
+  - answer: 責任者
+    toast: |-
+      That’s “person responsible” (higher responsibility/authority).
+      The prompt is for the staff member assigned to handle something, not necessarily the top responsible party.
+- id: g-20-kashiko
+  prompt: 'Certainly. (polite: “Understood / Right away.”)'
+  answer: かしこまりました
+  hint: kashikomarimashita — very polite service phrase meaning “Understood/Right
+    away.” (often used by staff)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: わかりました
+    toast: |-
+      That’s a more neutral “I understood.”
+      The prompt is for a very polite, service-style response.
+  - answer: 承知しました
+    toast: |-
+      That’s also very polite (“Understood”).
+      This one is a different set phrase; common in business settings.
+  - answer: 了解しました
+    toast: |-
+      That’s “Roger/OK,” but it can sound too casual in formal customer service.
+      Use a more formal phrase here.
+- id: g-20-gakkari
+  prompt: to be disappointed
+  answer: がっかりする
+  hint: gakkari suru — often used after unmet expectations (e.g., 期待してたのにがっかりした)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: しょんぼりする
+    toast: |-
+      That's more like "feeling dejected/down" (quietly sad).
+      Not necessarily about unmet expectations.
+  - answer: がっくりする
+    toast: |-
+      That's closer to "to slump / to lose strength" physically or mentally.
+      Can be similar, but often emphasizes drooping/weakening.
+  - answer: 残念
+    toast: |-
+      That's "regrettable / what a shame" as a na-adjective/noun.
+      Not the same verb form meaning "to become disappointed."
+- id: g-20-karui
+  prompt: light
+  answer: 軽い
+  hint: karui — “light (not heavy)”; often contrasted with 重い (omoi).
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 明るい
+    toast: |-
+      That's “bright/cheerful”!
+      It describes light/brightness or mood, not weight.
+  - answer: 薄い
+    toast: |-
+      That's “thin / weak (flavor/color)”!
+      It’s about thickness or intensity, not heaviness.
+  - answer: 弱い
+    toast: |-
+      That's “weak”!
+      It describes strength/ability, not something being not heavy.
+- id: g-20-kikoeru
+  prompt: to be audible
+  answer: 聞こえる
+  hint: 'kikoeru - intransitive: can be heard / is audible (often uses が: 音が聞こえる)'
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 聞く
+    toast: |-
+      That's the action "to listen/ask".
+      The prompt is about sound being audible (ability/state), not actively listening.
+  - answer: 見える
+    toast: |-
+      That's "to be visible" (vision), not hearing.
+      Different sense: sight vs sound.
+  - answer: 聞ける
+    toast: |-
+      That's the potential form "can listen/hear".
+      The prompt is the 'is audible/can be heard' expression, often describing a sound.
+- id: g-20-koukan
+  prompt: to exchange
+  answer: 交換する
+  hint: koukan suru — exchange items/information (e.g., 名刺を交換する "exchange business
+    cards")
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 交代する
+    toast: |-
+      That's "to take turns / substitute"!
+      It's about switching roles/people, not exchanging things.
+  - answer: 変更する
+    toast: |-
+      That's "to change / modify"!
+      It means altering something, not swapping between two parties.
+  - answer: 交換
+    toast: |-
+      That's the noun form!
+      The prompt is asking for the verb form ending in する.
+- id: g-20-kokoro
+  prompt: mind; heart
+  answer: 心
+  hint: kokoro — often means both “heart” (feelings) and “mind” (state of mind); 4
+    strokes
+  strokeCount: 4
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 必
+    toast: |-
+      Looks similar, but this one has a prominent hooked vertical line and different internal structure.
+      Be careful with where the central stroke hooks.
+  - answer: 芯
+    toast: |-
+      This includes a plant/grass radical on top.
+      If you see extra strokes at the top, it's not the plain heart character.
+  - answer: 忄
+    toast: |-
+      This is the “heart” radical form used on the left side of kanji.
+      It’s not written as a standalone character in this context.
+- id: g-20-gozaru
+  prompt: Extra-modest expression for ある (to be/exist)
+  answer: ござる
+  hint: gozaru — very humble/polite form meaning “to be/exist” (used in set phrases
+    like 〜でございます)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: ある
+    toast: |-
+      That’s the plain form “to be/exist.”
+      The prompt asks for the extra-humble/polite version used in very formal speech.
+  - answer: います
+    toast: |-
+      That’s the polite verb for living things.
+      The prompt is a very formal humble form meaning “to be/exist,” often used in fixed expressions.
+  - answer: ございます
+    toast: |-
+      That’s a common polite form used as “there is/are” or in fixed polite phrases.
+      The prompt is the dictionary/plain form used as the base of that expression.
+- id: g-20-sashiage
+  prompt: humble expression for あげる
+  answer: 差し上げる
+  hint: sashiageru - humble/polite "to give" (to someone of higher status); used for
+    the giver's action
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: あげる
+    toast: |-
+      That's the plain/casual verb.
+      The prompt is asking for the humble/polite form used in formal situations.
+  - answer: くださる
+    toast: |-
+      That's "to give" from the other person's side (honorific).
+      This prompt is for giving from the speaker's side (humble).
+  - answer: 差し出す
+    toast: |-
+      That means "to present/offer/submit" (often physically handing something over).
+      The prompt is a humble form specifically for "to give."
+- id: g-20-ji
+  prompt: letter; character
+  answer: 字
+  hint: ji — used in words like 漢字 (kanji) and 文字 (moji)
+  strokeCount: 6
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 学
+    toast: |-
+      Looks similar because both have a "roof" on top.
+      This one has the "child" element at the bottom.
+  - answer: 守
+    toast: |-
+      Also has a top "roof" shape.
+      This one contains "寸" at the bottom (a small box + vertical).
+  - answer: 宇
+    toast: |-
+      Similar top shape.
+      This one has "于" under the roof, with a long horizontal line.
+- id: g-20-shitsurei
+  prompt: I’m very sorry.
+  answer: 失礼しました
+  hint: shitsurei shimashita — polite apology (lit. “I was rude”); often used when
+    you did something impolite (e.g., interrupting/leaving).
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: すみませんでした
+    toast: |-
+      That's a more general polite apology.
+      This prompt expects the set phrase often used for a breach of manners (interrupting, being rude).
+  - answer: 申し訳ありませんでした
+    toast: |-
+      That's a stronger, very formal apology.
+      This prompt is the fixed phrase commonly used for minor rudeness or etiquette situations.
+  - answer: 失礼します
+    toast: |-
+      That's the non-past form used when you are about to do something (e.g., entering/leaving, interrupting).
+      The prompt implies you already did it.
+- id: g-20-shiten
+  prompt: branch office
+  answer: 支店
+  hint: shiten — a company's branch (not a retail store chain branch). 支=branch/support,
+    店=shop/office.
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 本店
+    toast: |-
+      That's the head office / main store.
+      The prompt is asking for a subsidiary location, not the main one.
+  - answer: 支社
+    toast: |-
+      That's a branch company/office, often larger or at the company level.
+      The prompt is for a smaller branch office/location.
+  - answer: 支部
+    toast: |-
+      That's a branch/division/section (often an organization unit).
+      The prompt is specifically an office location.
+- id: g-20-shumi
+  prompt: hobby; pastime
+  answer: 趣味
+  hint: shumi (しゅみ) — something you enjoy doing regularly
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 興味
+    toast: |-
+      That's "interest"!
+      It means being curious about something, not a regular activity you do for fun.
+  - answer: 娯楽
+    toast: |-
+      That's "entertainment"!
+      It refers to amusements in general (movies, shows, etc.), not your personal pastime.
+  - answer: 特技
+    toast: |-
+      That's "special skill"!
+      It’s something you’re good at, not necessarily something you do just for enjoyment.
+- id: g-20-shousetsu
+  prompt: novel
+  answer: 小説
+  hint: shousetsu (shōsetsu) - written fiction/book-length story (n.)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 小説家
+    toast: |-
+      That's "novelist" (the author).
+      The extra character adds the meaning "specialist/professional".
+  - answer: 物語
+    toast: |-
+      That's "story/tale".
+      Broader than a book-length work of fiction.
+  - answer: 説明
+    toast: |-
+      That's "explanation".
+      Different meaning; this one is about describing/clarifying, not fiction.
+- id: g-20-sneaker
+  prompt: sneakers
+  answer: スニーカー
+  hint: |-
+    suniikaa - カタカナ語（英: sneaker）
+    長音「ー」と小さい「ャ/ュ/ョ」ではなく「ニ」をしっかり書く
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: スピーカー
+    toast: |-
+      That reads "speaker"!
+      Watch the middle: ピー (with ゜) vs ニー (no ゜).
+  - answer: スニーカ
+    toast: |-
+      That's missing the final long vowel mark.
+      Check whether the word ends with a stretched sound 「ー」.
+  - answer: すにーかー
+    toast: |-
+      That's hiragana.
+      The prompt expects katakana for a loanword (straight, angular shapes).
+- id: g-20-suru-cost
+  prompt: to cost
+  answer: する
+  hint: suru — used as a verb meaning “to cost” (e.g., いくらする “How much is it?”).
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: やる
+    toast: |-
+      That means “to do/perform” (more casual).
+      The prompt is specifically about price/cost.
+  - answer: かかる
+    toast: |-
+      That means “to take (time/money)” or “to cost” in a different phrasing.
+      Often used like 〜円かかる.
+  - answer: 掛かる
+    toast: |-
+      Same reading as かかる, but written with kanji.
+      Used for “to take/cost” rather than the set phrase for prices.
+- id: g-20-seikatsu
+  prompt: to lead a life
+  answer: 生活する
+  hint: seikatsu suru — “to live/lead one’s daily life” (often about lifestyle or
+    living conditions)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 暮らす
+    toast: |-
+      That's “to live (in a place)/to get by”!
+      This is more about one’s day-to-day living or residence, not the noun “life” + する pattern.
+  - answer: 生きる
+    toast: |-
+      That's “to be alive/to live” (biological existence)!
+      This focuses on living vs. dying, rather than lifestyle or daily living.
+  - answer: 人生を送る
+    toast: |-
+      That's “to live one’s life (life course)”!
+      This is about a whole lifetime/one’s life journey, not everyday living or lifestyle.
+- id: g-20-zettai
+  prompt: definitely; no matter what
+  answer: 絶対に
+  hint: 'zettai ni — strong emphasis: “absolutely/definitely” (e.g., 絶対に忘れない “I’ll
+    never forget.”)'
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 必ず
+    toast: |-
+      That means “surely/without fail.”
+      It’s more about certainty or habit, and can sound less forceful than “absolutely.”
+  - answer: 決して
+    toast: |-
+      That usually goes with a negative form.
+      It means “never (not ever),” not a positive “definitely.”
+  - answer: 絶対
+    toast: |-
+      That’s missing the particle.
+      Adding に makes it an adverb meaning “definitely/absolutely.”
+- id: g-20-sensu
+  prompt: (hand) fan
+  answer: 扇子
+  hint: sensu — folding hand fan (often carried in summer; also used in traditional
+    dance)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 団扇
+    toast: |-
+      That's an uchiwa!
+      It’s a flat, non-folding fan (often used at festivals).
+  - answer: うちわ
+    toast: |-
+      That's the kana spelling for uchiwa.
+      The prompt is for the folding type of fan.
+  - answer: 扇風機
+    toast: |-
+      That's an electric fan.
+      This refers to a machine, not a handheld folding fan.
+- id: g-20-souda
+  prompt: I have an idea!
+  answer: そうだ！
+  hint: sou da! — said when you suddenly remember/realize something ("Oh, right! /
+    I know!")
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: そうか！
+    toast: |-
+      That's more like "I see! / Oh, is that so?" (understanding).
+      Not used for suddenly coming up with an idea.
+  - answer: なるほど！
+    toast: |-
+      That's "I see / That makes sense" (agreement/understanding).
+      It’s not the "I’ve got it!" kind of realization.
+  - answer: そうです！
+    toast: |-
+      That's the polite form meaning "That's right."
+      Not an exclamation for having a new idea.
+- id: g-20-daku
+  prompt: to hold something in one’s arm
+  answer: 抱く
+  hint: daku — often used for holding/hugging (e.g., 赤ちゃんを抱く).
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 抱える
+    toast: |-
+      That's "to hold/carry in your arms" with the nuance of holding something bulky or dealing with a problem.
+      This prompt is the more general "to hold/hug".
+  - answer: 持つ
+    toast: |-
+      That's "to hold/carry" in general (in your hand, to possess).
+      This prompt is specifically holding in your arms (like a baby).
+  - answer: 掴む
+    toast: |-
+      That's "to grab/seize"—gripping tightly with your hand.
+      This prompt is about cradling/holding in your arms.
+- id: g-20-damasu
+  prompt: to deceive
+  answer: だます
+  hint: damasu (romaji) — often used for tricking/cheating someone (e.g., 人をだます).
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 騙す
+    toast: |-
+      That's the kanji form.
+      This prompt expects the kana-only spelling, so write it entirely in hiragana.
+  - answer: だまる
+    toast: |-
+      That's "to be silent".
+      Different meaning and ends with る, not す.
+  - answer: だまし
+    toast: |-
+      That's a noun form (like "a trick/cheat").
+      The prompt is asking for the verb (dictionary form).
+- id: g-20-chaten
+  prompt: teahouse
+  answer: 茶店
+  hint: chamise (ちゃみせ) — a shop/house that sells tea (茶 + 店).
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 茶屋
+    toast: |-
+      This is also read as a teahouse/tea stall.
+      It uses 屋 (small shop) instead of 店 (store/shop).
+  - answer: 茶室
+    toast: |-
+      This is a tea room (often for tea ceremony), not a shop.
+      It uses 室 meaning "room."
+  - answer: 喫茶店
+    toast: |-
+      This is a coffee/tea cafe.
+      It includes 喫 (to drink/consume), so it's more like a café than a simple tea shop.
+- id: g-20-tsuki
+  prompt: moon
+  answer: 月
+  hint: tsuki — 4 strokes; also means "month" depending on context
+  strokeCount: 4
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 日
+    toast: |-
+      That's "sun/day".
+      This one is more box-like inside; watch the inner stroke shape.
+  - answer: 円
+    toast: |-
+      That's "yen/circle".
+      This one has a different enclosure and inner line placement.
+  - answer: 用
+    toast: |-
+      That's "use".
+      This one has an extra interior stroke pattern compared to the prompt.
+- id: g-20-tsutaeru
+  prompt: to convey message
+  answer: 伝える
+  hint: tsutaeru (ru-verb) — to convey/communicate information (e.g., 伝言を伝える)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 伝わる
+    toast: |-
+      That's the intransitive form!
+      It means something gets conveyed/reached on its own (no direct object).
+  - answer: 伝う
+    toast: |-
+      That's a different verb meaning "to follow/go along" (e.g., a path or a vine)!
+      Not the verb for passing on a message.
+  - answer: 届ける
+    toast: |-
+      That's "to deliver/bring" (often physical items, or to submit)!
+      Not specifically about communicating a message.
+- id: g-20-tsuzuku
+  prompt: to continue
+  answer: 続ける
+  hint: 'tsudzukeru — transitive: to continue (something) / keep doing'
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 続く
+    toast: |-
+      That's the intransitive form.
+      It means something continues (by itself), not continuing something.
+  - answer: 続け
+    toast: |-
+      That's the imperative/stem form.
+      The prompt is asking for the dictionary form (-る).
+  - answer: 続けます
+    toast: |-
+      That's the polite form.
+      The prompt is asking for the plain dictionary form.
+- id: g-20-teoru
+  prompt: Extra-modest expression for ～ている
+  answer: ～ておる
+  hint: te oru — humble/extra-polite equivalent of ～ている (used about yourself/your
+    in-group in formal speech)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: ～ている
+    toast: |-
+      That's the neutral/progressive form.
+      The prompt asks for an extra-humble, more formal expression.
+  - answer: ～ております
+    toast: |-
+      That's the extra-polite (ます) form.
+      The prompt is the plain humble form (dictionary style).
+  - answer: ～てある
+    toast: |-
+      That's for a resulting state of something intentionally done.
+      Not the same as the progressive/humble meaning here.
+- id: g-20-dekireba
+  prompt: if possible
+  answer: できれば
+  hint: 'dekireba — often used to make a polite request/hope: できれば〜してほしい (If possible,
+    I’d like you to...)'
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: できるだけ
+    toast: |-
+      That means "as much as possible" (do it to the greatest extent).
+      The prompt here is a conditional "if it's possible".
+  - answer: もしできれば
+    toast: |-
+      That adds "if" explicitly ("if you can...").
+      The prompt is for the shorter form without もし.
+  - answer: 可能なら
+    toast: |-
+      That's a more formal/kanji-based way to say "if possible".
+      Here the app expects the hiragana expression.
+- id: g-20-degozaru
+  prompt: extra-modest expression for です
+  answer: ～でござる
+  hint: de gozaru - very formal/polite copula (samurai-like / archaic). Used as 「…でござる」
+    meaning “it is …”.
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: ～でございます
+    toast: |-
+      That's the modern polite form.
+      This prompt is for a more archaic/samurai-style expression.
+  - answer: ～です
+    toast: |-
+      That's the standard polite copula.
+      The prompt asks for an extra-modest/formal expression.
+  - answer: ～である
+    toast: |-
+      That's the plain/written copula.
+      Not the extra-polite style requested here.
+- id: g-20-dewa
+  prompt: well then (polite)
+  answer: では
+  hint: dewa — polite transition/closing like “well then…”; often at the start/end
+    of a sentence
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: じゃあ
+    toast: |-
+      That's a more casual “well then / see you” expression.
+      The prompt asks for a polite form.
+  - answer: ではない
+    toast: |-
+      That means “is not / not the case”.
+      Here you added a negation part (ない).
+  - answer: でわ
+    toast: |-
+      That spelling is incorrect in modern standard Japanese.
+      The particle is written with は even though it's pronounced “wa”.
+- id: g-20-doitsu
+  prompt: Germany
+  answer: ドイツ
+  hint: doitsu (katakana) — country name; note the small "ツ" (ッ is smaller).
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: どいつ
+    toast: |-
+      That's hiragana.
+      The prompt expects katakana for a country name.
+  - answer: ドイッ
+    toast: |-
+      That's using a small "ッ".
+      Make sure the "ツ" is full-sized here (two short strokes at the top).
+  - answer: ドイテ
+    toast: |-
+      The last character is "テ" instead of "ツ".
+      "テ" has one long horizontal line; "ツ" has two short marks at the top.
+- id: g-20-doubutsu
+  prompt: animal
+  answer: 動物
+  hint: doubutsu — general word for animals (not humans). Often used in compounds
+    like 動物園 (zoo).
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 生物
+    toast: |-
+      That's "living thing" (broader category).
+      It includes plants and microorganisms too.
+  - answer: 怪物
+    toast: |-
+      That's "monster".
+      Different nuance: a scary/strange creature rather than animals in general.
+  - answer: 人物
+    toast: |-
+      That's "person/character".
+      This refers to humans, not animals.
+- id: g-20-tomaru
+  prompt: to stop
+  answer: 止まる
+  hint: |-
+    tomaru — intransitive (something stops on its own)
+    Example: 車が止まる (the car stops)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 止める
+    toast: |-
+      That's the transitive form (to stop something).
+      Used when you intentionally stop a thing/person.
+  - answer: 留まる
+    toast: |-
+      That's "to stay/remain" (often written with a different kanji).
+      It focuses on remaining in a place/state rather than the act of stopping movement.
+  - answer: 泊まる
+    toast: |-
+      That's "to stay overnight".
+      Used for lodging at a hotel/house, not stopping movement.
+- id: g-20-nikoniko
+  prompt: to smile (grin cheerfully)
+  answer: にこにこする
+  hint: nikoniko suru — onomatopoeia for a cheerful grin; often used for smiling repeatedly/pleasantly
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: ニコニコする
+    toast: |-
+      That's katakana.
+      This prompt expects hiragana, which looks rounder and more flowing.
+  - answer: にやにやする
+    toast: |-
+      That's a sly/smug grin.
+      Used when someone is smirking rather than smiling cheerfully.
+  - answer: にっこりする
+    toast: |-
+      That's a single broad smile.
+      This one is more like one clear smile, not a continuous cheerful grin.
+- id: g-20-nedan
+  prompt: price
+  answer: 値段
+  hint: nedan — amount of money something costs; often used with 高い/安い (expensive/cheap).
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 価格
+    toast: |-
+      That's more formal: "market/list price".
+      Often used in ads, documents, or official contexts.
+  - answer: 代金
+    toast: |-
+      That's the "payment/charge" you pay (money due), not the labeled price itself.
+      Common with 支払う (to pay).
+  - answer: 料金
+    toast: |-
+      That's a "fee" for a service or usage.
+      Common for transportation, utilities, or admission.
+- id: g-20-hikkaku
+  prompt: to scratch
+  answer: ひっかく
+  hint: hikkaku (u-verb) — っ indicates a short pause before か
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: かく
+    toast: |-
+      That's "to write"!
+      This is a different verb, and it doesn’t include the small っ sound.
+  - answer: ひく
+    toast: |-
+      That's "to pull/draw (a line)"!
+      Different meaning and fewer kana.
+  - answer: ひっかける
+    toast: |-
+      That's "to hook/hang/catch"!
+      It’s a different verb pattern and ends with ける.
+- id: g-20-fushigi
+  prompt: mysterious
+  answer: 不思議
+  hint: fushigi(na) — な-adjective; use with だ/です (e.g., 不思議な話).
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 神秘的
+    toast: |-
+      That's closer to "mystical/occult" or "mysterious" in a grand, spiritual sense.
+      The prompt is for everyday "strange/unexplainable".
+  - answer: 怪しい
+    toast: |-
+      That's "suspicious/dodgy."
+      It often implies doubt or wrongdoing, not just something unexplainable.
+  - answer: 不思議な
+    toast: |-
+      That's the adjective form with な.
+      If the prompt expects the dictionary form, write without adding な.
+- id: g-20-headhon
+  prompt: headphones
+  answer: ヘッドホン
+  hint: heddohon - loanword; often written ヘッドホンをする (to wear headphones)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: ヘッドフォン
+    toast: |-
+      Close—this is an alternative spelling.
+      Be careful: the ending uses 「フォン」 (fo) instead of 「ホン」 (hon).
+  - answer: イヤホン
+    toast: |-
+      That's "earphones" (in-ear).
+      This one starts with 「イヤ」 (ear), not 「ヘッド」 (head).
+  - answer: ヘアバンド
+    toast: |-
+      That's "hair band/headband".
+      The start looks similar, but it uses 「ヘア」 (hair) and ends with 「バンド」.
+- id: g-20-henpin
+  prompt: to return (merchandise)
+  answer: 返品する
+  hint: henpin suru - to return goods to a store (返品); used for products/merchandise
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 返却する
+    toast: |-
+      That's "to return (something borrowed)"!
+      Often used for books/documents/equipment, not store merchandise.
+  - answer: 返金する
+    toast: |-
+      That's "to refund"!
+      This focuses on returning money, not returning the item itself.
+  - answer: 交換する
+    toast: |-
+      That's "to exchange"!
+      This is swapping for another item rather than sending it back.
+- id: g-20-mairu
+  prompt: Extra-modest expression for “to go” and “to come”
+  answer: 参る
+  hint: mairu — humble/extra-polite いく・くる (e.g., ただいま参ります = I’m coming now)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 行く
+    toast: |-
+      That's the plain verb “to go”!
+      The prompt asks for an extra-modest (humble/polite) form.
+  - answer: 来る
+    toast: |-
+      That's the plain verb “to come”!
+      The prompt asks for an extra-modest (humble/polite) form.
+  - answer: 伺う
+    toast: |-
+      That's a humble verb meaning “to visit/ask”!
+      It’s used for going to see someone or inquiring, not the general go/come.
+- id: g-20-makoto
+  prompt: really (very polite)
+  answer: 誠に
+  hint: makoto ni — very formal/polite “truly”; common in set phrases like 誠にありがとうございます
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 本当に
+    toast: |-
+      That’s the common “really/truly.”
+      The prompt asks for a very formal/polite expression often used in business or apologies.
+  - answer: 実に
+    toast: |-
+      That’s “indeed/actually” with a slightly different nuance.
+      It’s less of a set polite phrase and more of an emphatic adverb.
+  - answer: 誠
+    toast: |-
+      That’s just the kanji “sincerity.”
+      The prompt requires the full adverb form ending with に.
+- id: g-20-mata
+  prompt: again
+  answer: また
+  hint: mata — means “again” / “also”; often used like 「またね」 (see you again)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: まだ
+    toast: |-
+      That's “still / not yet”.
+      Used for an ongoing state (e.g., “still raining”, “not yet done”).
+  - answer: または
+    toast: |-
+      That's “or”.
+      Used to present alternatives in a formal way.
+  - answer: 又
+    toast: |-
+      That's the kanji form meaning “again/also”.
+      The prompt expects the hiragana spelling.
+- id: g-20-mataseru
+  prompt: to keep (someone) waiting
+  answer: 待たせる
+  hint: 'mataseru (ru-verb) — causative of 待つ (to wait): “make/let someone wait”'
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 待つ
+    toast: |-
+      That's the intransitive verb “to wait.”
+      The prompt is about causing someone else to wait.
+  - answer: 待たれる
+    toast: |-
+      That's a passive form meaning “be waited for.”
+      The prompt is causative: you cause someone to wait.
+  - answer: 待たせて
+    toast: |-
+      That's the te-form used to connect actions/requests.
+      The prompt needs the dictionary form ending in ～る.
+- id: g-20-mitaina
+  prompt: X like . . .
+  answer: ～みたいなX
+  hint: 'mitai na X — “X-like / similar to X” (used before a noun). Example: 子どもみたいな人
+    = a person like a child.'
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: ～のようなX
+    toast: |-
+      That means “like / similar to X” too, but it’s a more formal/neutral phrasing.
+      Often used in writing or polite speech.
+  - answer: ～っぽい
+    toast: |-
+      That’s “-ish / seems like” and is more casual.
+      It often describes a vibe/characteristic rather than “like X” modifying a noun directly.
+  - answer: ～みたいに
+    toast: |-
+      That form modifies verbs/adjectives (“like X, ...” / “in a way like X”).
+      Here you need the form that goes before a noun.
+- id: g-20-miburi
+  prompt: gesture
+  answer: 身ぶり
+  hint: miburi - body movements used to express something (often with 身ぶり手ぶり).
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 仕草
+    toast: |-
+      That's "mannerism/gesture" too, but it often means a small, subtle action.
+      Common for describing someone's behavior or manner.
+  - answer: 身振り
+    toast: |-
+      That's the same word, but written fully in kanji.
+      The prompt expects the mixed kanji+kana spelling.
+  - answer: 身ぶる
+    toast: |-
+      That's not the noun form.
+      Be careful not to turn it into a verb-like ending.
+- id: g-20-mousu
+  prompt: Extra-modest expression for "to say" (humble いう)
+  answer: 申す
+  hint: mousu — very humble/extra-modest 「言う」; used when speaking about yourself (e.g.,
+    「田中と申します」).
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 言う
+    toast: |-
+      That's the plain verb "to say".
+      The prompt asks for an extra-humble form used for yourself.
+  - answer: 申し上げる
+    toast: |-
+      That's a more formal humble form often used when addressing someone important.
+      This one is longer and includes an extra kanji.
+  - answer: 伝える
+    toast: |-
+      That's "to convey/tell" (to pass information along).
+      The prompt is specifically a humble form of "to say."
+- id: g-20-ya-suf
+  prompt: '... shop (suffix; attached to a word to mean a store that sells it)'
+  answer: ～屋
+  hint: ~ya — attach to a noun (e.g., 本屋 bookstore, 花屋 flower shop).
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: ～店
+    toast: |-
+      That's the suffix meaning "store/shop" too, but this one is the more general "shop/store" kanji.
+      Often used for shops/restaurants as an establishment.
+  - answer: ～家
+    toast: |-
+      That's the suffix meaning "specialist / professional / someone who does X".
+      Not a place or shop.
+  - answer: ～屋さん
+    toast: |-
+      That's a more polite/friendly form.
+      The prompt is asking for the plain suffix form.
+- id: g-20-yatta
+  prompt: I did it!
+  answer: やった！
+  hint: yatta! — casual exclamation of success/relief (like “Yes!/I did it!”).
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: できた！
+    toast: |-
+      That means “It’s done!/I managed it!”
+      More about completion/being able to do something, less like a shout of victory.
+  - answer: よかった！
+    toast: |-
+      That means “Thank goodness!/That’s great!”
+      It expresses relief or happiness, not specifically “I did it.”
+  - answer: やったー！
+    toast: |-
+      Close, but check the punctuation!
+      This version uses a long dash for an extended shout.
+- id: g-20-yoroshi
+  prompt: If it is okay (polite)
+  answer: よろしかったら
+  hint: yoroshikattara — very polite “if you don’t mind / if it’s convenient”; often
+    followed by お願いします／どうぞ
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: よかったら
+    toast: |-
+      That’s a more casual “if you like/if it’s okay.”
+      The prompt asks for a more polite expression.
+  - answer: よろしければ
+    toast: |-
+      That’s a similar polite “if it’s okay,” but it uses the -ければ conditional form.
+      The prompt expects the past-conditional style (-かったら).
+  - answer: よろしいですか
+    toast: |-
+      That’s a question form: “Is it okay?”
+      The prompt is a conditional “if it’s okay…,” used to soften a request.
+- id: g-20-rakugo
+  prompt: comic monologue
+  answer: 落語
+  hint: rakugo — traditional Japanese comedic storytelling performed by one seated
+    performer
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 落語家
+    toast: |-
+      That's the performer (rakugo storyteller)!
+      The prompt is asking for the art/form itself, not the person.
+  - answer: 漫才
+    toast: |-
+      That's manzai!
+      Usually a comedy duo with rapid back-and-forth, not a solo seated storyteller.
+  - answer: 講談
+    toast: |-
+      That's kōdan!
+      A narrative performance style, but generally not focused on comedy.
+- id: g-20-rakugoka
+  prompt: comic storyteller
+  answer: 落語家
+  hint: rakugoka — a professional rakugo performer (traditional seated comic storytelling)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 落語
+    toast: |-
+      That's the art form/genre itself (rakugo).
+      The prompt is asking for the person who performs it.
+  - answer: 漫才師
+    toast: |-
+      That's a manzai comedian.
+      Different style: usually a two-person stand-up act.
+  - answer: 講談師
+    toast: |-
+      That's a kōdan storyteller.
+      More historical/serious narration rather than comedic rakugo.
+- id: g-20-ryou
+  prompt: a unit of currency used in the Edo period
+  answer: 両
+  hint: ryō — old Japanese money unit (e.g., 一両 = 1 ryō). 6 strokes.
+  strokeCount: 6
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 雨
+    toast: |-
+      That’s "rain".
+      Watch the inside: this one has four dots (like raindrops).
+  - answer: 再
+    toast: |-
+      That’s "again".
+      Check the middle: this one has a long horizontal line running through.
+  - answer: 冊
+    toast: |-
+      That’s "counter for books".
+      It looks like two vertical frames side-by-side with extra lines.
+- id: g-20-watasu
+  prompt: to give; to hand
+  answer: 渡す
+  hint: watasu — to hand/pass something to someone (often physically). 渡る is intransitive
+    (“to cross”).
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 与える
+    toast: |-
+      That's “to give/provide” in a more formal or one-way sense.
+      This one is often used for giving to someone of lower status, or for granting/providing.
+  - answer: 渡る
+    toast: |-
+      That's the intransitive form.
+      It means “to cross/go over” (the subject moves), not handing something to someone.
+  - answer: 貸す
+    toast: |-
+      That's “to lend.”
+      It implies the item will be returned later.

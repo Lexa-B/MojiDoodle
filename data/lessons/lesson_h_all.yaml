@@ -4,6 +4,23 @@
 id: h_all
 name: "All Hiragana"
 requires:
+supercedes:
+  - h_a
+  - h_ka
+  - h_sa
+  - h_ta
+  - h_na
+  - h_ha
+  - h_ma
+  - h_ya
+  - h_ra
+  - h_wa
+  - h_n
+  - h_ga
+  - h_za
+  - h_da
+  - h_ba
+  - h_pa
 
 ids:
   # A row (あ行)
