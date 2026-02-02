@@ -6,6 +6,8 @@ import { backspace } from 'ionicons/icons';
 import { Subscription } from 'rxjs';
 import { StrokeRecognitionService } from '../../services/stroke-recognition.service';
 import { CardsService, Card } from '../../services/cards.service';
+import { CharacterSegmentationService } from '../../services/character-segmentation.service';
+import { SegmentationResult, MeshGrid } from '../../models/segmentation.types';
 
 interface Point {
   x: number;
@@ -46,6 +48,14 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
 
   // Subscription for card availability polling
   private cardAvailabilitySubscription: Subscription | null = null;
+
+  // Segmentation state
+  private segmentationTimer: ReturnType<typeof setTimeout> | null = null;
+  private segmentationResult: SegmentationResult | null = null;
+  private readonly SEGMENTATION_DELAY_MS = 500;
+
+  // Batch recognition results for multi-character grading
+  private lastBatchResults: { character: string; score: number }[][] = [];
 
   private correctFeedback = [
     '正解!',
@@ -89,7 +99,8 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
 
   constructor(
     private strokeRecognition: StrokeRecognitionService,
-    private cardsService: CardsService
+    private cardsService: CardsService,
+    private segmentationService: CharacterSegmentationService
   ) {
     addIcons({ backspace });
   }
@@ -132,6 +143,7 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
     if (this.cardAvailabilitySubscription) {
       this.cardAvailabilitySubscription.unsubscribe();
     }
+    this.cancelSegmentation();
   }
 
   private setupCanvas() {
@@ -171,8 +183,8 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
   }
 
   // Brush settings for shodo-style strokes
-  private readonly minBrushSize = 4;
-  private readonly maxBrushSize = 32;
+  private readonly minBrushSize = 3;
+  private readonly maxBrushSize = 24;
   private readonly brushSmoothing = 0.05; // How quickly brush responds to speed changes
 
   private setCanvasStyle() {
@@ -185,6 +197,7 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
   private lastBrushSize = 0;
 
   private handleMouseDown(e: MouseEvent) {
+    this.cancelSegmentation();
     this.isDrawing = true;
     const pos = this.getMousePos(e);
     this.currentStroke = [pos];
@@ -207,12 +220,14 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
       this.drawHarai(this.currentStroke);
       this.strokes.push([...this.currentStroke]);
       this.currentStroke = [];
+      this.scheduleSegmentation();
     }
     this.isDrawing = false;
   }
 
   private handleTouchStart(e: TouchEvent) {
     e.preventDefault();
+    this.cancelSegmentation();
     this.isDrawing = true;
     const pos = this.getTouchPos(e);
     this.currentStroke = [pos];
@@ -236,6 +251,7 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
       this.drawHarai(this.currentStroke);
       this.strokes.push([...this.currentStroke]);
       this.currentStroke = [];
+      this.scheduleSegmentation();
     }
     this.isDrawing = false;
   }
@@ -399,45 +415,130 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
     this.isChecking = true;
 
     try {
+      // Use segmentation to split strokes into cells
       const canvas = this.canvasRef.nativeElement;
-      const results = await this.strokeRecognition.recognize(
-        this.strokes,
-        canvas.width,
-        canvas.height
-      );
 
-      // Top 5 matches
+      // Run segmentation if not already done
+      if (!this.segmentationResult) {
+        this.segmentationResult = this.segmentationService.segment(
+          this.strokes,
+          canvas.width,
+          canvas.height
+        );
+      }
+
+      const mesh = this.segmentationResult.mesh;
+      const cellsWithStrokes = mesh.cells.filter(c => c.strokeIndices.length > 0);
+
+      let results: { character: string; score: number }[];
+
+      if (cellsWithStrokes.length <= 1) {
+        // Single cell - use regular recognition
+        this.lastBatchResults = []; // Clear batch results
+        results = await this.strokeRecognition.recognize(
+          this.strokes,
+          canvas.width,
+          canvas.height
+        );
+      } else {
+        // Multiple cells - use batch recognition
+        // Sort cells in Japanese reading order: right-to-left columns, top-to-bottom rows
+        const sortedCells = [...cellsWithStrokes].sort((a, b) => {
+          if (a.column !== b.column) return a.column - b.column; // Column 0 is rightmost, read first
+          return a.row - b.row; // Top to bottom within column
+        });
+
+        const cellData = sortedCells.map(cell => {
+          const cellStrokes = cell.strokeIndices.map(i => this.strokes[i]);
+          const [tl, tr, br, bl] = cell.vertexIndices.map(i => mesh.vertices[i]);
+          const width = Math.max(Math.abs(tr.x - tl.x), Math.abs(br.x - bl.x));
+          const height = Math.max(Math.abs(bl.y - tl.y), Math.abs(br.y - tr.y));
+          return { strokes: cellStrokes, bounds: { width, height } };
+        });
+
+        const batchResults = await this.strokeRecognition.recognizeBatch(cellData);
+
+        // Store batch results for answer checking
+        this.lastBatchResults = batchResults;
+
+        // Build display results from top candidate of each cell
+        const topChars = batchResults.map(r => r[0]?.character || '?').join('');
+        results = [{ character: topChars, score: 100 }];
+
+        // Also add individual cell interpretations for debugging
+        console.log('Cell interpretations (Japanese reading order):', batchResults.map((r, i) => ({
+          cell: i,
+          position: `col ${sortedCells[i].column}, row ${sortedCells[i].row}`,
+          top5: r.slice(0, 5).map(c => c.character)
+        })));
+      }
+
+      // Top matches for display
       this.topMatches = results.slice(0, 5);
-      const top5Characters = this.topMatches.map(r => r.character);
-
-      // Check if target character is in top 5 (normalize whitespace)
       const normalizedTarget = this.currentCharacter.replace(/\s+/g, '');
-      const targetIndex = top5Characters.indexOf(normalizedTarget);
 
-      if (targetIndex >= 0 && targetIndex < 5) {
+      // Check if answer matches - different logic for single vs multi-character
+      let isCorrect = false;
+
+      if (this.lastBatchResults.length > 0) {
+        // Multi-character: check if each char of target is in corresponding cell's results
+        const targetChars = [...normalizedTarget]; // Split into characters (unicode-safe)
+
+        if (targetChars.length === this.lastBatchResults.length) {
+          // Check each character against its cell's top 5 candidates
+          isCorrect = targetChars.every((char, idx) => {
+            const cellCandidates = this.lastBatchResults[idx].slice(0, 5).map(r => r.character);
+            return cellCandidates.includes(char);
+          });
+        }
+
+        console.log('Grading multi-char:', {
+          target: normalizedTarget,
+          targetChars,
+          cellResults: this.lastBatchResults.map(r => r.slice(0, 5).map(c => c.character)),
+          isCorrect
+        });
+      } else {
+        // Single character: check if target is in top 5
+        const top5Characters = this.topMatches.map(r => r.character);
+        isCorrect = top5Characters.includes(normalizedTarget);
+      }
+
+      if (isCorrect) {
         this.resultStatus = 'correct';
         this.resultFeedback = this.randomFrom(this.correctFeedback);
-        // Only show matches up to and including the correct answer
-        this.displayMatches = this.topMatches.slice(0, targetIndex + 1);
+        this.displayMatches = this.topMatches.slice(0, 1);
         // Advance card to next SRS stage
         this.cardsService.advanceCard(this.currentCard.id);
       } else {
-        // Answer not in top 5 - check for befuddlers (normalize whitespace)
-        const befuddler = this.currentCard.befuddlers.find(b =>
-          top5Characters.includes(b.answer.replace(/\s+/g, ''))
-        );
+        // Check for befuddlers using same backwards logic
+        let matchedBefuddler: { answer: string; toast: string } | undefined;
 
-        if (befuddler) {
+        if (this.lastBatchResults.length > 0) {
+          // Multi-character: check each befuddler against cell results
+          matchedBefuddler = this.currentCard.befuddlers.find(b => {
+            const befuddlerChars = [...b.answer.replace(/\s+/g, '')];
+            if (befuddlerChars.length !== this.lastBatchResults.length) return false;
+            return befuddlerChars.every((char, idx) => {
+              const cellCandidates = this.lastBatchResults[idx].slice(0, 5).map(r => r.character);
+              return cellCandidates.includes(char);
+            });
+          });
+        } else {
+          // Single character: check if befuddler is in top 5
+          const top5Characters = this.topMatches.map(r => r.character);
+          matchedBefuddler = this.currentCard.befuddlers.find(b =>
+            top5Characters.includes(b.answer.replace(/\s+/g, ''))
+          );
+        }
+
+        if (matchedBefuddler) {
           this.resultStatus = 'befuddled';
-          this.resultFeedback = befuddler.toast;
-          // Only show matches up to and including the befuddler
-          const normalizedBefuddler = befuddler.answer.replace(/\s+/g, '');
-          const befuddlerIndex = top5Characters.indexOf(normalizedBefuddler);
-          this.displayMatches = this.topMatches.slice(0, befuddlerIndex + 1);
+          this.resultFeedback = matchedBefuddler.toast;
+          this.displayMatches = this.topMatches;
         } else {
           this.resultStatus = 'wrong';
           this.resultFeedback = this.randomFrom(this.wrongFeedback);
-          // Show all matches for wrong answers
           this.displayMatches = this.topMatches;
         }
       }
@@ -475,6 +576,7 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
     if (this.strokes.length > 0) {
       this.strokes.pop();
       this.redrawStrokes();
+      this.scheduleSegmentation();
     }
   }
 
@@ -507,9 +609,112 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
     this.ctx.clearRect(0, 0, canvas.width, canvas.height);
     this.strokes = [];
     this.drawStartTime = 0;
+    this.cancelSegmentation();
+    this.segmentationResult = null;
   }
 
   private randomFrom<T>(arr: T[]): T {
     return arr[Math.floor(Math.random() * arr.length)];
+  }
+
+  /**
+   * Schedule segmentation analysis after a delay.
+   * Debounces rapid stroke completions.
+   */
+  private scheduleSegmentation(): void {
+    this.cancelSegmentation();
+
+    if (this.strokes.length === 0) {
+      this.segmentationResult = null;
+      return;
+    }
+
+    this.segmentationTimer = setTimeout(() => {
+      this.analyzeAndVisualize();
+    }, this.SEGMENTATION_DELAY_MS);
+  }
+
+  /**
+   * Cancel any pending segmentation analysis.
+   */
+  private cancelSegmentation(): void {
+    if (this.segmentationTimer !== null) {
+      clearTimeout(this.segmentationTimer);
+      this.segmentationTimer = null;
+    }
+  }
+
+  /**
+   * Run segmentation analysis and redraw with boundary boxes.
+   */
+  private analyzeAndVisualize(): void {
+    if (this.strokes.length === 0) {
+      this.segmentationResult = null;
+      return;
+    }
+
+    const canvas = this.canvasRef.nativeElement;
+    this.segmentationResult = this.segmentationService.segment(
+      this.strokes,
+      canvas.width,
+      canvas.height
+    );
+
+    this.redrawWithBoundaries();
+  }
+
+  /**
+   * Redraw all strokes and overlay mesh grid boundaries.
+   */
+  private redrawWithBoundaries(): void {
+    // First redraw all strokes
+    this.redrawStrokes();
+
+    // Then draw mesh grid on top
+    if (this.segmentationResult && this.segmentationResult.mesh.cells.length > 0) {
+      this.drawMeshGrid(this.segmentationResult.mesh);
+    }
+  }
+
+  /**
+   * Draw the deformable mesh grid.
+   * Draws unique edges to show unified grid structure.
+   */
+  private drawMeshGrid(mesh: MeshGrid): void {
+    this.ctx.save();
+    this.ctx.strokeStyle = 'rgba(128, 128, 128, 0.5)';
+    this.ctx.lineWidth = 2;
+    this.ctx.setLineDash([6, 4]);
+
+    // Collect unique edges to avoid double-drawing shared edges
+    const edges = new Set<string>();
+
+    const addEdge = (v1: number, v2: number) => {
+      const key = v1 < v2 ? `${v1}-${v2}` : `${v2}-${v1}`;
+      edges.add(key);
+    };
+
+    for (const cell of mesh.cells) {
+      const [tl, tr, br, bl] = cell.vertexIndices;
+      addEdge(tl, tr); // Top edge
+      addEdge(tr, br); // Right edge
+      addEdge(br, bl); // Bottom edge
+      addEdge(bl, tl); // Left edge
+    }
+
+    // Draw all unique edges
+    this.ctx.beginPath();
+    for (const edge of edges) {
+      const [v1, v2] = edge.split('-').map(Number);
+      const p1 = mesh.vertices[v1];
+      const p2 = mesh.vertices[v2];
+      if (p1 && p2) {
+        this.ctx.moveTo(p1.x, p1.y);
+        this.ctx.lineTo(p2.x, p2.y);
+      }
+    }
+    this.ctx.stroke();
+
+    this.ctx.restore();
   }
 }
