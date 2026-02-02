@@ -32,6 +32,11 @@
                 "output": "assets"
               },
               {
+                "glob": "404.html",
+                "input": "src",
+                "output": "/"
+              },
+              {
                 "glob": "**/*.svg",
                 "input": "node_modules/ionicons/dist/ionicons/svg",
                 "output": "./svg"

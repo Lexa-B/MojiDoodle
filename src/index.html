@@ -20,6 +20,22 @@
 </head>
 
 <body>
+  <script>
+    // GitHub Pages SPA redirect handler
+    // Restores the original path after 404.html redirects here
+    (function() {
+      var redirect = sessionStorage.getItem('spa-redirect');
+      if (redirect) {
+        sessionStorage.removeItem('spa-redirect');
+        var data = JSON.parse(redirect);
+        var path = data.path || '';
+        var search = data.search || '';
+        if (path && path !== '/') {
+          history.replaceState(null, null, path + search);
+        }
+      }
+    })();
+  </script>
   <app-root></app-root>
 </body>
 
