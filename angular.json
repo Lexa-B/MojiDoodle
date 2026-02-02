@@ -62,6 +62,11 @@
                 "output": "data"
               },
               {
+                "glob": "bundle.json",
+                "input": "src/data",
+                "output": "data"
+              },
+              {
                 "glob": "sql-wasm.wasm",
                 "input": "node_modules/sql.js/dist",
                 "output": "/"

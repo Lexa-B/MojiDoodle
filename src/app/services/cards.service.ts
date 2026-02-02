@@ -74,20 +74,19 @@ export class CardsService {
       locateFile: (file: string) => `${baseUrl}${file}`
     });
 
-    // Load stages
-    await this.loadStages();
-
     // Try to load from IndexedDB
     const stored = await this.loadFromStorage();
 
     if (stored) {
       this.db = new SQL.Database(stored);
+      // Load stages for color lookups
+      await this.loadStagesFromBundle();
       console.log('Loaded cards database from storage');
       this.startPolling();
       return;
     }
 
-    // Build from YAML
+    // Build from pre-compiled bundle (much faster than individual YAML files)
     const loading = await this.loadingCtrl.create({
       message: 'ちょっと待ってください...',
       spinner: 'crescent'
@@ -96,12 +95,159 @@ export class CardsService {
 
     try {
       this.db = new SQL.Database();
-      await this.buildDatabase();
+      await this.buildFromBundle();
       await this.saveToStorage();
       console.log('Built and saved cards database');
       this.startPolling();
     } finally {
       await loading.dismiss();
+    }
+  }
+
+  private async buildFromBundle(): Promise<void> {
+    if (!this.db) return;
+
+    // Fetch the pre-compiled bundle (single request instead of 70+)
+    const response = await fetch(`${getBaseUrl()}data/bundle.json`);
+    if (!response.ok) {
+      console.error('Failed to load data bundle, falling back to YAML');
+      await this.loadStages();
+      await this.buildDatabase();
+      return;
+    }
+
+    const bundle = await response.json();
+
+    // Load stages
+    for (const s of bundle.stages) {
+      this.stages.set(s.stage, s.minutes);
+      this.stageColors.set(s.stage, s.color);
+    }
+    console.log(`Loaded ${bundle.stages.length} stages from bundle`);
+
+    // Create tables
+    this.db.run(`
+      CREATE TABLE cards (
+        id TEXT PRIMARY KEY,
+        prompt TEXT NOT NULL,
+        answer TEXT NOT NULL,
+        hint TEXT,
+        stroke_count INTEGER,
+        stage INTEGER NOT NULL DEFAULT 0,
+        unlocks TEXT NOT NULL,
+        category TEXT NOT NULL
+      );
+
+      CREATE TABLE befuddlers (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        card_id TEXT NOT NULL,
+        answer TEXT NOT NULL,
+        toast TEXT NOT NULL,
+        FOREIGN KEY (card_id) REFERENCES cards(id)
+      );
+
+      CREATE TABLE lessons (
+        id TEXT PRIMARY KEY,
+        name TEXT NOT NULL,
+        status TEXT NOT NULL DEFAULT 'locked',
+        original_status TEXT NOT NULL DEFAULT 'locked',
+        reset_by TEXT
+      );
+
+      CREATE TABLE lesson_cards (
+        lesson_id TEXT NOT NULL,
+        card_id TEXT NOT NULL,
+        PRIMARY KEY (lesson_id, card_id),
+        FOREIGN KEY (lesson_id) REFERENCES lessons(id),
+        FOREIGN KEY (card_id) REFERENCES cards(id)
+      );
+
+      CREATE TABLE lesson_requires (
+        lesson_id TEXT NOT NULL,
+        required_lesson_id TEXT NOT NULL,
+        PRIMARY KEY (lesson_id, required_lesson_id),
+        FOREIGN KEY (lesson_id) REFERENCES lessons(id),
+        FOREIGN KEY (required_lesson_id) REFERENCES lessons(id)
+      );
+
+      CREATE TABLE lesson_supercedes (
+        lesson_id TEXT NOT NULL,
+        superceded_lesson_id TEXT NOT NULL,
+        PRIMARY KEY (lesson_id, superceded_lesson_id),
+        FOREIGN KEY (lesson_id) REFERENCES lessons(id),
+        FOREIGN KEY (superceded_lesson_id) REFERENCES lessons(id)
+      );
+
+      CREATE INDEX idx_cards_stage ON cards(stage);
+      CREATE INDEX idx_cards_answer ON cards(answer);
+      CREATE INDEX idx_cards_category ON cards(category);
+      CREATE INDEX idx_befuddlers_card ON befuddlers(card_id);
+      CREATE INDEX idx_lesson_cards_lesson ON lesson_cards(lesson_id);
+    `);
+
+    // Insert all cards
+    for (const card of bundle.cards) {
+      if (!card.id || !card.prompt || !card.answer) continue;
+
+      this.db.run(
+        `INSERT INTO cards (id, prompt, answer, hint, stroke_count, stage, unlocks, category)
+         VALUES (?, ?, ?, ?, ?, ?, ?, ?)`,
+        [card.id, card.prompt, card.answer, card.hint ?? null,
+         card.strokeCount ?? null, card.stage ?? 0, card.unlocks ?? '', card.category]
+      );
+
+      for (const b of card.befuddlers ?? []) {
+        this.db.run(
+          `INSERT INTO befuddlers (card_id, answer, toast) VALUES (?, ?, ?)`,
+          [card.id, b.answer, b.toast]
+        );
+      }
+    }
+    console.log(`Loaded ${bundle.cards.length} cards from bundle`);
+
+    // Insert all lessons
+    for (const lesson of bundle.lessons) {
+      this.db.run(
+        'INSERT INTO lessons (id, name, status, original_status, reset_by) VALUES (?, ?, ?, ?, ?)',
+        [lesson.id, lesson.name, lesson.status, lesson.status, lesson.category]
+      );
+
+      for (const reqId of lesson.requires) {
+        this.db.run(
+          'INSERT INTO lesson_requires (lesson_id, required_lesson_id) VALUES (?, ?)',
+          [lesson.id, reqId]
+        );
+      }
+
+      for (const cardId of lesson.ids) {
+        this.db.run(
+          'INSERT OR IGNORE INTO lesson_cards (lesson_id, card_id) VALUES (?, ?)',
+          [lesson.id, cardId]
+        );
+      }
+
+      for (const supercededId of lesson.supercedes) {
+        this.db.run(
+          'INSERT OR IGNORE INTO lesson_supercedes (lesson_id, superceded_lesson_id) VALUES (?, ?)',
+          [lesson.id, supercededId]
+        );
+      }
+    }
+    console.log(`Loaded ${bundle.lessons.length} lessons from bundle`);
+  }
+
+  private async loadStagesFromBundle(): Promise<void> {
+    try {
+      const response = await fetch(`${getBaseUrl()}data/bundle.json`);
+      if (!response.ok) return;
+
+      const bundle = await response.json();
+      for (const s of bundle.stages) {
+        this.stages.set(s.stage, s.minutes);
+        this.stageColors.set(s.stage, s.color);
+      }
+    } catch (err) {
+      console.warn('Failed to load stages from bundle:', err);
     }
   }
 
@@ -902,26 +1048,17 @@ export class CardsService {
     return result;
   }
 
-  // Reset all cards in a category to their original YAML values
+  // Reset all cards in a category to their original values
   async resetCategory(category: string): Promise<void> {
     if (!this.db) return;
 
     try {
-      // Find the pack with this category from the manifest
-      const packs = await this.loadCardManifest();
-      const pack = packs.find(p => p.category === category);
-
-      if (pack) {
-        // Load all files for this pack and reset their cards
-        for (const file of pack.files) {
-          const response = await fetch(`${getBaseUrl()}data/cards/${file}`);
-          if (!response.ok) continue;
-
-          const yaml = await response.text();
-          const cards = this.parseYaml(yaml);
-
-          for (const card of cards) {
-            if (!card.id) continue;
+      // Load bundle and find cards in this category
+      const response = await fetch(`${getBaseUrl()}data/bundle.json`);
+      if (response.ok) {
+        const bundle = await response.json();
+        for (const card of bundle.cards) {
+          if (card.category === category && card.id) {
             const stage = card.stage ?? 0;
             this.db.run('UPDATE cards SET stage = ? WHERE id = ?', [stage, card.id]);
           }
