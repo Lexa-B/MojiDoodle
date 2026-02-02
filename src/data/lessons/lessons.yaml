@@ -32,3 +32,195 @@ lessons:
     status: available
     reset-by: katakana
     requires: []
+
+  # Genki Textbook Vocabulary
+  - id: g_00
+    name: "Genki Chapter 0"
+    file: genki/lesson_g_00.yaml
+    status: available
+    reset-by: genki
+    requires: []
+
+  - id: g_01
+    name: "Genki Chapter 1"
+    file: genki/lesson_g_01.yaml
+    status: locked
+    reset-by: genki
+    requires:
+      - g_00
+
+  - id: g_02
+    name: "Genki Chapter 2"
+    file: genki/lesson_g_02.yaml
+    status: locked
+    reset-by: genki
+    requires:
+      - g_01
+
+  - id: g_03
+    name: "Genki Chapter 3"
+    file: genki/lesson_g_03.yaml
+    status: locked
+    reset-by: genki
+    requires:
+      - g_02
+
+  - id: g_04
+    name: "Genki Chapter 4"
+    file: genki/lesson_g_04.yaml
+    status: locked
+    reset-by: genki
+    requires:
+      - g_03
+
+  - id: g_05
+    name: "Genki Chapter 5"
+    file: genki/lesson_g_05.yaml
+    status: locked
+    reset-by: genki
+    requires:
+      - g_04
+
+  - id: g_06
+    name: "Genki Chapter 6"
+    file: genki/lesson_g_06.yaml
+    status: locked
+    reset-by: genki
+    requires:
+      - g_05
+
+  - id: g_07
+    name: "Genki Chapter 7"
+    file: genki/lesson_g_07.yaml
+    status: locked
+    reset-by: genki
+    requires:
+      - g_06
+
+  - id: g_08
+    name: "Genki Chapter 8"
+    file: genki/lesson_g_08.yaml
+    status: locked
+    reset-by: genki
+    requires:
+      - g_07
+
+  - id: g_09
+    name: "Genki Chapter 9"
+    file: genki/lesson_g_09.yaml
+    status: locked
+    reset-by: genki
+    requires:
+      - g_08
+
+  - id: g_10
+    name: "Genki Chapter 10"
+    file: genki/lesson_g_10.yaml
+    status: locked
+    reset-by: genki
+    requires:
+      - g_09
+
+  - id: g_11
+    name: "Genki Chapter 11"
+    file: genki/lesson_g_11.yaml
+    status: locked
+    reset-by: genki
+    requires:
+      - g_10
+
+  - id: g_12
+    name: "Genki Chapter 12"
+    file: genki/lesson_g_12.yaml
+    status: locked
+    reset-by: genki
+    requires:
+      - g_11
+
+  - id: g_13
+    name: "Genki Chapter 13"
+    file: genki/lesson_g_13.yaml
+    status: locked
+    reset-by: genki
+    requires:
+      - g_12
+
+  - id: g_14
+    name: "Genki Chapter 14"
+    file: genki/lesson_g_14.yaml
+    status: locked
+    reset-by: genki
+    requires:
+      - g_13
+
+  - id: g_15
+    name: "Genki Chapter 15"
+    file: genki/lesson_g_15.yaml
+    status: locked
+    reset-by: genki
+    requires:
+      - g_14
+
+  - id: g_16
+    name: "Genki Chapter 16"
+    file: genki/lesson_g_16.yaml
+    status: locked
+    reset-by: genki
+    requires:
+      - g_15
+
+  - id: g_17
+    name: "Genki Chapter 17"
+    file: genki/lesson_g_17.yaml
+    status: locked
+    reset-by: genki
+    requires:
+      - g_16
+
+  - id: g_18
+    name: "Genki Chapter 18"
+    file: genki/lesson_g_18.yaml
+    status: locked
+    reset-by: genki
+    requires:
+      - g_17
+
+  - id: g_19
+    name: "Genki Chapter 19"
+    file: genki/lesson_g_19.yaml
+    status: locked
+    reset-by: genki
+    requires:
+      - g_18
+
+  - id: g_20
+    name: "Genki Chapter 20"
+    file: genki/lesson_g_20.yaml
+    status: locked
+    reset-by: genki
+    requires:
+      - g_19
+
+  - id: g_21
+    name: "Genki Chapter 21"
+    file: genki/lesson_g_21.yaml
+    status: locked
+    reset-by: genki
+    requires:
+      - g_20
+
+  - id: g_22
+    name: "Genki Chapter 22"
+    file: genki/lesson_g_22.yaml
+    status: locked
+    reset-by: genki
+    requires:
+      - g_21
+
+  - id: g_23
+    name: "Genki Chapter 23"
+    file: genki/lesson_g_23.yaml
+    status: locked
+    reset-by: genki
+    requires:
+      - g_22

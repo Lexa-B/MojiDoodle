@@ -1,0 +1,367 @@
+- id: g-00-thanks
+  prompt: Thank you.
+  answer: ありがとう
+  hint: 'arigatou — casual “thanks”; for polite: ありがとうございます'
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: ありがとうございます
+    toast: |-
+      That's the more polite form.
+      It’s used in formal situations or with strangers.
+  - answer: どうも
+    toast: |-
+      That's a vague “thanks”/“very”.
+      It’s shorter and can sound casual depending on context.
+  - answer: すみません
+    toast: |-
+      That’s “excuse me / sorry,” and can also mean “thanks” in some situations.
+      The nuance is apologetic, not a straightforward thank-you.
+- id: g-00-thanks-pol
+  prompt: Thank you. (polite)
+  answer: ありがとうございます
+  hint: arigatou gozaimasu — polite set phrase; often used to thank someone (more
+    formal than ありがとう)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: ありがとうございました
+    toast: |-
+      That's "thank you (past)"!
+      Use this after something is done or completed.
+  - answer: どうもありがとうございます
+    toast: |-
+      That's "thank you very much"!
+      It adds extra emphasis with どうも.
+  - answer: すみません
+    toast: |-
+      That's "excuse me / sorry"!
+      It can be used to get attention or apologize, not a straightforward thank-you.
+- id: g-00-nope
+  prompt: No.; Not at all.
+  answer: いいえ
+  hint: iie — polite negative response (more formal than ううん)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: いえ
+    toast: |-
+      That's "house" (ie)!
+      It's a noun meaning "home/house," not a negative reply.
+  - answer: ううん
+    toast: |-
+      That's a casual "no"!
+      More informal; commonly used with friends.
+  - answer: いや
+    toast: |-
+      That's "no / unpleasant"!
+      Often stronger and can sound blunt depending on context.
+- id: g-00-itadaki
+  prompt: Thank you for the meal. (before eating)
+  answer: いただきます
+  hint: itadakimasu — said before eating; polite set phrase (often with hands together).
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: ごちそうさまでした
+    toast: |-
+      That's said AFTER finishing a meal.
+      The prompt is the phrase you say BEFORE eating.
+  - answer: いただきました
+    toast: |-
+      That's past tense.
+      The prompt is the fixed phrase used before eating.
+  - answer: いただく
+    toast: |-
+      That's the dictionary form (verb: to receive / to eat-humble).
+      The prompt is the set polite expression used at the start of a meal.
+- id: g-00-itteki
+  prompt: I’ll go and come back.
+  answer: いってきます
+  hint: itte kimasu — said when leaving home/office; reply is 「いってらっしゃい」.
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: いってらっしゃい
+    toast: |-
+      That's what someone ELSE says to see you off.
+      It's the reply to the leaving phrase.
+  - answer: ただいま
+    toast: |-
+      That's said when you RETURN home.
+      Not the phrase used when heading out.
+  - answer: いってきた
+    toast: |-
+      That's the past form meaning you went and came back.
+      The prompt is for the set phrase used before leaving.
+- id: g-00-ittera
+  prompt: Please go and come back.
+  answer: いってらっしゃい
+  hint: itterasshai — said to someone leaving home; reply is 「いってきます」
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: いってきます
+    toast: |-
+      That's what the person leaving says.
+      This prompt is the phrase said to the person who is going out.
+  - answer: いってまいります
+    toast: |-
+      That's the more polite form used by the person leaving.
+      This prompt is said to see someone off.
+  - answer: いってらっしゃいます
+    toast: |-
+      That's the polite verb form (used in other contexts).
+      For seeing someone off, use the set phrase in casual/polite speech.
+- id: g-00-okaeri
+  prompt: Welcome home.
+  answer: おかえり（なさい）
+  hint: okaeri (nasai) - said to someone returning home; 「なさい」 makes it more polite
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: ただいま
+    toast: |-
+      That's what the person who came home says.
+      This prompt is what you say back to greet them.
+  - answer: いらっしゃいませ
+    toast: |-
+      That's a shop/staff welcome phrase.
+      This prompt is used at home to greet someone returning.
+  - answer: おやすみ（なさい）
+    toast: |-
+      That's said before going to sleep.
+      Different situation and meaning.
+- id: g-00-ohayo
+  prompt: Good morning.
+  answer: おはよう
+  hint: ohayou — casual greeting (use おはようございます for polite/formal)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: こんにちは
+    toast: |-
+      That's “hello/good afternoon.”
+      Used during the day, not specifically in the morning.
+  - answer: おやすみ
+    toast: |-
+      That's “good night.”
+      Used when going to bed or saying goodbye at night.
+  - answer: こんばんは
+    toast: |-
+      That's “good evening.”
+      Used in the evening/night, not in the morning.
+- id: g-00-ohayo-pol
+  prompt: Good morning. (polite)
+  answer: おはようございます
+  hint: ohayou gozaimasu - polite greeting used in the morning (often until ~10–11am)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: おはよう
+    toast: |-
+      That's the casual version.
+      Use it with friends or family; the prompt asks for the polite greeting.
+  - answer: こんにちは
+    toast: |-
+      That's "hello / good afternoon".
+      This one is used later in the day, not in the morning.
+  - answer: こんばんは
+    toast: |-
+      That's "good evening".
+      This greeting is for nighttime, not morning.
+- id: g-00-oyasumi
+  prompt: Good night.
+  answer: おやすみ（なさい）
+  hint: 'oyasumi (nasai) — casual: おやすみ / polite: おやすみなさい (used when going to sleep)'
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: こんばんは
+    toast: |-
+      That means "good evening."
+      Use it as a greeting at night, not when going to sleep.
+  - answer: さようなら
+    toast: |-
+      That means "goodbye."
+      It's for parting, not a bedtime expression.
+  - answer: おはよう（ございます）
+    toast: |-
+      That means "good morning."
+      It's used after waking up, not before sleeping.
+- id: g-00-gochisou
+  prompt: Thank you for the meal. (after eating)
+  answer: ごちそうさま（でした）
+  hint: gochisousama (deshita) — said after finishing a meal; polite past form is
+    common in restaurants
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: いただきます
+    toast: |-
+      That's said BEFORE eating.
+      Use it to express gratitude before starting the meal.
+  - answer: ごちそうさまでした
+    toast: |-
+      That's the full polite past form.
+      If the prompt includes parentheses, the shorter form may be acceptable depending on context.
+  - answer: ありがとう（ございました）
+    toast: |-
+      That's a general "thank you".
+      The prompt is specifically the set phrase used after eating.
+- id: g-00-konnichi
+  prompt: Good afternoon.
+  answer: こんにちは
+  hint: konnichiwa — common daytime greeting (often written in hiragana; the は is
+    pronounced "wa")
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: こんばんは
+    toast: |-
+      That's "good evening"!
+      Used at night, not during the daytime.
+  - answer: おはよう
+    toast: |-
+      That's "good morning"!
+      Used earlier in the day.
+  - answer: こんにちわ
+    toast: |-
+      That's a common misspelling.
+      This greeting is written with は at the end (even though it sounds like "wa").
+- id: g-00-konban
+  prompt: Good evening.
+  answer: こんばんは
+  hint: konbanwa — common evening greeting; written with は but pronounced “wa”
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: こんにちわ
+    toast: |-
+      That’s a different greeting.
+      Also, this spelling uses わ and is considered nonstandard for the daytime greeting.
+  - answer: こんにちは
+    toast: |-
+      That means “hello / good afternoon.”
+      Used during the day, not in the evening.
+  - answer: おはよう
+    toast: |-
+      That means “good morning.”
+      Used in the morning, not in the evening.
+- id: g-00-sayonara
+  prompt: Good-bye.
+  answer: さようなら
+  hint: sayounara - standard farewell; a bit formal/final-sounding
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: じゃあね
+    toast: |-
+      That's a casual "see you".
+      Used with friends; lighter than a standard farewell.
+  - answer: またね
+    toast: |-
+      That's "see you again".
+      It implies you'll meet again soon.
+  - answer: バイバイ
+    toast: |-
+      That's a casual loanword-style "bye-bye".
+      Common with kids/friends; written in katakana.
+- id: g-00-sumimas
+  prompt: Excuse me.; I’m sorry.
+  answer: すみません
+  hint: sumimasen — used to get attention, apologize, or politely preface a request
+    (more casual than 申し訳ありません).
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: ごめんなさい
+    toast: |-
+      That's a more direct casual apology.
+      Not typically used as "excuse me" to get someone's attention.
+  - answer: 失礼します
+    toast: |-
+      That's used for "pardon me" when entering/leaving or doing something rude.
+      More formal and situational.
+  - answer: すいません
+    toast: |-
+      That's a common casual pronunciation/spelling.
+      The prompt expects the standard polite form.
+- id: g-00-tadaima
+  prompt: I’m home.
+  answer: ただいま
+  hint: tadaima — said when you return home (often answered with「おかえり」).
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: おかえり
+    toast: |-
+      That means "welcome back".
+      It's said by the person already at home to greet someone returning.
+  - answer: いってきます
+    toast: |-
+      That means "I'm off / I'm leaving".
+      It's said when you leave home, not when you return.
+  - answer: おじゃまします
+    toast: |-
+      That means "excuse me for intruding".
+      It's used when entering someone else's place, not when coming back to your own home.
+- id: g-00-desu
+  prompt: I am . . . .
+  answer: ～です
+  hint: ~ desu - polite copula; attach to a noun (e.g., 学生です = "I am a student")
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: ～でした
+    toast: |-
+      That's past tense ("was").
+      Use it for something that was true before, not now.
+  - answer: ～じゃないです
+    toast: |-
+      That's negative ("am not").
+      It denies the statement rather than stating it.
+  - answer: ～ですか
+    toast: |-
+      That's a question form.
+      The final か turns it into "Am I...?/Is it...?"
+- id: g-00-hajime
+  prompt: How do you do ?
+  answer: はじめまして
+  hint: hajimemashite - used when meeting someone for the first time (often followed
+    by よろしくお願いします).
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: よろしくお願いします
+    toast: |-
+      That means "Nice to meet you / Please treat me well".
+      This is often said after the first greeting, but it’s a different phrase.
+  - answer: はじめて
+    toast: |-
+      That means "for the first time".
+      It’s related in meaning, but it’s not the set greeting used when you meet someone.
+  - answer: こんにちは
+    toast: |-
+      That’s a general "hello".
+      This prompt is the special greeting for a first meeting.
+- id: g-00-yoroshiku
+  prompt: Nice to meet you.
+  answer: よろしくお願いします
+  hint: yoroshiku onegaishimasu — set phrase used when meeting someone or asking for
+    goodwill; often written as よろしくお願いします
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: はじめまして
+    toast: |-
+      That's the greeting used specifically for a first meeting.
+      This prompt is the follow-up phrase asking for a good relationship/your favor.
+  - answer: よろしくおねがいします
+    toast: |-
+      That's the all-kana version.
+      This prompt expects the common version that includes kanji for the verb.
+  - answer: ありがとうございます
+    toast: |-
+      That's "thank you."
+      This prompt is a greeting/request for goodwill, not expressing gratitude.

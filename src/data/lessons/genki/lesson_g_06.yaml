@@ -1,0 +1,72 @@
+# Genki Chapter 6 Vocabulary
+
+id: g_06
+name: "Genki Chapter 6"
+requires:
+  - g_05
+
+ids:
+  - g-06-akeru
+  - g-06-asobu
+  - g-06-atode
+  - g-06-isogu
+  - g-06-italy
+  - g-06-itsumo
+  - g-06-aircon
+  - g-06-eki
+  - g-06-okane
+  - g-06-oshieru
+  - g-06-oriru
+  - g-06-kaesu
+  - g-06-kado
+  - g-06-kane
+  - g-06-kariru
+  - g-06-kanji
+  - g-06-kita
+  - g-06-kyokasho
+  - g-06-kuni
+  - g-06-kesu
+  - g-06-kekko
+  - g-06-chef
+  - g-06-shinu
+  - g-06-shimeru
+  - g-06-shower
+  - g-06-abiru
+  - g-06-shingo
+  - g-06-sugu
+  - g-06-suwaru
+  - g-06-tatsu
+  - g-06-smoke
+  - g-06-tsukau
+  - g-06-tsugi
+  - g-06-tsukeru
+  - g-06-tsureku
+  - g-06-tetsudau
+  - g-06-deru
+  - g-06-densha
+  - g-06-tel
+  - g-06-nishi
+  - g-06-nimotsu
+  - g-06-hairu
+  - g-06-pasocon
+  - g-06-higashi
+  - g-06-piza
+  - g-06-hidari
+  - g-06-hitotsume
+  - g-06-futatsume
+  - g-06-page
+  - g-06-honto
+  - g-06-magaru
+  - g-06-massugu
+  - g-06-migi
+  - g-06-mittsume
+  - g-06-minasan
+  - g-06-minami
+  - g-06-motsu
+  - g-06-mottek
+  - g-06-yasumu
+  - g-06-yukkuri
+  - g-06-ryori
+  - g-06-wine
+  - g-06-wasureru
+  - g-06-wataru

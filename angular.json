@@ -37,12 +37,12 @@
                 "output": "./svg"
               },
               {
-                "glob": "*.yaml",
+                "glob": "**/*.yaml",
                 "input": "src/data/cards",
                 "output": "data/cards"
               },
               {
-                "glob": "*.yaml",
+                "glob": "**/*.yaml",
                 "input": "src/data/lessons",
                 "output": "data/lessons"
               },

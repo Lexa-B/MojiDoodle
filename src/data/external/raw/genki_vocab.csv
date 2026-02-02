@@ -1,0 +1,1775 @@
+No.,単語,漢字表記,品詞,英訳,課数
+1,あいかわらず,相変わらず,adv.,as usual,読L22-II
+2,あいさつ,,n.,greetings,読L23-II
+3,あいす,愛す,u-v.,to love,読L14-II
+4,アイスクリーム,,n.,ice cream,会L3
+5,あいだ,間,n.,between,会L4
+6,あいて,相手,n.,partner; the other person,会L22
+7,アイロンをかける,,ru-v.,to iron (clothes) ,会L16
+8,あう,会う,u-v.,to meet; to see (a person),会L4
+9,アウトドア,,n.,outdoor activities,読L11-II
+10,あおい,青い,い-adj.,blue,"会L9, 会L9(e)"
+11,あおしんごう,青信号,n.,green light,会L9(e)
+12,あかい,赤い,い-adj.,red,"会L9, 会L9(e)"
+13,あかちゃん,赤ちゃん,n.,baby,会L17
+14,あかるい,明るい,い-adj.,bright,会L18
+15,あかるい,明るい,い-adj.,cheerful,読L11-II
+16,あき,秋,n.,fall,会L10
+17,あきらめる,,ru-v.,to give up ,会L14
+18,あく,開く,u-v.,(something) opens,会L18
+19,あける,開ける,ru-v.,to open (something) ,会L6
+20,あげる,,ru-v.,to give (to others) ,会L14
+21,あさ,朝,n.,morning,会L3
+22,あさごはん,朝ご飯,n.,breakfast,会L3
+23,あさって,,n.,the day after tomorrow,"会L4(e), 会L8"
+24,あさねぼうする,朝寝坊する,irr-v.,to oversleep ,会L16
+25,あし,足,n.,leg; foot,"会L7(e), 会L12"
+26,アジアけんきゅう,アジア研究,n.,Asian studies,会L1
+27,あした,明日,n.,tomorrow,"会L3, 会L4(e)"
+28,あずけいれ,預け入れ,n.,deposit,会L13(e)
+29,あそこ,,n.,over there,会L2
+30,あそぶ,遊ぶ,u-v.,to play; to spend time pleasantly,会L6
+31,あたたかい,暖かい,い-adj.,warm,会L10
+32,あたま,頭,n.,head,会L7(e)
+33,あたまがいい,頭がいい,い-adj.,bright; smart; clever,会L7
+34,あたらしい,新しい,い-adj.,new,会L5
+35,あちら,,n.,that way (polite),会L20
+36,あつい,熱い,い-adj.,hot (thing),会L5
+37,あつい,暑い,い-adj.,hot (weather),会L5
+38,あつめる,集める,ru-v.,to collect ,会L16
+39,あと,後,n.,the rest,会L18
+40,（〜の）あと,後,exp.,after (an event),"読L8-II, 会L11"
+41,あとで,後で,adv.,later on,会L6
+42,アドバイス,,n.,advice,読L14-II
+43,アナウンス,,n.,announcement,読L13-III
+44,あなた,,n.,you,会L4
+45,あに,兄,n.,(my) older brother,会L7
+46,アニメ,,n.,animation,会L20
+47,あね,姉,n.,(my) older sister,会L7
+48,あの,,pre.,that . . . (over there),会L2
+49,あのう,,exp.,um . . .,会L1
+50,アパート,,n.,apartment; smaller apartment building,会L13
+51,あぶない,危ない,い-adj.,dangerous,会L17
+52,アプリ,,n.,application,会L13
+53,アボカド,,n.,avocado,会L8(e)
+54,あまい,甘い,い-adj.,sweet,会L12
+55,あまのがわ,天の川,n.,the Milky Way,読L12-II
+56,あまり ＋ negative,,adv.,not much,会L3
+57,あむ,編む,u-v.,to knit,会L13
+58,あめ,雨,n.,rain,会L8
+59,あめがやむ,雨がやむ,u-v.,the rain stops,会L23
+60,アメリカ,,n.,U.S.A.,会L1
+61,あやまる,謝る,u-v.,to apologize,会L18
+62,あらう,洗う,u-v.,to wash,会L8
+63,あらわす,表す,u-v.,to express; to show,読L23-II
+64,ありがとう,,exp.,Thank you.,会G
+65,ありがとうございます,,exp.,Thank you. (polite),会G
+66,ある,,u-v.,there is . . .,会L4
+67,ある～,,pre.,one . . .,読L12-II
+68,あるいて,歩いて,adv.,on foot,会L10
+69,あるく,歩く,u-v.,to walk,会L12
+70,アルバイト,,n.,part-time job,会L4
+71,あれ,,n.,that one (over there),会L2
+72,アレルギー,,n.,allergy,"会L8(e), 会L12"
+73,アンケート,,n.,questionnaire,読L8-II
+74,あんしょうばんごう,暗証番号,n.,personal identification number,会L13(e)
+75,あんぜん（な）,安全,な-adj.,safe,会L21
+76,あんないする,案内する,irr-v.,to show (someone) around,"読L9-II, 会L16"
+77,あんなに,,adv.,so; such,読L20-II
+78,いい,,い-adj.,good,会L3
+79,いいえ,,exp.,No.; Not at all.,会G
+80,いいこ,いい子,n.,good child,会L9
+81,いいこと,,n.,good deed,読L10-II
+82,いう,言う,u-v.,to say,会L8
+83,いう（もんくを）,言う（文句を）,u-v.,to complain,会L21
+84,いう（わるぐちを）,言う（悪口を）,u-v.,to talk behind someone’s back,会L23
+85,いえ,家,n.,home; house,会L3
+86,～いがい,～以外,suf.,other than . . .,会L16
+87,いかが,,adv.,how (polite expression of どう),読L19-II
+88,～いき,～行き,suf.,bound for . . .,会L10(e)
+89,イギリス,,n.,Britain,"会L1, 会L2"
+90,いく,行く,u-v.,to go,会L3
+91,いくら,,n.,how much,会L2
+92,いじめる,,ru-v.,to bully ,会L21
+93,いしゃ,医者,n.,doctor,"会L1, 会L10"
+94,～いじょう,～以上,suf.,. . . or more,読L18-II
+95,いじわる（な）,意地悪,な-adj.,mean-spirited,会L9
+96,いす,,n.,chair,"会L2(e), 会L4"
+97,いそがしい,忙しい,い-adj.,busy (people/days),会L5
+98,いそぐ,急ぐ,u-v.,to hurry,会L6
+99,いたい,痛い,い-adj.,hurt; painful,会L12
+100,いたす,致す,u-v.,extra-modest expression for する,会L20
+101,いただきます,,exp.,Thank you for the meal. (before eating),会G
+102,いただく,頂く,u-v.,extra-modest expression for たべる and のむ,会L20
+103,いただく,頂く,u-v.,humble expression for もらう,会L20
+104,いたみどめ,痛み止め,n.,painkiller,会L12(e)
+105,イタリア,,n.,Italy,読L6-III
+106,いちがつ,一月,n.,January,会L4(e)
+107,いちご,,n.,strawberry,会L8(e)
+108,いちごうしゃ,一号車,n.,Car No. 1,会L10(e)
+109,いちじ,一時,n.,one o’clock,"会L1, 会L1(e)"
+110,いちじかん,一時間,n.,one hour,会L4
+111,いちにち,一日,n.,one day,会L13
+112,いちにちじゅう,一日中,adv.,all day long,会L15
+113,いちにちめ,一日目,n.,first day,会L15
+114,いちねんじゅう,一年中,adv.,all year,読L15-II
+115,いちねんせい,一年生,n.,first-year student,会L1
+116,いちねんにいちど,一年に一度,adv.,once a year,読L12-II
+117,いちばん,一番,adv.,best,会L10
+118,いつ,,n.,when,会L3
+119,いつか,五日,n.,five days,会L13
+120,いつか,五日,n.,the fifth day of a month,会L4(e)
+121,いっかい,一階,n.,first floor,会L20
+122,いっしょうけんめい,一生懸命,adv.,very hard,読L21-II
+123,いっしょうにいちど,一生に一度,adv.,once in a lifetime,読L13-II
+124,いっしょに,一緒に,adv.,together,会L5
+125,いつつ,五つ,n.,five,会L9
+126,いってきます,,exp.,I’ll go and come back.,会G
+127,いってらっしゃい,,exp.,Please go and come back.,会G
+128,いっぱくにしょくつき,一泊二食付き,exp.,one night with two meals,会L15(e)
+129,いっぷん,一分,n.,one minute,会L1(e)
+130,いっぽう,一方,adv.,on the other hand,読L23-II
+131,いつも,,adv.,always,"読L6-III, 会L8"
+132,いなか,,n.,countryside,読L20-II
+133,いなくなる,,u-v.,(someone) is gone; to disappear,会L23
+134,いぬ,犬,n.,dog,会L4
+135,いま,今,adv.,now,会L1
+136,いますぐ,今すぐ,adv.,right away,会L18
+137,いみ,意味,n.,meaning,"会L11(e), 会L12"
+138,いもうと,妹,n.,younger sister,"会L1, 会L7"
+139,いらっしゃいませ,,exp.,Welcome (to our store).,会L2
+140,いらっしゃる,,u-v.,"honorific expression for いく, くる, and いる",会L19
+141,いりぐち,入口,n.,entrance,会L10(e)
+142,いる,,ru-v.,(a person) is in . . . ; stays at . . . ,会L4
+143,いる,,u-v.,to need,会L8
+144,いれる,,ru-v.,"to make tea, coffee, etc. ",会L17
+145,いれる,入れる,ru-v.,to put (something) in ,会L16
+146,いろ,色,n.,color,会L9
+147,いろいろ（な）,,な-adj.,various; different kinds of,"読L9-II, 会L13"
+148,インターネット,,n.,internet,会L15
+149,インド,,n.,India,会L1
+150,インフルエンザ,,n.,influenza,会L12
+151,ううん,,exp.,uh-uh; no,会L8
+152,うえ,上,n.,on,会L4
+153,うかがう,伺う,u-v.,to humbly visit; to humbly ask,会L20
+154,うけつけ,受付,n.,reception desk,会L22
+155,うける,受ける,ru-v.,to take (an examination) ,"読L19-III, 会L22"
+156,うし,牛,n.,cow,読L12-II
+157,うしろ,後ろ,n.,back,会L4
+158,うそをつく,,u-v.,to tell a lie,会L11
+159,うた,歌,n.,song,会L7
+160,うたう,歌う,u-v.,to sing,会L7
+161,うち,,n.,home; house; my place,会L3
+162,うちゅうじん,宇宙人,n.,space alien,会L20
+163,うちゅうひこうし,宇宙飛行士,n.,astronaut,会L11
+164,うつす,写す,u-v.,to copy,読L16-II
+165,うまく,,adv.,well; successfully; skillfully,読L22-II
+166,うまくいく,,u-v.,to go well,読L22-II
+167,うまれる,生まれる,ru-v.,to be born ,"読L15-II, 会L17"
+168,うみ,海,n.,sea,会L5
+169,うらない,占い,n.,fortune-telling,読L21-II
+170,うらやましい,,い-adj.,envious,会L17
+171,うらやましがる,,u-v.,(somebody is) envious,読L22-II
+172,うる,売る,u-v.,to sell,"読L10-II, 会L15"
+173,うるさい,,い-adj.,noisy; annoying,会L22
+174,うれしい,,い-adj.,glad,会L13
+175,うれる,売れる,ru-v.,to be sold ,読L20-II
+176,うん,,exp.,uh-huh; yes,会L8
+177,うんてんする,運転する,irr-v.,to drive ,会L8
+178,うんどうする,運動する,irr-v.,to exercise ,会L9
+179,え,絵,n.,painting; picture; drawing,会L15
+180,エアコン,,n.,air conditioner,会L6
+181,えいが,映画,n.,movie,会L3
+182,えいかいわ,英会話,n.,English conversation,会L22
+183,えいがかん,映画館,n.,movie theater,会L15
+184,えいきょうをうける,影響を受ける,ru-v.,to be affected ,読L17-II
+185,えいご,英語,n.,English language,会L2
+186,ええ,,exp.,yes,会L3
+187,ええと,,exp.,well . . . ; let me see . . .,会L16
+188,えき,駅,n.,station,"読L6-I, 会L10"
+189,えきいん（さん）,駅員（さん）,n.,station attendant,会L16
+190,えさ,,n.,feed,読L20-II
+191,エジプト,,n.,Egypt,会L1
+192,エスエヌエス,SNS,n.,social media,読L23-II
+193,えど,江戸,n.,former name of Tokyo,読L20-II
+194,えどじだい,江戸時代,n.,Edo period (1603－1868),読L20-II
+195,えもじ,絵文字,n.,emoji,読L23-II
+196,えらぶ,選ぶ,u-v.,to choose; to select,会L17
+197,エルサイズ,Ｌサイズ,n.,size L,会L5
+198,～えん,～円,suf.,. . . yen,会L2
+199,えんぴつ,鉛筆,n.,pencil,会L14
+200,えんりょする,遠慮する,irr-v.,to hold back for the time being; to refrain from ,会L19
+201,おあずけいれ,お預け入れ,n.,deposit,会L13(e)
+202,おいしい,,い-adj.,delicious,会L2
+203,おいのりする,お祈りする,irr-v.,to pray ,会L17
+204,おうふく,往復,n.,round trip,会L10(e)
+205,おおい,多い,い-adj.,there are many . . .,会L12
+206,おおきい,大きい,い-adj.,large,会L5
+207,おおきさ,大きさ,n.,size,会L16
+208,おおくの～,多くの～,pre.,many . . .,"読L21-II, 会L22"
+209,オーストラリア,,n.,Australia,"会L1, 会L11"
+210,おおやさん,大家さん,n.,landlord; landlady,会L14
+211,おかあさん,お母さん,n.,mother,"会L1, 会L2"
+212,おかえし,お返し,n.,return (as a token of gratitude),会L14
+213,おかえり（なさい）,,exp.,Welcome home.,会G
+214,おかげで,,part.,thanks to . . .,会L18
+215,おかし,お菓子,n.,snack; sweets,会L11
+216,おかね,お金,n.,money,会L6
+217,おかねもち,お金持ち,n.,rich person,会L10
+218,おきゃくさん,お客さん,n.,guest; visitor; client; customer,会L17
+219,おきる,起きる,ru-v.,to get up ,会L3
+220,おく,置く,u-v.,to put; to lay; to place,会L21
+221,おくさま,奥様,n.,(your/someone’s) wife (polite),会L19
+222,おくさん,奥さん,n.,(your/someone’s) wife,会L14
+223,おくる,送る,u-v.,to send,会L14
+224,おくる,送る,u-v.,to walk/drive (someone),会L19
+225,おくれる,遅れる,ru-v.,to become late ,"読L13-III, 会L19"
+226,おこさん,お子さん,n.,(your/someone’s) child (polite),会L19
+227,おこす,起こす,u-v.,to wake (someone) up,会L16
+228,おこる,起こる,u-v.,to occur; to happen,読L21-II
+229,おこる,怒る,u-v.,to get angry,読L12-II
+230,おごる,,u-v.,to treat (someone) to a meal,会L16
+231,おさきにしつれいします,お先に失礼します,exp.,"See you. (lit., I’m leaving ahead of you.)",会L18
+232,おさけ,お酒,n.,sake; alcoholic drink,会L3
+233,おさら,お皿,n.,plate; dish,会L14
+234,おじいさん,,n.,grandfather; old man,会L7
+235,おしえる,教える,ru-v.,to teach; to instruct ,会L6
+236,おじさん,,n.,uncle; middle-aged man,会L14
+237,おじぞうさん,,n.,guardian deity of children,読L10-II
+238,おしゃれ（な）,,な-adj.,fashionable; stylish,会L14
+239,おしょうがつ,お正月,n.,New Year’s,"読L10-II, 会L11"
+240,おじょうさん,お嬢さん,n.,(someone’s) daughter (polite),会L22
+241,おしり,お尻,n.,buttocks,会L7(e)
+242,おしろ,お城,n.,castle,読L5-II
+243,おす,押す,u-v.,to press; to push,会L18
+244,おせわになる,お世話になる,u-v.,to be in someone’s care,"読L19-II, 会L23"
+245,おそい,遅い,い-adj.,slow; late,会L10
+246,おそく,遅く,adv.,(do something) late,"読L4-III, 会L8"
+247,おそくなる,遅くなる,u-v.,to be late,会L8
+248,おだいじに,お大事に,exp.,Get well soon.,会L12
+249,おたく,お宅,n.,(someone’s) home/house,会L20
+250,おちこむ,落ち込む,u-v.,to get depressed,会L16
+251,おちゃ,お茶,n.,green tea,会L3
+252,おちる,落ちる,ru-v.,(something) drops ,会L18
+253,おつかれさま（でした）,お疲れ様（でした）,exp.,You must be tired after working so hard. (greeting between friends and coworkers),会L18
+254,おっしゃる,,u-v.,honorific expression for いう,会L19
+255,おてあらい,お手洗い,n.,restroom,会L12
+256,おてら,お寺,n.,temple,会L4
+257,おと,音,n.,sound,会L20
+258,おとうさん,お父さん,n.,father,"会L1, 会L2"
+259,おとうと,弟,n.,younger brother,"会L1, 会L7"
+260,おとこのひと,男の人,n.,man,"読L5-II, 会L7"
+261,おとされる,落とされる,exp.,to be dropped,読L15-II
+262,おとす,落とす,u-v.,to drop (something),会L18
+263,おととい,,n.,the day before yesterday,"会L4(e), 会L19"
+264,おととし,,n.,the year before last,会L4(e)
+265,おとな,大人,n.,adult,"読L12-II, 会L13"
+266,おどる,踊る,u-v.,to dance,会L9
+267,おなか,,n.,stomach,"会L7(e), 会L12"
+268,おなかがすく,,u-v.,to become hungry,会L11
+269,おなかをこわす,,u-v.,to have a stomachache,会L23
+270,おなじ,同じ,adv.,same,会L12
+271,おにいさん,お兄さん,n.,older brother,"会L1, 会L7"
+272,おにぎり,,n.,rice ball,会L20
+273,おねえさん,お姉さん,n.,older sister,"会L1, 会L7"
+274,おねがいします（～を）,,exp.,". . . , please.",会L2
+275,おねがいする,お願いする,irr-v.,to request help ,会L22
+276,おばあさん,,n.,grandmother; old woman,会L7
+277,おばさん,,n.,aunt; middle-aged woman,会L14
+278,おはよう,,exp.,Good morning.,会G
+279,おはようございます,,exp.,Good morning. (polite),会G
+280,おひきだし,お引き出し,n.,withdrawal,会L13(e)
+281,おふりこみ,お振込,n.,bank transfer,会L13(e)
+282,おふろ,お風呂,n.,bath,会L8
+283,おふろにはいる,お風呂に入る,u-v.,to take a bath,会L8
+284,おへんじ,お返事,n.,reply,読L11-II
+285,おべんとう,お弁当,n.,boxed lunch,会L9
+286,おぼえる,覚える,ru-v.,to memorize ,会L9
+287,おまつり,お祭り,n.,festival,会L11
+288,おまもり,お守り,n.,charm (against evils); amulet,読L21-II
+289,おまんじゅう,,n.,sweet bun,読L4-III
+290,おみやげ,お土産,n.,souvenir,会L5
+291,おめでとうございます,,exp.,Congratulations!,会L17
+292,おもい,重い,い-adj.,heavy; serious (illness),会L20
+293,おもいだす,思い出す,u-v.,to recall,読L19-II
+294,おもいで,思い出,n.,memory,会L23
+295,おもう,思う,u-v.,to think,会L8
+296,おもしろい,面白い,い-adj.,interesting; funny,会L5
+297,おもち,,n.,rice cake,読L10-II
+298,おもちゃ,,n.,toy,会L11
+299,おもに,主に,adv.,mainly,読L17-II
+300,おや,親,n.,parent,会L16
+301,おやすみ（なさい）,,exp.,Good night.,会G
+302,おやすみになる,お休みになる,u-v.,honorific expression for ねる,会L19
+303,おゆ,お湯,n.,hot water,会L17
+304,おゆがわく,お湯が沸く,u-v.,water boils,会L18
+305,おゆをわかす,お湯を沸かす,u-v.,to boil water,会L17
+306,およぐ,泳ぐ,u-v.,to swim,会L5
+307,おりる,降りる,ru-v.,to get off ,会L6
+308,おる,,u-v.,extra-modest expression for いる,会L20
+309,おれい,お礼,n.,expression of gratitude,会L19
+310,オレンジ,,n.,orange,会L9(e)
+311,おろす,下ろす,u-v.,to withdraw (money),会L15
+312,おわる,終わる,u-v.,(something) ends,会L9
+313,おんがく,音楽,n.,music,会L3
+314,おんせん,温泉,n.,spa; hot spring,会L11
+315,おんなのひと,女の人,n.,woman,"読L5-II, 会L7"
+316,か,蚊,n.,mosquito,会L21
+317,～か～,,part.,or,会L10
+318,～が,,part.,". . . , but","読L5-II, 会L7"
+319,カーテン,,n.,curtain,"会L2(e), 会L18"
+320,～かい,～回,suf.,. . . times,会L13
+321,～かい,～階,suf.,. . . th floor,会L20
+322,かいがいりょこう,海外旅行,n.,trip to a foreign country,会L23
+323,かいぎ,会議,n.,business meeting; conference,会L21
+324,がいこく,外国,n.,foreign country,会L11
+325,がいこくご,外国語,n.,foreign language,会L13
+326,がいこくじん,外国人,n.,foreigner,会L15
+327,かいさつ,改札,n.,gate,会L10(e)
+328,かいしゃ,会社,n.,company,会L7
+329,かいしゃいん,会社員,n.,office worker,"会L1, 会L8"
+330,かいだん,階段,n.,stairs,"会L10(e), 会L23"
+331,かいもの,買い物,n.,shopping,会L4
+332,かう,買う,u-v.,to buy,会L4
+333,かう,飼う,u-v.,to own (a pet),会L11
+334,かえす,返す,u-v.,to return (a thing),会L6
+335,かえる,帰る,u-v.,to go back; to return,会L3
+336,かお,顔,n.,face,"会L7(e), 会L10"
+337,かおがあおい,顔が青い,い-adj.,to look pale,会L9(e)
+338,かおもじ,顔文字,n.,emoticon,読L23-II
+339,～かおをする,～顔をする,irr-v.,to look . . . (facial expression) ,会L23
+340,かかりのもの,係の者,n.,our person in charge,会L20
+341,かかる,,u-v.,to take (amount of time/money),会L10
+342,かぎ,鍵,n.,lock; key,会L17
+343,かぎをかける,鍵をかける,ru-v.,to lock ,会L17
+344,かく,書く,u-v.,to write,会L4
+345,かく,描く,u-v.,to draw; to paint,会L15
+346,かぐ,家具,n.,furniture,会L15
+347,がくせい,学生,n.,student,会L1
+348,がくわり,学割,n.,student discount,会L10(e)
+349,～かげつ,～か月,suf.,for . . . months,会L10
+350,かける,,ru-v.,to sit down ,会L19
+351,かける（アイロンを）,,ru-v.,to iron (clothes) ,会L16
+352,かける（かぎを）,かける（鍵を）,ru-v.,to lock ,会L17
+353,かける（パーマを）,,ru-v.,to have one’s hair permed ,会L17(e)
+354,かける（めがねを）,かける（眼鏡を）,ru-v.,to put on (glasses) ,会L7
+355,かさ,,n.,bamboo hat,読L10-II
+356,かさ,傘,n.,umbrella,会L2
+357,かし,菓子,n.,snack; sweets,会L11
+358,かじ,火事,n.,fire,会L17
+359,かじ,家事,n.,housework,会L22
+360,かしこまりました,,exp.,Certainly.,会L20
+361,かしゅ,歌手,n.,singer,会L11
+362,かす,貸す,u-v.,to lend,会L16
+363,かぜ,風,n.,wind,会L22
+364,かぜ,風邪,n.,cold,会L12
+365,かぜがふく,風が吹く,u-v.,the wind blows,会L22
+366,かぜをひく,風邪をひく,u-v.,to catch a cold,会L12
+367,かぞえる,数える,ru-v.,to count ,読L17-II
+368,かぞく,家族,n.,family,会L7
+369,ガソリン,,n.,gasoline,会L21
+370,かた,肩,n.,shoulder,会L7(e)
+371,かたいいいかた,かたい言い方,n.,bookish expression,会L11(e)
+372,かたづける,片付ける,ru-v.,to tidy up ,会L18
+373,かたみち,片道,n.,one way,会L10(e)
+374,かつ,勝つ,u-v.,to win,会L22
+375,がっかりする,,irr-v.,to be disappointed ,"読L20-II, 会L23"
+376,がっき,楽器,n.,musical instrument,会L13
+377,かっこ,,n.,parenthesis,会L11(e)
+378,かっこいい,,い-adj.,good-looking,会L5
+379,がっこう,学校,n.,school,会L3
+380,カット,,n.,cut,会L17(e)
+381,かつどう,活動,n.,activity,会L15
+382,かていきょうし,家庭教師,n.,tutor,読L18-III
+383,かど,角,n.,corner,"会L6(e), 会L20"
+384,～かな（あ）,,part.,I wonder . . . (casual),会L17
+385,かなう,,u-v.,to be realized,読L12-II
+386,かなしい,悲しい,い-adj.,sad,"読L10-II, 会L13"
+387,カナダ,,n.,Canada,会L1
+388,かね,金,n.,money,会L6
+389,かねもち,金持ち,n.,rich person,会L10
+390,かのじょ,彼女,n.,she; girlfriend,会L12
+391,かばん,,n.,bag,会L2
+392,カフェ,,n.,cafe,会L3
+393,かぶき,歌舞伎,n.,Kabuki; traditional Japanese theatrical art,会L9
+394,かぶせる,,n.,to put (a hat) on a person’s head ,読L10-II
+395,かぶる,,u-v.,to put on (a hat),会L7
+396,かふんしょう,花粉症,n.,hay fever,会L12(e)
+397,がまんする,我慢する,irr-v.,to be tolerant/patient ,会L23
+398,かみ,髪,n.,hair,"会L7, 会L7(e)"
+399,かみ,紙,n.,paper,会L17
+400,かみがた,髪形,n.,hairstyle,会L17(e)
+401,かみさま,神様,n.,God,"読L12-II, 会L22"
+402,かみをとかす,髪をとかす,u-v.,to comb one’s hair,会L17
+403,かめ,,n.,turtle,読L13-II
+404,カメラ,,n.,camera,会L8
+405,かよう,通う,u-v.,to commute to,読L21-II
+406,かようび,火曜日,n.,Tuesday,"会L4, 会L4(e)"
+407,～から,,part.,from . . .,"読L7-II, 会L9"
+408,カラー,,n.,hair coloring,会L17(e)
+409,からい,辛い,い-adj.,hot and spicy; salty,会L13
+410,カラオケ,,n.,karaoke,会L8
+411,からだ,体,n.,body,会L13
+412,からだにきをつける,体に気をつける,ru-v.,to take care of oneself ,読L7-II
+413,からて,空手,n.,karate,会L13
+414,かりる,借りる,ru-v.,to borrow ,会L6
+415,かる,刈る,u-v.,to crop,会L17(e)
+416,かるい,軽い,い-adj.,light,会L20
+417,かれ,彼,n.,he; boyfriend,会L12
+418,カレー,,n.,curry,会L13
+419,かれし,彼氏,n.,boyfriend,会L12
+420,かわ,川,n.,river,会L11
+421,かわいい,,い-adj.,cute,会L7
+422,かわいそう（な）,,な-adj.,pitiful; feel sorry for; poor thing,"読L12-II, 会L23"
+423,かわりに,代わりに,adv.,instead,読L22-II
+424,がんか,眼科,n.,ophthalmologist,会L12(e)
+425,かんがえる,考える,ru-v.,to think (about); to consider ,会L18
+426,かんきょう,環境,n.,environment,会L21
+427,かんこうする,観光する,irr-v.,to do sightseeing ,会L15
+428,かんこく,韓国,n.,Korea,"会L1, 会L2"
+429,かんごし,看護師,n.,nurse,"会L1, 会L11"
+430,かんじ,漢字,n.,kanji; Chinese character,会L6
+431,かんじょう,感情,n.,feeling; emotion,読L23-II
+432,かんせいする,完成する,irr-v.,to be completed ,読L17-II
+433,かんたん（な）,簡単,な-adj.,easy; simple,会L10
+434,かんどうする,感動する,irr-v.,to be moved/touched (by . . . ) ,会L13
+435,カンニングする,,irr-v.,to cheat in an exam ,会L23
+436,かんぱい,乾杯,exp.,Cheers! (a toast),会L8
+437,がんばる,頑張る,u-v.,to do one’s best; to try hard,会L13
+438,き,木,n.,tree,会L22
+439,きいろい,黄色い,い-adj.,yellow,会L9(e)
+440,きえる,消える,ru-v.,(something) goes off ,会L18
+441,きおん,気温,n.,temperature (weather),会L8
+442,きがえる,着替える,ru-v.,to change clothes ,会L21
+443,きがつく,気が付く,u-v.,to notice,会L21
+444,きく,聞く,u-v.,to ask,会L5
+445,きく,聞く,u-v.,to listen; to hear,会L3
+446,きごう,記号,n.,symbol,読L23-II
+447,きこえる,聞こえる,ru-v.,to be audible ,会L20
+448,キスをする,,irr-v.,to kiss ,読L23-II
+449,きせつ,季節,n.,season,会L10
+450,きた,北,n.,north,会L6(e)
+451,ギター,,n.,guitar,会L9
+452,きたない,汚い,い-adj.,dirty,会L16
+453,きつえん,喫煙,n.,smoking,会L15(e)
+454,きっぷ,切符,n.,train ticket,会L12
+455,きっぷうりば,切符売り場,n.,ticket vending area,会L10(e)
+456,きにいる,気に入る,u-v.,to find something agreeable,会L23
+457,きにする,気にする,irr-v.,to worry ,読L21-II
+458,きのう,昨日,n.,yesterday,"会L4, 会L4(e)"
+459,きびしい,厳しい,い-adj.,strict,会L13
+460,きぶんがわるい,気分が悪い,い-adj.,not to feel well; to feel sick,"会L12(e), 会L13"
+461,きまつしけん,期末試験,n.,final examination,会L16
+462,きまる,決まる,u-v.,to be decided,会L19
+463,きめる,決める,ru-v.,to decide ,会L10
+464,きもの,着物,n.,kimono; Japanese traditional dress,"読L9-II, 会L13"
+465,キャッシュカード,,n.,bank card,会L13(e)
+466,キャベツ,,n.,cabbage,会L8(e)
+467,キャンプ,,n.,camp,会L11
+468,きゅうこう,休講,n.,class cancellation,会L23
+469,きゅうこう,急行,n.,express,会L10(e)
+470,きゅうに,急に,adv.,suddenly,会L14
+471,ぎゅうにく,牛肉,n.,beef,会L8(e)
+472,ぎゅうにゅう,牛乳,n.,milk,会L10
+473,きゅうふん,九分,n.,nine minutes,会L1(e)
+474,きゅうり,,n.,cucumber,会L8(e)
+475,きゅうりょう,給料,n.,salary,会L17
+476,きょう,今日,n.,today,"会L3, 会L4(e)"
+477,きょうかしょ,教科書,n.,textbook,会L6
+478,きょうし,教師,n.,schoolteacher,会L11
+479,きょうしつ,教室,n.,classroom,会L15
+480,きょうじゅうに,今日中に,adv.,by the end of today,会L16
+481,きょうだい,兄弟,n.,brothers and sisters,会L7
+482,きょうつうご,共通語,n.,common language,会L11(e)
+483,きょうみがある,興味がある,u-v.,to be interested (in),会L12
+484,～ぎょうめ,～行目,suf.,line number . . .,会L11(e)
+485,きょねん,去年,n.,last year,"会L4(e), 会L9"
+486,きらい（な）,嫌い,な-adj.,disgusted with; to dislike,会L5
+487,きる,切る,u-v.,to cut,"会L8, 会L17(e)"
+488,きる,着る,ru-v.,to put on (clothes above your waist) ,会L7
+489,きれい（な）,,な-adj.,beautiful; clean,会L5
+490,～キロ,,suf.,. . . kilometers; . . . kilograms,会L13
+491,きをつける,気をつける,ru-v.,to be cautious/careful ,会L15
+492,きんいろ,金色,n.,gold,会L9(e)
+493,ぎんいろ,銀色,n.,silver,会L9(e)
+494,きんえん,禁煙,n.,non-smoking,会L15(e)
+495,きんがく,金額,n.,amount,会L13(e)
+496,ぎんこう,銀行,n.,bank,会L2
+497,きんじょ,近所,n.,neighborhood,読L11-II
+498,きんちょうする,緊張する,irr-v.,to get nervous ,会L12
+499,きんようび,金曜日,n.,Friday,"会L4, 会L4(e)"
+500,くうこう,空港,n.,airport,会L13
+501,くがつ,九月,n.,September,会L4(e)
+502,くじ,九時,n.,nine o’clock,会L1(e)
+503,くしゃみ,,n.,sneeze,会L12(e)
+504,くじら,,n.,whale,読L15-II
+505,くすり,薬,n.,medicine,会L9
+506,くすりをのむ,薬を飲む,u-v.,to take medicine,会L9
+507,くだけたいいかた,くだけた言い方,n.,colloquial expression,会L11(e)
+508,ください（～を）,,exp.,Please give me . . .,会L2
+509,くださる,下さる,u-v.,honorific expression for くれる,会L19
+510,くだもの,果物,n.,fruit,会L5
+511,くち,口,n.,mouth,"会L7, 会L7(e)"
+512,くつ,靴,n.,shoes,会L2
+513,くつした,靴下,n.,socks,会L23
+514,くに,国,n.,country; place of origin,会L6
+515,くび,首,n.,neck,会L7(e)
+516,くも,雲,n.,cloud,読L17-II
+517,くもり,曇り,n.,cloudy weather,会L8
+518,くらい,暗い,い-adj.,dark,会L18
+519,～ぐらい,,suf.,about (approximate measurement),会L4
+520,クラス,,n.,class,会L4
+521,くらべる,比べる,ru-v.,to compare ,会L21
+522,グリーン,,n.,green,会L9(e)
+523,クリスマス,,n.,Christmas,会L14
+524,くる,来る,irr-v.,to come ,会L3
+525,くるま,車,n.,car,会L7
+526,グレー,,n.,gray,会L9(e)
+527,クレジットカード,,n.,credit card,会L13(e)
+528,くれる,,ru-v.,to give (me) ,会L14
+529,くろい,黒い,い-adj.,black,"会L9, 会L9(e)"
+530,～くん,～君,suf.,Mr./Ms. . . . (casual),会L14
+531,けいかくをたてる,計画を立てる,ru-v.,to make a plan ,会L22
+532,けいけん,経験,n.,experience,"読L13-II, 会L15"
+533,けいご,敬語,n.,honorific language,会L19
+534,けいざい,経済,n.,economics,"会L1, 会L2"
+535,けいさつ,警察,n.,police; police station,会L21
+536,けいさつかん,警察官,n.,police officer,会L11
+537,げいじゅつ,芸術,n.,art,読L17-II
+538,けいたい（でんわ）,携帯（電話）,n.,cell phone,会L18
+539,ケーキ,,n.,cake,会L10
+540,ゲーム,,n.,game,会L4
+541,けが,,n.,injury,会L12(e)
+542,げか,外科,n.,surgeon,会L12(e)
+543,けさ,今朝,n.,this morning,会L8
+544,けしき,景色,n.,scenery,読L15-II
+545,けしゴム,消しゴム,n.,eraser,会L2(e)
+546,けしょうする,化粧する,irr-v.,to put makeup on ,会L17
+547,けしょうひん,化粧品,n.,cosmetics,会L14
+548,けす,消す,u-v.,to turn off; to erase,会L6
+549,けち（な）,,な-adj.,stingy; cheap,会L14
+550,けっか,結果,n.,result,会L23
+551,けっこうです,結構です,exp.,That would be fine.; That wouldn’t be necessary.,会L6
+552,けっこんしき,結婚式,n.,wedding,会L15
+553,けっこんする,結婚する,irr-v.,to get married ,会L7
+554,げつようび,月曜日,n.,Monday,"会L4, 会L4(e)"
+555,～けど,,part.,". . . , but; . . . , so",会L15
+556,げり,下痢,n.,diarrhea,会L12(e)
+557,ける,,u-v.,to kick,会L21
+558,けんかする,,irr-v.,to have a fight; to quarrel ,会L11
+559,げんき（な）,元気,な-adj.,healthy; energetic,会L5
+560,げんきがない,元気がない,exp.,don’t look well,会L12
+561,げんきでね,元気でね,exp.,Take care of yourself.,会L23
+562,けんきゅう,研究,n.,research,会L16
+563,けんきゅうしゃ,研究者,n.,researcher,会L11
+564,げんきん,現金,n.,cash,会L13(e)
+565,けんこう,健康,n.,health,会L23
+566,げんばく,原爆,n.,atomic bomb,読L15-II
+567,～こ,～個,suf.,[generic counter for smaller items],"会L14, 会L14(e)"
+568,～ご,～後,suf.,in . . . time; after . . .,会L10
+569,～ご,～語,suf.,. . . language,会L1
+570,こうえん,公園,n.,park,会L4
+571,こうかんする,交換する,irr-v.,to exchange ,会L20
+572,こうこう,高校,n.,high school,会L1
+573,こうこうせい,高校生,n.,high school student,会L1
+574,こうこく,広告,n.,advertisement,会L13
+575,こうざ,口座,n.,account,会L13(e)
+576,こうじょう,工場,n.,factory,会L21
+577,こうせいぶっしつ,抗生物質,n.,antibiotic,会L12(e)
+578,こうちゃ,紅茶,n.,black tea,会L13
+579,こうつうけいアイシーカード,交通系ICカード,n.,"rechargeable card such as Suica, Icoca, Pasmo, etc.",会L10(e)
+580,こうはい,後輩,n.,junior member of a group,会L22
+581,こうよう,紅葉,n.,autumn leaves/colors,読L15-II
+582,こえ,声,n.,voice,読L10-II
+583,コーヒー,,n.,coffee,会L3
+584,ゴールド,,n.,gold,会L9(e)
+585,ごがつ,五月,n.,May,会L4(e)
+586,こくさい,国際,n.,international,読L19-III
+587,こくさいかんけい,国際関係,n.,international relations,会L1
+588,こくばん,黒板,n.,blackboard,会L2(e)
+589,ここ,,n.,here,会L2
+590,ごご,午後,n.,p.m.,会L1
+591,ここのか,九日,n.,nine days,会L13
+592,ここのか,九日,n.,the ninth day of a month,会L4(e)
+593,ここのつ,九つ,n.,nine,会L9
+594,こころ,心,n.,mind; heart,読L20-II
+595,ござる,,u-v.,extra-modest expression for ある,会L20
+596,ごじ,五時,n.,five o’clock,会L1(e)
+597,ごしゅじん,ご主人,n.,(your/someone’s) husband,会L14
+598,ごぜん,午前,n.,a.m.,会L1
+599,ごぜんちゅう,午前中,n.,in the morning,"読L9-II, 会L21"
+600,こたえ,答／答え,n.,answer,"会L11(e), 読L23-II"
+601,こたえる,答える,ru-v.,to answer ,"読L8-II, 会L23"
+602,ごちそう,,n.,excellent food,読L9-II
+603,ごちそうさま（でした）,,exp.,Thank you for the meal. (after eating),会G
+604,ごちそうする,,irr-v.,to treat/invite (someone) to a meal ,会L19
+605,こちら,,n.,this person (polite),会L11
+606,こちら,,n.,this way (polite),会L19
+607,こっせつする,骨折する,irr-v.,to break (a bone),会L12(e)
+608,こと,,n.,things; matters,"読L11-II, 会L21"
+609,ことし,今年,n.,this year,"会L4(e), 会L10"
+610,ことば,言葉,n.,language,会L13
+611,こども,子供,n.,child,会L4
+612,ことわざ,,n.,proverb,読L23-II
+613,この,,pre.,this . . .,会L2
+614,このあいだ,この間,adv.,the other day,"読L8-II, 会L16"
+615,このぐらい,,adv.,about this much,会L16
+616,このごろ,,adv.,these days,会L10
+617,このように,,adv.,like this; this way,読L23-II
+618,ごはん,ご飯,n.,rice; meal,会L4
+619,コピーをとる,コピーを取る,u-v.,to make a photocopy,会L22
+620,ごふん,五分,n.,five minutes,会L1(e)
+621,こまる,困る,u-v.,to have difficulty,会L16
+622,ごみ,,n.,garbage,会L16
+623,こむ,混む,u-v.,to get crowded,"読L15-II, 会L17"
+624,ごめん,,exp.,I’m sorry. (casual),会L16
+625,ごめんなさい,,exp.,I’m sorry.,会L4
+626,ごらんになる,ご覧になる,u-v.,honorific expression for みる,会L19
+627,ゴルフ,,n.,golf,会L13
+628,これ,,n.,this one,会L2
+629,これから,,adv.,from now on,"読L11-II, 会L16"
+630,～ころ,,suf.,time of . . . ; when . . .,会L21
+631,～ごろ,,suf.,at about . . .,会L3
+632,ごろごろする,,irr-v.,to chill out at home; to stay home do nothing ,会L10
+633,ころぶ,転ぶ,u-v.,to fall down,会L18
+634,こわい,怖い,い-adj.,frightening,会L5
+635,こわす,壊す,u-v.,to break (something),会L18
+636,こわれる,壊れる,ru-v.,(something) breaks ,会L18
+637,こんいろ,紺色,n.,navy,会L9(e)
+638,こんがっき,今学期,n.,this semester,会L11
+639,こんげつ,今月,n.,this month,"会L4(e), 会L8"
+640,コンサート,,n.,concert,会L9
+641,こんしゅう,今週,n.,this week,"会L4(e), 会L6"
+642,コンタクト（レンズ）,,n.,contact lenses,会L17
+643,こんでいる,混んでいる,exp.,to be crowded,読L15-II
+644,こんど,今度,n.,near future,会L9
+645,こんな～,,pre.,. . . like this; this kind of . . .,会L14
+646,こんなふう,,exp.,like this,会L22
+647,こんにちは,,exp.,Good afternoon.,会G
+648,こんばん,今晩,n.,tonight,会L3
+649,こんばんは,,exp.,Good evening.,会G
+650,コンビニ,,n.,convenience store,会L2
+651,コンピューター,,n.,computer,"会L1, 会L2"
+652,さあ,,exp.,I am not sure . . .,会L14
+653,サークル,,n.,club activity,会L7
+654,サーフィン,,n.,surfing,会L5
+655,～さい,～歳,suf.,. . . years old,会L1
+656,さいあく（な）,最悪,な-adj.,the worst,会L17
+657,さいきん,最近,adv.,recently,会L15
+658,さいごに,最後に,adv.,finally; lastly,"読L8-II, 会L23"
+659,さいふ,財布,n.,wallet,会L2
+660,さがす,探す,u-v.,to look for,会L15
+661,さかな,魚,n.,fish,会L2
+662,さく,咲く,u-v.,to bloom,会L18
+663,さくひん,作品,n.,"work (of art, etc.)",読L17-II
+664,さくぶん,作文,n.,essay; composition,会L9
+665,さくら,桜,n.,cherry blossom,会L18
+666,さけ,酒,n.,sake; alcohol,会L3
+667,さしあげる,差し上げる,ru-v.,humble expression for あげる ,会L20
+668,さす,刺す,u-v.,to bite,会L21
+669,さそう,誘う,u-v.,to invite,会L15
+670,ざだんかい,座談会,n.,round-table discussion,読L13-III
+671,～さつ,～冊,suf.,[counter for bound volumes],"会L14, 会L14(e)"
+672,さっか,作家,n.,writer,会L11
+673,サッカー,,n.,soccer,会L10
+674,ざっし,雑誌,n.,magazine,会L3
+675,さとう,砂糖,n.,sugar,会L16
+676,さびしい,寂しい,い-adj.,lonely,会L9
+677,サボる,,u-v.,to cut (classes),会L11
+678,～さま,～様,suf.,Mr./Ms. . . .,読L5-II
+679,さむい,寒い,い-adj.,cold (weather),会L5
+680,さようなら,,exp.,Good-bye.,会G
+681,さら,皿,n.,plate; dish,会L14
+682,さらいげつ,再来月,n.,the month after next,会L4(e)
+683,さらいしゅう,再来週,n.,the week after next,会L4(e)
+684,さらいねん,再来年,n.,the year after next,会L4(e)
+685,サラリーマン,,n.,salaryman; office worker,会L17
+686,さる,猿,n.,monkey,会L22
+687,さわる,触る,u-v.,to touch,会L21
+688,～さん,,suf.,Mr./Ms. . . .,会L1
+689,さんかする,参加する,irr-v.,to participate ,会L15
+690,さんがつ,三月,n.,March,会L4(e)
+691,ざんぎょう,残業,n.,overtime work,"読L8-II, 会L17"
+692,さんじ,三時,n.,three o’clock,会L1(e)
+693,さんじっぷん/さんじゅっぷん,三十分,n.,thirty minutes,会L1(e)
+694,さんせいする,賛成する,irr-v.,to agree ,会L22
+695,ざんだかしょうかい,残高照会,n.,balance inquiry,会L13(e)
+696,ざんねん（ですね）,残念（ですね）,exp.,That’s too bad.,会L8
+697,さんふじんか,産婦人科,n.,obstetrician and gynecologist,会L12(e)
+698,さんぷん,三分,n.,three minutes,会L1(e)
+699,さんぽする,散歩する,irr-v.,to take a walk ,会L9
+700,し,詩,n.,poem,読L17-II
+701,じ,字,n.,letter; character,会L20
+702,～じ,～時,suf.,o’clock,会L1
+703,しあい,試合,n.,match; game,会L12
+704,しあわせ（な）,幸せ,な-adj.,happy (lasting happiness),"読L10-II, 会L13"
+705,ジーンズ,,n.,jeans,会L2
+706,シェフ,,n.,chef,"読L6-III, 会L11"
+707,しか,鹿,n.,deer,読L15-II
+708,しか,歯科,n.,dentist,会L12(e)
+709,しかし,,adv.,however,読L17-II
+710,しかたがない,,exp.,cannot be helped,読L22-II
+711,しがつ,四月,n.,April,会L4(e)
+712,じかん,時間,n.,time,会L10
+713,～じかん,～時間,suf.,. . . hours,会L4
+714,じかんどおり,時間通り,n.,on time,読L13-III
+715,しけん,試験,n.,exam,会L9
+716,しごと,仕事,n.,job; work; occupation,会L8
+717,じしょ,辞書,n.,dictionary,"会L2(e), 会L15"
+718,じしん,地震,n.,earthquake,会L15
+719,しずか（な）,静か,な-adj.,quiet,会L5
+720,しぜん,自然,n.,nature,読L15-II
+721,じぞう,,n.,guardian deity of children,読L10-II
+722,した,下,n.,under,会L4
+723,じだい,時代,n.,age; era,読L14-II
+724,したしい,親しい,い-adj.,close; intimate,読L18-III
+725,しちがつ,七月,n.,July,会L4(e)
+726,しちじ,七時,n.,seven o’clock,会L1(e)
+727,しっています,知っています,exp.,I know,会L7
+728,じつは,実は,adv.,actually; in fact,会L16
+729,しっぱいする,失敗する,irr-v.,to fail; to be unsuccessful ,会L22
+730,じっぷん,十分,n.,ten minutes,会L1(e)
+731,しつもん,質問,n.,question,"会L11(e), 読L19-III"
+732,しつれいしました,失礼しました,exp.,I’m very sorry.,会L20
+733,しつれいします,失礼します,exp.,Excuse me.; Sorry to interrupt you.,会L16
+734,していせき,指定席,n.,reserved seat,会L10(e)
+735,してん,支店,n.,branch office,会L20
+736,じてんしゃ,自転車,n.,bicycle,会L2
+737,じどう,自動,n.,automatic,読L13-III
+738,しぬ,死ぬ,u-v.,to die,会L6
+739,じはつ,次発,n.,departing second,会L10(e)
+740,じびか,耳鼻科,n.,otorhinolaryngologist; ENT doctor,会L12(e)
+741,じぶん,自分,n.,oneself,"読L10-II, 会L17"
+742,じぶんで,自分で,adv.,(do something) by oneself,会L16
+743,しま,島,n.,island,読L15-II
+744,しまる,閉まる,u-v.,(something) closes,会L18
+745,しめきり,締め切り,n.,deadline,"会L11(e), 会L15"
+746,しめる,閉める,ru-v.,to close (something) ,会L6
+747,じゃあ,,exp.,"then . . . ; if that is the case, . . .",会L2
+748,ジャーナリスト,,n.,journalist,会L11
+749,しゃかい,社会,n.,society,会L23
+750,じゃがいも,,n.,potato,会L8(e)
+751,ジャケット,,n.,jacket,会L15
+752,しゃしん,写真,n.,picture; photograph,会L4
+753,しゃちょう,社長,n.,president of a company,会L11
+754,シャツ,,n.,shirt,会L14
+755,しゃべる,,u-v.,to chat,会L15
+756,シャワー,,n.,shower,会L6
+757,シャワーをあびる,シャワーを浴びる,ru-v.,to take a shower ,会L6
+758,シャンプー,,n.,shampoo,"会L17(e), 会L18"
+759,じゆう,自由,n.,freedom,会L22
+760,じゅういちがつ,十一月,n.,November,会L4(e)
+761,じゅういちじ,十一時,n.,eleven o’clock,会L1(e)
+762,じゅういちにち,十一日,n.,the eleventh day of a month,会L4(e)
+763,じゅういっぷん,十一分,n.,eleven minutes,会L1(e)
+764,じゅうがつ,十月,n.,October,会L4(e)
+765,しゅうかん,習慣,n.,custom,会L15
+766,～しゅうかん,～週間,suf.,for . . . weeks,会L10
+767,じゅうきゅうふん,十九分,n.,nineteen minutes,会L1(e)
+768,じゅうごふん,十五分,n.,fifteen minutes,会L1(e)
+769,じゅうさんぷん,十三分,n.,thirteen minutes,会L1(e)
+770,じゅうじ,十時,n.,ten o’clock,会L1(e)
+771,しゅうしょくする,就職する,irr-v.,to get a full-time job (at . . . ) ,会L17
+772,ジュース,,n.,juice,会L12
+773,じゆうせき,自由席,n.,general admission seat,会L10(e)
+774,じゅうでうたれる,銃で撃たれる,exp.,to be shot,読L17-II
+775,しゅうでん,終電,n.,last train (of the day),"会L10(e), 会L21"
+776,じゅうななふん,十七分,n.,seventeen minutes,会L1(e)
+777,じゆうに,自由に,adv.,freely,会L22
+778,じゅうにがつ,十二月,n.,December,会L4(e)
+779,じゅうにじ,十二時,n.,twelve o’clock,会L1(e)
+780,じゅうにふん,十二分,n.,twelve minutes,会L1(e)
+781,しゅうにゅう,収入,n.,income,読L18-II
+782,じゅうはちふん/じゅうはっぷん,十八分,n.,eighteen minutes,会L1(e)
+783,しゅうまつ,週末,n.,weekend,会L3
+784,じゅうよっか,十四日,n.,the fourteenth day of a month,会L4(e)
+785,じゅうよんぷん,十四分,n.,fourteen minutes,会L1(e)
+786,じゅうろっぷん,十六分,n.,sixteen minutes,会L1(e)
+787,じゅぎょう,授業,n.,class,会L11
+788,じゅぎょうちゅうに,授業中に,adv.,in class; during the class,会L16
+789,じゅぎょうりょう,授業料,n.,tuition,会L21
+790,じゅく,塾,n.,cram school,"読L7-II, 会L22"
+791,しゅくだい,宿題,n.,homework,会L5
+792,しゅじゅつ,手術,n.,operation,会L12(e)
+793,しゅしょう,首相,n.,prime minister,会L17
+794,しゅじん,主人,n.,head of a familiy,読L15-II
+795,しゅっしん,出身,n.,coming from,会L11
+796,しゅっちょう,出張,n.,business trip,"読L14-II, 会L19"
+797,じゅっぷん,十分,n.,ten minutes,会L1(e)
+798,しゅふ,主婦,n.,housewife,会L1
+799,しゅふ,主夫,n.,house husband,読L17-II
+800,しゅみ,趣味,n.,hobby; pastime,会L20
+801,しゅるい,種類,n.,a kind; a sort,会L19
+802,じゅんび,準備,n.,preparation,会L17
+803,しょうかいする,紹介する,irr-v.,to introduce ,会L11
+804,しょうがくきん,奨学金,n.,scholarship,会L16
+805,しょうがくせい,小学生,n.,elementary school students,読L16-II
+806,しょうがつ,正月,n.,New Year’s,"読L10-II, 会L11"
+807,しょうがっこう,小学校,n.,elementary school,会L23
+808,しょうぎ,,n.,Japanese chess,読L19-II
+809,じょうしゃけん,乗車券,n.,(boarding) ticket,会L10(e)
+810,しょうしょう,少々,adv.,a few seconds,会L19
+811,じょうず（な）,上手,な-adj.,skillful; good at . . .,会L8
+812,しょうせつ,小説,n.,novel,会L20
+813,しょうたいする,招待する,irr-v.,to invite someone (to an event/a place) ,会L19
+814,しょうぼうし,消防士,n.,firefighter,会L11
+815,しょうゆ,しょう油,n.,soy sauce,会L18
+816,しょうらい,将来,n.,future,会L11
+817,しょくご,食後,n.,after meals,会L12(e)
+818,しょくじ,食事,n.,meal,読L21-II
+819,しょくどう,食堂,n.,cafeteria; dining commons,会L7
+820,しょくひ,食費,n.,cost of food,読L18-III
+821,じょしがくせい,女子学生,n.,female student,読L18-II
+822,ショッピングモール,,n.,shopping mall,会L17
+823,しょるい,書類,n.,document,会L22
+824,しらべる,調べる,ru-v.,to look into (a matter) ,会L15
+825,しり,尻,n.,buttocks,会L7(e)
+826,しりあう,知り合う,u-v.,to get acquainted with,会L19
+827,しりません,知りません,exp.,I do not know,会L7
+828,しる,知る,u-v.,to get to know,会L7
+829,シルバー,,n.,silver,会L9(e)
+830,しろ,城,n.,castle,読L5-II
+831,しろい,白い,い-adj.,white,"会L9, 会L9(e)"
+832,しろくろ,白黒,n.,black and white,会L9(e)
+833,～じん,～人,suf.,. . . people,会L1
+834,しんかんせん,新幹線,n.,Shinkansen;  “Bullet Train”,会L10
+835,シングル,,n.,single room,会L15(e)
+836,しんごう,信号,n.,traffic light,"会L6(e), 会L20"
+837,じんじゃ,神社,n.,shrine,会L11
+838,しんじる,信じる,ru-v.,to believe ,会L21
+839,しんせき,親せき,n.,relatives,会L16
+840,しんせつ（な）,親切,な-adj.,kind,会L7
+841,しんぱい（な）,心配,な-adj.,worried about,"読L21-II, 会L22"
+842,しんぱいする,心配する,irr-v.,to worry ,会L12
+843,しんぶん,新聞,n.,newspaper,会L2
+844,しんゆう,親友,n.,best friend,読L22-II
+845,すいか,,n.,watermelon,会L8(e)
+846,すいせんじょう,推薦状,n.,letter of recommendation,会L16
+847,スイッチ,,n.,switch,会L18
+848,ずいぶん,,adv.,very,会L17
+849,すいようび,水曜日,n.,Wednesday,"会L4, 会L4(e)"
+850,スーパー,,n.,supermarket,会L4
+851,スープ,,n.,soup,会L18
+852,スカート,,n.,skirt,会L18
+853,すき（な）,好き,な-adj.,fond of; to like,会L5
+854,スキー,,n.,ski,会L9
+855,すく,,u-v.,thin out (hair),会L17(e)
+856,すぐ,,adv.,right away,会L6
+857,すくない,少ない,い-adj.,a little; a few,会L17
+858,スクランブルこうさてん,スクランブル交差点,n.,scramble crossing,読L15-II
+859,すごい,,い-adj.,incredible; awesome,会L13
+860,すごく,,adv.,extremely,会L5
+861,すこし,少し,adv.,a little,"読L7-II, 会L21"
+862,すし,,n.,sushi,会L10
+863,すずしい,涼しい,い-adj.,cool (weather),会L10
+864,ずっと,,adv.,for a long time; all the time,会L22
+865,すっぽん,,n.,snapping turtle; terrapin,読L13-II
+866,すてき（な）,素敵,な-adj.,nice,会L12
+867,すてる,捨てる,ru-v.,to throw away ,会L8
+868,ストレス,,n.,stress,読L8-II
+869,スニーカー,,n.,sneakers,会L20
+870,スピーチ,,n.,speech,会L21
+871,スプーン,,n.,spoon,会L17
+872,スペイン,,n.,Spain,会L8
+873,スポーツ,,n.,sports,会L3
+874,スポーツせんしゅ,スポーツ選手,n.,athlete,会L11
+875,スマホ,,n.,smartphone; mobile,会L2
+876,すみません,,exp.,Excuse me.;  I’m sorry.,会G
+877,すむ,住む,u-v.,to live,会L7
+878,する,,irr-v.,to cost ,読L20-II
+879,する,,irr-v.,to decide on (an item) ,会L15
+880,する,,irr-v.,to do ,会L3
+881,する,,irr-v.,"to wear small items (necktie, watch, etc.) ",会L17
+882,すると,,adv.,. . . Then . . .,読L16-II
+883,すわる,座る,u-v.,to sit down,会L6
+884,せいかく,性格,n.,personality,会L19
+885,せいかつ,生活,n. ,life; living,会L10
+886,せいかつする,生活する,irr-v.,to lead a life ,会L20
+887,せいかつのゆとり,生活のゆとり,n.,extra money to spare for the cost of living,読L18-II
+888,せいかつひ,生活費,n.,the cost of living,読L18-II
+889,ぜいきん,税金,n.,tax,会L15
+890,せいけいげか,整形外科,n.,orthopedic surgeon,会L12(e)
+891,せいじ,政治,n.,politics,"会L1, 会L12"
+892,せいせき,成績,n.,"grade (on a test, etc.)",会L12
+893,ぜいたくをする,,irr-v.,to indulge in luxury ,読L21-II
+894,せいふ,政府,n.,government,会L21
+895,せいぶつがく,生物学,n.,biology,会L1
+896,せいり,生理,n.,period,会L12(e)
+897,セーター,,n.,sweater,会L13
+898,せかい,世界,n. ,world,会L10
+899,せかいじゅう,世界中,n.,all over the world,読L23-II
+900,せがたかい,背が高い,い-adj.,tall (stature),会L7
+901,せがひくい,背が低い,い-adj.,short (stature),会L7
+902,せき,,n.,cough,会L12
+903,せきがでる,せきが出る,ru-v.,to cough ,会L12
+904,ぜったいに,絶対に,adv.,definitely; no matter what,"読L20-II, 会L22"
+905,セット,,n.,set,会L17(e)
+906,せつめいする,説明する,irr-v.,to explain ,会L16
+907,せなか,背中,n.,back (body),会L7(e)
+908,ぜひ,是非,adv.,by all means,会L9
+909,せまい,狭い,い-adj.,narrow; not spacious,会L12
+910,せわをする,世話をする,irr-v.,to take care of . . . ,会L23
+911,せんきゅうひゃくろくじゅうねんだい,1960年代,n.,1960’s,読L17-II
+912,せんげつ,先月,n.,last month,"会L4(e), 会L9"
+913,せんこう,専攻,n.,major,会L1
+914,せんしゅう,先週,n.,last week,"会L4, 会L4(e)"
+915,せんす,扇子,n.,(hand) fan,会L20
+916,せんせい,先生,n.,teacher; Professor . . .,会L1
+917,ぜんぜん ＋ negative,全然,adv.,not at all,会L3
+918,せんたくする,洗濯する,irr-v.,to do laundry ,会L8
+919,せんぱい,先輩,n.,senior member of a group,"読L14-II, 会L22"
+920,せんぱつ,先発,n.,departing first,会L10(e)
+921,ぜんぶ,全部,adv.,all,会L13
+922,そう,,adv.,(I think) so,会L9
+923,ぞう,象,n.,elephant,会L13
+924,そうか,,exp.,I see. (casual),会L17
+925,そうじする,掃除する,irr-v.,to clean ,会L8
+926,そうそう,,exp.,You are right.,会L23
+927,そうだ！,,exp.,I have an idea!,読L20-II
+928,そうだんする,相談する,irr-v.,to consult ,会L14
+929,そうです,,exp.,That’s right.,会L1
+930,そうですか,,exp.,I see.; Is that so?,会L1
+931,そうですね,,exp.,That’s right.; Let me see.,会L3
+932,そこ,,n.,there,会L2
+933,そして,,adv.,and then,"読L9-II, 会L11"
+934,そだてる,育てる,ru-v.,to raise; to bring up ,会L22
+935,そつぎょうしき,卒業式,n.,graduation ceremony,会L15
+936,そつぎょうする,卒業する,irr-v.,to graduate (from . . . ) ,会L15
+937,そと,外,n.,outside,会L18
+938,その,,pre.,that . . .,会L2
+939,そのご,その後,adv.,after that,読L17-II
+940,そば,,n.,soba; Japanese buckwheat noodles,会L15
+941,ソファ,,n.,sofa,会L18
+942,そめる,,ru-v.,to dye ,会L17(e)
+943,そら,空,n.,sky,読L16-II
+944,そる,,u-v.,to shave,会L17(e)
+945,それ,,n.,that one,会L2
+946,それから,,adv.,and then,会L4
+947,それで,,adv.,then; therefore,会L19
+948,それでは,,adv.,well then,読L19-II
+949,それに,,adv.,"moreover, . . .",会L12
+950,そろえる,,ru-v.,to make hair even; to trim ,会L17(e)
+951,そろそろ,,adv.,it is about time to . . .,会L23
+952,そんな～,,pre.,such . . . ; that kind of . . .,"読L16-II, 会L23"
+953,そんなこと（は）ない,,exp.,I don’t think so.,会L22
+954,～だい,～代,suf.,charge; fee,会L12
+955,～だい,～台,suf.,[counter for equipment],"会L14, 会L14(e)"
+956,ダイエットする,,irr-v.,to go on a diet ,会L11
+957,たいおんけい,体温計,n.,thermometer,会L12(e)
+958,だいがく,大学,n.,college; university,会L1
+959,だいがくいん,大学院,n.,graduate school,会L16
+960,だいがくいんせい,大学院生,n.,graduate student,会L1
+961,だいがくせい,大学生,n.,college student,会L1
+962,だいきらい（な）,大嫌い,な-adj.,to hate,会L5
+963,だいじょうぶ,大丈夫,exp.,It’s okay.; Not to worry.; Everything is under control.,会L5
+964,だいすき（な）,大好き,な-adj.,very fond of; to love,会L5
+965,たいせつ（な）,大切,な-adj.,precious; important,会L18
+966,たいせつにする,大切にする,irr-v.,to take good care of ,読L19-II
+967,たいてい,,adv.,usually,会L3
+968,だいとうりょう,大統領,n.,president of a country,会L11
+969,だいヒット,大ヒット,n.,big hit,読L17-II
+970,タイプ,,n.,type,読L22-II
+971,たいふう,台風,n.,typhoon,会L16
+972,たいへん,,adv.,greatly,読L19-II
+973,たいへん（な）,大変,な-adj.,tough (situation),"読L5-II, 会L6"
+974,だいよくじょう,大浴場,n.,large spa,会L15(e)
+975,タオル,,n.,towel,会L18
+976,たかい,高い,い-adj.,expensive; high,会L2
+977,だから,,adv.,so; therefore,会L4
+978,たからくじ,宝くじ,n.,lottery,会L17
+979,たからくじにあたる,宝くじに当たる,u-v.,to win a lottery,会L17
+980,だく,抱く,u-v.,to hold something in one’s arm,読L20-II
+981,たくさん,,adv.,many; a lot,会L4
+982,タクシー,,n.,taxi,読L13-III
+983,たけ,竹,n.,bamboo,読L15-II
+984,～だけ,,suf.,just . . . ; only . . .,会L11
+985,だす,出す,u-v.,to take (something) out; to hand in (something),会L16
+986,たすかる,助かる,u-v.,to be saved; to be helped,会L18
+987,たすける,助ける,ru-v.,to help; to rescue ,"読L16-II, 会L22"
+988,ただ,,n.,free of charge,会L23
+989,ただいま,,exp.,I’m home.,会G
+990,ただの～,,pre.,nothing more than . . .,読L21-II
+991,～たち,,suf.,[makes a noun plural],会L14
+992,たつ,,u-v.,(time) pass,読L19-II
+993,たつ,立つ,u-v.,to stand up,会L6
+994,たて,縦,n.,vertical,読L23-II
+995,たてもの,建物,n.,building,会L15
+996,たとえば,例えば,adv.,for example,"会L11(e), 読L16-II, 会L17"
+997,たのしい,楽しい,い-adj.,fun,会L5
+998,たのしそうに,楽しそうに,adv.,joyfully,読L22-II
+999,たのしみ,楽しみ,n.,pleasure,読L21-II
+1000,たのしみです,楽しみです,exp.,cannot wait; to look forward to it,会L15
+1001,たのしみにする（〜を）,楽しみにする,irr-v.,to look forward (to) ,読L7-II
+1002,たのしむ,楽しむ,u-v.,to enjoy,読L15-II
+1003,たのむ,頼む,u-v.,to ask (a favor),会L18
+1004,たばこをすう,たばこを吸う,u-v.,to smoke,会L6
+1005,ダブル,,n.,double room,会L15(e)
+1006,たぶん,多分,adv.,probably; maybe,会L12
+1007,たべもの,食べ物,n.,food,会L5
+1008,たべる,食べる,ru-v.,to eat ,会L3
+1009,たまご,卵,n.,egg,会L12
+1010,だます,,u-v.,to deceive,読L20-II
+1011,たまねぎ,,n.,onion,会L8(e)
+1012,だめ（な）,,な-adj.,no good,会L13
+1013,～ために,,exp.,for . . . ; for the sake of . . .,会L23
+1014,ためる,,ru-v.,to save money ,会L21
+1015,たりる,足りる,ru-v.,to be sufficient; to be enough ,会L17
+1016,だれ,,n.,who,会L2
+1017,～（ん）だろう,,exp.,short form of ～（ん）でしょう,会L18
+1018,たんご,単語,n.,word; vocabulary,会L9
+1019,たんざく,,n.,strip of fancy paper,読L12-II
+1020,だんしがくせい,男子学生,n.,male student,読L18-II
+1021,たんじょうび,誕生日,n.,birthday,会L5
+1022,ちいさい,小さい,い-adj.,small,会L5
+1023,チェックアウト（する）,,irr-v.,checking out,会L15(e)
+1024,チェックイン（する）,,irr-v.,checking in,会L15(e)
+1025,チェックする,,irr-v.,to check ,会L23
+1026,ちか,地下,n.,underground,読L15-II
+1027,ちかい,近い,い-adj.,close; near,会L13
+1028,ちがい,違い,n.,difference,会L17
+1029,ちがう,違う,u-v.,to be different; to be wrong,"読L16-II, 会L23"
+1030,ちかく,近く,n.,near; nearby,会L4
+1031,ちかてつ,地下鉄,n. ,subway,会L10
+1032,ちからしごと,力仕事,n.,physical labor (such as construction),読L18-III
+1033,ちかん,,n.,groper; pervert,会L21
+1034,チケット,,n.,ticket,会L9
+1035,ちこくする,遅刻する,irr-v.,to be late (for an appointment) ,会L11
+1036,ちず,地図,n.,map,会L15
+1037,ちち,父,n.,(my) father,会L7
+1038,ちちおや,父親,n.,father,読L14-II
+1039,チップ,,n.,tip,読L13-III
+1040,ちゃ,茶,n.,green tea,会L3
+1041,ちゃいろい,茶色い,い-adj.,brown,会L9(e)
+1042,ちゃみせ,茶店,n.,teahouse,読L20-II
+1043,～ちゃん,,suf.,suffix for names of children,会L22
+1044,～ちゅう,～中,suf.,while . . .,読L19-II
+1045,ちゅういする,注意する,irr-v.,to give warning; to watch out ,会L14
+1046,ちゅうがくせい,中学生,n.,junior high school student,会L19
+1047,ちゅうごく,中国,n.,China,"会L1, 会L2"
+1048,ちゅうしゃ,注射,n.,injection,会L12(e)
+1049,ちゅうもんする,注文する,irr-v.,to place an order ,会L18
+1050,ちょうさ,調査,n.,survey,会L23
+1051,ちょうしょくつき,朝食付き,n.,with breakfast,会L15(e)
+1052,ちょうど,,adv.,exactly,会L14
+1053,ちょきんする,貯金する,irr-v.,to deposit money (in a bank) ,読L18-II
+1054,チョコレート,,n.,chocolate,会L14
+1055,ちょっと,,adv.,a little,会L3
+1056,ツアー,,n.,tour,会L10
+1057,ついたち,一日,n.,the first day of a month,会L4(e)
+1058,ツイン,,n.,twin room,会L15(e)
+1059,つうちょう,通帳,n.,passbook,会L13(e)
+1060,つうちょうきにゅう,通帳記入,n.,passbook update,会L13(e)
+1061,つかう,使う,u-v.,to use,会L6
+1062,つかまる,捕まる,u-v.,to be arrested; to be caught,会L21
+1063,つかれている,疲れている,exp.,to be tired,読L8-II
+1064,つかれる,疲れる,ru-v.,to get tired ,会L11
+1065,つき,月,n.,moon,会L20
+1066,つぎ,次,n.,next,会L6
+1067,つきあう,付き合う,u-v.,to date (someone); to keep company,"読L14-II, 会L15"
+1068,つぎに,次に,adv.,secondly,読L8-II
+1069,つぎは～,次は～,exp.,"next (stop), . . .",会L10(e)
+1070,つく,着く,u-v.,to arrive,"読L13-III, 会L15"
+1071,つく,,u-v.,(something) turns on,会L18
+1072,つくえ,机,n.,desk,"会L2(e), 会L4"
+1073,つくる,作る,u-v.,to make,会L8
+1074,つける,,ru-v.,to turn on ,会L6
+1075,つごうがわるい,都合が悪い,い-adj.,inconvenient; to have a scheduling conflict,会L17
+1076,つたえる,伝える,ru-v.,to convey message ,会L20
+1077,つづく,続く,u-v.,to continue,読L16-II
+1078,つづける,続ける,ru-v.,to continue ,会L20
+1079,つつむ,包む,u-v.,to wrap; to cover,会L21
+1080,つまらない,,い-adj.,boring,会L5
+1081,つめたい,冷たい,い-adj.,cold (things/people),会L10
+1082,つよい,強い,い-adj.,strong,会L17
+1083,つり,,n.,fishing,会L11
+1084,つれていく,連れていく,u-v.,to take (someone) to (a place),会L16
+1085,つれてかえる,連れて帰る,u-v.,to bring (a person) back,読L12-II
+1086,つれてくる,連れてくる,irr-v.,to bring (a person) ,会L6
+1087,て,手,n.,hand; arm,会L7(e)
+1088,～で,,part.,by (means of transportation); with (a tool),会L10
+1089,ティーシャツ,Ｔシャツ,n.,T-shirt,会L2
+1090,ていきけん,定期券,n.,commuter’s pass,会L10(e)
+1091,ていねいないいかた,ていねいな言い方,n.,polite expression,会L11(e)
+1092,～ていらっしゃる,,u-v.,honorific expression for ～ている,会L19
+1093,デート,,n.,"date (romantic, not calendar)",会L3
+1094,～ておる,,u-v.,extra-modest expression for ～ている,会L20
+1095,でかける,出かける,ru-v.,to go out ,会L5
+1096,てがみ,手紙,n.,letter,会L9
+1097,できる,,ru-v.,to come into existence; to be made ,会L14
+1098,できるだけ,,adv.,as much as possible,会L12
+1099,できれば,,adv.,if possible,会L20
+1100,でぐち,出口,n.,exit,会L10(e)
+1101,～でござる,,u-v.,extra-modest expression for です,会L20
+1102,デザート,,n.,desert,読L13-III
+1103,～です,,exp.,I am . . . .,会G
+1104,てすうりょう,手数料,n.,commission,会L13(e)
+1105,テスト,,n.,test,会L5
+1106,てつだう,手伝う,u-v.,to help,会L6
+1107,てつやする,徹夜する,irr-v.,to stay up all night ,会L22
+1108,テニス,,n.,tennis,会L3
+1109,では,,adv.,well then (polite),会L20
+1110,では、おげんきで,では、お元気で,exp.,Take care.,読L5-II
+1111,デパート,,n.,department store,会L7
+1112,てぶくろ,手袋,n.,gloves,会L10
+1113,でも,,exp.,but,会L3
+1114,てら,寺,n.,temple,会L4
+1115,でる,出る,ru-v.,to appear; to attend; to exit ,"読L6-I, 会L9"
+1116,テレビ,,n.,TV,会L3
+1117,てん,天,n.,the heavens; the sky,読L12-II
+1118,～てん,～点,suf.,. . . points,会L11
+1119,てんき,天気,n.,weather,会L5
+1120,でんき,電気,n.,electricity; light,"会L2(e), 会L6"
+1121,でんきこうがく,電気工学,n.,electrical engineering,読L19-III
+1122,てんきよほう,天気予報,n.,weather forecast,会L8
+1123,でんしゃ,電車,n.,train,会L6
+1124,てんじょう,天井,n.,ceiling,読L17-II
+1125,でんしレンジ,電子レンジ,n.,microwave oven,会L17
+1126,でんち,電池,n.,battery,会L15
+1127,てんてき,点滴,n.,intravenous feeding,会L12(e)
+1128,てんぷら,天ぷら,n.,tempura,会L10
+1129,てんらんかい,展覧会,n.,art exhibition,読L17-II
+1130,でんわ,電話,n.,telephone,会L1
+1131,でんわする,電話する,irr-v.,to call ,会L6
+1132,と,戸,n.,door,読L10-II
+1133,～と,,part.,together with (a person); and,会L4
+1134,～ど,～度,suf.,. . . degrees (temperature),会L8
+1135,ドア,,n.,door,"会L2(e), 読L13-III"
+1136,（～は）…といういみだ,（～は）…という意味だ,exp.,～ means that . . .,読L23-II
+1137,ドイツ,,n.,Germany,会L20
+1138,トイレ,,n.,toilet; restroom,会L2
+1139,どう,,adv.,how,会L8
+1140,どうぐ,道具,n.,tool,読L16-II
+1141,どうしたらいい,,exp.,what should one do,会L14
+1142,どうして,,adv.,why,会L4
+1143,どうしよう,,exp.,What should I/we do?,会L18
+1144,どうじょうする,同情する,irr-v.,to sympathize ,会L23
+1145,どうぞ,,exp.,Please.; Here it is.,会L2
+1146,どうぞよろしくおねがいします,どうぞよろしくお願いします,exp.,Thank you in advance.,読L19-III
+1147,どうですか,,exp.,How about . . . ?; How is . . . ?,会L3
+1148,どうぶつ,動物,n.,animal,会L20
+1149,どうぶつえん,動物園,n.,zoo,会L10
+1150,どうも,,exp.,Thank you.,会L2
+1151,どうやって,,adv.,how; by what means,会L10
+1152,どうりょう,同僚,n.,colleague,会L21
+1153,とお,十,n.,ten,会L9
+1154,とおい,遠い,い-adj.,far (away),会L21
+1155,とおか,十日,n.,ten days,会L13
+1156,とおか,十日,n.,the tenth day of a month,会L4(e)
+1157,とおる,通る,u-v.,to go through; to pass,読L15-II
+1158,～とか,,part.,. . . for example,会L22
+1159,とき,時,n.,when . . . ; at the time of . . .,会L4
+1160,ときどき,時々,adv.,sometimes,会L3
+1161,とくに,特に,adv.,especially,会L13
+1162,とけい,時計,n.,watch; clock,会L2
+1163,どこ,,n.,where,会L2
+1164,どこでも,,adv.,anywhere,読L16-II
+1165,ところ,所,n.,place,会L8
+1166,ところが,,adv.,however; on the contrary,読L21-II
+1167,ところで,,adv.,by the way,会L9
+1168,とし,年,n.,year,読L10-II
+1169,としうえ,年上,n.,someone older,会L10
+1170,としょかん,図書館,n.,library,会L2
+1171,どちら,,n.,where (polite),会L19
+1172,どちら,,n.,which,会L10
+1173,とっきゅう,特急,n.,super express,会L10(e)
+1174,とつぜん,突然,adv.,suddenly,読L19-III
+1175,どっち,,n.,which,会L10
+1176,とても,,adv.,very,会L5
+1177,となり,隣,n.,next,会L4
+1178,とにかく,,adv.,anyhow; anyway,会L21
+1179,どの,,pre.,which . . .,会L2
+1180,どのぐらい,,exp.,how much; how long,会L10
+1181,とぶ,飛ぶ,u-v.,to fly,読L16-II
+1182,トマト,,n.,tomato,会L8
+1183,とまる,泊まる,u-v.,"to stay (at a hotel, etc.)",会L10
+1184,とまる,止まる,u-v.,to stop,読L20-II
+1185,～ともうします,～と申します,exp.,my name is . . .,会L13
+1186,ともだち,友だち,n.,friend,会L1
+1187,どようび,土曜日,n.,Saturday,"会L3, 会L4(e)"
+1188,ドライブ,,n.,drive,会L11
+1189,とり,鳥,n.,bird; poultry,読L13-II
+1190,とりにく,鶏肉,n.,chicken,会L8(e)
+1191,とる,取る,u-v.,to take (a class); to get (a grade),"読L7-II, 会L11"
+1192,とる,撮る,u-v.,to take (a picture),会L4
+1193,とる,,u-v.,to take off,読L10-II
+1194,どれ,,n.,which one,会L2
+1195,トレーナー,,n.,sweatshirt,会L14
+1196,トロッコれっしゃ,トロッコ列車,n.,small train usually for tourists,読L15-II
+1197,どろぼう,泥棒,n.,thief; burglar,会L21
+1198,とんかつ,,n.,pork cutlet,会L2
+1199,どんな,,pre.,what kind of . . .,会L5
+1200,ないか,内科,n.,physician,会L12(e)
+1201,なおす,直す,u-v.,to correct; to fix,会L16
+1202,なか,中,n.,inside,会L4
+1203,ながい,長い,い-adj.,long,会L7
+1204,ながいあいだ,長い間,adv.,long time,読L21-II
+1205,なかがいい,仲がいい,い-adj.,be on good/close terms; to get along well,会L19
+1206,なく,泣く,u-v.,to cry,"読L12-II, 会L13"
+1207,なくす,,u-v.,to lose,会L12
+1208,なくなる,,u-v.,to be lost; to disappear,会L23
+1209,なぐる,殴る,u-v.,to strike; to hit; to punch,会L21
+1210,なさる,,u-v.,honorific expression for する,会L19
+1211,なす,,n.,eggplant,会L8(e)
+1212,なぜ,,adv.,why,会L19
+1213,なつ,夏,n.,summer,会L8
+1214,なつかしい,,い-adj.,to miss; to long for,読L19-II
+1215,〜など,,suf.,and so forth,読L12-II
+1216,ななつ,七つ,n.,seven,会L9
+1217,ななふん,七分,n.,seven minutes,会L1(e)
+1218,なに/なん,何,n.,what,会L1
+1219,なにか,何か,n.,something,会L8
+1220,なにも ＋ negative,何も,adv.,not . . . anything,会L7
+1221,なのか,七日,n.,seven days,会L13
+1222,なのか,七日,n.,the seventh day of a month,会L4(e)
+1223,なべ,,n.,pot,読L13-II
+1224,なまえ,名前,n.,name,会L1
+1225,なまえをつける,名前をつける,ru-v.,to name ,読L17-II
+1226,なまけもの,怠け者,n.,lazy person,会L19
+1227,なやみ,悩み,n.,worry,"読L14-II, 会L19"
+1228,ならう,習う,u-v.,to learn,会L11
+1229,なる,,u-v.,to become,会L10
+1230,なれる,慣れる,ru-v.,to get used to . . . ,会L17
+1231,なん/なに,何,n.,what,会L1
+1232,なんだか,,adv.,somehow,読L22-II
+1233,なんでも,,adv.,anything; everything,読L13-II
+1234,なんども,何度も,adv.,many times,"読L17-II, 会L22"
+1235,にあう,似合う,u-v.,to look good (on somebody),会L14
+1236,にかげつまえ,二か月前,n.,two months ago,会L4(e)
+1237,にがつ,二月,n.,February,会L4(e)
+1238,にぎやか（な）,,な-adj.,lively,会L5
+1239,にく,肉,n.,meat,会L2
+1240,～にくらべて,～に比べて,part.,compared with . . .,会L17
+1241,にげる,逃げる,ru-v.,to run away; to escape ,読L22-II
+1242,にこにこする,,irr-v.,to smile ,読L20-II
+1243,にさんにち,二三日,n.,for two to three days,会L12
+1244,にし,西,n.,west,会L6(e)
+1245,にじ,二時,n.,two o’clock,会L1(e)
+1246,にじっぷん,二十分,n.,twenty minutes,会L1(e)
+1247,にじはん,二時半,n.,half past two,会L1
+1248,にしゅうかんまえ,二週間前,n.,two weeks ago,会L4(e)
+1249,にじゅうよっか,二十四日,n.,the twenty-fourth day of a month,会L4(e)
+1250,にじゅっぷん,二十分,n.,twenty minutes,会L1(e)
+1251,にちようび,日曜日,n.,Sunday,"会L3, 会L4(e)"
+1252,～について,,part.,about . . . ; concerning . . .,会L8
+1253,にっき,日記,n.,diary,"読L9-II, 会L18"
+1254,にふん,二分,n.,two minutes,会L1(e)
+1255,にほん,日本,n.,Japan,会L1
+1256,にほんご,日本語,n.,Japanese language,会L1
+1257,にほんじん,日本人,n.,Japanese people,会L1
+1258,にもつ,荷物,n.,baggage,会L6
+1259,ニヤニヤする,,irr-v.,to grin ,読L13-II
+1260,にゅういんする,入院する,irr-v.,to be hospitalized ,読L21-II
+1261,ニュース,,n.,news,会L17
+1262,～によると,,part.,according to . . .,会L17
+1263,にわ,庭,n.,garden,会L15
+1264,～にん,～人,suf.,[counter for people],会L7
+1265,にんきがある,人気がある,u-v.,to be popular,会L9
+1266,にんじん,,n.,carrot,会L8(e)
+1267,ぬいぐるみ,,n.,"stuffed animal (e.g., teddy bear)",会L14
+1268,ぬぐ,脱ぐ,u-v.,to take off (clothes),会L17
+1269,ぬすむ,盗む,u-v.,to steal; to rob,会L21
+1270,ねがい,願い,n.,wish,読L12-II
+1271,ネクタイ,,n.,necktie,会L14
+1272,ねこ,猫,n.,cat,会L4
+1273,ねだん,値段,n.,price,読L20-II
+1274,ねつがある,熱がある,u-v.,to have a fever,会L12
+1275,ねむい,眠い,い-adj.,sleepy,会L10
+1276,ねる,寝る,ru-v.,to sleep; to go to sleep ,会L3
+1277,～ねん,～年,suf.,. . . years,会L10
+1278,～ねんかん,～年間,suf.,for . . . years,読L14-II
+1279,～ねんせい,～年生,suf.,. . . year student,会L1
+1280,ノート,,n.,notebook,会L2
+1281,のこす,残す,u-v.,to leave; to preserve,読L15-II
+1282,～のしょうかいで,～の紹介で,exp.,through the introduction of,読L19-III
+1283,～のために,,part.,for . . .,読L19-III
+1284,～のための,,suf.,for the sake of . . .,読L17-II
+1285,のど,喉,n.,throat,会L12
+1286,のどがかわく,喉が渇く,u-v.,to become thirsty,会L12
+1287,のぼる,登る,u-v.,to climb,会L11
+1288,のみもの,飲み物,n.,drink,会L5
+1289,のむ,飲む,u-v.,to drink,会L3
+1290,～のようなもの,,exp.,something like . . .,読L16-II
+1291,のりおくれる,乗り遅れる,ru-v.,"to miss (a train, bus, etc.) ",会L16
+1292,のりかえ,乗り換え,n.,transfer,会L10(e)
+1293,のる,乗る,u-v.,to ride; to board,会L5
+1294,は,歯,n.,tooth,"会L7(e), 会L12"
+1295,～は…といういみだ,～は…という意味だ,exp.,～ means that . . .,読L23-II
+1296,ばあい,場合,n.,case,読L14-II
+1297,パーティー,,n.,party,会L8
+1298,パートナー,,n.,partner,会L14
+1299,バーベキュー,,n.,barbecue,会L8
+1300,パーマ,,n.,perm,会L17(e)
+1301,パーマをかける,,ru-v.,to have one’s hair permed ,会L17(e)
+1302,はい,,exp.,yes,会L1
+1303,はいいろ,灰色,n.,gray,会L9(e)
+1304,はいく,俳句,n.,haiku,読L17-II
+1305,バイク,,n.,motorcycle,会L13
+1306,ばいてん,売店,n.,shop; stand,会L10(e)
+1307,はいゆう,俳優,n.,actor; actress,会L11
+1308,はいる,入る,u-v.,to enter,会L6
+1309,ばかにする,,irr-v.,to insult; to make a fool of . . . ,会L21
+1310,はく,,u-v.,to put on (items below your waist),会L7
+1311,はく,吐く,u-v.,to throw up,会L12(e)
+1312,～はく,～泊,suf.,. . . nights,会L15(e)
+1313,はこぶ,運ぶ,u-v.,to carry,会L22
+1314,はし,,n.,chopsticks,会L8
+1315,はしご,,n.,ladders,読L17-II
+1316,はじまる,始まる,u-v.,(something) begins,会L9
+1317,はじめて,初めて,adv.,for the first time,会L12
+1318,はじめは,初めは,adv.,at first,読L18-III
+1319,はじめまして,,exp.,How do you do ?,会G
+1320,はじめる,始める,ru-v.,to begin ,会L8
+1321,ばしょ,場所,n.,place,"読L15-II, 会L23"
+1322,はしる,走る,u-v.,to run,会L11
+1323,バス,,n.,bus,会L5
+1324,はずかしい,恥ずかしい,い-adj.,embarrassing; to feel embarrassed,会L18
+1325,はずかしがりや,恥ずかしがり屋,n.,shy person,会L19
+1326,バスてい,バス停,n.,bus stop,会L4
+1327,パソコン,,n.,personal computer,会L6
+1328,はたけ,畑,n.,farm,読L12-II
+1329,はたらく,働く,u-v.,to work,会L7
+1330,はたをおる,はたを織る,u-v.,to weave,読L12-II
+1331,はちがつ,八月,n.,August,会L4(e)
+1332,はちじ,八時,n.,eight o’clock,会L1(e)
+1333,はちふん,八分,n.,eight minutes,会L1(e)
+1334,ばつ,,n.,× (wrong),会L11(e)
+1335,はつおん,発音,n.,pronunciation,会L11(e)
+1336,はつか,二十日,n.,the twentieth day of a month,会L4(e)
+1337,はっしん,発疹,n.,rash,会L12(e)
+1338,はっぴょうする,発表する,irr-v.,to make a presentation; to make public ,会L15
+1339,はっぷん,八分,n.,eight minutes,会L1(e)
+1340,はな,花,n.,flower,会L4
+1341,はな,鼻,n.,nose,会L7(e)
+1342,はなし,話,n.,story; talk,"読L8-II, 会L19"
+1343,はなしをする,話をする,irr-v.,to have a talk ,"読L9-II, 会L19"
+1344,はなす,話す,u-v.,to speak; to talk,会L3
+1345,バナナ,,n.,banana,会L18
+1346,はなみず,鼻水,n.,runny nose,会L12(e)
+1347,はなれる,離れる,ru-v.,(something/someone) separates; parts from ,会L23
+1348,はは,母,n.,(my) mother,会L7
+1349,はやい,早い,い-adj.,early,会L3
+1350,はやい,速い,い-adj.,fast,会L7
+1351,はやく,早く/速く,adv.,(do something) early; fast,会L10
+1352,はらう,払う,u-v.,to pay,会L12
+1353,ハラルフード,,n.,halal,会L8(e)
+1354,はる,春,n.,spring,会L10
+1355,はる,貼る,u-v.,to post; to stick,会L21
+1356,はれ,晴れ,n.,sunny weather,会L8
+1357,はれる,晴れる,ru-v.,to become sunny ,会L19
+1358,バレンタインデー,,n.,Valentine’s Day,会L14
+1359,はん,半,suf.,half,会L1
+1360,パン,,n.,bread,会L4
+1361,～ばん,～番,suf.,number . . .,"会L1, 会L11(e)"
+1362,ばんぐみ,番組,n.,broadcast program,読L16-II
+1363,ばんごう,番号,n.,number,会L1
+1364,ばんごはん,晩ご飯,n.,dinner,会L3
+1365,～ばんせん,～番線,suf.,track number . . .,会L10(e)
+1366,パンダ,,n.,panda,会L17
+1367,はんたいする,反対する,irr-v.,to oppose; to object to ,会L22
+1368,バンド,,n.,band,読L11-II
+1369,はんにん,犯人,n.,criminal,会L21
+1370,ハンバーガー,,n.,hamburger,会L3
+1371,ひ,日,n.,day,"読L15-II, 会L16"
+1372,ピアノ,,n.,piano,会L9
+1373,ヒーター,,n.,heater,会L17
+1374,ピーナッツ,,n.,peanut,会L8(e)
+1375,ビール,,n.,beer,会L11
+1376,ひがし,東,n.,east,会L6(e)
+1377,～ひき,～匹,suf.,[counter for smaller animals],"会L14, 会L14(e)"
+1378,ひきだし,引き出し,n.,withdrawal,会L13(e)
+1379,ひく,弾く,u-v.,to play (a string instrument or piano),会L9
+1380,ひげ,,n.,beard,会L17
+1381,ひげをそる,,u-v.,to shave one’s beard,会L17
+1382,ひこうき,飛行機,n.,airplane,会L10
+1383,ピザ,,n.,pizza,"読L6-III, 会L9"
+1384,ひさしぶり,久しぶり,exp.,it has been a long time,会L11
+1385,ビジネス,,n.,business,"会L1, 会L2"
+1386,びじゅつかん,美術館,n.,art museum,会L11
+1387,ひだり,左,n.,left,会L4
+1388,ひだりがわ,左側,n.,left side,会L6(e)
+1389,ひっかく,,u-v.,to scratch,読L20-II
+1390,びっくりする,,irr-v.,to be surprised ,"読L10-II, 会L21"
+1391,ひっこし,引っ越し,n.,moving,読L18-III
+1392,ひっこす,引っ越す,u-v.,to move (to another place to live),会L19
+1393,ひと,人,n.,person,会L4
+1394,ひどい,,い-adj.,awful,会L21
+1395,ひとつ,一つ,n.,one,会L9
+1396,ひとつめ,一つ目,n.,first,会L6(e)
+1397,ひとびと,人々,n.,people,読L12-II
+1398,ひとり,一人,exp.,one person,会L7
+1399,ひとりぐらし,一人暮らし,n.,living alone,会L22
+1400,ひとりで,一人で,adv.,alone,会L4
+1401,ひふか,皮膚科,n.,dermatologist,会L12(e)
+1402,ひま（な）,暇,な-adj.,not busy; free (time),会L5
+1403,ひみつ,秘密,n.,secret,"読L16-II, 会L17"
+1404,びよういん,美容院,n.,beauty parlor,会L10
+1405,びょういん,病院,n.,hospital,会L4
+1406,びょうき,病気,n.,illness; sickness,"会L9, 会L12(e)"
+1407,ひょうじょう,表情,n.,expression,読L23-II
+1408,ひる,昼,n.,noon,読L9-II
+1409,ひるごはん,昼ご飯,n.,lunch,会L3
+1410,ひるねをする,昼寝をする,irr-v.,to take a nap ,会L21
+1411,ひろい,広い,い-adj.,wide; spacious,会L12
+1412,ひろう,拾う,u-v.,to pick up (something),会L22
+1413,ピンク,,n.,pink,会L9(e)
+1414,びんぼう（な）,貧乏,な-adj.,poor,会L22
+1415,ファイル,,n.,(file) folder; portfolio; file,会L16
+1416,ファッション,,n.,fashion,読L15-II
+1417,ふあん（な）,不安,な-adj.,anxious; worried,"読L13-II, 会L18"
+1418,フィリピン,,n.,Philippines,会L1
+1419,ブーツ,,n.,boots,会L17
+1420,プール,,n.,swimming pool,会L15
+1421,ぶか,部下,n.,subordinate,会L22
+1422,ふく,服,n.,clothes,会L12
+1423,ふくしゅう,復習,n.,review of a lesson,会L22
+1424,ふくろ,袋,n.,bag; sack; plastic/paper bag,"会L8(e), 会L23"
+1425,ふしぎ（な）,不思議,な-adj.,mysterious,会L20
+1426,ふたつ,二つ,n.,two,会L9
+1427,ふたつめ,二つ目,n.,second,会L6(e)
+1428,ぶたにく,豚肉,n.,pork,会L8(e)
+1429,ふたり,二人,exp.,two people,会L7
+1430,ふたりずつ,二人ずつ,exp.,two people each,会L11(e)
+1431,ぶちょう,部長,n.,department manager,会L19
+1432,ふつう,普通,n.,local (train),会L10(e)
+1433,ふつか,二日,n.,the second day of a month,会L4(e)
+1434,ふつか,二日,n.,two days,会L13
+1435,ぶっか,物価,n.,consumer prices,会L13
+1436,ふつかかん,二日間,adv.,for two days,読L22-II
+1437,ふつかよい,二日酔い,n.,hangover,会L12
+1438,ぶどう,,n.,grape,会L8(e)
+1439,ふとっています,太っています,exp.,to be on the heavy side,会L7
+1440,ふとる,太る,u-v.,to gain weight; overweight,会L7
+1441,ふね,船,n.,ship; boat,会L10
+1442,ふべん（な）,不便,な-adj.,inconvenient,読L21-II
+1443,ふむ,踏む,u-v.,to step on,会L21
+1444,ふゆ,冬,n.,winter,会L8
+1445,ふりこみ,振込,n.,bank transfer,会L13(e)
+1446,プリン,,n.,pudding,読L13-III
+1447,ふる,,u-v.,to turn down (somebody); to reject; to jilt,会L21
+1448,ふる（あめ/ゆきが）,降る（雨/雪が）,u-v.,(rain/snow) falls,会L8
+1449,ふるい,古い,い-adj.,old (thing),会L5
+1450,プレゼント,,n.,present,会L12
+1451,ふろ,風呂,n.,bath,会L8
+1452,ブロー,,n.,blow-dry,会L17(e)
+1453,プロジェクト,,n.,project,会L22
+1454,ふろにはいる,風呂に入る,u-v.,to take a bath,会L8
+1455,プロポーズする,,irr-v.,to propose marriage ,会L14
+1456,フロント,,n.,receptionist; front desk,会L15(e)
+1457,ぶんか,文化,n.,culture,"読L11-II, 会L16"
+1458,ぶんがく,文学,n.,literature,"会L1, 読L7-II"
+1459,ぶんぽう,文法,n.,grammar,"会L11(e), 会L13"
+1460,ぶんや,分野,n.,field; realm,読L17-II
+1461,へいじつ,平日,n.,weekday,読L11-II
+1462,へいわ,平和,n.,peace,読L15-II
+1463,へいわきねんしりょうかん,平和記念資料館,n.,Peace Memorial Museum,読L15-II
+1464,ページ,,n.,page,会L6
+1465,ベージュ,,n.,beige,会L9(e)
+1466,へた（な）,下手,な-adj.,clumsy; poor at . . .,会L8
+1467,ペット,,n.,pet,会L15
+1468,ヘッドホン,,n.,headphones,会L20
+1469,べつに ＋ negative,別に,adv.,nothing in particular,会L7
+1470,へや,部屋,n.,room,会L5
+1471,ぺらぺら（な）,,な-adj.,fluent,会L22
+1472,ペン,,n.,pen,会L2
+1473,へん（な）,変,な-adj.,strange; unusual,会L21
+1474,べんきょうする,勉強する,irr-v.,to study ,会L3
+1475,べんごし,弁護士,n.,lawyer,"会L1, 会L13"
+1476,へんじ,返事,n.,reply,"読L11-II, 会L16"
+1477,べんとう,弁当,n.,boxed lunch,会L9
+1478,べんぴ,便秘,n.,constipation,会L12(e)
+1479,へんぴんする,返品する,irr-v.,to return (merchandise) ,会L20
+1480,べんり（な）,便利,な-adj.,convenient,会L7
+1481,ほうげん,方言,n.,dialect,会L11(e)
+1482,ぼうし,帽子,n.,hat; cap,会L2
+1483,ほ（う）っておく,放っておく,u-v.,to leave (someone/something) alone; to neglect,会L22
+1484,～ほうめん,～方面,suf.,serving . . . areas,会L10(e)
+1485,ホーム,,n.,platform,"会L10(e), 読L22-II"
+1486,ホームシック,,n.,homesickness,会L12
+1487,ホームステイ,,n.,homestay; living with a local family,会L8
+1488,ボール,,n.,ball,会L22
+1489,ほかに,,adv.,anything else,会L11(e)
+1490,ほかの,他の,pre.,other,会L16
+1491,ぼく,僕,n.,I (used by men),会L5
+1492,ポケット,,n.,pocket,読L16-II
+1493,ほけん,保険,n.,insurance,会L15
+1494,ほけんしょう,保険証,n.,health insurance certificate,会L12(e)
+1495,ほけんにはいる,保険に入る,u-v.,to buy insurance,会L15
+1496,ほしい,欲しい,い-adj.,to want,会L14
+1497,ぼしゅう,募集,n.,recruitment,会L13
+1498,～ぼしゅう,～募集,suf.,looking for . . .,読L11-II
+1499,ポスター,,n.,poster,会L21
+1500,ホストファミリー,,n.,host family,"読L9-II, 会L11"
+1501,ポップコーン,,n.,popcorn,会L18
+1502,ホテル,,n.,hotel,会L4
+1503,ほめる,,ru-v.,to praise; to say nice things ,会L21
+1504,ホラー,,n.,horror,読L11-II
+1505,ボランティア,,n.,volunteer,"読L11-II, 会L15"
+1506,ホワイトデー,,n.,“White Day” (yet another gift-giving day),会L14
+1507,ほん,本,n.,book,"会L2, 会L2(e)"
+1508,～ほん,～本,suf.,[counter for long objects],"会L14, 会L14(e)"
+1509,ぼんおどり,盆踊り,n.,Bon dance (Japanese traditional dance),会L23
+1510,ほんとうですか,本当ですか,exp.,Really?,会L6
+1511,ほんとうに,本当に,adv.,really,"読L14-II, 会L18"
+1512,ほんとうは,本当は,adv.,in fact; originally,会L19
+1513,ほんや,本屋,n.,bookstore,会L4
+1514,ほんやくする,翻訳する,irr-v.,to translate ,会L22
+1515,まあまあ,,exp.,okay; so-so,会L11
+1516,～まい,～枚,suf.,[counter for flat objects],"会L5, 会L14(e)"
+1517,まいあさ,毎朝,adv.,every morning,会L19
+1518,まいしゅう,毎週,n.,every week,会L8
+1519,まいつき,毎月,n.,every month,読L18-III
+1520,まいにち,毎日,n.,every day,会L3
+1521,まいばん,毎晩,n.,every night,会L3
+1522,まいる,参る,u-v.,extra-modest expression for いく and くる,会L20
+1523,まえ,前,suf.,before . . .,会L17
+1524,まえ,前,n.,front,会L4
+1525,まがる,曲がる,u-v.,to turn (right/left),"会L6(e), 会L20"
+1526,まける,負ける,ru-v.,to lose (a match) ,会L22
+1527,まことに,誠に,adv.,really (very polite),会L20
+1528,まじめ（な）,,な-adj.,serious; sober; diligent,"読L12-II, 会L19"
+1529,まず,,adv.,first of all,"読L8-II, 会L18"
+1530,まずい,,い-adj.,(food is) terrible,会L23
+1531,また,,adv.,again,会L20
+1532,また,,adv.,in addition,読L16-II
+1533,まだ,,adv.,still,会L19
+1534,まだ ＋ negative,,adv.,not . . . yet,会L8
+1535,またせる,待たせる,ru-v.,to keep (someone) waiting ,会L20
+1536,まち,町,n.,town; city,会L4
+1537,まちあわせをする,待ち合わせをする,irr-v.,to meet up ,読L15-II
+1538,まちがい,間違い,n.,mistake,会L19
+1539,まちがえる,間違える,ru-v.,to make a mistake ,会L21
+1540,まちどおしい,待ち遠しい,い-adj.,to wait eagerly for . . .,読L22-II
+1541,まつ,待つ,u-v.,to wait,会L4
+1542,まっすぐ,,adv.,straight,"会L6(e), 読L6-I"
+1543,まつり,祭り,n.,festival,会L11
+1544,～まで,,part.,to (a place/a time),会L9
+1545,～までに,,part.,by (time/date),"読L12-II, 会L18"
+1546,まど,窓,n.,window,"会L2(e), 会L6"
+1547,まにあう,間に合う,u-v.,to be in time,会L22
+1548,マフラー,,n.,winter scarf,会L14
+1549,まゆげ,眉毛,n.,eyebrow,会L7(e)
+1550,まる,,n.,○ (correct),会L11(e)
+1551,まんが,漫画,n.,comic book,会L14
+1552,まんがか,漫画家,n.,cartoonist,会L11
+1553,まんじゅう,,n.,sweet bun,読L4-III
+1554,マンション,,n.,larger apartment building; condominium,会L13
+1555,みえる,見える,ru-v.,to be visible ,会L15
+1556,みがく,磨く,u-v.,to brush (teeth); to polish,会L13
+1557,みかた,味方,n.,person on one’s side,読L16-II
+1558,みかん,,n.,mandarin orange,"会L8(e), 会L14"
+1559,みぎ,右,n.,right,会L4
+1560,みぎがわ,右側,n.,right side,会L6(e)
+1561,みじかい,短い,い-adj.,short (length),会L7
+1562,みず,水,n.,water,会L3
+1563,みずいろ,水色,n.,light blue,会L9(e)
+1564,みずうみ,湖,n.,lake,会L11
+1565,みずぎ,水着,n.,swimwear,読L13-III
+1566,みせ,店,n.,shop; store,"読L4-III, 会L13"
+1567,みせる,見せる,ru-v.,to show ,会L16
+1568,～みたいなX,,suf.,X like . . . ,会L20
+1569,みち,道,n.,way; road; directions,会L16
+1570,みちにまよう,道に迷う,u-v.,to become lost; to lose one’s way,会L16
+1571,みっか,三日,n.,the third day of a month,会L4(e)
+1572,みっか,三日,n.,three days,会L13
+1573,みつかる,見つかる,u-v.,to be found,会L16
+1574,みつける,見つける,ru-v.,to find ,会L21
+1575,みっつ,三つ,n.,three,会L9
+1576,みっつめ,三つ目,n.,third,会L6(e)
+1577,みどり,緑,n.,green,"会L9(e), 読L15-II"
+1578,みなさま,みな様,n.,everyone (polite expression of みなさん),読L19-II
+1579,みなさん,皆さん,n.,everyone; all of you,"読L6-III, 会L14"
+1580,みなみ,南,n.,south,"会L6(e), 読L15-II"
+1581,みぶり,身ぶり,n.,gesture,読L20-II
+1582,～みまん,～未満,suf.,less than . . .,読L18-II
+1583,みみ,耳,n.,ear,会L7(e)
+1584,みやげ,土産,n.,souvenir,会L5
+1585,みらい,未来,n.,future,読L16-II
+1586,みる,見る,ru-v.,to see; to look at; to watch ,会L3
+1587,みんな,,adv.,all,"読L7-II, 会L9"
+1588,みんなで,,n.,all (of the people) together,会L8
+1589,むいか,六日,n.,six days,会L13
+1590,むいか,六日,n.,the sixth day of a month,会L4(e)
+1591,むかえにいく,迎えに行く,u-v.,to go to pick up,会L16
+1592,むかえにくる,迎えに来る,irr-v.,to come to pick up ,会L16
+1593,むかし,昔,n.,old days; past,会L21
+1594,むかしむかし,昔々,n.,once upon a time,読L10-II
+1595,むこう,向こう,n.,the other side; over there,読L12-II
+1596,むし,虫,n.,insect,会L18
+1597,むしば,虫歯,n.,bad tooth,会L12(e)
+1598,むしめがね,虫めがね,n.,magnifying glass,読L17-II
+1599,むずかしい,難しい,い-adj.,difficult,会L5
+1600,むすめ,娘,n.,daughter,読L12-II
+1601,むだづかい,無駄遣い,n.,waste (money),会L22
+1602,むっつ,六つ,n.,six,会L9
+1603,むね,胸,n.,breast,会L7(e)
+1604,むらさき,紫,n.,purple,会L9(e)
+1605,むり（な）,無理,な-adj.,impossible,会L18
+1606,め,目,n.,eye,"会L7, 会L7(e)"
+1607,～め,～目,suf.,=-th,会L15
+1608,～めい,～名,suf.,. . . person(s),会L15(e)
+1609,～めいさま,～名様,suf.,party of . . . people,会L19
+1610,めいしん,迷信,n.,superstition,読L21-II
+1611,メール,,n.,e-mail,会L9
+1612,めがね,眼鏡,n.,glasses,会L7
+1613,メキシコ,,n.,Mexico,読L5-II
+1614,めしあがる,召し上がる,u-v.,honorific expression for たべる and のむ,会L19
+1615,めずらしい,,い-adj.,rare,読L13-II
+1616,めちゃくちゃ（な）,,な-adj.,messy; disorganized,会L21
+1617,メッセージ,,n.,message; text,"読L22-II, 会L23"
+1618,めったに～ない,,adv.,seldom,読L21-II
+1619,メニュー,,n.,menu,会L2
+1620,めまいがする,,irr-v.,to feel dizzy,会L12(e)
+1621,めんきょ,免許,n.,license,会L22
+1622,めんせつ,面接,n.,interview,会L23
+1623,もう,,adv.,already,会L9
+1624,もういちど,もう一度,adv.,one more time,会L15
+1625,もうしこみ,申し込み,n.,application,読L19-III
+1626,もうしわけありません,申し訳ありません,exp.,You have my apologies.,"読L19-III, 会L20"
+1627,もうす,申す,u-v.,extra-modest expression for いう,会L20
+1628,もうすぐ,,adv.,very soon; in a few moments/days,会L12
+1629,もうすこし,もう少し,adv.,a little more,会L22
+1630,もう～ない,,adv.,not any longer,読L13-II
+1631,もくてき,目的,n.,object; purpose,読L18-II
+1632,もくようび,木曜日,n.,Thursday,"会L4, 会L4(e)"
+1633,もじ,文字,n.,letter; character,読L17-II
+1634,もし～たら,,adv.,if . . .,読L19-III
+1635,もしもし,,exp.,Hello? (used on the phone),会L4
+1636,もち,,n.,rice cake,読L10-II
+1637,もちろん,,adv.,of course,会L7
+1638,もつ,持つ,u-v.,to carry; to hold,会L6
+1639,もっていく,持っていく,u-v.,to take (a thing),会L8
+1640,もってくる,持ってくる,irr-v.,to bring (a thing) ,会L6
+1641,もっと,,adv.,more,会L11
+1642,もてる,,ru-v.,to be popular (in terms of romantic interest) ,会L19
+1643,もどってくる,戻ってくる,irr-v.,(something/someone) comes back ,会L23
+1644,もどる,戻る,u-v.,to return; to come/go back,"読L16-II, 会L20"
+1645,もの,物,n.,thing (concrete object),会L12
+1646,ものすごく,,adv.,extremely,会L23
+1647,もも,,n.,peach,会L8(e)
+1648,もらう,,u-v.,to get (from somebody),会L9
+1649,もんく,文句,n.,complaint,会L21
+1650,もんくをいう,文句を言う,u-v.,to complain,会L21
+1651,～や,～屋,suf.,. . . shop,会L20
+1652,やきゅう,野球,n.,baseball,会L10
+1653,やく,焼く,u-v.,to bake; to burn; to grill,会L21
+1654,やくす,訳す,u-v.,to translate,会L16
+1655,やくそく,約束,n.,promise; appointment,会L13
+1656,やくそくをまもる,約束を守る,u-v.,to keep a promise,会L13
+1657,やけどをする,,irr-v.,to burn oneself,会L12(e)
+1658,やさい,野菜,n.,vegetable,会L2
+1659,やさしい,,い-adj.,easy (problem); kind (person),会L5
+1660,やすい,安い,い-adj.,inexpensive; cheap (thing),会L5
+1661,やすみ,休み,n.,holiday; day off; absence,会L5
+1662,やすむ,休む,u-v.,to be absent (from); to rest,会L6
+1663,やせています,,exp.,to be thin,会L7
+1664,やせる,,ru-v.,to lose weight ,会L7
+1665,やちん,家賃,n.,rent,会L18
+1666,やった！,,exp.,I did it!,読L20-II
+1667,やっつ,八つ,n.,eight,会L9
+1668,やっぱり,,adv.,after all,"読L13-II, 会L17"
+1669,やま,山,n.,mountain,"読L5-II, 会L11"
+1670,やまみち,山道,n.,mountain road,読L10-II
+1671,やめる,,ru-v.,to quit ,会L11
+1672,やる,,u-v.,to do; to perform,会L5
+1673,やる,,u-v.,"to give (to pets, plants, younger siblings, etc.)",会L21
+1674,ゆ,湯,n.,hot water,会L17
+1675,ゆうがた,夕方,n.,evening,会L18
+1676,ゆうき,勇気,n.,courage,読L22-II
+1677,ゆうしょうする,優勝する,irr-v.,to win a championship ,会L23
+1678,ゆうしょく,夕食,n.,dinner,会L23
+1679,ゆうじん,友人,n.,friend,読L19-III
+1680,ゆうびんきょく,郵便局,n.,post office,会L2
+1681,ゆうめい（な）,有名,な-adj.,famous,会L8
+1682,ゆうめいじん,有名人,n.,celebrity,会L10
+1683,ゆき,雪,n.,snow,"読L10-II, 会L8"
+1684,ゆっくり,,adv.,slowly; leisurely; unhurriedly,会L6
+1685,ゆび,指,n.,finger,会L7(e)
+1686,ゆびわ,指輪,n.,ring,会L14
+1687,ゆめ,夢,n.,dream,会L11
+1688,ようか,八日,n.,eight days,会L13
+1689,ようか,八日,n.,the eighth day of a month,会L4(e)
+1690,ようこそ,,exp.,Welcome.,会L19
+1691,ようじ,用事,n.,business to take care of,会L12
+1692,ようふく,洋服,n.,clothes,読L18-II
+1693,ヨーロッパ,,n.,Europe,会L22
+1694,よかったら,,adv.,if you like,会L7
+1695,よきん,預金,n.,savings,会L13(e)
+1696,よく,,adv.,often; much,会L3
+1697,よく,,adv.,well,会L14
+1698,よこ,横,n.,side; horizontal,読L23-II
+1699,よごす,汚す,u-v.,to make dirty,会L18
+1700,よごれる,汚れる,ru-v.,to become dirty ,会L18
+1701,よじ,四時,n.,four o’clock,会L1(e)
+1702,よしゅう,予習,n.,preparation of a lesson,会L22
+1703,よっか,四日,n.,four days,会L13
+1704,よっか,四日,n.,the fourth day of a month,会L4(e)
+1705,よっつ,四つ,n.,four,会L9
+1706,よてい,予定,n.,schedule; plan,会L15
+1707,よぶ,呼ぶ,u-v.,to call (one’s name); to invite,会L19
+1708,よむ,読む,u-v.,to read,会L3
+1709,よやく,予約,n.,reservation,会L10
+1710,よやくする,予約する,irr-v.,to reserve ,会L15
+1711,よる,夜,n.,night,"読L5-II, 会L6"
+1712,よる,寄る,u-v.,to stop by,会L19
+1713,よろしかったら,,adv.,if it is okay (polite),会L20
+1714,よろしくおつたえください,よろしくお伝えください,exp.,Please give my best regards (to . . . ).,会L19
+1715,よろしくおねがいします,よろしくお願いします,exp.,Nice to meet you.,会G
+1716,よわい,弱い,い-adj.,weak,読L16-II
+1717,よんぷん,四分,n.,four minutes,会L1(e)
+1718,らいがっき,来学期,n.,next semester,会L11
+1719,らいげつ,来月,n.,next month,"会L4(e), 会L8"
+1720,らいしゅう,来週,n.,next week,"会L4(e), 会L6"
+1721,らいねん,来年,n.,next year,"会L4(e), 会L6"
+1722,らく（な）,楽,な-adj.,easy; comfortable,会L22
+1723,らくご,落語,n.,comic monologue,読L20-II
+1724,らくごか,落語家,n.,comic storyteller,読L20-II
+1725,ラジオ,,n.,radio,会L14
+1726,りこんする,離婚する,irr-v.,to get a divorce ,会L17
+1727,りそう,理想,n.,ideal,会L23
+1728,りゅうがくする,留学する,irr-v.,to study abroad ,会L11
+1729,りゅうがくせい,留学生,n.,international student,会L1
+1730,りょう,両,n.,a unit of currency used in the Edo period,読L20-II
+1731,りょう,寮,n.,dormitory,"読L9-II, 会L17"
+1732,りょうがえ,両替,n.,money exchange,会L13(e)
+1733,りょうしん,両親,n.,parents,会L14
+1734,りょうり,料理,n.,cooking; dish,"読L6-III, 会L10"
+1735,りょうりする,料理する,irr-v.,to cook ,会L8
+1736,りょかん,旅館,n.,Japanese inn,会L15
+1737,りょこう,旅行,n.,travel,会L5
+1738,りょこうがいしゃ,旅行会社,n.,travel agency,会L17
+1739,りょこうする,旅行する,irr-v.,to travel ,会L10
+1740,りれきしょ,履歴書,n.,résumé,会L14
+1741,りんご,,n.,apple,"会L8(e), 会L10"
+1742,ルームメイト,,n.,roommate,会L11
+1743,るす,留守,n.,absence; not at home,会L21
+1744,るすばん,留守番,n.,looking after a house during someone’s absence,会L23
+1745,れい,例,n.,example,会L11(e)
+1746,れいぞうこ,冷蔵庫,n.,refrigerator,会L18
+1747,れきし,歴史,n.,history,"会L1, 会L2"
+1748,レストラン,,n.,restaurant,会L4
+1749,レポート,,n.,(term) paper,会L4
+1750,れんしゅう,練習,n.,exercise,会L11(e)
+1751,れんしゅうする,練習する,irr-v.,to practice ,会L10
+1752,レントゲン,,n.,X-ray,会L12(e)
+1753,れんらくする,連絡する,irr-v.,to contact ,会L21
+1754,ろうそく,,n.,candle,会L18
+1755,ろくがつ,六月,n.,June,会L4(e)
+1756,ろくじ,六時,n.,six o’clock,会L1(e)
+1757,ろっぷん,六分,n.,six minutes,会L1(e)
+1758,ロボット,,n.,robot,読L16-II
+1759,ワイン,,n.,wine,読L6-III
+1760,わかい,若い,い-adj.,young,会L9
+1761,わかもの,若者,n.,young people,読L15-II
+1762,わかる,,u-v.,to understand,会L4
+1763,わかれる,別れる,ru-v.,to break up; to separate ,会L12
+1764,わすれる,忘れる,ru-v.,to forget; to leave behind ,会L6
+1765,わたくし,私,n.,I (formal),会L13
+1766,わたし,私,n.,I,会L1
+1767,わたしたち,私たち,n.,we,"読L12-II, 会L14"
+1768,わたす,渡す,u-v.,to give; to hand,読L20-II
+1769,わたる,渡る,u-v.,to cross,"会L6(e), 読L15-II"
+1770,わらう,笑う,u-v.,to laugh,会L16
+1771,わりびきけん,割引券,n.,discount coupon,会L15
+1772,わるい,悪い,い-adj.,bad,会L12
+1773,わるぐちをいう,悪口を言う,u-v.,to talk behind someone’s back,会L23
+1774,ワンルームマンション,,n.,studio apartment,読L18-III

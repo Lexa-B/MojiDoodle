@@ -90,6 +90,50 @@ export class CardsService {
     }
   }
 
+  private async loadCardManifest(): Promise<Array<{ id: string; category: string; files: string[] }>> {
+    const packs: Array<{ id: string; category: string; files: string[] }> = [];
+
+    try {
+      const response = await fetch(`${getBaseUrl()}data/cards/manifest.yaml`);
+      if (!response.ok) return packs;
+
+      const yaml = await response.text();
+      let current: { id: string; category: string; files: string[] } | null = null;
+      let inFiles = false;
+
+      for (const line of yaml.split('\n')) {
+        const trimmed = line.trim();
+        if (!trimmed || trimmed.startsWith('#')) continue;
+
+        if (trimmed.startsWith('- id:')) {
+          if (current) packs.push(current);
+          current = { id: trimmed.split(':')[1].trim(), category: '', files: [] };
+          inFiles = false;
+          continue;
+        }
+
+        if (!current) continue;
+
+        if (trimmed.startsWith('category:')) {
+          current.category = trimmed.split(':')[1].trim();
+        } else if (trimmed === 'files:') {
+          inFiles = true;
+        } else if (inFiles && trimmed.startsWith('- ')) {
+          current.files.push(trimmed.slice(2).trim());
+        } else if (!trimmed.startsWith('-') && trimmed.includes(':')) {
+          inFiles = false;
+        }
+      }
+
+      if (current) packs.push(current);
+      console.log(`Loaded ${packs.length} card packs from manifest`);
+    } catch (err) {
+      console.warn('Failed to load card manifest:', err);
+    }
+
+    return packs;
+  }
+
   private async loadTimetable(): Promise<void> {
     try {
       const response = await fetch(`${getBaseUrl()}data/timetable.yaml`);
@@ -170,6 +214,14 @@ export class CardsService {
         FOREIGN KEY (required_lesson_id) REFERENCES lessons(id)
       );
 
+      CREATE TABLE lesson_supercedes (
+        lesson_id TEXT NOT NULL,
+        superceded_lesson_id TEXT NOT NULL,
+        PRIMARY KEY (lesson_id, superceded_lesson_id),
+        FOREIGN KEY (lesson_id) REFERENCES lessons(id),
+        FOREIGN KEY (superceded_lesson_id) REFERENCES lessons(id)
+      );
+
       CREATE INDEX idx_cards_stage ON cards(stage);
       CREATE INDEX idx_cards_answer ON cards(answer);
       CREATE INDEX idx_cards_category ON cards(category);
@@ -177,38 +229,40 @@ export class CardsService {
       CREATE INDEX idx_lesson_cards_lesson ON lesson_cards(lesson_id);
     `);
 
-    // Fetch and parse all YAML files
-    const categories = ['hiragana', 'katakana', 'kanji', 'katakana-words', 'kanji-words'];
+    // Load card packs from manifest
+    const packs = await this.loadCardManifest();
 
-    for (const category of categories) {
-      try {
-        const response = await fetch(`${getBaseUrl()}data/cards/${category}.yaml`);
-        if (!response.ok) continue;
+    for (const pack of packs) {
+      for (const file of pack.files) {
+        try {
+          const response = await fetch(`${getBaseUrl()}data/cards/${file}`);
+          if (!response.ok) continue;
 
-        const yaml = await response.text();
-        const cards = this.parseYaml(yaml);
+          const yaml = await response.text();
+          const cards = this.parseYaml(yaml);
 
-        for (const card of cards) {
-          if (!card.id || !card.prompt || !card.answer) continue;
+          for (const card of cards) {
+            if (!card.id || !card.prompt || !card.answer) continue;
 
-          this.db.run(
-            `INSERT INTO cards (id, prompt, answer, hint, stroke_count, stage, unlocks, category)
-             VALUES (?, ?, ?, ?, ?, ?, ?, ?)`,
-            [card.id, card.prompt, card.answer, card.hint ?? null,
-             card.strokeCount ?? null, card.stage ?? 0, card.unlocks ?? '', category]
-          );
-
-          for (const b of card.befuddlers ?? []) {
             this.db.run(
-              `INSERT INTO befuddlers (card_id, answer, toast) VALUES (?, ?, ?)`,
-              [card.id, b.answer, b.toast]
+              `INSERT INTO cards (id, prompt, answer, hint, stroke_count, stage, unlocks, category)
+               VALUES (?, ?, ?, ?, ?, ?, ?, ?)`,
+              [card.id, card.prompt, card.answer, card.hint ?? null,
+               card.strokeCount ?? null, card.stage ?? 0, card.unlocks ?? '', pack.category]
             );
-          }
-        }
 
-        console.log(`Loaded ${cards.length} cards from ${category}`);
-      } catch (err) {
-        console.warn(`Failed to load ${category}:`, err);
+            for (const b of card.befuddlers ?? []) {
+              this.db.run(
+                `INSERT INTO befuddlers (card_id, answer, toast) VALUES (?, ?, ?)`,
+                [card.id, b.answer, b.toast]
+              );
+            }
+          }
+
+          console.log(`Loaded ${cards.length} cards from ${pack.id}/${file}`);
+        } catch (err) {
+          console.warn(`Failed to load ${file}:`, err);
+        }
       }
     }
 
@@ -247,16 +301,24 @@ export class CardsService {
         if (!fileResponse.ok) continue;
 
         const fileYaml = await fileResponse.text();
-        const cardIds = this.parseLessonCardIds(fileYaml);
+        const lessonData = this.parseLessonFile(fileYaml);
 
-        for (const cardId of cardIds) {
+        for (const cardId of lessonData.ids) {
           this.db.run(
             'INSERT OR IGNORE INTO lesson_cards (lesson_id, card_id) VALUES (?, ?)',
             [entry.id, cardId]
           );
         }
 
-        console.log(`Loaded lesson ${entry.id} with ${cardIds.length} cards`);
+        // Insert supercedes relationships
+        for (const supercededId of lessonData.supercedes) {
+          this.db.run(
+            'INSERT OR IGNORE INTO lesson_supercedes (lesson_id, superceded_lesson_id) VALUES (?, ?)',
+            [entry.id, supercededId]
+          );
+        }
+
+        console.log(`Loaded lesson ${entry.id} with ${lessonData.ids.length} cards`);
       }
     } catch (err) {
       console.warn('Failed to load lessons:', err);
@@ -310,24 +372,41 @@ export class CardsService {
     return lessons;
   }
 
-  private parseLessonCardIds(yaml: string): string[] {
+  private parseLessonFile(yaml: string): { ids: string[]; supercedes: string[] } {
     const ids: string[] = [];
-    let inIds = false;
+    const supercedes: string[] = [];
+    let currentSection: 'none' | 'ids' | 'supercedes' = 'none';
 
     for (const line of yaml.split('\n')) {
       const trimmed = line.trim();
+      if (!trimmed || trimmed.startsWith('#')) continue;
+
       if (trimmed === 'ids:') {
-        inIds = true;
+        currentSection = 'ids';
         continue;
       }
-      if (inIds && trimmed.startsWith('- ')) {
-        ids.push(trimmed.slice(2).trim());
-      } else if (inIds && trimmed && !trimmed.startsWith('#') && !trimmed.startsWith('-')) {
-        inIds = false;
+      if (trimmed === 'supercedes:') {
+        currentSection = 'supercedes';
+        continue;
+      }
+
+      // Check if we hit a new top-level key
+      if (!trimmed.startsWith('-') && trimmed.includes(':')) {
+        currentSection = 'none';
+        continue;
+      }
+
+      if (trimmed.startsWith('- ')) {
+        const value = trimmed.slice(2).trim();
+        if (currentSection === 'ids') {
+          ids.push(value);
+        } else if (currentSection === 'supercedes') {
+          supercedes.push(value);
+        }
       }
     }
 
-    return ids;
+    return { ids, supercedes };
   }
 
   private parseYaml(content: string): Partial<Card>[] {
@@ -588,9 +667,15 @@ export class CardsService {
 
   // Lessons API
   getAvailableLessons(): Lesson[] {
+    // Get available lessons that are NOT superceded by an unlocked lesson
     const rows = this.queryAll<{ id: string; name: string; status: string }>(
-      'SELECT id, name, status FROM lessons WHERE status = ?',
-      ['available']
+      `SELECT id, name, status FROM lessons
+       WHERE status = 'available'
+       AND id NOT IN (
+         SELECT superceded_lesson_id FROM lesson_supercedes ls
+         JOIN lessons l ON ls.lesson_id = l.id
+         WHERE l.status = 'unlocked'
+       )`
     );
     return rows.map(r => ({
       id: r.id,
@@ -723,16 +808,25 @@ export class CardsService {
     if (!this.db) return;
 
     try {
-      const response = await fetch(`${getBaseUrl()}data/cards/${category}.yaml`);
-      if (!response.ok) return;
+      // Find the pack with this category from the manifest
+      const packs = await this.loadCardManifest();
+      const pack = packs.find(p => p.category === category);
 
-      const yaml = await response.text();
-      const cards = this.parseYaml(yaml);
+      if (pack) {
+        // Load all files for this pack and reset their cards
+        for (const file of pack.files) {
+          const response = await fetch(`${getBaseUrl()}data/cards/${file}`);
+          if (!response.ok) continue;
 
-      for (const card of cards) {
-        if (!card.id) continue;
-        const stage = card.stage ?? 0;
-        this.db.run('UPDATE cards SET stage = ? WHERE id = ?', [stage, card.id]);
+          const yaml = await response.text();
+          const cards = this.parseYaml(yaml);
+
+          for (const card of cards) {
+            if (!card.id) continue;
+            const stage = card.stage ?? 0;
+            this.db.run('UPDATE cards SET stage = ? WHERE id = ?', [stage, card.id]);
+          }
+        }
       }
 
       // Reset lessons that belong to this category

@@ -1,0 +1,73 @@
+# Genki Chapter 19 Vocabulary
+
+id: g_19
+name: "Genki Chapter 19"
+requires:
+  - g_18
+
+ids:
+  - g-19-ikaga
+  - g-19-irassha
+  - g-19-ukeru
+  - g-19-enryo
+  - g-19-okusama
+  - g-19-okuru
+  - g-19-okosan
+  - g-19-osewa
+  - g-19-ossharu
+  - g-19-omoidas
+  - g-19-oyasumi
+  - g-19-orei
+  - g-19-kakeru
+  - g-19-kimaru
+  - g-19-kudasaru
+  - g-19-keigo
+  - g-19-kokusai
+  - g-19-gochi
+  - g-19-kochira
+  - g-19-goran
+  - g-19-shurui
+  - g-19-shogi
+  - g-19-shosho
+  - g-19-shotai
+  - g-19-shiriau
+  - g-19-seikaku
+  - g-19-sorede
+  - g-19-soredewa
+  - g-19-taisetsu
+  - g-19-taihen
+  - g-19-tatsu
+  - g-19-chuu
+  - g-19-chugaku
+  - g-19-teirass
+  - g-19-denko
+  - g-19-yoroshiku
+  - g-19-dochira
+  - g-19-totsuzen
+  - g-19-nakayoi
+  - g-19-nasaru
+  - g-19-naze
+  - g-19-natsuka
+  - g-19-namake
+  - g-19-shokai
+  - g-19-tame
+  - g-19-hazukashi
+  - g-19-hareru
+  - g-19-hikkosu
+  - g-19-bucho
+  - g-19-hontou
+  - g-19-maiasa
+  - g-19-mada
+  - g-19-machigai
+  - g-19-minasama
+  - g-19-meisama
+  - g-19-meshiagaru
+  - g-19-moushik
+  - g-19-moushiwake
+  - g-19-moshitara
+  - g-19-moteru
+  - g-19-yujin
+  - g-19-yokoso
+  - g-19-yobu
+  - g-19-yoru2
+  - g-19-tsutae

@@ -1,0 +1,1669 @@
+- id: g-15-allday
+  prompt: all day long
+  answer: 一日中
+  hint: ichinichijuu — means “throughout the whole day” (often with 〜している／〜を).
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 一日
+    toast: |-
+      That means “one day / 1st of the month,” not “throughout the day.”
+      To mean “the whole day,” you need the “throughout” part.
+  - answer: 終日
+    toast: |-
+      That also means “all day,” but it’s a more formal/written expression.
+      Often seen in announcements or notices.
+  - answer: 一日中に
+    toast: |-
+      That adds the particle に.
+      With “by/within the day,” に can change the nuance toward a deadline rather than duration.
+- id: g-15-day1
+  prompt: first day
+  answer: 一日目
+  hint: 'ichinichime — use after an event starts: 「旅行の一日目」 (day 1 of the trip)'
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 一日中
+    toast: |-
+      That means "all day".
+      Look for the "during/throughout" nuance instead of an ordinal day count.
+  - answer: 一日
+    toast: |-
+      That means "one day" (or "1st of the month" depending on context).
+      The prompt is an ordinal day like day 1 of a schedule.
+  - answer: 一日目の朝
+    toast: |-
+      That adds "morning".
+      The prompt is just "first day" without specifying a time of day.
+- id: g-15-allyear
+  prompt: all year
+  answer: 一年中
+  hint: ichinenjuu — “throughout the whole year” (often used with 〜暖かい/〜営業)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 一日中
+    toast: |-
+      That means “all day (the whole day)”.
+      Look for the unit of time: day vs. year.
+  - answer: 一年間
+    toast: |-
+      That means “for one year” (a duration/period).
+      This one is about “throughout the year” as a time span within the year.
+  - answer: 年中
+    toast: |-
+      That means “all year; always”.
+      This one omits the “one year” part and is more general.
+- id: g-15-1n2m
+  prompt: one night with two meals
+  answer: 一泊二食付き
+  hint: 'ippaku nishoku-tsuki — lodging plan: 1 night + 2 meals (usually dinner &
+    breakfast).'
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 一泊朝食付き
+    toast: |-
+      That's a plan with breakfast included only.
+      Check whether dinner is included in the prompt.
+  - answer: 一泊二食
+    toast: |-
+      That's 'one night, two meals' without the 'included' nuance.
+      Look for the part meaning 'with/attached' in the prompt.
+  - answer: 二泊二食付き
+    toast: |-
+      That's two nights.
+      Pay attention to the number of nights vs. meals.
+- id: g-15-net
+  prompt: internet
+  answer: インターネット
+  hint: intaanetto (katakana loanword). Long vowel mark 「ー」 appears twice.
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: いんたーねっと
+    toast: |-
+      That's in hiragana.
+      The prompt expects the katakana loanword spelling.
+  - answer: インタネット
+    toast: |-
+      Missing a long vowel mark.
+      Check where the 「ー」 should be in the word.
+  - answer: インターネットー
+    toast: |-
+      Extra long vowel mark at the end.
+      The ending sound is a small 「ト」, not 「トー」.
+- id: g-15-born
+  prompt: to be born
+  answer: 生まれる
+  hint: umareru (intransitive ru-verb) — used for being born; often with に/で (場所)
+    and が (subject), e.g., 日本で生まれる
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 産まれる
+    toast: |-
+      That's also "to be born," but it emphasizes childbirth.
+      Often used when talking about a baby being delivered.
+  - answer: 生む
+    toast: "That's the transitive verb \"to give birth.\" \nIt needs a direct object\
+      \ (who/what is born)."
+  - answer: 生きる
+    toast: |-
+      That's "to live."
+      Different meaning: continuing life, not coming into the world.
+- id: g-15-pic
+  prompt: painting; picture; drawing
+  answer: 絵
+  hint: e — “picture/drawing” (e.g., 絵を描く to draw a picture)
+  strokeCount: 12
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 会
+    toast: |-
+      That kanji means “to meet” / “meeting.”
+      Watch the inside part: this one has a simple box-like interior, not the complex right-side component.
+  - answer: 図
+    toast: |-
+      That means “diagram; figure; map.”
+      This one has a big enclosing frame; the prompt is for a general “picture/painting.”
+  - answer: 画
+    toast: |-
+      That means “drawing/painting” as a suffix (like 映画).
+      This one is a different kanji used in compounds rather than the common standalone word for a picture.
+- id: g-15-theater
+  prompt: movie theater
+  answer: 映画館
+  hint: eigakan — 映画 (movie) + 館 (public building). Often written with えいが for the
+    movie part.
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 映画
+    toast: |-
+      That's just "movie".
+      The prompt is asking for the place/building where you watch movies.
+  - answer: 映画界
+    toast: |-
+      That's "the film world/industry" (界 = world).
+      The prompt is a physical place, so use the kanji for a building/facility.
+  - answer: 美術館
+    toast: |-
+      That's an "art museum".
+      Same ending kanji means a facility, but the first part refers to art, not movies.
+- id: g-15-dropped
+  prompt: to be dropped
+  answer: 落とされる
+  hint: |-
+    otosareru — passive form of 落とす (to drop)
+    Used when something is dropped by someone (often accidentally): さいふが落とされた。
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 落ちる
+    toast: |-
+      That's "to fall" (intransitive).
+      No agent drops it; it happens on its own.
+  - answer: 落とす
+    toast: |-
+      That's "to drop" (active/transitive).
+      It describes someone doing the action.
+  - answer: 降ろされる
+    toast: |-
+      That's "to be let off / to be dropped off" (from a vehicle, etc.).
+      Different verb and context from something being dropped.
+- id: g-15-atm
+  prompt: to withdraw (money)
+  answer: 下ろす
+  hint: orosu — e.g., お金を下ろす (withdraw money from a bank/ATM).
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 降ろす
+    toast: |-
+      That's "to let off / drop off / unload" (e.g., passengers, luggage).
+      Commonly used for getting off a bus/taxi or unloading cargo, not withdrawing cash.
+  - answer: 引き出す
+    toast: |-
+      That's also "to withdraw (money)" but a different verb.
+      Often used for withdrawing from a bank account; this one is a compound verb.
+  - answer: 下す
+    toast: |-
+      That's "to 내려す / to give an order / to make a decision".
+      Used for issuing commands or judgments, not taking money out.
+- id: g-15-foreigner
+  prompt: foreigner
+  answer: 外国人
+  hint: gaikokujin — literally “outside-country person” (外+国+人)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 外国語
+    toast: |-
+      That's “foreign language.”
+      It uses 語 (language) instead of the person kanji.
+  - answer: 外国
+    toast: |-
+      That's “foreign country/abroad.”
+      It’s missing the “person” part at the end.
+  - answer: 日本人
+    toast: |-
+      That's “Japanese person.”
+      It’s a nationality term, not “foreigner.”
+- id: g-15-draw
+  prompt: to draw; to paint
+  answer: 描く
+  hint: kaku — used for drawing/painting a picture (e.g., 絵を描く). Not for writing text.
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 書く
+    toast: |-
+      That's "to write" (text/letters)!
+      Use it for things like a letter or a report, not pictures.
+  - answer: 画く
+    toast: |-
+      That's an uncommon kanji choice.
+      This one is usually written with a different kanji in modern Japanese.
+  - answer: 掻く
+    toast: |-
+      That's "to scratch" (like itching).
+      The meaning is about scratching, not making a picture.
+- id: g-15-furn
+  prompt: furniture
+  answer: 家具
+  hint: kagu — household furnishings; note 家 (house) + 具 (tool/item)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 家電
+    toast: |-
+      That's "home appliances" (electronics).
+      This one uses the kanji for electricity, not tools/items.
+  - answer: 道具
+    toast: |-
+      That's "tools/implements".
+      General items used for tasks, not specifically household furnishings.
+  - answer: 家
+    toast: |-
+      That's just "house/home".
+      The prompt is for items inside a home, not the building itself.
+- id: g-15-katsudo
+  prompt: activity
+  answer: 活動
+  hint: katsudou — “activities” in general (e.g., サークル活動 club activities, 環境活動 environmental
+    activities)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 行動
+    toast: |-
+      That's “behavior/action” (what someone does).
+      The prompt is about activities (often organized/ongoing), not individual conduct.
+  - answer: 運動
+    toast: |-
+      That's “exercise/movement” (often physical).
+      The prompt is broader: activities (events, club, work, campaigns, etc.).
+  - answer: 活躍
+    toast: |-
+      That's “active success/thriving” (doing well in a role).
+      The prompt is about the activity itself, not shining or excelling.
+- id: g-15-sightsee
+  prompt: to do sightseeing
+  answer: 観光する
+  hint: kankou suru — 観(look) + 光(light) → “looking at sights”; often used with を
+    (e.g., 京都を観光する)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 旅行する
+    toast: |-
+      That's “to travel” in general.
+      This prompt is specifically about visiting sights/attractions.
+  - answer: 見物する
+    toast: |-
+      That's “to watch/see (a show, event, spectacle)”.
+      It’s not the general “sightseeing around a place” verb.
+  - answer: 散歩する
+    toast: |-
+      That's “to take a walk”.
+      This prompt is about touring sights, not just walking around.
+- id: g-15-smoke
+  prompt: smoking
+  answer: 喫煙
+  hint: kitsuen — noun meaning “smoking” (e.g., 喫煙所 = smoking area).
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 禁煙
+    toast: |-
+      That means “no smoking / smoking prohibited.”
+      Look for the idea of prohibition/ban rather than the act itself.
+  - answer: 吸煙
+    toast: |-
+      This uses a different kanji for “to inhale/suck.”
+      The standard/common word for smoking uses the kanji for “to sip/consume” + “smoke.”
+  - answer: 喫茶
+    toast: |-
+      That’s related to “tea/coffee” (like a cafe).
+      Same first kanji, but the second one is “tea,” not “smoke.”
+- id: g-15-class
+  prompt: classroom
+  answer: 教室
+  hint: kyoushitsu — a room for teaching/lessons (学校の教室 = a classroom at school)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 教師
+    toast: |-
+      That's "teacher"!
+      The second kanji is for a person/role, not a room.
+  - answer: 教科書
+    toast: |-
+      That's "textbook"!
+      This is a study item/book, not a place.
+  - answer: 講室
+    toast: |-
+      That's a different term meaning a lecture room.
+      The first kanji is about giving a lecture, not teaching as in school lessons.
+- id: g-15-careful
+  prompt: to be cautious/careful
+  answer: 気をつける
+  hint: 'ki o tsukeru — often used as a warning/advice: 気をつけて (Take care!)'
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 注意する
+    toast: |-
+      That's “to pay attention / to warn.”
+      More like giving a caution or warning, not simply “be careful” in general.
+  - answer: 気を付ける
+    toast: |-
+      Same word, different okurigana style.
+      This uses the 付 kanji in the verb part; the prompt expects the plain hiragana ending style.
+  - answer: きをつけて
+    toast: |-
+      That's the -te form (used for requests like “Take care!”).
+      The prompt is for the dictionary form.
+- id: g-15-nosmoke
+  prompt: non-smoking
+  answer: 禁煙
+  hint: kinen — “no smoking” (e.g., 禁煙席 non-smoking seat, 禁煙車 non-smoking car)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 喫煙
+    toast: |-
+      That's “smoking.”
+      This one uses the kanji for “to smoke,” often seen in signs for smoking areas.
+  - answer: 禁酒
+    toast: |-
+      That's “no alcohol / abstaining from alcohol.”
+      This one uses the kanji for “alcohol,” not “smoke.”
+  - answer: 禁
+    toast: |-
+      That's only the first kanji.
+      The prompt is a full two-kanji word meaning a prohibition related to cigarettes.
+- id: g-15-whale
+  prompt: whale
+  answer: くじら
+  hint: kujira — often written in kana; kanji 鯨 is also used in some contexts
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: くしら
+    toast: |-
+      Close, but that swaps じ for し.
+      Watch for the dakuten (゛) marks.
+  - answer: くじり
+    toast: |-
+      That changes the last vowel sound.
+      Make sure the final character is ら, not り.
+  - answer: クジラ
+    toast: |-
+      That's katakana.
+      The prompt expects hiragana, which is curvier.
+- id: g-15-scenery
+  prompt: scenery
+  answer: 景色
+  hint: keshiki — a view/scene (often natural scenery); commonly used as 景色がいい
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 景気
+    toast: |-
+      That's "economy/business conditions"!
+      The second kanji here means "spirit/energy," not "color/appearance."
+  - answer: 風景
+    toast: |-
+      That's also "scenery," but a more formal/visual-feel word.
+      Often used for landscapes or photographed scenes.
+  - answer: 景色
+    toast: |-
+      Check your final kanji shape.
+      The bottom part should look like "巴" rather than "气".
+- id: g-15-wedding
+  prompt: wedding
+  answer: 結婚式
+  hint: kekkonshiki - formal wedding ceremony (式 = ceremony)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 結婚
+    toast: |-
+      That's just "marriage" (the status), not the ceremony.
+      Look for the character that means "ceremony/ritual" at the end.
+  - answer: 披露宴
+    toast: |-
+      That's the wedding reception/banquet.
+      This refers to the party after the ceremony.
+  - answer: 葬式
+    toast: |-
+      That's a funeral.
+      Both end with the same "ceremony" character, but the first kanji is different.
+- id: g-15-kedo
+  prompt: '... , but; ... , so'
+  answer: ～けど
+  hint: kedo — casual "but/though" at the end or in the middle of a sentence (often
+    softer than しかし).
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: ～けれど(も)
+    toast: |-
+      That's the more formal/longer version.
+      This one often appears in writing or polite speech.
+  - answer: ～が
+    toast: |-
+      That's a more neutral conjunction meaning "but".
+      It can sound slightly more formal than the casual connector in the prompt.
+  - answer: しかし
+    toast: |-
+      That's "however" used to start a new sentence.
+      It’s not usually attached directly after a clause the same way.
+- id: g-15-abomb
+  prompt: atomic bomb
+  answer: 原爆
+  hint: genbaku — short for 原子爆弾 (げんしばくだん); often seen in words like 原爆ドーム
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 原子爆弾
+    toast: |-
+      That's the full formal term.
+      This prompt expects the shortened 2-kanji word.
+  - answer: 核爆弾
+    toast: |-
+      That's "nuclear bomb."
+      Different term; this one uses the kanji for "nucleus" (核).
+  - answer: 爆弾
+    toast: |-
+      That's just "bomb" in general.
+      The prompt is specifically about the atomic kind.
+- id: g-15-momiji
+  prompt: autumn leaves/colors
+  answer: 紅葉
+  hint: 'kouyou — often used for fall foliage viewing: 紅葉狩り（こうようがり）'
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 黄葉
+    toast: |-
+      That’s “yellow leaves” (leaves turning yellow).
+      Different kanji: the first character means yellow, not crimson.
+  - answer: 落葉
+    toast: |-
+      That’s “fallen leaves.”
+      This refers to leaves that have dropped, not the autumn coloring.
+  - answer: 紅葉する
+    toast: |-
+      That’s the verb form “to turn autumn colors.”
+      The prompt is for the noun.
+- id: g-15-crowd
+  prompt: to get crowded
+  answer: 混む
+  hint: komu — intransitive; used for places/traffic getting crowded (e.g., 道が混む).
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 込む
+    toast: |-
+      That's the verb meaning "to be packed/filled" (often in compounds).
+      This one uses the "enter" component (辶), not the "mix" component.
+  - answer: 混ぜる
+    toast: |-
+      That's "to mix" (transitive).
+      The prompt is about something becoming crowded by itself.
+  - answer: 混む（こまない）
+    toast: |-
+      Watch the reading!
+      This verb reads with こ- (not こん-), and the negative form ends in 〜ない.
+- id: g-15-crowded
+  prompt: to be crowded
+  answer: 混んでいる
+  hint: kondeiru — used for places/transport being crowded (e.g., 電車が混んでいる).
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 混む
+    toast: |-
+      That's the dictionary form.
+      The prompt expects the ongoing/state form (〜ている).
+  - answer: 込んでいる
+    toast: |-
+      That's using a different kanji.
+      This one often implies being packed/filled in (like reservations or a detailed plan), not general crowding.
+  - answer: 混雑している
+    toast: |-
+      That's a more formal expression.
+      It’s common in announcements; the prompt is the everyday phrasing.
+- id: g-15-recent
+  prompt: recently
+  answer: 最近
+  hint: 'saikin — often used with the present: 最近、忙しい (I''ve been busy lately).'
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 最近まで
+    toast: |-
+      That adds "until recently".
+      It emphasizes a point in time up to which something continued.
+  - answer: この頃
+    toast: |-
+      That means "these days / lately" in a more casual, conversational way.
+      It’s less formal and often used in speech.
+  - answer: 近く
+    toast: |-
+      That means "near / nearby" (distance), not time.
+      Watch the meaning: place vs. recently.
+- id: g-15-search
+  prompt: to look for
+  answer: 探す
+  hint: sagasu — to search for something you don’t currently have/know where it is
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 捜す
+    toast: |-
+      That means “to search (for a person/thing), often in an official/organized way.”
+      This prompt is the general “look for” verb.
+  - answer: 探る
+    toast: |-
+      That means “to probe/sound out” (figurative), like investigating someone’s intentions.
+      The prompt is about looking for a specific thing/person.
+  - answer: 見つける
+    toast: |-
+      That means “to find” (successfully discover), not the act of searching.
+      The prompt asks for the searching action.
+- id: g-15-invite
+  prompt: to invite
+  answer: 誘う
+  hint: sasou — to invite/ask someone out; often used like 友だちを誘う (invite a friend)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 請う
+    toast: |-
+      That's "to request/beg"!
+      This is about asking for something formally, not inviting someone to join you.
+  - answer: 招く
+    toast: |-
+      That's "to invite/summon" (more formal)!
+      Often used for inviting guests or calling something in (e.g., trouble).
+  - answer: 誘い
+    toast: |-
+      That's the noun form (invitation/temptation)!
+      The prompt expects the verb dictionary form.
+- id: g-15-join
+  prompt: to participate
+  answer: 参加する
+  hint: 'sankasuru — join/take part in an event or group (often used with に/を: イベントに参加する)'
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 加入する
+    toast: |-
+      That's "to join/subscribe" (becoming a member).
+      Used for organizations, insurance, phone plans, etc.
+  - answer: 出席する
+    toast: |-
+      That's "to attend" (be present).
+      Focuses on showing up, not taking part actively.
+  - answer: 参拝する
+    toast: |-
+      That's "to visit a shrine/temple" for worship.
+      Used with 神社・お寺, not events or activities.
+- id: g-15-deer
+  prompt: deer
+  answer: 鹿
+  hint: shika — 11 strokes (animal kanji; looks like a deer with antlers)
+  strokeCount: 11
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 馬
+    toast: |-
+      That's "horse".
+      Watch the top: this one has the horse-head shape, not antlers.
+  - answer: 象
+    toast: |-
+      That's "elephant".
+      This one has a long trunk-like stroke; different overall silhouette.
+  - answer: 免
+    toast: |-
+      That's "excuse/avoid" (also seen in words like 免許).
+      This one has a crown-like top and a different bottom shape.
+- id: g-15-quake
+  prompt: earthquake
+  answer: 地震
+  hint: jishin — 地 (earth/ground) + 震 (tremor/shake); commonly used in news/disaster
+    contexts
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 自身
+    toast: |-
+      That's "oneself" (self)!
+      Different meaning: talks about the person, not a natural disaster.
+  - answer: 自信
+    toast: |-
+      That's "confidence"!
+      Same reading, but the meaning is about belief in your ability.
+  - answer: 地獄
+    toast: |-
+      That's "hell"!
+      The first kanji is similar, but the second kanji is different.
+- id: g-15-nature
+  prompt: nature
+  answer: 自然
+  hint: shizen — “nature” as in the natural world / naturally (自然に).
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 当然
+    toast: |-
+      That means "of course / naturally" (as expected).
+      It's about what is only natural/expected, not the natural world.
+  - answer: 天然
+    toast: |-
+      That means "natural" (often for ingredients or someone's天然 character).
+      Different nuance from "nature" as a general concept.
+  - answer: 自在
+    toast: |-
+      That means "freely / at will" (as in 自在に操る).
+      Different meaning; the first kanji is the same but the second kanji changes.
+- id: g-15-island
+  prompt: island
+  answer: 島
+  hint: shima — 10 strokes
+  strokeCount: 10
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 鳥
+    toast: |-
+      That's "bird".
+      Watch the outer enclosure vs. the bird shape: this one doesn’t include the mountain element.
+  - answer: 山
+    toast: |-
+      That's "mountain".
+      This one is much simpler (3 strokes) and has no enclosure.
+  - answer: 嶋
+    toast: |-
+      That's a variant form.
+      Some fonts show a different middle component; the standard form uses the simpler enclosed shape.
+- id: g-15-jacket
+  prompt: jacket
+  answer: ジャケット
+  hint: jaketto (katakana) - used for clothing/outerwear; common loanword
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: ジャケツ
+    toast: |-
+      Close, but this spelling is incomplete.
+      Make sure to include the long vowel sound (ー) and the small ッ.
+  - answer: チケット
+    toast: |-
+      That's "ticket"!
+      Watch the first character: it starts with ジ (dakuten), not チ.
+  - answer: ジャケットー
+    toast: |-
+      Extra long vowel mark.
+      The word ends with ト, so it doesn't need another ー at the end.
+- id: g-15-chat
+  prompt: to chat
+  answer: しゃべる
+  hint: shaberu — casual speaking; more like “chat/talk” than “say”
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 話す
+    toast: |-
+      That's "to speak/talk" in a general sense.
+      This one is broader and can sound less casual than chatting.
+  - answer: 言う
+    toast: |-
+      That's "to say" (to state something).
+      This one focuses on what is said, not the act of chatting.
+  - answer: 喋る
+    toast: |-
+      That's the kanji form.
+      The prompt expects you to write it in kana as given.
+- id: g-15-custom
+  prompt: custom
+  answer: 習慣
+  hint: shuukan — a personal or social habit/custom done regularly (e.g., 毎日の習慣).
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 週間
+    toast: |-
+      That means "(one) week"!
+      Look for the 'learn/practice' sense vs the 'week' word.
+  - answer: 慣習
+    toast: |-
+      That means "custom/convention" in a more formal/social sense.
+      This one is often about established traditions.
+  - answer: 癖
+    toast: |-
+      That means "habit/quirk" (often a personal tic).
+      This one can imply a tendency, sometimes negative.
+- id: g-15-master
+  prompt: head of a family
+  answer: 主人
+  hint: shujin — also commonly means “(someone’s) husband”; as “head of a family”
+    it’s a traditional usage.
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 主婦
+    toast: |-
+      That’s “housewife” (the person managing the household).
+      Different role/word than the family head.
+  - answer: 世帯主
+    toast: |-
+      That’s “head of household” in a formal/legal sense.
+      More administrative wording than the prompt’s term.
+  - answer: 夫
+    toast: |-
+      That’s “husband.”
+      This is a simpler single-kanji word and doesn’t carry the “family head” nuance.
+- id: g-15-check
+  prompt: to look into (a matter)
+  answer: 調べる
+  hint: shiraberu — to investigate/check up on (a matter); often used with を (e.g.,
+    原因を調べる)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 探す
+    toast: |-
+      That's "to search (for something)"!
+      This is looking for an object/person, not investigating details.
+  - answer: 確かめる
+    toast: |-
+      That's "to make sure / confirm"!
+      This is verifying something already known or suspected, not researching from scratch.
+  - answer: 比べる
+    toast: |-
+      That's "to compare"!
+      This is about comparing two things, not looking into a matter.
+- id: g-15-single
+  prompt: single room
+  answer: シングル
+  hint: 'shinguru - hotel talk: シングルルーム (a room for one person)'
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: ダブル
+    toast: |-
+      That's a double room!
+      This one is for two people (often one double bed).
+  - answer: ツイン
+    toast: |-
+      That's a twin room!
+      This usually means two separate beds.
+  - answer: 一人部屋
+    toast: |-
+      That's the Japanese/native term meaning a room for one.
+      The prompt expects a loanword written in katakana.
+- id: g-15-scramble
+  prompt: scramble crossing
+  answer: スクランブル交差点
+  hint: sukuranburu kousaten — pedestrian crossing where traffic stops and people
+    cross in all directions at once (often at big intersections).
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 交差点
+    toast: |-
+      That's just "intersection" in general.
+      The prompt is for the famous all-directions pedestrian crossing type.
+  - answer: 横断歩道
+    toast: |-
+      That's a regular crosswalk.
+      This one doesn’t necessarily allow crossing in multiple directions at the same time.
+  - answer: 信号
+    toast: |-
+      That's a traffic light / signal.
+      The prompt is asking for the type of crossing, not the device controlling it.
+- id: g-15-decide
+  prompt: to decide on (an item)
+  answer: する
+  hint: 'suru — in this sense: “choose/settle on” (e.g., これにする = I''ll go with this)'
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 決める
+    toast: |-
+      That's “to decide” in a general sense.
+      This prompt is the casual set-phrase used when choosing an item (often with に).
+  - answer: 選ぶ
+    toast: |-
+      That's “to choose/select.”
+      This prompt is the expression used when you settle on one option (often これに…).
+  - answer: します
+    toast: |-
+      That's the polite form.
+      The prompt expects the plain dictionary form used in the phrase pattern.
+- id: g-15-tax
+  prompt: tax
+  answer: 税金
+  hint: zeikin — money paid to the government (e.g., 所得税 income tax, 消費税 sales tax)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 料金
+    toast: |-
+      That's "fee/charge"!
+      Paid for a service or use (like a fare or admission), not to the government.
+  - answer: 代金
+    toast: |-
+      That's "price/payment"!
+      Money paid for goods/services, not government tax.
+  - answer: 罰金
+    toast: |-
+      That's "fine/penalty"!
+      Money paid as punishment for breaking rules, not regular tax.
+- id: g-15-gradcer
+  prompt: graduation ceremony
+  answer: 卒業式
+  hint: sotsugyoushiki — often used with 行う/ある (to hold/take place), e.g., 卒業式に出る
+    (attend the ceremony)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 入学式
+    toast: |-
+      That's an entrance/enrollment ceremony.
+      It's for starting school, not finishing.
+  - answer: 卒業
+    toast: |-
+      That's just "graduation" as an event/status.
+      The prompt is specifically the formal ceremony.
+  - answer: 結婚式
+    toast: |-
+      That's a wedding ceremony.
+      Same ending character, but a different type of ceremony.
+- id: g-15-graduate
+  prompt: to graduate (from ...)
+  answer: 卒業する
+  hint: sotsugyou suru — use 「〜を卒業する」 for the school you graduate from (e.g., 大学を卒業する).
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 卒業
+    toast: |-
+      That's the noun form ("graduation").
+      If you want to say "to graduate," use the verb form with する.
+  - answer: 入学する
+    toast: |-
+      That's "to enter/enroll in school".
+      It’s the opposite direction: starting school, not finishing.
+  - answer: 退学する
+    toast: |-
+      That's "to withdraw/leave school".
+      It implies quitting or leaving before completion, not completing a program.
+- id: g-15-soba
+  prompt: soba; Japanese buckwheat noodles
+  answer: そば
+  hint: soba (hiragana) — a type of Japanese buckwheat noodle; often served cold with
+    dipping sauce or hot in broth
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: うどん
+    toast: |-
+      That's udon!
+      Thicker wheat noodles, not buckwheat.
+  - answer: ラーメン
+    toast: |-
+      That's ramen!
+      Usually curly wheat noodles in a rich soup.
+  - answer: そは
+    toast: |-
+      Close, but check the second kana.
+      The middle character has a "濁点" (two small marks).
+- id: g-15-bath
+  prompt: large spa
+  answer: 大浴場
+  hint: daiyokujou — a big public bath/spa area (often in hotels, ryokan, onsen facilities)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 大浴室
+    toast: |-
+      That's 'large bathroom/bathing room'.
+      This one uses the character for a room, not a place/area.
+  - answer: 大浴池
+    toast: |-
+      That's 'large bath pool/tub'.
+      This one focuses on the water/tub itself rather than the whole facility.
+  - answer: 温泉
+    toast: |-
+      That's 'hot spring'.
+      This refers to the hot-spring source or the onsen in general, not specifically a big bath area.
+- id: g-15-bamboo
+  prompt: bamboo
+  answer: 竹
+  hint: take — 6 strokes; looks like two stalks of bamboo with nodes
+  strokeCount: 6
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 笑
+    toast: |-
+      That’s "laugh/smile".
+      Watch the top: this one has the bamboo radical plus extra parts underneath.
+  - answer: 米
+    toast: |-
+      That’s "rice".
+      The center crossing and overall shape are different from the two vertical stalk-like lines.
+  - answer: 本
+    toast: |-
+      That’s "book/origin".
+      This one has a single trunk with a line at the base, not the bamboo-stalk pattern.
+- id: g-15-building
+  prompt: building
+  answer: 建物
+  hint: tatemono (たてもの) — 建=build, 物=thing/object
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 建築
+    toast: |-
+      That's "architecture/construction"!
+      It refers to the act/field of building, not a single structure.
+  - answer: 家
+    toast: |-
+      That's "house/home"!
+      This is specifically a dwelling, not buildings in general.
+  - answer: 作物
+    toast: |-
+      That's "crops"!
+      Same 物 at the end, but the first kanji changes the meaning to things you grow.
+- id: g-15-cantwait
+  prompt: cannot wait; to look forward to it
+  answer: 楽しみです
+  hint: tanoshimi desu — use when you’re looking forward to a future event (e.g.,
+    旅行が楽しみです).
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 楽しみ
+    toast: |-
+      That's the noun form.
+      The prompt expects the polite expression ending, often used as a full sentence.
+  - answer: 楽しいです
+    toast: |-
+      That's an adjective meaning "(it) is fun."
+      This one describes something as enjoyable, not anticipation.
+  - answer: 期待しています
+    toast: |-
+      That's "I expect / I’m counting on it."
+      It sounds more formal and can imply expectation rather than excited anticipation.
+- id: g-15-enjoy
+  prompt: to enjoy
+  answer: 楽しむ
+  hint: tanoshimu (u-verb) — used for actively enjoying an activity (e.g., 音楽を楽しむ).
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 楽しい
+    toast: |-
+      That's an i-adjective meaning "fun/pleasant".
+      The prompt is asking for the verb form (to do/experience enjoyment).
+  - answer: 楽しみ
+    toast: |-
+      That's the noun form meaning "pleasure" or "something to look forward to".
+      The prompt is a verb (dictionary form).
+  - answer: 遊ぶ
+    toast: |-
+      That's "to play/hang out".
+      It can be fun, but it specifically means playing or spending time, not "enjoy" in general.
+- id: g-15-double
+  prompt: double room
+  answer: ダブル
+  hint: daburu — hotel room type meaning one room with one double bed (often for 2
+    people)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: ツイン
+    toast: |-
+      That's "twin"!
+      It usually means two single beds in one room, not one double bed.
+  - answer: シングル
+    toast: |-
+      That's "single"!
+      It’s for one person / one single bed.
+  - answer: ダブる
+    toast: |-
+      That's the verb form!
+      It means something overlaps/duplicates (e.g., schedule), not a room type.
+- id: g-15-checkout
+  prompt: checking out
+  answer: チェックアウト（する）
+  hint: chekku auto (suru) - used for leaving a hotel / completing checkout; often
+    written without （する） as チェックアウト
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: チェックイン（する）
+    toast: |-
+      That's "check in"!
+      It’s for arriving/registering, not leaving.
+  - answer: 会計（する）
+    toast: |-
+      That's "to pay the bill / settle the account"!
+      It focuses on payment rather than the overall hotel departure process.
+  - answer: 退室（する）
+    toast: |-
+      That's "to leave a room"!
+      It’s a general word for exiting a room, not the hotel procedure.
+- id: g-15-checkin
+  prompt: checking in
+  answer: チェックイン（する）
+  hint: chekku-in (suru) - used for hotels/airports; often as チェックインする
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: チェックアウト（する）
+    toast: |-
+      That's the opposite action.
+      It means leaving/finishing your stay, not arriving.
+  - answer: 受付（する）
+    toast: |-
+      That's "reception/registration".
+      It's the counter/process in general, not specifically the arrival procedure at a hotel/flight.
+  - answer: 搭乗手続き（する）
+    toast: |-
+      That's "boarding procedure".
+      It refers to the process for getting onto a plane, not the general arrival confirmation.
+- id: g-15-underground
+  prompt: underground
+  answer: 地下
+  hint: chika — used for underground places like basements/subways (e.g., 地下鉄).
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 地上
+    toast: |-
+      That means "above ground".
+      Look for the direction marker at the bottom that indicates being "up" instead of "down."
+  - answer: 地価
+    toast: |-
+      That means "land price".
+      The second kanji is the one used for "price/value," not a location marker.
+  - answer: 地下室
+    toast: |-
+      That means "basement (room)".
+      The prompt is just the general "underground," not the specific "room" word.
+- id: g-15-map
+  prompt: map
+  answer: 地図
+  hint: chizu — often used in 地図アプリ (map app) or 地図を読む (to read a map)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 図
+    toast: |-
+      That's just "diagram/figure".
+      The prompt is for a geographical map, which uses a compound word.
+  - answer: 地理
+    toast: |-
+      That's "geography".
+      This is a school subject/field, not something you look at to navigate.
+  - answer: 地形
+    toast: |-
+      That's "terrain/topography".
+      It refers to landforms themselves, not the document showing them.
+- id: g-15-breakfast
+  prompt: with breakfast
+  answer: 朝食付き
+  hint: chōshoku-tsuki — used in hotel/plan listings meaning breakfast is included
+    (朝食=breakfast, 付き=included/with)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 朝食なし
+    toast: |-
+      That means "no breakfast."
+      Look for the pattern used on plans when something is NOT included.
+  - answer: 夕食付き
+    toast: |-
+      That means "with dinner."
+      The first kanji indicates time of day (morning vs evening).
+  - answer: 朝食付
+    toast: |-
+      Same meaning, but this uses the shorter form of "tsuki."
+      Be careful whether the prompt expects the longer okurigana spelling.
+- id: g-15-twin
+  prompt: twin room
+  answer: ツイン
+  hint: 'tsuin (katakana) — hotel term meaning a room with two beds; write clearly:
+    ツ + イ + ン'
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: ツィン
+    toast: |-
+      Small ィ changes the sound to "twin" with a tighter vowel.
+      Make sure the イ is full-sized, not small.
+  - answer: ツインルーム
+    toast: |-
+      That includes the English loanword "room".
+      The prompt expects the shorter hotel label.
+  - answer: ダブル
+    toast: |-
+      That's a different room type.
+      This one refers to one bed (usually larger), not two separate beds.
+- id: g-15-battery
+  prompt: battery
+  answer: 電池
+  hint: denchi — 電 (electricity) + 池 (pond/cell); commonly used for AA/AAA batteries
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 発電機
+    toast: |-
+      That's a generator!
+      It produces electricity, rather than being the portable power source used in devices.
+  - answer: 充電器
+    toast: |-
+      That's a charger!
+      It’s the device used to recharge something, not the power unit itself.
+  - answer: 電気
+    toast: |-
+      That's electricity!
+      This is the general concept of electric power, not the object you put into a device.
+- id: g-15-pass
+  prompt: to go through; to pass
+  answer: 通る
+  hint: 'tooru (通る) — intransitive u-verb: to pass through a place/route (e.g., 道を通る).'
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 通す
+    toast: |-
+      That's the transitive form: "to let something pass / to run (a thread, a line) through".
+      Watch whether someone/something is passing by itself vs. causing it to pass.
+  - answer: 渡る
+    toast: |-
+      That's "to cross" (a river/bridge/road).
+      This one emphasizes going across to the other side, not passing through.
+  - answer: 過ぎる
+    toast: |-
+      That's "to pass by / to exceed".
+      This one focuses on going past something or being too much.
+- id: g-15-trolley
+  prompt: small train usually for tourists
+  answer: トロッコ列車
+  hint: torokko ressha — 観光地などで走る小型の列車（「列車」= train）
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 観光列車
+    toast: |-
+      That means a sightseeing train in general.
+      This prompt is for the small, open-style cars often used on scenic routes.
+  - answer: 列車
+    toast: |-
+      That's just "train".
+      The prompt is asking for a specific kind of small tourist train, not trains in general.
+  - answer: トロッコ
+    toast: |-
+      That's only the trolley/cart part.
+      The prompt is for the full term meaning a tourist train.
+- id: g-15-garden
+  prompt: garden
+  answer: 庭
+  hint: にわ (niwa) — 10 strokes; often used for a home's yard/garden (庭で遊ぶ).
+  strokeCount: 10
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 店
+    toast: |-
+      That's "shop/store"!
+      Watch the left-side radical: this one uses 广 (roof/cliff) rather than the 'yard/ground' feel.
+  - answer: 底
+    toast: |-
+      That's "bottom/base"!
+      This one has a different lower component and means a place's base, not an outdoor space.
+  - answer: 座
+    toast: |-
+      That's "seat"!
+      This one has two people (人) sitting under a roof—meaning a seat/place to sit, not a garden.
+- id: g-15-leave
+  prompt: to leave; to preserve
+  answer: 残す
+  hint: nokosu (のこす) - to leave something behind / preserve (e.g., 記録を残す)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 残る
+    toast: |-
+      That's the intransitive form (something remains)!
+      This one means it stays/left over by itself, not leaving something.
+  - answer: 置く
+    toast: |-
+      That's "to put/place"!
+      It focuses on placing an object somewhere, not preserving or leaving a record.
+  - answer: 守る
+    toast: |-
+      That's "to protect/obey"!
+      It’s about defending/keeping rules, not leaving something behind.
+- id: g-15-haku
+  prompt: '... nights (counter suffix for stays)'
+  answer: ～泊
+  hint: |-
+    ～haku (counter for nights of lodging)
+    Example: 2泊(にはく) = two nights
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: ～日
+    toast: |-
+      That's the counter for days.
+      Use it for how many days, not how many nights stayed.
+  - answer: ～晩
+    toast: |-
+      That's the counter for nights (evenings).
+      This one is about nighttime itself, not lodging/staying overnight.
+  - answer: ～宿
+    toast: |-
+      That kanji relates to lodging/inn.
+      This prompt is asking for the standard counter suffix used with numbers for stays.
+- id: g-15-place
+  prompt: place
+  answer: 場所
+  hint: 'basho — physical location/spot (e.g., meeting place: 集合場所)'
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 住所
+    toast: |-
+      That's "address"!
+      This is a specific location used for mail/registration, not a general place.
+  - answer: 位置
+    toast: |-
+      That's "position"!
+      This focuses on relative coordinates/where something is, not a place as a spot/venue.
+  - answer: 現場
+    toast: |-
+      That's "the scene/site"!
+      This is used for an on-site location like an incident or work site.
+- id: g-15-present
+  prompt: to make a presentation; to make public
+  answer: 発表する
+  hint: happyou suru — used for giving a presentation or announcing results/news publicly
+    (e.g., 研究を発表する, 新製品を発表する).
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 公表する
+    toast: |-
+      That's "to officially announce/make public" (often by an organization).
+      Less about giving a presentation and more about releasing information.
+  - answer: 発言する
+    toast: |-
+      That's "to make a remark/speak up."
+      This is about stating an opinion, not presenting or announcing something as a topic.
+  - answer: 報告する
+    toast: |-
+      That's "to report."
+      This is about reporting to someone (often a superior), not publicly presenting/announcing.
+- id: g-15-day
+  prompt: day
+  answer: 日
+  hint: hi / nichi — 4 strokes; a square “sun/day” with one line inside
+  strokeCount: 4
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 目
+    toast: |-
+      That's "eye".
+      It has TWO inner strokes (like two lines), not one.
+  - answer: 白
+    toast: |-
+      That's "white".
+      The top stroke sticks out, and the inner stroke placement differs.
+  - answer: 曰
+    toast: |-
+      That's a different kanji used in compounds (like "to say").
+      The shape is flatter and the inner line looks different.
+- id: g-15-fashion
+  prompt: fashion
+  answer: ファッション
+  hint: fasshon (katakana loanword) — often used for clothing/style trends (e.g.,
+    ファッション雑誌)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: ファッショ
+    toast: |-
+      Looks close, but it's missing the final ン.
+      Make sure to finish with the ン sound.
+  - answer: ファンション
+    toast: |-
+      Careful: the small ッ got replaced.
+      The small ッ makes a brief pause (double consonant).
+  - answer: フッション
+    toast: |-
+      Watch the first character.
+      This one starts with フ, which changes the sound.
+- id: g-15-pool
+  prompt: swimming pool
+  answer: プール
+  hint: puuru — long vowel mark 「ー」 makes it “puu” (not “puru”).
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: プル
+    toast: |-
+      Missing the long vowel mark.
+      Without 「ー」 the vowel isn’t held long.
+  - answer: プロ
+    toast: |-
+      That’s a different word (“pro”).
+      Watch the small difference between ー (long vowel) and ロ (a character).
+  - answer: ぷーる
+    toast: |-
+      That’s hiragana.
+      This prompt expects the loanword in katakana.
+- id: g-15-front
+  prompt: receptionist; front desk
+  answer: フロント
+  hint: furonto — hotel front desk/reception (カタカナ loanword)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: ホール
+    toast: |-
+      That's "hall/lobby".
+      It refers to the space/area, not the reception counter.
+  - answer: 受付
+    toast: |-
+      That's the general word for "reception/registration" in kanji.
+      This prompt expects the katakana loanword commonly used in hotels.
+  - answer: ロビー
+    toast: |-
+      That's "lobby".
+      It's the waiting/entrance area, not the front desk.
+- id: g-15-peace
+  prompt: peace
+  answer: 平和
+  hint: heiwa — noun meaning peace; often in 平和な (peaceful)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 安らぎ
+    toast: |-
+      That's "peace of mind/relief" (a calm, relaxed feeling).
+      The prompt is about peace in general (e.g., society/world).
+  - answer: 和平
+    toast: |-
+      That's "peace agreement" (often ending a war).
+      More formal and treaty-like than the general idea in the prompt.
+  - answer: 平等
+    toast: |-
+      That's "equality".
+      Same first kanji, but the second character changes the meaning.
+- id: g-15-peace-mu
+  prompt: Peace Memorial Museum
+  answer: 平和記念資料館
+  hint: |-
+    heiwa kinen shiryōkan — A common proper-noun style compound:
+    平和 (peace) + 記念 (memorial) + 資料館 (museum/archive).
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 平和記念公園
+    toast: |-
+      That's a memorial *park*.
+      Look for the ending that indicates a museum/archive building, not a park.
+  - answer: 原爆資料館
+    toast: |-
+      That's the A-bomb museum wording.
+      This prompt is for the formal name using “peace memorial” + “museum/archive.”
+  - answer: 記念資料館
+    toast: |-
+      That's just “memorial museum/archive” without specifying “peace.”
+      Be sure the beginning includes the concept of peace.
+- id: g-15-pet
+  prompt: pet
+  answer: ペット
+  hint: petto (katakana loanword). Watch the small ッ (double consonant).
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: ベッド
+    toast: |-
+      That's "bed"!
+      Look for dakuten (゛) on the first character and a longer sound.
+  - answer: ペン
+    toast: |-
+      That's "pen"!
+      Much shorter word; ends with ン, not a small ッ + ト.
+  - answer: ペットボトル
+    toast: |-
+      That's "plastic bottle"!
+      Same start, but it continues as a longer compound word.
+- id: g-15-insure
+  prompt: insurance
+  answer: 保険
+  hint: hoken — often used in 保険に入る (to get insurance) / 健康保険 (health insurance)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 保健
+    toast: |-
+      That's "health (hygiene)" (as in public health).
+      The right kanji here is 健, not the one used for insurance policies.
+  - answer: 保証
+    toast: |-
+      That's "guarantee/warranty".
+      This is about assuring quality or responsibility, not an insurance contract.
+  - answer: 危険
+    toast: |-
+      That's "danger".
+      Be careful: this starts with 危 and means risk, not coverage.
+- id: g-15-joinins
+  prompt: to buy insurance
+  answer: 保険に入る
+  hint: hoken ni hairu — literally “to enter insurance” (i.e., take out an insurance
+    policy)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 保険をかける
+    toast: |-
+      That's “to insure (something) / take out insurance on something.”
+      Often used when you insure a specific item or person.
+  - answer: 保険に加入する
+    toast: |-
+      That's a more formal way to say “to enroll/join (an insurance plan).”
+      Common in paperwork and business contexts.
+  - answer: 保険がある
+    toast: |-
+      That means “to have insurance.”
+      It describes a state/condition, not the action of taking out a policy.
+- id: g-15-meetup
+  prompt: to meet up
+  answer: 待ち合わせをする
+  hint: machiawase o suru — agree on a time/place and meet; often used as 待ち合わせする
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 会う
+    toast: |-
+      That's simply "to meet".
+      This prompt is about meeting up by prior arrangement (time/place).
+  - answer: 集まる
+    toast: |-
+      That's "to gather/assemble".
+      Not specifically about an arranged meetup with someone.
+  - answer: 待つ
+    toast: |-
+      That's "to wait".
+      The prompt is about meeting up, not just waiting.
+- id: g-15-visible
+  prompt: to be visible
+  answer: 見える
+  hint: |-
+    mieru — intransitive ru-verb (something can be seen / is visible)
+    Contrast: 見る (miru) = to look/watch (intentional)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 見る
+    toast: |-
+      That's the active verb "to look/watch".
+      The prompt is about something being visible on its own (no intention).
+  - answer: 観える
+    toast: |-
+      This is a rarer/older-looking spelling.
+      The common everyday form uses the "see" kanji.
+  - answer: 聞こえる
+    toast: |-
+      That's "to be audible" (can be heard).
+      This prompt is about sight, not sound.
+- id: g-15-ordinal
+  prompt: =-th (ordinal counter suffix, e.g., 1st/2nd/3rd)
+  answer: ～目
+  hint: '～め (me) — attaches to numbers: 一回目 (1st time), 二人目 (2nd person), 三つ目 (third
+    one). Write the kanji suffix 目.'
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: ～枚
+    toast: |-
+      That's the counter for flat objects (sheets)!
+      Used for paper, plates, shirts, etc., not for ordinal numbering.
+  - answer: ～番目
+    toast: |-
+      That's an explicit 'number + order' expression.
+      It’s often used for ranking/position (e.g., in a list), while the suffix in the prompt is the simpler ordinal form.
+  - answer: ～回
+    toast: |-
+      That's the counter for occurrences/times.
+      It counts how many times something happens, not 'the -th' by itself.
+- id: g-15-people
+  prompt: '... person(s) (counter suffix)'
+  answer: ～名
+  hint: ～mei — counter suffix used for people in polite/formal contexts (e.g., 3名
+    = san-mei).
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: ～人
+    toast: |-
+      That's the general people counter!
+      Use this one in everyday counting (e.g., 3人), while the prompt targets a more formal/personnel-style counter.
+  - answer: ～者
+    toast: |-
+      That's "-person" meaning a type/category of person (e.g., 参加者)!
+      It’s not a numeric counter suffix.
+  - answer: ～位
+    toast: |-
+      That's a polite honorific counter for people!
+      Often used when counting people respectfully, but it’s a different suffix and nuance.
+- id: g-15-again
+  prompt: one more time
+  answer: もう一度
+  hint: mou ichido — used to ask for a repeat (e.g., もう一度お願いします “One more time, please”).
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: もう一回
+    toast: |-
+      Close, but this one uses 「回」.
+      Often used for a repeat/countable action (e.g., playing a song again).
+  - answer: もう一度も
+    toast: |-
+      This includes 「も」.
+      It means “not even once more” in negative sentences, not a simple request to repeat.
+  - answer: もう一つ
+    toast: |-
+      This means “one more (thing/item)”.
+      It’s for adding an extra item, not repeating an action.
+- id: g-15-plan
+  prompt: schedule; plan
+  answer: 予定
+  hint: yotei — a planned schedule/appointment (e.g., 予定がある “I have plans”).
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 計画
+    toast: |-
+      That's “plan” in the sense of a scheme/project.
+      More like making a plan, not an appointment on your calendar.
+  - answer: 予報
+    toast: |-
+      That's “forecast” (like weather).
+      This one is about predicting, not planning.
+  - answer: 約束
+    toast: |-
+      That's a “promise/appointment.”
+      It emphasizes an agreement with someone, not your overall schedule.
+- id: g-15-reserve
+  prompt: to reserve
+  answer: 予約する
+  hint: yoyaku suru — use for booking/reserving (hotel, seat, appointment).
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 約束する
+    toast: |-
+      That's "to promise" (make an agreement).
+      Used for keeping a promise, not booking a seat/room.
+  - answer: 予約
+    toast: |-
+      That's the noun form "reservation/booking."
+      The prompt expects the verb form with する.
+  - answer: 注文する
+    toast: |-
+      That's "to order" (food/items).
+      Used when placing an order, not booking in advance.
+- id: g-15-ryokan
+  prompt: Japanese inn
+  answer: 旅館
+  hint: ryokan — traditional Japanese lodging (often with tatami rooms and meals)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 旅客
+    toast: |-
+      That means "traveler/passenger"!
+      Look for the lodging-related kanji (building/inn), not the guest/customer kanji.
+  - answer: ホテル
+    toast: |-
+      That's "hotel" in katakana!
+      The prompt is asking for the traditional Japanese-style inn word.
+  - answer: 旅費
+    toast: |-
+      That means "travel expenses"!
+      This one ends with the kanji for "cost/fee," not a place to stay.
+- id: g-15-youth
+  prompt: young people
+  answer: 若者
+  hint: wakamono (わかもの) — often refers to youth as a group (e.g., 若者たち)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 若い
+    toast: |-
+      That's the adjective "young"!
+      The prompt is asking for "young people" as a noun.
+  - answer: 青年
+    toast: |-
+      That's "youth/young man" and sounds more formal.
+      This term often refers to a narrower age group.
+  - answer: 大人
+    toast: |-
+      That's "adult" (the opposite meaning).
+      Check that you're writing the word for youth, not adulthood.
+- id: g-15-coupon
+  prompt: discount coupon
+  answer: 割引券
+  hint: waribikiken — 割(わ) = split/discount, 引(ひ) = pull/reduce, 券(けん) = ticket/coupon
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answer: 割引
+    toast: |-
+      This means a discount (price reduction), not a coupon.
+      No ticket/coupon character at the end.
+  - answer: 商品券
+    toast: |-
+      This is a gift voucher.
+      Used like store credit, not a price-off coupon.
+  - answer: 回数券
+    toast: |-
+      This is a book of multiple-use tickets.
+      Used for rides/visits, not a discount coupon.
