@@ -2,8 +2,10 @@
 
 id: g_13
 name: "Genki Chapter 13"
+status: locked
 requires:
   - g_12
+supercedes: []
 
 ids:
   - g-13-depo

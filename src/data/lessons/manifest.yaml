@@ -6,16 +6,16 @@ packs:
     description: Learn hiragana row by row
     category: hiragana
     files:
-      - lesson_h_a.yaml
-      - lesson_h_ka.yaml
-      - lesson_h_all.yaml
+      - hiragana/lesson_h_a.yaml
+      - hiragana/lesson_h_ka.yaml
+      - hiragana/lesson_h_all.yaml
 
   - id: katakana
     name: Katakana Lessons
     description: Learn katakana
     category: katakana
     files:
-      - lesson_k_all.yaml
+      - katakana/lesson_k_all.yaml
 
   - id: genki
     name: Genki Textbook

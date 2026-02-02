@@ -3,6 +3,7 @@
 
 id: h_all
 name: "All Hiragana"
+status: available
 requires:
 supercedes:
   - h_a

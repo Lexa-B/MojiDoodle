@@ -3,7 +3,25 @@
 
 id: k_all
 name: "All Katakana"
+status: available
 requires: []
+supercedes:
+  - k_a
+  - k_ka
+  - k_sa
+  - k_ta
+  - k_na
+  - k_ha
+  - k_ma
+  - k_ya
+  - k_ra
+  - k_wa
+  - k_n
+  - k_ga
+  - k_za
+  - k_da
+  - k_ba
+  - k_pa
 
 ids:
   # A row (ア行)

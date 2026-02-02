@@ -2,8 +2,10 @@
 
 id: g_21
 name: "Genki Chapter 21"
+status: locked
 requires:
   - g_20
+supercedes: []
 
 ids:
   - g-21-anzen

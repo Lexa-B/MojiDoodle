@@ -2,8 +2,10 @@
 
 id: g_12
 name: "Genki Chapter 12"
+status: locked
 requires:
   - g_11
+supercedes: []
 
 ids:
   - g-12-amai

@@ -2,8 +2,10 @@
 
 id: g_20
 name: "Genki Chapter 20"
+status: locked
 requires:
   - g_19
+supercedes: []
 
 ids:
   - g-20-achira

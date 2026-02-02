@@ -3,8 +3,10 @@
 
 id: h_ka
 name: "Hiragana か行"
+status: locked
 requires:
   - h_a
+supercedes: []
 
 ids:
   - h-ka

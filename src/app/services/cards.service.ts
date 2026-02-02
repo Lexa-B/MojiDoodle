@@ -270,135 +270,148 @@ export class CardsService {
     await this.buildLessons();
   }
 
+  private async loadLessonManifest(): Promise<Array<{ id: string; category: string; files: string[] }>> {
+    const packs: Array<{ id: string; category: string; files: string[] }> = [];
+
+    try {
+      const response = await fetch(`${getBaseUrl()}data/lessons/manifest.yaml`);
+      if (!response.ok) return packs;
+
+      const yaml = await response.text();
+      let current: { id: string; category: string; files: string[] } | null = null;
+      let inFiles = false;
+
+      for (const line of yaml.split('\n')) {
+        const trimmed = line.trim();
+        if (!trimmed || trimmed.startsWith('#')) continue;
+
+        if (trimmed.startsWith('- id:')) {
+          if (current) packs.push(current);
+          current = { id: trimmed.split(':')[1].trim(), category: '', files: [] };
+          inFiles = false;
+          continue;
+        }
+
+        if (!current) continue;
+
+        if (trimmed.startsWith('category:')) {
+          current.category = trimmed.split(':')[1].trim();
+        } else if (trimmed === 'files:') {
+          inFiles = true;
+        } else if (inFiles && trimmed.startsWith('- ')) {
+          current.files.push(trimmed.slice(2).trim());
+        } else if (!trimmed.startsWith('-') && trimmed.includes(':')) {
+          inFiles = false;
+        }
+      }
+
+      if (current) packs.push(current);
+      console.log(`Loaded ${packs.length} lesson packs from manifest`);
+    } catch (err) {
+      console.warn('Failed to load lesson manifest:', err);
+    }
+
+    return packs;
+  }
+
   private async buildLessons(): Promise<void> {
     if (!this.db) return;
 
     try {
-      // Load lessons index
-      const indexResponse = await fetch(`${getBaseUrl()}data/lessons/lessons.yaml`);
-      if (!indexResponse.ok) return;
+      // Load lesson packs from manifest
+      const packs = await this.loadLessonManifest();
 
-      const indexYaml = await indexResponse.text();
-      const lessonEntries = this.parseLessonsIndex(indexYaml);
+      for (const pack of packs) {
+        for (const file of pack.files) {
+          try {
+            const response = await fetch(`${getBaseUrl()}data/lessons/${file}`);
+            if (!response.ok) continue;
 
-      for (const entry of lessonEntries) {
-        // Insert lesson
-        this.db.run(
-          'INSERT INTO lessons (id, name, status, original_status, reset_by) VALUES (?, ?, ?, ?, ?)',
-          [entry.id, entry.name, entry.status, entry.status, entry.resetBy || null]
-        );
+            const yaml = await response.text();
+            const lessonData = this.parseLessonFile(yaml);
 
-        // Insert requires
-        for (const reqId of entry.requires) {
-          this.db.run(
-            'INSERT INTO lesson_requires (lesson_id, required_lesson_id) VALUES (?, ?)',
-            [entry.id, reqId]
-          );
+            // Insert lesson (use pack.category as reset_by)
+            this.db.run(
+              'INSERT INTO lessons (id, name, status, original_status, reset_by) VALUES (?, ?, ?, ?, ?)',
+              [lessonData.id, lessonData.name, lessonData.status, lessonData.status, pack.category]
+            );
+
+            // Insert requires
+            for (const reqId of lessonData.requires) {
+              this.db.run(
+                'INSERT INTO lesson_requires (lesson_id, required_lesson_id) VALUES (?, ?)',
+                [lessonData.id, reqId]
+              );
+            }
+
+            // Insert card IDs
+            for (const cardId of lessonData.ids) {
+              this.db.run(
+                'INSERT OR IGNORE INTO lesson_cards (lesson_id, card_id) VALUES (?, ?)',
+                [lessonData.id, cardId]
+              );
+            }
+
+            // Insert supercedes relationships
+            for (const supercededId of lessonData.supercedes) {
+              this.db.run(
+                'INSERT OR IGNORE INTO lesson_supercedes (lesson_id, superceded_lesson_id) VALUES (?, ?)',
+                [lessonData.id, supercededId]
+              );
+            }
+
+            console.log(`Loaded lesson ${lessonData.id} with ${lessonData.ids.length} cards`);
+          } catch (err) {
+            console.warn(`Failed to load lesson ${file}:`, err);
+          }
         }
-
-        // Load and insert card IDs from lesson file
-        const fileResponse = await fetch(`${getBaseUrl()}data/lessons/${entry.file}`);
-        if (!fileResponse.ok) continue;
-
-        const fileYaml = await fileResponse.text();
-        const lessonData = this.parseLessonFile(fileYaml);
-
-        for (const cardId of lessonData.ids) {
-          this.db.run(
-            'INSERT OR IGNORE INTO lesson_cards (lesson_id, card_id) VALUES (?, ?)',
-            [entry.id, cardId]
-          );
-        }
-
-        // Insert supercedes relationships
-        for (const supercededId of lessonData.supercedes) {
-          this.db.run(
-            'INSERT OR IGNORE INTO lesson_supercedes (lesson_id, superceded_lesson_id) VALUES (?, ?)',
-            [entry.id, supercededId]
-          );
-        }
-
-        console.log(`Loaded lesson ${entry.id} with ${lessonData.ids.length} cards`);
       }
     } catch (err) {
       console.warn('Failed to load lessons:', err);
     }
   }
 
-  private parseLessonsIndex(yaml: string): Array<{ id: string; name: string; file: string; status: string; resetBy: string; requires: string[] }> {
-    const lessons: Array<{ id: string; name: string; file: string; status: string; resetBy: string; requires: string[] }> = [];
-    let current: { id: string; name: string; file: string; status: string; resetBy: string; requires: string[] } | null = null;
-    let inRequires = false;
-
-    for (const line of yaml.split('\n')) {
-      const trimmed = line.trim();
-      if (!trimmed || trimmed.startsWith('#')) continue;
-
-      if (trimmed.startsWith('- id:')) {
-        if (current) lessons.push(current);
-        current = { id: '', name: '', file: '', status: 'locked', resetBy: '', requires: [] };
-        const match = trimmed.match(/^- id:\s*(.+)$/);
-        if (match) current.id = match[1];
-        inRequires = false;
-        continue;
-      }
-
-      if (!current) continue;
-
-      const propMatch = trimmed.match(/^([\w-]+):\s*(.*)$/);
-      if (propMatch) {
-        const [, key, value] = propMatch;
-        if (key === 'name') {
-          current.name = value.replace(/^["']|["']$/g, '');
-        } else if (key === 'file') {
-          current.file = value;
-        } else if (key === 'status') {
-          current.status = value;
-        } else if (key === 'reset-by') {
-          current.resetBy = value;
-        } else if (key === 'requires') {
-          inRequires = value !== '[]';
-          if (value === '[]') current.requires = [];
-        }
-        continue;
-      }
-
-      if (inRequires && trimmed.startsWith('- ')) {
-        current.requires.push(trimmed.slice(2).trim());
-      }
-    }
-
-    if (current) lessons.push(current);
-    return lessons;
-  }
-
-  private parseLessonFile(yaml: string): { ids: string[]; supercedes: string[] } {
+  private parseLessonFile(yaml: string): { id: string; name: string; status: string; requires: string[]; ids: string[]; supercedes: string[] } {
+    let id = '';
+    let name = '';
+    let status = 'locked';
+    const requires: string[] = [];
     const ids: string[] = [];
     const supercedes: string[] = [];
-    let currentSection: 'none' | 'ids' | 'supercedes' = 'none';
+    let currentSection: 'none' | 'requires' | 'ids' | 'supercedes' = 'none';
 
     for (const line of yaml.split('\n')) {
       const trimmed = line.trim();
       if (!trimmed || trimmed.startsWith('#')) continue;
 
-      if (trimmed === 'ids:') {
-        currentSection = 'ids';
-        continue;
-      }
-      if (trimmed === 'supercedes:') {
-        currentSection = 'supercedes';
-        continue;
-      }
-
-      // Check if we hit a new top-level key
-      if (!trimmed.startsWith('-') && trimmed.includes(':')) {
-        currentSection = 'none';
+      // Parse top-level scalar fields
+      const propMatch = trimmed.match(/^([\w-]+):\s*(.*)$/);
+      if (propMatch && !trimmed.startsWith('-')) {
+        const [, key, value] = propMatch;
+        if (key === 'id') {
+          id = value;
+          currentSection = 'none';
+        } else if (key === 'name') {
+          name = value.replace(/^["']|["']$/g, '');
+          currentSection = 'none';
+        } else if (key === 'status') {
+          status = value;
+          currentSection = 'none';
+        } else if (key === 'requires') {
+          currentSection = value === '[]' ? 'none' : 'requires';
+        } else if (key === 'ids') {
+          currentSection = 'ids';
+        } else if (key === 'supercedes') {
+          currentSection = value === '[]' ? 'none' : 'supercedes';
+        }
         continue;
       }
 
       if (trimmed.startsWith('- ')) {
         const value = trimmed.slice(2).trim();
-        if (currentSection === 'ids') {
+        if (currentSection === 'requires') {
+          requires.push(value);
+        } else if (currentSection === 'ids') {
           ids.push(value);
         } else if (currentSection === 'supercedes') {
           supercedes.push(value);
@@ -406,7 +419,7 @@ export class CardsService {
       }
     }
 
-    return { ids, supercedes };
+    return { id, name, status, requires, ids, supercedes };
   }
 
   private parseYaml(content: string): Partial<Card>[] {

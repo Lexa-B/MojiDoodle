@@ -2,8 +2,10 @@
 
 id: g_04
 name: "Genki Chapter 4"
+status: locked
 requires:
   - g_03
+supercedes: []
 
 ids:
   - g-04-between

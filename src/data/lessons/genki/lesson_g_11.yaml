@@ -2,8 +2,10 @@
 
 id: g_11
 name: "Genki Chapter 11"
+status: locked
 requires:
   - g_10
+supercedes: []
 
 ids:
   - g-11-outdoor

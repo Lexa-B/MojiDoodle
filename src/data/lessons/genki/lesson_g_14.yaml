@@ -2,8 +2,10 @@
 
 id: g_14
 name: "Genki Chapter 14"
+status: locked
 requires:
   - g_13
+supercedes: []
 
 ids:
   - g-14-aisu

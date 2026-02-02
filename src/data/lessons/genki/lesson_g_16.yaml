@@ -2,8 +2,10 @@
 
 id: g_16
 name: "Genki Chapter 16"
+status: locked
 requires:
   - g_15
+supercedes: []
 
 ids:
   - g-16-iron

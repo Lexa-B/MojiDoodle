@@ -3,7 +3,9 @@
 
 id: h_a
 name: "Hiragana あ行"
+status: available
 requires: []
+supercedes: []
 
 ids:
   - h-a

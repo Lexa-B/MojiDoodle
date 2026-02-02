@@ -2,8 +2,10 @@
 
 id: g_22
 name: "Genki Chapter 22"
+status: locked
 requires:
   - g_21
+supercedes: []
 
 ids:
   - g-22-aikawa

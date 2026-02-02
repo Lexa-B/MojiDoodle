@@ -2,8 +2,10 @@
 
 id: g_15
 name: "Genki Chapter 15"
+status: locked
 requires:
   - g_14
+supercedes: []
 
 ids:
   - g-15-allday

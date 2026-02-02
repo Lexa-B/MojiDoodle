@@ -2,7 +2,9 @@
 
 id: g_00
 name: "Genki Chapter 0"
-requires:[]
+status: available
+requires: []
+supercedes: []
 
 ids:
   - g-00-thanks

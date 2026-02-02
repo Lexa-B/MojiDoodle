@@ -2,8 +2,10 @@
 
 id: g_23
 name: "Genki Chapter 23"
+status: locked
 requires:
   - g_22
+supercedes: []
 
 ids:
   - g-23-aisatsu

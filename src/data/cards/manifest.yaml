@@ -6,14 +6,14 @@ packs:
     description: The 46 basic hiragana characters
     category: hiragana
     files:
-      - hiragana.yaml
+      - hiragana/hiragana.yaml
 
   - id: katakana
     name: Katakana
     description: The 46 basic katakana characters
     category: katakana
     files:
-      - katakana.yaml
+      - katakana/katakana.yaml
 
   - id: kanji
     name: Kanji
