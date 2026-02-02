@@ -1,0 +1,16 @@
+# Hiragana ら Row
+# ra, ri, ru, re, ro
+
+id: h_ra
+name: "Hiragana ら Row"
+status: locked
+requires:
+  - h_ya
+supercedes: []
+
+ids:
+  - h-ra
+  - h-ri
+  - h-ru
+  - h-re
+  - h-ro

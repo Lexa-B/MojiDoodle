@@ -1,0 +1,16 @@
+# Hiragana た Row
+# ta, chi, tsu, te, to
+
+id: h_ta
+name: "Hiragana た Row"
+status: locked
+requires:
+  - h_sa
+supercedes: []
+
+ids:
+  - h-ta
+  - h-chi
+  - h-tsu
+  - h-te
+  - h-to

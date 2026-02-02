@@ -2,7 +2,7 @@
 # Complete hiragana set including dakuten and handakuten
 
 id: h_all
-name: "All Hiragana"
+name: "All Hiragana (everything at once)"
 status: available
 requires:
 supercedes:

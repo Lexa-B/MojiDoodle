@@ -1,8 +1,8 @@
-# Hiragana か行
+# Hiragana か Row
 # Complete hiragana set including dakuten and handakuten
 
 id: h_ka
-name: "Hiragana か行"
+name: "Hiragana か Row"
 status: locked
 requires:
   - h_a

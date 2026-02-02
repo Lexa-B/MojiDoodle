@@ -2,7 +2,7 @@
 # Complete katakana set including dakuten and handakuten
 
 id: k_all
-name: "All Katakana"
+name: "All Katakana (everything at once)"
 status: available
 requires: []
 supercedes:

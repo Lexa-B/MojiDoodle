@@ -1,0 +1,16 @@
+# Katakana ダ Row (Dakuten)
+# da, di, du, de, do
+
+id: k_da
+name: "Katakana ダ Row"
+status: locked
+requires:
+  - k_za
+supercedes: []
+
+ids:
+  - k-da
+  - k-di
+  - k-du
+  - k-de
+  - k-do

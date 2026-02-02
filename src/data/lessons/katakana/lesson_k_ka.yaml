@@ -1,0 +1,16 @@
+# Katakana カ Row
+# ka, ki, ku, ke, ko
+
+id: k_ka
+name: "Katakana カ Row"
+status: locked
+requires:
+  - k_a
+supercedes: []
+
+ids:
+  - k-ka
+  - k-ki
+  - k-ku
+  - k-ke
+  - k-ko

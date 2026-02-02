@@ -8,13 +8,43 @@ packs:
     files:
       - hiragana/lesson_h_a.yaml
       - hiragana/lesson_h_ka.yaml
+      - hiragana/lesson_h_sa.yaml
+      - hiragana/lesson_h_ta.yaml
+      - hiragana/lesson_h_na.yaml
+      - hiragana/lesson_h_ha.yaml
+      - hiragana/lesson_h_ma.yaml
+      - hiragana/lesson_h_ya.yaml
+      - hiragana/lesson_h_ra.yaml
+      - hiragana/lesson_h_wa.yaml
+      - hiragana/lesson_h_n.yaml
+      - hiragana/lesson_h_ga.yaml
+      - hiragana/lesson_h_za.yaml
+      - hiragana/lesson_h_da.yaml
+      - hiragana/lesson_h_ba.yaml
+      - hiragana/lesson_h_pa.yaml
       - hiragana/lesson_h_all.yaml
 
   - id: katakana
     name: Katakana Lessons
-    description: Learn katakana
+    description: Learn katakana row by row
     category: katakana
     files:
+      - katakana/lesson_k_a.yaml
+      - katakana/lesson_k_ka.yaml
+      - katakana/lesson_k_sa.yaml
+      - katakana/lesson_k_ta.yaml
+      - katakana/lesson_k_na.yaml
+      - katakana/lesson_k_ha.yaml
+      - katakana/lesson_k_ma.yaml
+      - katakana/lesson_k_ya.yaml
+      - katakana/lesson_k_ra.yaml
+      - katakana/lesson_k_wa.yaml
+      - katakana/lesson_k_n.yaml
+      - katakana/lesson_k_ga.yaml
+      - katakana/lesson_k_za.yaml
+      - katakana/lesson_k_da.yaml
+      - katakana/lesson_k_ba.yaml
+      - katakana/lesson_k_pa.yaml
       - katakana/lesson_k_all.yaml
 
   - id: genki
