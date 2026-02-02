@@ -2,8 +2,10 @@
 
 id: g_08
 name: "Genki Chapter 8"
+status: locked
 requires:
   - g_07
+supercedes: []
 
 ids:
   - g-08-ato

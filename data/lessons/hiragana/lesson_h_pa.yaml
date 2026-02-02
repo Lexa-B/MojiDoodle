@@ -1,0 +1,16 @@
+# Hiragana ぱ Row (Handakuten)
+# pa, pi, pu, pe, po
+
+id: h_pa
+name: "Hiragana ぱ Row"
+status: locked
+requires:
+  - h_ba
+supercedes: []
+
+ids:
+  - h-pa
+  - h-pi
+  - h-pu
+  - h-pe
+  - h-po

@@ -1,0 +1,13 @@
+# Katakana ワ Row
+# wa, wo
+
+id: k_wa
+name: "Katakana ワ Row"
+status: locked
+requires:
+  - k_ra
+supercedes: []
+
+ids:
+  - k-wa
+  - k-wo

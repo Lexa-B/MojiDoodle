@@ -2,8 +2,26 @@
 # Complete katakana set including dakuten and handakuten
 
 id: k_all
-name: "All Katakana"
+name: "All Katakana (everything at once)"
+status: available
 requires: []
+supercedes:
+  - k_a
+  - k_ka
+  - k_sa
+  - k_ta
+  - k_na
+  - k_ha
+  - k_ma
+  - k_ya
+  - k_ra
+  - k_wa
+  - k_n
+  - k_ga
+  - k_za
+  - k_da
+  - k_ba
+  - k_pa
 
 ids:
   # A row (ア行)

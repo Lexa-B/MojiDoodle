@@ -1,0 +1,14 @@
+# Hiragana や Row
+# ya, yu, yo
+
+id: h_ya
+name: "Hiragana や Row"
+status: locked
+requires:
+  - h_ma
+supercedes: []
+
+ids:
+  - h-ya
+  - h-yu
+  - h-yo

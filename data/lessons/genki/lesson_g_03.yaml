@@ -2,8 +2,10 @@
 
 id: g_03
 name: "Genki Chapter 3"
+status: locked
 requires:
   - g_02
+supercedes: []
 
 ids:
   - g-03-ice

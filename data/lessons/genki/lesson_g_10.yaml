@@ -2,8 +2,10 @@
 
 id: g_10
 name: "Genki Chapter 10"
+status: locked
 requires:
   - g_09
+supercedes: []
 
 ids:
   - g-10-aki

@@ -2,8 +2,10 @@
 # The vowels: A, I, U, E, O
 
 id: h_a
-name: "Hiragana あ行"
+name: "Hiragana あ Row"
+status: available
 requires: []
+supercedes: []
 
 ids:
   - h-a

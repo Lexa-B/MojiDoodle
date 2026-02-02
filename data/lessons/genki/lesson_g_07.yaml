@@ -2,8 +2,10 @@
 
 id: g_07
 name: "Genki Chapter 7"
+status: locked
 requires:
   - g_06
+supercedes: []
 
 ids:
   - g-07-ashi

@@ -2,8 +2,10 @@
 
 id: g_06
 name: "Genki Chapter 6"
+status: locked
 requires:
   - g_05
+supercedes: []
 
 ids:
   - g-06-akeru

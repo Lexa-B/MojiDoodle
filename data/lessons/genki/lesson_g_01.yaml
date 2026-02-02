@@ -2,8 +2,10 @@
 
 id: g_01
 name: "Genki Chapter 1"
+status: locked
 requires:
   - g_00
+supercedes: []
 
 ids:
   - g-01-asia-ken

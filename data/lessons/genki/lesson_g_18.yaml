@@ -2,8 +2,10 @@
 
 id: g_18
 name: "Genki Chapter 18"
+status: locked
 requires:
   - g_17
+supercedes: []
 
 ids:
   - g-18-akarui

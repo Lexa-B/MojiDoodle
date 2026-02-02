@@ -2,8 +2,10 @@
 
 id: g_19
 name: "Genki Chapter 19"
+status: locked
 requires:
   - g_18
+supercedes: []
 
 ids:
   - g-19-ikaga

@@ -2,8 +2,10 @@
 
 id: g_17
 name: "Genki Chapter 17"
+status: locked
 requires:
   - g_16
+supercedes: []
 
 ids:
   - g-17-akachan
