@@ -1,6 +1,7 @@
 - id: g-19-ikaga
   prompt: how (polite expression of どう)
-  answer: いかが
+  answers:
+    - いかが
   hint: ikaga — polite “how about…?/how is…?” (e.g., いかがですか)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -19,7 +20,8 @@
       Watch the last kana: it’s だ (with dakuten), not the one without.
 - id: g-19-irassha
   prompt: Honorific expression for いく, くる, and いる
-  answer: いらっしゃる
+  answers:
+    - いらっしゃる
   hint: irassharu - honorific (sonkeigo) for 行く/来る/いる; often used for someone of higher
     status (e.g., 先生はいらっしゃいますか).
   stage: -1
@@ -39,7 +41,8 @@
       The prompt asks for an honorific form used for the other person's actions/existence.
 - id: g-19-ukeru
   prompt: to take (an examination)
-  answer: 受ける
+  answers:
+    - 受ける
   hint: ukeru — used for taking/receiving something like an exam (試験を受ける).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -58,7 +61,8 @@
       For exams, the common verb is the one meaning "to receive."
 - id: g-19-enryo
   prompt: to hold back for the time being; to refrain from
-  answer: 遠慮する
+  answers:
+    - 遠慮する
   hint: enryo suru — to refrain/hold back out of consideration or politeness (e.g.,
     遠慮します = “No thanks / I’ll pass”).
   stage: -1
@@ -78,7 +82,8 @@
       Used when formally turning something down, rather than simply hesitating or holding back.
 - id: g-19-okusama
   prompt: (your/someone’s) wife (polite)
-  answer: 奥様
+  answers:
+    - 奥様
   hint: 'okusama — polite/honorific; used for someone else’s wife (not your own).
     Often preceded by お: お奥様'
   stage: -1
@@ -98,7 +103,8 @@
       This prompt is the everyday polite term used in conversation.
 - id: g-19-okuru
   prompt: to walk/drive (someone)
-  answer: 送る
+  answers:
+    - 送る
   hint: okuru — to see someone off / accompany (e.g., 駅まで送る "walk/drive someone to
     the station")
   stage: -1
@@ -118,7 +124,8 @@
       This is going to meet someone, not seeing them off.
 - id: g-19-okosan
   prompt: (your/someone’s) child (polite)
-  answer: お子さん
+  answers:
+    - お子さん
   hint: okosan — polite form; often used when talking about someone else’s child (e.g.,
     お子さんはおいくつですか).
   stage: -1
@@ -138,7 +145,8 @@
       The prompt is a polite noun with an honorific prefix and suffix.
 - id: g-19-osewa
   prompt: to be in someone’s care
-  answer: お世話になる
+  answers:
+    - お世話になる
   hint: osewa ni naru - polite phrase meaning “to receive someone’s help/care” (e.g.,
     いろいろお世話になりました).
   stage: -1
@@ -158,7 +166,8 @@
       It’s used when thanking someone for help you already received.
 - id: g-19-ossharu
   prompt: Honorific expression for "to say" (いう)
-  answer: おっしゃる
+  answers:
+    - おっしゃる
   hint: ossharu — respectful (honorific) form of いう; often used for someone of higher
     status (e.g., 先生がおっしゃった).
   stage: -1
@@ -178,7 +187,8 @@
       This is a longer phrase and more like "to talk" than the specific verb requested.
 - id: g-19-omoidas
   prompt: to recall
-  answer: 思い出す
+  answers:
+    - 思い出す
   hint: omoidasu — to remember something that comes back to you (思い出 = memory) + 出す
     = bring out
   stage: -1
@@ -198,7 +208,8 @@
       This is general thinking/feeling, not specifically remembering something from the past.
 - id: g-19-oyasumi
   prompt: Honorific expression for “to sleep”
-  answer: お休みになる
+  answers:
+    - お休みになる
   hint: oyasumi ni naru - respectful (honorific) way to say ねる (used for someone of
     higher status)
   stage: -1
@@ -218,7 +229,8 @@
       The prompt is specifically the honorific expression for “to sleep.”
 - id: g-19-orei
   prompt: expression of gratitude
-  answer: お礼
+  answers:
+    - お礼
   hint: orei — often used for thanks or a small return gift (e.g., お礼を言う / お礼の品)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -237,7 +249,8 @@
       This prompt is about thanking someone, not celebrating an event.
 - id: g-19-kakeru
   prompt: To sit down
-  answer: かける
+  answers:
+    - かける
   hint: 'kakeru — polite/formal sense: sit down (esp. on a chair) as in 腰をかける'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -252,7 +265,8 @@
       This verb has many meanings (to hang, to put on, to call, etc.). Here it specifically means "to sit down" (often with 腰を…).
 - id: g-19-kimaru
   prompt: to be decided
-  answer: 決まる
+  answers:
+    - 決まる
   hint: 'kimaru — intransitive: "be decided" (e.g., 予定が決まる). Often paired with 決める
     (transitive).'
   stage: -1
@@ -272,7 +286,8 @@
       Use the usual okurigana to match standard writing.
 - id: g-19-kudasaru
   prompt: Honorific expression for くれる (to give to me/us)
-  answer: 下さる
+  answers:
+    - 下さる
   hint: kudasaru — honorific "to give" used for someone of higher status (e.g., 先生が本を下さった).
     Often seen as ～てくださる.
   stage: -1
@@ -292,7 +307,8 @@
       Same kanji can appear, but the meaning and okurigana are different.
 - id: g-19-keigo
   prompt: honorific language
-  answer: 敬語
+  answers:
+    - 敬語
   hint: keigo — polite/honorific speech used to show respect (尊敬語・謙譲語・丁寧語)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -311,7 +327,8 @@
       It's a subtype, not the whole concept.
 - id: g-19-kokusai
   prompt: international
-  answer: 国際
+  answers:
+    - 国際
   hint: 'kokusai — often used in compounds: 国際会議 (international conference), 国際線 (international
     flight)'
   stage: -1
@@ -331,7 +348,8 @@
       It’s broader and not specifically about relations between countries.
 - id: g-19-gochi
   prompt: to treat/invite (someone) to a meal
-  answer: ごちそうする
+  answers:
+    - ごちそうする
   hint: 'gochisou suru - treat someone to food (often marked with を: 友だちにごちそうする)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -350,7 +368,8 @@
       This prompt is specifically about treating someone to a meal.
 - id: g-19-kochira
   prompt: this way (polite)
-  answer: こちら
+  answers:
+    - こちら
   hint: kochira - polite "this way/this (side)"; often used for directions or "this
     person" in formal speech
   stage: -1
@@ -370,7 +389,8 @@
       This prompt is for something near the speaker.
 - id: g-19-goran
   prompt: Honorific expression for "to see / to look" (polite "みる")
-  answer: ご覧になる
+  answers:
+    - ご覧になる
   hint: goran ni naru — honorific (尊敬語) for みる; used when the subject is the listener/superior
     (e.g., 先生がご覧になりました).
   stage: -1
@@ -390,7 +410,8 @@
       It doesn't specifically mark honorific speech.
 - id: g-19-shurui
   prompt: a kind; a sort
-  answer: 種類
+  answers:
+    - 種類
   hint: shurui — used for categories/types (e.g., 種類が多い = there are many kinds)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -409,7 +430,8 @@
       It’s an expression meaning things are separated into categories.
 - id: g-19-shogi
   prompt: Japanese chess
-  answer: しょうぎ
+  answers:
+    - しょうぎ
   hint: shougi (shogi) - a traditional Japanese strategy board game
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -428,7 +450,8 @@
       Different pieces and rules from the game in the prompt.
 - id: g-19-shosho
   prompt: a few seconds
-  answer: 少々
+  answers:
+    - 少々
   hint: shoushou — polite/soft way to say “just a moment” (e.g., 少々お待ちください).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -447,7 +470,8 @@
       It suggests a longer time than just a few seconds.
 - id: g-19-shotai
   prompt: to invite someone (to an event/a place)
-  answer: 招待する
+  answers:
+    - 招待する
   hint: shoutai suru — invite (often to an event/place); 招待状 = invitation
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -466,7 +490,8 @@
       It’s about presenting a person/thing, not inviting someone to an event or place.
 - id: g-19-shiriau
   prompt: to get acquainted with
-  answer: 知り合う
+  answers:
+    - 知り合う
   hint: 'shiria(u) - to come to know someone (often: 知り合いになる)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -485,7 +510,8 @@
       The prompt involves a mutual relationship (getting acquainted with someone).
 - id: g-19-seikaku
   prompt: personality
-  answer: 性格
+  answers:
+    - 性格
   hint: seikaku — a person's character/temperament (e.g., 性格がいい = has a good personality)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -504,7 +530,8 @@
       This uses the same first kanji, but the meaning is different.
 - id: g-19-sorede
   prompt: then; therefore
-  answer: それで
+  answers:
+    - それで
   hint: sore de — used to continue from what was just said ("and then..." / "so...")
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -523,7 +550,8 @@
       It adds another point rather than moving to a result.
 - id: g-19-soredewa
   prompt: well then
-  answer: それでは
+  answers:
+    - それでは
   hint: 'sore dewa — used to transition or conclude (e.g., leaving or starting next
     topic): 「それでは、また。」'
   stage: -1
@@ -543,7 +571,8 @@
       The prompt is only asking for the standalone transition, not the full farewell.
 - id: g-19-taisetsu
   prompt: to take good care of
-  answer: 大切にする
+  answers:
+    - 大切にする
   hint: taisetsu ni suru — treat (someone/something) as important; often used with
     を (e.g., 物を大切にする)
   stage: -1
@@ -563,7 +592,8 @@
       The prompt is a verb meaning to treat something carefully.
 - id: g-19-taihen
   prompt: greatly
-  answer: たいへん
+  answers:
+    - たいへん
   hint: taihen — often means “very/greatly” (e.g., たいへん うれしい = very happy)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -582,7 +612,8 @@
       The prompt expects the kana spelling, not kanji.
 - id: g-19-tatsu
   prompt: (time) pass
-  answer: たつ
+  answers:
+    - たつ
   hint: 'tatsu — used for time elapsing: 時がたつ (toki ga tatsu) = time passes'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -601,7 +632,8 @@
       Write only the word without punctuation.
 - id: g-19-chuu
   prompt: while . . . (during ~)
-  answer: ～中
+  answers:
+    - ～中
   hint: |-
     ～ちゅう (chuu) — suffix meaning “in the middle of / during.”
     Example: 会議中 = in a meeting
@@ -622,7 +654,8 @@
       Used for the exact moment something is happening.
 - id: g-19-chugaku
   prompt: junior high school student
-  answer: 中学生
+  answers:
+    - 中学生
   hint: chuugakusei (ちゅうがくせい) — 「中学」= junior high school + 「生」= student
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -641,7 +674,8 @@
       The first character means "big" (university), not "middle".
 - id: g-19-teirass
   prompt: Honorific expression for ～ている (someone respected is doing/being)
-  answer: ～ていらっしゃる
+  answers:
+    - ～ていらっしゃる
   hint: 'te irassharu - honorific progressive/state (used for others: 先生が読んでいらっしゃいます)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -660,7 +694,8 @@
       The prompt is about 'is doing/being' (progressive/state), not giving a favor.
 - id: g-19-denko
   prompt: electrical engineering
-  answer: 電気工学
+  answers:
+    - 電気工学
   hint: 'denki kougaku — 電気(denki: electricity)＋工学(kougaku: engineering). Used for
     the academic field/major.'
   stage: -1
@@ -680,7 +715,8 @@
       Different field: machines and mechanics, not electricity.
 - id: g-19-yoroshiku
   prompt: Thank you in advance.
-  answer: どうぞよろしくお願いします
+  answers:
+    - どうぞよろしくお願いします
   hint: douzo yoroshiku onegaishimasu — polite set phrase used when meeting someone,
     making a request, or starting work together
   stage: -1
@@ -700,7 +736,8 @@
       The prompt is about expressing gratitude/request ahead of time.
 - id: g-19-dochira
   prompt: where (polite)
-  answer: どちら
+  answers:
+    - どちら
   hint: dochira - polite "which way/where" (e.g., お手洗いはどちらですか)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -719,7 +756,8 @@
       It points to a place/thing instead of asking.
 - id: g-19-totsuzen
   prompt: suddenly
-  answer: 突然
+  answers:
+    - 突然
   hint: totsuzen — often used with と / に (e.g., 突然(と)雨が降った)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -738,7 +776,8 @@
       Write the base adverb form without extra particles.
 - id: g-19-nakayoi
   prompt: be on good/close terms; to get along well
-  answer: 仲がいい
+  answers:
+    - 仲がいい
   hint: nakagaii — used for people/relationships (e.g., 彼らは仲がいい).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -757,7 +796,8 @@
       This prompt is about the quality of the relationship (getting along), not quantity.
 - id: g-19-nasaru
   prompt: Honorific expression for する (to do)
-  answer: なさる
+  answers:
+    - なさる
   hint: |-
     nasaru - honorific 「する」 (used for the other person's actions)
     Example: 何をなさいますか。
@@ -778,7 +818,8 @@
       This prompt is for a special honorific verb form.
 - id: g-19-naze
   prompt: why
-  answer: なぜ
+  answers:
+    - なぜ
   hint: naze — used in questions (e.g., なぜですか = “Why?”)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -797,7 +838,8 @@
       Be careful: it starts with the same sound, but the ending is different.
 - id: g-19-natsuka
   prompt: to miss; to long for
-  answer: なつかしい
+  answers:
+    - なつかしい
   hint: natsukashii — used when something brings back fond memories (e.g., 懐かしい匂い
     “a nostalgic smell”).
   stage: -1
@@ -817,7 +859,8 @@
       Be sure to write the full い-adjective ending.
 - id: g-19-namake
   prompt: lazy person
-  answer: 怠け者
+  answers:
+    - 怠け者
   hint: namakemono — often used as an insult/joking label; 怠(ta)ける = to be lazy, 者(mono)
     = person
   stage: -1
@@ -837,7 +880,8 @@
       Not simply “lazy person.”
 - id: g-19-shokai
   prompt: through the introduction of
-  answer: ～の紹介で
+  answers:
+    - ～の紹介で
   hint: |-
     ～ no shōkai de
     Usage: Xの紹介で = “through/thanks to an introduction by X” (often used when meeting someone via a mutual contact).
@@ -858,7 +902,8 @@
       Not specifically about an introduction.
 - id: g-19-tame
   prompt: for . . . (for the sake of; in order to)
-  answer: ～のために
+  answers:
+    - ～のために
   hint: 'no tame ni — purpose/benefit (“for; for the sake of”). Often with a noun:
     家族のために (for my family). For goal-oriented actions, compare ～のために vs ～ように.'
   stage: -1
@@ -878,7 +923,8 @@
       It describes a cause/result, not doing something for a purpose.
 - id: g-19-hazukashi
   prompt: shy person
-  answer: 恥ずかしがり屋
+  answers:
+    - 恥ずかしがり屋
   hint: hazukashigariya — a person who tends to get embarrassed/shy easily; often
     used as 恥ずかしがり屋だ
   stage: -1
@@ -898,7 +944,8 @@
       This one is more about blushing/acting bashful than being generally shy.
 - id: g-19-hareru
   prompt: to become sunny
-  answer: 晴れる
+  answers:
+    - 晴れる
   hint: hareru — used for weather clearing up (雨がやんで晴れる). Intransitive ru-verb.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -915,7 +962,8 @@
       Same reading, but it's about swelling, not weather.
 - id: g-19-hikkosu
   prompt: to move (to another place to live)
-  answer: 引っ越す
+  answers:
+    - 引っ越す
   hint: hikkosu — moving house/relocating (引=pull, 越=go beyond). Often used with 引っ越し
     (noun).
   stage: -1
@@ -935,7 +983,8 @@
       Common in paperwork; different style and writing.
 - id: g-19-bucho
   prompt: department manager
-  answer: 部長
+  answers:
+    - 部長
   hint: 'buchou — a company title: head of a department (部). Often used with names:
     田中部長.'
   stage: -1
@@ -955,7 +1004,8 @@
       This refers to someone who works under a manager, not the manager.
 - id: g-19-hontou
   prompt: in fact; originally
-  answer: 本当は
+  answers:
+    - 本当は
   hint: 'hontou wa — often used to contrast appearance vs reality: 「本当は〜」 = “Actually,
     …”'
   stage: -1
@@ -975,7 +1025,8 @@
       It modifies a noun rather than setting up “Actually, …”.
 - id: g-19-maiasa
   prompt: every morning
-  answer: 毎朝
+  answers:
+    - 毎朝
   hint: maiasa — used for habitual actions (e.g., 毎朝コーヒーを飲む).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -994,7 +1045,8 @@
       The prompt is asking for the idea of "every" + morning.
 - id: g-19-mada
   prompt: still (not yet; remaining)
-  answer: まだ
+  answers:
+    - まだ
   hint: 'mada — often used with negative verbs: まだです / まだ〜ない (“not yet”)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1013,7 +1065,8 @@
       It often implies surprise that something continues.
 - id: g-19-machigai
   prompt: mistake
-  answer: 間違い
+  answers:
+    - 間違い
   hint: machigai — used for an error/mistake (e.g., 間違いです “That’s a mistake”).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1032,7 +1085,8 @@
       It refers to how things are not the same, not an error.
 - id: g-19-minasama
   prompt: everyone (polite expression of みなさん)
-  answer: みな様
+  answers:
+    - みな様
   hint: minasama - very polite address (e.g., お客様・皆様). More formal than みなさん.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1051,7 +1105,8 @@
       The prompt is asking for the more formal honorific version.
 - id: g-19-meisama
   prompt: party of . . . people (polite counter suffix)
-  answer: ～名様
+  answers:
+    - ～名様
   hint: |-
     …mei-sama
     Very polite suffix used with number + 名様 (e.g., 2名様 = party of two). Used for customers/guests.
@@ -1072,7 +1127,8 @@
       The polite ending here is different from the common name honorific.
 - id: g-19-meshiagaru
   prompt: Honorific expression for “to eat” / “to drink”
-  answer: 召し上がる
+  answers:
+    - 召し上がる
   hint: 'meshiagaru — 尊敬語。目上の人が「食べる／飲む」(例: 先生はもう召し上がりましたか)。'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1091,7 +1147,8 @@
       Here you need a respectful form describing the other person's action.
 - id: g-19-moushik
   prompt: application
-  answer: 申し込み
+  answers:
+    - 申し込み
   hint: moushikomi — often used for applications/registrations (e.g., event, membership,
     job)
   stage: -1
@@ -1111,7 +1168,8 @@
       This prompt is for a general registration/application term.
 - id: g-19-moushiwake
   prompt: You have my apologies.
-  answer: 申し訳ありません
+  answers:
+    - 申し訳ありません
   hint: moushiwake arimasen - very polite apology (often for serious inconvenience)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1130,7 +1188,8 @@
       This one is not the polite set phrase ending in "-arimasen".
 - id: g-19-moshitara
   prompt: 'if ... (conditional: if/when something happens)'
-  answer: もし～たら
+  answers:
+    - もし～たら
   hint: moshi ~ tara — put a past-ta form before たら (e.g., 行ったら = if/when (someone)
     goes). Often used for hypotheticals.
   stage: -1
@@ -1150,7 +1209,8 @@
       The prompt is the standard, shorter form.
 - id: g-19-moteru
   prompt: to be popular (in terms of romantic interest)
-  answer: もてる
+  answers:
+    - もてる
   hint: 'moteru — often used like: 彼は女の子にもてる (He’s popular with girls).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1169,7 +1229,8 @@
       The prompt is specifically about being attractive and getting romantic interest.
 - id: g-19-yujin
   prompt: friend
-  answer: 友人
+  answers:
+    - 友人
   hint: yuujin - slightly formal "friend" (often used in writing/speeches); more casual
     is 友だち (tomodachi).
   stage: -1
@@ -1189,7 +1250,8 @@
       Different relationship: romantic, not just friendship.
 - id: g-19-yokoso
   prompt: Welcome.
-  answer: ようこそ
+  answers:
+    - ようこそ
   hint: youkoso — greeting used to welcome someone (e.g., ようこそ日本へ)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1208,7 +1270,8 @@
       This prompt is for welcoming someone (not specifically returning home).
 - id: g-19-yobu
   prompt: to call (one’s name); to invite
-  answer: 呼ぶ
+  answers:
+    - 呼ぶ
   hint: yobu — call out someone’s name; invite someone (e.g., 友だちを呼ぶ)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1227,7 +1290,8 @@
       This focuses on loud voice, not calling someone or inviting them.
 - id: g-19-yoru2
   prompt: to stop by
-  answer: 寄る
+  answers:
+    - 寄る
   hint: yoru — to drop in/stop by on the way (often 寄っていく/寄ってみる)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1246,7 +1310,8 @@
       Different verb: this is about returning, not making a quick visit.
 - id: g-19-tsutae
   prompt: Please give my best regards (to . . . ).
-  answer: よろしくお伝えください
+  answers:
+    - よろしくお伝えください
   hint: yoroshiku otsutae kudasai — polite phrase used when asking someone to pass
     on your regards (e.g., 〜さんに).
   stage: -1

@@ -1,6 +1,7 @@
 - id: g-01-asia-ken
   prompt: Asian studies
-  answer: アジア研究
+  answers:
+    - アジア研究
   hint: ajia kenkyuu — academic field studying Asia; 「研究」= research/study
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -19,7 +20,8 @@
       It's missing the region/topic part and becomes a general term.
 - id: g-01-anou
   prompt: um . . .
-  answer: あのう
+  answers:
+    - あのう
   hint: anou — a polite filler used to get attention or soften what you say (often
     before a question/request)
   stage: -1
@@ -39,7 +41,8 @@
       The prompt expects the hiragana spelling, not the ー mark.
 - id: g-01-america
   prompt: U.S.A.
-  answer: アメリカ
+  answers:
+    - アメリカ
   hint: amerika (katakana) — country name; long vowel is not used here
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -58,7 +61,8 @@
       It adds the person suffix 人.
 - id: g-01-uk-igir
   prompt: Britain
-  answer: イギリス
+  answers:
+    - イギリス
   hint: igirisu (katakana) — country name; watch the small ィ after イ
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -77,7 +81,9 @@
       Not the European country in the prompt.
 - id: g-01-isha
   prompt: doctor
-  answer: 医者
+  answers:
+    - 医者
+    - いしゃ
   hint: isha — profession word; 医 = medicine, 者 = person (medical person)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -95,8 +101,10 @@
       That's not a standard word for "doctor".
       Be careful: the first kanji here means medicine/medical, not the one meaning drugs.
 - id: g-01-1ji
-  prompt: one o’clock
-  answer: 一時
+  prompt: one o'clock
+  answers:
+    - 一時
+    - いちじ
   hint: 'ichiji — time reading: 一時 = 1 o''clock (contrast: いちじ = ''one time/temporarily''
     depending on context)'
   stage: -1
@@ -116,7 +124,9 @@
       This adds 午後, specifying afternoon.
 - id: g-01-1nen
   prompt: first-year student
-  answer: 一年生
+  answers:
+    - 一年生
+    - いちねんせい
   hint: ichinensei — a student in their first year (e.g., 1st grade, or year 1 at
     school)
   stage: -1
@@ -136,7 +146,9 @@
       Different suffix is used than the standard school-year word.
 - id: g-01-1fun
   prompt: one minute
-  answer: 一分
+  answers:
+    - 一分
+    - いっぷん
   hint: ippun — used for time duration (1 minute). Pronunciation changes from いちふん
     to いっぷん.
   stage: -1
@@ -156,7 +168,9 @@
       Different time unit (日), not minutes.
 - id: g-01-ima
   prompt: now
-  answer: 今
+  answers:
+    - 今
+    - いま
   hint: ima — "right now" (often used with いまは = "as for now")
   strokeCount: 4
   stage: -1
@@ -176,7 +190,9 @@
       The bottom part is a boxed "mouth" shape, unlike the prompt’s kanji.
 - id: g-01-imouto
   prompt: younger sister
-  answer: 妹
+  answers:
+    - 妹
+    - いもうと
   hint: 'imouto — 8 strokes; the left side is 女 (woman), and the right side is 未 (not
     yet) as a mnemonic: “a girl not yet grown”'
   strokeCount: 8
@@ -197,7 +213,8 @@
       The prompt is for the plain family word without an honorific.
 - id: g-01-indo
   prompt: India
-  answer: インド
+  answers:
+    - インド
   hint: indo (katakana) — country name written in katakana
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -216,7 +233,8 @@
       人 adds the meaning "person" to the country name.
 - id: g-01-egypt
   prompt: Egypt
-  answer: エジプト
+  answers:
+    - エジプト
   hint: ejiputo (katakana) - country name; often written in katakana
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -235,7 +253,8 @@
       The prompt expects a country name in katakana, with straight/angular lines.
 - id: g-01-aussie
   prompt: Australia
-  answer: オーストラリア
+  answers:
+    - オーストラリア
   hint: |-
     Ōsutoraria (katakana)
     Long vowels: オー / スト / ラ / リ / ア
@@ -256,7 +275,9 @@
       Not a country name.
 - id: g-01-okaasan
   prompt: mother
-  answer: お母さん
+  answers:
+    - お母さん
+    - おかあさん
   hint: okaasan - polite/common way to say “mother” (someone else’s or when addressing
     your own).
   stage: -1
@@ -276,7 +297,9 @@
       Check the kanji: 母 (mother) vs 父 (father).
 - id: g-01-otousan
   prompt: father
-  answer: お父さん
+  answers:
+    - お父さん
+    - おとうさん
   hint: 'otousan - polite/affectionate “dad”; used when talking about someone else’s
     father (your own: 父/ちち)'
   stage: -1
@@ -296,7 +319,9 @@
       The prompt expects the kanji form if available.
 - id: g-01-otouto
   prompt: younger brother
-  answer: 弟
+  answers:
+    - 弟
+    - おとうと
   hint: otouto — family term; younger brother (you) is 弟, yours is 弟さん
   strokeCount: 7
   stage: -1
@@ -316,7 +341,9 @@
       Watch the bottom: it uses the bamboo radical on top and a different lower part.
 - id: g-01-oniisan
   prompt: older brother
-  answer: お兄さん
+  answers:
+    - お兄さん
+    - おにいさん
   hint: 'oniisan — polite form; often used for someone else’s older brother (your
     own: 兄/あに).'
   stage: -1
@@ -336,7 +363,9 @@
       Different kanji and meaning: younger vs older.
 - id: g-01-oneesan
   prompt: older sister
-  answer: お姉さん
+  answers:
+    - お姉さん
+    - おねえさん
   hint: oneesan — polite way to say “older sister” (also used to address a young woman)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -355,7 +384,9 @@
       Different family role and different kanji/reading.
 - id: g-01-kaishain
   prompt: office worker
-  answer: 会社員
+  answers:
+    - 会社員
+    - かいしゃいん
   hint: kaishain — literally "company member"; かいしゃ (company) + いん (member/employee)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -374,7 +405,9 @@
       This refers to government/public-sector work, not a regular company worker.
 - id: g-01-gakusei
   prompt: student
-  answer: 学生
+  answers:
+    - 学生
+    - がくせい
   hint: gakusei — 学 (study/learning) + 生 (life/person); common in 学生です (I’m a student).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -393,7 +426,8 @@
       The second kanji means "person," not "student."
 - id: g-01-canada
   prompt: Canada
-  answer: カナダ
+  answers:
+    - カナダ
   hint: kanada (katakana) — country name written in katakana
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -412,7 +446,9 @@
       The middle character is different: ナ vs ダ (dakuten marks).
 - id: g-01-kankoku
   prompt: Korea
-  answer: 韓国
+  answers:
+    - 韓国
+    - かんこく
   hint: kankoku — country name; 韓 (Korea) + 国 (country)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -431,7 +467,9 @@
       It adds 語 meaning "language" at the end.
 - id: g-01-nurse
   prompt: nurse
-  answer: 看護師
+  answers:
+    - 看護師
+    - かんごし
   hint: kangoshi — hospital nurse; note 師 is a profession suffix (teacher/doctor/etc.)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -450,7 +488,9 @@
       Different role: doctors diagnose and prescribe, while nurses provide care and assistance.
 - id: g-01-9fun
   prompt: nine minutes
-  answer: 九分
+  answers:
+    - 九分
+    - きゅうふん
   hint: 'kyuufun — time duration (e.g., 9 minutes). Note: 分 is usually read ふん after
     9.'
   stage: -1
@@ -469,8 +509,10 @@
       That's "nine-tenths / 90% (e.g., doneness)"!
       The extra character changes it from minutes to a proportion/level.
 - id: g-01-9ji
-  prompt: nine o’clock
-  answer: 九時
+  prompt: nine o'clock
+  answers:
+    - 九時
+    - くじ
   hint: 'kuji — time expression: 九(9) + 時(o''clock). Often written as ９時, too.'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -489,7 +531,9 @@
       The extra character indicates "half past".
 - id: g-01-keizai
   prompt: economics
-  answer: 経済
+  answers:
+    - 経済
+    - けいざい
   hint: keizai — often used in 経済学 (economics), 経済的 (economical/financial)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -508,7 +552,8 @@
       The prompt expects the general word, not "-gaku" (study/discipline).
 - id: g-01-go-suf
   prompt: '... language (suffix)'
-  answer: ～語
+  answers:
+    - ～語
   hint: ~go (suffix). Attach to a country/region/name to mean “(that) language” (e.g.,
     日本語, 英語).
   stage: -1
@@ -528,7 +573,9 @@
       It refers to regional varieties within a language.
 - id: g-01-koukou
   prompt: high school
-  answer: 高校
+  answers:
+    - 高校
+    - こうこう
   hint: koukou — abbreviation of 高等学校 (senior high school)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -547,7 +594,9 @@
       This prompt expects the common shortened form used in everyday Japanese.
 - id: g-01-kousei
   prompt: high school student
-  answer: 高校生
+  answers:
+    - 高校生
+    - こうこうせい
   hint: 'koukousei — 高校 (high school) + 生 (student). Often used like: 高校生です。'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -566,7 +615,9 @@
       The prompt is asking for the person (a student), so it includes the student suffix.
 - id: g-01-kokusai
   prompt: international relations
-  answer: 国際関係
+  answers:
+    - 国際関係
+    - こくさいかんけい
   hint: kokusai kankei — 国際=international, 関係=relations/connection; often used in
     academic/political contexts
   stage: -1
@@ -586,7 +637,9 @@
       The final 者 means "person".
 - id: g-01-gogo
   prompt: p.m.
-  answer: 午後
+  answers:
+    - 午後
+    - ごご
   hint: gogo — used for times after noon (e.g., 午後3時).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -604,8 +657,10 @@
       That's "all afternoon".
       It means throughout the afternoon, not just "p.m."
 - id: g-01-5ji
-  prompt: five o’clock
-  answer: 五時
+  prompt: five o'clock
+  answers:
+    - 五時
+    - ごじ
   hint: goji — 五 (5) + 時 (o'clock/time); used for time on the clock (e.g., 五時です).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -624,7 +679,9 @@
       Be careful with the number kanji—different numeral.
 - id: g-01-gozen
   prompt: a.m.
-  answer: 午前
+  answers:
+    - 午前
+    - ごぜん
   hint: gozen — used for times before noon (e.g., 午前9時 = 9 a.m.)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -643,7 +700,9 @@
       The prompt needs the full expression used for a.m.
 - id: g-01-5fun
   prompt: five minutes
-  answer: 五分
+  answers:
+    - 五分
+    - ごふん
   hint: 'gofun — counter for minutes (〜分). Note: after 5, 分 is read ふん (e.g., 五分).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -662,7 +721,8 @@
       This prompt is asking for a time amount.
 - id: g-01-pc
   prompt: computer
-  answer: コンピューター
+  answers:
+    - コンピューター
   hint: 'konpyuutaa (katakana loanword). Long vowels: ピュー + ター'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -681,7 +741,8 @@
       There should be only one at the end.
 - id: g-01-sai-suf
   prompt: '... years old (age suffix)'
-  answer: ～歳
+  answers:
+    - ～歳
   hint: '～さい (sai) — attach to a number: 20歳 (はたち), 1歳 (いっさい), 8歳 (はっさい)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -700,7 +761,8 @@
       This prompt is for an exact age.
 - id: g-01-san-suf
   prompt: Mr./Ms. ... (name suffix)
-  answer: ～さん
+  answers:
+    - ～さん
   hint: san — polite honorific after a name (e.g., 田中さん). Use for most people; more
     neutral than ～ちゃん/～くん.
   stage: -1
@@ -719,8 +781,10 @@
       That's a more casual honorific.
       Often used for boys/younger men or subordinates (e.g., at school/work).
 - id: g-01-3ji
-  prompt: three o’clock
-  answer: 三時
+  prompt: three o'clock
+  answers:
+    - 三時
+    - さんじ
   hint: sanji — use for telling time (e.g., 三時です).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -739,7 +803,9 @@
       The second kanji here refers to days, not hours.
 - id: g-01-30fun
   prompt: thirty minutes
-  answer: 三十分
+  answers:
+    - 三十分
+    - さんじゅっぷん
   hint: 'san-jippun / san-juppun — note the sound change: ふん → ぷん after じゅっ (10).
     Also read as さんじっぷん or さんじゅっぷん.'
   stage: -1
@@ -759,7 +825,9 @@
       Watch the last kanji: minutes vs seconds.
 - id: g-01-3fun
   prompt: three minutes
-  answer: 三分
+  answers:
+    - 三分
+    - さんぷん
   hint: 'sanpun — note the sound change: ３ふん → さんぷん (minute counter 分)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -778,7 +846,8 @@
       Check whether there's an extra 十 in the number.
 - id: g-01-ji-suf
   prompt: o’clock (suffix; used after a number)
-  answer: ～時
+  answers:
+    - ～時
   hint: '〜じ (ji) — attach to a time number: 1時=いちじ (1 o’clock), 7時=しちじ/ななじ'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -796,8 +865,10 @@
       That's the suffix for day/date.
       It’s used for days of the month or number of days, not time on the clock.
 - id: g-01-7ji
-  prompt: seven o’clock
-  answer: 七時
+  prompt: seven o'clock
+  answers:
+    - 七時
+    - しちじ
   hint: 'shichiji — Time expression: use ～時 for o''clock (e.g., 七時です). Note: 7 can
     also be read "nana" in other contexts.'
   stage: -1
@@ -817,7 +888,9 @@
       This includes an extra character meaning "half".
 - id: g-01-10fun-a
   prompt: ten minutes
-  answer: 十分
+  answers:
+    - 十分
+    - じゅっぷん
   hint: jippun (juppun) — time counter for minutes; じっぷん/じゅっぷん both heard
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -835,8 +908,10 @@
       That includes “for ten minutes.”
       The prompt is just the amount of time, without the “for (duration)” part.
 - id: g-01-11ji
-  prompt: eleven o’clock
-  answer: 十一時
+  prompt: eleven o'clock
+  answers:
+    - 十一時
+    - じゅういちじ
   hint: juuichiji — time expression; に can be added for “at 11 o’clock” (十一時に)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -855,7 +930,9 @@
       This prompt is a time-of-day expression, not a date.
 - id: g-01-11fun
   prompt: eleven minutes
-  answer: 十一分
+  answers:
+    - 十一分
+    - じゅういっぷん
   hint: 'juuippun — counter for minutes (〜分). Sound change: いち＋ふん → いっぷん.'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -874,7 +951,9 @@
       This prompt is a time amount, so it uses the minutes counter, not the people counter.
 - id: g-01-19fun
   prompt: nineteen minutes
-  answer: 十九分
+  answers:
+    - 十九分
+    - じゅうきゅうふん
   hint: juukyuu-fun (じゅうきゅうふん) — “19 + minutes”; 分 is read ふん here (not ぶん).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -893,7 +972,9 @@
       Look at the final counter: it’s for seconds, not minutes.
 - id: g-01-15fun
   prompt: fifteen minutes
-  answer: 十五分
+  answers:
+    - 十五分
+    - じゅうごふん
   hint: 'juugofun — use for durations (〜分). Note: 15分 is pronounced じゅうごふん (not *じゅうごぷん*).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -912,7 +993,9 @@
       This one uses 日 (day), not the minutes counter.
 - id: g-01-13fun
   prompt: thirteen minutes
-  answer: 十三分
+  answers:
+    - 十三分
+    - じゅうさんぷん
   hint: 'juusan-pun — 分 changes pronunciation by number (13→ぷん). Commonly used for
     durations: 〜分.'
   stage: -1
@@ -931,8 +1014,10 @@
       That's an amount of money.
       Use 円 for yen, not minutes.
 - id: g-01-10ji
-  prompt: ten o’clock
-  answer: 十時
+  prompt: ten o'clock
+  answers:
+    - 十時
+    - じゅうじ
   hint: juuji — time expression (～時). 「十」=10 + 「時」=o’clock/hour
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -951,7 +1036,9 @@
       It uses 「分」 (minutes), not 「時」 (o’clock).
 - id: g-01-17fun
   prompt: seventeen minutes
-  answer: 十七分
+  answers:
+    - 十七分
+    - じゅうななふん
   hint: 'juu-nana-fun — minutes counter: 〜分 (fun/pun). Example: 十七分です = It''s 17 minutes.'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -969,8 +1056,10 @@
       That's "for 17 minutes" (duration with 間).
       Without 間 it’s just the amount: "17 minutes".
 - id: g-01-12ji
-  prompt: twelve o’clock
-  answer: 十二時
+  prompt: twelve o'clock
+  answers:
+    - 十二時
+    - じゅうにじ
   hint: juu-ni-ji — use for telling time (12:00). Often said as 十二時です。
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -989,7 +1078,9 @@
       Look at the last kanji: it's day-of-month, not hour.
 - id: g-01-12fun
   prompt: twelve minutes
-  answer: 十二分
+  answers:
+    - 十二分
+    - じゅうにふん
   hint: juu ni fun — use 分 as the minutes counter (ふん/ぷん changes by number; 12 → ふん)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1008,7 +1099,9 @@
       The number is different (二十 vs 十二), even though 分 is the same.
 - id: g-01-18fun
   prompt: eighteen minutes
-  answer: 十八分
+  answers:
+    - 十八分
+    - じゅうはっぷん
   hint: 'juuhachi-fun / juuhap-pun (っ before P sounds). Used for duration: １８分(じゅうはっぷん)かかります。'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1027,7 +1120,9 @@
       Check the time unit: seconds vs minutes.
 - id: g-01-14fun
   prompt: fourteen minutes
-  answer: 十四分
+  answers:
+    - 十四分
+    - じゅうよんぷん
   hint: juuyon-pun — duration (minutes); 分 reads ふん/ぷん depending on the number (14
     → ぷん).
   stage: -1
@@ -1047,7 +1142,9 @@
       The prompt is just the plain "14 minutes" form.
 - id: g-01-16fun
   prompt: sixteen minutes
-  answer: 十六分
+  answers:
+    - 十六分
+    - じゅうろっぷん
   hint: 'juuroppun — duration: 16 minutes (分 reads ぷん after numbers like 6).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1066,7 +1163,9 @@
       Different time unit counter—check the last kanji.
 - id: g-01-10fun-b
   prompt: ten minutes
-  answer: 十分
+  answers:
+    - 十分
+    - じゅっぷん
   hint: juppun — often written 「10分」; note the sound change じゅう + ふん → じゅっぷん
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1085,7 +1184,9 @@
       The prompt is just the time amount, not the full duration expression.
 - id: g-01-shufu
   prompt: housewife
-  answer: 主婦
+  answers:
+    - 主婦
+    - しゅふ
   hint: shufu — a married woman who manages the household (common term in ads/forms).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1104,7 +1205,8 @@
       It's the base noun plus an extra kanji meaning "work/occupation."
 - id: g-01-jin-suf
   prompt: '... people (suffix, e.g., American → アメリカ人)'
-  answer: ～人
+  answers:
+    - ～人
   hint: ~jin (suffix). Attach to a country/region name to mean 'a person from ~' (e.g.,
     日本人 にほんじん).
   stage: -1
@@ -1124,7 +1226,9 @@
       It refers to the nation itself, not a person.
 - id: g-01-seiji
   prompt: politics
-  answer: 政治
+  answers:
+    - 政治
+    - せいじ
   hint: seiji — government/politics; common in 政治家 (politician), 政治的 (political)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1143,7 +1247,9 @@
       The prompt is the general concept, not the field of study.
 - id: g-01-seibutsu
   prompt: biology
-  answer: 生物学
+  answers:
+    - 生物学
+    - せいぶつがく
   hint: seibutsugaku — study of living things; often used in academic contexts (e.g.,
     生物学の授業).
   stage: -1
@@ -1163,7 +1269,9 @@
       It focuses on bodily functions rather than living things as a whole.
 - id: g-01-senkou
   prompt: major (field of study)
-  answer: 専攻
+  answers:
+    - 専攻
+    - せんこう
   hint: senkō — university major; often used with を (専攻を変える = change one's major)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1182,7 +1290,9 @@
       This one starts with the character meaning "to choose".
 - id: g-01-sensei
   prompt: teacher; Professor
-  answer: 先生
+  answers:
+    - 先生
+    - せんせい
   hint: sensei — honorific for teachers/professors (also doctors, artists, etc.)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1201,7 +1311,8 @@
       This is about seniority/experience, not being an instructor.
 - id: g-01-soudesu
   prompt: That’s right.
-  answer: そうです
+  answers:
+    - そうです
   hint: sou desu — used to agree/confirm what someone said (polite).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1220,7 +1331,8 @@
       Used like “That’s right, you see…” (often more casual than the polite form).
 - id: g-01-soudesuka
   prompt: I see.; Is that so?
-  answer: そうですか
+  answers:
+    - そうですか
   hint: sō desu ka — polite response meaning “I see/Is that so?” (often said with
     rising intonation when surprised).
   stage: -1
@@ -1240,7 +1352,9 @@
       This prompt expects the shorter, standard polite form.
 - id: g-01-daigaku
   prompt: college; university
-  answer: 大学
+  answers:
+    - 大学
+    - だいがく
   hint: daigaku — higher education institution (often after 高校).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1259,7 +1373,9 @@
       This is the level before college/university.
 - id: g-01-insei
   prompt: graduate student
-  answer: 大学院生
+  answers:
+    - 大学院生
+    - だいがくいんせい
   hint: daigakuinsei — 大学(undergraduate university) + 院(graduate school) + 生(student)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1278,7 +1394,9 @@
       It refers to the place/program, not the person studying there.
 - id: g-01-daigakusei
   prompt: college student
-  answer: 大学生
+  answers:
+    - 大学生
+    - だいがくせい
   hint: 'daigakusei — 大学 (university) + 生 (student); common in: 大学生です (I’m a college
     student).'
   stage: -1
@@ -1298,7 +1416,9 @@
       It includes 「院」, meaning graduate school.
 - id: g-01-chugoku
   prompt: China
-  answer: 中国
+  answers:
+    - 中国
+    - ちゅうごく
   hint: chuugoku — 中(なか/ちゅう) = middle, 国(くに/こく) = country
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1317,7 +1437,9 @@
       The second character here means “middle/center,” not “country.”
 - id: g-01-denwa
   prompt: telephone
-  answer: 電話
+  answers:
+    - 電話
+    - でんわ
   hint: 'denwa — common collocation: 電話する (to make a phone call)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1336,7 +1458,9 @@
       This one adds two kanji in front meaning "portable/carry".
 - id: g-01-tomodachi
   prompt: friend
-  answer: 友だち
+  answers:
+    - 友だち
+    - ともだち
   hint: 'tomodachi — often written in kana as 友だち; polite: 友達(ともだち) / ご友人(ごゆうじん)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1355,7 +1479,9 @@
       It implies you know the person but aren't necessarily close.
 - id: g-01-7fun
   prompt: seven minutes
-  answer: 七分
+  answers:
+    - 七分
+    - ななふん
   hint: |-
     nana-fun (七＝7 + 分＝minutes)
     Note: after なな, ふん is common (not ななぷん).
@@ -1376,7 +1502,9 @@
       Watch the first kanji: it changes the number.
 - id: g-01-nani-a
   prompt: what
-  answer: 何
+  answers:
+    - 何
+    - なに
   hint: nani / nan — used as 何を (what + object marker) and 何ですか (what is it?).
   strokeCount: 7
   stage: -1
@@ -1396,7 +1524,9 @@
       This one includes a clear 口 component at the bottom; pay attention to the lower part.
 - id: g-01-namae
   prompt: name
-  answer: 名前
+  answers:
+    - 名前
+    - なまえ
   hint: |-
     namae — written as 名 (name/fame) + 前 (before/in front)
     Often used with honorific: お名前 (your name)
@@ -1417,7 +1547,9 @@
       The prompt is asking for the noun only.
 - id: g-01-nani-b
   prompt: what
-  answer: 何
+  answers:
+    - 何
+    - なに
   hint: nani / nan - written as 何; read なに when standalone, なん before です/particles
     (e.g., 何ですか・何人)
   strokeCount: 7
@@ -1437,8 +1569,10 @@
       That's the phrase meaning "why/with what" (often read なんで).
       The prompt is asking for the standalone word meaning "what".
 - id: g-01-2ji
-  prompt: two o’clock
-  answer: 二時
+  prompt: two o'clock
+  answers:
+    - 二時
+    - にじ
   hint: 'niji — time expression. Used with に: 二時に = at two o’clock.'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1457,7 +1591,9 @@
       字 means written character; it's not the time suffix.
 - id: g-01-20fun-a
   prompt: twenty minutes
-  answer: 二十分
+  answers:
+    - 二十分
+    - にじゅっぷん
   hint: 'nijuppun (also read: nijippun) — note the sound change: にじゅう + ふん → にじっぷん'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1476,7 +1612,9 @@
       This prompt is asking for a duration, so include the counter for minutes.
 - id: g-01-2ji-han
   prompt: half past two
-  answer: 二時半
+  answers:
+    - 二時半
+    - にじはん
   hint: 'nijihan — time: 2:30 (二=2, 時=o''clock, 半=half)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1495,7 +1633,9 @@
       The prompt expects the common "half" expression.
 - id: g-01-20fun-b
   prompt: twenty minutes
-  answer: 二十分
+  answers:
+    - 二十分
+    - にじゅっぷん
   hint: nijuppun — time duration. Note the small っ in the reading.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1514,7 +1654,9 @@
       人 is the counter for people, not minutes.
 - id: g-01-2fun
   prompt: two minutes
-  answer: 二分
+  answers:
+    - 二分
+    - にふん
   hint: nifun — 二(に) + 分(ふん); use for duration (e.g., 二分待って).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1533,7 +1675,9 @@
       This version adds the duration marker 間.
 - id: g-01-nihon
   prompt: Japan
-  answer: 日本
+  answers:
+    - 日本
+    - にほん
   hint: nihon / nippon — commonly read as にほん in everyday speech
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1552,7 +1696,9 @@
       Same two kanji, but the order is reversed and the meaning changes.
 - id: g-01-nihongo
   prompt: Japanese language
-  answer: 日本語
+  answers:
+    - 日本語
+    - にほんご
   hint: 'nihongo — 日本 (Japan) + 語 (language/word). Watch 語: 言 + 五 + 口.'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1571,7 +1717,9 @@
       This is a different word; it's not specifically the Japanese language name.
 - id: g-01-nihonjin
   prompt: Japanese people
-  answer: 日本人
+  answers:
+    - 日本人
+    - にほんじん
   hint: nihonjin — person from Japan (日本 + 人). Often used for nationality (e.g., 日本人です).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1590,7 +1738,8 @@
       This one is for people from outside the country.
 - id: g-01-nensei-suf
   prompt: '... year student'
-  answer: ～年生
+  answers:
+    - ～年生
   hint: ～nensei — attach to a number for school year (e.g., 一年生 = first-year student).
     The ～ is a placeholder; write the kanji + 生.
   stage: -1
@@ -1610,7 +1759,8 @@
       It's about birth year, not a student's grade.
 - id: g-01-hai
   prompt: 'yes'
-  answer: はい
+  answers:
+    - はい
   hint: hai — polite affirmative; often lengthened 「はーい」 when responding to a call
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1628,8 +1778,10 @@
       That's katakana.
       The prompt expects hiragana (curvier shapes).
 - id: g-01-8ji
-  prompt: eight o’clock
-  answer: 八時
+  prompt: eight o'clock
+  answers:
+    - 八時
+    - はちじ
   hint: hachiji — 八(はち) = eight + 時(じ) = o’clock/time. Used to tell time (e.g., 八時です).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1648,7 +1800,9 @@
       The extra character adds “half,” so it’s a different time.
 - id: g-01-8fun-a
   prompt: eight minutes
-  answer: 八分
+  answers:
+    - 八分
+    - はっぷん
   hint: hachifun — 八(8) + 分(minutes). Also used in time expressions like 八分後 (in 8
     minutes).
   stage: -1
@@ -1668,7 +1822,9 @@
       Look for the extra character at the end.
 - id: g-01-8fun-b
   prompt: eight minutes
-  answer: 八分
+  answers:
+    - 八分
+    - はっぷん
   hint: 'happun — 8 minutes; note the sound change: はちふん → はっぷん (small っ before p)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1687,7 +1843,8 @@
       This prompt is about minutes (分), not time-of-day hour (時).
 - id: g-01-han-suf
   prompt: half (suffix)
-  answer: 半
+  answers:
+    - 半
   hint: |-
     han — used as a suffix meaning “half” (e.g., 半分＝half)
     5 strokes
@@ -1709,7 +1866,8 @@
       Check whether there’s a boxed-in middle versus open lines.
 - id: g-01-ban-suf
   prompt: number ... (counter suffix)
-  answer: ～番
+  answers:
+    - ～番
   hint: ~ban — suffix used to label a number/order (e.g., 1番 = ichiban, “No. 1” /
     “first”)
   stage: -1
@@ -1729,7 +1887,9 @@
       Not used for ranking or numbering people/items in order.
 - id: g-01-bangou
   prompt: number
-  answer: 番号
+  answers:
+    - 番号
+    - ばんごう
   hint: bangou — used for identification numbers (phone number, room number, ticket
     number).
   stage: -1
@@ -1749,7 +1909,8 @@
       The prompt is asking for the general word.
 - id: g-01-biz
   prompt: business
-  answer: ビジネス
+  answers:
+    - ビジネス
   hint: |-
     bijinesu (katakana loanword)
     Often used for work/company contexts: ビジネスホテル, ビジネスプラン
@@ -1770,7 +1931,8 @@
       Katakana needs sharp angles and clear separations, especially around ジ and ネ.
 - id: g-01-phils
   prompt: Philippines
-  answer: フィリピン
+  answers:
+    - フィリピン
   hint: firipin (katakana) — country name; watch small ィ after フ
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1789,7 +1951,9 @@
       You need the small vowel after フ (a tiny イ) to make the right sound.
 - id: g-01-bungaku
   prompt: literature
-  answer: 文学
+  answers:
+    - 文学
+    - ぶんがく
   hint: bungaku — "literature" as an academic field or body of literary works (e.g.,
     日本文学)
   stage: -1
@@ -1809,7 +1973,9 @@
       This is about written text itself, not the broader field of literary works.
 - id: g-01-bengoshi
   prompt: lawyer
-  answer: 弁護士
+  answers:
+    - 弁護士
+    - べんごし
   hint: bengoshi — licensed legal professional; often used as 弁護士さん when addressing
     one
   stage: -1
@@ -1828,8 +1994,10 @@
       That's a legal expert (general term).
       It doesn't specifically mean someone with the attorney qualification.
 - id: g-01-4ji
-  prompt: four o’clock
-  answer: 四時
+  prompt: four o'clock
+  answers:
+    - 四時
+    - よじ
   hint: yoji — used for telling time (e.g., 四時です = It’s 4 o’clock)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1848,7 +2016,9 @@
       The second kanji is correct for time, but the first kanji is a different number.
 - id: g-01-4fun
   prompt: four minutes
-  answer: 四分
+  answers:
+    - 四分
+    - よんぷん
   hint: 'yon-pun (よんぷん) — counter for minutes (〜分). Note: 分 becomes ぷん after 4 (四).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1867,7 +2037,9 @@
       This one uses 時 (time of day), not 分 (minutes).
 - id: g-01-ryuugaku
   prompt: international student
-  answer: 留学生
+  answers:
+    - 留学生
+    - りゅうがくせい
   hint: ryuugakusei — 留学 (studying abroad) + 生 (student).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1886,7 +2058,9 @@
       The prompt focuses on studying abroad rather than nationality.
 - id: g-01-rekishi
   prompt: history
-  answer: 歴史
+  answers:
+    - 歴史
+    - れきし
   hint: rekishi — academic/history as a subject (e.g., 日本の歴史).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1904,8 +2078,10 @@
       That's "geography".
       A different school subject (places/land), not past events.
 - id: g-01-6ji
-  prompt: six o’clock
-  answer: 六時
+  prompt: six o'clock
+  answers:
+    - 六時
+    - ろくじ
   hint: 'rokuji — time expression: 六時です (It’s six o’clock).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1924,7 +2100,9 @@
       Watch the number kanji at the beginning.
 - id: g-01-6fun
   prompt: six minutes
-  answer: 六分
+  answers:
+    - 六分
+    - ろっぷん
   hint: 'roppun — 六(ろく) + 分(ふん→ぷん). Sound change: ふん becomes ぷん after 6.'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1943,7 +2121,9 @@
       Time-of-day uses 「時」, not the counter for minutes.
 - id: g-01-watashi
   prompt: I
-  answer: 私
+  answers:
+    - 私
+    - わたし
   hint: watashi — common, polite "I"
   strokeCount: 7
   stage: -1

@@ -1,6 +1,7 @@
 - id: g-22-aikawa
   prompt: as usual
-  answer: 相変わらず
+  answers:
+    - 相変わらず
   hint: 'aikawarazu — used when something hasn’t changed (often with a slightly negative
     nuance): 相変わらず元気だ'
   stage: -1
@@ -20,7 +21,8 @@
       The prompt expects the more idiomatic fixed expression.
 - id: g-22-aite
   prompt: partner; the other person
-  answer: 相手
+  answers:
+    - 相手
   hint: aite — often means “the other party/person” (e.g., 話し相手 conversation partner,
     相手にする to deal with someone)
   stage: -1
@@ -40,7 +42,8 @@
       It uses the same first kanji but isn’t about a person.
 - id: g-22-uketsuke
   prompt: reception desk
-  answer: 受付
+  answers:
+    - 受付
   hint: uketsuke — reception/registration counter (e.g., 受付で名前を書く)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -59,7 +62,8 @@
       The prompt is asking for the noun meaning a place/counter.
 - id: g-22-umaku
   prompt: well; successfully; skillfully
-  answer: うまく
+  answers:
+    - うまく
   hint: umaku — adverb meaning “well/skillfully”; often used with verbs like できる (can
     do) or いく (go well)
   stage: -1
@@ -79,7 +83,8 @@
       The prompt is about doing something successfully/skillfully, not an animal.
 - id: g-22-umakuiku
   prompt: to go well
-  answer: うまくいく
+  answers:
+    - うまくいく
   hint: umaku iku - used when things proceed smoothly (e.g., 計画がうまくいく)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -98,7 +103,8 @@
       This focuses on achieving success, not the process going smoothly.
 - id: g-22-urayama
   prompt: (somebody is) envious
-  answer: うらやましがる
+  answers:
+    - うらやましがる
   hint: |-
     urayamashigaru - to show/act envious (about someone else).
     Often used in 3rd person: 彼は友だちの車をうらやましがっている。
@@ -119,7 +125,8 @@
       It’s closer to looking up to someone, not feeling envy.
 - id: g-22-urusai
   prompt: noisy; annoying
-  answer: うるさい
+  answers:
+    - うるさい
   hint: urusai - used for loud sounds or for someone being a nuisance (can sound rude
     depending on tone)
   stage: -1
@@ -139,7 +146,8 @@
       Not the same as being annoying or too loud.
 - id: g-22-eikaiwa
   prompt: English conversation
-  answer: 英会話
+  answers:
+    - 英会話
   hint: 'eikaiwa — often used for classes/lessons: 英会話レッスン (English conversation lesson)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -158,7 +166,8 @@
       This one refers to the place/institution, not just the activity.
 - id: g-22-ojosan
   prompt: (someone’s) daughter (polite)
-  answer: お嬢さん
+  answers:
+    - お嬢さん
   hint: ojou-san — polite term for another person’s daughter; also used to address
     a young lady
   stage: -1
@@ -178,7 +187,8 @@
       Be careful: the polite prefix and さん make it look similar.
 - id: g-22-onegai
   prompt: to request help
-  answer: お願いする
+  answers:
+    - お願いする
   hint: 'onegaishisuru - polite request (e.g., 手伝ってくださいとお願いする). Kanji: 願 = “wish/request”'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -197,7 +207,8 @@
       The prompt needs the verb form meaning "to request (someone)".
 - id: g-22-kaji
   prompt: housework
-  answer: 家事
+  answers:
+    - 家事
   hint: kaji — chores/household tasks (cleaning, cooking, laundry). Not 火事 (kaji)
     “fire”.
   stage: -1
@@ -217,7 +228,8 @@
       The prompt is specifically chores done at home.
 - id: g-22-kaze
   prompt: wind
-  answer: 風
+  answers:
+    - 風
   hint: kaze — 9 strokes (also read かぜ / ふう / か)
   strokeCount: 9
   stage: -1
@@ -237,7 +249,8 @@
       It’s much simpler with far fewer strokes and no inner details.
 - id: g-22-kazefuku
   prompt: the wind blows
-  answer: 風が吹く
+  answers:
+    - 風が吹く
   hint: 'kazega fuku — intransitive (wind is the subject). Pattern: 風が吹く / 風が強く吹く'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -257,7 +270,8 @@
       浮く means "to float" or "to stand out," not "to blow."
 - id: g-22-katsu
   prompt: to win
-  answer: 勝つ
+  answers:
+    - 勝つ
   hint: katsu — intransitive verb; often used for winning a game/contest (試合に勝つ).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -276,7 +290,8 @@
       Different meaning; watch the left-side radical.
 - id: g-22-kawari
   prompt: instead
-  answer: 代わりに
+  answers:
+    - 代わりに
   hint: 'kawari ni - used for substitution/replacement: Aの代わりにB = do/use B instead
     of A'
   stage: -1
@@ -296,7 +311,8 @@
       The full expression needs に to mean "instead (of)".
 - id: g-22-ki
   prompt: tree
-  answer: 木
+  answers:
+    - 木
   hint: ki — 4 strokes; looks like a trunk with branches
   strokeCount: 4
   stage: -1
@@ -316,7 +332,8 @@
       The bottom horizontal stroke is longer, and the crossing is lower.
 - id: g-22-keikaku
   prompt: to make a plan
-  answer: 計画を立てる
+  answers:
+    - 計画を立てる
   hint: keikaku o tateru - use when deciding and setting up a plan (e.g., 旅行の計画を立てる).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -335,7 +352,8 @@
       This kanji is used for building buildings; not for setting up a plan.
 - id: g-22-kohai
   prompt: junior member of a group
-  answer: 後輩
+  answers:
+    - 後輩
   hint: 'kouhai — someone junior in school/work/club; your junior (opposite: 先輩 senpai)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -354,7 +372,8 @@
       Same first kanji, but the second kanji means "repent/regret."
 - id: g-22-copytoru
   prompt: to make a photocopy
-  answer: コピーを取る
+  answers:
+    - コピーを取る
   hint: kopii o toru - literally “take a copy” (コピーを取ってください = Please make a copy.)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -373,7 +392,8 @@
       For photocopies, use the verb meaning “to take/get” instead.
 - id: g-22-konnahu
   prompt: like this
-  answer: こんなふう
+  answers:
+    - こんなふう
   hint: konna fuu — used to describe the manner/style of something (e.g., こんなふうに かいてください
     “Please write it like this”).
   stage: -1
@@ -393,7 +413,8 @@
       The prompt is for “like this” (near the speaker).
 - id: g-22-saru
   prompt: monkey
-  answer: 猿
+  answers:
+    - 猿
   hint: saru — Kanji meaning “monkey”; left side is the animal radical 犭
   strokeCount: 13
   stage: -1
@@ -413,7 +434,8 @@
       It shares a similar left-side shape, so watch the right side.
 - id: g-22-sansei
   prompt: to agree
-  answer: 賛成する
+  answers:
+    - 賛成する
   hint: sansei suru — used for agreeing with an idea/opinion (〜に賛成する = agree with
     ~)
   stage: -1
@@ -433,7 +455,8 @@
       This is the opposite meaning: not agreeing.
 - id: g-22-shikata
   prompt: cannot be helped
-  answer: しかたがない
+  answers:
+    - しかたがない
   hint: 'shikata ga nai — said when there’s no way around it (often resigned). Similar:
     しょうがない.'
   stage: -1
@@ -453,7 +476,8 @@
       Make sure you include the particle in the middle.
 - id: g-22-shippai
   prompt: to fail; to be unsuccessful
-  answer: 失敗する
+  answers:
+    - 失敗する
   hint: 'shippai suru — often used with に: 試験に失敗する (fail an exam)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -472,7 +496,8 @@
       It’s a different word and context (manners, not outcomes).
 - id: g-22-jiyuu
   prompt: freedom
-  answer: 自由
+  answers:
+    - 自由
   hint: jiyuu — "freedom/liberty" (often used like 自由に = freely)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -491,7 +516,8 @@
       It has a negative nuance, unlike a neutral word for liberty.
 - id: g-22-jiyuuni
   prompt: freely
-  answer: 自由に
+  answers:
+    - 自由に
   hint: jiyuu ni — "in a free way"; often modifies verbs (e.g., 自由に選ぶ = choose freely)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -510,7 +536,8 @@
       It's not the adverbial form meaning "freely".
 - id: g-22-shorui
   prompt: document
-  answer: 書類
+  answers:
+    - 書類
   hint: shorui — papers/forms (often official or business documents)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -529,7 +556,8 @@
       More specific than general documents.
 - id: g-22-shinyuu
   prompt: best friend
-  answer: 親友
+  answers:
+    - 親友
   hint: shinyuu — close friend (very intimate); often used like 「親友だ」 / 「親友と」
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -548,7 +576,8 @@
       Be careful: it uses the same first kanji, but the second kanji is different.
 - id: g-22-zutto
   prompt: for a long time; all the time
-  answer: ずっと
+  answers:
+    - ずっと
   hint: zutto — duration/continuity (e.g., ずっと前, ずっと待つ). Often written in hiragana.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -567,7 +596,8 @@
       It emphasizes "even (if)" or adds contrast, not just plain "for a long time".
 - id: g-22-sodateru
   prompt: to raise; to bring up
-  answer: 育てる
+  answers:
+    - 育てる
   hint: |-
     sodateru — to raise (a child/animal) or grow (plants)
     Often used with を: 子どもを育てる / 野菜を育てる
@@ -588,7 +618,8 @@
       Used for pets/livestock rather than general upbringing or growing plants.
 - id: g-22-sonnakoto
   prompt: I don’t think so.
-  answer: そんなこと（は）ない
+  answers:
+    - そんなこと（は）ない
   hint: |-
     sonna koto (wa) nai - used to deny what was just said ("That's not true/No way").
     （は） is often omitted in casual speech: そんなことない
@@ -609,7 +640,8 @@
       It sounds more casual and reassuring; the prompt is for the base expression.
 - id: g-22-taipu
   prompt: type
-  answer: タイプ
+  answers:
+    - タイプ
   hint: taipu (katakana) — used for “type/kind” or “to type (on a keyboard)” as タイプする
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -628,7 +660,8 @@
       This starts with 「テ」 (te), not 「タ」 (ta).
 - id: g-22-tanoshiso
   prompt: joyfully
-  answer: 楽しそうに
+  answers:
+    - 楽しそうに
   hint: tanoshisou ni — 「楽しそうだ」(looks like having fun) + に (adverb). Used for how
     someone appears/acts, not necessarily their true feelings.
   stage: -1
@@ -648,7 +681,8 @@
       It’s about expectation, not the visible manner of doing something.
 - id: g-22-chan
   prompt: suffix for names of children
-  answer: ～ちゃん
+  answers:
+    - ～ちゃん
   hint: chan - affectionate name suffix (esp. for kids, close friends, pets); attach
     to a name (e.g., たろうちゃん)
   stage: -1
@@ -668,7 +702,8 @@
       Used for customers, letters, and high respect—not for a cute nickname style.
 - id: g-22-tetsuya
   prompt: to stay up all night
-  answer: 徹夜する
+  answers:
+    - 徹夜する
   hint: tetsuya suru — to pull an all-nighter (often for studying/work). 徹夜 = staying
     awake all night
   stage: -1
@@ -688,7 +723,8 @@
       The prompt expects the verb form with する.
 - id: g-22-toka
   prompt: '... for example (quoting/introducing examples with “...とか”)'
-  answer: ～とか
+  answers:
+    - ～とか
   hint: toka — used after words/phrases to give an example; often used in lists like
     AとかBとか (“A and B, for instance”).
   stage: -1
@@ -708,7 +744,8 @@
       It’s not for listing examples.
 - id: g-22-nandaka
   prompt: somehow
-  answer: なんだか
+  answers:
+    - なんだか
   hint: 'nandaka — used when you can’t explain why: なんだか眠い (Somehow I’m sleepy).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -727,7 +764,8 @@
       It asks about an unknown reason rather than a vague, hard-to-pin-down feeling.
 - id: g-22-nigeru
   prompt: to run away; to escape
-  answer: 逃げる
+  answers:
+    - 逃げる
   hint: |-
     nigeru (ru-verb) — often used for escaping danger/responsibility
     Ex: 彼は家から逃げた。
@@ -748,7 +786,8 @@
       This is about concealing yourself, not getting away from a place/situation.
 - id: g-22-hakobu
   prompt: to carry
-  answer: 運ぶ
+  answers:
+    - 運ぶ
   hint: hakobu (う-v.) — to carry/transport; often used for carrying something to another
     place
   stage: -1
@@ -768,7 +807,8 @@
       This meaning is typically written with a different kanji in everyday use.
 - id: g-22-hantai
   prompt: to oppose; to object to
-  answer: 反対する
+  answers:
+    - 反対する
   hint: 'hantaisuru — often used with に: 「〜に反対する」 = to oppose ~'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -787,7 +827,8 @@
       Usually resisting authority or orders, more like rebellion than objection.
 - id: g-22-hitorigu
   prompt: living alone
-  answer: 一人暮らし
+  answers:
+    - 一人暮らし
   hint: hitorigurashi — a lifestyle/household term (e.g., 一人暮らしです “I live alone.”)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -806,7 +847,8 @@
       Different kanji: “reside” vs “daily living.”
 - id: g-22-hirou
   prompt: to pick up (something)
-  answer: 拾う
+  answers:
+    - 拾う
   hint: hirou — to pick up something from the ground; also used for “to find/come
     across” (拾った財布 = a wallet I found)
   stage: -1
@@ -826,7 +868,8 @@
       Opposite direction: discarding instead of picking up.
 - id: g-22-binbou
   prompt: poor
-  answer: 貧乏
+  answers:
+    - 貧乏
   hint: binbou (na) — な-adj; often used as 貧乏な人 (a poor person) or 貧乏で… (being poor
     and…).
   stage: -1
@@ -846,7 +889,8 @@
       It describes a lack of something (time, resources), not necessarily being poor.
 - id: g-22-buka
   prompt: subordinate
-  answer: 部下
+  answers:
+    - 部下
   hint: buka — a subordinate in a company/organization (someone under you in rank)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -865,7 +909,8 @@
       It's based on senior–junior relationship, not necessarily being your direct report.
 - id: g-22-fukushuu
   prompt: review of a lesson
-  answer: 復習
+  answers:
+    - 復習
   hint: 'fukushuu — to review/refresh what you already learned (often: 予習 prep, 復習
     review)'
   stage: -1
@@ -885,7 +930,8 @@
       This prompt is about going back over learned material, not training a skill.
 - id: g-22-futsuka
   prompt: for two days
-  answer: 二日間
+  answers:
+    - 二日間
   hint: 'futsukakan — duration expression: 二日 (two days) + 間 (period of time).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -904,7 +950,8 @@
       Check the number kanji at the start.
 - id: g-22-project
   prompt: project
-  answer: プロジェクト
+  answers:
+    - プロジェクト
   hint: 'purojekuto (katakana loanword). Often used for work/IT projects: プロジェクトを進める'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -923,12 +970,16 @@
       This focuses on steps/procedure rather than the whole project.
 - id: g-22-perapera
   prompt: fluent
-  answer: ぺらぺら（な）
+  answers:
+    - ぺらぺら
+    - ぺらぺらな
   hint: perapera (na) - fluent (esp. speaking a language); often used like「日本語がぺらぺらだ」
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 流暢（な）
+  - answers:
+      - 流暢
+      - 流暢な
     toast: |-
       That's a formal/kanji word meaning "fluent".
       The prompt expects the casual onomatopoeic expression.
@@ -936,13 +987,16 @@
     toast: |-
       That's "smoothly" (no pauses), often about reading/writing/speaking flow.
       The prompt is specifically the common expression for being fluent in a language.
-  - answer: ぺこぺこ（な）
+  - answers:
+      - ぺこぺこ
+      - ぺこぺこな
     toast: |-
       That's "very hungry" or "bowing repeatedly" depending on context.
       Watch the middle consonant sound and meaning.
 - id: g-22-hotto
   prompt: to leave (someone/something) alone; to neglect
-  answer: 放っておく
+  answers:
+    - 放っておく
   hint: hotte oku — literally “leave it as-is”; used for leaving someone/something
     alone or neglecting it
   stage: -1
@@ -962,7 +1016,8 @@
       The prompt is for the everyday expression with 〜ておく.
 - id: g-22-ball
   prompt: ball
-  answer: ボール
+  answers:
+    - ボール
   hint: bōru (katakana) — long vowel ー in the middle
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -981,7 +1036,8 @@
       Be careful not to add two dots to the first katakana.
 - id: g-22-honyaku
   prompt: to translate
-  answer: 翻訳する
+  answers:
+    - 翻訳する
   hint: |-
     honyaku suru — to translate (language)
     Often used as 翻訳する (a document) / ～を翻訳する
@@ -1002,7 +1058,8 @@
       The prompt needs the verb form with する.
 - id: g-22-makeru
   prompt: to lose (a match)
-  answer: 負ける
+  answers:
+    - 負ける
   hint: makeru — used for losing a game/match/competition (vs. 勝つ).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1021,7 +1078,8 @@
       The prompt wants the verb form ending in る.
 - id: g-22-machido
   prompt: to wait eagerly for . . .
-  answer: 待ち遠しい
+  answers:
+    - 待ち遠しい
   hint: machidooshii (まちどおしい) - used when you’re looking forward to something so much
     you can’t wait
   stage: -1
@@ -1041,7 +1099,8 @@
       This one is more like wishing/aspiring; the prompt is about eager anticipation while waiting.
 - id: g-22-muda
   prompt: to be in time
-  answer: 間に合う
+  answers:
+    - 間に合う
   hint: maniau — used for making it on time / being sufficient (e.g., 時間に間に合う)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1060,7 +1119,8 @@
       Same meaning, but in ます-style speech.
 - id: g-22-message
   prompt: waste (money)
-  answer: 無駄遣い
+  answers:
+    - 無駄遣い
   hint: mudazukai — spending money needlessly; often used as 「〜を無駄遣いする」
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1079,7 +1139,8 @@
       Be careful: the spending/using meaning here is written with a different character.
 - id: g-22-menkyo
   prompt: message; text
-  answer: メッセージ
+  answers:
+    - メッセージ
   hint: messēji — long vowel ー and small ッ (pause) in メッセージ
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1098,7 +1159,8 @@
       The prompt expects katakana for this loanword.
 - id: g-22-mousuko
   prompt: license
-  answer: 免許
+  answers:
+    - 免許
   hint: menkyo — often 免許証 (めんきょしょう) “license card” (e.g., driver’s license)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1117,7 +1179,8 @@
       It uses a similar first kanji but refers to taxes, not a license.
 - id: g-22-yuuki
   prompt: a little more
-  answer: もう少し
+  answers:
+    - もう少し
   hint: mou sukoshi — used to ask/expect a small additional amount (e.g., もう少し待って
     = wait a bit more)
   stage: -1
@@ -1137,7 +1200,8 @@
       This prompt is about "a little more" as an additional amount.
 - id: g-22-europe
   prompt: courage
-  answer: 勇気
+  answers:
+    - 勇気
   hint: yuuki — courage/bravery; often used in phrases like 勇気を出す (to muster courage).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1156,7 +1220,8 @@
       This refers to a person, not the feeling/quality.
 - id: g-22-yoshuu
   prompt: Europe
-  answer: ヨーロッパ
+  answers:
+    - ヨーロッパ
   hint: Yooroppa (katakana). Long vowel mark 「ー」 after ヨ, and small 「ッ」 before パ.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1175,7 +1240,8 @@
       This one ends with 「バ」 (dakuten), not the plain sound.
 - id: g-22-raku
   prompt: preparation of a lesson
-  answer: 予習
+  answers:
+    - 予習
   hint: yoshuu — studying in advance (before class); often used as 予習する
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1194,7 +1260,8 @@
       The second kanji is different and relates to guessing, not studying.
 - id: g-22-61
   prompt: easy; comfortable (na-adjective)
-  answer: 楽
+  answers:
+    - 楽
   hint: |-
     raku (na)
     Used for “comfortable/easy” situations: 楽(な)です / 楽にする

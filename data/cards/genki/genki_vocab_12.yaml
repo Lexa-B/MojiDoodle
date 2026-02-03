@@ -1,6 +1,7 @@
 - id: g-12-amai
   prompt: sweet
-  answer: 甘い
+  answers:
+    - 甘い
   hint: 'amai — used for sweet taste (e.g., 甘いケーキ). Also used figuratively: “naive/soft”
     (甘い判断).'
   stage: -1
@@ -20,7 +21,8 @@
       It’s a broader compliment about taste.
 - id: g-12-milkyway
   prompt: the Milky Way
-  answer: 天の川
+  answers:
+    - 天の川
   hint: amanogawa — literally “river of heaven”; often seen in Tanabata stories
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -39,7 +41,8 @@
       The prompt is just the name of the Milky Way itself, not a location along it.
 - id: g-12-aru
   prompt: one ... (a certain ~ / some ~)
-  answer: ある～
+  answers:
+    - ある～
   hint: aru~ (pre.) - used to mean “a certain” or “some” (e.g., ある日 = one day; ある人
     = a certain person).
   stage: -1
@@ -59,7 +62,8 @@
       Here it’s used as a prefix meaning “a certain ~”, written with ～.
 - id: g-12-aruku
   prompt: to walk
-  answer: 歩く
+  answers:
+    - 歩く
   hint: 'aruku (あるく) - intransitive verb: to walk/go on foot'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -78,7 +82,8 @@
       It suggests walking for leisure.
 - id: g-12-itai
   prompt: hurt; painful
-  answer: 痛い
+  answers:
+    - 痛い
   hint: itai — used for physical pain (e.g., 痛い！ / お腹が痛い).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -97,7 +102,8 @@
       The prompt expects the plain dictionary form (i-adjective).
 - id: g-12-itamed
   prompt: painkiller
-  answer: 痛み止め
+  answers:
+    - 痛み止め
   hint: itamidome — literally "pain + stopping"; often used for medicine (e.g., 頭痛の痛み止め).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -116,7 +122,8 @@
       The prompt asks for something that stops/relieves it (a medicine).
 - id: g-12-yearonce
   prompt: once a year
-  answer: 一年に一度
+  answers:
+    - 一年に一度
   hint: ichinen ni ichido — frequency expression; often used with events (e.g., 健康診断は一年に一度です).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -135,7 +142,8 @@
       「度」 tends to sound like "times/occasions".
 - id: g-12-flu
   prompt: influenza
-  answer: インフルエンザ
+  answers:
+    - インフルエンザ
   hint: infuruenza (katakana loanword). Often shortened to 「インフル」.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -154,7 +162,8 @@
       Similar start, but a different word and much shorter.
 - id: g-12-ushi
   prompt: cow
-  answer: 牛
+  answers:
+    - 牛
   hint: ushi — 4 strokes. Looks like horns on top and a body below.
   strokeCount: 4
   stage: -1
@@ -174,7 +183,8 @@
       It has more strokes and a more complex "horns" top part.
 - id: g-12-ooi
   prompt: there are many . . .
-  answer: 多い
+  answers:
+    - 多い
   hint: ooi — used to say something is numerous (e.g., 人が多い).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -193,7 +203,8 @@
       This prompt expects the plain adjective form.
 - id: g-12-okoru
   prompt: to get angry
-  answer: 怒る
+  answers:
+    - 怒る
   hint: |-
     okoru — to get angry (intransitive)
     Often used with に: 先生に怒る (get angry at the teacher).
@@ -214,7 +225,8 @@
       The prompt is asking for the verb form.
 - id: g-12-odaiji
   prompt: Get well soon.
-  answer: お大事に
+  answers:
+    - お大事に
   hint: odaiji ni — polite phrase said to someone who is sick or recovering (often
     shortened from お大事になさってください).
   stage: -1
@@ -234,7 +246,8 @@
       Used more for general health than immediate illness.
 - id: g-12-otearai
   prompt: restroom
-  answer: お手洗い
+  answers:
+    - お手洗い
   hint: otearai - polite term for "restroom" (often on signs); also literally "hand-washing"
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -253,7 +266,8 @@
       This one focuses on "makeup" rather than "washing hands."
 - id: g-12-otona
   prompt: adult
-  answer: 大人
+  answers:
+    - 大人
   hint: otona — common word for “adult” (not a polite title).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -272,7 +286,8 @@
       The prompt asks for the common two-kanji word for an adult.
 - id: g-12-onaji
   prompt: same
-  answer: 同じ
+  answers:
+    - 同じ
   hint: onaji — used for “the same (one/thing)” (e.g., 同じ人 = the same person). Often
     written with じ in hiragana.
   stage: -1
@@ -292,7 +307,8 @@
       More technical/formal than the everyday word in the prompt.
 - id: g-12-kaze
   prompt: cold
-  answer: 風邪
+  answers:
+    - 風邪
   hint: kaze — common cold/illness (not weather wind)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -311,7 +327,8 @@
       It's a symptom, not the illness itself.
 - id: g-12-kaze-hiku
   prompt: to catch a cold
-  answer: 風邪をひく
+  answers:
+    - 風邪をひく
   hint: |-
     kaze o hiku — idiom: literally “to pull in a cold”
     Often used as 風邪をひいた (“I caught a cold”).
@@ -332,7 +349,8 @@
       It describes a symptom, not specifically catching a cold.
 - id: g-12-kanau
   prompt: to be realized
-  answer: かなう
+  answers:
+    - かなう
   hint: kanau — “to come true / be fulfilled” (e.g., 夢がかなう). Often written as 叶う in
     kanji.
   stage: -1
@@ -352,7 +370,8 @@
       Be careful: the verb ends with う.
 - id: g-12-kanojo
   prompt: she; girlfriend
-  answer: 彼女
+  answers:
+    - 彼女
   hint: kanojo — can mean "she" (3rd-person) or "girlfriend" depending on context
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -371,7 +390,8 @@
       Plural form; used for a group rather than one female person.
 - id: g-12-kafun
   prompt: hay fever
-  answer: 花粉症
+  answers:
+    - 花粉症
   hint: 'kafunshou — allergy to pollen; common phrase: 花粉症です (I have hay fever).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -390,7 +410,8 @@
       This is an activity/event, not a medical condition.
 - id: g-12-kamisama
   prompt: God
-  answer: 神様
+  answers:
+    - 神様
   hint: 'kamisama — honorific 「様」 makes it respectful; often used for gods/deities
     (and sometimes as “Oh my God!”: 神様！)'
   stage: -1
@@ -410,7 +431,8 @@
       The prompt expects the kanji form.
 - id: g-12-kare
   prompt: he; boyfriend
-  answer: 彼
+  answers:
+    - 彼
   hint: kare — “he” or “boyfriend” depending on context; 8 strokes
   strokeCount: 8
   stage: -1
@@ -430,7 +452,8 @@
       It adds ら to make it plural rather than singular.
 - id: g-12-kareshi
   prompt: boyfriend
-  answer: 彼氏
+  answers:
+    - 彼氏
   hint: kareshi — your (or someone’s) boyfriend; casual term (not husband).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -449,7 +472,9 @@
       The prompt is for a relationship term.
 - id: g-12-kawaiso
   prompt: pitiful; feel sorry for; poor thing
-  answer: かわいそう（な）
+  answers:
+    - かわいそう
+    - かわいそうな
   hint: kawaisou(na) — used to express sympathy/pity (often about someone’s situation).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -458,17 +483,22 @@
     toast: |-
       That means "cute".
       This prompt is about feeling pity/sympathy, not cuteness.
-  - answer: 気の毒（な）
+  - answers:
+      - 気の毒
+      - 気の毒な
     toast: |-
       That also means "pitiful/unfortunate," but uses kanji.
       This one is more formal and often about misfortune.
-  - answer: 不憫（な）
+  - answers:
+      - 不憫
+      - 不憫な
     toast: |-
       That means "poor/pitiful" (more literary/formal) and uses kanji.
       This one has a stronger, more serious nuance.
 - id: g-12-ganka
   prompt: ophthalmologist
-  answer: 眼科
+  answers:
+    - 眼科
   hint: 'ganka — eye doctor/ophthalmology department (often seen on clinic signs:
     眼科)'
   stage: -1
@@ -488,7 +518,8 @@
       Different body area specialty.
 - id: g-12-kippu
   prompt: train ticket
-  answer: 切符
+  answers:
+    - 切符
   hint: 'kippu — used for tickets (esp. train). Small っ indicates a doubled consonant:
     ki-ppu.'
   stage: -1
@@ -508,7 +539,8 @@
       Used for season tickets, not a single ride.
 - id: g-12-kibunwaru
   prompt: not to feel well; to feel sick
-  answer: 気分が悪い
+  answers:
+    - 気分が悪い
   hint: kibun ga warui — used for “I feel sick/unwell” (often nausea or discomfort).
     気分(きぶん)=feeling/mood, 悪い(わるい)=bad.
   stage: -1
@@ -528,7 +560,8 @@
       Check the adjective at the end.
 - id: g-12-kyomi
   prompt: to be interested (in)
-  answer: 興味がある
+  answers:
+    - 興味がある
   hint: kyoumi ga aru — use 「〜に興味がある」 = “to be interested in ~”
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -547,7 +580,8 @@
       It’s stronger/more personal preference than simply being curious or interested.
 - id: g-12-kincho
   prompt: to get nervous
-  answer: 緊張する
+  answers:
+    - 緊張する
   hint: kinchou suru — to feel tense/nervous (often before an event); 緊=tense, 張=stretch
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -566,7 +600,8 @@
       This prompt is about nerves/tension, not excitement.
 - id: g-12-kushami
   prompt: sneeze
-  answer: くしゃみ
+  answers:
+    - くしゃみ
   hint: kushami — よく「くしゃみをする」(to sneeze) の形で使う
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -585,7 +620,8 @@
       This is about nasal discharge, not the action itself.
 - id: g-12-kega
   prompt: injury
-  answer: けが
+  answers:
+    - けが
   hint: 'kega — often used with する: けがをする (to get injured)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -604,7 +640,8 @@
       The prompt needs a two-character noun.
 - id: g-12-geka
   prompt: surgeon
-  answer: 外科
+  answers:
+    - 外科
   hint: geka — surgery/department of surgery (often seen in 外科医 = surgeon)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -623,7 +660,8 @@
       It refers to eyes and vision.
 - id: g-12-geri
   prompt: diarrhea
-  answer: 下痢
+  answers:
+    - 下痢
   hint: geri — medical term; often used as 下痢をする (to have diarrhea)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -642,7 +680,8 @@
       Different illness; not specifically about stomach/bowels.
 - id: g-12-genkinai
   prompt: don’t look well
-  answer: 元気がない
+  answers:
+    - 元気がない
   hint: genki ga nai — literally “no energy/spirits”; often used about someone looking
     tired/sick
   stage: -1
@@ -662,7 +701,8 @@
       The prompt is about low energy/spirits rather than nausea.
 - id: g-12-kosei
   prompt: antibiotic
-  answer: 抗生物質
+  answers:
+    - 抗生物質
   hint: 'kouseibusshitsu — medical term: drugs that kill/inhibit bacteria (often written
     in katakana as 抗生物質/こうせいぶっしつ)'
   stage: -1
@@ -682,7 +722,8 @@
       The prompt asks for a specific type used against bacterial infections.
 - id: g-12-kossetsu
   prompt: to break (a bone)
-  answer: 骨折する
+  answers:
+    - 骨折する
   hint: 'kossetsu suru — literally “bone + fracture”; often used like: 腕を骨折する (break
     your arm)'
   stage: -1
@@ -702,7 +743,8 @@
       A sprain is an injury to ligaments, not a fracture.
 - id: g-12-sanfu
   prompt: obstetrician and gynecologist
-  answer: 産婦人科
+  answers:
+    - 産婦人科
   hint: san fujinka — hospital/clinic department for pregnancy/childbirth (産・婦) and
     women’s health (人科).
   stage: -1
@@ -722,7 +764,8 @@
       This refers to pregnancy/childbirth, without the gynecology part.
 - id: g-12-shiai
   prompt: match; game
-  answer: 試合
+  answers:
+    - 試合
   hint: shiai — a sports match/game (e.g., サッカーの試合)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -741,7 +784,8 @@
       Used at stores when you put on clothing to check fit.
 - id: g-12-shika
   prompt: dentist
-  answer: 歯科
+  answers:
+    - 歯科
   hint: shika — as in 歯科医 (しかい) = dentist (person); 歯 = tooth, 科 = department/field
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -760,7 +804,8 @@
       Same pattern: body/area + 科 (department).
 - id: g-12-jibika
   prompt: otorhinolaryngologist; ENT doctor
-  answer: 耳鼻科
+  answers:
+    - 耳鼻科
   hint: jibika — 「耳(ear)＋鼻(nose)＋科(department)」= ENT clinic/doctor
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -779,7 +824,8 @@
       It’s for eyes, not ears/nose/throat.
 - id: g-12-juice
   prompt: juice
-  answer: ジュース
+  answers:
+    - ジュース
   hint: juusu (katakana) - a loanword; long vowel ー in the middle
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -798,7 +844,8 @@
       There should be only one long vowel mark in the middle.
 - id: g-12-shujutsu
   prompt: operation (surgery)
-  answer: 手術
+  answers:
+    - 手術
   hint: 'shujutsu — medical operation/surgery (often used with 受ける: 手術を受ける)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -817,7 +864,8 @@
       Not related to medicine.
 - id: g-12-shokugo
   prompt: after meals
-  answer: 食後
+  answers:
+    - 食後
   hint: 'shokugo — 「食」(meal) + 「後」(after). Often used with に: 食後に薬を飲む (take medicine
     after meals).'
   stage: -1
@@ -837,7 +885,8 @@
       This uses the word for "meal (as an event)" rather than the Sino-Japanese compound.
 - id: g-12-shinpai
   prompt: to worry
-  answer: 心配する
+  answers:
+    - 心配する
   hint: shinpai suru — used for worrying about something/someone (e.g., 〜を心配する).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -856,7 +905,8 @@
       Often lighter and more casual than serious concern.
 - id: g-12-suteki
   prompt: nice
-  answer: 素敵
+  answers:
+    - 素敵
   hint: suteki(na) - a な-adjective meaning "nice/lovely" (often about people, style,
     or atmosphere)
   stage: -1
@@ -876,7 +926,8 @@
       Often about appearance or cleanliness rather than "nice" in general.
 - id: g-12-seikei
   prompt: orthopedic surgeon
-  answer: 整形外科
+  answers:
+    - 整形外科
   hint: seikei geka — orthopedics/plastic surgery department; often seen on clinic
     signs (整形外科).
   stage: -1
@@ -896,7 +947,8 @@
       Different specialty than bone/joint orthopedics.
 - id: g-12-seiseki
   prompt: grade (on a test, etc.)
-  answer: 成績
+  answers:
+    - 成績
   hint: seiseki — test/school performance (成=achieve, 績=results)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -915,7 +967,8 @@
       This refers to proven accomplishments, not test grades.
 - id: g-12-seiri
   prompt: period (menstruation)
-  answer: 生理
+  answers:
+    - 生理
   hint: seiri — common term for menstruation (e.g., 生理中 = on one’s period)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -934,7 +987,8 @@
       This one adds 学 and refers to the academic field.
 - id: g-12-seki
   prompt: cough
-  answer: せき
+  answers:
+    - せき
   hint: seki — as in 咳（せき）; often used in phrases like せきが出る (to cough)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -953,7 +1007,8 @@
       The prompt expects hiragana, which is curvier.
 - id: g-12-sekideru
   prompt: to cough
-  answer: せきが出る
+  answers:
+    - せきが出る
   hint: 'seki ga deru — lit. “a cough comes out”; used like: せきが出る (I start coughing)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -972,7 +1027,8 @@
       This one is about the nose; the prompt is about coughing.
 - id: g-12-semai
   prompt: narrow; not spacious
-  answer: 狭い
+  answers:
+    - 狭い
   hint: 'semai — used for small/tight spaces (room, road). Antonym: 広い (hiroi).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -991,7 +1047,8 @@
       It's the opposite meaning (plenty of space).
 - id: g-12-soreni
   prompt: moreover, ...
-  answer: それに
+  answers:
+    - それに
   hint: sore ni — used to add another point ("and also / besides") at the start of
     a sentence
   stage: -1
@@ -1011,7 +1068,8 @@
       It shows cause-and-effect or sequence, not simple addition.
 - id: g-12-dai
   prompt: 'charge; fee (suffix: ~dai)'
-  answer: ～代
+  answers:
+    - ～代
   hint: ~dai (suffix) — cost/fee for a service or item (e.g., 電気代 electricity bill,
     乗車代 fare, 食事代 meal cost)
   stage: -1
@@ -1031,7 +1089,8 @@
       It’s not used as the fee/charge suffix here.
 - id: g-12-taion
   prompt: thermometer
-  answer: 体温計
+  answers:
+    - 体温計
   hint: taionkei — literally “body + temperature + measure”; commonly used for a clinical
     thermometer
   stage: -1
@@ -1051,7 +1110,8 @@
       Different measurement: blood pressure, not temperature.
 - id: g-12-tabun
   prompt: probably; maybe
-  answer: 多分
+  answers:
+    - 多分
   hint: tabun - used to express uncertainty ("probably")
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1070,7 +1130,8 @@
       Same first kanji, but this is an adjective about quantity.
 - id: g-12-tamago
   prompt: egg
-  answer: 卵
+  answers:
+    - 卵
   hint: tamago — often used in 卵焼き (tamagoyaki, rolled omelet)
   strokeCount: 7
   stage: -1
@@ -1090,7 +1151,8 @@
       The prompt expects the standard single-kanji form.
 - id: g-12-tanzaku
   prompt: strip of fancy paper
-  answer: たんざく
+  answers:
+    - たんざく
   hint: tanzaku — decorative paper strip (e.g., for Tanabata wishes)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1109,7 +1171,8 @@
       Look for the dakuten (two small lines) on the さ-row character.
 - id: g-12-chusha
   prompt: injection
-  answer: 注射
+  answers:
+    - 注射
   hint: chuusha — medical injection/shot (e.g., 注射をする "to get/give an injection")
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1128,7 +1191,8 @@
       This one is about firing weapons, not a medical shot.
 - id: g-12-tsure
   prompt: to bring (a person) back
-  answer: 連れて帰る
+  answers:
+    - 連れて帰る
   hint: tsurete kaeru — 連れて = taking someone along; 帰る = return/go home (intransitive).
     Often used when bringing someone back with you.
   stage: -1
@@ -1148,7 +1212,8 @@
       Direction is toward the speaker/location, not back/home.
 - id: g-12-dekirud
   prompt: as much as possible
-  answer: できるだけ
+  answers:
+    - できるだけ
   hint: dekiru dake — means “to the extent one can”; often used with requests (e.g.,
     できるだけ早く “as soon as possible”)
   stage: -1
@@ -1168,7 +1233,8 @@
       Different wording than the requested one.
 - id: g-12-ten
   prompt: the heavens; the sky
-  answer: 天
+  answers:
+    - 天
   hint: 'ten — 4 strokes; think: “a person (大) under one line (一) = heaven above.”'
   strokeCount: 4
   stage: -1
@@ -1188,7 +1254,8 @@
       Be careful: the top part isn’t a straight horizontal line.
 - id: g-12-tenteki
   prompt: intravenous feeding
-  answer: 点滴
+  answers:
+    - 点滴
   hint: tenteki — IV drip; used in medical contexts (点=dot, 滴=drop)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1207,7 +1274,8 @@
       This is specifically giving blood, not administering fluids by IV drip.
 - id: g-12-naika
   prompt: physician
-  answer: 内科
+  answers:
+    - 内科
   hint: naika — literally “internal medicine”; often used for an internal medicine
     clinic/department (doctor).
   stage: -1
@@ -1227,7 +1295,8 @@
       This one is for children rather than adult internal medicine.
 - id: g-12-naku
   prompt: to cry
-  answer: 泣く
+  answers:
+    - 泣く
   hint: |-
     naku (to cry)
     Usage: 泣く = to cry/weep; often used for people (e.g., 赤ちゃんが泣く).
@@ -1248,7 +1317,8 @@
       The prompt is the basic dictionary form.
 - id: g-12-nakusu
   prompt: to lose
-  answer: なくす
+  answers:
+    - なくす
   hint: 'nakusu — transitive: to lose/misplace something (e.g., 財布をなくす)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1267,7 +1337,8 @@
       The prompt is the transitive form (you lose something).
 - id: g-12-nado
   prompt: and so forth
-  answer: 〜など
+  answers:
+    - 〜など
   hint: nado — used after examples to mean “etc.” (e.g., 本やノートなど)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1286,7 +1357,8 @@
       It sounds like you’re adding extra emphasis that the list continues.
 - id: g-12-nisan
   prompt: for two to three days
-  answer: 二三日
+  answers:
+    - 二三日
   hint: nisannichi — means “a few days (2–3 days)”; often used for short durations
     (e.g., 二三日待ってください).
   stage: -1
@@ -1306,7 +1378,8 @@
       This prompt is about an approximate range, not a fixed number.
 - id: g-12-negai
   prompt: wish
-  answer: 願い
+  answers:
+    - 願い
   hint: negai — a noun meaning a wish/hope (often used in expressions like 願いがかなう
     “a wish comes true”)
   stage: -1
@@ -1326,7 +1399,8 @@
       This one can feel more like an intention or desire rather than a heartfelt wish.
 - id: g-12-netsu
   prompt: to have a fever
-  answer: 熱がある
+  answers:
+    - 熱がある
   hint: netsu ga aru — used for having a fever (often said as 熱があります).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1345,7 +1419,8 @@
       It's a general statement and not specifically about fever.
 - id: g-12-nodo
   prompt: throat
-  answer: 喉
+  answers:
+    - 喉
   hint: nodo — body part; often in のどが痛い (my throat hurts)
   strokeCount: 12
   stage: -1
@@ -1365,7 +1440,8 @@
       Watch the right-side components; it's not the one used for body parts.
 - id: g-12-nodokawa
   prompt: to become thirsty
-  answer: 喉が渇く
+  answers:
+    - 喉が渇く
   hint: nodo ga kawaku — literally “(my) throat dries”; used for physical thirst (e.g.,
     水を飲みたい).
   stage: -1
@@ -1385,7 +1461,8 @@
       This is about pain/soreness rather than needing water.
 - id: g-12-haku
   prompt: to throw up
-  answer: 吐く
+  answers:
+    - 吐く
   hint: haku — to vomit; kanji uses 口 (mouth) + 土 (soil)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1404,7 +1481,8 @@
       It's a longer expression and often implies forcing something out.
 - id: g-12-hajimete
   prompt: for the first time
-  answer: 初めて
+  answers:
+    - 初めて
   hint: hajimete — used when doing/experiencing something the first time (e.g., 初めて日本に行った).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1423,7 +1501,8 @@
       Not specifically about doing something for the very first time.
 - id: g-12-hatake
   prompt: farm (field; cultivated land)
-  answer: 畑
+  answers:
+    - 畑
   hint: hatake — usually a dry field (not a rice paddy). 9 strokes
   strokeCount: 9
   stage: -1
@@ -1443,7 +1522,8 @@
       Same meaning, but a different way of writing it with a different left side.
 - id: g-12-hataoru
   prompt: to weave
-  answer: はたを織る
+  answers:
+    - はたを織る
   hint: hata o oru — 「機(はた)」= loom; used for weaving cloth (e.g., 布を織る).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1462,7 +1542,8 @@
       Be careful: おる can be a different verb depending on the kanji.
 - id: g-12-hasshin
   prompt: rash
-  answer: 発疹
+  answers:
+    - 発疹
   hint: hasshin — medical term for a skin rash/eruption (e.g., 皮膚に発疹が出る)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1481,7 +1562,8 @@
       Same reading, but it's not a medical word.
 - id: g-12-hanamizu
   prompt: runny nose
-  answer: 鼻水
+  answers:
+    - 鼻水
   hint: hanamizu — literally “nose + water”; common when you have a cold/allergies
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1500,7 +1582,8 @@
       It’s an action, not the liquid itself.
 - id: g-12-harau
   prompt: to pay
-  answer: 払う
+  answers:
+    - 払う
   hint: harau — used for paying money/fees (e.g., 料金を払う). Kanji 払 has the 扌(hand)
     radical.
   stage: -1
@@ -1520,7 +1603,8 @@
       Different direction: collecting vs giving payment.
 - id: g-12-hitobito
   prompt: people
-  answer: 人々
+  answers:
+    - 人々
   hint: hitobito — plural/collective “people”; note the iteration mark 々 repeats the
     previous kanji (人).
   stage: -1
@@ -1540,7 +1624,8 @@
       This form uses an added kanji suffix rather than repetition.
 - id: g-12-hifuka
   prompt: dermatologist
-  answer: 皮膚科
+  answers:
+    - 皮膚科
   hint: hifuka — dermatology department/clinic (hospital signage). Often used as 皮膚科(ひふか)に行く
     = to go to the dermatologist.
   stage: -1
@@ -1560,7 +1645,8 @@
       Look for the word related to skin rather than teeth.
 - id: g-12-hiroi
   prompt: wide; spacious
-  answer: 広い
+  answers:
+    - 広い
   hint: hiroi — い-adjective meaning “spacious/wide” (e.g., 広い部屋 = a spacious room)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1579,7 +1665,8 @@
       The prompt is asking for an adjective.
 - id: g-12-fuku
   prompt: clothes
-  answer: 服
+  answers:
+    - 服
   hint: fuku — clothing; 8 strokes
   strokeCount: 8
   stage: -1
@@ -1599,7 +1686,8 @@
       It uses a flesh (月) component and different right-side structure.
 - id: g-12-futsuka
   prompt: hangover
-  answer: 二日酔い
+  answers:
+    - 二日酔い
   hint: futsukayoi — literally “two-day drunk”; used for feeling bad the day after
     drinking (二日酔いになる).
   stage: -1
@@ -1619,7 +1707,8 @@
       The prompt is about feeling ill the day after.
 - id: g-12-present
   prompt: present (gift)
-  answer: プレゼント
+  answers:
+    - プレゼント
   hint: purezento (katakana loanword) — e.g., 誕生日プレゼント (birthday present)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1638,7 +1727,8 @@
       Not a gift—it's an event or talk.
 - id: g-12-benpi
   prompt: constipation
-  answer: 便秘
+  answers:
+    - 便秘
   hint: benpi — medical term; used in 便秘になる (to get constipated)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1657,7 +1747,8 @@
       Same first kanji here is different; focus on the "secret" kanji + the character for "writing."
 - id: g-12-homesick
   prompt: homesickness
-  answer: ホームシック
+  answers:
+    - ホームシック
   hint: hōmushikku (katakana) — used for feeling lonely/missing home, often when away
     for work/school
   stage: -1
@@ -1677,7 +1768,8 @@
       More general psychological trouble, not specifically missing home.
 - id: g-12-hokensho
   prompt: health insurance certificate
-  answer: 保険証
+  answers:
+    - 保険証
   hint: hokenshō — used in clinics/hospitals; often said as 「保険証を見せてください」
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1696,16 +1788,22 @@
       The prompt refers to the physical card/certificate you present.
 - id: g-12-majime
   prompt: serious; sober; diligent
-  answer: まじめ（な）
+  answers:
+    - まじめ
+    - まじめな
   hint: majime (na) - な-adj; used for a serious/diligent attitude (e.g., まじめな学生)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 真面目（な）
+  - answers:
+      - 真面目
+      - 真面目な
     toast: |-
       That's the kanji spelling.
       The prompt expects the kana form here.
-  - answer: しんけん（な）
+  - answers:
+      - しんけん
+      - しんけんな
     toast: |-
       That's "serious" in the sense of being earnest/intense.
       Often used for situations like a serious talk or match.
@@ -1715,7 +1813,8 @@
       Different usage and tone from a personality trait.
 - id: g-12-madeni
   prompt: by (time/date)
-  answer: ～までに
+  answers:
+    - ～までに
   hint: 'made ni — deadline/time limit (something must be done by then). Example:
     3時までに来て。= Come by 3 o''clock.'
   stage: -1
@@ -1735,7 +1834,8 @@
       This prompt is the deadline expression used in a sentence, not the noun-modifying form.
 - id: g-12-mukou
   prompt: the other side; over there
-  answer: 向こう
+  answers:
+    - 向こう
   hint: mukou — "over there / the other side" (often used with 〜の向こう = beyond/across
     ~)
   stage: -1
@@ -1755,7 +1855,8 @@
       A verb of movement, not a noun meaning a location.
 - id: g-12-mushiba
   prompt: bad tooth
-  answer: 虫歯
+  answers:
+    - 虫歯
   hint: mushiba — tooth decay/cavity; often used as 虫歯になる (to get a cavity)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1774,7 +1875,8 @@
       The prompt asks for the condition, not the person/place you go to.
 - id: g-12-musume
   prompt: daughter
-  answer: 娘
+  answers:
+    - 娘
   hint: musume (むすめ) — your/someone’s daughter; also used for “young woman” in some
     contexts. 10 strokes.
   strokeCount: 10
@@ -1795,7 +1897,8 @@
       Both have 女 on the left; the right side here is 未, which has clear horizontal strokes.
 - id: g-12-memai
   prompt: to feel dizzy
-  answer: めまいがする
+  answers:
+    - めまいがする
   hint: memai ga suru — literally “(to) have dizziness”; often used as めまいがします/した
     in polite/past speech
   stage: -1
@@ -1815,7 +1918,8 @@
       It describes wobbling motion rather than the sensation itself.
 - id: g-12-mosugu
   prompt: very soon; in a few moments/days
-  answer: もうすぐ
+  answers:
+    - もうすぐ
   hint: 'mou sugu — means "almost/soon" (often used for time: もうすぐ来る = will come very
     soon)'
   stage: -1
@@ -1835,7 +1939,8 @@
       Common in announcements; different nuance/style from casual daily speech.
 - id: g-12-mono
   prompt: thing (concrete object)
-  answer: 物
+  answers:
+    - 物
   hint: |-
     mono — concrete “thing/object” (not abstract “matter”)
     8 strokes
@@ -1857,7 +1962,8 @@
       The prompt is for a single kanji, not a two-kanji word.
 - id: g-12-yakedo
   prompt: to burn oneself
-  answer: やけどをする
+  answers:
+    - やけどをする
   hint: 'yakedo o suru — literally "to do a burn" (to get a burn/scald on yourself);
     often used with に: 熱いお湯にやけどをした'
   stage: -1
@@ -1877,7 +1983,8 @@
       This one is specifically "to get a burn injury" and uses 〜をする.
 - id: g-12-youji
   prompt: business to take care of
-  answer: 用事
+  answers:
+    - 用事
   hint: youji — an errand/engagement; often used in 「用事がある」 (I have something to do).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1896,7 +2003,8 @@
       Watch the second kanji: it's "thing/affair" vs "paper".
 - id: g-12-xray
   prompt: X-ray
-  answer: レントゲン
+  answers:
+    - レントゲン
   hint: |-
     rentogen (katakana loanword)
     Often used as: レントゲンを撮る = to take an X-ray
@@ -1917,7 +2025,8 @@
       The prompt is specifically the medical imaging done with X-rays.
 - id: g-12-wakareru
   prompt: to break up; to separate
-  answer: 別れる
+  answers:
+    - 別れる
   hint: wakareru (ru-verb) — used for separating from someone/something (e.g., 恋人と別れる).
     Not the same as 分かれる “to be divided/branch off.”
   stage: -1
@@ -1937,7 +2046,8 @@
       Focuses on distance rather than “parting/breaking up.”
 - id: g-12-watashis
   prompt: we
-  answer: 私たち
+  answers:
+    - 私たち
   hint: watashitachi — inclusive "we" (speaker + others); more formal than うちら
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1956,7 +2066,8 @@
       Different nuance and character used.
 - id: g-12-warui
   prompt: bad
-  answer: 悪い
+  answers:
+    - 悪い
   hint: warui — i-adjective; often for “bad/poor” (quality) or “wrong” (behavior)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'

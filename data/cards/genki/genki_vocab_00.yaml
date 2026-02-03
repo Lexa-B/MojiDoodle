@@ -1,6 +1,7 @@
 - id: g-00-thanks
   prompt: Thank you.
-  answer: ありがとう
+  answers:
+    - ありがとう
   hint: 'arigatou — casual “thanks”; for polite: ありがとうございます'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -19,7 +20,8 @@
       The nuance is apologetic, not a straightforward thank-you.
 - id: g-00-thanks-pol
   prompt: Thank you. (polite)
-  answer: ありがとうございます
+  answers:
+    - ありがとうございます
   hint: arigatou gozaimasu — polite set phrase; often used to thank someone (more
     formal than ありがとう)
   stage: -1
@@ -39,7 +41,8 @@
       It can be used to get attention or apologize, not a straightforward thank-you.
 - id: g-00-nope
   prompt: No.; Not at all.
-  answer: いいえ
+  answers:
+    - いいえ
   hint: iie — polite negative response (more formal than ううん)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -58,7 +61,8 @@
       Often stronger and can sound blunt depending on context.
 - id: g-00-itadaki
   prompt: Thank you for the meal. (before eating)
-  answer: いただきます
+  answers:
+    - いただきます
   hint: itadakimasu — said before eating; polite set phrase (often with hands together).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -77,7 +81,8 @@
       The prompt is the set polite expression used at the start of a meal.
 - id: g-00-itteki
   prompt: I’ll go and come back.
-  answer: いってきます
+  answers:
+    - いってきます
   hint: itte kimasu — said when leaving home/office; reply is 「いってらっしゃい」.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -96,7 +101,8 @@
       The prompt is for the set phrase used before leaving.
 - id: g-00-ittera
   prompt: Please go and come back.
-  answer: いってらっしゃい
+  answers:
+    - いってらっしゃい
   hint: itterasshai — said to someone leaving home; reply is 「いってきます」
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -115,7 +121,9 @@
       For seeing someone off, use the set phrase in casual/polite speech.
 - id: g-00-okaeri
   prompt: Welcome home.
-  answer: おかえり（なさい）
+  answers:
+    - おかえり
+    - おかえりなさい
   hint: okaeri (nasai) - said to someone returning home; 「なさい」 makes it more polite
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -128,13 +136,16 @@
     toast: |-
       That's a shop/staff welcome phrase.
       This prompt is used at home to greet someone returning.
-  - answer: おやすみ（なさい）
+  - answers:
+      - おやすみ
+      - おやすみなさい
     toast: |-
       That's said before going to sleep.
       Different situation and meaning.
 - id: g-00-ohayo
   prompt: Good morning.
-  answer: おはよう
+  answers:
+    - おはよう
   hint: ohayou — casual greeting (use おはようございます for polite/formal)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -153,7 +164,8 @@
       Used in the evening/night, not in the morning.
 - id: g-00-ohayo-pol
   prompt: Good morning. (polite)
-  answer: おはようございます
+  answers:
+    - おはようございます
   hint: ohayou gozaimasu - polite greeting used in the morning (often until ~10–11am)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -172,7 +184,9 @@
       This greeting is for nighttime, not morning.
 - id: g-00-oyasumi
   prompt: Good night.
-  answer: おやすみ（なさい）
+  answers:
+    - おやすみ
+    - おやすみなさい
   hint: 'oyasumi (nasai) — casual: おやすみ / polite: おやすみなさい (used when going to sleep)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -185,13 +199,17 @@
     toast: |-
       That means "goodbye."
       It's for parting, not a bedtime expression.
-  - answer: おはよう（ございます）
+  - answers:
+      - おはよう
+      - おはようございます
     toast: |-
       That means "good morning."
       It's used after waking up, not before sleeping.
 - id: g-00-gochisou
   prompt: Thank you for the meal. (after eating)
-  answer: ごちそうさま（でした）
+  answers:
+    - ごちそうさま
+    - ごちそうさまでした
   hint: gochisousama (deshita) — said after finishing a meal; polite past form is
     common in restaurants
   stage: -1
@@ -205,13 +223,16 @@
     toast: |-
       That's the full polite past form.
       If the prompt includes parentheses, the shorter form may be acceptable depending on context.
-  - answer: ありがとう（ございました）
+  - answers:
+      - ありがとう
+      - ありがとうございました
     toast: |-
       That's a general "thank you".
       The prompt is specifically the set phrase used after eating.
 - id: g-00-konnichi
   prompt: Good afternoon.
-  answer: こんにちは
+  answers:
+    - こんにちは
   hint: konnichiwa — common daytime greeting (often written in hiragana; the は is
     pronounced "wa")
   stage: -1
@@ -231,7 +252,8 @@
       This greeting is written with は at the end (even though it sounds like "wa").
 - id: g-00-konban
   prompt: Good evening.
-  answer: こんばんは
+  answers:
+    - こんばんは
   hint: konbanwa — common evening greeting; written with は but pronounced “wa”
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -250,7 +272,8 @@
       Used in the morning, not in the evening.
 - id: g-00-sayonara
   prompt: Good-bye.
-  answer: さようなら
+  answers:
+    - さようなら
   hint: sayounara - standard farewell; a bit formal/final-sounding
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -269,7 +292,8 @@
       Common with kids/friends; written in katakana.
 - id: g-00-sumimas
   prompt: Excuse me.; I’m sorry.
-  answer: すみません
+  answers:
+    - すみません
   hint: sumimasen — used to get attention, apologize, or politely preface a request
     (more casual than 申し訳ありません).
   stage: -1
@@ -289,7 +313,8 @@
       The prompt expects the standard polite form.
 - id: g-00-tadaima
   prompt: I’m home.
-  answer: ただいま
+  answers:
+    - ただいま
   hint: tadaima — said when you return home (often answered with「おかえり」).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -308,7 +333,8 @@
       It's used when entering someone else's place, not when coming back to your own home.
 - id: g-00-desu
   prompt: I am . . . .
-  answer: ～です
+  answers:
+    - ～です
   hint: ~ desu - polite copula; attach to a noun (e.g., 学生です = "I am a student")
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -327,7 +353,8 @@
       The final か turns it into "Am I...?/Is it...?"
 - id: g-00-hajime
   prompt: How do you do ?
-  answer: はじめまして
+  answers:
+    - はじめまして
   hint: hajimemashite - used when meeting someone for the first time (often followed
     by よろしくお願いします).
   stage: -1
@@ -347,7 +374,8 @@
       This prompt is the special greeting for a first meeting.
 - id: g-00-yoroshiku
   prompt: Nice to meet you.
-  answer: よろしくお願いします
+  answers:
+    - よろしくお願いします
   hint: yoroshiku onegaishimasu — set phrase used when meeting someone or asking for
     goodwill; often written as よろしくお願いします
   stage: -1

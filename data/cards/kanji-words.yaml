@@ -1,82 +1,99 @@
 - id: kjw-omou
   prompt: "To Think (Opinion/Feeling)"
-  answer: "思う"
+  answers:
+    - "思う"
   hint: "omou - subjective thinking"
   stage: -1
   unlocks: "9999-12-31T23:59:59+00:00"
   befuddlers:
-    - answer: "考える"
+    - answers:
+        - "考える"
       toast: "That's \"to reason/consider\"!\nThis one is for thinking through a problem logically."
-    - answer: "知っている"
+    - answers:
+        - "知っている"
       toast: "That's \"to know\"!\nThis one is about having information, not forming thoughts."
 
 - id: kjw-taberu
   prompt: "To Eat"
-  answer: "食べる"
+  answers:
+    - "食べる"
   hint: "taberu"
   stage: -1
   unlocks: "9999-12-31T23:59:59+00:00"
   befuddlers:
-    - answer: "飲む"
+    - answers:
+        - "飲む"
       toast: "That's \"to drink\"!\nThe prompt asks about solid food."
 
 - id: kjw-miru
   prompt: "To See / Watch"
-  answer: "見る"
+  answers:
+    - "見る"
   hint: "miru"
   stage: -1
   unlocks: "9999-12-31T23:59:59+00:00"
   befuddlers:
-    - answer: "聞く"
+    - answers:
+        - "聞く"
       toast: "That's \"to hear/listen\"!\nThe prompt asks about visual perception."
 
 - id: kjw-iku
   prompt: "To Go"
-  answer: "行く"
+  answers:
+    - "行く"
   hint: "iku"
   stage: -1
   unlocks: "9999-12-31T23:59:59+00:00"
   befuddlers:
-    - answer: "来る"
+    - answers:
+        - "来る"
       toast: "That's \"to come\"!\nThis one means movement toward the speaker."
 
 - id: kjw-kuru
   prompt: "To Come"
-  answer: "来る"
+  answers:
+    - "来る"
   hint: "kuru"
   stage: -1
   unlocks: "9999-12-31T23:59:59+00:00"
   befuddlers:
-    - answer: "行く"
+    - answers:
+        - "行く"
       toast: "That's \"to go\"!\nThis one means movement away from the speaker."
 
 - id: kjw-nihon
   prompt: "Japan"
-  answer: "日本"
+  answers:
+    - "日本"
   hint: "nihon - \"sun origin\""
   stage: -1
   unlocks: "9999-12-31T23:59:59+00:00"
   befuddlers:
-    - answer: "日曜日"
+    - answers:
+        - "日曜日"
       toast: "That's \"Sunday\"!\nThe prompt asks for a country, not a day."
 
 - id: kjw-sensei
   prompt: "Teacher"
-  answer: "先生"
+  answers:
+    - "先生"
   hint: "sensei"
   stage: -1
   unlocks: "9999-12-31T23:59:59+00:00"
   befuddlers:
-    - answer: "学生"
+    - answers:
+        - "学生"
       toast: "That's \"student\"!\nThe prompt asks for the one who teaches."
 
 - id: kjw-gakusei
   prompt: "Student"
-  answer: "学生"
+  answers:
+    - "学生"
   hint: "gakusei"
   stage: -1
   unlocks: "9999-12-31T23:59:59+00:00"
   befuddlers:
-    - answer: "先生"
+    - answers:
+        - "先生"
       toast: "That's \"teacher\"!\nThe prompt asks for the one who learns."
 

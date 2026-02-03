@@ -1,6 +1,7 @@
 - id: g-04-between
   prompt: between
-  answer: 間
+  answers:
+    - 間
   hint: aida (between/interval); also read ま (ma) in compounds. 12 strokes.
   strokeCount: 12
   stage: -1
@@ -20,7 +21,8 @@
       The prompt word has an extra element inside the gate.
 - id: g-04-meet
   prompt: to meet; to see (a person)
-  answer: 会う
+  answers:
+    - 会う
   hint: au — used for meeting/seeing a person (e.g., 友だちに会う). Not for "to fit".
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -39,7 +41,8 @@
       The prompt expects the dictionary form (plain form).
 - id: g-04-asatte
   prompt: the day after tomorrow
-  answer: あさって
+  answers:
+    - あさって
   hint: asatte — 3 days from today (today → tomorrow あした → day after tomorrow あさって)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -58,7 +61,8 @@
       This word is a day reference, not a time of day.
 - id: g-04-anata
   prompt: you
-  answer: あなた
+  answers:
+    - あなた
   hint: anata - "you" (often avoided; using the person’s name/title sounds more natural)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -77,7 +81,8 @@
       The prompt is asking for just the standalone pronoun.
 - id: g-04-aru
   prompt: there is . . .
-  answer: ある
+  answers:
+    - ある
   hint: aru - inanimate existence (e.g., 机の上に本がある = There is a book on the desk)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -96,7 +101,8 @@
       Be careful: this prompt expects kana, not kanji.
 - id: g-04-baito
   prompt: part-time job
-  answer: アルバイト
+  answers:
+    - アルバイト
   hint: arubaito (katakana loanword; often shortened to バイト)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -115,7 +121,8 @@
       Watch the middle sounds and the long vowel mark ー.
 - id: g-04-jan
   prompt: January
-  answer: 一月
+  answers:
+    - 一月
   hint: ichigatsu — first month of the year (not the one-month duration)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -134,7 +141,8 @@
       The second kanji here means day, not month.
 - id: g-04-1h
   prompt: one hour
-  answer: 一時間
+  answers:
+    - 一時間
   hint: 'ichijikan — duration: “one hour” (〜時間). Often used with かかる/いる (takes).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -153,7 +161,8 @@
       Same pattern, but a different unit (week).
 - id: g-04-day5
   prompt: the fifth day of a month
-  answer: 五日
+  answers:
+    - 五日
   hint: itsuka — used for dates (e.g., 5日 = the 5th). Not the word for “five days”
     duration.
   stage: -1
@@ -173,7 +182,8 @@
       The prompt is a date expression.
 - id: g-04-dog
   prompt: dog
-  answer: 犬
+  answers:
+    - 犬
   hint: 'inu — 4 strokes (big dog radical: 犭)'
   strokeCount: 4
   stage: -1
@@ -193,7 +203,8 @@
       The prompt is for the single kanji.
 - id: g-04-iru
   prompt: (a person) is in . . . ; stays at . . .
-  answer: いる
+  answers:
+    - いる
   hint: 'iru — used for people/animals being somewhere (exist/stay). Contrast: ある
     for things.'
   stage: -1
@@ -213,7 +224,8 @@
       This prompt is about existence/location, not necessity.
 - id: g-04-on-top
   prompt: 'on'
-  answer: 上
+  answers:
+    - 上
   hint: ue — "above/on top" (contrast with 下 = below)
   strokeCount: 3
   stage: -1
@@ -233,7 +245,8 @@
       Make sure the small stroke is placed on the opposite side.
 - id: g-04-back
   prompt: back
-  answer: 後ろ
+  answers:
+    - 後ろ
   hint: ushiro — “behind/in the back (of)”; often used with の (e.g., うしろのドア)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -252,7 +265,8 @@
       The prompt is for the general word “back/behind”.
 - id: g-04-late
   prompt: (do something) late
-  answer: 遅く
+  answers:
+    - 遅く
   hint: 'osoku — adverb form of 遅い (late/slow). Often used with なる: 遅くなる (to become
     late).'
   stage: -1
@@ -272,7 +286,8 @@
       This kanji uses a different left side; watch the radicals carefully.
 - id: g-04-otera
   prompt: temple
-  answer: お寺
+  answers:
+    - お寺
   hint: otera — Buddhist temple (often お寺さん). Not a shrine (神社).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -291,7 +306,8 @@
       The prompt is the common everyday word.
 - id: g-04-ototoi
   prompt: the day before yesterday
-  answer: おととい
+  answers:
+    - おととい
   hint: ototoi — 2 days ago (not "yesterday")
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -310,7 +326,8 @@
       This is vague, not a specific day.
 - id: g-04-ototoshi
   prompt: the year before last
-  answer: おととし
+  answers:
+    - おととし
   hint: ototoshi — time word; contrasts with おととい (the day before yesterday)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -329,7 +346,8 @@
       The prompt expects the common everyday expression.
 - id: g-04-manju
   prompt: sweet bun
-  answer: おまんじゅう
+  answers:
+    - おまんじゅう
   hint: omanjuu - often a small Japanese sweet bun filled with red bean paste (あんこ)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -348,7 +366,8 @@
       It's made with two pancake-like cakes, not a single steamed bun.
 - id: g-04-shop
   prompt: shopping
-  answer: 買い物
+  answers:
+    - 買い物
   hint: 'kaimono — noun: doing/buying things (e.g., 買い物に行く = to go shopping)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -367,7 +386,8 @@
       Uses the kanji for "to sell" instead of "to buy".
 - id: g-04-buy
   prompt: to buy
-  answer: 買う
+  answers:
+    - 買う
   hint: kau — used for buying items (買い物). Kanji 買 is 12 strokes.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -386,7 +406,8 @@
       Be careful not to mix up buy vs. sell.
 - id: g-04-write
   prompt: to write
-  answer: 書く
+  answers:
+    - 書く
   hint: kaku (u-verb) — usually writing text/letters; often used as ～を書く (e.g., 名前を書く).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -405,7 +426,8 @@
       Not the verb for writing.
 - id: g-04-tue
   prompt: Tuesday
-  answer: 火曜日
+  answers:
+    - 火曜日
   hint: kayoubi — the day of 火 (fire) + 曜日 (day of the week)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -424,7 +446,8 @@
       It uses the moon/month kanji (月) for the day.
 - id: g-04-yest
   prompt: yesterday
-  answer: 昨日
+  answers:
+    - 昨日
   hint: kinou — time word meaning “yesterday” (not “last year”)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -443,7 +466,8 @@
       This refers to a year, not a day.
 - id: g-04-lastyr
   prompt: last year
-  answer: 去年
+  answers:
+    - 去年
   hint: kyonen — time word (often used with は/の), e.g., 去年の夏 = last summer
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -462,7 +486,8 @@
       Common in news, reports, and official writing.
 - id: g-04-fri
   prompt: Friday
-  answer: 金曜日
+  answers:
+    - 金曜日
   hint: kin'youbi — the weekday ending in 「曜日」 (day of the week). 「金」 = gold/metal
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -481,7 +506,8 @@
       Look closely at the first kanji: it has a tree/wood shape, not the metal-related one.
 - id: g-04-sep
   prompt: September
-  answer: 九月
+  answers:
+    - 九月
   hint: kugatsu — 「九」= 9, 「月」= month (also read がつ as a month suffix)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -500,7 +526,8 @@
       Check whether the number is 8 or 9.
 - id: g-04-approx
   prompt: about (approximate measurement)
-  answer: ～ぐらい
+  answers:
+    - ～ぐらい
   hint: gurai — used after a number/amount for an approximation (e.g., 3分ぐらい = about
     3 minutes). Also written as ～くらい.
   stage: -1
@@ -520,7 +547,8 @@
       This one often sounds a bit more formal and can imply an upper bound.
 - id: g-04-class
   prompt: class
-  answer: クラス
+  answers:
+    - クラス
   hint: kurasu - katakana loanword for a school class/course (e.g., 日本語のクラス)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -539,7 +567,8 @@
       This one is a longer word with extra characters added at the end.
 - id: g-04-game
   prompt: game
-  answer: ゲーム
+  answers:
+    - ゲーム
   hint: geemu (katakana loanword; long vowel ー)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -558,7 +587,8 @@
       Only one ー is needed here.
 - id: g-04-mon
   prompt: Monday
-  answer: 月曜日
+  answers:
+    - 月曜日
   hint: getsuyoubi (げつようび) — literally “moon day”
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -577,7 +607,8 @@
       The prompt expects the full weekday written in kanji.
 - id: g-04-park
   prompt: park
-  answer: 公園
+  answers:
+    - 公園
   hint: kouen — a public park (公=public, 園=garden/park)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -596,7 +627,8 @@
       The second kanji means "country," not a park/garden.
 - id: g-04-may
   prompt: May
-  answer: 五月
+  answers:
+    - 五月
   hint: gogatsu — the 5th month (五月(ごがつ)です = It's May)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -615,7 +647,8 @@
       Double-check the first kanji: it should match the month number in the prompt.
 - id: g-04-day9
   prompt: the ninth day of a month
-  answer: 九日
+  answers:
+    - 九日
   hint: kokonoka — special reading for dates (not *kyuu-nichi*)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -634,7 +667,8 @@
       Be careful: this is the ninth month, not the ninth day.
 - id: g-04-thisyr
   prompt: this year
-  answer: 今年
+  answers:
+    - 今年
   hint: kotoshi — this calendar year (e.g., 今年は忙しい)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -653,7 +687,8 @@
       Watch the time unit: month vs year.
 - id: g-04-kid
   prompt: child
-  answer: 子供
+  answers:
+    - 子供
   hint: kodomo — common word for “child”; can also be written こども in kana
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -672,7 +707,8 @@
       The prompt is the general everyday word.
 - id: g-04-gohan
   prompt: rice; meal
-  answer: ご飯
+  answers:
+    - ご飯
   hint: gohan — can mean cooked rice or a (polite) meal; often used in phrases like
     朝ご飯/昼ご飯/晩ご飯
   stage: -1
@@ -692,7 +728,8 @@
       The prompt can also mean "cooked rice" specifically.
 - id: g-04-gomen
   prompt: I’m sorry.
-  answer: ごめんなさい
+  answers:
+    - ごめんなさい
   hint: gomen nasai — polite apology; often shortened to ごめん (casual)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -711,7 +748,8 @@
       It’s fine with friends/family, but less polite than the full phrase.
 - id: g-04-thismo
   prompt: this month
-  answer: 今月
+  answers:
+    - 今月
   hint: kongetsu — この月 (the current month); often used with は/の (今月は…, 今月の…)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -730,7 +768,8 @@
       The second kanji here means "week" instead of "month".
 - id: g-04-thiswk
   prompt: this week
-  answer: 今週
+  answers:
+    - 今週
   hint: konshuu — e.g., 今週は忙しい (This week is busy).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -749,7 +788,8 @@
       The second kanji is "month," not "week."
 - id: g-04-next2mo
   prompt: the month after next
-  answer: 再来月
+  answers:
+    - 再来月
   hint: saraigetsu — the month after next (2 months from now); contrast with 来月 (next
     month) and 再来週 (the week after next)
   stage: -1
@@ -769,7 +809,8 @@
       Same pattern, but it's a different time unit (week vs. month).
 - id: g-04-next2wk
   prompt: the week after next
-  answer: 再来週
+  answers:
+    - 再来週
   hint: sarai shuu — 「再」= again, 「来週」= next week → “the next week after next”
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -788,7 +829,8 @@
       It points to the past, not the future.
 - id: g-04-next2yr
   prompt: the year after next
-  answer: 再来年
+  answers:
+    - 再来年
   hint: sarainen — the year after next (来年=next year, 再来年=next-next year)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -807,7 +849,8 @@
       Be careful: this is about months, not years.
 - id: g-04-mar
   prompt: March
-  answer: 三月
+  answers:
+    - 三月
   hint: sangatsu — read 三 as さん and 月 as がつ (month).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -826,7 +869,8 @@
       When this means a month name, it’s read with がつ (month).
 - id: g-04-apr
   prompt: April
-  answer: 四月
+  answers:
+    - 四月
   hint: shigatsu — month names use ～月 (gatsu)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -845,7 +889,8 @@
       Check the first kanji: five vs four.
 - id: g-04-hours
   prompt: '... hours (counter suffix)'
-  answer: ～時間
+  answers:
+    - ～時間
   hint: ~jikan — attach to a number (e.g., 3時間 = three hours). Pronounced いちじかん, にじかん,
     さんじかん…
   stage: -1
@@ -865,7 +910,8 @@
       Use it for minutes, not hours.
 - id: g-04-under
   prompt: under
-  answer: 下
+  answers:
+    - 下
   hint: shita — "under/below" (also means "down" depending on context)
   strokeCount: 3
   stage: -1
@@ -885,7 +931,8 @@
       Be careful with the last stroke placement and the overall shape.
 - id: g-04-jul
   prompt: July
-  answer: 七月
+  answers:
+    - 七月
   hint: shichigatsu — the month of July (七=7, 月=month). Watch for the small っ in しち.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -904,7 +951,8 @@
       The second character is day (日), not month (月).
 - id: g-04-photo
   prompt: picture; photograph
-  answer: 写真
+  answers:
+    - 写真
   hint: shashin — 写=“copy/reflect”, 真=“true/real”; common in 写真を撮る (to take a photo)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -923,7 +971,8 @@
       The prompt is asking for the noun form.
 - id: g-04-nov
   prompt: November
-  answer: 十一月
+  answers:
+    - 十一月
   hint: 'juuichigatsu — month #11 (十一 = 11, 月 = month). Often pronounced じゅういちがつ (not
     じゅういちげつ).'
   stage: -1
@@ -943,7 +992,8 @@
       This one is month 1, so the numeral is much smaller.
 - id: g-04-day11
   prompt: the eleventh day of a month
-  answer: 十一日
+  answers:
+    - 十一日
   hint: juuichinichi — date reading; often written as 11日 in schedules
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -962,7 +1012,8 @@
       Watch the extra characters in the number.
 - id: g-04-oct
   prompt: October
-  answer: 十月
+  answers:
+    - 十月
   hint: 'juugatsu — the 10th month. Note: months use the counter ～月 (がつ).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -981,7 +1032,8 @@
       The second kanji is the year counter (年), not the month counter.
 - id: g-04-dec
   prompt: December
-  answer: 十二月
+  answers:
+    - 十二月
   hint: juunigatsu — the 12th month (月 = month). Also read 12月 (じゅうにがつ).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1000,7 +1052,8 @@
       The last kanji is different: day vs month.
 - id: g-04-day14
   prompt: the fourteenth day of a month
-  answer: 十四日
+  answers:
+    - 十四日
   hint: juuyokka — date reading (not "juuyon-nichi")
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1019,7 +1072,8 @@
       Watch the middle number: 4 vs 5 can be easy to mix up.
 - id: g-04-wed
   prompt: Wednesday
-  answer: 水曜日
+  answers:
+    - 水曜日
   hint: suiyoubi — literally “water day” (水) + “day of week” (曜日); written as 水・曜・日
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1038,7 +1092,8 @@
       This one starts with the “sun/day” kanji and is missing the weekday kanji in the middle.
 - id: g-04-super
   prompt: supermarket
-  answer: スーパー
+  answers:
+    - スーパー
   hint: sūpā (katakana) — long vowel mark 「ー」 extends the sound; write ス・ー・パ・ー
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1057,7 +1112,8 @@
       The prompt expects katakana (more angular shapes).
 - id: g-04-lastmo
   prompt: last month
-  answer: 先月
+  answers:
+    - 先月
   hint: sengetsu — time word; often used with は/に (e.g., 先月は忙しかった)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1076,7 +1132,8 @@
       Watch the time unit: this one is "week" (週), not "month" (月).
 - id: g-04-lastwk
   prompt: last week
-  answer: 先週
+  answers:
+    - 先週
   hint: senshū — time word meaning the week before this one (often used with 先週は…)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1095,7 +1152,8 @@
       Same idea, but the unit of time is a month, not a week.
 - id: g-04-then
   prompt: and then
-  answer: それから
+  answers:
+    - それから
   hint: sorekara — used to continue a sequence (“and then… / after that…”).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1114,7 +1172,8 @@
       The prompt wants the neutral connector without extra sentence-ending nuance.
 - id: g-04-so
   prompt: so; therefore
-  answer: だから
+  answers:
+    - だから
   hint: dakara — casual conjunction meaning “so/therefore”; often used to give a reason/explanation
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1133,7 +1192,8 @@
       Often used to sound gentler or more neutral.
 - id: g-04-many
   prompt: many; a lot
-  answer: たくさん
+  answers:
+    - たくさん
   hint: takusan — often used before/with nouns (たくさんの人) or with verbs (たくさん食べる).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1152,7 +1212,8 @@
       It describes how strong something is, not how many/how much.
 - id: g-04-near
   prompt: near; nearby
-  answer: 近く
+  answers:
+    - 近く
   hint: chikaku — often used as 近くの (nearby ~) or 近くに (nearby/in the vicinity)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1171,7 +1232,8 @@
       Opposite meaning: not nearby.
 - id: g-04-day1
   prompt: the first day of a month
-  answer: 一日
+  answers:
+    - 一日
   hint: tsuitachi — special reading for 「一日」 meaning the 1st of the month (not いちにち)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1190,7 +1252,8 @@
       This one uses the month kanji (月), not the day counter kanji.
 - id: g-04-tera
   prompt: temple
-  answer: 寺
+  answers:
+    - 寺
   hint: tera — 6 strokes. Often seen in words like お寺 (otera).
   strokeCount: 6
   stage: -1
@@ -1210,7 +1273,8 @@
       It has the “person (亻)” radical on the left.
 - id: g-04-with
   prompt: together with (a person); and
-  answer: ～と
+  answers:
+    - ～と
   hint: to — particle meaning “with” (person) or “and” when listing nouns; attach
     after a noun (e.g., 友だちと).
   stage: -1
@@ -1230,7 +1294,8 @@
       It adds information rather than linking “with/and.”
 - id: g-04-why
   prompt: why
-  answer: どうして
+  answers:
+    - どうして
   hint: doushite — used to ask for a reason (often "Why?/How come?")
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1249,7 +1314,8 @@
       It asks about the way to do something, not the reason.
 - id: g-04-day10
   prompt: the tenth day of a month
-  answer: 十日
+  answers:
+    - 十日
   hint: |-
     tooka (10th day of the month)
     Note: also used as “ten days” depending on context.
@@ -1270,7 +1336,8 @@
       The extra character indicates “after/later”.
 - id: g-04-time
   prompt: when . . . ; at the time of . . .
-  answer: 時
+  answers:
+    - 時
   hint: toki — used for time/when (e.g., 子どもの時). 10 strokes
   strokeCount: 10
   stage: -1
@@ -1290,7 +1357,8 @@
       Watch the left side: it uses the speech radical 言, not the sun radical.
 - id: g-04-next
   prompt: next (neighboring/adjacent)
-  answer: 隣
+  answers:
+    - 隣
   hint: tonari — “next to”; often used as 隣の〜 (the neighboring ~). 15 strokes.
   strokeCount: 15
   stage: -1
@@ -1310,7 +1378,8 @@
       The left side uses a different radical, and the middle has more structure.
 - id: g-04-takepic
   prompt: to take (a picture)
-  answer: 撮る
+  answers:
+    - 撮る
   hint: toru — used for photos/filming (写真を撮る, 動画を撮る)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1329,7 +1398,8 @@
       The prompt is the common verb used with 写真.
 - id: g-04-inside
   prompt: inside
-  answer: 中
+  answers:
+    - 中
   hint: 'naka — 4 strokes; meaning: inside/middle'
   strokeCount: 4
   stage: -1
@@ -1349,7 +1419,8 @@
       It has a vertical line and also a middle horizontal line.
 - id: g-04-day7
   prompt: the seventh day of a month
-  answer: 七日
+  answers:
+    - 七日
   hint: |-
     nanoka — read as な(七) + のか(日)
     Irregular reading: 七日 = なのか (not しちにち)
@@ -1370,7 +1441,8 @@
       The prompt is a date in the month (the 7th).
 - id: g-04-2moago
   prompt: two months ago
-  answer: 二か月前
+  answers:
+    - 二か月前
   hint: nikagetsu mae — time expression meaning "two months before (now/then)" (e.g.,
     二か月前に日本に来ました)
   stage: -1
@@ -1390,7 +1462,8 @@
       Be careful: month (か月) vs. year (年).
 - id: g-04-feb
   prompt: February
-  answer: 二月
+  answers:
+    - 二月
   hint: nigatsu — month name; written with the number 2 + month
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1409,7 +1482,8 @@
       Check the number used at the beginning.
 - id: g-04-2wkago
   prompt: two weeks ago
-  answer: 二週間前
+  answers:
+    - 二週間前
   hint: nishūkan mae — time expression; can be used like 「二週間前に日本へ行った」
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1428,7 +1502,8 @@
       Check the time unit in the middle (weeks vs months).
 - id: g-04-day24
   prompt: the twenty-fourth day of a month
-  answer: 二十四日
+  answers:
+    - 二十四日
   hint: nijuu-yokka (にじゅうよっか) — irregular day reading (…日 = か here). Used for calendar
     dates.
   stage: -1
@@ -1448,7 +1523,8 @@
       The prompt is a day of the month, not a length of time.
 - id: g-04-cat
   prompt: cat
-  answer: 猫
+  answers:
+    - 猫
   hint: neko — Kanji has the 犭(けものへん) “animal” radical on the left
   strokeCount: 11
   stage: -1
@@ -1468,7 +1544,8 @@
       The prompt expects the kanji form, not kana.
 - id: g-04-busstop
   prompt: bus stop
-  answer: バス停
+  answers:
+    - バス停
   hint: 'basutei - 「停」= stop (as in 停車). Often used with に/で: バス停に行く, バス停で待つ'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1487,7 +1564,8 @@
       The prompt wants the word that explicitly includes "bus".
 - id: g-04-aug
   prompt: August
-  answer: 八月
+  answers:
+    - 八月
   hint: hachigatsu — the 8th month (月 is read がつ in month names)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1506,7 +1584,8 @@
       One is a month name; the other is a day/date expression.
 - id: g-04-day20
   prompt: the twentieth day of a month
-  answer: 二十日
+  answers:
+    - 二十日
   hint: hatsuka — irregular reading (not *nijuu-nichi*) used for dates
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1525,7 +1604,8 @@
       This one adds a kanji meaning “around/approximately”.
 - id: g-04-flower
   prompt: flower
-  answer: 花
+  answers:
+    - 花
   hint: hana — common noun for a flower (not the nose). 7 strokes.
   strokeCount: 7
   stage: -1
@@ -1545,7 +1625,8 @@
       This one is more complex and is used in words like 華やか.
 - id: g-04-bread
   prompt: bread
-  answer: パン
+  answers:
+    - パン
   hint: pan (katakana) — common loanword used for bread in general
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1564,7 +1645,8 @@
       The final kana here is different (ン vs ソ).
 - id: g-04-left
   prompt: left
-  answer: 左
+  answers:
+    - 左
   hint: hidari — 5 strokes
   strokeCount: 5
   stage: -1
@@ -1584,7 +1666,8 @@
       It includes the person radical 亻 on the left side.
 - id: g-04-person
   prompt: person
-  answer: 人
+  answers:
+    - 人
   hint: |-
     hito (person)
     2 strokes
@@ -1606,7 +1689,8 @@
       It has a hook/curve on the second stroke, unlike the simple two-slash shape.
 - id: g-04-alone
   prompt: alone
-  answer: 一人で
+  answers:
+    - 一人で
   hint: hitori de — means “by oneself”; often used with 行く/する (e.g., 一人で行く = go alone)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1625,7 +1709,8 @@
       Watch the first kanji: it changes the number of people.
 - id: g-04-hospital
   prompt: hospital
-  answer: 病院
+  answers:
+    - 病院
   hint: byouin — 病(illness) + 院(institution); long vowel びょう
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1644,7 +1729,8 @@
       The prompt asks for the place, not the action/state.
 - id: g-04-day2
   prompt: the second day of a month
-  answer: 二日
+  answers:
+    - 二日
   hint: 'futsuka — read as ふつか (NOT ににち). Often used for dates: 2日(ふつか).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1663,7 +1749,8 @@
       The last character means a time span (duration), not a calendar date.
 - id: g-04-hotel
   prompt: hotel
-  answer: ホテル
+  answers:
+    - ホテル
   hint: hoteru (katakana loanword). Watch the long vowel mark 「ー」 in the middle.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1682,7 +1769,8 @@
       「テ」 has the extra short stroke at the top-left.
 - id: g-04-book
   prompt: bookstore
-  answer: 本屋
+  answers:
+    - 本屋
   hint: honya — 本 (book) + 屋 (shop; -ya suffix for store)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1701,7 +1789,8 @@
       This one sells pens/paper rather than books.
 - id: g-04-front
   prompt: front
-  answer: 前
+  answers:
+    - 前
   hint: mae — “in front of / before” (e.g., 前に = before/in front of). 9 strokes.
   strokeCount: 9
   stage: -1
@@ -1721,7 +1810,8 @@
       It has a boxy top and a different interior structure.
 - id: g-04-town
   prompt: town; city
-  answer: 町
+  answers:
+    - 町
   hint: machi — often means a (small) town/neighborhood; also used in place names
   strokeCount: 7
   stage: -1
@@ -1741,7 +1831,8 @@
       This one is much simpler with fewer strokes.
 - id: g-04-wait
   prompt: to wait
-  answer: 待つ
+  answers:
+    - 待つ
   hint: 'matsu — u-verb (待ちます). Often used for waiting for a person/bus: バスを待つ'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1760,7 +1851,8 @@
       Be careful: this word is normally written with a different kanji, and the meanings differ.
 - id: g-04-manju2
   prompt: sweet bun
-  answer: まんじゅう
+  answers:
+    - まんじゅう
   hint: manjuu — a small Japanese sweet bun, often filled with anko (sweet red bean
     paste)
   stage: -1
@@ -1780,7 +1872,8 @@
       These are skewered rice flour dumplings, not a bun.
 - id: g-04-right
   prompt: right
-  answer: 右
+  answers:
+    - 右
   hint: migi — 5 strokes; means the right side/direction
   strokeCount: 5
   stage: -1
@@ -1800,7 +1893,8 @@
       The prompt needs a full kanji, not only the box component.
 - id: g-04-store
   prompt: shop; store
-  answer: 店
+  answers:
+    - 店
   hint: mise — often used for a general shop/store (e.g., パン屋は店です).
   strokeCount: 8
   stage: -1
@@ -1820,7 +1914,8 @@
       The inside components differ—be careful with the right-side structure.
 - id: g-04-day3
   prompt: the third day of a month
-  answer: 三日
+  answers:
+    - 三日
   hint: mikka (みっか) — irregular reading for dates (1st–10th). Often written with 「日」
     as the day counter.
   stage: -1
@@ -1840,7 +1935,8 @@
       It uses 「ヶ／月」 for months, not 「日」 for a day of the month.
 - id: g-04-day6
   prompt: the sixth day of a month
-  answer: 六日
+  answers:
+    - 六日
   hint: 'muika — irregular day reading (not ろくにち). Used for dates: 6日(むいか).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1859,7 +1955,8 @@
       The prompt is a specific date within a month, not a relative time expression.
 - id: g-04-thu
   prompt: Thursday
-  answer: 木曜日
+  answers:
+    - 木曜日
   hint: mokuyoubi — literally "wood day" + 曜日 (days of the week).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1878,7 +1975,8 @@
       This one starts with the sun/day character, not the tree/wood character.
 - id: g-04-moshi
   prompt: Hello? (used on the phone)
-  answer: もしもし
+  answers:
+    - もしもし
   hint: moshi moshi — phone-only greeting; said when answering/calling
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1897,7 +1995,8 @@
       Use it to acknowledge, not as the classic call-opening phrase.
 - id: g-04-day8
   prompt: the eighth day of a month
-  answer: 八日
+  answers:
+    - 八日
   hint: youka — calendar day “8th”; often written with the counter 日 (day).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1916,7 +2015,8 @@
       The prompt is for a calendar date, not counting items.
 - id: g-04-day4
   prompt: the fourth day of a month
-  answer: 四日
+  answers:
+    - 四日
   hint: yokka — irregular day counter (一日ついたち, 二日ふつか, 三日みっか, 四日よっか)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1935,7 +2035,8 @@
       The 「後」 adds "after/from now", not a date in the month.
 - id: g-04-nextmo
   prompt: next month
-  answer: 来月
+  answers:
+    - 来月
   hint: 'raigetsu — 来(come) + 月(month); often used for plans: 来月は旅行します。'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1954,7 +2055,8 @@
       The second kanji is "year," not "month."
 - id: g-04-nextwk
   prompt: next week
-  answer: 来週
+  answers:
+    - 来週
   hint: raishuu — time word; often used with に (来週に) or から (来週から)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1973,7 +2075,8 @@
       Same first kanji, but the time unit is month (月) instead of week (週).
 - id: g-04-nextyr
   prompt: next year
-  answer: 来年
+  answers:
+    - 来年
   hint: rainen — often used for calendar year (e.g., 来年の春 = next spring)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1992,7 +2095,8 @@
       It includes an extra kanji meaning “again,” making it a different time reference.
 - id: g-04-resto
   prompt: restaurant
-  answer: レストラン
+  answers:
+    - レストラン
   hint: resutoran (katakana loanword). Often used with に行く (to go to a restaurant).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -2011,7 +2115,8 @@
       Make sure you have トラ, not トル.
 - id: g-04-report
   prompt: (term) paper
-  answer: レポート
+  answers:
+    - レポート
   hint: repōto — academic report/term paper (katakana loanword)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -2030,7 +2135,8 @@
       This is a Japanese word for writing, not the katakana loanword for a term paper.
 - id: g-04-jun
   prompt: June
-  answer: 六月
+  answers:
+    - 六月
   hint: |-
     rokugatsu — 六 (6) + 月 (month)
     Note: 月 is the “month/moon” kanji; written with 4 strokes.
@@ -2051,7 +2157,8 @@
       Check the number kanji: this one uses a different numeral.
 - id: g-04-wakaru
   prompt: to understand
-  answer: わかる
+  answers:
+    - わかる
   hint: wakaru (u-verb) — often used as わかるよ (“I get it”). Common kanji is 分かる, but
     this card uses kana.
   stage: -1

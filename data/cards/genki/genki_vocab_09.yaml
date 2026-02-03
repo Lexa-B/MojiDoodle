@@ -1,6 +1,7 @@
 - id: g-09-aoi
   prompt: blue
-  answer: 青い
+  answers:
+    - 青い
   hint: aoi — い-adj. describing the color blue; becomes 青く (adverb) / 青かった (past)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -19,7 +20,8 @@
       The common everyday spelling uses the basic color kanji.
 - id: g-09-aosig
   prompt: green light
-  answer: 青信号
+  answers:
+    - 青信号
   hint: aoshin-gou — literally “blue signal,” but it means a green traffic light in
     Japanese
   stage: -1
@@ -39,7 +41,8 @@
       The last kanji changes the meaning completely.
 - id: g-09-akai
   prompt: red
-  answer: 赤い
+  answers:
+    - 赤い
   hint: akai — い-adjective meaning “red” (e.g., 赤いりんご = a red apple)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -58,7 +61,8 @@
       This is a more specific shade and uses a different kanji.
 - id: g-09-annai
   prompt: to show (someone) around
-  answer: 案内する
+  answers:
+    - 案内する
   hint: 'annai suru — to guide/lead someone (e.g., around a building or city). Often
     used as: 〜を案内する'
   stage: -1
@@ -78,7 +82,8 @@
       It sounds more formal and about directing movement, not giving a tour.
 - id: g-09-iiko
   prompt: good child
-  answer: いい子
+  answers:
+    - いい子
   hint: ii ko — often used praising a kid (e.g., いい子だね). 子 = "child".
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -97,7 +102,8 @@
       Different person word; watch the right-side components.
 - id: g-09-ijiwaru
   prompt: mean-spirited
-  answer: 意地悪
+  answers:
+    - 意地悪
   hint: ijiwaru (na) — describes someone being nasty/unkind on purpose; often used
     like 意地悪な人
   stage: -1
@@ -117,7 +123,8 @@
       This refers to ill will itself rather than describing a person's personality as a な-adjective.
 - id: g-09-itsutsu
   prompt: five
-  answer: 五つ
+  answers:
+    - 五つ
   hint: itsutsu — the native Japanese counting word for 5 (used for general items;
     ends in 〜つ).
   stage: -1
@@ -137,7 +144,8 @@
       The prompt is asking for the native 〜つ counting word instead.
 - id: g-09-iro
   prompt: color
-  answer: 色
+  answers:
+    - 色
   hint: iro — common noun for color; also used in 色々(いろいろ) = various
   strokeCount: 6
   stage: -1
@@ -157,13 +165,17 @@
       This one is more boxy with a distinct "horn" shape.
 - id: g-09-iroiro
   prompt: various; different kinds of
-  answer: いろいろ（な）
+  answers:
+    - いろいろ
+    - いろいろな
   hint: iroiro (na) - "various/sort of this and that"; often used as いろいろな + noun
     (e.g., いろいろな人).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: さまざま（な）
+  - answers:
+      - さまざま
+      - さまざまな
     toast: |-
       That means "various" too, but it sounds more formal/written.
       Often used for variety in types or aspects in a broad sense.
@@ -177,7 +189,8 @@
       If the prompt expects the dictionary form, avoid the shortened spoken form.
 - id: g-09-undo
   prompt: to exercise
-  answer: 運動する
+  answers:
+    - 運動する
   hint: undou suru — do physical exercise; often used with が/を (e.g., 毎日運動する)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -196,7 +209,8 @@
       It's about training a skill, not general physical exercise.
 - id: g-09-odoru
   prompt: to dance
-  answer: 踊る
+  answers:
+    - 踊る
   hint: odoru — u-verb; often used for dancing (e.g., ダンスを踊る / 盆踊り).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -215,7 +229,8 @@
       The prompt expects the plain dictionary form.
 - id: g-09-obento
   prompt: boxed lunch
-  answer: お弁当
+  answers:
+    - お弁当
   hint: 'obentou — polite お + 弁当; common phrase: お弁当を作る (to make a bento)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -234,7 +249,8 @@
       Often found inside this, but it’s a different item.
 - id: g-09-oboeru
   prompt: to memorize
-  answer: 覚える
+  answers:
+    - 覚える
   hint: oboeru (ru-verb) — memorize/learn by heart; often used for remembering names/words
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -253,7 +269,8 @@
       This is giving information to someone else, not learning it yourself.
 - id: g-09-orange
   prompt: orange
-  answer: オレンジ
+  answers:
+    - オレンジ
   hint: orenji (katakana) — a common loanword; often written in katakana for foods/colors
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -272,7 +289,8 @@
       Make sure you include the long final part with 「ジ」.
 - id: g-09-owaru
   prompt: (something) ends
-  answer: 終わる
+  answers:
+    - 終わる
   hint: 'owaru — intransitive: something comes to an end (e.g., 会議が終わる).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -291,7 +309,8 @@
       The prompt is asking for a verb (dictionary form).
 - id: g-09-aogao
   prompt: to look pale
-  answer: 顔が青い
+  answers:
+    - 顔が青い
   hint: kao ga aoi — idiom meaning someone’s face looks pale (often from sickness/shock);
     literally “the face is blue.”
   stage: -1
@@ -311,7 +330,8 @@
       Opposite color/nuance from looking pale.
 - id: g-09-kabuki
   prompt: Kabuki; traditional Japanese theatrical art
-  answer: 歌舞伎
+  answers:
+    - 歌舞伎
   hint: kabuki — traditional Japanese stage theater; often written with these three
     kanji
   stage: -1
@@ -331,7 +351,8 @@
       Similar first kanji (song), but the second kanji means "hand/person," not performance.
 - id: g-09-kiiro
   prompt: yellow
-  answer: 黄色い
+  answers:
+    - 黄色い
   hint: kiiroi — い-adjective. Often written in kana as きいろい in casual contexts.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -350,7 +371,8 @@
       Be careful not to swap the color word.
 - id: g-09-guitar
   prompt: guitar
-  answer: ギター
+  answers:
+    - ギター
   hint: gitā (katakana) — long vowel mark 「ー」 stretches ギ to ギー
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -369,7 +391,8 @@
       This word only needs one vowel extender.
 - id: g-09-kimono
   prompt: kimono; Japanese traditional dress
-  answer: 着物
+  answers:
+    - 着物
   hint: kimono — literally "thing to wear" (着=to wear, 物=thing)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -388,7 +411,8 @@
       The second kanji is the same, but the first kanji is different.
 - id: g-09-kin-iro
   prompt: gold
-  answer: 金色
+  answers:
+    - 金色
   hint: kin'iro — “golden color”; often used with の (金色の) to describe something golden.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -407,7 +431,8 @@
       This one uses the kanji for silver instead of gold.
 - id: g-09-gin-iro
   prompt: silver
-  answer: 銀色
+  answers:
+    - 銀色
   hint: giniro — literally “silver color”; often used for metallic-looking items (e.g.,
     銀色の車).
   stage: -1
@@ -427,7 +452,8 @@
       Similar meaning in some contexts, but this one is the standard word for gray rather than a metallic color.
 - id: g-09-kusuri
   prompt: medicine
-  answer: 薬
+  answers:
+    - 薬
   hint: kusuri; 16 strokes. Commonly used for medicine/drugs (e.g., 風邪薬).
   strokeCount: 16
   stage: -1
@@ -447,7 +473,8 @@
       Both have the grass radical, but the inner/bottom components are different.
 - id: g-09-kusuri-nomu
   prompt: to take medicine
-  answer: 薬を飲む
+  answers:
+    - 薬を飲む
   hint: kusuri o nomu — use when you swallow medicine (e.g., pills). Often said as
     薬を飲みます。
   stage: -1
@@ -467,7 +494,8 @@
       Check whether the verb ends in the plain affirmative form.
 - id: g-09-green
   prompt: green
-  answer: グリーン
+  answers:
+    - グリーン
   hint: guriin (katakana) — a loanword; often used for colors or "the green" (e.g.,
     golf green)
   stage: -1
@@ -487,7 +515,8 @@
       Make sure to include the final ン to complete the word.
 - id: g-09-gray
   prompt: gray
-  answer: グレー
+  answers:
+    - グレー
   hint: guree - loanword; often used for the color or for "gray/unclear" situations
     (グレーゾーン).
   stage: -1
@@ -507,7 +536,8 @@
       Make sure the word ends with a long vowel mark, not an extra consonant.
 - id: g-09-kuroi
   prompt: black
-  answer: 黒い
+  answers:
+    - 黒い
   hint: kuroi — i-adjective meaning “black” (ends in い).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -526,7 +556,8 @@
       It’s the opposite color adjective.
 - id: g-09-gold
   prompt: gold
-  answer: ゴールド
+  answers:
+    - ゴールド
   hint: gōrudo (katakana) — often used for “gold” (color/medal/material) in loanword
     contexts
   stage: -1
@@ -546,7 +577,8 @@
       The prompt expects katakana for a loanword.
 - id: g-09-kokonotsu
   prompt: nine
-  answer: 九つ
+  answers:
+    - 九つ
   hint: kokonotsu — native Japanese counter for nine items (used with ～つ)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -565,7 +597,8 @@
       This uses the day counter (～日), not the general item counter (～つ).
 - id: g-09-gozen
   prompt: in the morning
-  answer: 午前中
+  answers:
+    - 午前中
   hint: gozenchuu — 午前 (a.m.) + 中 (during/throughout); used for “sometime during the
     morning”
   stage: -1
@@ -585,7 +618,8 @@
       Watch the second character: it changes the time period.
 - id: g-09-gochiso
   prompt: excellent food
-  answer: ごちそう
+  answers:
+    - ごちそう
   hint: gochisou — often used in 「ごちそうさまでした」 after a meal
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -604,7 +638,8 @@
       Make sure you include the long vowel sound at the end.
 - id: g-09-kon
   prompt: navy
-  answer: 紺色
+  answers:
+    - 紺色
   hint: kon'iro — dark navy blue; often used for uniforms (e.g., 紺色のスーツ).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -623,7 +658,8 @@
       This one is fully black, not a dark blue shade.
 - id: g-09-concert
   prompt: concert
-  answer: コンサート
+  answers:
+    - コンサート
   hint: konsāto - Katakana loanword (from “concert”)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -642,7 +678,8 @@
       The prompt asks for the event itself, not the place.
 - id: g-09-kondo
   prompt: near future
-  answer: 今度
+  answers:
+    - 今度
   hint: kondo — often means “next time / soon” (the upcoming occasion)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -661,7 +698,8 @@
       The prompt is a common everyday word meaning “next time/soon.”
 - id: g-09-sakubun
   prompt: essay; composition
-  answer: 作文
+  answers:
+    - 作文
   hint: sakubun — a written composition/essay (often for school).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -680,7 +718,8 @@
       The prompt is asking for the noun form.
 - id: g-09-sabishii
   prompt: lonely
-  answer: 寂しい
+  answers:
+    - 寂しい
   hint: sabishii — feeling lonely/isolated (also used for “missing someone” in context)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -699,7 +738,8 @@
       Watch the left side: this one uses the heart radical (忄).
 - id: g-09-sanpo
   prompt: to take a walk
-  answer: 散歩する
+  answers:
+    - 散歩する
   hint: sanpo suru — usually used for a casual stroll (e.g., 公園を散歩する)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -718,7 +758,8 @@
       This is a longer outing, not a casual neighborhood stroll.
 - id: g-09-shiken
   prompt: exam
-  answer: 試験
+  answers:
+    - 試験
   hint: shiken — often used for school tests and official exams (e.g., 入学試験, 運転免許試験)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -737,7 +778,8 @@
       This is checking condition/quality (medical check, product inspection), not taking an exam.
 - id: g-09-silver
   prompt: silver
-  answer: シルバー
+  answers:
+    - シルバー
   hint: shirubaa — katakana loanword often used for the color/metal; long vowel ー
     + small ァ at the end
   stage: -1
@@ -757,7 +799,8 @@
       The prompt is just the noun by itself.
 - id: g-09-shiroi
   prompt: white
-  answer: 白い
+  answers:
+    - 白い
   hint: shiroi — い-adj meaning “white” (e.g., 白いシャツ = a white shirt)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -776,7 +819,8 @@
       The prompt expects the plain adjective form.
 - id: g-09-shirokuro
   prompt: black and white
-  answer: 白黒
+  answers:
+    - 白黒
   hint: shirokuro — also used for monochrome photos/TV; can imply “right vs wrong”
     (白黒をつける)
   stage: -1
@@ -796,7 +840,8 @@
       Here you need the native kanji expression commonly used for black-and-white.
 - id: g-09-ski
   prompt: ski
-  answer: スキー
+  answers:
+    - スキー
   hint: sukii (katakana loanword). Long vowel mark 「ー」 after ス.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -815,7 +860,8 @@
       The prompt is just the sport/equipment word.
 - id: g-09-zehi
   prompt: by all means
-  answer: 是非
+  answers:
+    - 是非
   hint: zehi — used to strongly encourage or invite (e.g., 「ぜひ来てください」 “Please do come.”)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -834,7 +880,8 @@
       The prompt expects the shorter adverb form.
 - id: g-09-soo
   prompt: (I think) so
-  answer: そう
+  answers:
+    - そう
   hint: sou — used to agree/confirm (e.g., そうです = “That’s right / I think so”). Often
     paired with です/だ.
   stage: -1
@@ -854,7 +901,8 @@
       The prompt is for the standalone confirming word.
 - id: g-09-soshite
   prompt: and then
-  answer: そして
+  answers:
+    - そして
   hint: soshite — connects sentences meaning "and then / and also" (more formal than
     それで).
   stage: -1
@@ -874,7 +922,8 @@
       It adds emphasis and changes the nuance from a simple connector.
 - id: g-09-tango
   prompt: word; vocabulary
-  answer: 単語
+  answers:
+    - 単語
   hint: tango — means “a vocabulary word” (単=single, 語=language/word)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -893,7 +942,8 @@
       It specifically means a multi-kanji compound term.
 - id: g-09-ticket
   prompt: ticket
-  answer: チケット
+  answers:
+    - チケット
   hint: chiketto (katakana) - used for event/transport tickets
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -912,7 +962,8 @@
       Don't add ー at the end.
 - id: g-09-chairo
   prompt: brown
-  answer: 茶色い
+  answers:
+    - 茶色い
   hint: chairoi — い-adjective meaning “brown”; often used as 茶色い〜 (e.g., 茶色いかばん).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -931,7 +982,8 @@
       It starts with a similar color kanji + い, but it’s a different color.
 - id: g-09-tegami
   prompt: letter
-  answer: 手紙
+  answers:
+    - 手紙
   hint: tegami — a written letter (not "mail" in general)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -950,7 +1002,8 @@
       This is just the material, not something you send.
 - id: g-09-juu
   prompt: ten
-  answer: 十
+  answers:
+    - 十
   hint: tō (とお) — the kanji for 10; 2 strokes (one horizontal, then one vertical through
     the middle)
   strokeCount: 2
@@ -971,7 +1024,8 @@
       It has an extra short stroke near the top.
 - id: g-09-tokorode
   prompt: by the way
-  answer: ところで
+  answers:
+    - ところで
   hint: tokorode — use to change the topic or add an aside (e.g., ところで、元気？)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -990,7 +1044,8 @@
       It often starts a new step or conclusion, not a casual "by the way".
 - id: g-09-nanatsu
   prompt: seven
-  answer: 七つ
+  answers:
+    - 七つ
   hint: nanatsu - Japanese-style counting (hitotsu, futatsu, ... nanatsu); used for
     general items (not people)
   stage: -1
@@ -1010,7 +1065,8 @@
       This uses the person counter, not the general counter used for things.
 - id: g-09-nikki
   prompt: diary
-  answer: 日記
+  answers:
+    - 日記
   hint: nikki — a written journal/diary (日=day + 記=record)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1029,7 +1085,8 @@
       The prompt is for the word meaning the diary/journal itself.
 - id: g-09-ninki
   prompt: to be popular
-  answer: 人気がある
+  answers:
+    - 人気がある
   hint: ninki ga aru — literally “has popularity”; often used for people/products
     (e.g., この店は人気がある).
   stage: -1
@@ -1049,7 +1106,8 @@
       This focuses on positive evaluation rather than sheer popularity.
 - id: g-09-haiiro
   prompt: gray
-  answer: 灰色
+  answers:
+    - 灰色
   hint: haiiro — literally “ash color”; often written as グレー in katakana too
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1068,7 +1126,8 @@
       This is metallic; the prompt is a neutral color.
 - id: g-09-hajimaru
   prompt: (something) begins
-  answer: 始まる
+  answers:
+    - 始まる
   hint: hajimaru (intransitive u-verb) — a thing/event starts; often used with が (e.g.,
     授業が始まる)
   stage: -1
@@ -1088,7 +1147,8 @@
       This one takes an object (〜を) and means "to begin (something)".
 - id: g-09-hanashi
   prompt: to have a talk
-  answer: 話をする
+  answers:
+    - 話をする
   hint: hanashi o suru — literally “do a talk”; common in casual conversation (e.g.,
     ちょっと話をする).
   stage: -1
@@ -1108,7 +1168,8 @@
       This is used when you want help or guidance, not just a chat.
 - id: g-09-piano
   prompt: piano
-  answer: ピアノ
+  answers:
+    - ピアノ
   hint: piano (katakana loanword). Watch the small ィ in ピ and the long diagonal in
     ノ.
   stage: -1
@@ -1128,7 +1189,8 @@
       The correct last character has a slanted stroke.
 - id: g-09-hiku
   prompt: to play (a string instrument or piano)
-  answer: 弾く
+  answers:
+    - 弾く
   hint: hiku — used for playing instruments (e.g., ピアノを弾く、ギターを弾く). Not 引く (to pull).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1147,7 +1209,8 @@
       Often used for producing a melody rather than the basic "play an instrument" verb.
 - id: g-09-hitotsu
   prompt: one
-  answer: 一つ
+  answers:
+    - 一つ
   hint: hitotsu (ひとつ) — native Japanese counter for “one (thing)”
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1166,7 +1229,8 @@
       This prompt is the general native counting form.
 - id: g-09-byoki
   prompt: illness; sickness
-  answer: 病気
+  answers:
+    - 病気
   hint: byouki — 病 (illness) + 気 (spirit/condition); often used with になる (to get sick)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1185,7 +1249,8 @@
       This is a specific illness; the prompt asks for the general word.
 - id: g-09-hiru
   prompt: noon
-  answer: 昼
+  answers:
+    - 昼
   hint: hiru — "daytime/noon" (also used in 昼ご飯 = lunch)
   strokeCount: 9
   stage: -1
@@ -1205,7 +1270,8 @@
       Look for the extra components compared to the simpler daytime word.
 - id: g-09-pink
   prompt: pink
-  answer: ピンク
+  answers:
+    - ピンク
   hint: pinku (katakana loanword for the color pink)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1224,7 +1290,8 @@
       The prompt expects the full color word, not the shortened form.
 - id: g-09-futatsu
   prompt: two
-  answer: 二つ
+  answers:
+    - 二つ
   hint: futatsu - used for counting things (native Japanese counter); often written
     in kana as ふたつ
   stage: -1
@@ -1244,7 +1311,8 @@
       The prompt expects the native counting form with つ.
 - id: g-09-beige
   prompt: beige
-  answer: ベージュ
+  answers:
+    - ベージュ
   hint: bēju (katakana loanword for the color beige)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1263,7 +1331,8 @@
       Different ending: this one ends with スト, not a small ュ sound.
 - id: g-09-bento
   prompt: boxed lunch
-  answer: 弁当
+  answers:
+    - 弁当
   hint: 'bentou — common collocation: 弁当を作る (to make a boxed lunch)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1282,7 +1351,8 @@
       The prompt is specifically the packed boxed-lunch style meal.
 - id: g-09-hostfam
   prompt: host family
-  answer: ホストファミリー
+  answers:
+    - ホストファミリー
   hint: 'hosuto famirii — homestay host family (katakana loanword; long vowels: ホスト
     / ファミリー)'
   stage: -1
@@ -1302,7 +1372,8 @@
       A more formal Japanese phrasing rather than the common katakana term.
 - id: g-09-made
   prompt: to (a place/a time) / until
-  answer: まで
+  answers:
+    - まで
   hint: 'made — indicates an endpoint (time/place): 5時まで = until 5 o’clock; 東京まで =
     to Tokyo'
   stage: -1
@@ -1322,7 +1393,8 @@
       Different function; not an endpoint marker.
 - id: g-09-mizuiro
   prompt: light blue
-  answer: 水色
+  answers:
+    - 水色
   hint: mizuiro — literally “water color”; often used for pale/light blue shades
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1341,7 +1413,8 @@
       The prompt is a color word, not the thing itself.
 - id: g-09-mittsu
   prompt: three
-  answer: 三つ
+  answers:
+    - 三つ
   hint: mittsu — native Japanese counter for 3 (used up to 10).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1360,7 +1433,8 @@
       This one uses the person counter 「人」, not the general counter 「つ」.
 - id: g-09-midori
   prompt: green
-  answer: 緑
+  answers:
+    - 緑
   hint: midori — the color green; often used as 緑色(みどりいろ)
   strokeCount: 14
   stage: -1
@@ -1380,7 +1454,8 @@
       Different radical on the left (grass 艹), and the structure is not the same.
 - id: g-09-muttsu
   prompt: six
-  answer: 六つ
+  answers:
+    - 六つ
   hint: |-
     muttsu (native Japanese counter for 1–9 items)
     Often written in kana: むっつ
@@ -1401,7 +1476,8 @@
       Watch the kanji: this one has a different shape and reading.
 - id: g-09-murasaki
   prompt: purple
-  answer: 紫
+  answers:
+    - 紫
   hint: murasaki — 12 strokes (a color word; also a plant/dye)
   strokeCount: 12
   stage: -1
@@ -1421,7 +1497,8 @@
       Look for the 糸 (thread) radical on the left.
 - id: g-09-mail
   prompt: e-mail
-  answer: メール
+  answers:
+    - メール
   hint: meeru (katakana) — used for email/message; often in メールを送る (to send an email)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1440,7 +1517,8 @@
       The prompt expects the common katakana-only form.
 - id: g-09-mou
   prompt: already
-  answer: もう
+  answers:
+    - もう
   hint: 'mou — used for “already” (often with 〜た): もう食べた = already ate'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1459,7 +1537,8 @@
       It indicates something will happen in a short time, not that it has already happened.
 - id: g-09-morau
   prompt: to get (from somebody)
-  answer: もらう
+  answers:
+    - もらう
   hint: morau — to receive/get from someone (giver is に/から). Often contrasted with
     あげる/くれる.
   stage: -1
@@ -1479,7 +1558,8 @@
       The prompt is the plain dictionary form.
 - id: g-09-yattsu
   prompt: eight
-  answer: 八つ
+  answers:
+    - 八つ
   hint: yattsu — native Japanese counter for 1–9 (hitotsu, futatsu, ...). Used for
     counting general items.
   stage: -1
@@ -1499,7 +1579,8 @@
       This one is specifically for counting people, not general objects.
 - id: g-09-yottsu
   prompt: four
-  answer: 四つ
+  answers:
+    - 四つ
   hint: yottsu — native Japanese counter for 4 (used with general objects; e.g., 四つください)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1518,7 +1599,8 @@
       Make sure you're writing the kanji for the correct number.
 - id: g-09-ryo
   prompt: dormitory
-  answer: 寮
+  answers:
+    - 寮
   hint: ryou — a student dorm (e.g., 学生寮). 15 strokes
   strokeCount: 15
   stage: -1
@@ -1538,7 +1620,8 @@
       Be careful: this has fewer parts and a different right-side structure.
 - id: g-09-wakai
   prompt: young
-  answer: 若い
+  answers:
+    - 若い
   hint: wakai — i-adjective meaning “young” (for people/age). Often used as 若い人 (young
     person).
   stage: -1

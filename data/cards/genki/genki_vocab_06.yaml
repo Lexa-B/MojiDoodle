@@ -1,6 +1,7 @@
 - id: g-06-akeru
   prompt: to open (something)
-  answer: 開ける
+  answers:
+    - 開ける
   hint: 'akeru — transitive: opens something (e.g., ドアを開ける). Contrast with 開く (to
     open by itself / to be open).'
   stage: -1
@@ -20,7 +21,8 @@
       Used for things like night ending or the New Year beginning.
 - id: g-06-asobu
   prompt: to play; to spend time pleasantly
-  answer: 遊ぶ
+  answers:
+    - 遊ぶ
   hint: 'asobu (遊ぶ) — u-verb. Used for playing (games) or hanging out: 友だちと遊ぶ'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -39,7 +41,8 @@
       This is about feeling enjoyment, not the act of playing or hanging out.
 - id: g-06-atode
   prompt: later on
-  answer: 後で
+  answers:
+    - 後で
   hint: atode — used for “later/afterwards” (e.g., あとで電話する = I'll call you later)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -58,7 +61,8 @@
       It indicates doing something before something else.
 - id: g-06-isogu
   prompt: to hurry
-  answer: 急ぐ
+  answers:
+    - 急ぐ
   hint: isogu (u-verb) — often used for “hurry (to do something)” like 急いで！
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -77,7 +81,8 @@
       The prompt is about hurrying, not losing composure.
 - id: g-06-italy
   prompt: Italy
-  answer: イタリア
+  answers:
+    - イタリア
   hint: itaria - written in katakana for the country name
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -96,7 +101,8 @@
       Shorter word; missing the タ and リ sounds in the middle.
 - id: g-06-itsumo
   prompt: always
-  answer: いつも
+  answers:
+    - いつも
   hint: itsumo — used for habitual actions (e.g., いつもありがとう “thanks always”).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -115,7 +121,8 @@
       It’s not 100%—more like “in general.”
 - id: g-06-aircon
   prompt: air conditioner
-  answer: エアコン
+  answers:
+    - エアコン
   hint: eakon — shorthand for エアコンディショナー; common in daily speech
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -134,7 +141,8 @@
       Check the middle vowel length and the consonant: it should read like “air-con.”
 - id: g-06-eki
   prompt: station
-  answer: 駅
+  answers:
+    - 駅
   hint: eki — train/subway station; kanji has 14 strokes
   strokeCount: 14
   stage: -1
@@ -154,7 +162,8 @@
       The prompt is asking for the place (station), not the vehicle.
 - id: g-06-okane
   prompt: money
-  answer: お金
+  answers:
+    - お金
   hint: okane — polite/common word for money (often written お金)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -173,7 +182,8 @@
       The standard spelling doesn’t add an extra え.
 - id: g-06-oshieru
   prompt: to teach; to instruct
-  answer: 教える
+  answers:
+    - 教える
   hint: 'oshieru (ru-verb) — to teach/tell someone (often takes に for the person,
     を for the content): 先生が学生に日本語を教える'
   stage: -1
@@ -193,7 +203,8 @@
       Watch the kana ending: one is "...shieru" and the other is "...zoeru".
 - id: g-06-oriru
   prompt: to get off (a vehicle; to go down/descend)
-  answer: 降りる
+  answers:
+    - 降りる
   hint: oriru — used for getting off a train/bus/car, or descending (e.g., stairs,
     mountain).
   stage: -1
@@ -213,7 +224,8 @@
       This is about falling, not getting off a vehicle or descending intentionally.
 - id: g-06-kaesu
   prompt: to return (a thing)
-  answer: 返す
+  answers:
+    - 返す
   hint: 'kaesu — to give something back/return an item (transitive). Often used with
     に: 本を図書館に返す'
   stage: -1
@@ -233,7 +245,8 @@
       The prompt is about returning an object (you do the action).
 - id: g-06-kado
   prompt: corner
-  answer: 角
+  answers:
+    - 角
   hint: |-
     kado (also かく)
     7 strokes
@@ -256,7 +269,8 @@
       The prompt is asking for the single kanji/noun form.
 - id: g-06-kane
   prompt: money
-  answer: 金
+  answers:
+    - 金
   hint: kane / kin — 8 strokes; also means “gold/metal” depending on context
   strokeCount: 8
   stage: -1
@@ -276,7 +290,8 @@
       Be careful not to add extra parts underneath.
 - id: g-06-kariru
   prompt: to borrow
-  answer: 借りる
+  answers:
+    - 借りる
   hint: kariru (ru-verb) — borrow (something) from someone; e.g., 友だちに本を借りる
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -295,7 +310,8 @@
       The prompt is for the dictionary form of the verb.
 - id: g-06-kanji
   prompt: kanji; Chinese character
-  answer: 漢字
+  answers:
+    - 漢字
   hint: kanji — Japanese writing using Chinese characters (e.g., 漢字 vs かな).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -314,7 +330,8 @@
       The prompt is specifically about Chinese characters.
 - id: g-06-kita
   prompt: north
-  answer: 北
+  answers:
+    - 北
   hint: 'kita — 5 strokes. Looks like a person (匕) next to a line; direction: north.'
   strokeCount: 5
   stage: -1
@@ -334,7 +351,8 @@
       Different direction word; the kanji shape is more box-like with extra strokes.
 - id: g-06-kyokasho
   prompt: textbook
-  answer: 教科書
+  answers:
+    - 教科書
   hint: kyoukasho — used for school textbooks (e.g., 学校の教科書).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -353,7 +371,8 @@
       It refers to the subject itself, not the book.
 - id: g-06-kuni
   prompt: country; place of origin
-  answer: 国
+  answers:
+    - 国
   hint: kuni — also used for “home country” (自分の国). 8 strokes.
   strokeCount: 8
   stage: -1
@@ -373,7 +392,8 @@
       It has a similar outer box, but the inside has many more parts.
 - id: g-06-kesu
   prompt: to turn off; to erase
-  answer: 消す
+  answers:
+    - 消す
   hint: kesu (u-verb) — used for switching off lights/TV (電気を消す) or erasing writing
     (字を消す)
   stage: -1
@@ -393,7 +413,8 @@
       The prompt is asking for the action verb.
 - id: g-06-kekko
   prompt: That would be fine.; That wouldn’t be necessary.
-  answer: 結構です
+  answers:
+    - 結構です
   hint: kekkou desu — often a polite refusal (e.g., 「いいえ、結構です」 = “No thanks”). Can
     also mean “That’s fine/OK.”
   stage: -1
@@ -413,7 +434,8 @@
       A more direct refusal; less soft/polite than the expression in the prompt.
 - id: g-06-chef
   prompt: chef
-  answer: シェフ
+  answers:
+    - シェフ
   hint: shefu (katakana) - loanword meaning a professional cook (often head chef)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -432,7 +454,8 @@
       The prompt expects katakana for this loanword.
 - id: g-06-shinu
   prompt: to die
-  answer: 死ぬ
+  answers:
+    - 死ぬ
   hint: shinu (u-verb) — intransitive; plain form 死ぬ, past 死んだ
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -451,7 +474,8 @@
       Make sure the left side is the "bone" radical and the bottom is the "person" shape.
 - id: g-06-shimeru
   prompt: to close (something)
-  answer: 閉める
+  answers:
+    - 閉める
   hint: 'shimeru — transitive: close something (e.g., ドアを閉める). Contrast: 閉まる = something
     closes.'
   stage: -1
@@ -471,7 +495,8 @@
       It means stopping rather than shutting/closing.
 - id: g-06-shower
   prompt: shower
-  answer: シャワー
+  answers:
+    - シャワー
   hint: shawaa (katakana) - long vowel mark 「ー」 stretches the sound
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -490,7 +515,8 @@
       The prompt expects the loanword style written in katakana.
 - id: g-06-abiru
   prompt: to take a shower
-  answer: シャワーを浴びる
+  answers:
+    - シャワーを浴びる
   hint: shawaa o abiru (ru-verb) — 「浴びる」= to bathe in (shower/light/etc.)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -509,7 +535,8 @@
       Different from using a shower.
 - id: g-06-shingo
   prompt: traffic light
-  answer: 信号
+  answers:
+    - 信号
   hint: shingou — 信=trust/belief + 号=number/sign → a “signal” (traffic light).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -528,7 +555,8 @@
       It’s the place pedestrians cross, not the signal.
 - id: g-06-sugu
   prompt: right away
-  answer: すぐ
+  answers:
+    - すぐ
   hint: 'sugu — means “immediately/soon” (often used with 〜に or 〜する: すぐに行く = go right
     away)'
   stage: -1
@@ -548,7 +576,8 @@
       The prompt is asking for the base adverb form (without extra particles).
 - id: g-06-suwaru
   prompt: to sit down
-  answer: 座る
+  answers:
+    - 座る
   hint: 'suwaru (to sit down; intransitive u-verb). Common pattern: いすに座る = sit on
     a chair.'
   stage: -1
@@ -568,7 +597,8 @@
       Check the meaning: sitting vs standing.
 - id: g-06-tatsu
   prompt: to stand up
-  answer: 立つ
+  answers:
+    - 立つ
   hint: tatsu (u-verb) — to stand up / to rise to a standing position
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -587,7 +617,8 @@
       It's the opposite action (going down to a seated position).
 - id: g-06-smoke
   prompt: to smoke
-  answer: たばこを吸う
+  answers:
+    - たばこを吸う
   hint: tabako o suu — literally “to inhale cigarettes”; note を + verb 吸う(すう)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -606,7 +637,8 @@
       The ending changes the meaning into a prohibition.
 - id: g-06-tsukau
   prompt: to use
-  answer: 使う
+  answers:
+    - 使う
   hint: tsukau — used for using a tool/means (e.g., お金を使う, ペンを使う)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -625,7 +657,8 @@
       The prompt is a verb ending in う.
 - id: g-06-tsugi
   prompt: next
-  answer: 次
+  answers:
+    - 次
   hint: tsugi — 6 strokes; meaning “next” (sequence/order)
   strokeCount: 6
   stage: -1
@@ -645,7 +678,8 @@
       The target character has multiple parts, not a single stroke.
 - id: g-06-tsukeru
   prompt: to turn on
-  answer: つける
+  answers:
+    - つける
   hint: tsukeru — e.g., 電気をつける (turn on the light). Often implies switching something
     on.
   stage: -1
@@ -665,7 +699,8 @@
       This kanji is often for attaching/adding (like sauce or a label), not switching power on.
 - id: g-06-tsureku
   prompt: to bring (a person)
-  answer: 連れてくる
+  answers:
+    - 連れてくる
   hint: tsurete kuru — bring someone along (person/animal), not an object; often used
     with を (e.g., 子どもを連れてくる).
   stage: -1
@@ -685,7 +720,8 @@
       Often used for situations/events rather than casually bringing someone.
 - id: g-06-tetsudau
   prompt: to help
-  answer: 手伝う
+  answers:
+    - 手伝う
   hint: tetsudau (help/assist someone; often used with を, e.g., 仕事を手伝う)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -704,7 +740,8 @@
       It often appears in words like 伝わる/伝える, not helping someone.
 - id: g-06-deru
   prompt: to appear; to attend; to exit
-  answer: 出る
+  answers:
+    - 出る
   hint: 'deru — “to come/go out; to show up” (intransitive ru-verb). Often with に/を/へ:
     外に出る (go outside), 会議に出る (attend a meeting).'
   stage: -1
@@ -724,7 +761,8 @@
       It’s specifically leaving home/going somewhere, not simply exiting or appearing.
 - id: g-06-densha
   prompt: train
-  answer: 電車
+  answers:
+    - 電車
   hint: densha — common noun; 電=electric, 車=vehicle
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -743,7 +781,8 @@
       The first kanji refers to steam/vapor rather than electricity.
 - id: g-06-tel
   prompt: to call
-  answer: 電話する
+  answers:
+    - 電話する
   hint: denwa suru - to make a phone call (する-verb; often used as 電話する/電話をする)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -762,7 +801,8 @@
       Broader than specifically making a phone call.
 - id: g-06-nishi
   prompt: west
-  answer: 西
+  answers:
+    - 西
   hint: nishi; 6 strokes. Looks like a box with a vertical line and two short lines
     inside.
   strokeCount: 6
@@ -783,7 +823,8 @@
       Different direction word, and it has a tree-like structure in the middle.
 - id: g-06-nimotsu
   prompt: baggage
-  answer: 荷物
+  answers:
+    - 荷物
   hint: nimotsu — luggage/cargo (often used for someone’s bags while traveling)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -802,7 +843,8 @@
       This is used for transported goods/shipping, not personal luggage.
 - id: g-06-hairu
   prompt: to enter
-  answer: 入る
+  answers:
+    - 入る
   hint: |-
     hairu — intransitive: to enter (a place)
     Pattern: ～に入る (enter), ～に入っている (be inside)
@@ -823,7 +865,8 @@
       This one takes a direct object (something is put in).
 - id: g-06-pasocon
   prompt: personal computer
-  answer: パソコン
+  answers:
+    - パソコン
   hint: pasokon (short for パーソナルコンピューター)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -842,7 +885,8 @@
       Be careful with ン vs leaving it off at the end.
 - id: g-06-higashi
   prompt: east
-  answer: 東
+  answers:
+    - 東
   hint: higashi; 8 strokes
   strokeCount: 8
   stage: -1
@@ -862,7 +906,8 @@
       This one has a "tree"-like top and a different middle structure.
 - id: g-06-piza
   prompt: pizza
-  answer: ピザ
+  answers:
+    - ピザ
   hint: piza (katakana loanword)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -881,7 +926,8 @@
       Make sure the middle character has the dakuten (two dots).
 - id: g-06-hidari
   prompt: left side
-  answer: 左側
+  answers:
+    - 左側
   hint: 'hidarigawa — 左 (left) + 側 (side). Often used for locations/positions: 左側にあります
     = It''s on the left side.'
   stage: -1
@@ -901,7 +947,8 @@
       This prompt is about a "side" of an object or place.
 - id: g-06-hitotsume
   prompt: first (the first one; first item)
-  answer: 一つ目
+  answers:
+    - 一つ目
   hint: 'hitotsume — counters/ordering: 一つ目、二つ目… (often used when listing items)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -920,7 +967,8 @@
       Used for repetitions/events rather than items in a list.
 - id: g-06-futatsume
   prompt: second
-  answer: 二つ目
+  answers:
+    - 二つ目
   hint: 'futatsume — use when counting/order: "the second one" (e.g., 二つ目の理由 = the
     second reason)'
   stage: -1
@@ -940,7 +988,8 @@
       Check the number at the start: 1 vs 2.
 - id: g-06-page
   prompt: page
-  answer: ページ
+  answers:
+    - ページ
   hint: 'pēji (katakana loanword; often used for web pages too: ホームページ)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -959,7 +1008,8 @@
       Use the long vowel mark 「ー」, not the kanji 「一」.
 - id: g-06-honto
   prompt: Really? (Is that true?)
-  answer: 本当ですか
+  answers:
+    - 本当ですか
   hint: hontou desu ka — polite confirmation; often said with rising intonation
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -978,7 +1028,8 @@
       The prompt is a straightforward confirmation question.
 - id: g-06-magaru
   prompt: to turn (right/left)
-  answer: 曲がる
+  answers:
+    - 曲がる
   hint: 'magaru — intransitive: something turns/bends (e.g., 道が曲がる). Often used with
     右に/左に.'
   stage: -1
@@ -998,7 +1049,8 @@
       It means bending something intentionally, not something turning on its own.
 - id: g-06-massugu
   prompt: straight
-  answer: まっすぐ
+  answers:
+    - まっすぐ
   hint: massugu — “straight ahead / directly”; adverb often used with 行く・進む (e.g.,
     まっすぐ行ってください)
   stage: -1
@@ -1018,7 +1070,8 @@
       It’s not the everyday adverb for “go straight.”
 - id: g-06-migi
   prompt: right side
-  answer: 右側
+  answers:
+    - 右側
   hint: migigawa — 「右」(right) + 「側」(side). Used for location/position (e.g., 右側にあります).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1037,7 +1090,8 @@
       This is about direction, not the side of something.
 - id: g-06-mittsume
   prompt: third
-  answer: 三つ目
+  answers:
+    - 三つ目
   hint: 'mittsume — ordinal form using ～つ: ひとつめ/ふたつめ/みっつめ'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1056,7 +1110,8 @@
       Watch the number kanji: 二 vs 三.
 - id: g-06-minasan
   prompt: everyone; all of you
-  answer: 皆さん
+  answers:
+    - 皆さん
   hint: 'minasan — polite way to address a group (like “everyone”). Often used at
     the start of a speech: 皆さん、こんにちは。'
   stage: -1
@@ -1076,7 +1131,8 @@
       It’s not the direct way to address people like a greeting.
 - id: g-06-minami
   prompt: south
-  answer: 南
+  answers:
+    - 南
   hint: minami (みなみ) — direction word; 9 strokes
   strokeCount: 9
   stage: -1
@@ -1096,7 +1152,8 @@
       This one looks like two people back-to-back; different structure from the prompt.
 - id: g-06-motsu
   prompt: to carry; to hold
-  answer: 持つ
+  answers:
+    - 持つ
   hint: 'motsu — to hold/carry (in your hand or to have). Often used with を: かばんを持つ'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1115,7 +1172,8 @@
       This includes coming toward the speaker, not simply holding/carrying.
 - id: g-06-mottek
   prompt: to bring (a thing)
-  answer: 持ってくる
+  answers:
+    - 持ってくる
   hint: motte kuru — bring something toward the speaker / to here (often from somewhere
     else)
   stage: -1
@@ -1135,7 +1193,8 @@
       This emphasizes moving something (often heavy) rather than simply bringing it.
 - id: g-06-yasumu
   prompt: to be absent (from); to rest
-  answer: 休む
+  answers:
+    - 休む
   hint: yasumu — can mean “rest/sleep” or “take time off (work/school)”; 休 = person
     (亻) + tree (木)
   stage: -1
@@ -1155,7 +1214,8 @@
       The prompt includes taking time off/being absent, not specifically sleeping.
 - id: g-06-yukkuri
   prompt: slowly; leisurely; unhurriedly
-  answer: ゆっくり
+  answers:
+    - ゆっくり
   hint: yukkuri — adverb. Often with 〜する (ゆっくりする = take it easy). Small っ makes a
     slight pause/double consonant.
   stage: -1
@@ -1175,7 +1235,8 @@
       Check the last character shape: り has two strokes, while こ is a box-like curve.
 - id: g-06-ryori
   prompt: cooking; dish
-  answer: 料理
+  answers:
+    - 料理
   hint: ryouri — refers to cooking or a prepared dish/food (e.g., 日本料理).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1194,7 +1255,8 @@
       This is a place/establishment, not the food or cooking.
 - id: g-06-wine
   prompt: wine
-  answer: ワイン
+  answers:
+    - ワイン
   hint: wain (katakana) - a loanword from English
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1213,7 +1275,8 @@
       The first character differs (ra vs wa).
 - id: g-06-wasureru
   prompt: to forget; to leave behind
-  answer: 忘れる
+  answers:
+    - 忘れる
   hint: wasureru (ru-verb) — 忘 = “to forget” (heart/mind is gone)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1232,7 +1295,8 @@
       This is a noun, not the verb form.
 - id: g-06-wataru
   prompt: to cross
-  answer: 渡る
+  answers:
+    - 渡る
   hint: wataru — to cross (a river/road); also “to go across/over” or “to pass through”
     (e.g., time/season)
   stage: -1
