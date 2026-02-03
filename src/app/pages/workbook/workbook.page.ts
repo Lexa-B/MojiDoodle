@@ -45,6 +45,7 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
   strokeCountInfo = '';
   topMatches: { character: string; score: number }[] = [];
   displayMatches: { character: string; score: number }[] = [];
+  correctAnswer = '';
 
   // Subscription for card availability polling
   private cardAvailabilitySubscription: Subscription | null = null;
@@ -543,7 +544,9 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
           // Check each character against its cell's top 5 candidates (with kana fuzzy matching)
           return targetChars.every((char, idx) => {
             const cellCandidates = this.lastBatchResults[idx].slice(0, 5).map(r => r.character);
-            return cellCandidates.some(candidate => this.kanaMatch(char, candidate));
+            const matched = cellCandidates.some(candidate => this.kanaMatch(char, candidate));
+            console.log(`  Cell ${idx}: target='${char}' (code=${char.charCodeAt(0)}), candidates=[${cellCandidates.map(c => `'${c}'(${c.charCodeAt(0)})`).join(', ')}], matched=${matched}`);
+            return matched;
           });
         });
 
@@ -564,6 +567,7 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
         this.resultStatus = 'correct';
         this.resultFeedback = this.randomFrom(this.correctFeedback);
         this.displayMatches = this.topMatches.slice(0, 1);
+        this.correctAnswer = '';
         // Advance card to next SRS stage
         this.cardsService.advanceCard(this.currentCard.id);
       } else {
@@ -572,14 +576,21 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
 
         if (this.lastBatchResults.length > 0) {
           // Multi-character: check if ANY befuddler answer matches cell results (with kana fuzzy matching)
+          console.log('Checking befuddlers:', this.currentCard.befuddlers.map(b => ({ answers: b.answers, toast: b.toast.slice(0, 30) })));
           matchedBefuddler = this.currentCard.befuddlers.find(b => {
+            console.log('  Befuddler answers:', b.answers);
             return b.answers.some(answer => {
               const befuddlerChars = [...answer.replace(/\s+/g, '')];
+              console.log(`    Checking "${answer}": ${befuddlerChars.length} chars vs ${this.lastBatchResults.length} cells`);
               if (befuddlerChars.length !== this.lastBatchResults.length) return false;
-              return befuddlerChars.every((char, idx) => {
+              const allMatch = befuddlerChars.every((char, idx) => {
                 const cellCandidates = this.lastBatchResults[idx].slice(0, 5).map(r => r.character);
-                return cellCandidates.some(candidate => this.kanaMatch(char, candidate));
+                const matched = cellCandidates.some(candidate => this.kanaMatch(char, candidate));
+                console.log(`      Cell ${idx}: '${char}' vs [${cellCandidates.join(',')}] = ${matched}`);
+                return matched;
               });
+              console.log(`    Result: ${allMatch}`);
+              return allMatch;
             });
           });
         } else {
@@ -596,10 +607,12 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
           this.resultStatus = 'befuddled';
           this.resultFeedback = matchedBefuddler.toast;
           this.displayMatches = this.topMatches;
+          this.correctAnswer = '';
         } else {
           this.resultStatus = 'wrong';
           this.resultFeedback = this.randomFrom(this.wrongFeedback);
           this.displayMatches = this.topMatches;
+          this.correctAnswer = this.currentCard.answers[0];
         }
       }
 

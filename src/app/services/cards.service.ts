@@ -665,8 +665,8 @@ export class CardsService {
         continue;
       }
 
-      // New befuddler
-      if (indent === 4 && trimmed.startsWith('- ') && inBefuddlers && currentCard && !inAnswers) {
+      // New befuddler (at indent 2, same level as "befuddlers:" key)
+      if (indent === 2 && trimmed.startsWith('- ') && inBefuddlers && currentCard && !inAnswers) {
         if (currentBefuddler) {
           currentCard.befuddlers = currentCard.befuddlers || [];
           currentCard.befuddlers.push(currentBefuddler);
@@ -676,18 +676,29 @@ export class CardsService {
 
         const match = trimmed.match(/^- (\w+): (.+)$/);
         if (match) {
-          (currentBefuddler as any)[match[1]] = this.parseValue(match[2]);
+          const key = match[1];
+          const value = this.parseValue(match[2]);
+          // Convert singular "answer" to plural "answers" array
+          if (key === 'answer') {
+            currentBefuddler.answers = [value as string];
+          } else {
+            (currentBefuddler as any)[key] = value;
+          }
         }
         continue;
       }
 
-      // Befuddler property
-      if (indent === 6 && currentBefuddler) {
+      // Befuddler property (at indent 4)
+      if (indent === 4 && currentBefuddler && !trimmed.startsWith('- ')) {
         const match = trimmed.match(/^(\w+): (.+)$/);
         if (match) {
           const key = match[1];
           if (key === 'answers' && match[2] === '[]') {
             currentBefuddler.answers = [];
+            inBefuddlerAnswers = false;
+          } else if (key === 'answer') {
+            // Convert singular "answer" to plural "answers" array
+            currentBefuddler.answers = [this.parseValue(match[2]) as string];
             inBefuddlerAnswers = false;
           } else {
             (currentBefuddler as any)[key] = this.parseValue(match[2]);
@@ -700,8 +711,8 @@ export class CardsService {
         continue;
       }
 
-      // Befuddler answers list item
-      if (indent === 8 && trimmed.startsWith('- ') && inBefuddlerAnswers && currentBefuddler) {
+      // Befuddler answers list item (at indent 6)
+      if (indent === 6 && trimmed.startsWith('- ') && inBefuddlerAnswers && currentBefuddler) {
         const value = trimmed.slice(2).trim();
         currentBefuddler.answers = currentBefuddler.answers || [];
         currentBefuddler.answers.push(this.parseValue(value) as string);

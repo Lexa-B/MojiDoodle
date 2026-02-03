@@ -38,6 +38,10 @@
           </div>
         </div>
       </div>
+      <div class="correct-answer-section" *ngIf="resultStatus === 'wrong' && correctAnswer">
+        <div class="correct-answer-title">Answer:</div>
+        <div class="correct-answer">{{ correctAnswer }}</div>
+      </div>
       <ion-button expand="block" (click)="dismissResults()">{{ dismissButtonText }}</ion-button>
     </div>
   </div>

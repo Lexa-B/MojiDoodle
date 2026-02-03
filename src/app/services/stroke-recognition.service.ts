@@ -109,7 +109,6 @@ export class StrokeRecognitionService {
    *
    * FILTERING:
    * - Only single characters (multi-char results discarded)
-   * - No punctuation or symbols
    *
    * EXAMPLE:
    * Input: [{strokes for あ}, {strokes for い}]
@@ -190,15 +189,12 @@ export class StrokeRecognitionService {
         continue;
       }
 
-      // Filter to single characters only, no punctuation - each cell is one character
-      const punctuationRegex = /^[\p{P}\p{S}\p{M}]$/u; // Unicode punctuation, symbols, marks
+      // Filter to single characters only - each cell is one character
       const singleCharResults = candidates
         .map((char: string) => char.replace(/\s+/g, ''))
         .filter((char: string) => {
           const chars = [...char];
-          if (chars.length !== 1) return false; // Must be single character
-          if (punctuationRegex.test(chars[0])) return false; // No punctuation
-          return true;
+          return chars.length === 1; // Must be single character
         })
         .map((char: string, index: number) => ({
           character: char,

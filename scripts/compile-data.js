@@ -32,6 +32,8 @@ function parseCardsYaml(content) {
   let inBefuddlers = false;
   let inAnswers = false;
   let inBefuddlerAnswers = false;
+  let inMultilineToast = false;
+  let toastLines = [];
 
   for (const line of content.split('\n')) {
     if (!line.trim()) continue;
@@ -41,6 +43,12 @@ function parseCardsYaml(content) {
 
     // New card
     if (indent === 0 && trimmed.startsWith('- ')) {
+      // Finalize any pending multi-line toast
+      if (inMultilineToast && currentBefuddler && toastLines.length > 0) {
+        currentBefuddler.toast = toastLines.join('\n');
+        toastLines = [];
+        inMultilineToast = false;
+      }
       if (currentBefuddler && currentCard) {
         currentCard.befuddlers = currentCard.befuddlers || [];
         currentCard.befuddlers.push(currentBefuddler);
@@ -99,8 +107,15 @@ function parseCardsYaml(content) {
       continue;
     }
 
-    // New befuddler (starts with "- answers:" or "- toast:")
-    if (indent === 4 && trimmed.startsWith('- ') && inBefuddlers && currentCard && !inAnswers) {
+    // New befuddler (starts with "- answer:" or "- answers:")
+    // Note: befuddler items are at indent 2, same level as "befuddlers:" key
+    if (indent === 2 && trimmed.startsWith('- ') && inBefuddlers && currentCard && !inAnswers) {
+      // Finalize any pending multi-line toast before starting new befuddler
+      if (inMultilineToast && currentBefuddler && toastLines.length > 0) {
+        currentBefuddler.toast = toastLines.join('\n');
+        toastLines = [];
+        inMultilineToast = false;
+      }
       if (currentBefuddler) {
         currentCard.befuddlers = currentCard.befuddlers || [];
         currentCard.befuddlers.push(currentBefuddler);
@@ -111,7 +126,14 @@ function parseCardsYaml(content) {
       // Check for "- key: value" format
       const matchWithValue = trimmed.match(/^- (\w+): (.+)$/);
       if (matchWithValue) {
-        currentBefuddler[matchWithValue[1]] = parseYamlValue(matchWithValue[2]);
+        const key = matchWithValue[1];
+        const value = parseYamlValue(matchWithValue[2]);
+        // Convert singular "answer" to plural "answers" array
+        if (key === 'answer') {
+          currentBefuddler.answers = [value];
+        } else {
+          currentBefuddler[key] = value;
+        }
       } else if (trimmed === '- answers:') {
         // Befuddler starts with answers list (value on next lines)
         inBefuddlerAnswers = true;
@@ -119,14 +141,35 @@ function parseCardsYaml(content) {
       continue;
     }
 
-    // Befuddler property (at indent 6)
-    if (indent === 6 && currentBefuddler) {
+    // Multi-line toast content (at indent 6)
+    if (indent === 6 && inMultilineToast && currentBefuddler) {
+      toastLines.push(trimmed);
+      continue;
+    }
+
+    // End multi-line toast if we're at a lower indent
+    if (inMultilineToast && indent < 6 && currentBefuddler) {
+      currentBefuddler.toast = toastLines.join('\n');
+      toastLines = [];
+      inMultilineToast = false;
+    }
+
+    // Befuddler property (at indent 4, e.g., "    toast: |-")
+    if (indent === 4 && currentBefuddler && !trimmed.startsWith('- ')) {
       const match = trimmed.match(/^(\w+): (.+)$/);
       if (match) {
         const key = match[1];
         if (key === 'answers' && match[2] === '[]') {
           currentBefuddler.answers = [];
           inBefuddlerAnswers = false;
+        } else if (key === 'answer') {
+          // Convert singular "answer" to plural "answers" array
+          currentBefuddler.answers = [parseYamlValue(match[2])];
+          inBefuddlerAnswers = false;
+        } else if (key === 'toast' && (match[2] === '|-' || match[2] === '|')) {
+          // Start multi-line toast block
+          inMultilineToast = true;
+          toastLines = [];
         } else {
           currentBefuddler[key] = parseYamlValue(match[2]);
           inBefuddlerAnswers = false;
@@ -138,13 +181,18 @@ function parseCardsYaml(content) {
       continue;
     }
 
-    // Befuddler answers list item (at indent 8)
-    if (indent === 8 && trimmed.startsWith('- ') && inBefuddlerAnswers && currentBefuddler) {
+    // Befuddler answers list item (at indent 6)
+    if (indent === 6 && trimmed.startsWith('- ') && inBefuddlerAnswers && currentBefuddler) {
       const value = trimmed.slice(2).trim();
       currentBefuddler.answers = currentBefuddler.answers || [];
       currentBefuddler.answers.push(parseYamlValue(value));
       continue;
     }
+  }
+
+  // Finalize any pending multi-line toast
+  if (inMultilineToast && currentBefuddler && toastLines.length > 0) {
+    currentBefuddler.toast = toastLines.join('\n');
   }
 
   // Final items
