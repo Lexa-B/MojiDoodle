@@ -1,728 +1,667 @@
 import { Injectable } from '@angular/core';
 import {
   Point,
-  BoundingBox,
-  StrokeWithBounds,
-  Vertex,
+  StrokeBounds,
+  DividerLine,
   GridCell,
-  MeshGrid,
   SegmentationResult,
+  SegmentationConfig,
 } from '../models/segmentation.types';
 
 /**
- * Character segmentation service using density-based deformable mesh grid.
- *
- * PURPOSE:
- * Segments handwritten Japanese text into individual character cells for recognition.
- * Handles vertical writing (top-to-bottom, right-to-left columns).
+ * Character segmentation service using two-pass column-based approach.
  *
  * APPROACH:
- * Instead of clustering strokes (which fails for い, だ, etc.), this uses density
- * analysis to find natural gaps between characters:
+ * 1. PASS 1 - Column Detection: Find vertical gaps between columns
+ *    - Sort strokes by X position
+ *    - Find gaps larger than threshold
+ *    - Create vertical divider lines (x = slope*y + intercept)
  *
- * 1. Estimate character size from stroke dimensions and gaps
- * 2. Create density histograms along X and Y axes
- * 3. Find valleys (low-density areas) that indicate character boundaries
- * 4. Build a unified mesh grid with shared vertices between cells
- * 5. Deform vertices to organically fit stroke content
+ * 2. PASS 2 - Row Detection: Within each column, find horizontal gaps
+ *    - Sort column's strokes by Y position
+ *    - Find gaps larger than threshold
+ *    - Create horizontal divider lines (y = slope*x + intercept)
  *
- * VALIDATION:
- * - No empty interior cells (cells between content are invalid)
- * - Size uniformity: all cells within 1.75x of each other
- * - If validation fails, simplify by removing valleys
- *
- * MESH STRUCTURE:
- * ```
- * V0----V1----V2
- * |  C0  |  C1  |    Vertices are shared (V1 belongs to C0 and C1)
- * V3----V4----V5    Cells are quadrilaterals that can deform
- * |  C2  |  C3  |    Column 0 = rightmost (Japanese reading order)
- * V6----V7----V8
- * ```
+ * DIVIDER LINES:
+ * - Simple linear: x = m*y + b (columns) or y = m*x + b (rows)
+ * - Max 10 degrees from vertical/horizontal
  */
 @Injectable({
   providedIn: 'root',
 })
 export class CharacterSegmentationService {
-  // Character size bounds as percentage of canvas height
-  private readonly MIN_CHAR_SIZE_RATIO = 0.06;
-  private readonly MAX_CHAR_SIZE_RATIO = 0.30;
+  private readonly config: SegmentationConfig = {
+    minColumnGapRatio: 0.25,
+    maxColumnAngle: 10,
+    minRowGapRatio: 0.25,
+    maxRowAngle: 10,
+    charSizeMultiplier: 2.0,
+    minCharSizeRatio: 0.08,
+    maxCharSizeRatio: 0.40,
+  };
 
-  // Density histogram parameters
-  private readonly DENSITY_BIN_DIVISOR = 10; // More bins = finer resolution
-  private readonly VALLEY_THRESHOLD_RATIO = 0.5; // More sensitive - valleys below 50% of max
-
-  // Size constraints
-  private readonly MIN_CELL_SIZE_RATIO = 0.25; // Smaller minimum = more divisions allowed
-  private readonly MAX_CELL_SIZE_RATIO = 3.0;
-
-  // Mesh deformation parameters
-  private readonly CELL_PADDING = 10;
-  private readonly DEFORM_ITERATIONS = 5;
-  private readonly DEFORM_STRENGTH = 0.6;
+  private readonly MAX_SIZE_RATIO = 2.0;
 
   /**
-   * Segment strokes into a mesh grid of character cells.
+   * Segment strokes into a grid of character cells.
    */
   segment(strokes: Point[][], canvasWidth: number, canvasHeight: number): SegmentationResult {
     if (strokes.length === 0) {
-      return {
-        mesh: { vertices: [], cells: [], columns: 0, maxRows: 0, estimatedCharSize: 0 },
-        estimatedCharSize: 0,
-        gridColumns: 0,
-      };
+      return this.emptyResult();
     }
 
-    // Step 1: Calculate bounding boxes for each stroke
-    const strokesWithBounds = this.calculateStrokeBounds(strokes);
+    // Step 1: Calculate bounds for each stroke
+    const strokeBounds = strokes.map((stroke, index) => this.calculateStrokeBounds(stroke, index));
 
-    // Step 2: Estimate character size
-    const estimatedCharSize = this.estimateCharacterSize(strokesWithBounds, canvasHeight);
+    // Step 2: Get overall content bounds
+    const contentBounds = {
+      minX: Math.min(...strokeBounds.map(s => s.minX)),
+      maxX: Math.max(...strokeBounds.map(s => s.maxX)),
+      minY: Math.min(...strokeBounds.map(s => s.minY)),
+      maxY: Math.max(...strokeBounds.map(s => s.maxY)),
+    };
 
-    // Step 3: Find grid divisions via density analysis
-    let { columnBoundaries, rowBoundaries } = this.findGridDivisions(
-      strokesWithBounds,
-      estimatedCharSize
-    );
+    // Step 3: Estimate character dimensions
+    const charWidth = this.estimateCharSize(strokeBounds, canvasWidth, 'width');
+    const charHeight = this.estimateCharSize(strokeBounds, canvasHeight, 'height');
 
-    // Step 4: Create unified mesh grid with shared vertices
-    let mesh = this.createDeformableMesh(
-      columnBoundaries,
-      rowBoundaries,
-      strokesWithBounds,
-      estimatedCharSize
-    );
+    // Step 4: PASS 1 - Find column dividers (vertical gaps)
+    let columnDividers = this.findColumnDividers(strokeBounds, charWidth, canvasHeight);
 
-    // Step 5: Assign strokes to cells
-    this.assignStrokesToCells(mesh, strokesWithBounds);
+    // Step 5: Enforce column width uniformity (no column >2x wider than another)
+    columnDividers = this.enforceColumnUniformity(columnDividers, strokeBounds, contentBounds);
 
-    // Step 6: Validate mesh - no empty interior cells, and uniform cell sizes
-    // If invalid, simplify the grid by removing valleys until valid
-    let attempts = 0;
-    while (attempts < 10 && !this.isValidMesh(mesh)) {
-      const simplified = this.simplifyGrid(columnBoundaries, rowBoundaries, mesh, strokesWithBounds);
-      columnBoundaries = simplified.columnBoundaries;
-      rowBoundaries = simplified.rowBoundaries;
+    // Step 6: Assign strokes to columns
+    const strokesByColumn = this.assignStrokesToColumns(strokeBounds, columnDividers);
 
-      // Recreate mesh with simplified boundaries
-      mesh = this.createDeformableMesh(columnBoundaries, rowBoundaries, strokesWithBounds, estimatedCharSize);
-      this.assignStrokesToCells(mesh, strokesWithBounds);
-      attempts++;
-    }
+    // Step 7: PASS 2 - Find row dividers within each column
+    let rowDividers = this.findAllRowDividers(strokesByColumn, strokeBounds, columnDividers, charHeight);
 
-    // Step 7: Deform mesh vertices to organically fit content
-    this.deformMeshToContent(mesh, strokesWithBounds);
+    // Step 8: Enforce row height uniformity per column (no cell >2x taller than another)
+    rowDividers = this.enforceRowUniformity(rowDividers, strokesByColumn, strokeBounds, columnDividers);
+
+    // Step 9: Create cell grid
+    const cells = this.createCellGrid(strokesByColumn, strokeBounds, columnDividers, rowDividers);
+
+    const numColumns = columnDividers.length + 1;
+    const maxRows = Math.max(...rowDividers.map(r => r.length + 1), 1);
 
     return {
-      mesh,
-      estimatedCharSize,
-      gridColumns: mesh.columns,
+      grid: {
+        columnDividers,
+        rowDividers,
+        cells,
+        columns: numColumns,
+        maxRows,
+      },
+      estimatedCharHeight: charHeight,
+      estimatedCharWidth: charWidth,
+    };
+  }
+
+  private emptyResult(): SegmentationResult {
+    return {
+      grid: {
+        columnDividers: [],
+        rowDividers: [],
+        cells: [],
+        columns: 0,
+        maxRows: 0,
+      },
+      estimatedCharHeight: 0,
+      estimatedCharWidth: 0,
     };
   }
 
   /**
-   * Check if mesh is valid: no empty interior cells, and uniform cell sizes.
+   * Calculate bounding box for a stroke.
    */
-  private isValidMesh(mesh: MeshGrid): boolean {
-    if (this.hasEmptyInteriorCells(mesh)) return false;
-    if (!this.hasSizeUniformity(mesh)) return false;
-    return true;
-  }
-
-  /**
-   * Check that all cells with content are within 2x size of each other.
-   */
-  private hasSizeUniformity(mesh: MeshGrid): boolean {
-    const cellSizes: number[] = [];
-
-    for (const cell of mesh.cells) {
-      if (cell.strokeIndices.length === 0) continue; // Skip empty cells
-
-      const [tl, tr, br, bl] = cell.vertexIndices.map(i => mesh.vertices[i]);
-      const width = Math.max(Math.abs(tr.x - tl.x), Math.abs(br.x - bl.x));
-      const height = Math.max(Math.abs(bl.y - tl.y), Math.abs(br.y - tr.y));
-      const size = Math.max(width, height); // Use larger dimension
-      cellSizes.push(size);
-    }
-
-    if (cellSizes.length <= 1) return true; // Single cell or no cells is fine
-
-    const minSize = Math.min(...cellSizes);
-    const maxSize = Math.max(...cellSizes);
-
-    // All cells should be close in size (within 1.75x)
-    return maxSize <= minSize * 1.75;
-  }
-
-  /**
-   * Check if mesh has any empty cells that are BETWEEN content.
-   * An empty cell is problematic if there's content on opposite sides of it.
-   */
-  private hasEmptyInteriorCells(mesh: MeshGrid): boolean {
-    // Build a map of which cells have strokes
-    const cellHasContent = new Map<string, boolean>();
-    for (const cell of mesh.cells) {
-      cellHasContent.set(`${cell.column},${cell.row}`, cell.strokeIndices.length > 0);
-    }
-
-    for (const cell of mesh.cells) {
-      if (cell.strokeIndices.length > 0) continue; // Has strokes, OK
-
-      // Check if there's content on opposite sides (left-right or top-bottom)
-      // If so, this empty cell is "interior" and shouldn't exist
-
-      // Check left-right: content to the left AND right
-      let hasContentLeft = false;
-      let hasContentRight = false;
-      for (let c = 0; c < cell.column; c++) {
-        if (cellHasContent.get(`${c},${cell.row}`)) hasContentLeft = true;
-      }
-      for (let c = cell.column + 1; c < mesh.columns; c++) {
-        if (cellHasContent.get(`${c},${cell.row}`)) hasContentRight = true;
-      }
-
-      // Check top-bottom: content above AND below
-      let hasContentAbove = false;
-      let hasContentBelow = false;
-      for (let r = 0; r < cell.row; r++) {
-        if (cellHasContent.get(`${cell.column},${r}`)) hasContentAbove = true;
-      }
-      for (let r = cell.row + 1; r < mesh.maxRows; r++) {
-        if (cellHasContent.get(`${cell.column},${r}`)) hasContentBelow = true;
-      }
-
-      // Empty cell with content on opposite sides = bad
-      if ((hasContentLeft && hasContentRight) || (hasContentAbove && hasContentBelow)) {
-        return true;
-      }
-    }
-    return false;
-  }
-
-  /**
-   * Simplify grid by removing a valley to eliminate empty interior cells.
-   */
-  private simplifyGrid(
-    columnBoundaries: number[],
-    rowBoundaries: number[],
-    mesh: MeshGrid,
-    strokes: StrokeWithBounds[]
-  ): { columnBoundaries: number[]; rowBoundaries: number[] } {
-    // Find which valleys create empty interior cells and remove one
-
-    // Try removing column valleys first (interior only, not edges)
-    if (columnBoundaries.length > 2) {
-      for (let i = 1; i < columnBoundaries.length - 1; i++) {
-        const newColBounds = [...columnBoundaries.slice(0, i), ...columnBoundaries.slice(i + 1)];
-        const testMesh = this.createDeformableMesh(newColBounds, rowBoundaries, strokes, mesh.estimatedCharSize);
-        this.assignStrokesToCells(testMesh, strokes);
-        if (!this.hasEmptyInteriorCells(testMesh)) {
-          return { columnBoundaries: newColBounds, rowBoundaries };
-        }
-      }
-    }
-
-    // Try removing row valleys
-    if (rowBoundaries.length > 2) {
-      for (let i = 1; i < rowBoundaries.length - 1; i++) {
-        const newRowBounds = [...rowBoundaries.slice(0, i), ...rowBoundaries.slice(i + 1)];
-        const testMesh = this.createDeformableMesh(columnBoundaries, newRowBounds, strokes, mesh.estimatedCharSize);
-        this.assignStrokesToCells(testMesh, strokes);
-        if (!this.hasEmptyInteriorCells(testMesh)) {
-          return { columnBoundaries, rowBoundaries: newRowBounds };
-        }
-      }
-    }
-
-    // If still has issues, remove any interior valley
-    if (columnBoundaries.length > 2) {
+  private calculateStrokeBounds(stroke: Point[], index: number): StrokeBounds {
+    if (stroke.length === 0) {
       return {
-        columnBoundaries: [columnBoundaries[0], columnBoundaries[columnBoundaries.length - 1]],
-        rowBoundaries
-      };
-    }
-    if (rowBoundaries.length > 2) {
-      return {
-        columnBoundaries,
-        rowBoundaries: [rowBoundaries[0], rowBoundaries[rowBoundaries.length - 1]]
+        strokeIndex: index,
+        minX: 0, maxX: 0, minY: 0, maxY: 0,
+        centerX: 0, centerY: 0,
       };
     }
 
-    return { columnBoundaries, rowBoundaries };
-  }
+    let minX = Infinity, maxX = -Infinity;
+    let minY = Infinity, maxY = -Infinity;
 
-  private calculateStrokeBounds(strokes: Point[][]): StrokeWithBounds[] {
-    return strokes.map((stroke, index) => ({
-      index,
-      stroke,
-      bounds: this.calculateBoundingBox(stroke),
-    }));
-  }
-
-  private calculateBoundingBox(points: Point[]): BoundingBox {
-    if (points.length === 0) {
-      return { minX: 0, minY: 0, maxX: 0, maxY: 0, width: 0, height: 0, centerX: 0, centerY: 0 };
-    }
-
-    let minX = Infinity, minY = Infinity;
-    let maxX = -Infinity, maxY = -Infinity;
-
-    for (const p of points) {
+    for (const p of stroke) {
       minX = Math.min(minX, p.x);
-      minY = Math.min(minY, p.y);
       maxX = Math.max(maxX, p.x);
+      minY = Math.min(minY, p.y);
       maxY = Math.max(maxY, p.y);
     }
 
-    const width = maxX - minX;
-    const height = maxY - minY;
-
     return {
-      minX, minY, maxX, maxY, width, height,
-      centerX: minX + width / 2,
-      centerY: minY + height / 2,
+      strokeIndex: index,
+      minX, maxX, minY, maxY,
+      centerX: (minX + maxX) / 2,
+      centerY: (minY + maxY) / 2,
     };
   }
 
-  private estimateCharacterSize(strokes: StrokeWithBounds[], canvasHeight: number): number {
-    if (strokes.length === 0) return canvasHeight * 0.15;
+  /**
+   * Estimate character size from stroke dimensions.
+   */
+  private estimateCharSize(
+    strokeBounds: StrokeBounds[],
+    canvasDimension: number,
+    dimension: 'width' | 'height'
+  ): number {
+    if (strokeBounds.length === 0) {
+      return canvasDimension * 0.15;
+    }
 
-    // DON'T use overall extent - that fails for multiple characters
-    // Instead, look at individual stroke sizes and find a reasonable character size
+    const sizes = strokeBounds
+      .map(s => dimension === 'width' ? s.maxX - s.minX : s.maxY - s.minY)
+      .filter(size => size > 5);  // Filter out tiny strokes
 
-    // Collect stroke extents (max of width/height for each stroke)
-    const strokeExtents = strokes.map(s => Math.max(s.bounds.width, s.bounds.height));
+    if (sizes.length === 0) {
+      return canvasDimension * 0.15;
+    }
 
-    // Sort and use median-ish value (avoid outliers from tiny dots or huge strokes)
-    strokeExtents.sort((a, b) => a - b);
-    const medianIdx = Math.floor(strokeExtents.length * 0.6); // Slightly above median
-    const typicalStrokeSize = strokeExtents[medianIdx] || strokeExtents[0];
+    sizes.sort((a, b) => a - b);
+    const medianSize = sizes[Math.floor(sizes.length / 2)];
+    let estimated = medianSize * this.config.charSizeMultiplier;
 
-    // A character is typically 1.5-2x the size of its largest stroke
-    let estimatedSize = typicalStrokeSize * 2;
+    const minSize = canvasDimension * this.config.minCharSizeRatio;
+    const maxSize = canvasDimension * this.config.maxCharSizeRatio;
 
-    // Also consider gaps between strokes - large gaps suggest separate characters
-    if (strokes.length > 1) {
-      const gaps = this.findStrokeGaps(strokes);
-      if (gaps.length > 0) {
-        gaps.sort((a, b) => a - b);
-        const medianGap = gaps[Math.floor(gaps.length / 2)];
-        // If gaps are smaller than estimated size, strokes likely belong together
-        // If gaps are larger, they're separate characters
-        // Use this to refine estimate
-        if (medianGap > estimatedSize * 0.5) {
-          // Large gaps - estimate is probably too big, use smaller value
-          estimatedSize = Math.min(estimatedSize, medianGap * 1.5);
+    return Math.max(minSize, Math.min(maxSize, estimated));
+  }
+
+  // ============================================================
+  // PASS 1: Column Detection
+  // ============================================================
+
+  /**
+   * Find vertical dividers between columns by looking for X-gaps.
+   */
+  private findColumnDividers(
+    strokeBounds: StrokeBounds[],
+    charWidth: number,
+    _canvasHeight: number
+  ): DividerLine[] {
+    if (strokeBounds.length < 2) return [];
+
+    // Get overall bounds
+    const overallMinY = Math.min(...strokeBounds.map(s => s.minY));
+    const overallMaxY = Math.max(...strokeBounds.map(s => s.maxY));
+
+    // Sort strokes by X center position
+    const sortedByX = [...strokeBounds].sort((a, b) => a.centerX - b.centerX);
+
+    // Find gaps between consecutive strokes (looking at their bounding boxes)
+    const gaps: { gapStart: number; gapEnd: number; gapSize: number }[] = [];
+    const minGap = charWidth * this.config.minColumnGapRatio;
+
+    for (let i = 0; i < sortedByX.length - 1; i++) {
+      const current = sortedByX[i];
+      const next = sortedByX[i + 1];
+
+      // Gap is from the right edge of current to the left edge of next
+      const gapStart = current.maxX;
+      const gapEnd = next.minX;
+      const gapSize = gapEnd - gapStart;
+
+      if (gapSize >= minGap) {
+        gaps.push({ gapStart, gapEnd, gapSize });
+      }
+    }
+
+    // Convert gaps to divider lines
+    // Divider goes through the middle of the gap
+    return gaps.map(gap => {
+      const x = (gap.gapStart + gap.gapEnd) / 2;
+      return {
+        slope: 0,  // Perfectly vertical
+        intercept: x,
+        start: overallMinY - 10,
+        end: overallMaxY + 10,
+      };
+    });
+  }
+
+  // ============================================================
+  // PASS 2: Row Detection
+  // ============================================================
+
+  /**
+   * Assign strokes to columns based on dividers.
+   */
+  private assignStrokesToColumns(
+    strokeBounds: StrokeBounds[],
+    columnDividers: DividerLine[]
+  ): number[][] {
+    const numColumns = columnDividers.length + 1;
+    const strokesByColumn: number[][] = Array.from({ length: numColumns }, () => []);
+
+    // Get X positions of dividers (intercept is the X position for vertical lines)
+    const dividerXs = columnDividers.map(d => d.intercept).sort((a, b) => a - b);
+
+    for (const stroke of strokeBounds) {
+      // Find which column this stroke belongs to
+      let colIdx = 0;
+      for (let i = 0; i < dividerXs.length; i++) {
+        if (stroke.centerX > dividerXs[i]) {
+          colIdx = i + 1;
         }
       }
+
+      // Japanese reading order: rightmost column is 0
+      // Physical columns go left-to-right (0, 1, 2...)
+      // Japanese order is right-to-left, so invert
+      const japaneseColIdx = numColumns - 1 - colIdx;
+      strokesByColumn[japaneseColIdx].push(stroke.strokeIndex);
     }
 
-    // Clamp to reasonable bounds
-    const minSize = canvasHeight * this.MIN_CHAR_SIZE_RATIO;
-    const maxSize = canvasHeight * this.MAX_CHAR_SIZE_RATIO;
-
-    return Math.max(minSize, Math.min(maxSize, estimatedSize));
-  }
-
-  private findStrokeGaps(strokes: StrokeWithBounds[]): number[] {
-    const gaps: number[] = [];
-    for (let i = 0; i < strokes.length; i++) {
-      for (let j = i + 1; j < strokes.length; j++) {
-        const a = strokes[i].bounds;
-        const b = strokes[j].bounds;
-        const hGap = Math.max(0, Math.max(a.minX, b.minX) - Math.min(a.maxX, b.maxX));
-        const vGap = Math.max(0, Math.max(a.minY, b.minY) - Math.min(a.maxY, b.maxY));
-        const gap = Math.sqrt(hGap * hGap + vGap * vGap);
-        if (gap > 0) gaps.push(gap);
-      }
-    }
-    return gaps;
-  }
-
-  private findGridDivisions(
-    strokes: StrokeWithBounds[],
-    charSize: number
-  ): { columnBoundaries: number[]; rowBoundaries: number[] } {
-    const allPoints = strokes.flatMap(s => s.stroke);
-    const overallBounds = this.calculateBoundingBox(allPoints);
-
-    // Find column boundaries (X-axis valleys)
-    const columnValleys = this.findDensityValleys(strokes, 'x', overallBounds.minX, overallBounds.maxX, charSize);
-
-    // Build column boundaries including edges
-    const columnBoundaries = [
-      overallBounds.minX - this.CELL_PADDING,
-      ...columnValleys,
-      overallBounds.maxX + this.CELL_PADDING,
-    ];
-
-    // Find row boundaries (Y-axis valleys) - UNIFIED across all columns
-    const rowValleys = this.findDensityValleys(strokes, 'y', overallBounds.minY, overallBounds.maxY, charSize);
-
-    const rowBoundaries = [
-      overallBounds.minY - this.CELL_PADDING,
-      ...rowValleys,
-      overallBounds.maxY + this.CELL_PADDING,
-    ];
-
-    return { columnBoundaries, rowBoundaries };
-  }
-
-  private findDensityValleys(
-    strokes: StrokeWithBounds[],
-    axis: 'x' | 'y',
-    minVal: number,
-    maxVal: number,
-    charSize: number
-  ): number[] {
-    const range = maxVal - minVal;
-
-    // Only subdivide if range is large enough for multiple characters
-    if (range < charSize * 0.9) {
-      return []; // Not enough room for 2+ characters
-    }
-
-    // Create density histogram with fine bins
-    const binSize = Math.max(charSize / this.DENSITY_BIN_DIVISOR, 2);
-    const numBins = Math.ceil(range / binSize);
-    if (numBins < 4) return [];
-
-    const density = new Array(numBins).fill(0);
-
-    for (const s of strokes) {
-      for (const p of s.stroke) {
-        const val = axis === 'x' ? p.x : p.y;
-        const binIndex = Math.floor((val - minVal) / binSize);
-        if (binIndex >= 0 && binIndex < numBins) {
-          density[binIndex]++;
-        }
-      }
-    }
-
-    // Light smoothing to reduce noise
-    const smoothed = this.smoothArray(density, 2);
-    const maxDensity = Math.max(...smoothed);
-    const threshold = maxDensity * this.VALLEY_THRESHOLD_RATIO;
-
-    // Find candidate valleys (local minima below threshold)
-    const candidates: number[] = [];
-    const minCellSize = charSize * this.MIN_CELL_SIZE_RATIO;
-
-    for (let i = 1; i < smoothed.length - 1; i++) {
-      const curr = smoothed[i];
-
-      // Must be a local minimum (lower than both neighbors)
-      if (curr >= smoothed[i - 1] || curr >= smoothed[i + 1]) continue;
-
-      // Must be below threshold (low density = gap between characters)
-      if (curr > threshold) continue;
-
-      const valleyPos = minVal + (i + 0.5) * binSize;
-
-      // Must create cells that aren't too small
-      const distFromStart = valleyPos - minVal;
-      const distToEnd = maxVal - valleyPos;
-      const distFromLastValley = candidates.length > 0 ? valleyPos - candidates[candidates.length - 1] : distFromStart;
-
-      if (distFromStart < minCellSize) continue;
-      if (distToEnd < minCellSize) continue;
-      if (distFromLastValley < minCellSize) continue;
-
-      candidates.push(valleyPos);
-    }
-
-    // Validate valleys: only keep those with strokes on BOTH sides
-    // This prevents empty interior cells
-    const valleys: number[] = [];
-    for (const valley of candidates) {
-      const hasStrokesBefore = strokes.some(s => {
-        const center = axis === 'x' ? s.bounds.centerX : s.bounds.centerY;
-        return center < valley;
-      });
-      const hasStrokesAfter = strokes.some(s => {
-        const center = axis === 'x' ? s.bounds.centerX : s.bounds.centerY;
-        return center > valley;
-      });
-
-      if (hasStrokesBefore && hasStrokesAfter) {
-        valleys.push(valley);
-      }
-    }
-
-    return valleys;
-  }
-
-  private smoothArray(arr: number[], windowSize: number): number[] {
-    const result: number[] = [];
-    const half = Math.floor(windowSize / 2);
-
-    for (let i = 0; i < arr.length; i++) {
-      let sum = 0, count = 0;
-      for (let j = Math.max(0, i - half); j <= Math.min(arr.length - 1, i + half); j++) {
-        sum += arr[j];
-        count++;
-      }
-      result.push(sum / count);
-    }
-
-    return result;
+    return strokesByColumn;
   }
 
   /**
-   * Create a deformable mesh with SHARED vertices between adjacent cells.
-   * This creates one unified grid where all columns share the same row boundaries.
+   * Find row dividers for all columns.
    */
-  private createDeformableMesh(
-    columnBoundaries: number[],
-    rowBoundaries: number[],
-    strokes: StrokeWithBounds[],
-    charSize: number
-  ): MeshGrid {
-    const numColumns = columnBoundaries.length - 1;
-    const numRows = rowBoundaries.length - 1;
+  private findAllRowDividers(
+    strokesByColumn: number[][],
+    strokeBounds: StrokeBounds[],
+    columnDividers: DividerLine[],
+    charHeight: number
+  ): DividerLine[][] {
+    return strokesByColumn.map((colStrokeIndices, colIdx) => {
+      if (colStrokeIndices.length < 2) return [];
 
-    if (numColumns <= 0 || numRows <= 0) {
-      return this.createSingleCellMesh(strokes, charSize);
+      const colStrokes = colStrokeIndices.map(i => strokeBounds[i]);
+      const colBounds = this.getColumnXBounds(colIdx, columnDividers, strokesByColumn.length, colStrokes);
+
+      return this.findRowDividers(colStrokes, charHeight, colBounds);
+    });
+  }
+
+  /**
+   * Get the X bounds for a column.
+   */
+  private getColumnXBounds(
+    colIdx: number,
+    columnDividers: DividerLine[],
+    numColumns: number,
+    colStrokes: StrokeBounds[]
+  ): { minX: number; maxX: number } {
+    // Fallback to stroke bounds if no dividers
+    if (columnDividers.length === 0 || colStrokes.length === 0) {
+      return {
+        minX: Math.min(...colStrokes.map(s => s.minX)),
+        maxX: Math.max(...colStrokes.map(s => s.maxX)),
+      };
     }
 
-    // Create shared vertex grid: (numColumns + 1) x (numRows + 1)
-    // Each vertex is shared by up to 4 adjacent cells
-    const vertices: Vertex[] = [];
-    const vertexGrid: number[][] = []; // [col][row] -> vertex index
+    const dividerXs = columnDividers.map(d => d.intercept).sort((a, b) => a - b);
 
-    for (let col = 0; col <= numColumns; col++) {
-      vertexGrid[col] = [];
-      const x = columnBoundaries[col];
+    // Column 0 is rightmost in Japanese order
+    const physicalColIdx = numColumns - 1 - colIdx;
 
-      for (let row = 0; row <= numRows; row++) {
-        const y = rowBoundaries[row];
-        vertexGrid[col][row] = vertices.length;
-        vertices.push({ x, y });
+    // Get stroke extent as fallback
+    const strokeMinX = Math.min(...colStrokes.map(s => s.minX));
+    const strokeMaxX = Math.max(...colStrokes.map(s => s.maxX));
+
+    const leftBound = physicalColIdx > 0 ? dividerXs[physicalColIdx - 1] : strokeMinX;
+    const rightBound = physicalColIdx < dividerXs.length ? dividerXs[physicalColIdx] : strokeMaxX;
+
+    return { minX: leftBound, maxX: rightBound };
+  }
+
+  /**
+   * Find horizontal dividers within a column by looking for Y-gaps.
+   */
+  private findRowDividers(
+    colStrokes: StrokeBounds[],
+    charHeight: number,
+    colBounds: { minX: number; maxX: number }
+  ): DividerLine[] {
+    if (colStrokes.length < 2) return [];
+
+    // Sort strokes by Y center position
+    const sortedByY = [...colStrokes].sort((a, b) => a.centerY - b.centerY);
+
+    // Find gaps between consecutive strokes
+    const gaps: { gapStart: number; gapEnd: number; gapSize: number }[] = [];
+    const minGap = charHeight * this.config.minRowGapRatio;
+
+    for (let i = 0; i < sortedByY.length - 1; i++) {
+      const current = sortedByY[i];
+      const next = sortedByY[i + 1];
+
+      // Gap is from the bottom of current to the top of next
+      const gapStart = current.maxY;
+      const gapEnd = next.minY;
+      const gapSize = gapEnd - gapStart;
+
+      if (gapSize >= minGap) {
+        gaps.push({ gapStart, gapEnd, gapSize });
       }
     }
 
-    // Create cells that reference shared vertices
+    // Convert gaps to divider lines
+    return gaps.map(gap => {
+      const y = (gap.gapStart + gap.gapEnd) / 2;
+      return {
+        slope: 0,  // Perfectly horizontal
+        intercept: y,
+        start: colBounds.minX - 10,
+        end: colBounds.maxX + 10,
+      };
+    });
+  }
+
+  // ============================================================
+  // Cell Grid Creation
+  // ============================================================
+
+  /**
+   * Create the grid of cells from column/row dividers.
+   */
+  private createCellGrid(
+    strokesByColumn: number[][],
+    strokeBounds: StrokeBounds[],
+    _columnDividers: DividerLine[],
+    rowDividers: DividerLine[][]
+  ): GridCell[] {
     const cells: GridCell[] = [];
+    const numColumns = strokesByColumn.length;
 
-    // Sort columns right-to-left for Japanese reading order
-    const colOrder = Array.from({ length: numColumns }, (_, i) => i)
-      .sort((a, b) => columnBoundaries[b] - columnBoundaries[a]);
+    for (let colIdx = 0; colIdx < numColumns; colIdx++) {
+      const colStrokeIndices = strokesByColumn[colIdx];
+      const colRowDividers = rowDividers[colIdx] || [];
 
-    for (let gridCol = 0; gridCol < colOrder.length; gridCol++) {
-      const colIdx = colOrder[gridCol];
+      if (colStrokeIndices.length === 0) continue;
 
-      for (let row = 0; row < numRows; row++) {
-        // Get shared vertex indices
-        // TL = (col, row), TR = (col+1, row), BR = (col+1, row+1), BL = (col, row+1)
-        const tl = vertexGrid[colIdx][row];
-        const tr = vertexGrid[colIdx + 1][row];
-        const br = vertexGrid[colIdx + 1][row + 1];
-        const bl = vertexGrid[colIdx][row + 1];
+      const colStrokes = colStrokeIndices.map(i => strokeBounds[i]);
+
+      // Get Y extent for this column
+      const colMinY = Math.min(...colStrokes.map(s => s.minY));
+      const colMaxY = Math.max(...colStrokes.map(s => s.maxY));
+
+      // Row divider Y positions (intercept is Y for horizontal lines)
+      const rowYs = colRowDividers.map(d => d.intercept).sort((a, b) => a - b);
+
+      // Create cells for this column
+      const numRows = rowYs.length + 1;
+
+      for (let rowIdx = 0; rowIdx < numRows; rowIdx++) {
+        const topY = rowIdx === 0 ? colMinY - 5 : rowYs[rowIdx - 1];
+        const bottomY = rowIdx === numRows - 1 ? colMaxY + 5 : rowYs[rowIdx];
+
+        // Find strokes in this cell
+        const cellStrokeIndices = colStrokeIndices.filter(i => {
+          const s = strokeBounds[i];
+          return s.centerY >= topY && s.centerY <= bottomY;
+        });
+
+        if (cellStrokeIndices.length === 0) continue;
+
+        // Calculate cell bounds from its strokes
+        const cellStrokes = cellStrokeIndices.map(i => strokeBounds[i]);
+        const bounds = {
+          minX: Math.min(...cellStrokes.map(s => s.minX)),
+          maxX: Math.max(...cellStrokes.map(s => s.maxX)),
+          minY: Math.min(...cellStrokes.map(s => s.minY)),
+          maxY: Math.max(...cellStrokes.map(s => s.maxY)),
+        };
 
         cells.push({
-          column: gridCol,
-          row,
-          vertexIndices: [tl, tr, br, bl],
-          strokeIndices: [],
+          column: colIdx,
+          row: rowIdx,
+          strokeIndices: cellStrokeIndices,
+          bounds,
         });
       }
     }
 
-    return {
-      vertices,
-      cells,
-      columns: numColumns,
-      maxRows: numRows,
-      estimatedCharSize: charSize,
-    };
+    return cells;
   }
 
-  private createSingleCellMesh(strokes: StrokeWithBounds[], charSize: number): MeshGrid {
-    const allPoints = strokes.flatMap(s => s.stroke);
-    const bounds = this.calculateBoundingBox(allPoints);
-    const pad = this.CELL_PADDING;
+  // ============================================================
+  // Size Uniformity Enforcement
+  // ============================================================
 
-    const vertices: Vertex[] = [
-      { x: bounds.minX - pad, y: bounds.minY - pad },
-      { x: bounds.maxX + pad, y: bounds.minY - pad },
-      { x: bounds.maxX + pad, y: bounds.maxY + pad },
-      { x: bounds.minX - pad, y: bounds.maxY + pad },
-    ];
-
-    const cells: GridCell[] = [{
-      column: 0,
-      row: 0,
-      vertexIndices: [0, 1, 2, 3],
-      strokeIndices: [],
-    }];
-
-    return { vertices, cells, columns: 1, maxRows: 1, estimatedCharSize: charSize };
+  /**
+   * Calculate the max/min ratio for a set of sizes.
+   */
+  private calculateRatio(sizes: number[]): number {
+    if (sizes.length <= 1) return 1;
+    const min = Math.min(...sizes);
+    const max = Math.max(...sizes);
+    return min > 0 ? max / min : Infinity;
   }
 
-  private assignStrokesToCells(mesh: MeshGrid, strokes: StrokeWithBounds[]): void {
-    for (const stroke of strokes) {
-      const { centerX, centerY } = stroke.bounds;
-      let bestCell: GridCell | null = null;
-      let bestDist = Infinity;
+  /**
+   * Enforce column width uniformity: no column should be >2x wider than another.
+   * Can either split large columns OR merge small columns, whichever improves ratio.
+   */
+  private enforceColumnUniformity(
+    columnDividers: DividerLine[],
+    strokeBounds: StrokeBounds[],
+    contentBounds: { minX: number; maxX: number; minY: number; maxY: number }
+  ): DividerLine[] {
+    if (strokeBounds.length === 0) return columnDividers;
 
-      for (const cell of mesh.cells) {
-        const [tl, tr, br, bl] = cell.vertexIndices.map(i => mesh.vertices[i]);
+    const MAX_ITERATIONS = 10;
+    let dividers = [...columnDividers];
 
-        // Get cell center
-        const cellCenterX = (tl.x + tr.x + br.x + bl.x) / 4;
-        const cellCenterY = (tl.y + tr.y + br.y + bl.y) / 4;
+    for (let iter = 0; iter < MAX_ITERATIONS; iter++) {
+      // Get column boundaries including content edges
+      const dividerXs = dividers.map(d => d.intercept).sort((a, b) => a - b);
+      const boundaries = [contentBounds.minX, ...dividerXs, contentBounds.maxX];
 
-        // Check if inside (approximate with bounding box)
-        const minX = Math.min(tl.x, tr.x, br.x, bl.x);
-        const maxX = Math.max(tl.x, tr.x, br.x, bl.x);
-        const minY = Math.min(tl.y, tr.y, br.y, bl.y);
-        const maxY = Math.max(tl.y, tr.y, br.y, bl.y);
+      // Calculate column widths
+      const widths: number[] = [];
+      for (let i = 0; i < boundaries.length - 1; i++) {
+        widths.push(boundaries[i + 1] - boundaries[i]);
+      }
 
-        if (centerX >= minX && centerX <= maxX && centerY >= minY && centerY <= maxY) {
-          bestCell = cell;
+      if (widths.length <= 1) break;
+
+      const currentRatio = this.calculateRatio(widths);
+
+      // Check if already uniform
+      if (currentRatio <= this.MAX_SIZE_RATIO) break;
+
+      // Try two strategies and pick the better one:
+      // 1. Split the largest column
+      // 2. Merge the smallest column with a neighbor (remove a divider)
+
+      let bestAction: 'split' | 'merge' | null = null;
+      let bestRatio = currentRatio;
+      let splitX = 0;
+      let mergeIdx = -1;
+
+      // Strategy 1: Split the largest
+      const widestIdx = widths.indexOf(Math.max(...widths));
+      const candidateSplitX = (boundaries[widestIdx] + boundaries[widestIdx + 1]) / 2;
+      const widthsAfterSplit = [...widths];
+      const splitWidth = widths[widestIdx] / 2;
+      widthsAfterSplit.splice(widestIdx, 1, splitWidth, splitWidth);
+      const ratioAfterSplit = this.calculateRatio(widthsAfterSplit);
+
+      if (ratioAfterSplit < bestRatio) {
+        bestRatio = ratioAfterSplit;
+        bestAction = 'split';
+        splitX = candidateSplitX;
+      }
+
+      // Strategy 2: Merge the smallest with a neighbor (only if we have dividers to remove)
+      if (dividers.length > 0) {
+        const smallestIdx = widths.indexOf(Math.min(...widths));
+
+        // Try merging with left neighbor (remove divider at smallestIdx - 1)
+        if (smallestIdx > 0) {
+          const widthsAfterMergeLeft = [...widths];
+          widthsAfterMergeLeft[smallestIdx - 1] += widthsAfterMergeLeft[smallestIdx];
+          widthsAfterMergeLeft.splice(smallestIdx, 1);
+          const ratioAfterMergeLeft = this.calculateRatio(widthsAfterMergeLeft);
+
+          if (ratioAfterMergeLeft < bestRatio) {
+            bestRatio = ratioAfterMergeLeft;
+            bestAction = 'merge';
+            mergeIdx = smallestIdx - 1; // Remove divider at this index
+          }
+        }
+
+        // Try merging with right neighbor (remove divider at smallestIdx)
+        if (smallestIdx < widths.length - 1) {
+          const widthsAfterMergeRight = [...widths];
+          widthsAfterMergeRight[smallestIdx] += widthsAfterMergeRight[smallestIdx + 1];
+          widthsAfterMergeRight.splice(smallestIdx + 1, 1);
+          const ratioAfterMergeRight = this.calculateRatio(widthsAfterMergeRight);
+
+          if (ratioAfterMergeRight < bestRatio) {
+            bestRatio = ratioAfterMergeRight;
+            bestAction = 'merge';
+            mergeIdx = smallestIdx; // Remove divider at this index
+          }
+        }
+      }
+
+      // Apply the best action
+      if (bestAction === 'split') {
+        const newDivider: DividerLine = {
+          slope: 0,
+          intercept: splitX,
+          start: contentBounds.minY - 10,
+          end: contentBounds.maxY + 10,
+        };
+        dividers.push(newDivider);
+        dividers.sort((a, b) => a.intercept - b.intercept);
+      } else if (bestAction === 'merge' && mergeIdx >= 0 && mergeIdx < dividers.length) {
+        // Remove the divider to merge columns
+        const sortedDividers = [...dividers].sort((a, b) => a.intercept - b.intercept);
+        sortedDividers.splice(mergeIdx, 1);
+        dividers = sortedDividers;
+      } else {
+        // No improvement possible
+        break;
+      }
+    }
+
+    return dividers;
+  }
+
+  /**
+   * Enforce row height uniformity per column: no cell should be >2x taller than another.
+   * Can either split large cells OR merge small cells, whichever improves ratio.
+   */
+  private enforceRowUniformity(
+    rowDividers: DividerLine[][],
+    strokesByColumn: number[][],
+    strokeBounds: StrokeBounds[],
+    columnDividers: DividerLine[]
+  ): DividerLine[][] {
+    const MAX_ITERATIONS = 10;
+
+    return rowDividers.map((colRowDividers, colIdx) => {
+      const colStrokeIndices = strokesByColumn[colIdx];
+      if (colStrokeIndices.length === 0) return colRowDividers;
+
+      const colStrokes = colStrokeIndices.map(i => strokeBounds[i]);
+      const colMinY = Math.min(...colStrokes.map(s => s.minY));
+      const colMaxY = Math.max(...colStrokes.map(s => s.maxY));
+      const colBounds = this.getColumnXBounds(colIdx, columnDividers, strokesByColumn.length, colStrokes);
+
+      let dividers = [...colRowDividers];
+
+      for (let iter = 0; iter < MAX_ITERATIONS; iter++) {
+        // Get row boundaries including content edges
+        const dividerYs = dividers.map(d => d.intercept).sort((a, b) => a - b);
+        const boundaries = [colMinY, ...dividerYs, colMaxY];
+
+        // Calculate row heights
+        const heights: number[] = [];
+        for (let i = 0; i < boundaries.length - 1; i++) {
+          heights.push(boundaries[i + 1] - boundaries[i]);
+        }
+
+        if (heights.length <= 1) break;
+
+        const currentRatio = this.calculateRatio(heights);
+
+        // Check if already uniform
+        if (currentRatio <= this.MAX_SIZE_RATIO) break;
+
+        // Try two strategies and pick the better one
+        let bestAction: 'split' | 'merge' | null = null;
+        let bestRatio = currentRatio;
+        let splitY = 0;
+        let mergeIdx = -1;
+
+        // Strategy 1: Split the tallest
+        const tallestIdx = heights.indexOf(Math.max(...heights));
+        const candidateSplitY = (boundaries[tallestIdx] + boundaries[tallestIdx + 1]) / 2;
+        const heightsAfterSplit = [...heights];
+        const splitHeight = heights[tallestIdx] / 2;
+        heightsAfterSplit.splice(tallestIdx, 1, splitHeight, splitHeight);
+        const ratioAfterSplit = this.calculateRatio(heightsAfterSplit);
+
+        if (ratioAfterSplit < bestRatio) {
+          bestRatio = ratioAfterSplit;
+          bestAction = 'split';
+          splitY = candidateSplitY;
+        }
+
+        // Strategy 2: Merge the smallest with a neighbor
+        if (dividers.length > 0) {
+          const smallestIdx = heights.indexOf(Math.min(...heights));
+
+          // Try merging with top neighbor
+          if (smallestIdx > 0) {
+            const heightsAfterMergeTop = [...heights];
+            heightsAfterMergeTop[smallestIdx - 1] += heightsAfterMergeTop[smallestIdx];
+            heightsAfterMergeTop.splice(smallestIdx, 1);
+            const ratioAfterMergeTop = this.calculateRatio(heightsAfterMergeTop);
+
+            if (ratioAfterMergeTop < bestRatio) {
+              bestRatio = ratioAfterMergeTop;
+              bestAction = 'merge';
+              mergeIdx = smallestIdx - 1;
+            }
+          }
+
+          // Try merging with bottom neighbor
+          if (smallestIdx < heights.length - 1) {
+            const heightsAfterMergeBottom = [...heights];
+            heightsAfterMergeBottom[smallestIdx] += heightsAfterMergeBottom[smallestIdx + 1];
+            heightsAfterMergeBottom.splice(smallestIdx + 1, 1);
+            const ratioAfterMergeBottom = this.calculateRatio(heightsAfterMergeBottom);
+
+            if (ratioAfterMergeBottom < bestRatio) {
+              bestRatio = ratioAfterMergeBottom;
+              bestAction = 'merge';
+              mergeIdx = smallestIdx;
+            }
+          }
+        }
+
+        // Apply the best action
+        if (bestAction === 'split') {
+          const newDivider: DividerLine = {
+            slope: 0,
+            intercept: splitY,
+            start: colBounds.minX - 10,
+            end: colBounds.maxX + 10,
+          };
+          dividers.push(newDivider);
+          dividers.sort((a, b) => a.intercept - b.intercept);
+        } else if (bestAction === 'merge' && mergeIdx >= 0 && mergeIdx < dividers.length) {
+          const sortedDividers = [...dividers].sort((a, b) => a.intercept - b.intercept);
+          sortedDividers.splice(mergeIdx, 1);
+          dividers = sortedDividers;
+        } else {
           break;
         }
-
-        // Track closest
-        const dist = Math.hypot(centerX - cellCenterX, centerY - cellCenterY);
-        if (dist < bestDist) {
-          bestDist = dist;
-          bestCell = cell;
-        }
       }
 
-      if (bestCell) {
-        bestCell.strokeIndices.push(stroke.index);
-      }
-    }
-  }
-
-  /**
-   * Deform mesh vertices to organically wrap around stroke content.
-   * Since vertices are shared, we accumulate desired positions from all cells
-   * and average them - this creates the organic "epithelial" effect.
-   */
-  private deformMeshToContent(mesh: MeshGrid, strokes: StrokeWithBounds[]): void {
-    for (let iter = 0; iter < this.DEFORM_ITERATIONS; iter++) {
-      const strength = this.DEFORM_STRENGTH * (1 - iter * 0.15);
-
-      // Track desired positions for each vertex (may have multiple from shared cells)
-      const vertexTargets: Map<number, { x: number; y: number }[]> = new Map();
-
-      for (const cell of mesh.cells) {
-        if (cell.strokeIndices.length === 0) continue;
-
-        const cellStrokes = cell.strokeIndices.map(i => strokes[i]);
-        const allPoints = cellStrokes.flatMap(s => s.stroke);
-        const pad = this.CELL_PADDING;
-
-        // Calculate target positions for each corner
-        const targets = [
-          this.findClosestContentCorner(allPoints, 'tl', pad),
-          this.findClosestContentCorner(allPoints, 'tr', pad),
-          this.findClosestContentCorner(allPoints, 'br', pad),
-          this.findClosestContentCorner(allPoints, 'bl', pad),
-        ];
-
-        // Add targets to the shared vertex map
-        for (let i = 0; i < 4; i++) {
-          const vIdx = cell.vertexIndices[i];
-          if (!vertexTargets.has(vIdx)) {
-            vertexTargets.set(vIdx, []);
-          }
-          vertexTargets.get(vIdx)!.push(targets[i]);
-        }
-      }
-
-      // Move each vertex toward the average of its targets
-      for (const [vIdx, targets] of vertexTargets) {
-        if (targets.length === 0) continue;
-
-        const vertex = mesh.vertices[vIdx];
-        const avgX = targets.reduce((sum, t) => sum + t.x, 0) / targets.length;
-        const avgY = targets.reduce((sum, t) => sum + t.y, 0) / targets.length;
-
-        vertex.x += (avgX - vertex.x) * strength;
-        vertex.y += (avgY - vertex.y) * strength;
-      }
-    }
-
-    // Final pass: ensure valid quads
-    this.ensureValidQuads(mesh);
-  }
-
-  /**
-   * Find the target position for a corner vertex based on actual stroke points.
-   * This creates organic shapes that follow the stroke contours.
-   */
-  private findClosestContentCorner(points: Point[], corner: 'tl' | 'tr' | 'br' | 'bl', padding: number): Vertex {
-    if (points.length === 0) {
-      return { x: 0, y: 0 };
-    }
-
-    // Find extreme points in the direction of the corner
-    let bestPoint = points[0];
-    let bestScore = -Infinity;
-
-    for (const p of points) {
-      let score = 0;
-      switch (corner) {
-        case 'tl': score = -p.x - p.y; break; // Minimize X and Y
-        case 'tr': score = p.x - p.y; break;  // Maximize X, minimize Y
-        case 'br': score = p.x + p.y; break;  // Maximize X and Y
-        case 'bl': score = -p.x + p.y; break; // Minimize X, maximize Y
-      }
-      if (score > bestScore) {
-        bestScore = score;
-        bestPoint = p;
-      }
-    }
-
-    // Add padding in the appropriate direction
-    let px = 0, py = 0;
-    switch (corner) {
-      case 'tl': px = -padding; py = -padding; break;
-      case 'tr': px = padding; py = -padding; break;
-      case 'br': px = padding; py = padding; break;
-      case 'bl': px = -padding; py = padding; break;
-    }
-
-    return { x: bestPoint.x + px, y: bestPoint.y + py };
-  }
-
-  /**
-   * Ensure quads don't self-intersect by checking vertex order.
-   */
-  private ensureValidQuads(mesh: MeshGrid): void {
-    for (const cell of mesh.cells) {
-      const verts = cell.vertexIndices.map(i => mesh.vertices[i]);
-      const [tl, tr, br, bl] = verts;
-
-      // Check if the quad is valid (vertices in correct clockwise order)
-      // If edges cross, we have a self-intersection
-
-      // Simple fix: ensure TL is actually top-left relative to others, etc.
-      // by checking that the centroid is inside all edges
-
-      const cx = (tl.x + tr.x + br.x + bl.x) / 4;
-      const cy = (tl.y + tr.y + br.y + bl.y) / 4;
-
-      // Ensure each vertex is in roughly the right quadrant relative to center
-      // Top-left should be left of and above center
-      if (tl.x > cx + 5) tl.x = cx - 5;
-      if (tl.y > cy + 5) tl.y = cy - 5;
-
-      // Top-right should be right of and above center
-      if (tr.x < cx - 5) tr.x = cx + 5;
-      if (tr.y > cy + 5) tr.y = cy - 5;
-
-      // Bottom-right should be right of and below center
-      if (br.x < cx - 5) br.x = cx + 5;
-      if (br.y < cy - 5) br.y = cy + 5;
-
-      // Bottom-left should be left of and below center
-      if (bl.x > cx + 5) bl.x = cx - 5;
-      if (bl.y < cy - 5) bl.y = cy + 5;
-    }
+      return dividers;
+    });
   }
 }

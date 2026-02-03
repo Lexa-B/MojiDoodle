@@ -1,14 +1,11 @@
 /**
  * Types for character segmentation in Japanese handwriting recognition.
  *
- * Uses a deformable mesh grid approach where:
- * - Density valleys in stroke data determine character boundaries
- * - Cells are quadrilaterals with shared vertices (like epithelial tissue)
- * - Vertices deform to organically fit stroke content
- * - Grid enforces size uniformity (no cell > 1.75x another)
+ * Uses a two-pass approach:
+ * 1. Column segmentation: Find vertical dividers between columns
+ * 2. Row segmentation: Within each column, find horizontal dividers between characters
  *
- * Reading order: right-to-left columns, top-to-bottom within columns
- * (standard Japanese vertical writing)
+ * Dividers are simple lines (max 10° off vertical/horizontal).
  */
 
 export interface Point {
@@ -17,60 +14,80 @@ export interface Point {
   t: number; // timestamp relative to drawing start
 }
 
-export interface BoundingBox {
+/**
+ * Bounding box and timing metadata for a single stroke.
+ */
+export interface StrokeBounds {
+  strokeIndex: number;
   minX: number;
-  minY: number;
   maxX: number;
+  minY: number;
   maxY: number;
-  width: number;
-  height: number;
   centerX: number;
   centerY: number;
 }
 
-export interface StrokeWithBounds {
-  index: number;
-  stroke: Point[];
-  bounds: BoundingBox;
-}
-
 /**
- * A vertex in the mesh grid.
- * Vertices are shared between adjacent cells.
+ * A dividing line between columns or rows.
+ * Column dividers: x = slope * y + intercept (mostly vertical)
+ * Row dividers: y = slope * x + intercept (mostly horizontal)
  */
-export interface Vertex {
-  x: number;
-  y: number;
+export interface DividerLine {
+  slope: number;      // For columns: dx/dy, for rows: dy/dx
+  intercept: number;  // x-intercept for columns, y-intercept for rows
+  start: number;      // Start coordinate (y for columns, x for rows)
+  end: number;        // End coordinate
 }
 
 /**
- * A cell in the mesh grid representing a character boundary.
- * Cells are quadrilaterals with shared vertices.
+ * A cell in the segmentation grid representing a single character.
  */
 export interface GridCell {
-  column: number;           // Right-to-left (0 = rightmost)
-  row: number;              // Top-to-bottom within column
-  vertexIndices: [number, number, number, number];  // TL, TR, BR, BL indices into vertex array
-  strokeIndices: number[];  // Indices of strokes belonging to this cell
+  column: number;           // 0 = rightmost (Japanese reading order)
+  row: number;              // 0 = topmost
+  strokeIndices: number[];  // Strokes belonging to this cell
+  bounds: {
+    minX: number;
+    maxX: number;
+    minY: number;
+    maxY: number;
+  };
 }
 
 /**
- * A deformable mesh grid for character segmentation.
- * The grid adapts to stroke density and enforces size uniformity.
+ * The complete segmentation grid with dividers and cells.
  */
-export interface MeshGrid {
-  vertices: Vertex[];       // Shared vertex pool
-  cells: GridCell[];        // Character cells
-  columns: number;          // Number of columns (right-to-left)
-  maxRows: number;          // Maximum rows in any column
-  estimatedCharSize: number;
+export interface SegmentationGrid {
+  columnDividers: DividerLine[];    // Vertical-ish lines between columns
+  rowDividers: DividerLine[][];     // Horizontal-ish lines within each column
+  cells: GridCell[];
+  columns: number;
+  maxRows: number;
 }
 
 /**
  * Result of segmentation analysis.
  */
 export interface SegmentationResult {
-  mesh: MeshGrid;
-  estimatedCharSize: number;
-  gridColumns: number;
+  grid: SegmentationGrid;
+  estimatedCharHeight: number;
+  estimatedCharWidth: number;
+}
+
+/**
+ * Configurable thresholds for segmentation tuning.
+ */
+export interface SegmentationConfig {
+  // Column detection
+  minColumnGapRatio: number;     // Min gap as fraction of char width (default: 0.25)
+  maxColumnAngle: number;        // Max degrees from vertical (default: 10)
+
+  // Row detection
+  minRowGapRatio: number;        // Min gap as fraction of char height (default: 0.25)
+  maxRowAngle: number;           // Max degrees from horizontal (default: 10)
+
+  // Character size estimation
+  charSizeMultiplier: number;    // Multiply median stroke size by this (default: 2.0)
+  minCharSizeRatio: number;      // Min char size as fraction of canvas (default: 0.08)
+  maxCharSizeRatio: number;      // Max char size as fraction of canvas (default: 0.40)
 }

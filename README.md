@@ -42,6 +42,7 @@ https://lexa-b.github.io/MojiDoodle/
 - Use the correct stroke count when possible
 - The hint below the prompt shows expected stroke count
 - Tap the undo button (⌫) to remove your last stroke
+- For multi-character words: write vertically (top to bottom), leave visible gaps between characters
 
 ### Progression System
 
@@ -84,6 +85,7 @@ npm start
 - Google Input Tools API (no key required)
 - Canvas 2D for brush rendering
 - IndexedDB for offline persistence
+- Character segmentation for multi-character vocabulary words
 
 ## Data Architecture
 

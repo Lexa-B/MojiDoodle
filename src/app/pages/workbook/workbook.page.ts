@@ -7,7 +7,7 @@ import { Subscription } from 'rxjs';
 import { StrokeRecognitionService } from '../../services/stroke-recognition.service';
 import { CardsService, Card } from '../../services/cards.service';
 import { CharacterSegmentationService } from '../../services/character-segmentation.service';
-import { SegmentationResult, MeshGrid } from '../../models/segmentation.types';
+import { SegmentationResult, SegmentationGrid } from '../../models/segmentation.types';
 
 interface Point {
   x: number;
@@ -448,12 +448,18 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
         );
       }
 
-      const mesh = this.segmentationResult.mesh;
-      const cellsWithStrokes = mesh.cells.filter(c => c.strokeIndices.length > 0);
+      const grid = this.segmentationResult.grid;
+      const cellsWithStrokes = grid.cells.filter(c => c.strokeIndices.length > 0);
+
+      // Sort cells in Japanese reading order: right-to-left columns, top-to-bottom rows
+      const sortedCells = [...cellsWithStrokes].sort((a, b) => {
+        if (a.column !== b.column) return a.column - b.column;  // Column 0 is rightmost
+        return a.row - b.row;  // Top to bottom
+      });
 
       let results: { character: string; score: number }[];
 
-      if (cellsWithStrokes.length <= 1) {
+      if (sortedCells.length <= 1) {
         // Single cell - use regular recognition
         this.lastBatchResults = []; // Clear batch results
         results = await this.strokeRecognition.recognize(
@@ -463,17 +469,10 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
         );
       } else {
         // Multiple cells - use batch recognition
-        // Sort cells in Japanese reading order: right-to-left columns, top-to-bottom rows
-        const sortedCells = [...cellsWithStrokes].sort((a, b) => {
-          if (a.column !== b.column) return a.column - b.column; // Column 0 is rightmost, read first
-          return a.row - b.row; // Top to bottom within column
-        });
-
         const cellData = sortedCells.map(cell => {
           const cellStrokes = cell.strokeIndices.map(i => this.strokes[i]);
-          const [tl, tr, br, bl] = cell.vertexIndices.map(i => mesh.vertices[i]);
-          const width = Math.max(Math.abs(tr.x - tl.x), Math.abs(br.x - bl.x));
-          const height = Math.max(Math.abs(bl.y - tl.y), Math.abs(br.y - tr.y));
+          const width = cell.bounds.maxX - cell.bounds.minX;
+          const height = cell.bounds.maxY - cell.bounds.minY;
           return { strokes: cellStrokes, bounds: { width, height } };
         });
 
@@ -685,56 +684,61 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
   }
 
   /**
-   * Redraw all strokes and overlay mesh grid boundaries.
+   * Redraw all strokes and overlay divider lines.
    */
   private redrawWithBoundaries(): void {
     // First redraw all strokes
     this.redrawStrokes();
 
-    // Then draw mesh grid on top
-    if (this.segmentationResult && this.segmentationResult.mesh.cells.length > 0) {
-      this.drawMeshGrid(this.segmentationResult.mesh);
+    // Then draw dividers on top (if any exist)
+    if (this.segmentationResult) {
+      const grid = this.segmentationResult.grid;
+      const hasDividers = grid.columnDividers.length > 0 ||
+                          grid.rowDividers.some(r => r.length > 0);
+      if (hasDividers) {
+        this.drawDividers(grid);
+      }
     }
   }
 
   /**
-   * Draw the deformable mesh grid.
-   * Draws unique edges to show unified grid structure.
+   * Draw divider lines between columns and rows.
+   * Column dividers: x = slope * y + intercept (vertical lines)
+   * Row dividers: y = slope * x + intercept (horizontal lines)
    */
-  private drawMeshGrid(mesh: MeshGrid): void {
+  private drawDividers(grid: SegmentationGrid): void {
     this.ctx.save();
-    this.ctx.strokeStyle = 'rgba(128, 128, 128, 0.5)';
-    this.ctx.lineWidth = 2;
-    this.ctx.setLineDash([6, 4]);
+    this.ctx.strokeStyle = 'rgba(128, 128, 128, 0.4)';
+    this.ctx.lineWidth = 1;
+    this.ctx.setLineDash([4, 4]);
 
-    // Collect unique edges to avoid double-drawing shared edges
-    const edges = new Set<string>();
+    // Draw column dividers (vertical lines: x = slope * y + intercept)
+    for (const divider of grid.columnDividers) {
+      const y1 = divider.start;
+      const y2 = divider.end;
+      const x1 = divider.slope * y1 + divider.intercept;
+      const x2 = divider.slope * y2 + divider.intercept;
 
-    const addEdge = (v1: number, v2: number) => {
-      const key = v1 < v2 ? `${v1}-${v2}` : `${v2}-${v1}`;
-      edges.add(key);
-    };
-
-    for (const cell of mesh.cells) {
-      const [tl, tr, br, bl] = cell.vertexIndices;
-      addEdge(tl, tr); // Top edge
-      addEdge(tr, br); // Right edge
-      addEdge(br, bl); // Bottom edge
-      addEdge(bl, tl); // Left edge
+      this.ctx.beginPath();
+      this.ctx.moveTo(x1, y1);
+      this.ctx.lineTo(x2, y2);
+      this.ctx.stroke();
     }
 
-    // Draw all unique edges
-    this.ctx.beginPath();
-    for (const edge of edges) {
-      const [v1, v2] = edge.split('-').map(Number);
-      const p1 = mesh.vertices[v1];
-      const p2 = mesh.vertices[v2];
-      if (p1 && p2) {
-        this.ctx.moveTo(p1.x, p1.y);
-        this.ctx.lineTo(p2.x, p2.y);
+    // Draw row dividers (horizontal lines: y = slope * x + intercept)
+    for (const columnRows of grid.rowDividers) {
+      for (const divider of columnRows) {
+        const x1 = divider.start;
+        const x2 = divider.end;
+        const y1 = divider.slope * x1 + divider.intercept;
+        const y2 = divider.slope * x2 + divider.intercept;
+
+        this.ctx.beginPath();
+        this.ctx.moveTo(x1, y1);
+        this.ctx.lineTo(x2, y2);
+        this.ctx.stroke();
       }
     }
-    this.ctx.stroke();
 
     this.ctx.restore();
   }

@@ -43,7 +43,7 @@ src/
 │   │   ├── stroke-recognition.service.ts  # Google Input Tools API
 │   │   └── character-segmentation.service.ts  # Multi-char segmentation
 │   ├── models/
-│   │   └── segmentation.types.ts  # Mesh grid types
+│   │   └── segmentation.types.ts  # Segmentation grid types
 │   ├── app.component.ts         # Sidemenu config, version checking
 │   └── app-routing.module.ts    # Routes (default: /dashboard)
 ├── data/
@@ -152,8 +152,8 @@ Lesson methods:
 
 **CharacterSegmentationService** (`character-segmentation.service.ts`)
 - Segments multi-character handwriting into individual character cells
-- Uses density-based mesh grid approach (see "Character Segmentation" section below)
-- `segment()` - Returns `MeshGrid` with cells and stroke assignments
+- Uses gap-based two-pass approach with size uniformity enforcement
+- `segment()` - Returns `SegmentationResult` with grid, cells, and stroke assignments
 
 ### Data Models
 
@@ -189,21 +189,32 @@ interface Lesson {
 interface Point { x: number; y: number; t: number; }  // t = timestamp relative to draw start
 
 // Character segmentation types
-interface Vertex { x: number; y: number; }
-
-interface GridCell {
-  column: number;           // Right-to-left (0 = rightmost)
-  row: number;              // Top-to-bottom within column
-  vertexIndices: [number, number, number, number];  // TL, TR, BR, BL
-  strokeIndices: number[];  // Strokes belonging to this cell
+interface DividerLine {
+  slope: number;      // For columns: dx/dy, for rows: dy/dx (0 = perfectly straight)
+  intercept: number;  // x-intercept for columns, y-intercept for rows
+  start: number;      // Start coordinate (y for columns, x for rows)
+  end: number;        // End coordinate
 }
 
-interface MeshGrid {
-  vertices: Vertex[];       // Shared vertex pool
+interface GridCell {
+  column: number;           // 0 = rightmost (Japanese reading order)
+  row: number;              // 0 = topmost
+  strokeIndices: number[];  // Strokes belonging to this cell
+  bounds: { minX, maxX, minY, maxY: number };
+}
+
+interface SegmentationGrid {
+  columnDividers: DividerLine[];  // Vertical lines between columns
+  rowDividers: DividerLine[][];   // Horizontal lines within each column
   cells: GridCell[];
   columns: number;
   maxRows: number;
-  estimatedCharSize: number;
+}
+
+interface SegmentationResult {
+  grid: SegmentationGrid;
+  estimatedCharHeight: number;
+  estimatedCharWidth: number;
 }
 ```
 
@@ -313,26 +324,50 @@ For vocabulary cards with multiple characters (e.g., "たべる"), the app segme
 - `src/app/services/character-segmentation.service.ts` - Segmentation algorithm
 - `src/app/services/stroke-recognition.service.ts` - Batch recognition
 
-**Approach: Density-Based Deformable Mesh Grid**
+**Approach: Two-Pass Gap-Based Segmentation**
 
-Instead of clustering strokes (which fails for characters like い with separate strokes, or だ with dakuten), the system finds **gaps between characters** using density analysis:
+Uses a two-pass approach that first divides into columns, then divides each column into rows:
 
-1. **Estimate character size** - Uses median stroke bounding box × 2, clamped to 10-40% of canvas height
-2. **Find density valleys** - Creates histogram of stroke density along X/Y axes, finds local minima (gaps)
-3. **Create mesh grid** - Valleys become column/row boundaries; grid has shared vertices like epithelial cells
-4. **Deform to content** - Vertices nudge toward stroke content for organic (non-rectangular) cells
-5. **Validate** - Removes valleys that create empty interior cells or violate size uniformity (max 1.75× ratio)
-
-**Mesh Structure:**
 ```
-V0----V1----V2
-|  C0  |  C1  |     Vertices are shared between adjacent cells
-V3----V4----V5     Moving V4 affects cells C0, C1, C2, C3
-|  C2  |  C3  |
-V6----V7----V8
+┌─────────┬─────────┐
+│ Col 1   │ Col 0   │  ← Japanese reading order: right-to-left
+├─────────┼─────────┤
+│  あ     │  た     │  ← Row dividers (horizontal lines)
+├─────────┼─────────┤
+│  い     │  べ     │
+└─────────┴─────────┘
+     ↑
+  Column divider (vertical line, max ±10° angle)
 ```
 
-**Reading Order:** Japanese vertical writing - right-to-left columns (column 0 = rightmost), top-to-bottom within columns.
+**Divider Lines:** Simple linear equations
+- Column dividers: `x = slope * y + intercept` (vertical, slope ≈ 0)
+- Row dividers: `y = slope * x + intercept` (horizontal, slope ≈ 0)
+- Max 10 degrees from vertical/horizontal
+
+**Pass 1 - Column Detection:**
+1. Sort strokes by X center position
+2. Find gaps between stroke bounding boxes larger than threshold
+3. Create vertical divider lines through gap midpoints
+
+**Pass 2 - Row Detection (per column):**
+1. Sort column's strokes by Y center position
+2. Find gaps between stroke bounding boxes larger than threshold
+3. Create horizontal divider lines through gap midpoints
+
+**Size Uniformity Enforcement:**
+After gap detection, enforces that no cell is >2x larger than any other:
+- Content edges are treated as implicit boundaries
+- For each dimension, compares all region sizes
+- Can either SPLIT large regions (add divider at midpoint) or MERGE small regions (remove divider)
+- Chooses whichever action improves the max/min ratio
+- Iterates until ratio ≤ 2.0 or no improvement possible
+
+**Configurable Thresholds** (in `SegmentationConfig`):
+- `minColumnGapRatio: 0.25` - Min gap as fraction of char width
+- `maxColumnAngle: 10` - Max degrees from vertical for column dividers
+- `minRowGapRatio: 0.25` - Min gap as fraction of char height
+- `maxRowAngle: 10` - Max degrees from horizontal for row dividers
 
 **Batch API Recognition:**
 - Google Input Tools API supports multiple requests in single call via `requests` array
@@ -355,8 +390,8 @@ const isCorrect = targetChars.every((char, idx) => {
 });
 ```
 
-**Why This Fixes Problem Characters:**
-- **い** (two separate strokes) - No density valley between strokes, stays in one cell
-- **だ** (dakuten appears separate) - Dakuten within cell bounds, no valley separates it
+**Reading Order:** Japanese vertical writing
+- Columns: right-to-left (column 0 = rightmost)
+- Rows: top-to-bottom (row 0 = topmost)
 
-**Visualization:** Workbook draws dashed gray quadrilaterals showing cell boundaries when multiple cells detected.
+**Visualization:** Workbook draws faint dashed divider lines between columns and rows.
