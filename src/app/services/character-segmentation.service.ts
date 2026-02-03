@@ -80,8 +80,21 @@ export class CharacterSegmentationService {
     // Step 8: Enforce row height uniformity per column (no cell >2x taller than another)
     rowDividers = this.enforceRowUniformity(rowDividers, strokesByColumn, strokeBounds, columnDividers);
 
-    // Step 9: Create cell grid
-    const cells = this.createCellGrid(strokesByColumn, strokeBounds, columnDividers, rowDividers);
+    // Step 9: Enforce columns <= maxRows constraint
+    // Japanese writing is vertical, so we should never have more columns than rows
+    const enforceResult = this.enforceColumnsNotExceedRows(
+      columnDividers,
+      rowDividers,
+      strokeBounds,
+      charHeight,
+      contentBounds
+    );
+    columnDividers = enforceResult.columnDividers;
+    rowDividers = enforceResult.rowDividers;
+    const strokesByColumnFinal = this.assignStrokesToColumns(strokeBounds, columnDividers);
+
+    // Step 10: Create cell grid
+    const cells = this.createCellGrid(strokesByColumnFinal, strokeBounds, columnDividers, rowDividers);
 
     const numColumns = columnDividers.length + 1;
     const maxRows = Math.max(...rowDividers.map(r => r.length + 1), 1);
@@ -663,5 +676,70 @@ export class CharacterSegmentationService {
 
       return dividers;
     });
+  }
+
+  /**
+   * Enforce that columns never exceed maxRows.
+   * Japanese writing is vertical (top-to-bottom, right-to-left), so having more
+   * columns than rows indicates over-segmentation (e.g., い being split into 2 columns).
+   */
+  private enforceColumnsNotExceedRows(
+    columnDividers: DividerLine[],
+    rowDividers: DividerLine[][],
+    strokeBounds: StrokeBounds[],
+    charHeight: number,
+    contentBounds: { minX: number; maxX: number; minY: number; maxY: number }
+  ): { columnDividers: DividerLine[]; rowDividers: DividerLine[][] } {
+    const MAX_ITERATIONS = 10;
+    let dividers = [...columnDividers];
+    let rows = [...rowDividers];
+
+    for (let iter = 0; iter < MAX_ITERATIONS; iter++) {
+      const numColumns = dividers.length + 1;
+      const maxRows = Math.max(...rows.map(r => r.length + 1), 1);
+
+      // Check if constraint is satisfied
+      if (numColumns <= maxRows) {
+        break;
+      }
+
+      // Need to remove a column divider (merge two columns)
+      if (dividers.length === 0) {
+        break; // Can't remove any more
+      }
+
+      // Find the best divider to remove (the one with the smallest gap)
+      // This merges the two most closely-spaced columns
+      const sortedDividers = [...dividers].sort((a, b) => a.intercept - b.intercept);
+      const boundaries = [contentBounds.minX, ...sortedDividers.map(d => d.intercept), contentBounds.maxX];
+
+      // Find the smallest gap between adjacent columns
+      let smallestGapIdx = 0;
+      let smallestGap = Infinity;
+      for (let i = 0; i < sortedDividers.length; i++) {
+        // Gap covered by this divider is boundaries[i+1] to boundaries[i+2]
+        // Actually, the divider at index i separates column i and column i+1
+        // We want to remove the divider that separates the narrowest combined width
+        const leftWidth = boundaries[i + 1] - boundaries[i];
+        const rightWidth = boundaries[i + 2] - boundaries[i + 1];
+        const combinedWidth = leftWidth + rightWidth;
+
+        if (combinedWidth < smallestGap) {
+          smallestGap = combinedWidth;
+          smallestGapIdx = i;
+        }
+      }
+
+      // Remove the divider
+      sortedDividers.splice(smallestGapIdx, 1);
+      dividers = sortedDividers;
+
+      // Re-assign strokes to columns and recalculate row dividers
+      const strokesByColumn = this.assignStrokesToColumns(strokeBounds, dividers);
+      rows = this.findAllRowDividers(strokesByColumn, strokeBounds, dividers, charHeight);
+      rows = this.enforceRowUniformity(rows, strokesByColumn, strokeBounds, dividers);
+    }
+
+    return { columnDividers: dividers, rowDividers: rows };
   }
 }

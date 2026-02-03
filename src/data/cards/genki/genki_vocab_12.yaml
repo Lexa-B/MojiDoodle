@@ -473,7 +473,8 @@
 - id: g-12-kawaiso
   prompt: pitiful; feel sorry for; poor thing
   answers:
-    - かわいそう（な）
+    - かわいそう
+    - かわいそうな
   hint: kawaisou(na) — used to express sympathy/pity (often about someone’s situation).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -482,11 +483,15 @@
     toast: |-
       That means "cute".
       This prompt is about feeling pity/sympathy, not cuteness.
-  - answer: 気の毒（な）
+  - answers:
+      - 気の毒
+      - 気の毒な
     toast: |-
       That also means "pitiful/unfortunate," but uses kanji.
       This one is more formal and often about misfortune.
-  - answer: 不憫（な）
+  - answers:
+      - 不憫
+      - 不憫な
     toast: |-
       That means "poor/pitiful" (more literary/formal) and uses kanji.
       This one has a stronger, more serious nuance.
@@ -1784,16 +1789,21 @@
 - id: g-12-majime
   prompt: serious; sober; diligent
   answers:
-    - まじめ（な）
+    - まじめ
+    - まじめな
   hint: majime (na) - な-adj; used for a serious/diligent attitude (e.g., まじめな学生)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 真面目（な）
+  - answers:
+      - 真面目
+      - 真面目な
     toast: |-
       That's the kanji spelling.
       The prompt expects the kana form here.
-  - answer: しんけん（な）
+  - answers:
+      - しんけん
+      - しんけんな
     toast: |-
       That's "serious" in the sense of being earnest/intense.
       Often used for situations like a serious talk or match.

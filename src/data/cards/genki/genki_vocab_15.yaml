@@ -1080,41 +1080,55 @@
 - id: g-15-checkout
   prompt: checking out
   answers:
-    - チェックアウト（する）
+    - チェックアウト
+    - チェックアウトする
   hint: chekku auto (suru) - used for leaving a hotel / completing checkout; often
     written without （する） as チェックアウト
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: チェックイン（する）
+  - answers:
+      - チェックイン
+      - チェックインする
     toast: |-
       That's "check in"!
-      It’s for arriving/registering, not leaving.
-  - answer: 会計（する）
+      It's for arriving/registering, not leaving.
+  - answers:
+      - 会計
+      - 会計する
     toast: |-
       That's "to pay the bill / settle the account"!
       It focuses on payment rather than the overall hotel departure process.
-  - answer: 退室（する）
+  - answers:
+      - 退室
+      - 退室する
     toast: |-
       That's "to leave a room"!
-      It’s a general word for exiting a room, not the hotel procedure.
+      It's a general word for exiting a room, not the hotel procedure.
 - id: g-15-checkin
   prompt: checking in
   answers:
-    - チェックイン（する）
+    - チェックイン
+    - チェックインする
   hint: chekku-in (suru) - used for hotels/airports; often as チェックインする
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: チェックアウト（する）
+  - answers:
+      - チェックアウト
+      - チェックアウトする
     toast: |-
       That's the opposite action.
       It means leaving/finishing your stay, not arriving.
-  - answer: 受付（する）
+  - answers:
+      - 受付
+      - 受付する
     toast: |-
       That's "reception/registration".
       It's the counter/process in general, not specifically the arrival procedure at a hotel/flight.
-  - answer: 搭乗手続き（する）
+  - answers:
+      - 搭乗手続き
+      - 搭乗手続きする
     toast: |-
       That's "boarding procedure".
       It refers to the process for getting onto a plane, not the general arrival confirmation.

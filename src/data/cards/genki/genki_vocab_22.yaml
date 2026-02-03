@@ -971,12 +971,15 @@
 - id: g-22-perapera
   prompt: fluent
   answers:
-    - ぺらぺら（な）
+    - ぺらぺら
+    - ぺらぺらな
   hint: perapera (na) - fluent (esp. speaking a language); often used like「日本語がぺらぺらだ」
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 流暢（な）
+  - answers:
+      - 流暢
+      - 流暢な
     toast: |-
       That's a formal/kanji word meaning "fluent".
       The prompt expects the casual onomatopoeic expression.
@@ -984,7 +987,9 @@
     toast: |-
       That's "smoothly" (no pauses), often about reading/writing/speaking flow.
       The prompt is specifically the common expression for being fluent in a language.
-  - answer: ぺこぺこ（な）
+  - answers:
+      - ぺこぺこ
+      - ぺこぺこな
     toast: |-
       That's "very hungry" or "bowing repeatedly" depending on context.
       Watch the middle consonant sound and meaning.

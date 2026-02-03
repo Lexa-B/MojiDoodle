@@ -228,16 +228,21 @@
 - id: g-14-oshare
   prompt: fashionable; stylish
   answers:
-    - おしゃれ（な）
+    - おしゃれ
+    - おしゃれな
   hint: oshare (na) - na-adjective; use 「おしゃれな服」 (stylish clothes)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: しゃれ（な）
+  - answers:
+      - しゃれ
+      - しゃれな
     toast: |-
       That's closer to "witty/chic" as in good wordplay or being sophisticated.
       The prompt is about being fashionable in appearance.
-  - answer: きれい（な）
+  - answers:
+      - きれい
+      - きれいな
     toast: |-
       That's "pretty/clean".
       This describes beauty or cleanliness, not fashion sense.

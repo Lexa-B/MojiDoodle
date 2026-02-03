@@ -208,13 +208,16 @@
 - id: g-18-otsukare
   prompt: You must be tired after working so hard. (greeting between friends and coworkers)
   answers:
-    - お疲れ様（でした）
+    - お疲れ様
+    - お疲れ様でした
   hint: otsukaresama (deshita) — phrase said after work/effort; add でした for polite
     past (e.g., leaving the office).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: ご苦労様（でした）
+  - answers:
+      - ご苦労様
+      - ご苦労様でした
     toast: |-
       Similar meaning, but often used from a superior to a subordinate.
       Between coworkers/friends, this can sound a bit hierarchical.

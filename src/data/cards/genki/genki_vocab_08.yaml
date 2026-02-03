@@ -607,19 +607,24 @@
       That's "the remainder/leftovers".
       This is about what's left, not work time.
 - id: g-08-zannen
-  prompt: That’s too bad.
+  prompt: That's too bad.
   answers:
-    - 残念（ですね）
+    - 残念
+    - 残念ですね
   hint: zannen (desu ne) - used to react to disappointing news; often with 「ですね」 to
     soften/agree
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 大変（ですね）
+  - answers:
+      - 大変
+      - 大変ですね
     toast: |-
       That's more like "That's tough/serious" or "What a hassle."
       Use it for hardship or trouble, not disappointment.
-  - answer: 惜しい（ですね）
+  - answers:
+      - 惜しい
+      - 惜しいですね
     toast: |-
       That's "So close!/What a waste."
       Use it when something nearly succeeded or feels wasteful.

@@ -612,15 +612,16 @@
 - id: g-17-contacts
   prompt: contact lenses
   answers:
-    - コンタクト（レンズ）
+    - コンタクト
+    - コンタクトレンズ
   hint: kontakuto (renzu) - often shortened to コンタクト; レンズ is optional in writing
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: コンタクト
+  - answer: コンタクトレン
     toast: |-
-      That’s the shortened form.
-      The prompt expects the full expression with the optional part in parentheses.
+      That's incomplete.
+      Make sure to include the full word if writing the long form.
   - answer: メガネ
     toast: |-
       That’s "glasses".

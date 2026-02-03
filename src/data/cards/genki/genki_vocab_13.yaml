@@ -993,20 +993,27 @@
 - id: g-13-dame
   prompt: no good
   answers:
-    - だめ（な）
+    - だめ
+    - だめな
   hint: dame (na) - used to say something is not allowed / not OK (e.g., それはだめ！)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 無理（な）
+  - answers:
+      - 無理
+      - 無理な
     toast: |-
       That's "impossible / unreasonable".
       Used when something can't be done or is too much, not simply "not OK."
-  - answer: 下手（な）
+  - answers:
+      - 下手
+      - 下手な
     toast: |-
       That's "bad at (a skill)".
       It describes lack of ability, not that something is forbidden or unacceptable.
-  - answer: 駄目（な）
+  - answers:
+      - 駄目
+      - 駄目な
     toast: |-
       That's the kanji spelling.
       The prompt expects the kana form shown in the lesson.

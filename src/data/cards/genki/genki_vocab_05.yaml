@@ -364,16 +364,21 @@
 - id: g-05-kirei
   prompt: beautiful; clean
   answers:
-    - きれい（な）
+    - きれい
+    - きれいな
   hint: 'kirei (na) - な-adjective (add な before a noun: きれいなへや)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 奇麗（な）
+  - answers:
+      - 奇麗
+      - 奇麗な
     toast: |-
       That's the kanji spelling!
       The prompt expects the kana form, which is commonly used.
-  - answer: きらい（な）
+  - answers:
+      - きらい
+      - きらいな
     toast: |-
       That's "disliked"!
       Watch the vowel length: れ vs ら changes the meaning.
@@ -914,13 +919,16 @@
 - id: g-05-nigi
   prompt: lively
   answers:
-    - にぎやか（な）
+    - にぎやか
+    - にぎやかな
   hint: nigiyaka(na) - used with な before a noun (e.g., にぎやかな町). Often describes a
     lively/noisy atmosphere.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: しずか（な）
+  - answers:
+      - しずか
+      - しずかな
     toast: |-
       That's "quiet" (opposite meaning).
       Used for calm, not lively.
@@ -928,9 +936,11 @@
     toast: |-
       That's the adverb form.
       It modifies a verb (e.g., にぎやかに話す), not a noun.
-  - answer: げんき（な）
+  - answers:
+      - げんき
+      - げんきな
     toast: |-
-      That's "healthy/energetic" (about a person’s condition).
+      That's "healthy/energetic" (about a person's condition).
       This prompt is about a lively atmosphere or place.
 - id: g-05-nomimo
   prompt: drink

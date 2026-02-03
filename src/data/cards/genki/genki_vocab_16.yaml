@@ -144,17 +144,22 @@
 - id: g-16-ekiin
   prompt: station attendant
   answers:
-    - 駅員（さん）
+    - 駅員
+    - 駅員さん
   hint: ekiin (san) - polite way to address a station staff member; さん is optional
     depending on context
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 駅長（さん）
+  - answers:
+      - 駅長
+      - 駅長さん
     toast: |-
       That's the station master (chief).
       It refers to the person in charge of the station, not general staff.
-  - answer: 店員（さん）
+  - answers:
+      - 店員
+      - 店員さん
     toast: |-
       That's a shop clerk.
       Used for store employees, not train stations.

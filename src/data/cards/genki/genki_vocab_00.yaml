@@ -122,7 +122,8 @@
 - id: g-00-okaeri
   prompt: Welcome home.
   answers:
-    - おかえり（なさい）
+    - おかえり
+    - おかえりなさい
   hint: okaeri (nasai) - said to someone returning home; 「なさい」 makes it more polite
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -135,7 +136,9 @@
     toast: |-
       That's a shop/staff welcome phrase.
       This prompt is used at home to greet someone returning.
-  - answer: おやすみ（なさい）
+  - answers:
+      - おやすみ
+      - おやすみなさい
     toast: |-
       That's said before going to sleep.
       Different situation and meaning.
@@ -182,7 +185,8 @@
 - id: g-00-oyasumi
   prompt: Good night.
   answers:
-    - おやすみ（なさい）
+    - おやすみ
+    - おやすみなさい
   hint: 'oyasumi (nasai) — casual: おやすみ / polite: おやすみなさい (used when going to sleep)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -195,14 +199,17 @@
     toast: |-
       That means "goodbye."
       It's for parting, not a bedtime expression.
-  - answer: おはよう（ございます）
+  - answers:
+      - おはよう
+      - おはようございます
     toast: |-
       That means "good morning."
       It's used after waking up, not before sleeping.
 - id: g-00-gochisou
   prompt: Thank you for the meal. (after eating)
   answers:
-    - ごちそうさま（でした）
+    - ごちそうさま
+    - ごちそうさまでした
   hint: gochisousama (deshita) — said after finishing a meal; polite past form is
     common in restaurants
   stage: -1
@@ -216,7 +223,9 @@
     toast: |-
       That's the full polite past form.
       If the prompt includes parentheses, the shorter form may be acceptable depending on context.
-  - answer: ありがとう（ございました）
+  - answers:
+      - ありがとう
+      - ありがとうございました
     toast: |-
       That's a general "thank you".
       The prompt is specifically the set phrase used after eating.

@@ -1255,25 +1255,32 @@
 - id: g-21-mecha
   prompt: messy; disorganized
   answers:
-    - めちゃくちゃ（な）
+    - めちゃくちゃ
+    - めちゃくちゃな
   hint: |-
     mechakucha (na) — often means “a total mess / all over the place.”
     Example: 部屋がめちゃくちゃだ。
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: ぐちゃぐちゃ（な）
+  - answers:
+      - ぐちゃぐちゃ
+      - ぐちゃぐちゃな
     toast: |-
-      That’s “mushy/messy” (like something squashed)!
+      That's "mushy/messy" (like something squashed)!
       Often used for physical messiness (e.g., food, muddy ground).
-  - answer: ばらばら（な）
+  - answers:
+      - ばらばら
+      - ばらばらな
     toast: |-
-      That’s “scattered / in pieces”!
+      That's "scattered / in pieces"!
       It suggests things are separated or not together, rather than chaotic.
-  - answer: めちゃめちゃ（な）
+  - answers:
+      - めちゃめちゃ
+      - めちゃめちゃな
     toast: |-
-      That’s “extremely / terribly” or “in a terrible state”!
-      It’s often about intensity, not specifically “disorganized.”
+      That's "extremely / terribly" or "in a terrible state"!
+      It's often about intensity, not specifically "disorganized."
 - id: g-21-metta
   prompt: seldom (rarely; hardly ever)
   answers:
