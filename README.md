@@ -43,6 +43,8 @@ https://lexa-b.github.io/MojiDoodle/
 - The hint below the prompt shows expected stroke count
 - Tap the undo button (⌫) to remove your last stroke
 - For multi-character words: write vertically (top to bottom), leave visible gaps between characters
+- Small kana (っ, ゃ, ゅ, ょ) are accepted even if recognized as their big counterparts
+- Some cards accept multiple answers (e.g., kanji or hiragana)
 
 ### Progression System
 

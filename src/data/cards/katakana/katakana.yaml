@@ -1,939 +1,1160 @@
 - id: k-a
   prompt: "A (Katakana)"
-  answer: "ア"
+  answers:
+    - "ア"
   hint: "2 strokes, angular"
   strokeCount: 2
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "あ"
+    - answers:
+        - "あ"
       toast: "That's hiragana!\nThe prompt asks for katakana, which is angular."
-    - answer: "マ"
+    - answers:
+        - "マ"
       toast: "That's \"MA\"!\nSimilar angle, but different structure."
 
 - id: k-i
   prompt: "I (Katakana)"
-  answer: "イ"
+  answers:
+    - "イ"
   hint: "2 strokes"
   strokeCount: 2
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "い"
+    - answers:
+        - "い"
       toast: "That's hiragana!\nThe prompt asks for katakana, which is angular."
 
 - id: k-u
   prompt: "U (Katakana)"
-  answer: "ウ"
+  answers:
+    - "ウ"
   hint: "3 strokes"
   strokeCount: 3
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "う"
+    - answers:
+        - "う"
       toast: "That's hiragana!\nThe prompt asks for katakana, which is angular."
-    - answer: "ワ"
+    - answers:
+        - "ワ"
       toast: "That's \"WA\"!\nThis one has no top line."
 
 - id: k-e
   prompt: "E (Katakana)"
-  answer: "エ"
+  answers:
+    - "エ"
   hint: "3 strokes, like I-beam"
   strokeCount: 3
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "え"
+    - answers:
+        - "え"
       toast: "That's hiragana!\nThe prompt asks for katakana, which is angular."
 
 - id: k-o
   prompt: "O (Katakana)"
-  answer: "オ"
+  answers:
+    - "オ"
   hint: "3 strokes"
   strokeCount: 3
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "お"
+    - answers:
+        - "お"
       toast: "That's hiragana!\nThe prompt asks for katakana, which is angular."
-    - answer: "ホ"
+    - answers:
+        - "ホ"
       toast: "That's \"HO\"!\nThis one has an extra vertical stroke splitting the bottom."
 
 - id: k-ka
   prompt: "Ka (Katakana)"
-  answer: "カ"
+  answers:
+    - "カ"
   hint: "2 strokes, angular"
   strokeCount: 2
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "か"
+    - answers:
+        - "か"
       toast: "That's hiragana!\nThe prompt asks for katakana, which is angular."
-    - answer: "ガ"
+    - answers:
+        - "ガ"
       toast: "That's \"GA\"!\nThis one has dakuten (゛) marks."
 
 - id: k-ki
   prompt: "Ki (Katakana)"
-  answer: "キ"
+  answers:
+    - "キ"
   hint: "3 strokes"
   strokeCount: 3
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "き"
+    - answers:
+        - "き"
       toast: "That's hiragana!\nThe prompt asks for katakana, which is angular."
-    - answer: "ギ"
+    - answers:
+        - "ギ"
       toast: "That's \"Gi\" with dakuten!\nThe prompt asks for \"Ki\" without the marks."
 
 - id: k-ku
   prompt: "Ku (Katakana)"
-  answer: "ク"
+  answers:
+    - "ク"
   hint: "2 strokes"
   strokeCount: 2
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "く"
+    - answers:
+        - "く"
       toast: "That's hiragana!\nThe prompt asks for katakana, which is angular."
-    - answer: "グ"
+    - answers:
+        - "グ"
       toast: "That's \"Gu\" with dakuten!\nThe prompt asks for \"Ku\" without the marks."
-    - answer: "タ"
+    - answers:
+        - "タ"
       toast: "That's \"Ta\"!\nThis one has an extra stroke."
 
 - id: k-ke
   prompt: "Ke (Katakana)"
-  answer: "ケ"
+  answers:
+    - "ケ"
   hint: "3 strokes"
   strokeCount: 3
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "け"
+    - answers:
+        - "け"
       toast: "That's hiragana!\nThe prompt asks for katakana, which is angular."
-    - answer: "ゲ"
+    - answers:
+        - "ゲ"
       toast: "That's \"Ge\" with dakuten!\nThe prompt asks for \"Ke\" without the marks."
 
 - id: k-ko
   prompt: "Ko (Katakana)"
-  answer: "コ"
+  answers:
+    - "コ"
   hint: "2 strokes"
   strokeCount: 2
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "こ"
+    - answers:
+        - "こ"
       toast: "That's hiragana!\nThe prompt asks for katakana, which is angular."
-    - answer: "ゴ"
+    - answers:
+        - "ゴ"
       toast: "That's \"Go\" with dakuten!\nThe prompt asks for \"Ko\" without the marks."
 
 - id: k-sa
   prompt: "Sa (Katakana)"
-  answer: "サ"
+  answers:
+    - "サ"
   hint: "3 strokes"
   strokeCount: 3
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "さ"
+    - answers:
+        - "さ"
       toast: "That's hiragana!\nThe prompt asks for katakana, which is angular."
-    - answer: "ザ"
+    - answers:
+        - "ザ"
       toast: "That's \"Za\" with dakuten!\nThe prompt asks for \"Sa\" without the marks."
-    - answer: "セ"
+    - answers:
+        - "セ"
       toast: "That's \"Se\"!\nThis one has a different shape."
 
 - id: k-shi
   prompt: "Shi (Katakana)"
-  answer: "シ"
+  answers:
+    - "シ"
   hint: "3 strokes"
   strokeCount: 3
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "し"
+    - answers:
+        - "し"
       toast: "That's hiragana!\nThe prompt asks for katakana, which is angular."
-    - answer: "ジ"
+    - answers:
+        - "ジ"
       toast: "That's \"Ji\" with dakuten!\nThe prompt asks for \"Shi\" without the marks."
-    - answer: "ツ"
+    - answers:
+        - "ツ"
       toast: "That's \"Tsu\"!\nThe strokes angle differently."
 
 - id: k-su
   prompt: "Su (Katakana)"
-  answer: "ス"
+  answers:
+    - "ス"
   hint: "2 strokes"
   strokeCount: 2
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "す"
+    - answers:
+        - "す"
       toast: "That's hiragana!\nThe prompt asks for katakana, which is angular."
-    - answer: "ズ"
+    - answers:
+        - "ズ"
       toast: "That's \"Zu\" with dakuten!\nThe prompt asks for \"Su\" without the marks."
 
 - id: k-se
   prompt: "Se (Katakana)"
-  answer: "セ"
+  answers:
+    - "セ"
   hint: "2 strokes"
   strokeCount: 2
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "せ"
+    - answers:
+        - "せ"
       toast: "That's hiragana!\nThe prompt asks for katakana, which is angular."
-    - answer: "ゼ"
+    - answers:
+        - "ゼ"
       toast: "That's \"Ze\" with dakuten!\nThe prompt asks for \"Se\" without the marks."
-    - answer: "サ"
+    - answers:
+        - "サ"
       toast: "That's \"Sa\"!\nThis one has a different shape."
 
 - id: k-so
   prompt: "So (Katakana)"
-  answer: "ソ"
+  answers:
+    - "ソ"
   hint: "2 strokes"
   strokeCount: 2
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "そ"
+    - answers:
+        - "そ"
       toast: "That's hiragana!\nThe prompt asks for katakana, which is angular."
-    - answer: "ゾ"
+    - answers:
+        - "ゾ"
       toast: "That's \"Zo\" with dakuten!\nThe prompt asks for \"So\" without the marks."
-    - answer: "ン"
+    - answers:
+        - "ン"
       toast: "That's \"N\"!\nThe strokes angle differently."
 
 - id: k-ta
   prompt: "Ta (Katakana)"
-  answer: "タ"
+  answers:
+    - "タ"
   hint: "3 strokes"
   strokeCount: 3
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "た"
+    - answers:
+        - "た"
       toast: "That's hiragana!\nThe prompt asks for katakana, which is angular."
-    - answer: "ダ"
+    - answers:
+        - "ダ"
       toast: "That's \"Da\" with dakuten!\nThe prompt asks for \"Ta\" without the marks."
-    - answer: "ク"
+    - answers:
+        - "ク"
       toast: "That's \"Ku\"!\nThis one has fewer strokes."
 
 - id: k-chi
   prompt: "Chi (Katakana)"
-  answer: "チ"
+  answers:
+    - "チ"
   hint: "3 strokes"
   strokeCount: 3
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "ち"
+    - answers:
+        - "ち"
       toast: "That's hiragana!\nThe prompt asks for katakana, which is angular."
-    - answer: "ヂ"
+    - answers:
+        - "ヂ"
       toast: "That's \"Di\" with dakuten!\nThe prompt asks for \"Chi\" without the marks."
-    - answer: "テ"
+    - answers:
+        - "テ"
       toast: "That's \"Te\"!\nThis one has a different bottom."
 
 - id: k-tsu
   prompt: "Tsu (Katakana)"
-  answer: "ツ"
+  answers:
+    - "ツ"
   hint: "3 strokes"
   strokeCount: 3
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "つ"
+    - answers:
+        - "つ"
       toast: "That's hiragana!\nThe prompt asks for katakana, which is angular."
-    - answer: "ヅ"
+    - answers:
+        - "ヅ"
       toast: "That's \"Du\" with dakuten!\nThe prompt asks for \"Tsu\" without the marks."
-    - answer: "シ"
+    - answers:
+        - "シ"
       toast: "That's \"Shi\"!\nThe strokes angle differently."
 
 - id: k-te
   prompt: "Te (Katakana)"
-  answer: "テ"
+  answers:
+    - "テ"
   hint: "3 strokes"
   strokeCount: 3
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "て"
+    - answers:
+        - "て"
       toast: "That's hiragana!\nThe prompt asks for katakana, which is angular."
-    - answer: "デ"
+    - answers:
+        - "デ"
       toast: "That's \"De\" with dakuten!\nThe prompt asks for \"Te\" without the marks."
 
 - id: k-to
   prompt: "To (Katakana)"
-  answer: "ト"
+  answers:
+    - "ト"
   hint: "2 strokes"
   strokeCount: 2
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "と"
+    - answers:
+        - "と"
       toast: "That's hiragana!\nThe prompt asks for katakana, which is angular."
-    - answer: "ド"
+    - answers:
+        - "ド"
       toast: "That's \"Do\" with dakuten!\nThe prompt asks for \"To\" without the marks."
 
 - id: k-na
   prompt: "Na (Katakana)"
-  answer: "ナ"
+  answers:
+    - "ナ"
   hint: "2 strokes"
   strokeCount: 2
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "な"
+    - answers:
+        - "な"
       toast: "That's hiragana!\nThe prompt asks for katakana, which is angular."
-    - answer: "メ"
+    - answers:
+        - "メ"
       toast: "That's \"ME\"!\nThis one crosses differently."
 
 - id: k-ni
   prompt: "Ni (Katakana)"
-  answer: "ニ"
+  answers:
+    - "ニ"
   hint: "2 strokes"
   strokeCount: 2
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "に"
+    - answers:
+        - "に"
       toast: "That's hiragana!\nThe prompt asks for katakana, which is angular."
 
 - id: k-nu
   prompt: "Nu (Katakana)"
-  answer: "ヌ"
+  answers:
+    - "ヌ"
   hint: "2 strokes"
   strokeCount: 2
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "ぬ"
+    - answers:
+        - "ぬ"
       toast: "That's hiragana!\nThe prompt asks for katakana, which is angular."
 
 - id: k-ne
   prompt: "Ne (Katakana)"
-  answer: "ネ"
+  answers:
+    - "ネ"
   hint: "4 strokes"
   strokeCount: 4
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "ね"
+    - answers:
+        - "ね"
       toast: "That's hiragana!\nThe prompt asks for katakana, which is angular."
 
 - id: k-no
   prompt: "No (Katakana)"
-  answer: "ノ"
+  answers:
+    - "ノ"
   hint: "1 stroke"
   strokeCount: 1
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "の"
+    - answers:
+        - "の"
       toast: "That's hiragana!\nThe prompt asks for katakana, which is angular."
 
 - id: k-ha
   prompt: "Ha (Katakana)"
-  answer: "ハ"
+  answers:
+    - "ハ"
   hint: "2 strokes"
   strokeCount: 2
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "は"
+    - answers:
+        - "は"
       toast: "That's hiragana!\nThe prompt asks for katakana, which is angular."
-    - answer: "バ"
+    - answers:
+        - "バ"
       toast: "That's \"Ba\" with dakuten!\nThe prompt asks for \"Ha\" without the marks."
-    - answer: "パ"
+    - answers:
+        - "パ"
       toast: "That's \"Pa\" with handakuten!\nThe prompt asks for \"Ha\" without the circle."
 
 - id: k-hi
   prompt: "Hi (Katakana)"
-  answer: "ヒ"
+  answers:
+    - "ヒ"
   hint: "2 strokes"
   strokeCount: 2
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "ひ"
+    - answers:
+        - "ひ"
       toast: "That's hiragana!\nThe prompt asks for katakana, which is angular."
-    - answer: "ビ"
+    - answers:
+        - "ビ"
       toast: "That's \"Bi\" with dakuten!\nThe prompt asks for \"Hi\" without the marks."
-    - answer: "ピ"
+    - answers:
+        - "ピ"
       toast: "That's \"Pi\" with handakuten!\nThe prompt asks for \"Hi\" without the circle."
 
 - id: k-fu
   prompt: "Fu (Katakana)"
-  answer: "フ"
+  answers:
+    - "フ"
   hint: "1 stroke"
   strokeCount: 1
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "ふ"
+    - answers:
+        - "ふ"
       toast: "That's hiragana!\nThe prompt asks for katakana, which is angular."
-    - answer: "ブ"
+    - answers:
+        - "ブ"
       toast: "That's \"Bu\" with dakuten!\nThe prompt asks for \"Fu\" without the marks."
-    - answer: "プ"
+    - answers:
+        - "プ"
       toast: "That's \"Pu\" with handakuten!\nThe prompt asks for \"Fu\" without the circle."
 
 - id: k-he
   prompt: "He (Katakana)"
-  answer: "ヘ"
+  answers:
+    - "ヘ"
   hint: "1 stroke"
   strokeCount: 1
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "へ"
+    - answers:
+        - "へ"
       toast: "That's hiragana!\nActually they look the same, but context matters!"
-    - answer: "ベ"
+    - answers:
+        - "ベ"
       toast: "That's \"Be\" with dakuten!\nThe prompt asks for \"He\" without the marks."
-    - answer: "ペ"
+    - answers:
+        - "ペ"
       toast: "That's \"Pe\" with handakuten!\nThe prompt asks for \"He\" without the circle."
 
 - id: k-ho
   prompt: "Ho (Katakana)"
-  answer: "ホ"
+  answers:
+    - "ホ"
   hint: "4 strokes"
   strokeCount: 4
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "ほ"
+    - answers:
+        - "ほ"
       toast: "That's hiragana!\nThe prompt asks for katakana, which is angular."
-    - answer: "ボ"
+    - answers:
+        - "ボ"
       toast: "That's \"Bo\" with dakuten!\nThe prompt asks for \"Ho\" without the marks."
-    - answer: "ポ"
+    - answers:
+        - "ポ"
       toast: "That's \"Po\" with handakuten!\nThe prompt asks for \"Ho\" without the circle."
-    - answer: "オ"
+    - answers:
+        - "オ"
       toast: "That's \"O\"!\nThis one has no middle vertical stroke."
 
 - id: k-ma
   prompt: "Ma (Katakana)"
-  answer: "マ"
+  answers:
+    - "マ"
   hint: "2 strokes"
   strokeCount: 2
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "ま"
+    - answers:
+        - "ま"
       toast: "That's hiragana!\nThe prompt asks for katakana, which is angular."
-    - answer: "ア"
+    - answers:
+        - "ア"
       toast: "That's \"A\"!\nThis one has a different angle."
 
 - id: k-mi
   prompt: "Mi (Katakana)"
-  answer: "ミ"
+  answers:
+    - "ミ"
   hint: "3 strokes"
   strokeCount: 3
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "み"
+    - answers:
+        - "み"
       toast: "That's hiragana!\nThe prompt asks for katakana, which is angular."
 
 - id: k-mu
   prompt: "Mu (Katakana)"
-  answer: "ム"
+  answers:
+    - "ム"
   hint: "2 strokes"
   strokeCount: 2
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "む"
+    - answers:
+        - "む"
       toast: "That's hiragana!\nThe prompt asks for katakana, which is angular."
 
 - id: k-me
   prompt: "Me (Katakana)"
-  answer: "メ"
+  answers:
+    - "メ"
   hint: "2 strokes"
   strokeCount: 2
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "め"
+    - answers:
+        - "め"
       toast: "That's hiragana!\nThe prompt asks for katakana, which is angular."
-    - answer: "ナ"
+    - answers:
+        - "ナ"
       toast: "That's \"NA\"!\nThis one crosses differently."
 
 - id: k-mo
   prompt: "Mo (Katakana)"
-  answer: "モ"
+  answers:
+    - "モ"
   hint: "3 strokes"
   strokeCount: 3
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "も"
+    - answers:
+        - "も"
       toast: "That's hiragana!\nThe prompt asks for katakana, which is angular."
 
 - id: k-ya
   prompt: "Ya (Katakana)"
-  answer: "ヤ"
+  answers:
+    - "ヤ"
   hint: "2 strokes"
   strokeCount: 2
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "や"
+    - answers:
+        - "や"
       toast: "That's hiragana!\nThe prompt asks for katakana, which is angular."
 
 - id: k-yu
   prompt: "Yu (Katakana)"
-  answer: "ユ"
+  answers:
+    - "ユ"
   hint: "2 strokes"
   strokeCount: 2
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "ゆ"
+    - answers:
+        - "ゆ"
       toast: "That's hiragana!\nThe prompt asks for katakana, which is angular."
 
 - id: k-yo
   prompt: "Yo (Katakana)"
-  answer: "ヨ"
+  answers:
+    - "ヨ"
   hint: "3 strokes"
   strokeCount: 3
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "よ"
+    - answers:
+        - "よ"
       toast: "That's hiragana!\nThe prompt asks for katakana, which is angular."
 
 - id: k-ra
   prompt: "Ra (Katakana)"
-  answer: "ラ"
+  answers:
+    - "ラ"
   hint: "2 strokes"
   strokeCount: 2
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "ら"
+    - answers:
+        - "ら"
       toast: "That's hiragana!\nThe prompt asks for katakana, which is angular."
 
 - id: k-ri
   prompt: "Ri (Katakana)"
-  answer: "リ"
+  answers:
+    - "リ"
   hint: "2 strokes"
   strokeCount: 2
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "り"
+    - answers:
+        - "り"
       toast: "That's hiragana!\nThe prompt asks for katakana, which is angular."
 
 - id: k-ru
   prompt: "Ru (Katakana)"
-  answer: "ル"
+  answers:
+    - "ル"
   hint: "2 strokes"
   strokeCount: 2
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "る"
+    - answers:
+        - "る"
       toast: "That's hiragana!\nThe prompt asks for katakana, which is angular."
 
 - id: k-re
   prompt: "Re (Katakana)"
-  answer: "レ"
+  answers:
+    - "レ"
   hint: "1 stroke"
   strokeCount: 1
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "れ"
+    - answers:
+        - "れ"
       toast: "That's hiragana!\nThe prompt asks for katakana, which is angular."
 
 - id: k-ro
   prompt: "Ro (Katakana)"
-  answer: "ロ"
+  answers:
+    - "ロ"
   hint: "3 strokes"
   strokeCount: 3
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "ろ"
+    - answers:
+        - "ろ"
       toast: "That's hiragana!\nThe prompt asks for katakana, which is angular."
 
 - id: k-wa
   prompt: "Wa (Katakana)"
-  answer: "ワ"
+  answers:
+    - "ワ"
   hint: "2 strokes"
   strokeCount: 2
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "わ"
+    - answers:
+        - "わ"
       toast: "That's hiragana!\nThe prompt asks for katakana, which is angular."
-    - answer: "ウ"
+    - answers:
+        - "ウ"
       toast: "That's \"U\"!\nThis one has a top stroke."
 
 - id: k-wo
   prompt: "Wo (Katakana)"
-  answer: "ヲ"
+  answers:
+    - "ヲ"
   hint: "3 strokes"
   strokeCount: 3
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "を"
+    - answers:
+        - "を"
       toast: "That's hiragana!\nThe prompt asks for katakana, which is angular."
 
 - id: k-n
   prompt: "N (Katakana)"
-  answer: "ン"
+  answers:
+    - "ン"
   hint: "2 strokes"
   strokeCount: 2
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "ん"
+    - answers:
+        - "ん"
       toast: "That's hiragana!\nThe prompt asks for katakana, which is angular."
-    - answer: "ソ"
+    - answers:
+        - "ソ"
       toast: "That's \"SO\"!\nThe strokes angle differently."
 
 - id: k-ga
   prompt: "Ga (Katakana)"
-  answer: "ガ"
+  answers:
+    - "ガ"
   hint: "2 strokes + dakuten"
   strokeCount: 2
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "が"
+    - answers:
+        - "が"
       toast: "That's hiragana!\nThe prompt asks for katakana, which is angular."
-    - answer: "カ"
+    - answers:
+        - "カ"
       toast: "That's \"Ka\" without dakuten!\nAdd the two small marks (゛) for \"Ga\"."
 
 - id: k-gi
   prompt: "Gi (Katakana)"
-  answer: "ギ"
+  answers:
+    - "ギ"
   hint: "3 strokes + dakuten"
   strokeCount: 3
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "ぎ"
+    - answers:
+        - "ぎ"
       toast: "That's hiragana!\nThe prompt asks for katakana, which is angular."
-    - answer: "キ"
+    - answers:
+        - "キ"
       toast: "That's \"Ki\" without dakuten!\nAdd the two small marks (゛) for \"Gi\"."
 
 - id: k-gu
   prompt: "Gu (Katakana)"
-  answer: "グ"
+  answers:
+    - "グ"
   hint: "2 strokes + dakuten"
   strokeCount: 2
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "ぐ"
+    - answers:
+        - "ぐ"
       toast: "That's hiragana!\nThe prompt asks for katakana, which is angular."
-    - answer: "ク"
+    - answers:
+        - "ク"
       toast: "That's \"Ku\" without dakuten!\nAdd the two small marks (゛) for \"Gu\"."
 
 - id: k-ge
   prompt: "Ge (Katakana)"
-  answer: "ゲ"
+  answers:
+    - "ゲ"
   hint: "3 strokes + dakuten"
   strokeCount: 3
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "げ"
+    - answers:
+        - "げ"
       toast: "That's hiragana!\nThe prompt asks for katakana, which is angular."
-    - answer: "ケ"
+    - answers:
+        - "ケ"
       toast: "That's \"Ke\" without dakuten!\nAdd the two small marks (゛) for \"Ge\"."
 
 - id: k-go
   prompt: "Go (Katakana)"
-  answer: "ゴ"
+  answers:
+    - "ゴ"
   hint: "2 strokes + dakuten"
   strokeCount: 2
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "ご"
+    - answers:
+        - "ご"
       toast: "That's hiragana!\nThe prompt asks for katakana, which is angular."
-    - answer: "コ"
+    - answers:
+        - "コ"
       toast: "That's \"Ko\" without dakuten!\nAdd the two small marks (゛) for \"Go\"."
 
 - id: k-za
   prompt: "Za (Katakana)"
-  answer: "ザ"
+  answers:
+    - "ザ"
   hint: "3 strokes + dakuten"
   strokeCount: 3
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "ざ"
+    - answers:
+        - "ざ"
       toast: "That's hiragana!\nThe prompt asks for katakana, which is angular."
-    - answer: "サ"
+    - answers:
+        - "サ"
       toast: "That's \"Sa\" without dakuten!\nAdd the two small marks (゛) for \"Za\"."
 
 - id: k-ji
   prompt: "Ji (Katakana)"
-  answer: "ジ"
+  answers:
+    - "ジ"
   hint: "3 strokes + dakuten"
   strokeCount: 3
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "じ"
+    - answers:
+        - "じ"
       toast: "That's hiragana!\nThe prompt asks for katakana, which is angular."
-    - answer: "シ"
+    - answers:
+        - "シ"
       toast: "That's \"Shi\" without dakuten!\nAdd the two small marks (゛) for \"Ji\"."
 
 - id: k-zu
   prompt: "Zu (Katakana)"
-  answer: "ズ"
+  answers:
+    - "ズ"
   hint: "2 strokes + dakuten"
   strokeCount: 2
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "ず"
+    - answers:
+        - "ず"
       toast: "That's hiragana!\nThe prompt asks for katakana, which is angular."
-    - answer: "ス"
+    - answers:
+        - "ス"
       toast: "That's \"Su\" without dakuten!\nAdd the two small marks (゛) for \"Zu\"."
 
 - id: k-ze
   prompt: "Ze (Katakana)"
-  answer: "ゼ"
+  answers:
+    - "ゼ"
   hint: "2 strokes + dakuten"
   strokeCount: 2
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "ぜ"
+    - answers:
+        - "ぜ"
       toast: "That's hiragana!\nThe prompt asks for katakana, which is angular."
-    - answer: "セ"
+    - answers:
+        - "セ"
       toast: "That's \"Se\" without dakuten!\nAdd the two small marks (゛) for \"Ze\"."
 
 - id: k-zo
   prompt: "Zo (Katakana)"
-  answer: "ゾ"
+  answers:
+    - "ゾ"
   hint: "2 strokes + dakuten"
   strokeCount: 2
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "ぞ"
+    - answers:
+        - "ぞ"
       toast: "That's hiragana!\nThe prompt asks for katakana, which is angular."
-    - answer: "ソ"
+    - answers:
+        - "ソ"
       toast: "That's \"So\" without dakuten!\nAdd the two small marks (゛) for \"Zo\"."
 
 - id: k-da
   prompt: "Da (Katakana)"
-  answer: "ダ"
+  answers:
+    - "ダ"
   hint: "3 strokes + dakuten"
   strokeCount: 3
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "だ"
+    - answers:
+        - "だ"
       toast: "That's hiragana!\nThe prompt asks for katakana, which is angular."
-    - answer: "タ"
+    - answers:
+        - "タ"
       toast: "That's \"Ta\" without dakuten!\nAdd the two small marks (゛) for \"Da\"."
 
 - id: k-di
   prompt: "Di (Katakana)"
-  answer: "ヂ"
+  answers:
+    - "ヂ"
   hint: "3 strokes + dakuten"
   strokeCount: 3
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "ぢ"
+    - answers:
+        - "ぢ"
       toast: "That's hiragana!\nThe prompt asks for katakana, which is angular."
-    - answer: "チ"
+    - answers:
+        - "チ"
       toast: "That's \"Chi\" without dakuten!\nAdd the two small marks (゛) for \"Di\"."
-    - answer: "ジ"
+    - answers:
+        - "ジ"
       toast: "That's \"Ji\" (from Shi)!\nThis one comes from \"Chi\" instead."
 
 - id: k-du
   prompt: "Du (Katakana)"
-  answer: "ヅ"
+  answers:
+    - "ヅ"
   hint: "3 strokes + dakuten"
   strokeCount: 3
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "づ"
+    - answers:
+        - "づ"
       toast: "That's hiragana!\nThe prompt asks for katakana, which is angular."
-    - answer: "ツ"
+    - answers:
+        - "ツ"
       toast: "That's \"Tsu\" without dakuten!\nAdd the two small marks (゛) for \"Du\"."
-    - answer: "ズ"
+    - answers:
+        - "ズ"
       toast: "That's \"Zu\" (from Su)!\nThis one comes from \"Tsu\" instead."
 
 - id: k-de
   prompt: "De (Katakana)"
-  answer: "デ"
+  answers:
+    - "デ"
   hint: "3 strokes + dakuten"
   strokeCount: 3
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "で"
+    - answers:
+        - "で"
       toast: "That's hiragana!\nThe prompt asks for katakana, which is angular."
-    - answer: "テ"
+    - answers:
+        - "テ"
       toast: "That's \"Te\" without dakuten!\nAdd the two small marks (゛) for \"De\"."
 
 - id: k-do
   prompt: "Do (Katakana)"
-  answer: "ド"
+  answers:
+    - "ド"
   hint: "2 strokes + dakuten"
   strokeCount: 2
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "ど"
+    - answers:
+        - "ど"
       toast: "That's hiragana!\nThe prompt asks for katakana, which is angular."
-    - answer: "ト"
+    - answers:
+        - "ト"
       toast: "That's \"To\" without dakuten!\nAdd the two small marks (゛) for \"Do\"."
 
 - id: k-ba
   prompt: "Ba (Katakana)"
-  answer: "バ"
+  answers:
+    - "バ"
   hint: "2 strokes + dakuten"
   strokeCount: 2
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "ば"
+    - answers:
+        - "ば"
       toast: "That's hiragana!\nThe prompt asks for katakana, which is angular."
-    - answer: "ハ"
+    - answers:
+        - "ハ"
       toast: "That's \"Ha\" without dakuten!\nAdd the two small marks (゛) for \"Ba\"."
-    - answer: "パ"
+    - answers:
+        - "パ"
       toast: "That's \"Pa\" with handakuten!\nUse two marks (゛) not a circle (゜)."
 
 - id: k-bi
   prompt: "Bi (Katakana)"
-  answer: "ビ"
+  answers:
+    - "ビ"
   hint: "2 strokes + dakuten"
   strokeCount: 2
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "び"
+    - answers:
+        - "び"
       toast: "That's hiragana!\nThe prompt asks for katakana, which is angular."
-    - answer: "ヒ"
+    - answers:
+        - "ヒ"
       toast: "That's \"Hi\" without dakuten!\nAdd the two small marks (゛) for \"Bi\"."
-    - answer: "ピ"
+    - answers:
+        - "ピ"
       toast: "That's \"Pi\" with handakuten!\nUse two marks (゛) not a circle (゜)."
 
 - id: k-bu
   prompt: "Bu (Katakana)"
-  answer: "ブ"
+  answers:
+    - "ブ"
   hint: "1 stroke + dakuten"
   strokeCount: 1
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "ぶ"
+    - answers:
+        - "ぶ"
       toast: "That's hiragana!\nThe prompt asks for katakana, which is angular."
-    - answer: "フ"
+    - answers:
+        - "フ"
       toast: "That's \"Fu\" without dakuten!\nAdd the two small marks (゛) for \"Bu\"."
-    - answer: "プ"
+    - answers:
+        - "プ"
       toast: "That's \"Pu\" with handakuten!\nUse two marks (゛) not a circle (゜)."
 
 - id: k-be
   prompt: "Be (Katakana)"
-  answer: "ベ"
+  answers:
+    - "ベ"
   hint: "1 stroke + dakuten"
   strokeCount: 1
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "べ"
+    - answers:
+        - "べ"
       toast: "That's hiragana!\nThe prompt asks for katakana, which is angular."
-    - answer: "ヘ"
+    - answers:
+        - "ヘ"
       toast: "That's \"He\" without dakuten!\nAdd the two small marks (゛) for \"Be\"."
-    - answer: "ペ"
+    - answers:
+        - "ペ"
       toast: "That's \"Pe\" with handakuten!\nUse two marks (゛) not a circle (゜)."
 
 - id: k-bo
   prompt: "Bo (Katakana)"
-  answer: "ボ"
+  answers:
+    - "ボ"
   hint: "4 strokes + dakuten"
   strokeCount: 4
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "ぼ"
+    - answers:
+        - "ぼ"
       toast: "That's hiragana!\nThe prompt asks for katakana, which is angular."
-    - answer: "ホ"
+    - answers:
+        - "ホ"
       toast: "That's \"Ho\" without dakuten!\nAdd the two small marks (゛) for \"Bo\"."
-    - answer: "ポ"
+    - answers:
+        - "ポ"
       toast: "That's \"Po\" with handakuten!\nUse two marks (゛) not a circle (゜)."
 
 - id: k-pa
   prompt: "Pa (Katakana)"
-  answer: "パ"
+  answers:
+    - "パ"
   hint: "2 strokes + handakuten"
   strokeCount: 2
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "ぱ"
+    - answers:
+        - "ぱ"
       toast: "That's hiragana!\nThe prompt asks for katakana, which is angular."
-    - answer: "ハ"
+    - answers:
+        - "ハ"
       toast: "That's \"Ha\" without handakuten!\nAdd the small circle (゜) for \"Pa\"."
-    - answer: "バ"
+    - answers:
+        - "バ"
       toast: "That's \"Ba\" with dakuten!\nUse a circle (゜) not two marks (゛)."
 
 - id: k-pi
   prompt: "Pi (Katakana)"
-  answer: "ピ"
+  answers:
+    - "ピ"
   hint: "2 strokes + handakuten"
   strokeCount: 2
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "ぴ"
+    - answers:
+        - "ぴ"
       toast: "That's hiragana!\nThe prompt asks for katakana, which is angular."
-    - answer: "ヒ"
+    - answers:
+        - "ヒ"
       toast: "That's \"Hi\" without handakuten!\nAdd the small circle (゜) for \"Pi\"."
-    - answer: "ビ"
+    - answers:
+        - "ビ"
       toast: "That's \"Bi\" with dakuten!\nUse a circle (゜) not two marks (゛)."
 
 - id: k-pu
   prompt: "Pu (Katakana)"
-  answer: "プ"
+  answers:
+    - "プ"
   hint: "1 stroke + handakuten"
   strokeCount: 1
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "ぷ"
+    - answers:
+        - "ぷ"
       toast: "That's hiragana!\nThe prompt asks for katakana, which is angular."
-    - answer: "フ"
+    - answers:
+        - "フ"
       toast: "That's \"Fu\" without handakuten!\nAdd the small circle (゜) for \"Pu\"."
-    - answer: "ブ"
+    - answers:
+        - "ブ"
       toast: "That's \"Bu\" with dakuten!\nUse a circle (゜) not two marks (゛)."
 
 - id: k-pe
   prompt: "Pe (Katakana)"
-  answer: "ペ"
+  answers:
+    - "ペ"
   hint: "1 stroke + handakuten"
   strokeCount: 1
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "ぺ"
+    - answers:
+        - "ぺ"
       toast: "That's hiragana!\nThe prompt asks for katakana, which is angular."
-    - answer: "ヘ"
+    - answers:
+        - "ヘ"
       toast: "That's \"He\" without handakuten!\nAdd the small circle (゜) for \"Pe\"."
-    - answer: "ベ"
+    - answers:
+        - "ベ"
       toast: "That's \"Be\" with dakuten!\nUse a circle (゜) not two marks (゛)."
 
 - id: k-po
   prompt: "Po (Katakana)"
-  answer: "ポ"
+  answers:
+    - "ポ"
   hint: "4 strokes + handakuten"
   strokeCount: 4
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "ぽ"
+    - answers:
+        - "ぽ"
       toast: "That's hiragana!\nThe prompt asks for katakana, which is angular."
-    - answer: "ホ"
+    - answers:
+        - "ホ"
       toast: "That's \"Ho\" without handakuten!\nAdd the small circle (゜) for \"Po\"."
-    - answer: "ボ"
+    - answers:
+        - "ボ"
       toast: "That's \"Bo\" with dakuten!\nUse a circle (゜) not two marks (゛)."
 

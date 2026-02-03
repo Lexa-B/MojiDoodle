@@ -1,6 +1,7 @@
 - id: g-21-anzen
   prompt: safe
-  answer: 安全
+  answers:
+    - 安全
   hint: anzen (na-adj.) — use とても安全な所 (a very safe place)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -19,7 +20,8 @@
       This is a noun used for discussing safety level (often technical).
 - id: g-21-monku-iu
   prompt: to complain
-  answer: 言う（文句を）
+  answers:
+    - 言う（文句を）
   hint: iu (monku o) — use when you “say” complaints/criticisms (文句を言う).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -38,7 +40,8 @@
       It’s closer to complaining about circumstances than direct criticism.
 - id: g-21-ijime
   prompt: to bully
-  answer: いじめる
+  answers:
+    - いじめる
   hint: 'ijimeru — ru-verb (〜ます: いじめます). Often used with を: 人をいじめる = to bully someone.'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -57,7 +60,8 @@
       Check whether the prompt wants an action (to do).
 - id: g-21-issho
   prompt: very hard
-  answer: 一生懸命
+  answers:
+    - 一生懸命
   hint: isshōkenmei — “with all one’s might; as hard as possible” (often with がんばる／勉強する)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -76,7 +80,8 @@
       It has a stronger nuance of urgency than simply working very hard.
 - id: g-21-uranai
   prompt: fortune-telling
-  answer: 占い
+  answers:
+    - 占い
   hint: uranai — telling fortunes (e.g., 手相占い palm reading, 星占い horoscope)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -95,7 +100,8 @@
       Check if the prompt expects a general noun rather than a specific method.
 - id: g-21-ooku
   prompt: many ...
-  answer: 多くの～
+  answers:
+    - 多くの～
   hint: 'ookuno~ (often used before a noun: 多くの人 = many people)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -114,7 +120,8 @@
       Watch the kanji: one refers to amount/number, not size.
 - id: g-21-oku
   prompt: to put; to lay; to place
-  answer: 置く
+  answers:
+    - 置く
   hint: |-
     oku (to place something and leave it there)
     Common: 机の上に本を置く (put a book on the desk)
@@ -135,7 +142,8 @@
       The prompt is the basic dictionary form.
 - id: g-21-okoru
   prompt: to occur; to happen
-  answer: 起こる
+  answers:
+    - 起こる
   hint: |-
     okoru (to occur/happen; events/accidents)
     Note: 「怒る」(okoru) means “to get angry” (different kanji).
@@ -156,7 +164,8 @@
       More literary; commonly used in reports and essays.
 - id: g-21-omamori
   prompt: charm (against evils); amulet
-  answer: お守り
+  answers:
+    - お守り
   hint: omamori — protective charm (often from a shrine/temple); written with 守 (to
     protect)
   stage: -1
@@ -176,7 +185,8 @@
       Different meaning: a gift you bring back from a trip.
 - id: g-21-ka
   prompt: mosquito
-  answer: 蚊
+  answers:
+    - 蚊
   hint: ka — the insect; left side is 虫 (insect radical). 10 strokes.
   strokeCount: 10
   stage: -1
@@ -196,7 +206,8 @@
       Similar left-side radical; make sure the right side matches the prompt’s word.
 - id: g-21-kaigi
   prompt: business meeting; conference
-  answer: 会議
+  answers:
+    - 会議
   hint: 'kaigi — 会(あ)う + 議(ぎ)論: a meeting for discussion; often used for work meetings
     (例: 会議を開く)'
   stage: -1
@@ -216,7 +227,8 @@
       A governing body, not a regular business meeting.
 - id: g-21-gas
   prompt: gasoline
-  answer: ガソリン
+  answers:
+    - ガソリン
   hint: gasorin (katakana loanword; often written ガソリンスタンド = gas station)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -235,7 +247,8 @@
       The prompt is just the substance, not the expense.
 - id: g-21-kayou
   prompt: to commute to
-  answer: 通う
+  answers:
+    - 通う
   hint: kayou — to go back and forth regularly (e.g., 学校に通う / 病院に通う)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -254,7 +267,8 @@
       The prompt is for the more general verb.
 - id: g-21-kankyo
   prompt: environment
-  answer: 環境
+  answers:
+    - 環境
   hint: kankyō — often used for living/working surroundings (e.g., 自然環境, 職場環境)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -273,7 +287,8 @@
       It refers to a dividing line, not the overall surroundings.
 - id: g-21-kigae
   prompt: to change clothes
-  answer: 着替える
+  answers:
+    - 着替える
   hint: kigaeru (ru-verb) — 着＝to wear/put on, 替＝to replace; often used for changing
     outfits/clothes
   stage: -1
@@ -293,7 +308,8 @@
       It's not specifically about changing what you're wearing.
 - id: g-21-kizuku
   prompt: to notice
-  answer: 気が付く
+  answers:
+    - 気が付く
   hint: 'kigatsuku — to realize/notice something (often suddenly). Common pattern:
     ～に気が付く'
   stage: -1
@@ -313,7 +329,8 @@
       The prompt is about noticing/realizing something has happened or is there.
 - id: g-21-kinisuru
   prompt: to worry
-  answer: 気にする
+  answers:
+    - 気にする
   hint: 'ki ni suru — to mind/be bothered by something (often small details); pattern:
     Xを気にする'
   stage: -1
@@ -333,7 +350,8 @@
       Different meaning even though it starts the same.
 - id: g-21-kurabe
   prompt: to compare
-  answer: 比べる
+  answers:
+    - 比べる
   hint: kuraberu — compare A and B (AとBを比べる).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -352,7 +370,8 @@
       The prompt asks for the basic verb form.
 - id: g-21-keisatsu
   prompt: police; police station
-  answer: 警察
+  answers:
+    - 警察
   hint: keisatsu — 警(けい) + 察(さつ). Often means “police” in general; use 交番 for a local
     police box.
   stage: -1
@@ -372,7 +391,8 @@
       The prompt is not specifically a person.
 - id: g-21-keru
   prompt: to kick
-  answer: ける
+  answers:
+    - ける
   hint: 'keru (to kick). Often written 蹴る; casual form: けって (kette)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -391,7 +411,8 @@
       The prompt expects hiragana, which looks rounder and more flowing.
 - id: g-21-kojo
   prompt: factory
-  answer: 工場
+  answers:
+    - 工場
   hint: kōjō (koujou) - place where things are made; 工=craft/work, 場=place
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -410,7 +431,8 @@
       The first kanji means "city" (city/town), not "craft/work".
 - id: g-21-koro
   prompt: time of...; when... (around the time that...)
-  answer: ～ころ
+  answers:
+    - ～ころ
   hint: |-
     koro — suffix meaning “around the time of/when.”
     Attach to a time word: 3時ころ (around 3 o’clock), 子どものころ (when I was a child).
@@ -431,7 +453,8 @@
       The prompt is just “around the time/when…” without specifying a starting point.
 - id: g-21-sasu
   prompt: to bite
-  answer: 刺す
+  answers:
+    - 刺す
   hint: sasu — used for insects/animals biting or stinging (e.g., 蚊に刺される = to get
     bitten by a mosquito)
   stage: -1
@@ -451,7 +474,8 @@
       Used for sunlight coming in or raising an umbrella.
 - id: g-21-sawaru
   prompt: to touch
-  answer: 触る
+  answers:
+    - 触る
   hint: sawaru — u-verb; implies making contact (can also mean “to feel/handle”)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -470,7 +494,8 @@
       It implies gentle rubbing rather than simply making contact.
 - id: g-21-jugyo
   prompt: tuition
-  answer: 授業料
+  answers:
+    - 授業料
   hint: jugyōryō — 授業(lesson/class) + 料(fee); commonly used for school or course tuition
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -489,7 +514,8 @@
       One means "to give/teach" and the other means "to receive".
 - id: g-21-shokuji
   prompt: meal
-  answer: 食事
+  answers:
+    - 食事
   hint: 'shokuji — a meal (e.g., 朝食/昼食/夕食). Common set: 食事をする (to have a meal).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -508,7 +534,8 @@
       The prompt is just the noun "meal", not "while eating".
 - id: g-21-shinjiru
   prompt: to believe
-  answer: 信じる
+  answers:
+    - 信じる
   hint: |-
     shinjiru — to believe/trust (often in someone/something)
     Pattern: ～を信じる / ～と信じる
@@ -529,7 +556,8 @@
       It emphasizes reliability/relationship more than simply believing.
 - id: g-21-shinpai
   prompt: worried about
-  answer: 心配
+  answers:
+    - 心配
   hint: shinpai (na) — use with だ/です, e.g., 心配な人 (a worried person)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -548,7 +576,8 @@
       Be careful: the second kanji has the "distribute" meaning and comes after the first.
 - id: g-21-speech
   prompt: speech
-  answer: スピーチ
+  answers:
+    - スピーチ
   hint: supiichi (katakana loanword) — often means a prepared talk (e.g., a formal
     speech)
   stage: -1
@@ -568,7 +597,8 @@
       This one has a small ッ (double consonant), not a long vowel ー.
 - id: g-21-zeitaku
   prompt: to indulge in luxury
-  answer: ぜいたくをする
+  answers:
+    - ぜいたくをする
   hint: 'zeitaku o suru - do/live luxuriously; often used with "あまり" (not very) or
     in negative: ぜいたくしない'
   stage: -1
@@ -588,7 +618,8 @@
       Luxury indulgence is about living lavishly, not necessarily waste.
 - id: g-21-seifu
   prompt: government
-  answer: 政府
+  answers:
+    - 政府
   hint: seifu — a national government/administration (e.g., 日本政府)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -607,7 +638,8 @@
       This is local government, not the national-level body.
 - id: g-21-tadano
   prompt: nothing more than . . .
-  answer: ただの～
+  answers:
+    - ただの～
   hint: |-
     tada no ~ (romaji)
     Used before a noun: “just a / mere ~” (often downplaying, e.g., ただの冗談 = just a joke).
@@ -628,7 +660,8 @@
       It modifies a statement or action, not a noun directly.
 - id: g-21-tanoshimi
   prompt: pleasure
-  answer: 楽しみ
+  answers:
+    - 楽しみ
   hint: tanoshimi — something you look forward to; often used as 楽しみです (“I’m looking
     forward to it”).
   stage: -1
@@ -648,7 +681,8 @@
       Same pattern but a different feeling word.
 - id: g-21-tameru
   prompt: to save money
-  answer: ためる
+  answers:
+    - ためる
   hint: tameru — to save up/accumulate (esp. money); often used as お金をためる
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -667,7 +701,8 @@
       Be careful: it ends with す, not る, and the meaning is unrelated.
 - id: g-21-chikan
   prompt: groper; pervert
-  answer: ちかん
+  answers:
+    - ちかん
   hint: 'chikan — commonly refers to a person who gropes (often on trains); also used
     for the act: 痴漢(する).'
   stage: -1
@@ -687,7 +722,8 @@
       This prompt expects hiragana (curvy script).
 - id: g-21-tsukamaru
   prompt: to be arrested; to be caught
-  answer: 捕まる
+  answers:
+    - 捕まる
   hint: 'tsukamaru — intransitive (う-verbal): the subject gets caught/arrested (often
     by police); contrast 捕まえる (to catch someone/something)'
   stage: -1
@@ -707,7 +743,8 @@
       Different meaning: stopping/motion ceasing, not being caught/arrested.
 - id: g-21-tsutsumu
   prompt: to wrap; to cover
-  answer: 包む
+  answers:
+    - 包む
   hint: tsutsumu (u-verb) — wrap/cover something; e.g., プレゼントを包む (wrap a present)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -726,7 +763,8 @@
       The kanji structure is more complex and not an enclosure wrapping around.
 - id: g-21-doryo
   prompt: colleague
-  answer: 同僚
+  answers:
+    - 同僚
   hint: douryou — coworker/colleague (same workplace). Often used as 同僚の〜 / 同僚と
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -745,7 +783,8 @@
       This is for people in the same school grade, not coworkers.
 - id: g-21-tooi
   prompt: far (away)
-  answer: 遠い
+  answers:
+    - 遠い
   hint: tooi — i-adjective meaning “far (distance)”; e.g., 駅は遠い (The station is far).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -764,7 +803,8 @@
       Same 〜おい ending, but it describes weight, not distance.
 - id: g-21-tokoroga
   prompt: however; on the contrary
-  answer: ところが
+  answers:
+    - ところが
   hint: tokoroga — used to introduce an unexpected twist/result; often at the start
     of a new sentence.
   stage: -1
@@ -784,7 +824,8 @@
       It emphasizes contradiction after a reason, rather than an unexpected discovery.
 - id: g-21-tonikaku
   prompt: anyhow; anyway
-  answer: とにかく
+  answers:
+    - とにかく
   hint: tonikaku — used to mean “in any case / regardless”; often at the start of
     a sentence to move things along
   stage: -1
@@ -804,7 +845,8 @@
       It often sets something aside (“put that topic aside”) more strongly.
 - id: g-21-dorobo
   prompt: thief; burglar
-  answer: 泥棒
+  answers:
+    - 泥棒
   hint: dorobou — 泥(どろ)=mud + 棒(ぼう)=stick; common word for a thief/burglar
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -823,7 +865,8 @@
       Used as an insult (often about stealing a lover), not the general word for a burglar.
 - id: g-21-nagai
   prompt: long time
-  answer: 長い間
+  answers:
+    - 長い間
   hint: nagai aida — means “for a long time / long period” (e.g., 長い間お世話になりました).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -842,7 +885,8 @@
       It’s used for reunion or something not done for a long time, not “for a long time” duration.
 - id: g-21-naguru
   prompt: to strike; to hit; to punch
-  answer: 殴る
+  answers:
+    - 殴る
   hint: naguru (u-verb) — rough/violent hitting; often used for punching someone
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -861,7 +905,8 @@
       Different action—using the foot instead of the fist.
 - id: g-21-nyuin
   prompt: to be hospitalized
-  answer: 入院する
+  answers:
+    - 入院する
   hint: nyuuin suru — to enter a hospital and stay (入=enter, 院=institution/hospital).
     Often used like 「入院しました」.
   stage: -1
@@ -881,7 +926,8 @@
       It’s the opposite action (leaving), not going in.
 - id: g-21-nusumu
   prompt: to steal; to rob
-  answer: 盗む
+  answers:
+    - 盗む
   hint: nusumu — u-verb. Often used for stealing someone’s property (財布を盗む).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -900,7 +946,8 @@
       This is finding/collecting, not taking someone else’s property.
 - id: g-21-bakanisu
   prompt: to insult; to make a fool of . . .
-  answer: ばかにする
+  answers:
+    - ばかにする
   hint: baka ni suru — treat someone as stupid; often used with を (e.g., 人をばかにする)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -919,7 +966,8 @@
       It doesn't directly mean mocking or making someone look foolish.
 - id: g-21-haru
   prompt: to post; to stick
-  answer: 貼る
+  answers:
+    - 貼る
   hint: haru — to stick/attach or put up (e.g., ポスターを貼る, シールを貼る). Not the seasonal
     はる.
   stage: -1
@@ -939,7 +987,8 @@
       The prompt is the simpler dictionary form verb.
 - id: g-21-hannin
   prompt: criminal
-  answer: 犯人
+  answers:
+    - 犯人
   hint: hannin — 犯=to commit a crime + 人=person
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -958,7 +1007,8 @@
       This one is the opposite role in an incident.
 - id: g-21-hidoi
   prompt: awful
-  answer: ひどい
+  answers:
+    - ひどい
   hint: hidoi — often used for something cruel/terrible or very bad (e.g., ひどい天気)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -977,7 +1027,8 @@
       This prompt expects the standard i-adjective.
 - id: g-21-hirune
   prompt: to take a nap
-  answer: 昼寝をする
+  answers:
+    - 昼寝をする
   hint: hirune o suru — 昼(ひる)=daytime + 寝(ね)=sleep; casual/resting nap
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -996,7 +1047,8 @@
       The first kanji changes the time of day.
 - id: g-21-fuben
   prompt: inconvenient
-  answer: 不便
+  answers:
+    - 不便
   hint: |-
     fuben(na) — な-adj.
     Often used as: 不便だ / 不便な + noun (e.g., 不便な場所)
@@ -1017,7 +1069,8 @@
       Often used for being physically limited or constrained, not just awkward/poor convenience.
 - id: g-21-fumu
   prompt: to step on
-  answer: 踏む
+  answers:
+    - 踏む
   hint: 'fumu — often used with を (e.g., ブレーキを踏む = step on the brake). Kanji: 足 (foot)
     + 沓 (shoe).'
   stage: -1
@@ -1037,7 +1090,8 @@
       It uses different parts and meaning from “step on.”
 - id: g-21-furu
   prompt: To turn down (somebody); to reject; to jilt
-  answer: ふる
+  answers:
+    - ふる
   hint: furu — commonly used for rejecting someone romantically (e.g., 告白をふる). Not
     the verb 降る (to fall).
   stage: -1
@@ -1057,7 +1111,8 @@
       This prompt is often about rejecting someone (especially in romance).
 - id: g-21-hen
   prompt: strange; unusual
-  answer: 変
+  answers:
+    - 変
   hint: hen (na) — な-adjective; often used as 変な + noun (e.g., 変な人)
   strokeCount: 9
   stage: -1
@@ -1077,7 +1132,8 @@
       The prompt expects the kanji form.
 - id: g-21-poster
   prompt: poster
-  answer: ポスター
+  answers:
+    - ポスター
   hint: 'posutaa (katakana) - long vowels: ポス(ター) with ー marks'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1096,7 +1152,8 @@
       The prompt expects katakana for a loanword.
 - id: g-21-homeru
   prompt: to praise; to say nice things
-  answer: ほめる
+  answers:
+    - ほめる
   hint: homeru (ru-verb) - often used with を (e.g., 努力をほめる)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1115,7 +1172,8 @@
       The prompt expects hiragana (curvier shapes).
 - id: g-21-machigau
   prompt: to make a mistake
-  answer: 間違える
+  answers:
+    - 間違える
   hint: 'machigaeru (ru-verb) — often used as: 〜を間違える (make a mistake with ~)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1134,7 +1192,8 @@
       It's about a wrong assumption, not simply an error.
 - id: g-21-mitsukeru
   prompt: to find
-  answer: 見つける
+  answers:
+    - 見つける
   hint: mitsukeru - to find/discover (something you notice or come across); transitive
     ru-verb
   stage: -1
@@ -1154,7 +1213,8 @@
       It means something turns up (often without saying who found it).
 - id: g-21-mukashi
   prompt: old days; past
-  answer: 昔
+  answers:
+    - 昔
   hint: mukashi — "in the old days" (e.g., 昔は… = Back then…)
   strokeCount: 8
   stage: -1
@@ -1174,7 +1234,8 @@
       The prompt is about "the past/old days," and the written form here is much simpler with fewer parts.
 - id: g-21-meishin
   prompt: superstition
-  answer: 迷信
+  answers:
+    - 迷信
   hint: meishin — irrational belief based on luck/omens (e.g., 縁起・おまじない)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1193,7 +1254,8 @@
       This is a biased view about people/groups, not a belief in omens or luck.
 - id: g-21-mecha
   prompt: messy; disorganized
-  answer: めちゃくちゃ（な）
+  answers:
+    - めちゃくちゃ（な）
   hint: |-
     mechakucha (na) — often means “a total mess / all over the place.”
     Example: 部屋がめちゃくちゃだ。
@@ -1214,7 +1276,8 @@
       It’s often about intensity, not specifically “disorganized.”
 - id: g-21-metta
   prompt: seldom (rarely; hardly ever)
-  answer: めったに～ない
+  answers:
+    - めったに～ない
   hint: 'mettani ~ nai — used with negative form to mean “hardly ever.” Example: めったに行かない
     (I hardly ever go).'
   stage: -1
@@ -1234,7 +1297,8 @@
       It suggests an even stronger degree (nearly 0).
 - id: g-21-monku
   prompt: complaint
-  answer: 文句
+  answers:
+    - 文句
   hint: 'monku — a complaint/criticism (often: 文句を言う “to complain”)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1253,7 +1317,8 @@
       This is asking for information, not criticizing or complaining.
 - id: g-21-monkuiu
   prompt: to complain
-  answer: 文句を言う
+  answers:
+    - 文句を言う
   hint: 'monku o iu — to voice complaints/gripes (often directly to someone). Also:
     文句を言うな = “Don’t complain.”'
   stage: -1
@@ -1273,7 +1338,8 @@
       It means “to be complained at / to have someone complain to you.”
 - id: g-21-yaku
   prompt: to bake; to burn; to grill
-  answer: 焼く
+  answers:
+    - 焼く
   hint: yaku — used for grilling/baking/cooking over heat; also “burn” (e.g., CDを焼く,
     パンを焼く)
   stage: -1
@@ -1293,7 +1359,8 @@
       It means something gets baked/burned (happens on its own).
 - id: g-21-yaru
   prompt: to give (to pets, plants, younger siblings, etc.)
-  answer: やる
+  answers:
+    - やる
   hint: 'yaru - to give "downward" (to someone/something of lower status: pets, plants,
     kids).'
   stage: -1
@@ -1313,7 +1380,8 @@
       The prompt expects the kana spelling, as often used in daily writing.
 - id: g-21-rusu
   prompt: absence; not at home
-  answer: 留守
+  answers:
+    - 留守
   hint: rusu — used for being away from home (e.g., 留守です “I’m not home”).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1332,7 +1400,8 @@
       Used for not attending an event, not for being away from home.
 - id: g-21-renraku
   prompt: to contact
-  answer: 連絡する
+  answers:
+    - 連絡する
   hint: |-
     renraku suru — to contact/get in touch (call, text, email)
     Often used as: 連絡します (I'll contact you)

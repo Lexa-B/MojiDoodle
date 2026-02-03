@@ -1,6 +1,7 @@
 - id: g-23-aisatsu
   prompt: greetings
-  answer: あいさつ
+  answers:
+    - あいさつ
   hint: aisatsu - used for hello/good morning/thanks; often with する (あいさつする)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -19,7 +20,8 @@
       It’s an action/gesture, not the words you say.
 - id: g-23-rainoff
   prompt: the rain stops
-  answer: 雨がやむ
+  answers:
+    - 雨がやむ
   hint: 'ame ga yamu — use for rain/snow stopping (～がやむ). Often becomes past: 雨がやんだ.'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -38,7 +40,8 @@
       This one focuses on "to stop" rather than "to cease" (often more natural for weather/news style).
 - id: g-23-arasu
   prompt: to express; to show
-  answer: 表す
+  answers:
+    - 表す
   hint: arawasu — to express/show (feelings, opinions, what something represents).
     Often used like 意思を表す (express one’s intention).
   stage: -1
@@ -58,7 +61,8 @@
       More like pointing/indicating rather than expressing.
 - id: g-23-bakutalk
   prompt: to talk behind someone’s back
-  answer: 言う（悪口を）
+  answers:
+    - 言う（悪口を）
   hint: iu (waruguchi o) - literally “to say (bad words)”; used for speaking ill of
     someone who isn’t present
   stage: -1
@@ -78,7 +82,8 @@
       It’s about expressing dissatisfaction, not necessarily gossiping about someone.
 - id: g-23-ippou
   prompt: on the other hand
-  answer: 一方
+  answers:
+    - 一方
   hint: ippou — used to contrast two things (Aは…一方、Bは…). Also means “one direction/one
     side” depending on context.
   stage: -1
@@ -98,7 +103,8 @@
       The prompt is more neutral and common in comparisons.
 - id: g-23-inaku
   prompt: (someone) is gone; to disappear
-  answer: いなくなる
+  answers:
+    - いなくなる
   hint: inakunaru — literally “to become not there”; often used for people/pets being
     gone
   stage: -1
@@ -118,7 +124,8 @@
       This implies someone intentionally leaves, not simply being absent.
 - id: g-23-sns
   prompt: social media
-  answer: SNS
+  answers:
+    - SNS
   hint: esu enu esu - Japanese abbreviation for Social Networking Service (often used
     like 「SNSで」)
   stage: -1
@@ -138,7 +145,8 @@
       The prompt is specifically about social networking/media platforms.
 - id: g-23-emoji
   prompt: emoji
-  answer: 絵文字
+  answers:
+    - 絵文字
   hint: emoji (えもじ) — literally "picture characters"; used for emoji/emoticons
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -157,7 +165,8 @@
       The prompt is for pictographic symbols/icons, not text faces.
 - id: g-23-stomach
   prompt: to have a stomachache
-  answer: おなかをこわす
+  answers:
+    - おなかをこわす
   hint: onaka o kowasu - literally "to break/ruin your stomach" (used for stomach
     trouble/diarrhea)
   stage: -1
@@ -177,7 +186,8 @@
       This prompt is about stomach trouble, not a respiratory illness.
 - id: g-23-omoide
   prompt: memory
-  answer: 思い出
+  answers:
+    - 思い出
   hint: omoide — a personal memory/recollection; often used as 思い出を作る (make memories)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -196,7 +206,8 @@
       Be careful: it uses the same 出 but refers to meeting someone, not recalling the past.
 - id: g-23-kaigai
   prompt: trip to a foreign country
-  answer: 海外旅行
+  answers:
+    - 海外旅行
   hint: kaigai ryokou — 海外=overseas/abroad + 旅行=travel; used like 「海外旅行に行く」
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -215,7 +226,8 @@
       This is for education over a longer stay, not general travel.
 - id: g-23-kaomoji
   prompt: emoticon
-  answer: 顔文字
+  answers:
+    - 顔文字
   hint: kaomoji — Japanese-style emoticon using faces (e.g., (^^), (T_T))
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -234,7 +246,8 @@
       The prompt is for a compound noun, not this part alone.
 - id: g-23-kao-suru
   prompt: to look ... (facial expression)
-  answer: ～顔をする
+  answers:
+    - ～顔をする
   hint: 〜kao o suru — attach an adjective/phrase before 〜 (e.g., うれしそうな顔をする = to look
     happy). Often describes someone’s expression.
   stage: -1
@@ -254,7 +267,8 @@
       It describes what expression someone is wearing right now, rather than the general expression they make.
 - id: g-23-gaman
   prompt: to be tolerant/patient
-  answer: 我慢する
+  answers:
+    - 我慢する
   hint: gaman suru — endure without complaining; often used for holding back feelings
     or putting up with hardship
   stage: -1
@@ -274,7 +288,8 @@
       Not the same as enduring hardship or being patient.
 - id: g-23-kanjou
   prompt: feeling; emotion
-  answer: 感情
+  answers:
+    - 感情
   hint: kanjou — feelings/emotions (often used for human emotion; e.g., 感情が高ぶる)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -293,7 +308,8 @@
       Not the emotional state itself.
 - id: g-23-cunning
   prompt: to cheat in an exam
-  answer: カンニングする
+  answers:
+    - カンニングする
   hint: kanningu suru — カンニング = “cheating” (katakana loanword); often used with 試験で/テストで
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -312,7 +328,8 @@
       The prompt is the common exam-cheating term.
 - id: g-23-kigou
   prompt: symbol
-  answer: 記号
+  answers:
+    - 記号
   hint: kigou — written symbols/marks (e.g., 記号を使う = to use symbols)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -331,7 +348,8 @@
       The prompt is asking for the noun meaning a symbol itself.
 - id: g-23-kiss
   prompt: to kiss
-  answer: キスをする
+  answers:
+    - キスをする
   hint: kisu o suru - casual expression meaning "to kiss" (katakana + する)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -350,7 +368,8 @@
       The prompt asks for the verb phrase meaning "to do" it.
 - id: g-23-kiniiru
   prompt: to find something agreeable
-  answer: 気に入る
+  answers:
+    - 気に入る
   hint: 'ki ni iru — “to like; to be pleased with” (often used for things: この靴が気に入った)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -369,7 +388,8 @@
       It expresses caring too much or being bothered, not finding something agreeable.
 - id: g-23-kyuukou
   prompt: class cancellation
-  answer: 休講
+  answers:
+    - 休講
   hint: kyuukou — classes are cancelled (often due to weather/teacher absence); 休=rest,
     講=lecture
   stage: -1
@@ -389,7 +409,8 @@
       This is used for shops/companies being closed, not classes.
 - id: g-23-kutsushita
   prompt: socks
-  answer: 靴下
+  answers:
+    - 靴下
   hint: kutsushita — often written in kana too (くつした). "靴" = shoes, "下" = under (goes
     under shoes).
   stage: -1
@@ -409,7 +430,8 @@
       Same idea (wearable), but for hands, not feet.
 - id: g-23-kekka
   prompt: result
-  answer: 結果
+  answers:
+    - 結果
   hint: kekka — outcome/result (often used with ～の結果 “as a result of…”)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -428,7 +450,8 @@
       It implies a successful result, often from effort.
 - id: g-23-genkine
   prompt: Take care of yourself.
-  answer: 元気でね
+  answers:
+    - 元気でね
   hint: genki de ne — casual farewell meaning “stay well/okay,” often said when parting
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -447,7 +470,8 @@
       The prompt is a general “take care” when parting.
 - id: g-23-kenkou
   prompt: health
-  answer: 健康
+  answers:
+    - 健康
   hint: kenkou — often used as 健康です (I'm healthy) / 健康な生活 (a healthy life)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -466,7 +490,8 @@
       Often used for organizations, thinking, or development rather than your bodily health.
 - id: g-23-kotowaza
   prompt: proverb
-  answer: ことわざ
+  answers:
+    - ことわざ
   hint: kotowaza — fixed saying/proverb; often written in kana
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -485,7 +510,8 @@
       An idiomatic phrase, not a proverb with a general lesson.
 - id: g-23-konoyou
   prompt: like this; this way
-  answer: このように
+  answers:
+    - このように
   hint: kono you ni — points to the manner/way something is done (“in this way”).
     Often followed by an explanation/example.
   stage: -1
@@ -505,7 +531,8 @@
       It refers to something near the listener or previously mentioned, not “this” near the speaker.
 - id: g-23-shakai
   prompt: society
-  answer: 社会
+  answers:
+    - 社会
   hint: shakai — 社 (company/shrine) + 会 (meet/association) → “society”
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -524,7 +551,8 @@
       This is a person, not the abstract concept.
 - id: g-23-shougaku
   prompt: elementary school
-  answer: 小学校
+  answers:
+    - 小学校
   hint: shougakkou — 学校 (school) with 小 (small) = primary/elementary school
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -543,7 +571,8 @@
       This is higher education, not compulsory early schooling.
 - id: g-23-sekaijuu
   prompt: all over the world
-  answer: 世界中
+  answers:
+    - 世界中
   hint: 'sekaijuu — used for locations: 「世界中で」 = all over the world (throughout the
     world)'
   stage: -1
@@ -563,7 +592,8 @@
       This is limited to within one country, not globally.
 - id: g-23-sewa
   prompt: to take care of …
-  answer: 世話をする
+  answers:
+    - 世話をする
   hint: sewa o suru — to look after/support someone (e.g., 子どもの世話をする).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -582,7 +612,8 @@
       The direction of help is reversed (you receive care).
 - id: g-23-sousou
   prompt: You are right.
-  answer: そうそう
+  answers:
+    - そうそう
   hint: sousou — used to agree/confirm ("Exactly!", "That's right.")
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -601,7 +632,8 @@
       It can show agreement, but it's more like backchanneling while someone speaks.
 - id: g-23-sorosoro
   prompt: it is about time to . . .
-  answer: そろそろ
+  answers:
+    - そろそろ
   hint: 'sorosoro — used when something is due soon: そろそろ行こう (It''s about time to
     go).'
   stage: -1
@@ -621,7 +653,8 @@
       Here it's the timing/"about time" nuance.
 - id: g-23-tada
   prompt: free of charge
-  answer: ただ
+  answers:
+    - ただ
   hint: tada — often used as ただで (for free), e.g., ただでもらう (get for free)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -640,7 +673,8 @@
       This adds extra characters and changes the meaning.
 - id: g-23-tate
   prompt: vertical
-  answer: 縦
+  answers:
+    - 縦
   hint: tate — "vertical" (縦の lines go up/down); 16 strokes
   strokeCount: 16
   stage: -1
@@ -660,7 +694,8 @@
       This one is a verb meaning "to tighten/fasten," not a direction.
 - id: g-23-tameni
   prompt: for . . . ; for the sake of . . .
-  answer: ～ために
+  answers:
+    - ～ために
   hint: 'tame ni — expresses purpose/benefit: Vる・Nの + ために (do X in order to/for the
     sake of …)'
   stage: -1
@@ -680,7 +715,8 @@
       The prompt expects the common pattern with に for purpose (…in order to…).
 - id: g-23-check
   prompt: to check
-  answer: チェックする
+  answers:
+    - チェックする
   hint: chekku suru - often used for verifying/confirming (e.g., メールをチェックする)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -699,7 +735,8 @@
       The prompt expects the verb form ending in する.
 - id: g-23-chousa
   prompt: survey
-  answer: 調査
+  answers:
+    - 調査
   hint: 'chousa — research/investigation (often formal: 調査を行う)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -718,7 +755,8 @@
       The prompt expects the noun form.
 - id: g-23-toimi
   prompt: ~ means that ...
-  answer: （～は）…という意味だ
+  answers:
+    - （～は）…という意味だ
   hint: … to iu imi da — use to explain the meaning/definition of a word or phrase
     (often after quoting it).
   stage: -1
@@ -738,7 +776,8 @@
       It often sets up an explanation, but it’s not the full "means" statement by itself.
 - id: g-23-doujou
   prompt: to sympathize
-  answer: 同情する
+  answers:
+    - 同情する
   hint: dōjō suru — to feel sympathy/compassion toward someone (often 同情する＋相手に/を)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -757,7 +796,8 @@
       It expresses concern or anxiety rather than compassion for someone's situation.
 - id: g-23-nakunaru
   prompt: To be lost; to disappear
-  answer: なくなる
+  answers:
+    - なくなる
   hint: nakunaru — intransitive (something disappears/gets lost). Often used as 〜がなくなる.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -776,7 +816,8 @@
       Make sure you write it exactly in kana as requested.
 - id: g-23-imi2
   prompt: 〜 means that . . .
-  answer: ～は…という意味だ
+  answers:
+    - ～は…という意味だ
   hint: '… wa … to iu imi da — use to explain the meaning of a word/phrase: 「XはYという意味だ」'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -795,7 +836,8 @@
       This prompt is for defining what a word/phrase means (dictionary-style).
 - id: g-23-hanareru
   prompt: (something/someone) separates; parts from
-  answer: 離れる
+  answers:
+    - 離れる
   hint: |-
     hanareru - intransitive ru-verb (to separate/part)
     Often used as: 〜から離れる (separate from ~), 〜を離れる (leave ~)
@@ -816,7 +858,8 @@
       Meaning leans toward releasing rather than simply being apart.
 - id: g-23-hyoujou
   prompt: expression
-  answer: 表情
+  answers:
+    - 表情
   hint: hyōjō — facial expression (e.g., 表情が明るい = has a bright expression)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -835,7 +878,8 @@
       This is the overall sense you get, not the specific face someone is making.
 - id: g-23-bonodori
   prompt: Bon dance (Japanese traditional dance)
-  answer: 盆踊り
+  answers:
+    - 盆踊り
   hint: bon-odori — a traditional dance during the Obon festival (often in summer).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -854,7 +898,8 @@
       The prompt is specifically the traditional dance, not the broader festival.
 - id: g-23-mazui
   prompt: (food is) terrible
-  answer: まずい
+  answers:
+    - まずい
   hint: mazui — used for bad-tasting food (also can mean "awkward/bad situation" in
     other contexts)
   stage: -1
@@ -874,7 +919,8 @@
       Watch the middle stroke: ず (with dakuten) vs じ (with dakuten).
 - id: g-23-mensetsu
   prompt: interview
-  answer: 面接
+  answers:
+    - 面接
   hint: mensetsu — job/school interview; 面=face, 接=meet/come in contact ("meet face-to-face")
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -893,7 +939,8 @@
       A group meeting, not a one-on-one interview.
 - id: g-23-modoru
   prompt: (something/someone) comes back
-  answer: 戻ってくる
+  answers:
+    - 戻ってくる
   hint: modotte kuru — return here; often used when someone/something comes back (to
     the original place/state).
   stage: -1
@@ -913,7 +960,8 @@
       This prompt is for returning toward where you are.
 - id: g-23-monosugo
   prompt: extremely
-  answer: ものすごく
+  answers:
+    - ものすごく
   hint: monosugoku — casual emphasis meaning “very/terribly”; often used in speech
     (e.g., ものすごく寒い)
   stage: -1
@@ -933,7 +981,8 @@
       This prompt is the “really, incredibly” adverb without that nuance.
 - id: g-23-yuushou
   prompt: to win a championship
-  answer: 優勝する
+  answers:
+    - 優勝する
   hint: yuushou suru — win the whole tournament/league; often used with 大会で/リーグで
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -952,7 +1001,8 @@
       Different result: not the champion.
 - id: g-23-yuushoku
   prompt: dinner
-  answer: 夕食
+  answers:
+    - 夕食
   hint: yuushoku — evening meal (more formal than ばんごはん)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -971,7 +1021,8 @@
       The first kanji means "night/evening" and is less common in everyday usage.
 - id: g-23-yoko
   prompt: side; horizontal
-  answer: 横
+  answers:
+    - 横
   hint: yoko — also used in words like 横書き (horizontal writing). 15 strokes.
   strokeCount: 15
   stage: -1
@@ -991,7 +1042,8 @@
       This one includes the 'tree' radical plus additional elements at the top.
 - id: g-23-risou
   prompt: ideal
-  answer: 理想
+  answers:
+    - 理想
   hint: 'risou — “ideal” (as in an ideal state/goal). Commonly: 理想の〜 (ideal ~).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1010,7 +1062,8 @@
       This is a concrete target, while the prompt is about a perfect/ideal model or state.
 - id: g-23-rusuban
   prompt: looking after a house during someone’s absence
-  answer: 留守番
+  answers:
+    - 留守番
   hint: 'rusuban — staying home to watch the house / mind the place while someone
     is away (often used with する: 留守番する)'
   stage: -1
@@ -1030,7 +1083,8 @@
       It uses the same first kanji, but the meaning is about studying abroad, not house-sitting.
 - id: g-23-waruguchi
   prompt: to talk behind someone’s back
-  answer: 悪口を言う
+  answers:
+    - 悪口を言う
   hint: waruguchi o iu — 悪口＝insult/bad-mouthing; よく「悪口を言わないで」(Don’t badmouth people)
     の形でも使う
   stage: -1

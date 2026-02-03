@@ -1,6 +1,7 @@
 - id: g-16-iron
   prompt: to iron (clothes)
-  answer: アイロンをかける
+  answers:
+    - アイロンをかける
   hint: 'airon o kakeru - pattern: Nをかける (to apply/use a tool on N). Often used with
     服/シャツ: シャツにアイロンをかける'
   stage: -1
@@ -20,7 +21,8 @@
       Same 〜をかける pattern, but it's for using a vacuum cleaner, not smoothing clothes.
 - id: g-16-overslp
   prompt: to oversleep
-  answer: 朝寝坊する
+  answers:
+    - 朝寝坊する
   hint: asanebou suru — oversleep / sleep in (often implies being late)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -39,7 +41,8 @@
       It’s the opposite situation—getting up rather than sleeping too long.
 - id: g-16-gather
   prompt: to collect
-  answer: 集める
+  answers:
+    - 集める
   hint: atsumeru (ru-verb) — gather things together (e.g., stamps, info, people)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -58,7 +61,8 @@
       This prompt is about collecting/accumulating things.
 - id: g-16-igai
   prompt: other than ... / except for ...
-  answer: ～以外
+  answers:
+    - ～以外
   hint: 'igai — attach after a noun: X以外 = other than X (e.g., 私以外 = everyone but
     me). Often used with は/に.'
   stage: -1
@@ -78,7 +82,8 @@
       It refers to time from a point onward.
 - id: g-16-insert
   prompt: to put (something) in
-  answer: 入れる
+  answers:
+    - 入れる
   hint: ireru - to insert/put into a container (transitive ru-verb)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -97,7 +102,8 @@
       Make sure you include the verb ending correctly (not just the kanji).
 - id: g-16-copy
   prompt: to copy
-  answer: 写す
+  answers:
+    - 写す
   hint: utsusu — to copy/photograph (make a duplicate); often used for copying text
     or taking a photo
   stage: -1
@@ -117,7 +123,8 @@
       The prompt needs the transitive "to do" action.
 - id: g-16-eeto
   prompt: well...; let me see... (filler while thinking)
-  answer: ええと
+  answers:
+    - ええと
   hint: eeto — a hesitation/filler used to buy time before speaking (like “um…”)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -136,7 +143,8 @@
       Not the same hesitation word.
 - id: g-16-ekiin
   prompt: station attendant
-  answer: 駅員（さん）
+  answers:
+    - 駅員（さん）
   hint: ekiin (san) - polite way to address a station staff member; さん is optional
     depending on context
   stage: -1
@@ -156,7 +164,8 @@
       It's a location word, not a person/job title.
 - id: g-16-size
   prompt: size
-  answer: 大きさ
+  answers:
+    - 大きさ
   hint: ookisa — noun form from 大きい (big); often used for dimensions/volume (e.g.,
     箱の大きさ = the size of a box).
   stage: -1
@@ -176,7 +185,8 @@
       It’s about how much there is, not the physical size/dimensions.
 - id: g-16-wake
   prompt: to wake (someone) up
-  answer: 起こす
+  answers:
+    - 起こす
   hint: okosu (transitive) — someone wakes someone up / causes something to happen
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -195,7 +205,8 @@
       Different meaning from waking a person.
 - id: g-16-treat
   prompt: to treat (someone) to a meal
-  answer: おごる
+  answers:
+    - おごる
   hint: |-
     ogoru - to pay for someone (e.g., a meal/drinks)
     Pattern: ～におごる / おごってあげる
@@ -216,7 +227,8 @@
       This one means "to send" or "to see someone off," not paying for a meal.
 - id: g-16-down
   prompt: to get depressed
-  answer: 落ち込む
+  answers:
+    - 落ち込む
   hint: ochikomu - to feel down (mood drops); often used like 気分が落ち込む / 落ち込んでいる
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -235,7 +247,8 @@
       This one is about being troubled by a problem, not the feeling of being down.
 - id: g-16-parent
   prompt: parent
-  answer: 親
+  answers:
+    - 親
   hint: oya — means “parent”; also used in compounds like 親子 (parent and child)
   strokeCount: 16
   stage: -1
@@ -255,7 +268,8 @@
       This one includes a clear “sun” box (日) component in the middle.
 - id: g-16-iron-kkr
   prompt: to iron (clothes)
-  answer: かける（アイロンを）
+  answers:
+    - かける（アイロンを）
   hint: 'kakeru (airon o) — used with アイロンを: シャツにアイロンをかける'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -274,7 +288,8 @@
       This one is about securing with a key, not smoothing clothes.
 - id: g-16-lend
   prompt: to lend
-  answer: 貸す
+  answers:
+    - 貸す
   hint: |-
     kasu — to lend out (you lend something to someone)
     Pattern: AはBにCを貸す
@@ -295,7 +310,8 @@
       The left-side component changes the meaning to lending.
 - id: g-16-dirty
   prompt: dirty
-  answer: 汚い
+  answers:
+    - 汚い
   hint: kitanai — い-adjective; use for something that is physically dirty/filthy (e.g.,
     汚い部屋).
   stage: -1
@@ -315,7 +331,8 @@
       It describes appearance/ugliness, not dirt.
 - id: g-16-finals
   prompt: final examination
-  answer: 期末試験
+  answers:
+    - 期末試験
   hint: kimatsu shiken — end-of-term exam (学校で学期の終わりにあるテスト)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -334,7 +351,8 @@
       The prompt is asking for the end-of-term kind.
 - id: g-16-kyou
   prompt: by the end of today
-  answer: 今日中に
+  answers:
+    - 今日中に
   hint: kyoujuu ni — means "by the end of today" (deadline within today). Often used
     with までに.
   stage: -1
@@ -354,7 +372,8 @@
       Watch the first kanji: today vs tomorrow.
 - id: g-16-research
   prompt: research
-  answer: 研究
+  answers:
+    - 研究
   hint: 'kenkyuu — often used with する: 研究する (to do research)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -373,7 +392,8 @@
       This prompt is the activity/field itself, not the facility.
 - id: g-16-gurai
   prompt: about this much
-  answer: このぐらい
+  answers:
+    - このぐらい
   hint: kono gurai — points to a rough amount/degree (approx.). Often used with gestures.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -392,7 +412,8 @@
       It's used for something distant from both speaker and listener.
 - id: g-16-trouble
   prompt: to have difficulty
-  answer: 困る
+  answers:
+    - 困る
   hint: 'komaru — to be troubled / be at a loss (often: 困った！ “Oh no…”)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -411,7 +432,8 @@
       The prompt is about having difficulty or being stuck, not physical/mental suffering.
 - id: g-16-trash
   prompt: garbage
-  answer: ごみ
+  answers:
+    - ごみ
   hint: gomi (usually written in kana; also seen as ゴミ)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -430,7 +452,8 @@
       Be careful with dakuten (゛): without it the sound changes.
 - id: g-16-gomen
   prompt: I’m sorry. (casual)
-  answer: ごめん
+  answers:
+    - ごめん
   hint: 'gomen — casual apology (short for ごめんなさい). Common in: ごめんね'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -449,7 +472,8 @@
       It sounds softer/affectionate, often to friends or family.
 - id: g-16-sugar
   prompt: sugar
-  answer: 砂糖
+  answers:
+    - 砂糖
   hint: satou — means table sugar; often written in kana as さとう too
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -468,7 +492,8 @@
       The second kanji means metal/gold, not a food item.
 - id: g-16-jitsu
   prompt: actually; in fact
-  answer: 実は
+  answers:
+    - 実は
   hint: jitsu wa — often used to introduce surprising/true information ("Actually...",
     "The truth is...")
   stage: -1
@@ -488,7 +513,8 @@
       The prompt is asking for the base expression without added ending.
 - id: g-16-shitsurei
   prompt: Excuse me.; Sorry to interrupt you.
-  answer: 失礼します
+  answers:
+    - 失礼します
   hint: shitsurei shimasu — polite set phrase used when interrupting, leaving, entering,
     or doing something that might be rude (often said before/after).
   stage: -1
@@ -508,7 +534,8 @@
       Different nuance: "I'm intruding" rather than interrupting.
 - id: g-16-jibun
   prompt: (do something) by oneself
-  answer: 自分で
+  answers:
+    - 自分で
   hint: 'jibun de — do it yourself (often used before a verb): 自分でやる'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -527,7 +554,8 @@
       This modifies a noun, not the way an action is done.
 - id: g-16-class
   prompt: in class; during the class
-  answer: 授業中に
+  answers:
+    - 授業中に
   hint: jugyouchuu ni — 「授業中」= during class + に (at/when). Often used with actions
     you do while class is in session.
   stage: -1
@@ -547,7 +575,8 @@
       Different situation: class is not in session.
 - id: g-16-scholar
   prompt: scholarship
-  answer: 奨学金
+  answers:
+    - 奨学金
   hint: shougakukin — money to support study (奨=encourage, 学=study, 金=money)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -566,7 +595,8 @@
       This prompt is specifically for funding someone's education.
 - id: g-16-kids
   prompt: elementary school students
-  answer: 小学生
+  answers:
+    - 小学生
   hint: 'shougakusei — 小(しょう) + 学(がく) + 生(せい): an elementary school student (collective/plural
     by context)'
   stage: -1
@@ -586,7 +616,8 @@
       The first kanji is 大 = big (a higher education level).
 - id: g-16-relatives
   prompt: relatives
-  answer: 親せき
+  answers:
+    - 親せき
   hint: 'shinseki — family/relatives (not your own parents: 親)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -605,7 +636,8 @@
       It's more about in-group/insiders than the general term for relatives.
 - id: g-16-reco
   prompt: letter of recommendation
-  answer: 推薦状
+  answers:
+    - 推薦状
   hint: suisenjō — a written recommendation letter (often for jobs/schools). 推薦(すいせん)=recommendation
     + 状(じょう)=document
   stage: -1
@@ -625,7 +657,8 @@
       It's written by the applicant about their own history, not written by someone else to recommend them.
 - id: g-16-suruto
   prompt: '... then ... (and then; thereupon)'
-  answer: すると
+  answers:
+    - すると
   hint: 'suruto — used to show what happened next or as a result: 「すると、雨が降ってきた」'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -644,7 +677,8 @@
       This prompt is the short connective used to introduce what happens next.
 - id: g-16-explain
   prompt: to explain
-  answer: 説明する
+  answers:
+    - 説明する
   hint: setsumei suru — use when giving an explanation/instructions (e.g., 手順を説明する).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -663,7 +697,8 @@
       The prompt is for the dictionary form ending in する.
 - id: g-16-sky
   prompt: sky
-  answer: 空
+  answers:
+    - 空
   hint: sora — 8 strokes (also means “empty” in some words)
   strokeCount: 8
   stage: -1
@@ -683,7 +718,8 @@
       It uses the same “cave” roof, but the inside/bottom parts are different.
 - id: g-16-sonna
   prompt: such . . . ; that kind of . . .
-  answer: そんな～
+  answers:
+    - そんな～
   hint: 'sonna~ — used before a noun to mean “such/that kind of …” (e.g., そんな話 “such
     a story”). Often used in reactions: そんな…! “No way…!”'
   stage: -1
@@ -703,7 +739,8 @@
       This one points to something close to the speaker or the current situation.
 - id: g-16-grad
   prompt: graduate school
-  answer: 大学院
+  answers:
+    - 大学院
   hint: daigakuin — higher education after university (Master’s/PhD). Often used with
     に行く/に通う.
   stage: -1
@@ -723,7 +760,8 @@
       This is a specific lab group/room, not the graduate school as a whole.
 - id: g-16-typhoon
   prompt: typhoon
-  answer: 台風
+  answers:
+    - 台風
   hint: taifuu (たいふう) - a tropical cyclone/typhoon (common in weather forecasts)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -742,7 +780,8 @@
       Not the word for the storm itself.
 - id: g-16-handin
   prompt: to take (something) out; to hand in (something)
-  answer: 出す
+  answers:
+    - 出す
   hint: dasu — means to put/take something out (出すゴミ), or to submit/hand in (レポートを出す).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -761,7 +800,8 @@
       The prompt is the everyday verb used in many situations.
 - id: g-16-rescue
   prompt: to help; to rescue
-  answer: 助ける
+  answers:
+    - 助ける
   hint: tasukeru (ru-verb) — often used for helping/rescuing someone in trouble (e.g.,
     助けて！).
   stage: -1
@@ -781,7 +821,8 @@
       Different kanji and nuance from everyday helping.
 - id: g-16-wrong
   prompt: to be different; to be wrong
-  answer: 違う
+  answers:
+    - 違う
   hint: 'chigau (u-verb) — often used for “No/That’s wrong” (例: 違うよ).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -800,7 +841,8 @@
       It’s not the casual everyday word used for “No, that’s wrong.”
 - id: g-16-cont
   prompt: to continue
-  answer: 続く
+  answers:
+    - 続く
   hint: 'tsudzuku — intransitive: something continues/goes on (e.g., 雨が続く).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -819,7 +861,8 @@
       It refers to order/ranking, not something ongoing.
 - id: g-16-take
   prompt: to take (someone) to (a place)
-  answer: 連れていく
+  answers:
+    - 連れていく
   hint: 'tsurete iku — take/bring a person (someone goes with you). Often used with
     を: 子どもを連れていく'
   stage: -1
@@ -839,7 +882,8 @@
       Be careful with the kana part: いく is written in hiragana in this prompt.
 - id: g-16-tools
   prompt: tool
-  answer: 道具
+  answers:
+    - 道具
   hint: dougu — everyday tools/equipment (道=road, 具=tool/ingredient)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -858,7 +902,8 @@
       The prompt is asking for a full two-kanji noun.
 - id: g-16-anywhere
   prompt: anywhere
-  answer: どこでも
+  answers:
+    - どこでも
   hint: doko demo - “where + even” → anywhere (e.g., どこでもいい = anywhere is fine)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -877,7 +922,8 @@
       It often appears together with ない.
 - id: g-16-fly
   prompt: to fly
-  answer: 飛ぶ
+  answers:
+    - 飛ぶ
   hint: 'tobu — intransitive: birds/planes fly; also “jump” (e.g., 飛ぶように売れる = sell
     like hotcakes)'
   stage: -1
@@ -897,7 +943,8 @@
       It takes an object, unlike the prompt meaning here.
 - id: g-16-fix
   prompt: to correct; to fix
-  answer: 直す
+  answers:
+    - 直す
   hint: naosu (なおす) — to fix/correct something; also used for “to cure” (illness).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -916,7 +963,8 @@
       This prompt needs the transitive “to fix/correct (something).”
 - id: g-16-youna
   prompt: something like ...
-  answer: ～のようなもの
+  answers:
+    - ～のようなもの
   hint: '~ no you na mono — used to say “something like ~” / “a sort of ~” (soft,
     approximate comparison). Often follows a noun: 先生のようなもの = something like a teacher.'
   stage: -1
@@ -936,7 +984,8 @@
       To say “something like ~”, you need to add the word for “thing” at the end.
 - id: g-16-miss
   prompt: to miss (a train, bus, etc.)
-  answer: 乗り遅れる
+  answers:
+    - 乗り遅れる
   hint: noriokureru (ru-verb) — miss the ride because you were late (e.g., 電車に乗り遅れる).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -955,7 +1004,8 @@
       It’s about changing lines, not failing to board.
 - id: g-16-tvprog
   prompt: broadcast program
-  answer: 番組
+  answers:
+    - 番組
   hint: 'bangumi — TV/radio show; often used with TV: テレビ番組'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -974,7 +1024,8 @@
       The prompt is a compound noun for a broadcast show.
 - id: g-16-secret
   prompt: secret
-  answer: 秘密
+  answers:
+    - 秘密
   hint: himitsu — a hidden secret; often used in phrases like 秘密にする (to keep it secret).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -993,7 +1044,8 @@
       Not about keeping information hidden.
 - id: g-16-file
   prompt: (file) folder; portfolio; file
-  answer: ファイル
+  answers:
+    - ファイル
   hint: fairu (katakana) - used for computer files or a document folder/portfolio
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1012,7 +1064,8 @@
       Watch the middle sound: this one uses メ instead of ファイ.
 - id: g-16-other
   prompt: other
-  answer: 他の
+  answers:
+    - 他の
   hint: 'hokano — used before a noun: 「他の人」= other person / someone else'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1031,7 +1084,8 @@
       Different kanji: this one is about being outdoors, not "other".
 - id: g-16-pocket
   prompt: pocket
-  answer: ポケット
+  answers:
+    - ポケット
   hint: poketto (katakana loanword) — often used for clothing pockets (e.g., ズボンのポケット).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1050,7 +1104,8 @@
       Don't add ン; the word here ends with ト.
 - id: g-16-plus
   prompt: in addition
-  answer: また
+  answers:
+    - また
   hint: mata — also/again; often used like 「また、〜」 to add another point
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1069,7 +1124,8 @@
       More formal/emphatic; used for 'even more' rather than a simple 'also'.
 - id: g-16-ally
   prompt: person on one’s side
-  answer: 味方
+  answers:
+    - 味方
   hint: mikata — ally/one’s side (vs 敵 "enemy")
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1088,7 +1144,8 @@
       This is a more general "friend/teammate" word, not specifically "one’s side" in a conflict or situation.
 - id: g-16-show
   prompt: to show
-  answer: 見せる
+  answers:
+    - 見せる
   hint: miseru (ru-verb) — to show someone something (e.g., 写真を見せる)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1107,7 +1164,8 @@
       Different verb meaning: looking vs. making someone see (showing).
 - id: g-16-road
   prompt: way; road; directions
-  answer: 道
+  answers:
+    - 道
   hint: michi — also used in set phrases like 道を聞く (ask for directions)
   strokeCount: 12
   stage: -1
@@ -1127,7 +1185,8 @@
       This one adds an extra component, so it’s more complex overall.
 - id: g-16-lost
   prompt: to become lost; to lose one’s way
-  answer: 道に迷う
+  answers:
+    - 道に迷う
   hint: michi ni mayou — 道 (road) + に + 迷う (to get lost). Used when you can’t find
     the route/directions.
   stage: -1
@@ -1147,7 +1206,8 @@
       It’s mental hesitation, not losing your way on the road.
 - id: g-16-found
   prompt: to be found
-  answer: 見つかる
+  answers:
+    - 見つかる
   hint: 'mitsukaru — intransitive: something is found/turns up (e.g., 鍵が見つかった). Often
     contrasts with 見つける (to find).'
   stage: -1
@@ -1167,7 +1227,8 @@
       It’s about visibility, not being discovered after being missing.
 - id: g-16-future
   prompt: future
-  answer: 未来
+  answers:
+    - 未来
   hint: mirai — often used for the future (time ahead) or prospects (e.g., 未来の夢).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1186,7 +1247,8 @@
       It refers to time already gone, the opposite direction in time.
 - id: g-16-pickup-go
   prompt: to go to pick up
-  answer: 迎えに行く
+  answers:
+    - 迎えに行く
   hint: mukae ni iku — go to meet/pick someone up (e.g., at the station/airport)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1205,7 +1267,8 @@
       It’s about accompanying someone away, not meeting them.
 - id: g-16-pickup-come
   prompt: to come to pick up
-  answer: 迎えに来る
+  answers:
+    - 迎えに来る
   hint: mukae ni kuru — 迎え(むかえ)=picking up/meeting, 来る(くる)=to come; often used for
     meeting someone (e.g., at the station/airport)
   stage: -1
@@ -1225,7 +1288,8 @@
       Different direction/role: not picking someone up.
 - id: g-16-return
   prompt: to return; to come/go back
-  answer: 戻る
+  answers:
+    - 戻る
   hint: modoru (u-verb) — return to a previous place/state; e.g., 家に戻る
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1244,7 +1308,8 @@
       The prompt asks for a verb meaning "return/go back," not "again".
 - id: g-16-translate
   prompt: to translate
-  answer: 訳す
+  answers:
+    - 訳す
   hint: 'yakusu (to translate/interpret into another language; often used with を:
     文章を日本語に訳す)'
   stage: -1
@@ -1264,7 +1329,8 @@
       The prompt is for converting text/language in general, not live interpreting.
 - id: g-16-weak
   prompt: weak
-  answer: 弱い
+  answers:
+    - 弱い
   hint: yowai — i-adjective (e.g., 体が弱い = physically weak)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1283,7 +1349,8 @@
       Different meaning and the left side is the "water" radical.
 - id: g-16-robot
   prompt: robot
-  answer: ロボット
+  answers:
+    - ロボット
   hint: robotto (katakana loanword)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1302,7 +1369,8 @@
       It marks a brief pause before ト.
 - id: g-16-laugh
   prompt: to laugh
-  answer: 笑う
+  answers:
+    - 笑う
   hint: warau — often used with expressions like 「笑う／笑って」; kanji 笑 is 10 strokes
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'

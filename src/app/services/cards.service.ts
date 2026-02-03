@@ -4,14 +4,14 @@ import initSqlJs, { Database } from 'sql.js';
 import { BehaviorSubject, Observable } from 'rxjs';
 
 export interface Befuddler {
-  answer: string;
+  answers: string[];
   toast: string;
 }
 
 export interface Card {
   id: string;
   prompt: string;
-  answer: string;
+  answers: string[];
   hint?: string;
   strokeCount?: number;
   stage: number;
@@ -126,11 +126,12 @@ export class CardsService {
     console.log(`Loaded ${bundle.stages.length} stages from bundle`);
 
     // Create tables
+    // Note: answers and befuddler answers are stored as JSON arrays
     this.db.run(`
       CREATE TABLE cards (
         id TEXT PRIMARY KEY,
         prompt TEXT NOT NULL,
-        answer TEXT NOT NULL,
+        answers TEXT NOT NULL,
         hint TEXT,
         stroke_count INTEGER,
         stage INTEGER NOT NULL DEFAULT 0,
@@ -141,7 +142,7 @@ export class CardsService {
       CREATE TABLE befuddlers (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
         card_id TEXT NOT NULL,
-        answer TEXT NOT NULL,
+        answers TEXT NOT NULL,
         toast TEXT NOT NULL,
         FOREIGN KEY (card_id) REFERENCES cards(id)
       );
@@ -179,7 +180,6 @@ export class CardsService {
       );
 
       CREATE INDEX idx_cards_stage ON cards(stage);
-      CREATE INDEX idx_cards_answer ON cards(answer);
       CREATE INDEX idx_cards_category ON cards(category);
       CREATE INDEX idx_befuddlers_card ON befuddlers(card_id);
       CREATE INDEX idx_lesson_cards_lesson ON lesson_cards(lesson_id);
@@ -187,19 +187,19 @@ export class CardsService {
 
     // Insert all cards
     for (const card of bundle.cards) {
-      if (!card.id || !card.prompt || !card.answer) continue;
+      if (!card.id || !card.prompt || !card.answers) continue;
 
       this.db.run(
-        `INSERT INTO cards (id, prompt, answer, hint, stroke_count, stage, unlocks, category)
+        `INSERT INTO cards (id, prompt, answers, hint, stroke_count, stage, unlocks, category)
          VALUES (?, ?, ?, ?, ?, ?, ?, ?)`,
-        [card.id, card.prompt, card.answer, card.hint ?? null,
+        [card.id, card.prompt, JSON.stringify(card.answers), card.hint ?? null,
          card.strokeCount ?? null, card.stage ?? 0, card.unlocks ?? '', card.category]
       );
 
       for (const b of card.befuddlers ?? []) {
         this.db.run(
-          `INSERT INTO befuddlers (card_id, answer, toast) VALUES (?, ?, ?)`,
-          [card.id, b.answer, b.toast]
+          `INSERT INTO befuddlers (card_id, answers, toast) VALUES (?, ?, ?)`,
+          [card.id, JSON.stringify(b.answers), b.toast]
         );
       }
     }
@@ -337,11 +337,12 @@ export class CardsService {
     if (!this.db) return;
 
     // Create tables
+    // Note: answers and befuddler answers are stored as JSON arrays
     this.db.run(`
       CREATE TABLE cards (
         id TEXT PRIMARY KEY,
         prompt TEXT NOT NULL,
-        answer TEXT NOT NULL,
+        answers TEXT NOT NULL,
         hint TEXT,
         stroke_count INTEGER,
         stage INTEGER NOT NULL DEFAULT 0,
@@ -352,7 +353,7 @@ export class CardsService {
       CREATE TABLE befuddlers (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
         card_id TEXT NOT NULL,
-        answer TEXT NOT NULL,
+        answers TEXT NOT NULL,
         toast TEXT NOT NULL,
         FOREIGN KEY (card_id) REFERENCES cards(id)
       );
@@ -390,7 +391,6 @@ export class CardsService {
       );
 
       CREATE INDEX idx_cards_stage ON cards(stage);
-      CREATE INDEX idx_cards_answer ON cards(answer);
       CREATE INDEX idx_cards_category ON cards(category);
       CREATE INDEX idx_befuddlers_card ON befuddlers(card_id);
       CREATE INDEX idx_lesson_cards_lesson ON lesson_cards(lesson_id);
@@ -409,19 +409,19 @@ export class CardsService {
           const cards = this.parseYaml(yaml);
 
           for (const card of cards) {
-            if (!card.id || !card.prompt || !card.answer) continue;
+            if (!card.id || !card.prompt || !card.answers) continue;
 
             this.db.run(
-              `INSERT INTO cards (id, prompt, answer, hint, stroke_count, stage, unlocks, category)
+              `INSERT INTO cards (id, prompt, answers, hint, stroke_count, stage, unlocks, category)
                VALUES (?, ?, ?, ?, ?, ?, ?, ?)`,
-              [card.id, card.prompt, card.answer, card.hint ?? null,
+              [card.id, card.prompt, JSON.stringify(card.answers), card.hint ?? null,
                card.strokeCount ?? null, card.stage ?? 0, card.unlocks ?? '', pack.category]
             );
 
             for (const b of card.befuddlers ?? []) {
               this.db.run(
-                `INSERT INTO befuddlers (card_id, answer, toast) VALUES (?, ?, ?)`,
-                [card.id, b.answer, b.toast]
+                `INSERT INTO befuddlers (card_id, answers, toast) VALUES (?, ?, ?)`,
+                [card.id, JSON.stringify(b.answers), b.toast]
               );
             }
           }
@@ -594,6 +594,8 @@ export class CardsService {
     let currentCard: Partial<Card> | null = null;
     let currentBefuddler: Befuddler | null = null;
     let inBefuddlers = false;
+    let inAnswers = false;
+    let inBefuddlerAnswers = false;
 
     const lines = content.split('\n');
 
@@ -611,9 +613,11 @@ export class CardsService {
         }
         if (currentCard) cards.push(currentCard);
 
-        currentCard = { befuddlers: [] };
+        currentCard = { befuddlers: [], answers: [] };
         currentBefuddler = null;
         inBefuddlers = false;
+        inAnswers = false;
+        inBefuddlerAnswers = false;
 
         const match = trimmed.match(/^- (\w+): (.+)$/);
         if (match) {
@@ -632,24 +636,43 @@ export class CardsService {
           if (key === 'befuddlers' && value === '[]') {
             currentCard.befuddlers = [];
             inBefuddlers = false;
+            inAnswers = false;
           } else if (key === 'befuddlers') {
             inBefuddlers = true;
+            inAnswers = false;
+          } else if (key === 'answers' && value === '[]') {
+            currentCard.answers = [];
+            inAnswers = false;
           } else {
             (currentCard as any)[key] = this.parseValue(value);
+            inAnswers = false;
           }
         } else if (trimmed === 'befuddlers:') {
           inBefuddlers = true;
+          inAnswers = false;
+        } else if (trimmed === 'answers:') {
+          inAnswers = true;
+          currentCard.answers = [];
         }
         continue;
       }
 
+      // Card answers list item
+      if (indent === 4 && trimmed.startsWith('- ') && inAnswers && currentCard && !inBefuddlers) {
+        const value = trimmed.slice(2).trim();
+        currentCard.answers = currentCard.answers || [];
+        currentCard.answers.push(this.parseValue(value) as string);
+        continue;
+      }
+
       // New befuddler
-      if (indent === 4 && trimmed.startsWith('- ') && inBefuddlers && currentCard) {
+      if (indent === 4 && trimmed.startsWith('- ') && inBefuddlers && currentCard && !inAnswers) {
         if (currentBefuddler) {
           currentCard.befuddlers = currentCard.befuddlers || [];
           currentCard.befuddlers.push(currentBefuddler);
         }
-        currentBefuddler = { answer: '', toast: '' };
+        currentBefuddler = { answers: [], toast: '' };
+        inBefuddlerAnswers = false;
 
         const match = trimmed.match(/^- (\w+): (.+)$/);
         if (match) {
@@ -662,8 +685,26 @@ export class CardsService {
       if (indent === 6 && currentBefuddler) {
         const match = trimmed.match(/^(\w+): (.+)$/);
         if (match) {
-          (currentBefuddler as any)[match[1]] = this.parseValue(match[2]);
+          const key = match[1];
+          if (key === 'answers' && match[2] === '[]') {
+            currentBefuddler.answers = [];
+            inBefuddlerAnswers = false;
+          } else {
+            (currentBefuddler as any)[key] = this.parseValue(match[2]);
+            inBefuddlerAnswers = false;
+          }
+        } else if (trimmed === 'answers:') {
+          inBefuddlerAnswers = true;
+          currentBefuddler.answers = [];
         }
+        continue;
+      }
+
+      // Befuddler answers list item
+      if (indent === 8 && trimmed.startsWith('- ') && inBefuddlerAnswers && currentBefuddler) {
+        const value = trimmed.slice(2).trim();
+        currentBefuddler.answers = currentBefuddler.answers || [];
+        currentBefuddler.answers.push(this.parseValue(value) as string);
         continue;
       }
     }
@@ -769,12 +810,18 @@ export class CardsService {
   }
 
   private attachBefuddlers(card: any): Card {
-    const befuddlers = this.queryAll<Befuddler>(
-      'SELECT answer, toast FROM befuddlers WHERE card_id = ?',
+    const rawBefuddlers = this.queryAll<{ answers: string; toast: string }>(
+      'SELECT answers, toast FROM befuddlers WHERE card_id = ?',
       [card.id]
     );
+    // Parse JSON arrays for both card answers and befuddler answers
+    const befuddlers: Befuddler[] = rawBefuddlers.map(b => ({
+      answers: JSON.parse(b.answers),
+      toast: b.toast
+    }));
     return {
       ...card,
+      answers: JSON.parse(card.answers),
       strokeCount: card.stroke_count,
       befuddlers
     };
@@ -827,7 +874,12 @@ export class CardsService {
   }
 
   getCardByAnswer(answer: string): Card | undefined {
-    const card = this.queryOne<any>('SELECT * FROM cards WHERE answer = ?', [answer]);
+    // Search for cards where the answers array contains the given answer
+    // Using LIKE since SQLite doesn't have native JSON array search
+    const card = this.queryOne<any>(
+      `SELECT * FROM cards WHERE answers LIKE ?`,
+      [`%"${answer}"%`]
+    );
     if (!card) return undefined;
     return this.attachBefuddlers(card);
   }
@@ -989,7 +1041,11 @@ export class CardsService {
   }
 
   getStrokeCount(answer: string): number {
-    const card = this.queryOne<any>('SELECT stroke_count FROM cards WHERE answer = ?', [answer]);
+    // Search for cards where the answers array contains the given answer
+    const card = this.queryOne<any>(
+      `SELECT stroke_count FROM cards WHERE answers LIKE ?`,
+      [`%"${answer}"%`]
+    );
     return card?.stroke_count ?? 0;
   }
 

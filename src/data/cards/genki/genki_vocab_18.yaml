@@ -1,6 +1,7 @@
 - id: g-18-akarui
   prompt: bright
-  answer: 明るい
+  answers:
+    - 明るい
   hint: akarui — bright/light (e.g., 明るい部屋 = a bright room); also means cheerful
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -19,7 +20,8 @@
       This is the opposite meaning.
 - id: g-18-hiraku
   prompt: (something) opens
-  answer: 開く
+  answers:
+    - 開く
   hint: 'aku — intransitive: a door/window/store opens (no direct object). Also: ひらく
     (same kanji, different reading).'
   stage: -1
@@ -39,7 +41,8 @@
       Used for morning/daybreak rather than something physically opening.
 - id: g-18-ato
   prompt: the rest
-  answer: 後
+  answers:
+    - 後
   hint: ato — also used for “after/later” (e.g., 後で)
   strokeCount: 9
   stage: -1
@@ -59,7 +62,8 @@
       It has an extra complex right-side structure compared to this prompt’s simpler form.
 - id: g-18-ayamaru
   prompt: to apologize
-  answer: 謝る
+  answers:
+    - 謝る
   hint: ayamaru — say "謝(sha)" = apology/thanks; often used as ～に謝る (apologize to
     someone)
   stage: -1
@@ -79,7 +83,8 @@
       The prompt expects a plain verb form.
 - id: g-18-ijou
   prompt: '... or more (at least ~)'
-  answer: ～以上
+  answers:
+    - ～以上
   hint: 'ijou — attach to a number/time: 3人以上 = 3 people or more; 18歳以上 = age 18+'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -98,7 +103,8 @@
       It means up to a limit (often time/distance), not "or more".
 - id: g-18-imasugu
   prompt: right away
-  answer: 今すぐ
+  answers:
+    - 今すぐ
   hint: imasugu — means “immediately/at once”; often used with commands (e.g., 今すぐ来て).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -117,7 +123,8 @@
       This prompt is for the common everyday expression.
 - id: g-18-okage
   prompt: thanks to . . .
-  answer: おかげで
+  answers:
+    - おかげで
   hint: okage de — expresses a positive result due to someone/something (often polite,
     e.g., おかげで助かりました).
   stage: -1
@@ -137,7 +144,8 @@
       It doesn’t specifically carry the thankful/beneficial nuance.
 - id: g-18-osaki
   prompt: See you. (lit., I’m leaving ahead of you.)
-  answer: お先に失礼します
+  answers:
+    - お先に失礼します
   hint: osaki ni shitsurei shimasu - said when you leave earlier than others (at work/meetings).
     Polite set phrase.
   stage: -1
@@ -157,7 +165,8 @@
       The prompt calls for a fixed polite expression used in group settings.
 - id: g-18-osu
   prompt: to press; to push
-  answer: 押す
+  answers:
+    - 押す
   hint: osu — often used for pressing buttons or pushing something forward (e.g.,
     ボタンを押す).
   stage: -1
@@ -177,7 +186,8 @@
       This is the opposite direction of pushing.
 - id: g-18-ochiru
   prompt: (something) drops
-  answer: 落ちる
+  answers:
+    - 落ちる
   hint: 'ochiru — intransitive ru-verb: something falls/drops (e.g., 落ちる = fall);
     use 落とす for “to drop (something)”'
   stage: -1
@@ -197,7 +207,8 @@
       Used for getting off a vehicle or going down stairs, not dropping/falling.
 - id: g-18-otsukare
   prompt: You must be tired after working so hard. (greeting between friends and coworkers)
-  answer: お疲れ様（でした）
+  answers:
+    - お疲れ様（でした）
   hint: otsukaresama (deshita) — phrase said after work/effort; add でした for polite
     past (e.g., leaving the office).
   stage: -1
@@ -217,7 +228,8 @@
       Write it as a fixed past-polite form.
 - id: g-18-otosu
   prompt: to drop (something)
-  answer: 落とす
+  answers:
+    - 落とす
   hint: 'otosu (落とす) - transitive: to drop something / to let something fall (often
     accidental)'
   stage: -1
@@ -237,7 +249,8 @@
       It’s about bringing something down on purpose, not dropping it.
 - id: g-18-yuwaku
   prompt: water boils
-  answer: お湯が沸く
+  answers:
+    - お湯が沸く
   hint: oyu ga waku — used for water/hot water reaching a boil (intransitive). Often
     with やかん/鍋.
   stage: -1
@@ -257,7 +270,8 @@
       This is "to spring up/gush" (like hot water from a spring), not boiling.
 - id: g-18-katazu
   prompt: to tidy up
-  answer: 片付ける
+  answers:
+    - 片付ける
   hint: katazukeru — to tidy/put things away (clean up mess/clutter)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -276,7 +290,8 @@
       The prompt expects the standard kanji form.
 - id: g-18-katei
   prompt: tutor
-  answer: 家庭教師
+  answers:
+    - 家庭教師
   hint: kateikyoushi — a private/home tutor (esp. for school subjects)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -295,7 +310,8 @@
       This is different from tutoring one-on-one at a student's home.
 - id: g-18-kangae
   prompt: to think (about); to consider
-  answer: 考える
+  answers:
+    - 考える
   hint: kangaeru (ru-verb) — thinking through something logically; e.g., よく考える = think
     carefully
   stage: -1
@@ -315,7 +331,8 @@
       The prompt is asking for the dictionary-form verb.
 - id: g-18-kieru
   prompt: (something) goes off
-  answer: 消える
+  answers:
+    - 消える
   hint: 'kieru — intransitive: something disappears/goes out (e.g., 電気が消える).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -334,7 +351,8 @@
       Different meaning: about seeing, not disappearing/going out.
 - id: g-18-kurai
   prompt: dark
-  answer: 暗い
+  answers:
+    - 暗い
   hint: kurai — い-adj meaning “dark (not bright)”; e.g., 部屋が暗い
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -353,7 +371,8 @@
       The prompt expects the kanji form when available.
 - id: g-18-keitai
   prompt: cell phone
-  answer: 携帯（電話）
+  answers:
+    - 携帯（電話）
   hint: keitai (denwa) — common shorthand is 携帯 (cell phone); 電話 adds “telephone”
     nuance.
   stage: -1
@@ -373,7 +392,8 @@
       This one is broader and not specifically a mobile phone.
 - id: g-18-korobu
   prompt: to fall down
-  answer: 転ぶ
+  answers:
+    - 転ぶ
   hint: 'korobu — intransitive: to fall over/down (e.g., 転んだ)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -392,7 +412,8 @@
       It focuses on losing footing, not the actual falling down.
 - id: g-18-kowasu
   prompt: to break (something)
-  answer: 壊す
+  answers:
+    - 壊す
   hint: 'kowasu — transitive: break something (壊れる is intransitive: something breaks)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -411,7 +432,8 @@
       This prompt is for breaking a physical object.
 - id: g-18-kowareru
   prompt: (something) breaks
-  answer: 壊れる
+  answers:
+    - 壊れる
   hint: kowareru — intransitive (something breaks by itself; e.g., 機械が壊れる)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -430,7 +452,8 @@
       It’s used for things breaking by folding or snapping.
 - id: g-18-saku
   prompt: to bloom
-  answer: 咲く
+  answers:
+    - 咲く
   hint: saku — used for flowers blooming (e.g., 花が咲く). Kanji 咲 has the 口 radical.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -449,7 +472,8 @@
       The prompt expects the full verb form with okurigana.
 - id: g-18-sakura
   prompt: cherry blossom
-  answer: 桜
+  answers:
+    - 桜
   hint: さくら (sakura) — 10 strokes
   strokeCount: 10
   stage: -1
@@ -469,7 +493,8 @@
       Similar spring flower topic, but the kanji structure differs.
 - id: g-18-shitashii
   prompt: close; intimate
-  answer: 親しい
+  answers:
+    - 親しい
   hint: shitashii — used for a close relationship (e.g., 親しい友だち).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -488,7 +513,8 @@
       Same first kanji, but this one is about being helpful, not being close with someone.
 - id: g-18-shimaru
   prompt: (something) closes
-  answer: 閉まる
+  answers:
+    - 閉まる
   hint: 'shimaru — intransitive: a door/window/store closes by itself (contrast: 閉める
     = to close something)'
   stage: -1
@@ -508,7 +534,8 @@
       Not used for doors/windows closing.
 - id: g-18-shunyuu
   prompt: income
-  answer: 収入
+  answers:
+    - 収入
   hint: shuunyuu — money that comes in (e.g., 月収 = monthly income)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -527,7 +554,8 @@
       This is a formal term often used in legal/tax contexts.
 - id: g-18-shoyu
   prompt: soy sauce
-  answer: しょう油
+  answers:
+    - しょう油
   hint: shouyu — common seasoning; often written in kana as しょうゆ
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -546,7 +574,8 @@
       A paste used in soups/sauces, not the liquid condiment.
 - id: g-18-shokuhi
   prompt: cost of food
-  answer: 食費
+  answers:
+    - 食費
   hint: shokuhi — expenses for food/groceries (part of living costs, e.g., 家計の食費)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -565,7 +594,8 @@
       This pattern is "X + expense", but the X is different.
 - id: g-18-joshigaku
   prompt: female student
-  answer: 女子学生
+  answers:
+    - 女子学生
   hint: joshigakusei — 女子 (girls/female) + 学生 (student). Often used for school/university
     students.
   stage: -1
@@ -585,7 +615,8 @@
       Watch the first kanji: 男 vs the female-related kanji.
 - id: g-18-switch
   prompt: switch
-  answer: スイッチ
+  answers:
+    - スイッチ
   hint: 'suicchi - katakana for a device switch (電気のスイッチ). Small ッ indicates a doubled
     consonant: スイ(ッ)チ.'
   stage: -1
@@ -605,7 +636,8 @@
       This changes the pronunciation length and isn't used for this word.
 - id: g-18-soup
   prompt: soup
-  answer: スープ
+  answers:
+    - スープ
   hint: suupu (katakana) — long vowel mark 「ー」 stretches the sound
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -624,7 +656,8 @@
       It has an extra 「パー」 sound at the end.
 - id: g-18-skirt
   prompt: skirt
-  answer: スカート
+  answers:
+    - スカート
   hint: sukāto (skirt; loanword). Use a long vowel mark 「ー」 after カ.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -643,7 +676,8 @@
       The prompt expects the katakana loanword form.
 - id: g-18-yutori
   prompt: extra money to spare for the cost of living
-  answer: 生活のゆとり
+  answers:
+    - 生活のゆとり
   hint: seikatsu no yutori — “ゆとり” = financial/mental breathing room; often used like
     生活のゆとりがある/ない
   stage: -1
@@ -663,7 +697,8 @@
       The prompt is a specific noun phrase about one's standard of living.
 - id: g-18-seikatsuhi
   prompt: the cost of living
-  answer: 生活費
+  answers:
+    - 生活費
   hint: seikatsuhi — 生活 (daily life) + 費 (expense/cost); often used like 生活費がかかる (living
     expenses add up)
   stage: -1
@@ -683,7 +718,8 @@
       It’s costs related to education, not everyday living.
 - id: g-18-soto
   prompt: outside
-  answer: 外
+  answers:
+    - 外
   hint: soto (outside); 5 strokes
   strokeCount: 5
   stage: -1
@@ -703,7 +739,8 @@
       The target adds extra parts beyond this basic shape.
 - id: g-18-sofa
   prompt: sofa
-  answer: ソファ
+  answers:
+    - ソファ
   hint: 'sofa (katakana loanword). Watch the small ァ after フ: ファ = fa.'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -722,7 +759,8 @@
       Check the middle character: it's フ, not ー.
 - id: g-18-taisetsu
   prompt: precious; important
-  answer: 大切
+  answers:
+    - 大切
   hint: |-
     taisetsu(na) — な-adj.
     Often used in: 大切な人 (important person), 大切にする (to treasure/take good care of)
@@ -743,7 +781,8 @@
       Write the "big" component first, then the "cut/close" component.
 - id: g-18-towel
   prompt: towel
-  answer: タオル
+  answers:
+    - タオル
   hint: |-
     taoru (katakana loanword)
     Watch the long vertical stroke in オ and the loop in ル.
@@ -764,7 +803,8 @@
       Make sure the final character is katakana, not kanji.
 - id: g-18-tasukaru
   prompt: to be saved; to be helped
-  answer: 助かる
+  answers:
+    - 助かる
   hint: 'tasukaru — intransitive (something/someone helps you): e.g., 助かりました = “That
     saved me / Thanks, that helped.”'
   stage: -1
@@ -784,7 +824,8 @@
       The prompt is about being helped/saved (by someone or something), not recovery from illness.
 - id: g-18-tanomu
   prompt: to ask (a favor)
-  answer: 頼む
+  answers:
+    - 頼む
   hint: tanomu (頼む) — to request a favor/ask someone to do something (e.g., 〜てくださいと頼む)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -803,7 +844,8 @@
       Different meaning and different kanji.
 - id: g-18-darou
   prompt: short form of ～（ん）でしょう
-  answer: ～（ん）だろう
+  answers:
+    - ～（ん）だろう
   hint: n darou - casual conjecture/guess ("probably...", "I wonder..."). Often used
     as ～んだろう in speech.
   stage: -1
@@ -823,7 +865,8 @@
       This one states something rather than expressing a guess.
 - id: g-18-danshi
   prompt: male student
-  answer: 男子学生
+  answers:
+    - 男子学生
   hint: danshi gakusei (male student); 男子 = male/boys, 学生 = student
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -842,7 +885,8 @@
       The usual word uses "boys" + "student" as a set phrase.
 - id: g-18-chikar
   prompt: physical labor (such as construction)
-  answer: 力仕事
+  answers:
+    - 力仕事
   hint: chikara-shigoto — manual/physical work; often used for jobs requiring strength
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -861,7 +905,8 @@
       This one emphasizes heaviness/harshness more strongly.
 - id: g-18-chumon
   prompt: to place an order
-  answer: 注文する
+  answers:
+    - 注文する
   hint: chuumon suru — used when ordering food/drinks or making a purchase order (e.g.,
     レストランで注文する)
   stage: -1
@@ -881,7 +926,8 @@
       The prompt needs the verb form ending with する.
 - id: g-18-chokin
   prompt: to deposit money (in a bank)
-  answer: 貯金する
+  answers:
+    - 貯金する
   hint: 'chokin suru — to save/deposit money (often in a bank); noun: 貯金 (ちょきん)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -900,7 +946,8 @@
       It’s broader and not specifically about saving.
 - id: g-18-tsuku
   prompt: (something) turns on
-  answer: つく
+  answers:
+    - つく
   hint: tsuku — e.g., 電気がつく (the light turns on); intransitive (something turns on
     by itself)
   stage: -1
@@ -920,7 +967,8 @@
       Watch out for the extra る at the end.
 - id: g-18-doushiyo
   prompt: What should I/we do?
-  answer: どうしよう
+  answers:
+    - どうしよう
   hint: doushiyou — casual expression of indecision (often said when you’re stuck).
     Also appears as どうしようか.
   stage: -1
@@ -940,7 +988,8 @@
       It’s not asking what to do—it's saying there’s no solution.
 - id: g-18-hajime
   prompt: at first
-  answer: 初めは
+  answers:
+    - 初めは
   hint: hajime wa — used to contrast an initial state with what happens later (e.g.,
     初めは難しいけど…).
   stage: -1
@@ -960,7 +1009,8 @@
       This one is often used for ordering steps ("First, ...").
 - id: g-18-hazuka
   prompt: embarrassing; to feel embarrassed
-  answer: 恥ずかしい
+  answers:
+    - 恥ずかしい
   hint: hazukashii — used for feeling embarrassed/shy (e.g., 人前で話すのが恥ずかしい).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -979,7 +1029,8 @@
       This adjective needs the full -い ending to be natural.
 - id: g-18-banana
   prompt: banana
-  answer: バナナ
+  answers:
+    - バナナ
   hint: banana (katakana) — use katakana for loanwords/food names
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -998,7 +1049,8 @@
       Make sure you write all characters for the full word.
 - id: g-18-hikkoshi
   prompt: moving
-  answer: 引っ越し
+  answers:
+    - 引っ越し
   hint: 'hikkoshi — relocation/house move; often used with する: 引っ越しする'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1017,7 +1069,8 @@
       Be careful with the double consonant in the middle.
 - id: g-18-popcorn
   prompt: popcorn
-  answer: ポップコーン
+  answers:
+    - ポップコーン
   hint: 'poppukōn (katakana loanword). Long vowel: コー = “kō”. Small ッ makes a pause
     (pp).'
   stage: -1
@@ -1037,7 +1090,8 @@
       small ッ (not big ツ) and ー (not 一).
 - id: g-18-maitsuki
   prompt: every month
-  answer: 毎月
+  answers:
+    - 毎月
   hint: maitsuki — e.g., 毎月一回 (once every month); 毎=every, 月=month
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1056,7 +1110,8 @@
       Different nuance and uses repetition.
 - id: g-18-miman
   prompt: less than . . . (under; below)
-  answer: ～未満
+  answers:
+    - ～未満
   hint: 'miman — suffix meaning “less than X” (often for numbers/amounts). Example:
     18歳未満 = under 18.'
   stage: -1
@@ -1076,7 +1131,8 @@
       Be careful about whether you need the standalone suffix or the noun-modifying form.
 - id: g-18-mushi
   prompt: insect
-  answer: 虫
+  answers:
+    - 虫
   hint: 'mushi — 6 strokes; meaning: insect/bug'
   strokeCount: 6
   stage: -1
@@ -1096,7 +1152,8 @@
       The bottom shape differs: this one has a dish-like form, not the enclosed box structure.
 - id: g-18-muri
   prompt: impossible
-  answer: 無理
+  answers:
+    - 無理
   hint: muri (na-adj.) — “no way/too difficult”; often used as 「無理だ」 or 「無理しないで」 (don’t
     overdo it)
   stage: -1
@@ -1116,7 +1173,8 @@
       Different meaning: choosing a cautious option, not saying something can’t be done.
 - id: g-18-mokuteki
   prompt: object; purpose
-  answer: 目的
+  answers:
+    - 目的
   hint: mokuteki — often used in 〜のために (for the purpose of ~)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1135,7 +1193,8 @@
       This one is a list of sections in a book (目 + 次).
 - id: g-18-yachin
   prompt: rent
-  answer: 家賃
+  answers:
+    - 家賃
   hint: yachin — monthly rent (esp. for housing). Often used as 家賃を払う (to pay rent).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1154,7 +1213,8 @@
       A person, not the money you pay.
 - id: g-18-yugata
   prompt: evening
-  answer: 夕方
+  answers:
+    - 夕方
   hint: yuugata — early evening/dusk; common in phrases like 夕方に (in the evening)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1173,7 +1233,8 @@
       This one is the early-morning time period, not the late day.
 - id: g-18-youfuku
   prompt: clothes
-  answer: 洋服
+  answers:
+    - 洋服
   hint: 'youfuku — Western-style clothes (contrast: 衣服 = clothing in general, 和服 =
     Japanese clothing)'
   stage: -1
@@ -1193,7 +1254,8 @@
       This one uses a different kanji for "clothing" and is often broader in meaning.
 - id: g-18-yogosu
   prompt: to make dirty
-  answer: 汚す
+  answers:
+    - 汚す
   hint: 'yogosu — transitive: 汚す (make something dirty). Intransitive pair: 汚れる (to
     get dirty).'
   stage: -1
@@ -1213,7 +1275,8 @@
       It’s about removing dirt, not causing it.
 - id: g-18-yogoreru
   prompt: to become dirty
-  answer: 汚れる
+  answers:
+    - 汚れる
   hint: 'yogoreru (ru-verb) — intransitive: something gets dirty (vs 汚す to make dirty)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1232,7 +1295,8 @@
       The prompt needs the full verb form.
 - id: g-18-reizou
   prompt: refrigerator
-  answer: 冷蔵庫
+  answers:
+    - 冷蔵庫
   hint: reizōko (れいぞうこ) — 冷=cold, 蔵=store, 庫=warehouse; common in 「冷蔵庫に入れる」
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1251,7 +1315,8 @@
       It heats food quickly rather than keeping it cold.
 - id: g-18-rousoku
   prompt: candle
-  answer: ろうそく
+  answers:
+    - ろうそく
   hint: rousoku — often written as 蝋燭; long vowel ろう (not ろ).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1270,7 +1335,8 @@
       The prompt expects hiragana, which is rounder and more flowing.
 - id: g-18-oneroom
   prompt: studio apartment
-  answer: ワンルームマンション
+  answers:
+    - ワンルームマンション
   hint: wan rūmu manshon (katakana loanword). Refers to a one-room (combined bedroom/living)
     apartment, often in a small apartment building.
   stage: -1

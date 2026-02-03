@@ -161,7 +161,7 @@ Lesson methods:
 interface Card {
   id: string;
   prompt: string;        // "A (Hiragana)"
-  answer: string;        // "あ"
+  answers: string[];     // ["あ"] - list of valid answers (first is primary)
   hint?: string;         // "3 strokes"
   strokeCount?: number;  // Expected stroke count for feedback
   stage: number;         // -1 = unavailable, 0 = unlocked, 1-15 = SRS stages
@@ -171,7 +171,7 @@ interface Card {
 }
 
 interface Befuddler {
-  answer: string;        // "ア" (wrong answer)
+  answers: string[];     // ["ア"] - list of wrong answers that trigger this befuddler
   toast: string;         // "That's katakana!\n..." (no spoilers)
 }
 
@@ -246,14 +246,28 @@ Defined in `src/data/stages.yaml`. When a card is answered correctly, it advance
 ```yaml
 - id: h-a
   prompt: "A (Hiragana)"
-  answer: "あ"
+  answers:                               # List of valid answers (first is primary)
+    - "あ"
   hint: "3 strokes"
   strokeCount: 3
   stage: -1                              # -1 = locked until lesson unlocked
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "ア"
+    - answers:                           # List of wrong answers that trigger this
+        - "ア"
       toast: "That's katakana!\nThe prompt asks for hiragana, which is curvy."
+```
+
+**Multi-answer cards** (e.g., kanji with multiple readings):
+```yaml
+- id: k-ichi
+  prompt: "One (Kanji)"
+  answers:
+    - "一"
+    - "いち"                             # Hiragana reading also accepted
+  hint: "1 stroke"
+  strokeCount: 1
+  stage: -1
 ```
 
 ### YAML Manifest Format
@@ -309,11 +323,15 @@ ids:
 4. POST to Google Input Tools API
 5. Response parsed → returns array of `{character, score}` candidates
 6. Result logic (whitespace-normalized comparison):
-   - If answer in top 5 → correct (◯), advance card via SRS, check for lesson unlocks, load new card
-   - If befuddler in top 5 → befuddled (？), show toast, retry same card
+   - If ANY valid answer from answers[] is in top 5 → correct (◯), advance card via SRS, check for lesson unlocks, load new card
+   - If ANY befuddler answer is in top 5 → befuddled (？), show toast, retry same card
    - Otherwise → wrong (✕), load new card
 
 **Grading normalization**: All comparisons strip whitespace/newlines from both API results and card answers using `.replace(/\s+/g, '')`. This handles any extra whitespace in YAML data or API responses.
+
+**Kana fuzzy matching**: Small kana (っ, ゃ, ゅ, ょ, etc.) are treated as equivalent to their big counterparts (つ, や, ゆ, よ, etc.) during grading. This handles cases where the API returns big kana when the user writes small kana. Works for both hiragana and katakana.
+
+**Multi-answer support**: Cards can have multiple valid answers (e.g., kanji + hiragana reading). The system accepts ANY answer from the answers[] list. The first answer is used as the primary display character.
 
 ### Character Segmentation (Multi-Character Words)
 
@@ -376,17 +394,22 @@ After gap detection, enforces that no cell is >2x larger than any other:
 - Punctuation filter: `/^[\p{P}\p{S}\p{M}]$/u` (Unicode categories)
 
 **Backwards Grading:**
-For multi-character cards, grading works backwards from the expected answer:
-1. Split target answer into characters using Unicode-safe `[...answer]`
+For multi-character cards, grading works backwards from the expected answers:
+1. For each valid answer in answers[], split into characters using Unicode-safe `[...answer]`
 2. Check if each character appears in the corresponding cell's top 5 candidates
-3. All characters must match for correct (◯)
-4. Befuddlers use same logic - if any befuddler's characters all match, show befuddled (？)
+3. If ANY answer fully matches → correct (◯)
+4. Befuddlers use same logic - if any befuddler answer fully matches cells, show befuddled (？)
 
 ```typescript
-// Example: target "たべる" (3 chars), 3 cells with results
-const isCorrect = targetChars.every((char, idx) => {
-  const cellCandidates = batchResults[idx].slice(0, 5).map(r => r.character);
-  return cellCandidates.includes(char);
+// Example: target answers ["たべる", "食べる"], 3 cells with results
+const isCorrect = normalizedAnswers.some(target => {
+  const targetChars = [...target];
+  if (targetChars.length !== batchResults.length) return false;
+  return targetChars.every((char, idx) => {
+    const cellCandidates = batchResults[idx].slice(0, 5).map(r => r.character);
+    // kanaMatch handles small/big kana equivalence (っ ↔ つ, etc.)
+    return cellCandidates.some(candidate => this.kanaMatch(char, candidate));
+  });
 });
 ```
 

@@ -1,975 +1,1214 @@
 - id: h-a
   prompt: "A (Hiragana)"
-  answer: "あ"
+  answers:
+    - "あ"
   hint: "3 strokes"
   strokeCount: 3
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "ア"
+    - answers:
+        - "ア"
       toast: "That's katakana!\nThe prompt asks for hiragana, which is curvy."
-    - answer: "お"
+    - answers:
+        - "お"
       toast: "That's \"O\", not \"A\"!\nLook at the right side - this one has a loop."
 
 - id: h-i
   prompt: "I (Hiragana)"
-  answer: "い"
+  answers:
+    - "い"
   hint: "2 strokes"
   strokeCount: 2
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "イ"
+    - answers:
+        - "イ"
       toast: "That's katakana!\nThe prompt asks for hiragana, which is curvy."
-    - answer: "り"
+    - answers:
+        - "り"
       toast: "That's \"RI\"!\nThis one has connected strokes."
 
 - id: h-u
   prompt: "U (Hiragana)"
-  answer: "う"
+  answers:
+    - "う"
   hint: "2 strokes"
   strokeCount: 2
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "ウ"
+    - answers:
+        - "ウ"
       toast: "That's katakana!\nThe prompt asks for hiragana, which is curvy."
 
 - id: h-e
   prompt: "E (Hiragana)"
-  answer: "え"
+  answers:
+    - "え"
   hint: "2 strokes"
   strokeCount: 2
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "エ"
+    - answers:
+        - "エ"
       toast: "That's katakana!\nThe prompt asks for hiragana, which is curvy."
-    - answer: "ん"
+    - answers:
+        - "ん"
       toast: "That's \"N\"!\nThis one curves smoothly without a top line."
 
 - id: h-o
   prompt: "O (Hiragana)"
-  answer: "お"
+  answers:
+    - "お"
   hint: "3 strokes"
   strokeCount: 3
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "オ"
+    - answers:
+        - "オ"
       toast: "That's katakana!\nThe prompt asks for hiragana, which is curvy."
-    - answer: "あ"
+    - answers:
+        - "あ"
       toast: "That's \"A\", not \"O\"!\nThis one has a more open shape without the loop."
 
 - id: h-ka
   prompt: "Ka (Hiragana)"
-  answer: "か"
+  answers:
+    - "か"
   hint: "3 strokes"
   strokeCount: 3
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "カ"
+    - answers:
+        - "カ"
       toast: "That's katakana!\nThe prompt asks for hiragana, which is curvy."
-    - answer: "が"
+    - answers:
+        - "が"
       toast: "That's \"GA\"!\nThis one has dakuten (゛) marks."
 
 - id: h-ki
   prompt: "Ki (Hiragana)"
-  answer: "き"
+  answers:
+    - "き"
   hint: "4 strokes"
   strokeCount: 4
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "キ"
+    - answers:
+        - "キ"
       toast: "That's katakana!\nThe prompt asks for hiragana, which is curvy."
-    - answer: "ぎ"
+    - answers:
+        - "ぎ"
       toast: "That's \"Gi\" with dakuten!\nThe prompt asks for \"Ki\" without the marks."
-    - answer: "さ"
+    - answers:
+        - "さ"
       toast: "That's \"Sa\"!\nThis one has a simpler top."
 
 - id: h-ku
   prompt: "Ku (Hiragana)"
-  answer: "く"
+  answers:
+    - "く"
   hint: "1 stroke"
   strokeCount: 1
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "ク"
+    - answers:
+        - "ク"
       toast: "That's katakana!\nThe prompt asks for hiragana, which is curvy."
-    - answer: "ぐ"
+    - answers:
+        - "ぐ"
       toast: "That's \"Gu\" with dakuten!\nThe prompt asks for \"Ku\" without the marks."
-    - answer: "へ"
+    - answers:
+        - "へ"
       toast: "That's \"He\"!\nThis one is more horizontal."
 
 - id: h-ke
   prompt: "Ke (Hiragana)"
-  answer: "け"
+  answers:
+    - "け"
   hint: "3 strokes"
   strokeCount: 3
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "ケ"
+    - answers:
+        - "ケ"
       toast: "That's katakana!\nThe prompt asks for hiragana, which is curvy."
-    - answer: "げ"
+    - answers:
+        - "げ"
       toast: "That's \"Ge\" with dakuten!\nThe prompt asks for \"Ke\" without the marks."
-    - answer: "は"
+    - answers:
+        - "は"
       toast: "That's \"Ha\"!\nThis one has a loop on the right."
 
 - id: h-ko
   prompt: "Ko (Hiragana)"
-  answer: "こ"
+  answers:
+    - "こ"
   hint: "2 strokes"
   strokeCount: 2
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "コ"
+    - answers:
+        - "コ"
       toast: "That's katakana!\nThe prompt asks for hiragana, which is curvy."
-    - answer: "ご"
+    - answers:
+        - "ご"
       toast: "That's \"Go\" with dakuten!\nThe prompt asks for \"Ko\" without the marks."
-    - answer: "に"
+    - answers:
+        - "に"
       toast: "That's \"Ni\"!\nThis one has a vertical stroke on the left."
 
 - id: h-sa
   prompt: "Sa (Hiragana)"
-  answer: "さ"
+  answers:
+    - "さ"
   hint: "3 strokes"
   strokeCount: 3
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "サ"
+    - answers:
+        - "サ"
       toast: "That's katakana!\nThe prompt asks for hiragana, which is curvy."
-    - answer: "ざ"
+    - answers:
+        - "ざ"
       toast: "That's \"Za\" with dakuten!\nThe prompt asks for \"Sa\" without the marks."
-    - answer: "き"
+    - answers:
+        - "き"
       toast: "That's \"Ki\"!\nThis one has an extra horizontal stroke."
 
 - id: h-shi
   prompt: "Shi (Hiragana)"
-  answer: "し"
+  answers:
+    - "し"
   hint: "1 stroke"
   strokeCount: 1
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "シ"
+    - answers:
+        - "シ"
       toast: "That's katakana!\nThe prompt asks for hiragana, which is curvy."
-    - answer: "じ"
+    - answers:
+        - "じ"
       toast: "That's \"Ji\" with dakuten!\nThe prompt asks for \"Shi\" without the marks."
-    - answer: "つ"
+    - answers:
+        - "つ"
       toast: "That's \"Tsu\"!\nThis one curves horizontally."
 
 - id: h-su
   prompt: "Su (Hiragana)"
-  answer: "す"
+  answers:
+    - "す"
   hint: "2 strokes"
   strokeCount: 2
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "ス"
+    - answers:
+        - "ス"
       toast: "That's katakana!\nThe prompt asks for hiragana, which is curvy."
-    - answer: "ず"
+    - answers:
+        - "ず"
       toast: "That's \"Zu\" with dakuten!\nThe prompt asks for \"Su\" without the marks."
-    - answer: "む"
+    - answers:
+        - "む"
       toast: "That's \"Mu\"!\nThis one has a loop at the bottom."
 
 - id: h-se
   prompt: "Se (Hiragana)"
-  answer: "せ"
+  answers:
+    - "せ"
   hint: "3 strokes"
   strokeCount: 3
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "セ"
+    - answers:
+        - "セ"
       toast: "That's katakana!\nThe prompt asks for hiragana, which is curvy."
-    - answer: "ぜ"
+    - answers:
+        - "ぜ"
       toast: "That's \"Ze\" with dakuten!\nThe prompt asks for \"Se\" without the marks."
 
 - id: h-so
   prompt: "So (Hiragana)"
-  answer: "そ"
+  answers:
+    - "そ"
   hint: "1 stroke"
   strokeCount: 1
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "ソ"
+    - answers:
+        - "ソ"
       toast: "That's katakana!\nThe prompt asks for hiragana, which is curvy."
-    - answer: "ぞ"
+    - answers:
+        - "ぞ"
       toast: "That's \"Zo\" with dakuten!\nThe prompt asks for \"So\" without the marks."
-    - answer: "ん"
+    - answers:
+        - "ん"
       toast: "That's \"N\"!\nThis one curves differently at the end."
 
 - id: h-ta
   prompt: "Ta (Hiragana)"
-  answer: "た"
+  answers:
+    - "た"
   hint: "4 strokes"
   strokeCount: 4
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "タ"
+    - answers:
+        - "タ"
       toast: "That's katakana!\nThe prompt asks for hiragana, which is curvy."
-    - answer: "だ"
+    - answers:
+        - "だ"
       toast: "That's \"Da\" with dakuten!\nThe prompt asks for \"Ta\" without the marks."
-    - answer: "な"
+    - answers:
+        - "な"
       toast: "That's \"Na\"!\nThis one has a different right side."
 
 - id: h-chi
   prompt: "Chi (Hiragana)"
-  answer: "ち"
+  answers:
+    - "ち"
   hint: "2 strokes"
   strokeCount: 2
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "チ"
+    - answers:
+        - "チ"
       toast: "That's katakana!\nThe prompt asks for hiragana, which is curvy."
-    - answer: "ぢ"
+    - answers:
+        - "ぢ"
       toast: "That's \"Di\" with dakuten!\nThe prompt asks for \"Chi\" without the marks."
-    - answer: "さ"
+    - answers:
+        - "さ"
       toast: "That's \"Sa\"!\nThis one has a longer top."
 
 - id: h-tsu
   prompt: "Tsu (Hiragana)"
-  answer: "つ"
+  answers:
+    - "つ"
   hint: "1 stroke"
   strokeCount: 1
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "ツ"
+    - answers:
+        - "ツ"
       toast: "That's katakana!\nThe prompt asks for hiragana, which is curvy."
-    - answer: "づ"
+    - answers:
+        - "づ"
       toast: "That's \"Du\" with dakuten!\nThe prompt asks for \"Tsu\" without the marks."
-    - answer: "し"
+    - answers:
+        - "し"
       toast: "That's \"Shi\"!\nThis one curves vertically."
 
 - id: h-te
   prompt: "Te (Hiragana)"
-  answer: "て"
+  answers:
+    - "て"
   hint: "1 stroke"
   strokeCount: 1
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "テ"
+    - answers:
+        - "テ"
       toast: "That's katakana!\nThe prompt asks for hiragana, which is curvy."
-    - answer: "で"
+    - answers:
+        - "で"
       toast: "That's \"De\" with dakuten!\nThe prompt asks for \"Te\" without the marks."
 
 - id: h-to
   prompt: "To (Hiragana)"
-  answer: "と"
+  answers:
+    - "と"
   hint: "2 strokes"
   strokeCount: 2
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "ト"
+    - answers:
+        - "ト"
       toast: "That's katakana!\nThe prompt asks for hiragana, which is curvy."
-    - answer: "ど"
+    - answers:
+        - "ど"
       toast: "That's \"Do\" with dakuten!\nThe prompt asks for \"To\" without the marks."
 
 - id: h-na
   prompt: "Na (Hiragana)"
-  answer: "な"
+  answers:
+    - "な"
   hint: "4 strokes"
   strokeCount: 4
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "ナ"
+    - answers:
+        - "ナ"
       toast: "That's katakana!\nThe prompt asks for hiragana, which is curvy."
-    - answer: "た"
+    - answers:
+        - "た"
       toast: "That's \"TA\"!\nThis one has a different right side."
 
 - id: h-ni
   prompt: "Ni (Hiragana)"
-  answer: "に"
+  answers:
+    - "に"
   hint: "3 strokes"
   strokeCount: 3
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "ニ"
+    - answers:
+        - "ニ"
       toast: "That's katakana!\nThe prompt asks for hiragana, which is curvy."
-    - answer: "こ"
+    - answers:
+        - "こ"
       toast: "That's \"KO\"!\nThis one has no vertical stroke."
 
 - id: h-nu
   prompt: "Nu (Hiragana)"
-  answer: "ぬ"
+  answers:
+    - "ぬ"
   hint: "2 strokes"
   strokeCount: 2
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "ヌ"
+    - answers:
+        - "ヌ"
       toast: "That's katakana!\nThe prompt asks for hiragana, which is curvy."
-    - answer: "め"
+    - answers:
+        - "め"
       toast: "That's \"ME\"!\nThis one has no loop at the end."
 
 - id: h-ne
   prompt: "Ne (Hiragana)"
-  answer: "ね"
+  answers:
+    - "ね"
   hint: "2 strokes"
   strokeCount: 2
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "ネ"
+    - answers:
+        - "ネ"
       toast: "That's katakana!\nThe prompt asks for hiragana, which is curvy."
-    - answer: "れ"
+    - answers:
+        - "れ"
       toast: "That's \"RE\"!\nThis one has no loop."
 
 - id: h-no
   prompt: "No (Hiragana)"
-  answer: "の"
+  answers:
+    - "の"
   hint: "1 stroke"
   strokeCount: 1
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "ノ"
+    - answers:
+        - "ノ"
       toast: "That's katakana!\nThe prompt asks for hiragana, which is curvy."
 
 - id: h-ha
   prompt: "Ha (Hiragana)"
-  answer: "は"
+  answers:
+    - "は"
   hint: "3 strokes"
   strokeCount: 3
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "ハ"
+    - answers:
+        - "ハ"
       toast: "That's katakana!\nThe prompt asks for hiragana, which is curvy."
-    - answer: "ば"
+    - answers:
+        - "ば"
       toast: "That's \"Ba\" with dakuten!\nThe prompt asks for \"Ha\" without the marks."
-    - answer: "ぱ"
+    - answers:
+        - "ぱ"
       toast: "That's \"Pa\" with handakuten!\nThe prompt asks for \"Ha\" without the circle."
-    - answer: "け"
+    - answers:
+        - "け"
       toast: "That's \"Ke\"!\nThis one has no loop on the right."
 
 - id: h-hi
   prompt: "Hi (Hiragana)"
-  answer: "ひ"
+  answers:
+    - "ひ"
   hint: "1 stroke"
   strokeCount: 1
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "ヒ"
+    - answers:
+        - "ヒ"
       toast: "That's katakana!\nThe prompt asks for hiragana, which is curvy."
-    - answer: "び"
+    - answers:
+        - "び"
       toast: "That's \"Bi\" with dakuten!\nThe prompt asks for \"Hi\" without the marks."
-    - answer: "ぴ"
+    - answers:
+        - "ぴ"
       toast: "That's \"Pi\" with handakuten!\nThe prompt asks for \"Hi\" without the circle."
 
 - id: h-fu
   prompt: "Fu (Hiragana)"
-  answer: "ふ"
+  answers:
+    - "ふ"
   hint: "4 strokes"
   strokeCount: 4
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "フ"
+    - answers:
+        - "フ"
       toast: "That's katakana!\nThe prompt asks for hiragana, which is curvy."
-    - answer: "ぶ"
+    - answers:
+        - "ぶ"
       toast: "That's \"Bu\" with dakuten!\nThe prompt asks for \"Fu\" without the marks."
-    - answer: "ぷ"
+    - answers:
+        - "ぷ"
       toast: "That's \"Pu\" with handakuten!\nThe prompt asks for \"Fu\" without the circle."
 
 - id: h-he
   prompt: "He (Hiragana)"
-  answer: "へ"
+  answers:
+    - "へ"
   hint: "1 stroke"
   strokeCount: 1
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "ヘ"
+    - answers:
+        - "ヘ"
       toast: "That's katakana!\nActually they look the same, but context matters!"
-    - answer: "べ"
+    - answers:
+        - "べ"
       toast: "That's \"Be\" with dakuten!\nThe prompt asks for \"He\" without the marks."
-    - answer: "ぺ"
+    - answers:
+        - "ぺ"
       toast: "That's \"Pe\" with handakuten!\nThe prompt asks for \"He\" without the circle."
-    - answer: "く"
+    - answers:
+        - "く"
       toast: "That's \"Ku\"!\nThis one is more angled."
 
 - id: h-ho
   prompt: "Ho (Hiragana)"
-  answer: "ほ"
+  answers:
+    - "ほ"
   hint: "4 strokes"
   strokeCount: 4
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "ホ"
+    - answers:
+        - "ホ"
       toast: "That's katakana!\nThe prompt asks for hiragana, which is curvy."
-    - answer: "ぼ"
+    - answers:
+        - "ぼ"
       toast: "That's \"Bo\" with dakuten!\nThe prompt asks for \"Ho\" without the marks."
-    - answer: "ぽ"
+    - answers:
+        - "ぽ"
       toast: "That's \"Po\" with handakuten!\nThe prompt asks for \"Ho\" without the circle."
-    - answer: "は"
+    - answers:
+        - "は"
       toast: "That's \"Ha\"!\nThis one has no extra horizontal stroke."
 
 - id: h-ma
   prompt: "Ma (Hiragana)"
-  answer: "ま"
+  answers:
+    - "ま"
   hint: "3 strokes"
   strokeCount: 3
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "マ"
+    - answers:
+        - "マ"
       toast: "That's katakana!\nThe prompt asks for hiragana, which is curvy."
-    - answer: "も"
+    - answers:
+        - "も"
       toast: "That's \"MO\"!\nThis one has no loop."
 
 - id: h-mi
   prompt: "Mi (Hiragana)"
-  answer: "み"
+  answers:
+    - "み"
   hint: "2 strokes"
   strokeCount: 2
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "ミ"
+    - answers:
+        - "ミ"
       toast: "That's katakana!\nThe prompt asks for hiragana, which is curvy."
 
 - id: h-mu
   prompt: "Mu (Hiragana)"
-  answer: "む"
+  answers:
+    - "む"
   hint: "3 strokes"
   strokeCount: 3
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "ム"
+    - answers:
+        - "ム"
       toast: "That's katakana!\nThe prompt asks for hiragana, which is curvy."
-    - answer: "す"
+    - answers:
+        - "す"
       toast: "That's \"SU\"!\nThis one has no loop at the bottom."
 
 - id: h-me
   prompt: "Me (Hiragana)"
-  answer: "め"
+  answers:
+    - "め"
   hint: "2 strokes"
   strokeCount: 2
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "メ"
+    - answers:
+        - "メ"
       toast: "That's katakana!\nThe prompt asks for hiragana, which is curvy."
-    - answer: "ぬ"
+    - answers:
+        - "ぬ"
       toast: "That's \"NU\"!\nThis one has a loop at the end."
 
 - id: h-mo
   prompt: "Mo (Hiragana)"
-  answer: "も"
+  answers:
+    - "も"
   hint: "3 strokes"
   strokeCount: 3
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "モ"
+    - answers:
+        - "モ"
       toast: "That's katakana!\nThe prompt asks for hiragana, which is curvy."
-    - answer: "ま"
+    - answers:
+        - "ま"
       toast: "That's \"MA\"!\nThis one has a loop."
 
 - id: h-ya
   prompt: "Ya (Hiragana)"
-  answer: "や"
+  answers:
+    - "や"
   hint: "3 strokes"
   strokeCount: 3
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "ヤ"
+    - answers:
+        - "ヤ"
       toast: "That's katakana!\nThe prompt asks for hiragana, which is curvy."
-    - answer: "か"
+    - answers:
+        - "か"
       toast: "That's \"KA\"!\nThis one has a different shape."
 
 - id: h-yu
   prompt: "Yu (Hiragana)"
-  answer: "ゆ"
+  answers:
+    - "ゆ"
   hint: "2 strokes"
   strokeCount: 2
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "ユ"
+    - answers:
+        - "ユ"
       toast: "That's katakana!\nThe prompt asks for hiragana, which is curvy."
 
 - id: h-yo
   prompt: "Yo (Hiragana)"
-  answer: "よ"
+  answers:
+    - "よ"
   hint: "2 strokes"
   strokeCount: 2
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "ヨ"
+    - answers:
+        - "ヨ"
       toast: "That's katakana!\nThe prompt asks for hiragana, which is curvy."
-    - answer: "ま"
+    - answers:
+        - "ま"
       toast: "That's \"MA\"!\nThis one has a loop at the bottom."
 
 - id: h-ra
   prompt: "Ra (Hiragana)"
-  answer: "ら"
+  answers:
+    - "ら"
   hint: "2 strokes"
   strokeCount: 2
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "ラ"
+    - answers:
+        - "ラ"
       toast: "That's katakana!\nThe prompt asks for hiragana, which is curvy."
-    - answer: "ち"
+    - answers:
+        - "ち"
       toast: "That's \"CHI\"!\nThis one curves differently."
 
 - id: h-ri
   prompt: "Ri (Hiragana)"
-  answer: "り"
+  answers:
+    - "り"
   hint: "2 strokes"
   strokeCount: 2
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "リ"
+    - answers:
+        - "リ"
       toast: "That's katakana!\nThe prompt asks for hiragana, which is curvy."
-    - answer: "い"
+    - answers:
+        - "い"
       toast: "That's \"I\"!\nThis one has separate strokes."
 
 - id: h-ru
   prompt: "Ru (Hiragana)"
-  answer: "る"
+  answers:
+    - "る"
   hint: "1 stroke"
   strokeCount: 1
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "ル"
+    - answers:
+        - "ル"
       toast: "That's katakana!\nThe prompt asks for hiragana, which is curvy."
-    - answer: "ろ"
+    - answers:
+        - "ろ"
       toast: "That's \"RO\"!\nThis one has no loop."
 
 - id: h-re
   prompt: "Re (Hiragana)"
-  answer: "れ"
+  answers:
+    - "れ"
   hint: "2 strokes"
   strokeCount: 2
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "レ"
+    - answers:
+        - "レ"
       toast: "That's katakana!\nThe prompt asks for hiragana, which is curvy."
-    - answer: "ね"
+    - answers:
+        - "ね"
       toast: "That's \"NE\"!\nThis one has a loop."
 
 - id: h-ro
   prompt: "Ro (Hiragana)"
-  answer: "ろ"
+  answers:
+    - "ろ"
   hint: "1 stroke"
   strokeCount: 1
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "ロ"
+    - answers:
+        - "ロ"
       toast: "That's katakana!\nThe prompt asks for hiragana, which is curvy."
-    - answer: "る"
+    - answers:
+        - "る"
       toast: "That's \"RU\"!\nThis one has a loop."
 
 - id: h-wa
   prompt: "Wa (Hiragana)"
-  answer: "わ"
+  answers:
+    - "わ"
   hint: "2 strokes"
   strokeCount: 2
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "ワ"
+    - answers:
+        - "ワ"
       toast: "That's katakana!\nThe prompt asks for hiragana, which is curvy."
-    - answer: "れ"
+    - answers:
+        - "れ"
       toast: "That's \"RE\"!\nThis one has a different right side."
 
 - id: h-wo
   prompt: "Wo (Hiragana)"
-  answer: "を"
+  answers:
+    - "を"
   hint: "3 strokes"
   strokeCount: 3
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "ヲ"
+    - answers:
+        - "ヲ"
       toast: "That's katakana!\nThe prompt asks for hiragana, which is curvy."
 
 - id: h-n
   prompt: "N (Hiragana)"
-  answer: "ん"
+  answers:
+    - "ん"
   hint: "1 stroke"
   strokeCount: 1
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "ン"
+    - answers:
+        - "ン"
       toast: "That's katakana!\nThe prompt asks for hiragana, which is curvy."
-    - answer: "そ"
+    - answers:
+        - "そ"
       toast: "That's \"SO\"!\nThis one curves differently."
 
 - id: h-ga
   prompt: "Ga (Hiragana)"
-  answer: "が"
+  answers:
+    - "が"
   hint: "3 strokes + dakuten"
   strokeCount: 3
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "ガ"
+    - answers:
+        - "ガ"
       toast: "That's katakana!\nThe prompt asks for hiragana, which is curvy."
-    - answer: "か"
+    - answers:
+        - "か"
       toast: "That's \"Ka\" without dakuten!\nAdd the two small marks (゛) for \"Ga\"."
 
 - id: h-gi
   prompt: "Gi (Hiragana)"
-  answer: "ぎ"
+  answers:
+    - "ぎ"
   hint: "4 strokes + dakuten"
   strokeCount: 4
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "ギ"
+    - answers:
+        - "ギ"
       toast: "That's katakana!\nThe prompt asks for hiragana, which is curvy."
-    - answer: "き"
+    - answers:
+        - "き"
       toast: "That's \"Ki\" without dakuten!\nAdd the two small marks (゛) for \"Gi\"."
 
 - id: h-gu
   prompt: "Gu (Hiragana)"
-  answer: "ぐ"
+  answers:
+    - "ぐ"
   hint: "1 stroke + dakuten"
   strokeCount: 1
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "グ"
+    - answers:
+        - "グ"
       toast: "That's katakana!\nThe prompt asks for hiragana, which is curvy."
-    - answer: "く"
+    - answers:
+        - "く"
       toast: "That's \"Ku\" without dakuten!\nAdd the two small marks (゛) for \"Gu\"."
 
 - id: h-ge
   prompt: "Ge (Hiragana)"
-  answer: "げ"
+  answers:
+    - "げ"
   hint: "3 strokes + dakuten"
   strokeCount: 3
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "ゲ"
+    - answers:
+        - "ゲ"
       toast: "That's katakana!\nThe prompt asks for hiragana, which is curvy."
-    - answer: "け"
+    - answers:
+        - "け"
       toast: "That's \"Ke\" without dakuten!\nAdd the two small marks (゛) for \"Ge\"."
 
 - id: h-go
   prompt: "Go (Hiragana)"
-  answer: "ご"
+  answers:
+    - "ご"
   hint: "2 strokes + dakuten"
   strokeCount: 2
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "ゴ"
+    - answers:
+        - "ゴ"
       toast: "That's katakana!\nThe prompt asks for hiragana, which is curvy."
-    - answer: "こ"
+    - answers:
+        - "こ"
       toast: "That's \"Ko\" without dakuten!\nAdd the two small marks (゛) for \"Go\"."
 
 - id: h-za
   prompt: "Za (Hiragana)"
-  answer: "ざ"
+  answers:
+    - "ざ"
   hint: "3 strokes + dakuten"
   strokeCount: 3
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "ザ"
+    - answers:
+        - "ザ"
       toast: "That's katakana!\nThe prompt asks for hiragana, which is curvy."
-    - answer: "さ"
+    - answers:
+        - "さ"
       toast: "That's \"Sa\" without dakuten!\nAdd the two small marks (゛) for \"Za\"."
 
 - id: h-ji
   prompt: "Ji (Hiragana)"
-  answer: "じ"
+  answers:
+    - "じ"
   hint: "1 stroke + dakuten"
   strokeCount: 1
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "ジ"
+    - answers:
+        - "ジ"
       toast: "That's katakana!\nThe prompt asks for hiragana, which is curvy."
-    - answer: "し"
+    - answers:
+        - "し"
       toast: "That's \"Shi\" without dakuten!\nAdd the two small marks (゛) for \"Ji\"."
 
 - id: h-zu
   prompt: "Zu (Hiragana)"
-  answer: "ず"
+  answers:
+    - "ず"
   hint: "2 strokes + dakuten"
   strokeCount: 2
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "ズ"
+    - answers:
+        - "ズ"
       toast: "That's katakana!\nThe prompt asks for hiragana, which is curvy."
-    - answer: "す"
+    - answers:
+        - "す"
       toast: "That's \"Su\" without dakuten!\nAdd the two small marks (゛) for \"Zu\"."
 
 - id: h-ze
   prompt: "Ze (Hiragana)"
-  answer: "ぜ"
+  answers:
+    - "ぜ"
   hint: "3 strokes + dakuten"
   strokeCount: 3
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "ゼ"
+    - answers:
+        - "ゼ"
       toast: "That's katakana!\nThe prompt asks for hiragana, which is curvy."
-    - answer: "せ"
+    - answers:
+        - "せ"
       toast: "That's \"Se\" without dakuten!\nAdd the two small marks (゛) for \"Ze\"."
 
 - id: h-zo
   prompt: "Zo (Hiragana)"
-  answer: "ぞ"
+  answers:
+    - "ぞ"
   hint: "1 stroke + dakuten"
   strokeCount: 1
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "ゾ"
+    - answers:
+        - "ゾ"
       toast: "That's katakana!\nThe prompt asks for hiragana, which is curvy."
-    - answer: "そ"
+    - answers:
+        - "そ"
       toast: "That's \"So\" without dakuten!\nAdd the two small marks (゛) for \"Zo\"."
 
 - id: h-da
   prompt: "Da (Hiragana)"
-  answer: "だ"
+  answers:
+    - "だ"
   hint: "4 strokes + dakuten"
   strokeCount: 4
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "ダ"
+    - answers:
+        - "ダ"
       toast: "That's katakana!\nThe prompt asks for hiragana, which is curvy."
-    - answer: "た"
+    - answers:
+        - "た"
       toast: "That's \"Ta\" without dakuten!\nAdd the two small marks (゛) for \"Da\"."
 
 - id: h-di
   prompt: "Di (Hiragana)"
-  answer: "ぢ"
+  answers:
+    - "ぢ"
   hint: "2 strokes + dakuten"
   strokeCount: 2
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "ヂ"
+    - answers:
+        - "ヂ"
       toast: "That's katakana!\nThe prompt asks for hiragana, which is curvy."
-    - answer: "ち"
+    - answers:
+        - "ち"
       toast: "That's \"Chi\" without dakuten!\nAdd the two small marks (゛) for \"Di\"."
-    - answer: "じ"
+    - answers:
+        - "じ"
       toast: "That's \"Ji\" (from shi)!\nThis one comes from \"Chi\" instead."
 
 - id: h-du
   prompt: "Du (Hiragana)"
-  answer: "づ"
+  answers:
+    - "づ"
   hint: "1 stroke + dakuten"
   strokeCount: 1
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "ヅ"
+    - answers:
+        - "ヅ"
       toast: "That's katakana!\nThe prompt asks for hiragana, which is curvy."
-    - answer: "つ"
+    - answers:
+        - "つ"
       toast: "That's \"Tsu\" without dakuten!\nAdd the two small marks (゛) for \"Du\"."
-    - answer: "ず"
+    - answers:
+        - "ず"
       toast: "That's \"Zu\" (from su)!\nThis one comes from \"Tsu\" instead."
 
 - id: h-de
   prompt: "De (Hiragana)"
-  answer: "で"
+  answers:
+    - "で"
   hint: "1 stroke + dakuten"
   strokeCount: 1
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "デ"
+    - answers:
+        - "デ"
       toast: "That's katakana!\nThe prompt asks for hiragana, which is curvy."
-    - answer: "て"
+    - answers:
+        - "て"
       toast: "That's \"Te\" without dakuten!\nAdd the two small marks (゛) for \"De\"."
 
 - id: h-do
   prompt: "Do (Hiragana)"
-  answer: "ど"
+  answers:
+    - "ど"
   hint: "2 strokes + dakuten"
   strokeCount: 2
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "ド"
+    - answers:
+        - "ド"
       toast: "That's katakana!\nThe prompt asks for hiragana, which is curvy."
-    - answer: "と"
+    - answers:
+        - "と"
       toast: "That's \"To\" without dakuten!\nAdd the two small marks (゛) for \"Do\"."
 
 - id: h-ba
   prompt: "Ba (Hiragana)"
-  answer: "ば"
+  answers:
+    - "ば"
   hint: "3 strokes + dakuten"
   strokeCount: 3
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "バ"
+    - answers:
+        - "バ"
       toast: "That's katakana!\nThe prompt asks for hiragana, which is curvy."
-    - answer: "は"
+    - answers:
+        - "は"
       toast: "That's \"Ha\" without dakuten!\nAdd the two small marks (゛) for \"Ba\"."
-    - answer: "ぱ"
+    - answers:
+        - "ぱ"
       toast: "That's \"Pa\" with handakuten!\nUse two marks (゛) not a circle (゜)."
 
 - id: h-bi
   prompt: "Bi (Hiragana)"
-  answer: "び"
+  answers:
+    - "び"
   hint: "1 stroke + dakuten"
   strokeCount: 1
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "ビ"
+    - answers:
+        - "ビ"
       toast: "That's katakana!\nThe prompt asks for hiragana, which is curvy."
-    - answer: "ひ"
+    - answers:
+        - "ひ"
       toast: "That's \"Hi\" without dakuten!\nAdd the two small marks (゛) for \"Bi\"."
-    - answer: "ぴ"
+    - answers:
+        - "ぴ"
       toast: "That's \"Pi\" with handakuten!\nUse two marks (゛) not a circle (゜)."
 
 - id: h-bu
   prompt: "Bu (Hiragana)"
-  answer: "ぶ"
+  answers:
+    - "ぶ"
   hint: "4 strokes + dakuten"
   strokeCount: 4
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "ブ"
+    - answers:
+        - "ブ"
       toast: "That's katakana!\nThe prompt asks for hiragana, which is curvy."
-    - answer: "ふ"
+    - answers:
+        - "ふ"
       toast: "That's \"Fu\" without dakuten!\nAdd the two small marks (゛) for \"Bu\"."
-    - answer: "ぷ"
+    - answers:
+        - "ぷ"
       toast: "That's \"Pu\" with handakuten!\nUse two marks (゛) not a circle (゜)."
 
 - id: h-be
   prompt: "Be (Hiragana)"
-  answer: "べ"
+  answers:
+    - "べ"
   hint: "1 stroke + dakuten"
   strokeCount: 1
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "ベ"
+    - answers:
+        - "ベ"
       toast: "That's katakana!\nThe prompt asks for hiragana, which is curvy."
-    - answer: "へ"
+    - answers:
+        - "へ"
       toast: "That's \"He\" without dakuten!\nAdd the two small marks (゛) for \"Be\"."
-    - answer: "ぺ"
+    - answers:
+        - "ぺ"
       toast: "That's \"Pe\" with handakuten!\nUse two marks (゛) not a circle (゜)."
 
 - id: h-bo
   prompt: "Bo (Hiragana)"
-  answer: "ぼ"
+  answers:
+    - "ぼ"
   hint: "4 strokes + dakuten"
   strokeCount: 4
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "ボ"
+    - answers:
+        - "ボ"
       toast: "That's katakana!\nThe prompt asks for hiragana, which is curvy."
-    - answer: "ほ"
+    - answers:
+        - "ほ"
       toast: "That's \"Ho\" without dakuten!\nAdd the two small marks (゛) for \"Bo\"."
-    - answer: "ぽ"
+    - answers:
+        - "ぽ"
       toast: "That's \"Po\" with handakuten!\nUse two marks (゛) not a circle (゜)."
 
 - id: h-pa
   prompt: "Pa (Hiragana)"
-  answer: "ぱ"
+  answers:
+    - "ぱ"
   hint: "3 strokes + handakuten"
   strokeCount: 3
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "パ"
+    - answers:
+        - "パ"
       toast: "That's katakana!\nThe prompt asks for hiragana, which is curvy."
-    - answer: "は"
+    - answers:
+        - "は"
       toast: "That's \"Ha\" without handakuten!\nAdd the small circle (゜) for \"Pa\"."
-    - answer: "ば"
+    - answers:
+        - "ば"
       toast: "That's \"Ba\" with dakuten!\nUse a circle (゜) not two marks (゛)."
 
 - id: h-pi
   prompt: "Pi (Hiragana)"
-  answer: "ぴ"
+  answers:
+    - "ぴ"
   hint: "1 stroke + handakuten"
   strokeCount: 1
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "ピ"
+    - answers:
+        - "ピ"
       toast: "That's katakana!\nThe prompt asks for hiragana, which is curvy."
-    - answer: "ひ"
+    - answers:
+        - "ひ"
       toast: "That's \"Hi\" without handakuten!\nAdd the small circle (゜) for \"Pi\"."
-    - answer: "び"
+    - answers:
+        - "び"
       toast: "That's \"Bi\" with dakuten!\nUse a circle (゜) not two marks (゛)."
 
 - id: h-pu
   prompt: "Pu (Hiragana)"
-  answer: "ぷ"
+  answers:
+    - "ぷ"
   hint: "4 strokes + handakuten"
   strokeCount: 4
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "プ"
+    - answers:
+        - "プ"
       toast: "That's katakana!\nThe prompt asks for hiragana, which is curvy."
-    - answer: "ふ"
+    - answers:
+        - "ふ"
       toast: "That's \"Fu\" without handakuten!\nAdd the small circle (゜) for \"Pu\"."
-    - answer: "ぶ"
+    - answers:
+        - "ぶ"
       toast: "That's \"Bu\" with dakuten!\nUse a circle (゜) not two marks (゛)."
 
 - id: h-pe
   prompt: "Pe (Hiragana)"
-  answer: "ぺ"
+  answers:
+    - "ぺ"
   hint: "1 stroke + handakuten"
   strokeCount: 1
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "ペ"
+    - answers:
+        - "ペ"
       toast: "That's katakana!\nThe prompt asks for hiragana, which is curvy."
-    - answer: "へ"
+    - answers:
+        - "へ"
       toast: "That's \"He\" without handakuten!\nAdd the small circle (゜) for \"Pe\"."
-    - answer: "べ"
+    - answers:
+        - "べ"
       toast: "That's \"Be\" with dakuten!\nUse a circle (゜) not two marks (゛)."
 
 - id: h-po
   prompt: "Po (Hiragana)"
-  answer: "ぽ"
+  answers:
+    - "ぽ"
   hint: "4 strokes + handakuten"
   strokeCount: 4
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
   befuddlers:
-    - answer: "ポ"
+    - answers:
+        - "ポ"
       toast: "That's katakana!\nThe prompt asks for hiragana, which is curvy."
-    - answer: "ほ"
+    - answers:
+        - "ほ"
       toast: "That's \"Ho\" without handakuten!\nAdd the small circle (゜) for \"Po\"."
-    - answer: "ぼ"
+    - answers:
+        - "ぼ"
       toast: "That's \"Bo\" with dakuten!\nUse a circle (゜) not two marks (゛)."
 

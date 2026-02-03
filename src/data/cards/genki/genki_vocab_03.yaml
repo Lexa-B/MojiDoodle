@@ -1,6 +1,7 @@
 - id: g-03-ice
   prompt: ice cream
-  answer: アイスクリーム
+  answers:
+    - アイスクリーム
   hint: 'aisukurīmu (katakana loanword). Long vowel: ー in クリーム.'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -19,7 +20,8 @@
       This is a frozen bar on a stick, not the creamy dessert.
 - id: g-03-asa
   prompt: morning
-  answer: 朝
+  answers:
+    - 朝
   hint: asa — commonly used in 朝ごはん (breakfast), 朝日 (morning sun)
   strokeCount: 12
   stage: -1
@@ -39,7 +41,8 @@
       This character has a different enclosure shape and overall balance.
 - id: g-03-asagohan
   prompt: breakfast
-  answer: 朝ご飯
+  answers:
+    - 朝ご飯
   hint: asagohan — 朝=morning + ご飯=rice/meal; common phrase for breakfast
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -58,7 +61,8 @@
       This prompt expects the everyday word with ご飯.
 - id: g-03-ashita
   prompt: tomorrow
-  answer: 明日
+  answers:
+    - 明日
   hint: ashita / あした — also read あす (asu) in more formal contexts
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -77,7 +81,8 @@
       It's a broader time period, not specifically the next day.
 - id: g-03-amari
   prompt: not much (used with negative)
-  answer: あまり〜ない
+  answers:
+    - あまり〜ない
   hint: amari…nai — usually followed by a negative verb (e.g., あまり食べない = don’t eat
     much)
   stage: -1
@@ -97,7 +102,8 @@
       The prompt is for the basic negative pattern.
 - id: g-03-ii
   prompt: good
-  answer: いい
+  answers:
+    - いい
   hint: ii — common i-adjective meaning “good”; casual form (often said as 「いい」 even
     though it comes from 「よい」).
   stage: -1
@@ -117,7 +123,8 @@
       Be careful not to add an extra え at the end.
 - id: g-03-ie
   prompt: home; house
-  answer: 家
+  answers:
+    - 家
   hint: ie (house/home). 10 strokes. Often used in compounds like 家族 (kazoku, family).
   strokeCount: 10
   stage: -1
@@ -137,7 +144,8 @@
       Often used as a suffix (e.g., 本屋), and its structure is different from a house kanji.
 - id: g-03-iku
   prompt: to go
-  answer: 行く
+  answers:
+    - 行く
   hint: iku — movement to a destination (行く + く)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -156,7 +164,8 @@
       Same first kanji, but the meaning is about doing an action, not going somewhere.
 - id: g-03-itsu
   prompt: when
-  answer: いつ
+  answers:
+    - いつ
   hint: itsu — question word meaning “when?” (time)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -175,7 +184,8 @@
       It asks about place, not time.
 - id: g-03-uchi
   prompt: home; house; my place
-  answer: うち
+  answers:
+    - うち
   hint: uchi — often means “my/our home” (casual). Also used to refer to one’s family/household
     depending on context.
   stage: -1
@@ -195,7 +205,8 @@
       Different meaning and longer word—check the number of kana.
 - id: g-03-eiga
   prompt: movie
-  answer: 映画
+  answers:
+    - 映画
   hint: 'eiga — a film/movie (common: 映画館 = movie theater)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -214,7 +225,8 @@
       A comic/book format, not a filmed work.
 - id: g-03-ee
   prompt: 'yes'
-  answer: ええ
+  answers:
+    - ええ
   hint: ee — a polite/neutral "yes" (less casual than うん). Often used as ええ、そうです。
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -233,7 +245,8 @@
       Watch out for the extra い and the ending え.
 - id: g-03-okiru
   prompt: to get up
-  answer: 起きる
+  answers:
+    - 起きる
   hint: 'okiru (ru-verb) — to wake up/get up (from sleep). Past: 起きた'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -252,7 +265,8 @@
       Opposite direction of the action.
 - id: g-03-osake
   prompt: sake; alcoholic drink
-  answer: お酒
+  answers:
+    - お酒
   hint: |-
     osake — polite prefix お + 酒 (さけ)
     Often used generally for alcohol; e.g., お酒を飲む
@@ -273,7 +287,8 @@
       Watch the right side of the kanji—different components lead to a different meaning.
 - id: g-03-ocha
   prompt: green tea
-  answer: お茶
+  answers:
+    - お茶
   hint: ocha — polite お + 茶 (tea); commonly said as お茶を飲む
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -292,7 +307,8 @@
       Different drink word; watch the kanji and meaning.
 - id: g-03-ongaku
   prompt: music
-  answer: 音楽
+  answers:
+    - 音楽
   hint: ongaku — often used with 〜を聞く (listen to music) / 〜をかける (put on music)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -311,7 +327,8 @@
       This is any sound; the prompt is about music.
 - id: g-03-kaeru
   prompt: to go back; to return
-  answer: 帰る
+  answers:
+    - 帰る
   hint: kaeru — “to return (go home/come back)”; often used for returning to a place
     (e.g., 家に帰る).
   stage: -1
@@ -331,7 +348,8 @@
       Often about something being given back or a result coming back, not someone going home.
 - id: g-03-gakko
   prompt: school
-  answer: 学校
+  answers:
+    - 学校
   hint: gakkou — note the small っ (double consonant) in the reading
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -350,7 +368,8 @@
       A higher-education school specifically.
 - id: g-03-cafe
   prompt: cafe
-  answer: カフェ
+  answers:
+    - カフェ
   hint: kafe (katakana loanword for a coffee shop)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -369,7 +388,8 @@
       Check the middle character: it should be the one with the crossed strokes, not the simple one.
 - id: g-03-kiku
   prompt: to listen; to hear
-  answer: 聞く
+  answers:
+    - 聞く
   hint: 'kiku — “listen/hear” (uses the particle を: 音楽を聞く).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -388,7 +408,8 @@
       This prompt is the action of listening/hearing.
 - id: g-03-kyo
   prompt: today
-  answer: 今日
+  answers:
+    - 今日
   hint: kyou — often read きょう as a standalone noun (e.g., 今日は…).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -407,7 +428,8 @@
       Common in announcements and official speech.
 - id: g-03-kuru
   prompt: to come
-  answer: 来る
+  answers:
+    - 来る
   hint: kuru (irregular verb) — 来ます／来て
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -426,7 +448,8 @@
       It focuses on departing from a place, not arriving.
 - id: g-03-coffee
   prompt: coffee
-  answer: コーヒー
+  answers:
+    - コーヒー
   hint: 'koohii (katakana loanword). Long vowels are shown with ー: コー + ヒー'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -445,7 +468,8 @@
       In katakana, long vowels are usually written with ー, not by adding an extra イ.
 - id: g-03-goro
   prompt: at about ... (around [time])
-  answer: ～ごろ
+  answers:
+    - ～ごろ
   hint: 'goro — attaches to a time word: 3時ごろ = around 3 o’clock (approximate time).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -464,7 +488,8 @@
       Watch the ending: it should stop at ろ (small loop), not ろう.
 - id: g-03-konban
   prompt: tonight
-  answer: 今晩
+  answers:
+    - 今晩
   hint: konban — used for tonight/this evening (e.g., 今晩は雨です).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -483,7 +508,8 @@
       It refers to the previous evening/night, not today.
 - id: g-03-sake
   prompt: sake; alcohol
-  answer: 酒
+  answers:
+    - 酒
   hint: sake — can mean Japanese rice wine or alcohol in general
   strokeCount: 10
   stage: -1
@@ -503,7 +529,8 @@
       Same alcohol-related radical, but the other side is different.
 - id: g-03-zasshi
   prompt: magazine
-  answer: 雑誌
+  answers:
+    - 雑誌
   hint: zasshi (ざっし) — written with 雑 (mixed/various) + 誌 (journal). Watch the small
     っ in the reading.
   stage: -1
@@ -523,7 +550,8 @@
       Different second kanji: one means paper, not a publication.
 - id: g-03-shumatsu
   prompt: weekend
-  answer: 週末
+  answers:
+    - 週末
   hint: shuumatsu (しゅうまつ) — means Saturday/Sunday; contrast with 平日 (weekdays)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -542,7 +570,8 @@
       In Japanese compounds, the usual pattern is “week + end.”
 - id: g-03-sports
   prompt: sports
-  answer: スポーツ
+  answers:
+    - スポーツ
   hint: supootsu (katakana) — long vowel mark 「ー」 after ポ = スポー…
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -561,7 +590,8 @@
       The prompt is just the base word, not a longer compound.
 - id: g-03-suru
   prompt: to do
-  answer: する
+  answers:
+    - する
   hint: suru — irregular verb meaning “to do”; also attaches to nouns (e.g., 勉強する
     = to study)
   stage: -1
@@ -581,7 +611,8 @@
       It describes ability or something being possible, not the act itself.
 - id: g-03-zenzen
   prompt: not at all (used with negative)
-  answer: 全然
+  answers:
+    - 全然
   hint: zenzen + negative (e.g., 全然わからない = I don’t understand at all). Often paired
     with ない/じゃない.
   stage: -1
@@ -601,7 +632,8 @@
       The second kanji means "member," not the one used for "not at all."
 - id: g-03-sodesu
   prompt: That’s right.; Let me see.
-  answer: そうですね
+  answers:
+    - そうですね
   hint: sō desu ne — a natural response meaning “that’s right / I see,” or a filler
     while thinking (“let me see…”)
   stage: -1
@@ -621,7 +653,8 @@
       The prompt is a simpler agreement or thinking filler.
 - id: g-03-taitei
   prompt: usually
-  answer: たいてい
+  answers:
+    - たいてい
   hint: taitei - means “usually/mostly”; often used with negative endings (e.g., たいてい〜ない
     = “hardly ever”)
   stage: -1
@@ -641,7 +674,8 @@
       The prompt is for something that happens most of the time.
 - id: g-03-taberu
   prompt: to eat
-  answer: 食べる
+  answers:
+    - 食べる
   hint: taberu (ru-verb) — 食 is the kanji for “eat/food”; べる is okurigana
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -660,7 +694,8 @@
       The prompt expects the dictionary form.
 - id: g-03-cha
   prompt: green tea
-  answer: 茶
+  answers:
+    - 茶
   hint: cha — means “tea” in general; “green tea” is often 緑茶（りょくちゃ）
   strokeCount: 9
   stage: -1
@@ -680,7 +715,8 @@
       Focus on the correct lower component shape.
 - id: g-03-chotto
   prompt: a little
-  answer: ちょっと
+  answers:
+    - ちょっと
   hint: chotto — often used to soften requests/refusals (e.g., ちょっと待って = wait a moment)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -699,7 +735,8 @@
       Not the standard everyday form in the prompt.
 - id: g-03-date
   prompt: date (romantic, not calendar)
-  answer: デート
+  answers:
+    - デート
   hint: dēto — katakana loanword; long vowel ー in デー
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -718,7 +755,8 @@
       The prompt expects the katakana spelling used for loanwords.
 - id: g-03-tennis
   prompt: tennis
-  answer: テニス
+  answers:
+    - テニス
   hint: tenisu (katakana loanword)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -737,7 +775,8 @@
       ン ends with a single diagonal stroke; it doesn't have the same shape as ス.
 - id: g-03-demo
   prompt: but (however / though)
-  answer: でも
+  answers:
+    - でも
   hint: 'demo — used to contrast: A。でもB ("A, but B"). Often at the start of a sentence:
     でも、…'
   stage: -1
@@ -757,7 +796,8 @@
       This one can stand alone as a connector.
 - id: g-03-tv
   prompt: TV
-  answer: テレビ
+  answers:
+    - テレビ
   hint: terebi (katakana) — loanword from “television”
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -776,7 +816,8 @@
       Similar katakana, but it starts with ビ and uses デ/オ.
 - id: g-03-dodesu
   prompt: How about . . . ?; How is . . . ?
-  answer: どうですか
+  answers:
+    - どうですか
   hint: dou desu ka — polite question asking for an opinion/condition (often ends
     with か).
   stage: -1
@@ -796,7 +837,8 @@
       This prompt expects the shorter, standard polite question.
 - id: g-03-tokidoki
   prompt: sometimes
-  answer: 時々
+  answers:
+    - 時々
   hint: tokidoki — uses the kanji for “time” (時) repeated; means “from time to time”
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -815,7 +857,8 @@
       Watch the second part: it uses different characters/kana.
 - id: g-03-sat
   prompt: Saturday
-  answer: 土曜日
+  answers:
+    - 土曜日
   hint: doyoubi — day of the week; ends with 曜日 (youbi)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -834,7 +877,8 @@
       The prompt is asking for a single weekday with 曜日 at the end.
 - id: g-03-sun
   prompt: Sunday
-  answer: 日曜日
+  answers:
+    - 日曜日
   hint: 'nichiyoubi — 日(day) + 曜(day of week) + 日(day). Often used with に: 日曜日に (on
     Sunday).'
   stage: -1
@@ -854,7 +898,8 @@
       This should be written with the weekday kanji 曜 in the middle.
 - id: g-03-neru
   prompt: to sleep; to go to sleep
-  answer: 寝る
+  answers:
+    - 寝る
   hint: neru (る-verb) — 寝ます (polite). Often used for going to bed/sleeping.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -873,7 +918,8 @@
       Not necessarily sleeping.
 - id: g-03-nomu
   prompt: to drink
-  answer: 飲む
+  answers:
+    - 飲む
   hint: nomu (to drink); 飲 = “eat + now” → taking a drink now
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -892,7 +938,8 @@
       The prompt is asking for the verb form, not the thing you drink.
 - id: g-03-hanasu
   prompt: to speak; to talk
-  answer: 話す
+  answers:
+    - 話す
   hint: hanasu — to speak/talk (often "to tell" someone something); transitive in
     many uses (〜を話す).
   stage: -1
@@ -912,7 +959,8 @@
       Make sure the verb ends with す and not る or う.
 - id: g-03-hayai
   prompt: early
-  answer: 早い
+  answers:
+    - 早い
   hint: 'hayai — time-based: early (e.g., 早い時間 / 早い到着). Note: 速い is “fast” (speed).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -931,7 +979,8 @@
       The prompt expects the full adjective with okurigana.
 - id: g-03-bangohan
   prompt: dinner
-  answer: 晩ご飯
+  answers:
+    - 晩ご飯
   hint: bangohan — evening meal (晩 = evening, ご飯 = cooked rice/meal). Often written
     as 晩ごはん too.
   stage: -1
@@ -950,7 +999,8 @@
       \ \nBe careful: this kanji is the \"sunset\" shape."
 - id: g-03-burger
   prompt: hamburger
-  answer: ハンバーガー
+  answers:
+    - ハンバーガー
   hint: hanbaagaa (katakana) — long vowels ー and the small ン matter
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -969,7 +1019,8 @@
       This one ends with グ and doesn’t include the final long vowel part.
 - id: g-03-hirugohan
   prompt: lunch
-  answer: 昼ご飯
+  answers:
+    - 昼ご飯
   hint: hirugohan — midday meal (昼=daytime + ご飯=meal/rice). Often written as 昼ごはん
     too.
   stage: -1
@@ -989,7 +1040,8 @@
       This one uses the kanji for "evening" (夕), not "noon/daytime".
 - id: g-03-benkyo
   prompt: to study
-  answer: 勉強する
+  answers:
+    - 勉強する
   hint: benkyou suru — common daily-use verb meaning “to study/learn” (e.g., 日本語を勉強する)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1008,7 +1060,8 @@
       Used for investigating a topic deeply (often academic), not everyday studying.
 - id: g-03-mainichi
   prompt: every day
-  answer: 毎日
+  answers:
+    - 毎日
   hint: mainichi — often used with the particle 「は」 (e.g., 毎日は… = “Every day, …”)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1027,7 +1080,8 @@
       It emphasizes repeated days and is more literary than the common “every day” expression.
 - id: g-03-maiban
   prompt: every night
-  answer: 毎晩
+  answers:
+    - 毎晩
   hint: maiban — “each/every (毎)” + “night (晩)”
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1046,7 +1100,8 @@
       This one refers to a specific night, not an everyday habit.
 - id: g-03-mizu
   prompt: water
-  answer: 水
+  answers:
+    - 水
   hint: 'mizu — 4 strokes (meaning: water)'
   strokeCount: 4
   stage: -1
@@ -1066,7 +1121,8 @@
       The full character has more parts and a different shape.
 - id: g-03-miru
   prompt: to see; to look at; to watch
-  answer: 見る
+  answers:
+    - 見る
   hint: 'miru (ru-verb) — often used for intentionally looking/watching: 映画を見る (watch
     a movie)'
   stage: -1
@@ -1086,7 +1142,8 @@
       Used for checkups and diagnosing.
 - id: g-03-yoku
   prompt: often; much
-  answer: よく
+  answers:
+    - よく
   hint: yoku — adverb meaning “often” (frequency) or “well/much” (degree), e.g., よく行く
     = go often
   stage: -1
@@ -1106,7 +1163,8 @@
       It indicates 100% frequency, stronger than “often”.
 - id: g-03-yomu
   prompt: to read
-  answer: 読む
+  answers:
+    - 読む
   hint: yomu (u-verb) — e.g., 本を読む = to read a book
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'

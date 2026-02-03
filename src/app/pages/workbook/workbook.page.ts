@@ -57,6 +57,36 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
   // Batch recognition results for multi-character grading
   private lastBatchResults: { character: string; score: number }[][] = [];
 
+  // Small kana → big kana mapping for fuzzy matching
+  // The API often returns big kana when user writes small kana
+  private static readonly SMALL_TO_BIG_KANA: Record<string, string> = {
+    // Hiragana
+    'っ': 'つ', 'ゃ': 'や', 'ゅ': 'ゆ', 'ょ': 'よ',
+    'ぁ': 'あ', 'ぃ': 'い', 'ぅ': 'う', 'ぇ': 'え', 'ぉ': 'お',
+    'ゎ': 'わ',
+    // Katakana
+    'ッ': 'ツ', 'ャ': 'ヤ', 'ュ': 'ユ', 'ョ': 'ヨ',
+    'ァ': 'ア', 'ィ': 'イ', 'ゥ': 'ウ', 'ェ': 'エ', 'ォ': 'オ',
+    'ヮ': 'ワ',
+  };
+
+  /**
+   * Check if two characters match, treating small/big kana as equivalent.
+   * e.g., 'っ' matches 'つ', 'ッ' matches 'ツ'
+   */
+  private kanaMatch(target: string, candidate: string): boolean {
+    if (target === candidate) return true;
+    // Check if target's big form matches candidate
+    const targetBig = WorkbookPage.SMALL_TO_BIG_KANA[target];
+    if (targetBig && targetBig === candidate) return true;
+    // Check if candidate's big form matches target
+    const candidateBig = WorkbookPage.SMALL_TO_BIG_KANA[candidate];
+    if (candidateBig && candidateBig === target) return true;
+    // Check if both normalize to the same big form
+    if (targetBig && candidateBig && targetBig === candidateBig) return true;
+    return false;
+  }
+
   private correctFeedback = [
     '正解!',
     'まる!',
@@ -121,7 +151,8 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
   private loadRandomCard() {
     this.currentCard = this.cardsService.getRandomUnlockedCard();
     if (this.currentCard) {
-      this.currentCharacter = this.currentCard.answer;
+      // Use first answer as the primary display character
+      this.currentCharacter = this.currentCard.answers[0];
       this.promptText = this.currentCard.prompt;
       this.promptColor = this.cardsService.getStageColor(this.currentCard.stage);
       this.noCardsAvailable = false;
@@ -495,33 +526,38 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
 
       // Top matches for display
       this.topMatches = results.slice(0, 5);
-      const normalizedTarget = this.currentCharacter.replace(/\s+/g, '');
+
+      // Normalize all valid answers for comparison
+      const normalizedAnswers = this.currentCard.answers.map(a => a.replace(/\s+/g, ''));
 
       // Check if answer matches - different logic for single vs multi-character
       let isCorrect = false;
 
       if (this.lastBatchResults.length > 0) {
-        // Multi-character: check if each char of target is in corresponding cell's results
-        const targetChars = [...normalizedTarget]; // Split into characters (unicode-safe)
+        // Multi-character: check if each char of ANY valid answer is in corresponding cell's results
+        isCorrect = normalizedAnswers.some(normalizedTarget => {
+          const targetChars = [...normalizedTarget]; // Split into characters (unicode-safe)
 
-        if (targetChars.length === this.lastBatchResults.length) {
-          // Check each character against its cell's top 5 candidates
-          isCorrect = targetChars.every((char, idx) => {
+          if (targetChars.length !== this.lastBatchResults.length) return false;
+
+          // Check each character against its cell's top 5 candidates (with kana fuzzy matching)
+          return targetChars.every((char, idx) => {
             const cellCandidates = this.lastBatchResults[idx].slice(0, 5).map(r => r.character);
-            return cellCandidates.includes(char);
+            return cellCandidates.some(candidate => this.kanaMatch(char, candidate));
           });
-        }
+        });
 
         console.log('Grading multi-char:', {
-          target: normalizedTarget,
-          targetChars,
+          targets: normalizedAnswers,
           cellResults: this.lastBatchResults.map(r => r.slice(0, 5).map(c => c.character)),
           isCorrect
         });
       } else {
-        // Single character: check if target is in top 5
+        // Single character: check if ANY valid answer is in top 5 (with kana fuzzy matching)
         const top5Characters = this.topMatches.map(r => r.character);
-        isCorrect = top5Characters.includes(normalizedTarget);
+        isCorrect = normalizedAnswers.some(target =>
+          top5Characters.some(candidate => this.kanaMatch(target, candidate))
+        );
       }
 
       if (isCorrect) {
@@ -532,23 +568,27 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
         this.cardsService.advanceCard(this.currentCard.id);
       } else {
         // Check for befuddlers using same backwards logic
-        let matchedBefuddler: { answer: string; toast: string } | undefined;
+        let matchedBefuddler: { answers: string[]; toast: string } | undefined;
 
         if (this.lastBatchResults.length > 0) {
-          // Multi-character: check each befuddler against cell results
+          // Multi-character: check if ANY befuddler answer matches cell results (with kana fuzzy matching)
           matchedBefuddler = this.currentCard.befuddlers.find(b => {
-            const befuddlerChars = [...b.answer.replace(/\s+/g, '')];
-            if (befuddlerChars.length !== this.lastBatchResults.length) return false;
-            return befuddlerChars.every((char, idx) => {
-              const cellCandidates = this.lastBatchResults[idx].slice(0, 5).map(r => r.character);
-              return cellCandidates.includes(char);
+            return b.answers.some(answer => {
+              const befuddlerChars = [...answer.replace(/\s+/g, '')];
+              if (befuddlerChars.length !== this.lastBatchResults.length) return false;
+              return befuddlerChars.every((char, idx) => {
+                const cellCandidates = this.lastBatchResults[idx].slice(0, 5).map(r => r.character);
+                return cellCandidates.some(candidate => this.kanaMatch(char, candidate));
+              });
             });
           });
         } else {
-          // Single character: check if befuddler is in top 5
+          // Single character: check if ANY befuddler answer is in top 5 (with kana fuzzy matching)
           const top5Characters = this.topMatches.map(r => r.character);
           matchedBefuddler = this.currentCard.befuddlers.find(b =>
-            top5Characters.includes(b.answer.replace(/\s+/g, ''))
+            b.answers.some(answer =>
+              top5Characters.some(candidate => this.kanaMatch(answer.replace(/\s+/g, ''), candidate))
+            )
           );
         }
 

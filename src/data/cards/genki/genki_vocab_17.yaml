@@ -1,6 +1,7 @@
 - id: g-17-akachan
   prompt: baby
-  answer: 赤ちゃん
+  answers:
+    - 赤ちゃん
   hint: akachan — common, affectionate word for a baby; often written with ちゃん in
     hiragana
   stage: -1
@@ -20,7 +21,8 @@
       It refers specifically to the newborn period.
 - id: g-17-abunai
   prompt: dangerous
-  answer: 危ない
+  answers:
+    - 危ない
   hint: abunai — い-adjective meaning dangerous/unsafe; often used as a warning (e.g.,
     危ない！)
   stage: -1
@@ -40,7 +42,8 @@
       It means "scary / frightening" (feeling fear), not "dangerous/unsafe".
 - id: g-17-brew
   prompt: To make tea, coffee, etc.
-  answer: いれる
+  answers:
+    - いれる
   hint: ireru — often written as 「お茶をいれる」 (to brew tea) / 「コーヒーをいれる」 (to make coffee)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -59,7 +62,8 @@
       This prompt is about preparing a drink (transitive usage).
 - id: g-17-urayama
   prompt: envious
-  answer: うらやましい
+  answers:
+    - うらやましい
   hint: urayamashii — used when you envy someone’s situation/thing (e.g., うらやましいな)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -78,7 +82,8 @@
       It’s a casual reaction of admiration and doesn’t directly mean feeling envy.
 - id: g-17-eikyo
   prompt: to be affected
-  answer: 影響を受ける
+  answers:
+    - 影響を受ける
   hint: eikyō o ukeru — used for being influenced/affected by something (Xの影響を受ける).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -97,7 +102,8 @@
       Often used for people/attitudes rather than general effects.
 - id: g-17-erabu
   prompt: to choose; to select
-  answer: 選ぶ
+  answers:
+    - 選ぶ
   hint: erabu — to choose from options (e.g., メニューから選ぶ).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -116,7 +122,8 @@
       Be careful: it means “to pick up,” not “to select.”
 - id: g-17-inori
   prompt: to pray
-  answer: お祈りする
+  answers:
+    - お祈りする
   hint: oinori suru — polite/neutral verb meaning “to pray” (often used for wishes
     like ご無事をお祈りします).
   stage: -1
@@ -136,7 +143,8 @@
       It describes going there, not the act of praying itself.
 - id: g-17-okyaku
   prompt: guest; visitor; client; customer
-  answer: お客さん
+  answers:
+    - お客さん
   hint: okyaku-san — polite term for a customer/guest; often used by staff toward
     customers.
   stage: -1
@@ -156,7 +164,8 @@
       Common in compounds, but not the full polite form.
 - id: g-17-omedeto
   prompt: Congratulations!
-  answer: おめでとうございます
+  answers:
+    - おめでとうございます
   hint: omedetou gozaimasu - polite set phrase; often said with 「〜おめでとうございます」 (e.g.,
     誕生日おめでとうございます)
   stage: -1
@@ -175,7 +184,8 @@
       This is used to express gratitude, not to congratulate someone.
 - id: g-17-omoni
   prompt: mainly
-  answer: 主に
+  answers:
+    - 主に
   hint: omoni — used to mean “primarily/mostly,” often with 主に〜(は) like “主に学生です” (I’m
     mainly a student).
   stage: -1
@@ -195,7 +205,8 @@
       Different meaning: it refers to the main character or main performer.
 - id: g-17-oyu
   prompt: hot water
-  answer: お湯
+  answers:
+    - お湯
   hint: oyu — polite お + 湯 (ゆ, hot water). Often used for bathing or making tea.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -214,7 +225,8 @@
       This refers to the bath/bathroom, not the hot water itself.
 - id: g-17-yuwakasu
   prompt: to boil water
-  answer: お湯を沸かす
+  answers:
+    - お湯を沸かす
   hint: oyu o wakasu — お湯(おゆ)=hot water; 沸かす=to bring to a boil (transitive, you boil
     something)
   stage: -1
@@ -234,7 +246,8 @@
       The prompt is specifically about hot water (like for tea/bath).
 - id: g-17-kagi
   prompt: lock; key
-  answer: 鍵
+  answers:
+    - 鍵
   hint: kagi — often means “key” (e.g., 鍵をかける = to lock)
   strokeCount: 17
   stage: -1
@@ -254,7 +267,8 @@
       The right side here is a different structure; be careful not to round it into the “mouth”-like shape.
 - id: g-17-kagikake
   prompt: to lock
-  answer: 鍵をかける
+  answers:
+    - 鍵をかける
   hint: kagi o kakeru — use for locking a door/bike, etc. (かける = “to put on/apply”)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -273,7 +287,8 @@
       Be careful not to swap かける and する forms.
 - id: g-17-kake-key
   prompt: To lock (e.g., a key/door)
-  answer: かける（鍵を）
+  answers:
+    - かける（鍵を）
   hint: kakeru (kagi o) — used as 鍵をかける “to lock (a door)”
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -292,7 +307,8 @@
       Same verb reading, but the object changes the meaning.
 - id: g-17-kake-perm
   prompt: to have one’s hair permed
-  answer: かける（パーマを）
+  answers:
+    - かける（パーマを）
   hint: kakeru (paama o) - used for getting a perm (パーマをかける). Not the same as 掛ける/懸ける
     meanings like “to hang” or “to bet.”
   stage: -1
@@ -312,7 +328,8 @@
       Same verb reading, but a totally different common set phrase.
 - id: g-17-kaji
   prompt: fire
-  answer: 火事
+  answers:
+    - 火事
   hint: kaji — house/building fire (not a campfire). Often used in 火事だ！("Fire!")
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -331,7 +348,8 @@
       This is a general mishap; the prompt is specifically about a fire.
 - id: g-17-kazoeru
   prompt: to count
-  answer: 数える
+  answers:
+    - 数える
   hint: kazoeru (ru-verb) — used for counting things (often with counters, e.g., 人・枚・回).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -350,7 +368,8 @@
       The prompt expects a verb form (includes okurigana).
 - id: g-17-cutto
   prompt: cut
-  answer: カット
+  answers:
+    - カット
   hint: katto — loanword used for a haircut or a cut/edit (e.g., カットする).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -369,7 +388,8 @@
       A long vowel mark (ー) is generally not used for this word.
 - id: g-17-kana
   prompt: I wonder... (casual)
-  answer: ～かな（あ）
+  answers:
+    - ～かな（あ）
   hint: |-
     kana (a) — sentence-ending particle used for wondering to yourself / lightly asking.
     例: どうしようかな。= I wonder what I should do.
@@ -390,7 +410,8 @@
       It expresses uncertainty/possibility rather than wondering or musing.
 - id: g-17-kami
   prompt: paper
-  answer: 紙
+  answers:
+    - 紙
   hint: kami — 紙 (paper). Left side is the thread radical 糸, often related to paper/cloth.
   strokeCount: 10
   stage: -1
@@ -406,7 +427,8 @@
       It has the hair radical on top (髟), making it much more complex.
 - id: g-17-kamigata
   prompt: hairstyle
-  answer: 髪形
+  answers:
+    - 髪形
   hint: kamigata — often refers to a person’s hairdo/style (e.g., 髪形を変える).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -425,7 +447,8 @@
       It’s not specifically about the style/arrangement.
 - id: g-17-kamitokasu
   prompt: to comb one’s hair
-  answer: 髪をとかす
+  answers:
+    - 髪をとかす
   hint: |-
     kami o tokasu — use を + とかす (to comb/untangle)
     Often written as 髪を梳かす too.
@@ -446,7 +469,8 @@
       Comb/untangle is written with a different verb/kanji.
 - id: g-17-color
   prompt: hair coloring
-  answer: カラー
+  answers:
+    - カラー
   hint: 'karā — salon word meaning hair dye/coloring (katakana loanword). Long vowel:
     ー.'
   stage: -1
@@ -466,7 +490,8 @@
       Use only one ー at the end.
 - id: g-17-karu
   prompt: to crop
-  answer: 刈る
+  answers:
+    - 刈る
   hint: karu — to reap/mow (cut plants like grass or rice)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -485,7 +510,8 @@
       The prompt is specifically for cutting down plants (reap/mow).
 - id: g-17-kansei
   prompt: to be completed
-  answer: 完成する
+  answers:
+    - 完成する
   hint: kansei suru — to be completed/finished (often for projects, products, works)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -504,7 +530,8 @@
       The prompt expects a verb form ending in する.
 - id: g-17-kyuryo
   prompt: salary
-  answer: 給料
+  answers:
+    - 給料
   hint: kyuuryou — wages/pay (often monthly pay from a company)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -523,7 +550,8 @@
       Not money you receive from work.
 - id: g-17-kumo
   prompt: cloud
-  answer: 雲
+  answers:
+    - 雲
   hint: kumo — 12 strokes
   strokeCount: 12
   stage: -1
@@ -543,7 +571,8 @@
       Same weather theme, but this one has different strokes under the top component.
 - id: g-17-geijutsu
   prompt: art
-  answer: 芸術
+  answers:
+    - 芸術
   hint: geijutsu — fine arts/culture; often used in compounds like 芸術家 (artist)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -562,7 +591,8 @@
       It refers to performances rather than art in general.
 - id: g-17-keshou
   prompt: to put makeup on
-  answer: 化粧する
+  answers:
+    - 化粧する
   hint: keshou suru — to apply makeup (often used as 化粧をする). 化=change, 粧=makeup/appearance.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -581,7 +611,8 @@
       This is about clothing, not applying makeup.
 - id: g-17-contacts
   prompt: contact lenses
-  answer: コンタクト（レンズ）
+  answers:
+    - コンタクト（レンズ）
   hint: kontakuto (renzu) - often shortened to コンタクト; レンズ is optional in writing
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -600,7 +631,8 @@
       The prompt is specifically about the wearable item, not a lens in general.
 - id: g-17-saiaku
   prompt: the worst
-  answer: 最悪
+  answers:
+    - 最悪
   hint: saiaku (na-adj.) — often used as 「最悪だ」 / 「最悪な〜」 to say something is terrible
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -619,7 +651,8 @@
       As a な-adjective, it typically attaches with な or ends with だ (e.g., 〜な / 〜だ).
 - id: g-17-sakuhin
   prompt: work (of art, etc.)
-  answer: 作品
+  answers:
+    - 作品
   hint: sakuhin — a created work (art, writing, film, etc.); often used as a formal
     term for an artist’s/author’s work
   stage: -1
@@ -639,7 +672,8 @@
       This one implies multiple pieces gathered together, not a single work.
 - id: g-17-salariman
   prompt: salaryman; office worker
-  answer: サラリーマン
+  answers:
+    - サラリーマン
   hint: sararīman - katakana word meaning a (typically male) company employee in Japan
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -658,7 +692,8 @@
       It should extend the "ri" sound, not appear at the end.
 - id: g-17-shi-poem
   prompt: poem
-  answer: 詩
+  answers:
+    - 詩
   hint: shi — 13 strokes; written works/poetry (often contrasted with 歌 "song")
   strokeCount: 13
   stage: -1
@@ -678,7 +713,8 @@
       This one is a verb related to creating/chanting poetry.
 - id: g-17-shikashi
   prompt: however
-  answer: しかし
+  answers:
+    - しかし
   hint: shikashi — formal "however/but"; often used at the start of a sentence to
     contrast with what came before
   stage: -1
@@ -698,7 +734,8 @@
       If the prompt is short, don’t add extra kana.
 - id: g-17-shampoo
   prompt: shampoo
-  answer: シャンプー
+  answers:
+    - シャンプー
   hint: shanpuu (katakana loanword; long vowel ー at the end)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -717,7 +754,8 @@
       The prompt is a loanword, so it’s usually written in katakana.
 - id: g-17-shushoku
   prompt: to get a full-time job (at . . . )
-  answer: 就職する
+  answers:
+    - 就職する
   hint: shuushoku suru — getting hired for regular employment (e.g., 会社に就職する).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -736,7 +774,8 @@
       The prompt expects a verb expression ending with する.
 - id: g-17-shoot
   prompt: to be shot
-  answer: 銃で撃たれる
+  answers:
+    - 銃で撃たれる
   hint: juu de utareru — passive form (撃つ → 撃たれる). Often implies being shot (by a
     gun).
   stage: -1
@@ -756,7 +795,8 @@
       This one means "to be hit by a bullet" rather than the passive of "to shoot."
 - id: g-17-shusho
   prompt: prime minister
-  answer: 首相
+  answers:
+    - 首相
   hint: shushou — Japan’s prime minister (e.g., 日本の首相)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -775,7 +815,8 @@
       It starts with the same kanji, but it’s a different word and meaning.
 - id: g-17-shufu
   prompt: house husband
-  answer: 主夫
+  answers:
+    - 主夫
   hint: 'shufu — a man who manages the household (contrast: 主婦 for women)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -794,7 +835,8 @@
       You're missing the second kanji that indicates the role in the household.
 - id: g-17-junbi
   prompt: preparation
-  answer: 準備
+  answers:
+    - 準備
   hint: 'junbi — often used with する (準備する = to prepare); common collocation: 準備ができた
     (ready)'
   stage: -1
@@ -814,7 +856,8 @@
       The prompt is the noun form meaning preparation itself, not the "-in progress" expression.
 - id: g-17-mall
   prompt: shopping mall
-  answer: ショッピングモール
+  answers:
+    - ショッピングモール
   hint: |-
     shoppingu mooru (katakana loanword)
     Often written with 長音「ー」 for long vowels.
@@ -835,7 +878,8 @@
       Mainly for groceries and daily necessities.
 - id: g-17-zuibun
   prompt: very
-  answer: ずいぶん
+  answers:
+    - ずいぶん
   hint: zuibun — means “quite/very; a lot,” often more than expected (e.g., ずいぶん寒い
     = quite cold)
   stage: -1
@@ -855,7 +899,8 @@
       This prompt’s word often feels like “unexpectedly (so).”
 - id: g-17-suku
   prompt: to thin out (hair)
-  answer: すく
+  answers:
+    - すく
   hint: suku (u-verb) — e.g., 髪をすく = to thin out hair (remove some volume, not “cut
     short”).
   stage: -1
@@ -875,7 +920,8 @@
       This one is used for “to be transparent / to be empty (stomach),” not the hair-thinning action.
 - id: g-17-sukunai
   prompt: a little; a few
-  answer: 少ない
+  answers:
+    - 少ない
   hint: sukunai — used for small quantity/number (e.g., 人が少ない). Often contrasts with
     多い.
   stage: -1
@@ -895,7 +941,8 @@
       This prompt is about quantity/number, not physical size.
 - id: g-17-spoon
   prompt: spoon
-  answer: スプーン
+  answers:
+    - スプーン
   hint: supuun (katakana loanword)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -914,7 +961,8 @@
       Looks similar, but check the long vowel mark and the final character.
 - id: g-17-suru-wear
   prompt: to wear small items (necktie, watch, etc.)
-  answer: する
+  answers:
+    - する
   hint: suru — used for wearing accessories (e.g., ネクタイをする, 時計をする). Not the general
     “to do.”
   stage: -1
@@ -934,7 +982,8 @@
       Not the common verb for wearing a tie or a watch.
 - id: g-17-setto
   prompt: set
-  answer: セット
+  answers:
+    - セット
   hint: setto (katakana) - often used for a set/pack or a combo (e.g., セットメニュー)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -953,7 +1002,8 @@
       Be careful with the middle smallッ and the final sounds.
 - id: g-17-sixties
   prompt: 1960’s
-  answer: 1960年代
+  answers:
+    - 1960年代
   hint: senkyuuhyakurokujuu nendai — use for decades/era talk (e.g., 1960年代の音楽). 「年代」=
     decade/period.
   stage: -1
@@ -973,7 +1023,8 @@
       For decades, the common spelling uses the kanji meaning “generation/period.”
 - id: g-17-soka
   prompt: I see. (casual)
-  answer: そうか
+  answers:
+    - そうか
   hint: sou ka — casual acknowledgment (like “oh, is that so?”). Often said with falling
     intonation.
   stage: -1
@@ -993,7 +1044,8 @@
       It adds uncertainty instead of simple understanding.
 - id: g-17-sonogo
   prompt: after that
-  answer: その後
+  answers:
+    - その後
   hint: sonogo — used to mean “after that/afterwards” in sequence (e.g., その後どうなった？)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1012,7 +1064,8 @@
       It’s a general “later,” not specifically “after that” in a narrated sequence.
 - id: g-17-someru
   prompt: to dye
-  answer: そめる
+  answers:
+    - そめる
   hint: someru (ru-verb) - to dye/colour (hair, cloth, etc.)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1031,7 +1084,8 @@
       Be careful: SO vs KO at the start.
 - id: g-17-soru
   prompt: to shave
-  answer: そる
+  answers:
+    - そる
   hint: |-
     soru — often written as 剃る (to shave a beard/hair)
     Example: ひげをそる = to shave (one’s beard)
@@ -1052,7 +1106,8 @@
       The prompt expects hiragana, which is more rounded.
 - id: g-17-soroeru
   prompt: To make hair even; to trim
-  answer: そろえる
+  answers:
+    - そろえる
   hint: soroeru — 「髪をそろえる」= to trim/make the ends even (often at a haircut)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1071,7 +1126,8 @@
       You need the full dictionary form ending in 「る」.
 - id: g-17-o-hit
   prompt: big hit
-  answer: 大ヒット
+  answers:
+    - 大ヒット
   hint: dai hitto — used for a product/song/movie that becomes a huge success (katakana
     ヒット = “hit”)
   stage: -1
@@ -1091,7 +1147,8 @@
       The prompt is specifically about something becoming a “hit” (popular with the public).
 - id: g-17-takarakuji
   prompt: lottery
-  answer: 宝くじ
+  answers:
+    - 宝くじ
   hint: takarakuji — 宝 (treasure) + くじ (lot/draw); used for lottery tickets (宝くじを買う)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1110,7 +1167,8 @@
       It describes the process, not the lottery tickets themselves.
 - id: g-17-lotto-win
   prompt: to win a lottery
-  answer: 宝くじに当たる
+  answers:
+    - 宝くじに当たる
   hint: |-
     takarakuji ni ataru - 「当たる」= to hit/strike → to win (a prize)
     Used like: 宝くじに当たった (I won the lottery)
@@ -1131,7 +1189,8 @@
       It means the ticket didn't win.
 - id: g-17-tariru
   prompt: to be sufficient; to be enough
-  answer: 足りる
+  answers:
+    - 足りる
   hint: 'tariru — often used with quantity/amount: お金が足りる (have enough money), 時間が足りない
     (not enough time)'
   stage: -1
@@ -1151,7 +1210,8 @@
       It means there's more than needed, not just enough.
 - id: g-17-chigai
   prompt: difference
-  answer: 違い
+  answers:
+    - 違い
   hint: chigai — used for differences between things (e.g., 〜の違い)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1170,7 +1230,8 @@
       Used more for measurable differences like scores or prices.
 - id: g-17-tsugou
   prompt: Inconvenient; to have a scheduling conflict
-  answer: 都合が悪い
+  answers:
+    - 都合が悪い
   hint: tsugou ga warui — used to say your schedule/situation doesn’t work (e.g.,
     都合が悪くて行けない)
   stage: -1
@@ -1190,7 +1251,8 @@
       This one is about physical condition rather than scheduling.
 - id: g-17-tsuyoi
   prompt: strong
-  answer: 強い
+  answers:
+    - 強い
   hint: tsuyoi — i-adjective meaning strong (physical strength, flavor, intensity)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1209,7 +1271,8 @@
       Different nuance from strength or intensity.
 - id: g-17-tenjo
   prompt: ceiling
-  answer: 天井
+  answers:
+    - 天井
   hint: 'tenjou — the ceiling (inside a room). Note: 天 = sky/heaven, 井 = well.'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1228,7 +1291,8 @@
       Vertical surface, not the top surface of a room.
 - id: g-17-denchi
   prompt: microwave oven
-  answer: 電子レンジ
+  answers:
+    - 電子レンジ
   hint: denshi renji — often shortened to 「レンジ」 in conversation
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1247,7 +1311,8 @@
       Both are household appliances, but this one is for laundry, not heating food.
 - id: g-17-tenrankai
   prompt: art exhibition
-  answer: 展覧会
+  answers:
+    - 展覧会
   hint: tenrankai — often used for museum/gallery exhibitions (e.g., 絵画の展覧会).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1266,7 +1331,8 @@
       It’s specifically one artist’s show.
 - id: g-17-nametsuke
   prompt: to name
-  answer: 名前をつける
+  answers:
+    - 名前をつける
   hint: namae o tsukeru — literally “attach a name”; used when naming a person/thing/pet
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1285,7 +1351,8 @@
       It focuses on choosing/deciding, not attaching/giving.
 - id: g-17-nareru
   prompt: to get used to ...
-  answer: 慣れる
+  answers:
+    - 慣れる
   hint: 'nareru — to become accustomed (慣れる + に/と). Ex: 日本の生活に慣れる'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1304,7 +1371,8 @@
       The intended everyday form uses the okurigana with れる.
 - id: g-17-nandomo
   prompt: many times
-  answer: 何度も
+  answers:
+    - 何度も
   hint: nando mo — used for repetition (e.g., 何度も言った = I said it many times)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1323,7 +1391,8 @@
       It means an indefinite small number, not 'many times'.
 - id: g-17-kurabe
   prompt: compared with ...
-  answer: ～に比べて
+  answers:
+    - ～に比べて
   hint: |-
     ni kurabete — used to compare A with B.
     Example: 去年に比べて、今年は暑い。(Compared with last year, this year is hot.)
@@ -1344,7 +1413,8 @@
       It’s not the general “compare A with B” expression.
 - id: g-17-news
   prompt: news
-  answer: ニュース
+  answers:
+    - ニュース
   hint: nyuusu (katakana) — long vowel ー after ニュ
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1363,7 +1433,8 @@
       Use the long dash used in katakana.
 - id: g-17-yoruto
   prompt: according to . . .
-  answer: ～によると
+  answers:
+    - ～によると
   hint: 'ni yoru to — “according to …” (information source). Often used with reports/people:
     「天気予報によると…」'
   stage: -1
@@ -1383,7 +1454,8 @@
       It marks origin or reason, not “according to a source”.
 - id: g-17-nugu
   prompt: to take off (clothes)
-  answer: 脱ぐ
+  answers:
+    - 脱ぐ
   hint: nugu — used for taking off clothing (e.g., 靴を脱ぐ).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1402,7 +1474,8 @@
       The prompt is asking for the dictionary form.
 - id: g-17-notameno
   prompt: for the sake of ...; intended for ...
-  answer: ～のための
+  answers:
+    - ～のための
   hint: no tame no - modifies a noun (e.g., 子どものための本 = a book for children). Often
     implies purpose/benefit.
   stage: -1
@@ -1422,7 +1495,8 @@
       It tends to sound official and is often used with actions/events.
 - id: g-17-perm
   prompt: perm
-  answer: パーマ
+  answers:
+    - パーマ
   hint: paama - katakana loanword for a hair perm (permanent wave)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1441,7 +1515,8 @@
       Watch the last vowel: this one ends with ム, not the long vowel mark ー.
 - id: g-17-perm-kake
   prompt: to have one’s hair permed
-  answer: パーマをかける
+  answers:
+    - パーマをかける
   hint: paama o kakeru — salon phrase meaning “to get a perm” (lit. “to apply a perm”).
     Often used as パーマをかけたい / パーマをかけました.
   stage: -1
@@ -1461,7 +1536,8 @@
       This one changes color, not texture.
 - id: g-17-haiku
   prompt: haiku
-  answer: 俳句
+  answers:
+    - 俳句
   hint: 'haiku — 5-7-5 syllable poem (often with a seasonal word: 季語)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1480,7 +1556,8 @@
       This one has a longer 5-7-5-7-7 pattern.
 - id: g-17-hashigo
   prompt: ladders
-  answer: はしご
+  answers:
+    - はしご
   hint: hashigo (hiragana) — usually written in kana; also appears as 梯子 in some texts
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1499,7 +1576,8 @@
       The prompt expects hiragana; use the curvier hiragana shapes.
 - id: g-17-panda
   prompt: panda
-  answer: パンダ
+  answers:
+    - パンダ
   hint: panda (katakana) — loanword; write in katakana
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1518,7 +1596,8 @@
       The correct one has a clear "ン" shape, not "ソ".
 - id: g-17-heater
   prompt: heater
-  answer: ヒーター
+  answers:
+    - ヒーター
   hint: 'hiitaa (katakana loanword). Long vowels: ヒー・ター (use ー twice).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1537,7 +1616,8 @@
       Only one ー after ヒ and one ー after タ.
 - id: g-17-hige
   prompt: beard
-  answer: ひげ
+  answers:
+    - ひげ
   hint: hige (beard/facial hair). Often written as 髭 in kanji, but here use hiragana.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1556,7 +1636,8 @@
       Be careful: the last kana is not the same as the one for this prompt.
 - id: g-17-higesoru
   prompt: to shave one’s beard
-  answer: ひげをそる
+  answers:
+    - ひげをそる
   hint: 'hige o soru — phrase: ひげ(beard) + を + そる(to shave). Often written as ひげを剃る.'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1575,7 +1656,8 @@
       Plucking is pulling hairs out one by one, not shaving.
 - id: g-17-boots
   prompt: boots
-  answer: ブーツ
+  answers:
+    - ブーツ
   hint: 'buutsu (katakana) — long vowel: ー makes the long “u” sound'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1594,7 +1676,8 @@
       The last character is ス, not ツ (compare the number/direction of strokes).
 - id: g-17-blow
   prompt: blow-dry
-  answer: ブロー
+  answers:
+    - ブロー
   hint: burō - salon term for hair blow-drying (e.g., ブローする)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1613,7 +1696,8 @@
       The long vowel mark is a horizontal line used in katakana.
 - id: g-17-bunya
   prompt: field; realm
-  answer: 分野
+  answers:
+    - 分野
   hint: bunya — often used for academic/professional fields (e.g., 専門分野).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1632,7 +1716,8 @@
       Similar meaning, but different kanji and nuance.
 - id: g-17-mae
   prompt: before ... (suffix)
-  answer: 前
+  answers:
+    - 前
   hint: 'mae — used after time/quantity: 3分前 (3 minutes ago), 出発前 (before departure)'
   strokeCount: 9
   stage: -1
@@ -1652,7 +1737,8 @@
       Check the bottom: it has 王, not the legs/step-like shapes.
 - id: g-17-mushimegane
   prompt: magnifying glass
-  answer: 虫めがね
+  answers:
+    - 虫めがね
   hint: 'mushimegane — literally "bug glasses"; common everyday word (also: 拡大鏡).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1671,7 +1757,8 @@
       A magnifying glass is a specific kind of lens.
 - id: g-17-moji
   prompt: letter; character
-  answer: 文字
+  answers:
+    - 文字
   hint: moji — written characters (e.g., 漢字・ひらがな・カタカナ). Often used as 「〜文字」 = “~ characters
     (in length)”.
   stage: -1
@@ -1691,7 +1778,8 @@
       The prompt is about written symbols/characters, not vocabulary or spoken words.
 - id: g-17-yu
   prompt: hot water
-  answer: 湯
+  answers:
+    - 湯
   hint: yu — hot water (bath/hot water for drinking); 氵(さんずい) + 昜. 12 strokes
   strokeCount: 12
   stage: -1
@@ -1711,7 +1799,8 @@
       The target is specifically hot water and has the water radical on the left plus a more complex right side.
 - id: g-17-rikon
   prompt: to get a divorce
-  answer: 離婚する
+  answers:
+    - 離婚する
   hint: rikon suru — "離"(separate) + "婚"(marriage); often used as 離婚した/離婚している
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1730,7 +1819,8 @@
       Not the legal/relationship meaning.
 - id: g-17-ryokogaisha
   prompt: travel agency
-  answer: 旅行会社
+  answers:
+    - 旅行会社
   hint: ryokou gaisha — a company that arranges trips (tickets, hotels, tours).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'

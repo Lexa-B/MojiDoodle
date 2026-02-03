@@ -1,6 +1,7 @@
 - id: g-15-allday
   prompt: all day long
-  answer: 一日中
+  answers:
+    - 一日中
   hint: ichinichijuu — means “throughout the whole day” (often with 〜している／〜を).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -19,7 +20,8 @@
       With “by/within the day,” に can change the nuance toward a deadline rather than duration.
 - id: g-15-day1
   prompt: first day
-  answer: 一日目
+  answers:
+    - 一日目
   hint: 'ichinichime — use after an event starts: 「旅行の一日目」 (day 1 of the trip)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -38,7 +40,8 @@
       The prompt is just "first day" without specifying a time of day.
 - id: g-15-allyear
   prompt: all year
-  answer: 一年中
+  answers:
+    - 一年中
   hint: ichinenjuu — “throughout the whole year” (often used with 〜暖かい/〜営業)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -57,7 +60,8 @@
       This one omits the “one year” part and is more general.
 - id: g-15-1n2m
   prompt: one night with two meals
-  answer: 一泊二食付き
+  answers:
+    - 一泊二食付き
   hint: 'ippaku nishoku-tsuki — lodging plan: 1 night + 2 meals (usually dinner &
     breakfast).'
   stage: -1
@@ -77,7 +81,8 @@
       Pay attention to the number of nights vs. meals.
 - id: g-15-net
   prompt: internet
-  answer: インターネット
+  answers:
+    - インターネット
   hint: intaanetto (katakana loanword). Long vowel mark 「ー」 appears twice.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -96,7 +101,8 @@
       The ending sound is a small 「ト」, not 「トー」.
 - id: g-15-born
   prompt: to be born
-  answer: 生まれる
+  answers:
+    - 生まれる
   hint: umareru (intransitive ru-verb) — used for being born; often with に/で (場所)
     and が (subject), e.g., 日本で生まれる
   stage: -1
@@ -115,7 +121,8 @@
       Different meaning: continuing life, not coming into the world.
 - id: g-15-pic
   prompt: painting; picture; drawing
-  answer: 絵
+  answers:
+    - 絵
   hint: e — “picture/drawing” (e.g., 絵を描く to draw a picture)
   strokeCount: 12
   stage: -1
@@ -135,7 +142,8 @@
       This one is a different kanji used in compounds rather than the common standalone word for a picture.
 - id: g-15-theater
   prompt: movie theater
-  answer: 映画館
+  answers:
+    - 映画館
   hint: eigakan — 映画 (movie) + 館 (public building). Often written with えいが for the
     movie part.
   stage: -1
@@ -155,7 +163,8 @@
       Same ending kanji means a facility, but the first part refers to art, not movies.
 - id: g-15-dropped
   prompt: to be dropped
-  answer: 落とされる
+  answers:
+    - 落とされる
   hint: |-
     otosareru — passive form of 落とす (to drop)
     Used when something is dropped by someone (often accidentally): さいふが落とされた。
@@ -176,7 +185,8 @@
       Different verb and context from something being dropped.
 - id: g-15-atm
   prompt: to withdraw (money)
-  answer: 下ろす
+  answers:
+    - 下ろす
   hint: orosu — e.g., お金を下ろす (withdraw money from a bank/ATM).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -195,7 +205,8 @@
       Used for issuing commands or judgments, not taking money out.
 - id: g-15-foreigner
   prompt: foreigner
-  answer: 外国人
+  answers:
+    - 外国人
   hint: gaikokujin — literally “outside-country person” (外+国+人)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -214,7 +225,8 @@
       It’s a nationality term, not “foreigner.”
 - id: g-15-draw
   prompt: to draw; to paint
-  answer: 描く
+  answers:
+    - 描く
   hint: kaku — used for drawing/painting a picture (e.g., 絵を描く). Not for writing text.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -233,7 +245,8 @@
       The meaning is about scratching, not making a picture.
 - id: g-15-furn
   prompt: furniture
-  answer: 家具
+  answers:
+    - 家具
   hint: kagu — household furnishings; note 家 (house) + 具 (tool/item)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -252,7 +265,8 @@
       The prompt is for items inside a home, not the building itself.
 - id: g-15-katsudo
   prompt: activity
-  answer: 活動
+  answers:
+    - 活動
   hint: katsudou — “activities” in general (e.g., サークル活動 club activities, 環境活動 environmental
     activities)
   stage: -1
@@ -272,7 +286,8 @@
       The prompt is about the activity itself, not shining or excelling.
 - id: g-15-sightsee
   prompt: to do sightseeing
-  answer: 観光する
+  answers:
+    - 観光する
   hint: kankou suru — 観(look) + 光(light) → “looking at sights”; often used with を
     (e.g., 京都を観光する)
   stage: -1
@@ -292,7 +307,8 @@
       This prompt is about touring sights, not just walking around.
 - id: g-15-smoke
   prompt: smoking
-  answer: 喫煙
+  answers:
+    - 喫煙
   hint: kitsuen — noun meaning “smoking” (e.g., 喫煙所 = smoking area).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -311,7 +327,8 @@
       Same first kanji, but the second one is “tea,” not “smoke.”
 - id: g-15-class
   prompt: classroom
-  answer: 教室
+  answers:
+    - 教室
   hint: kyoushitsu — a room for teaching/lessons (学校の教室 = a classroom at school)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -330,7 +347,8 @@
       The first kanji is about giving a lecture, not teaching as in school lessons.
 - id: g-15-careful
   prompt: to be cautious/careful
-  answer: 気をつける
+  answers:
+    - 気をつける
   hint: 'ki o tsukeru — often used as a warning/advice: 気をつけて (Take care!)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -349,7 +367,8 @@
       The prompt is for the dictionary form.
 - id: g-15-nosmoke
   prompt: non-smoking
-  answer: 禁煙
+  answers:
+    - 禁煙
   hint: kinen — “no smoking” (e.g., 禁煙席 non-smoking seat, 禁煙車 non-smoking car)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -368,7 +387,8 @@
       The prompt is a full two-kanji word meaning a prohibition related to cigarettes.
 - id: g-15-whale
   prompt: whale
-  answer: くじら
+  answers:
+    - くじら
   hint: kujira — often written in kana; kanji 鯨 is also used in some contexts
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -387,7 +407,8 @@
       The prompt expects hiragana, which is curvier.
 - id: g-15-scenery
   prompt: scenery
-  answer: 景色
+  answers:
+    - 景色
   hint: keshiki — a view/scene (often natural scenery); commonly used as 景色がいい
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -406,7 +427,8 @@
       The bottom part should look like "巴" rather than "气".
 - id: g-15-wedding
   prompt: wedding
-  answer: 結婚式
+  answers:
+    - 結婚式
   hint: kekkonshiki - formal wedding ceremony (式 = ceremony)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -425,7 +447,8 @@
       Both end with the same "ceremony" character, but the first kanji is different.
 - id: g-15-kedo
   prompt: '... , but; ... , so'
-  answer: ～けど
+  answers:
+    - ～けど
   hint: kedo — casual "but/though" at the end or in the middle of a sentence (often
     softer than しかし).
   stage: -1
@@ -445,7 +468,8 @@
       It’s not usually attached directly after a clause the same way.
 - id: g-15-abomb
   prompt: atomic bomb
-  answer: 原爆
+  answers:
+    - 原爆
   hint: genbaku — short for 原子爆弾 (げんしばくだん); often seen in words like 原爆ドーム
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -464,7 +488,8 @@
       The prompt is specifically about the atomic kind.
 - id: g-15-momiji
   prompt: autumn leaves/colors
-  answer: 紅葉
+  answers:
+    - 紅葉
   hint: 'kouyou — often used for fall foliage viewing: 紅葉狩り（こうようがり）'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -483,7 +508,8 @@
       The prompt is for the noun.
 - id: g-15-crowd
   prompt: to get crowded
-  answer: 混む
+  answers:
+    - 混む
   hint: komu — intransitive; used for places/traffic getting crowded (e.g., 道が混む).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -502,7 +528,8 @@
       This verb reads with こ- (not こん-), and the negative form ends in 〜ない.
 - id: g-15-crowded
   prompt: to be crowded
-  answer: 混んでいる
+  answers:
+    - 混んでいる
   hint: kondeiru — used for places/transport being crowded (e.g., 電車が混んでいる).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -521,7 +548,8 @@
       It’s common in announcements; the prompt is the everyday phrasing.
 - id: g-15-recent
   prompt: recently
-  answer: 最近
+  answers:
+    - 最近
   hint: 'saikin — often used with the present: 最近、忙しい (I''ve been busy lately).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -540,7 +568,8 @@
       Watch the meaning: place vs. recently.
 - id: g-15-search
   prompt: to look for
-  answer: 探す
+  answers:
+    - 探す
   hint: sagasu — to search for something you don’t currently have/know where it is
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -559,7 +588,8 @@
       The prompt asks for the searching action.
 - id: g-15-invite
   prompt: to invite
-  answer: 誘う
+  answers:
+    - 誘う
   hint: sasou — to invite/ask someone out; often used like 友だちを誘う (invite a friend)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -578,7 +608,8 @@
       The prompt expects the verb dictionary form.
 - id: g-15-join
   prompt: to participate
-  answer: 参加する
+  answers:
+    - 参加する
   hint: 'sankasuru — join/take part in an event or group (often used with に/を: イベントに参加する)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -597,7 +628,8 @@
       Used with 神社・お寺, not events or activities.
 - id: g-15-deer
   prompt: deer
-  answer: 鹿
+  answers:
+    - 鹿
   hint: shika — 11 strokes (animal kanji; looks like a deer with antlers)
   strokeCount: 11
   stage: -1
@@ -617,7 +649,8 @@
       This one has a crown-like top and a different bottom shape.
 - id: g-15-quake
   prompt: earthquake
-  answer: 地震
+  answers:
+    - 地震
   hint: jishin — 地 (earth/ground) + 震 (tremor/shake); commonly used in news/disaster
     contexts
   stage: -1
@@ -637,7 +670,8 @@
       The first kanji is similar, but the second kanji is different.
 - id: g-15-nature
   prompt: nature
-  answer: 自然
+  answers:
+    - 自然
   hint: shizen — “nature” as in the natural world / naturally (自然に).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -656,7 +690,8 @@
       Different meaning; the first kanji is the same but the second kanji changes.
 - id: g-15-island
   prompt: island
-  answer: 島
+  answers:
+    - 島
   hint: shima — 10 strokes
   strokeCount: 10
   stage: -1
@@ -676,7 +711,8 @@
       Some fonts show a different middle component; the standard form uses the simpler enclosed shape.
 - id: g-15-jacket
   prompt: jacket
-  answer: ジャケット
+  answers:
+    - ジャケット
   hint: jaketto (katakana) - used for clothing/outerwear; common loanword
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -695,7 +731,8 @@
       The word ends with ト, so it doesn't need another ー at the end.
 - id: g-15-chat
   prompt: to chat
-  answer: しゃべる
+  answers:
+    - しゃべる
   hint: shaberu — casual speaking; more like “chat/talk” than “say”
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -714,7 +751,8 @@
       The prompt expects you to write it in kana as given.
 - id: g-15-custom
   prompt: custom
-  answer: 習慣
+  answers:
+    - 習慣
   hint: shuukan — a personal or social habit/custom done regularly (e.g., 毎日の習慣).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -733,7 +771,8 @@
       This one can imply a tendency, sometimes negative.
 - id: g-15-master
   prompt: head of a family
-  answer: 主人
+  answers:
+    - 主人
   hint: shujin — also commonly means “(someone’s) husband”; as “head of a family”
     it’s a traditional usage.
   stage: -1
@@ -753,7 +792,8 @@
       This is a simpler single-kanji word and doesn’t carry the “family head” nuance.
 - id: g-15-check
   prompt: to look into (a matter)
-  answer: 調べる
+  answers:
+    - 調べる
   hint: shiraberu — to investigate/check up on (a matter); often used with を (e.g.,
     原因を調べる)
   stage: -1
@@ -773,7 +813,8 @@
       This is about comparing two things, not looking into a matter.
 - id: g-15-single
   prompt: single room
-  answer: シングル
+  answers:
+    - シングル
   hint: 'shinguru - hotel talk: シングルルーム (a room for one person)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -792,7 +833,8 @@
       The prompt expects a loanword written in katakana.
 - id: g-15-scramble
   prompt: scramble crossing
-  answer: スクランブル交差点
+  answers:
+    - スクランブル交差点
   hint: sukuranburu kousaten — pedestrian crossing where traffic stops and people
     cross in all directions at once (often at big intersections).
   stage: -1
@@ -812,7 +854,8 @@
       The prompt is asking for the type of crossing, not the device controlling it.
 - id: g-15-decide
   prompt: to decide on (an item)
-  answer: する
+  answers:
+    - する
   hint: 'suru — in this sense: “choose/settle on” (e.g., これにする = I''ll go with this)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -831,7 +874,8 @@
       The prompt expects the plain dictionary form used in the phrase pattern.
 - id: g-15-tax
   prompt: tax
-  answer: 税金
+  answers:
+    - 税金
   hint: zeikin — money paid to the government (e.g., 所得税 income tax, 消費税 sales tax)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -850,7 +894,8 @@
       Money paid as punishment for breaking rules, not regular tax.
 - id: g-15-gradcer
   prompt: graduation ceremony
-  answer: 卒業式
+  answers:
+    - 卒業式
   hint: sotsugyoushiki — often used with 行う/ある (to hold/take place), e.g., 卒業式に出る
     (attend the ceremony)
   stage: -1
@@ -870,7 +915,8 @@
       Same ending character, but a different type of ceremony.
 - id: g-15-graduate
   prompt: to graduate (from ...)
-  answer: 卒業する
+  answers:
+    - 卒業する
   hint: sotsugyou suru — use 「〜を卒業する」 for the school you graduate from (e.g., 大学を卒業する).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -889,7 +935,8 @@
       It implies quitting or leaving before completion, not completing a program.
 - id: g-15-soba
   prompt: soba; Japanese buckwheat noodles
-  answer: そば
+  answers:
+    - そば
   hint: soba (hiragana) — a type of Japanese buckwheat noodle; often served cold with
     dipping sauce or hot in broth
   stage: -1
@@ -909,7 +956,8 @@
       The middle character has a "濁点" (two small marks).
 - id: g-15-bath
   prompt: large spa
-  answer: 大浴場
+  answers:
+    - 大浴場
   hint: daiyokujou — a big public bath/spa area (often in hotels, ryokan, onsen facilities)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -928,7 +976,8 @@
       This refers to the hot-spring source or the onsen in general, not specifically a big bath area.
 - id: g-15-bamboo
   prompt: bamboo
-  answer: 竹
+  answers:
+    - 竹
   hint: take — 6 strokes; looks like two stalks of bamboo with nodes
   strokeCount: 6
   stage: -1
@@ -948,7 +997,8 @@
       This one has a single trunk with a line at the base, not the bamboo-stalk pattern.
 - id: g-15-building
   prompt: building
-  answer: 建物
+  answers:
+    - 建物
   hint: tatemono (たてもの) — 建=build, 物=thing/object
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -967,7 +1017,8 @@
       Same 物 at the end, but the first kanji changes the meaning to things you grow.
 - id: g-15-cantwait
   prompt: cannot wait; to look forward to it
-  answer: 楽しみです
+  answers:
+    - 楽しみです
   hint: tanoshimi desu — use when you’re looking forward to a future event (e.g.,
     旅行が楽しみです).
   stage: -1
@@ -987,7 +1038,8 @@
       It sounds more formal and can imply expectation rather than excited anticipation.
 - id: g-15-enjoy
   prompt: to enjoy
-  answer: 楽しむ
+  answers:
+    - 楽しむ
   hint: tanoshimu (u-verb) — used for actively enjoying an activity (e.g., 音楽を楽しむ).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1006,7 +1058,8 @@
       It can be fun, but it specifically means playing or spending time, not "enjoy" in general.
 - id: g-15-double
   prompt: double room
-  answer: ダブル
+  answers:
+    - ダブル
   hint: daburu — hotel room type meaning one room with one double bed (often for 2
     people)
   stage: -1
@@ -1026,7 +1079,8 @@
       It means something overlaps/duplicates (e.g., schedule), not a room type.
 - id: g-15-checkout
   prompt: checking out
-  answer: チェックアウト（する）
+  answers:
+    - チェックアウト（する）
   hint: chekku auto (suru) - used for leaving a hotel / completing checkout; often
     written without （する） as チェックアウト
   stage: -1
@@ -1046,7 +1100,8 @@
       It’s a general word for exiting a room, not the hotel procedure.
 - id: g-15-checkin
   prompt: checking in
-  answer: チェックイン（する）
+  answers:
+    - チェックイン（する）
   hint: chekku-in (suru) - used for hotels/airports; often as チェックインする
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1065,7 +1120,8 @@
       It refers to the process for getting onto a plane, not the general arrival confirmation.
 - id: g-15-underground
   prompt: underground
-  answer: 地下
+  answers:
+    - 地下
   hint: chika — used for underground places like basements/subways (e.g., 地下鉄).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1084,7 +1140,8 @@
       The prompt is just the general "underground," not the specific "room" word.
 - id: g-15-map
   prompt: map
-  answer: 地図
+  answers:
+    - 地図
   hint: chizu — often used in 地図アプリ (map app) or 地図を読む (to read a map)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1103,7 +1160,8 @@
       It refers to landforms themselves, not the document showing them.
 - id: g-15-breakfast
   prompt: with breakfast
-  answer: 朝食付き
+  answers:
+    - 朝食付き
   hint: chōshoku-tsuki — used in hotel/plan listings meaning breakfast is included
     (朝食=breakfast, 付き=included/with)
   stage: -1
@@ -1123,7 +1181,8 @@
       Be careful whether the prompt expects the longer okurigana spelling.
 - id: g-15-twin
   prompt: twin room
-  answer: ツイン
+  answers:
+    - ツイン
   hint: 'tsuin (katakana) — hotel term meaning a room with two beds; write clearly:
     ツ + イ + ン'
   stage: -1
@@ -1143,7 +1202,8 @@
       This one refers to one bed (usually larger), not two separate beds.
 - id: g-15-battery
   prompt: battery
-  answer: 電池
+  answers:
+    - 電池
   hint: denchi — 電 (electricity) + 池 (pond/cell); commonly used for AA/AAA batteries
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1162,7 +1222,8 @@
       This is the general concept of electric power, not the object you put into a device.
 - id: g-15-pass
   prompt: to go through; to pass
-  answer: 通る
+  answers:
+    - 通る
   hint: 'tooru (通る) — intransitive u-verb: to pass through a place/route (e.g., 道を通る).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1181,7 +1242,8 @@
       This one focuses on going past something or being too much.
 - id: g-15-trolley
   prompt: small train usually for tourists
-  answer: トロッコ列車
+  answers:
+    - トロッコ列車
   hint: torokko ressha — 観光地などで走る小型の列車（「列車」= train）
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1200,7 +1262,8 @@
       The prompt is for the full term meaning a tourist train.
 - id: g-15-garden
   prompt: garden
-  answer: 庭
+  answers:
+    - 庭
   hint: にわ (niwa) — 10 strokes; often used for a home's yard/garden (庭で遊ぶ).
   strokeCount: 10
   stage: -1
@@ -1220,7 +1283,8 @@
       This one has two people (人) sitting under a roof—meaning a seat/place to sit, not a garden.
 - id: g-15-leave
   prompt: to leave; to preserve
-  answer: 残す
+  answers:
+    - 残す
   hint: nokosu (のこす) - to leave something behind / preserve (e.g., 記録を残す)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1239,7 +1303,8 @@
       It’s about defending/keeping rules, not leaving something behind.
 - id: g-15-haku
   prompt: '... nights (counter suffix for stays)'
-  answer: ～泊
+  answers:
+    - ～泊
   hint: |-
     ～haku (counter for nights of lodging)
     Example: 2泊(にはく) = two nights
@@ -1260,7 +1325,8 @@
       This prompt is asking for the standard counter suffix used with numbers for stays.
 - id: g-15-place
   prompt: place
-  answer: 場所
+  answers:
+    - 場所
   hint: 'basho — physical location/spot (e.g., meeting place: 集合場所)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1279,7 +1345,8 @@
       This is used for an on-site location like an incident or work site.
 - id: g-15-present
   prompt: to make a presentation; to make public
-  answer: 発表する
+  answers:
+    - 発表する
   hint: happyou suru — used for giving a presentation or announcing results/news publicly
     (e.g., 研究を発表する, 新製品を発表する).
   stage: -1
@@ -1299,7 +1366,8 @@
       This is about reporting to someone (often a superior), not publicly presenting/announcing.
 - id: g-15-day
   prompt: day
-  answer: 日
+  answers:
+    - 日
   hint: hi / nichi — 4 strokes; a square “sun/day” with one line inside
   strokeCount: 4
   stage: -1
@@ -1319,7 +1387,8 @@
       The shape is flatter and the inner line looks different.
 - id: g-15-fashion
   prompt: fashion
-  answer: ファッション
+  answers:
+    - ファッション
   hint: fasshon (katakana loanword) — often used for clothing/style trends (e.g.,
     ファッション雑誌)
   stage: -1
@@ -1339,7 +1408,8 @@
       This one starts with フ, which changes the sound.
 - id: g-15-pool
   prompt: swimming pool
-  answer: プール
+  answers:
+    - プール
   hint: puuru — long vowel mark 「ー」 makes it “puu” (not “puru”).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1358,7 +1428,8 @@
       This prompt expects the loanword in katakana.
 - id: g-15-front
   prompt: receptionist; front desk
-  answer: フロント
+  answers:
+    - フロント
   hint: furonto — hotel front desk/reception (カタカナ loanword)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1377,7 +1448,8 @@
       It's the waiting/entrance area, not the front desk.
 - id: g-15-peace
   prompt: peace
-  answer: 平和
+  answers:
+    - 平和
   hint: heiwa — noun meaning peace; often in 平和な (peaceful)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1396,7 +1468,8 @@
       Same first kanji, but the second character changes the meaning.
 - id: g-15-peace-mu
   prompt: Peace Memorial Museum
-  answer: 平和記念資料館
+  answers:
+    - 平和記念資料館
   hint: |-
     heiwa kinen shiryōkan — A common proper-noun style compound:
     平和 (peace) + 記念 (memorial) + 資料館 (museum/archive).
@@ -1417,7 +1490,8 @@
       Be sure the beginning includes the concept of peace.
 - id: g-15-pet
   prompt: pet
-  answer: ペット
+  answers:
+    - ペット
   hint: petto (katakana loanword). Watch the small ッ (double consonant).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1436,7 +1510,8 @@
       Same start, but it continues as a longer compound word.
 - id: g-15-insure
   prompt: insurance
-  answer: 保険
+  answers:
+    - 保険
   hint: hoken — often used in 保険に入る (to get insurance) / 健康保険 (health insurance)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1455,7 +1530,8 @@
       Be careful: this starts with 危 and means risk, not coverage.
 - id: g-15-joinins
   prompt: to buy insurance
-  answer: 保険に入る
+  answers:
+    - 保険に入る
   hint: hoken ni hairu — literally “to enter insurance” (i.e., take out an insurance
     policy)
   stage: -1
@@ -1475,7 +1551,8 @@
       It describes a state/condition, not the action of taking out a policy.
 - id: g-15-meetup
   prompt: to meet up
-  answer: 待ち合わせをする
+  answers:
+    - 待ち合わせをする
   hint: machiawase o suru — agree on a time/place and meet; often used as 待ち合わせする
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1494,7 +1571,8 @@
       The prompt is about meeting up, not just waiting.
 - id: g-15-visible
   prompt: to be visible
-  answer: 見える
+  answers:
+    - 見える
   hint: |-
     mieru — intransitive ru-verb (something can be seen / is visible)
     Contrast: 見る (miru) = to look/watch (intentional)
@@ -1515,7 +1593,8 @@
       This prompt is about sight, not sound.
 - id: g-15-ordinal
   prompt: =-th (ordinal counter suffix, e.g., 1st/2nd/3rd)
-  answer: ～目
+  answers:
+    - ～目
   hint: '～め (me) — attaches to numbers: 一回目 (1st time), 二人目 (2nd person), 三つ目 (third
     one). Write the kanji suffix 目.'
   stage: -1
@@ -1535,7 +1614,8 @@
       It counts how many times something happens, not 'the -th' by itself.
 - id: g-15-people
   prompt: '... person(s) (counter suffix)'
-  answer: ～名
+  answers:
+    - ～名
   hint: ～mei — counter suffix used for people in polite/formal contexts (e.g., 3名
     = san-mei).
   stage: -1
@@ -1555,7 +1635,8 @@
       Often used when counting people respectfully, but it’s a different suffix and nuance.
 - id: g-15-again
   prompt: one more time
-  answer: もう一度
+  answers:
+    - もう一度
   hint: mou ichido — used to ask for a repeat (e.g., もう一度お願いします “One more time, please”).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1574,7 +1655,8 @@
       It’s for adding an extra item, not repeating an action.
 - id: g-15-plan
   prompt: schedule; plan
-  answer: 予定
+  answers:
+    - 予定
   hint: yotei — a planned schedule/appointment (e.g., 予定がある “I have plans”).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1593,7 +1675,8 @@
       It emphasizes an agreement with someone, not your overall schedule.
 - id: g-15-reserve
   prompt: to reserve
-  answer: 予約する
+  answers:
+    - 予約する
   hint: yoyaku suru — use for booking/reserving (hotel, seat, appointment).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1612,7 +1695,8 @@
       Used when placing an order, not booking in advance.
 - id: g-15-ryokan
   prompt: Japanese inn
-  answer: 旅館
+  answers:
+    - 旅館
   hint: ryokan — traditional Japanese lodging (often with tatami rooms and meals)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1631,7 +1715,8 @@
       This one ends with the kanji for "cost/fee," not a place to stay.
 - id: g-15-youth
   prompt: young people
-  answer: 若者
+  answers:
+    - 若者
   hint: wakamono (わかもの) — often refers to youth as a group (e.g., 若者たち)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1650,7 +1735,8 @@
       Check that you're writing the word for youth, not adulthood.
 - id: g-15-coupon
   prompt: discount coupon
-  answer: 割引券
+  answers:
+    - 割引券
   hint: waribikiken — 割(わ) = split/discount, 引(ひ) = pull/reduce, 券(けん) = ticket/coupon
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
