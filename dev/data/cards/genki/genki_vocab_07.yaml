@@ -1,6 +1,7 @@
 - id: g-07-ashi
   prompt: leg; foot
-  answer: 足
+  answers:
+    - 足
   hint: ashi — can mean both "leg" and "foot" depending on context
   strokeCount: 7
   stage: -1
@@ -19,7 +20,8 @@
       \ is simpler and doesn’t have the same lower shape."
 - id: g-07-atama
   prompt: head
-  answer: 頭
+  answers:
+    - 頭
   hint: atama — body part; also used for “top” (e.g., 頭がいい = smart)
   strokeCount: 16
   stage: -1
@@ -39,7 +41,8 @@
       This refers to the whole body rather than a specific part.
 - id: g-07-atama-ii
   prompt: bright; smart; clever
-  answer: 頭がいい
+  answers:
+    - 頭がいい
   hint: atama ga ii — literally “has a good head”; used for being smart/clever
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -58,7 +61,8 @@
       Different meaning even though it starts the same.
 - id: g-07-ani
   prompt: (my) older brother
-  answer: 兄
+  answers:
+    - 兄
   hint: 'ani (older brother; used for your own family, polite: 兄(あに))'
   strokeCount: 5
   stage: -1
@@ -78,7 +82,8 @@
       The prompt is singular, so don't add extra characters.
 - id: g-07-ane
   prompt: (my) older sister
-  answer: 姉
+  answers:
+    - 姉
   hint: 'ane — used for your own older sister; polite: 姉(あね)です / someone else’s: お姉さん(おねえさん)'
   strokeCount: 8
   stage: -1
@@ -98,7 +103,8 @@
       The left side is 女, but the right side uses a different component.
 - id: g-07-uta
   prompt: song
-  answer: 歌
+  answers:
+    - 歌
   hint: uta — the 歌 in 歌う (to sing); 14 strokes
   strokeCount: 14
   stage: -1
@@ -118,7 +124,8 @@
       It refers to a musical composition, not specifically the lyrics/song itself.
 - id: g-07-utau
   prompt: to sing
-  answer: 歌う
+  answers:
+    - 歌う
   hint: utau — often used for singing a song (歌). Not the same as 謳う (to praise/advertise).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -137,7 +144,8 @@
       The standard spelling is usually used in modern writing.
 - id: g-07-ojiisan
   prompt: grandfather; old man
-  answer: おじいさん
+  answers:
+    - おじいさん
   hint: 'ojiisan — polite/common term for “grandfather” (also used to refer to an
     elderly man). Long vowel: じい.'
   stage: -1
@@ -157,7 +165,8 @@
       The prompt expects the more polite/common form.
 - id: g-07-oshiri
   prompt: buttocks
-  answer: お尻
+  answers:
+    - お尻
   hint: oshiri — polite/common word for “butt”; written with 尻 (read しり)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -176,7 +185,8 @@
       The prompt expects the form that uses kanji after the honorific お.
 - id: g-07-onaka
   prompt: stomach
-  answer: おなか
+  answers:
+    - おなか
   hint: 'onaka — everyday word for belly/stomach (often used for hunger: おなかがすいた)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -195,7 +205,8 @@
       The prompt expects the common everyday word.
 - id: g-07-obaasan
   prompt: grandmother; old woman
-  answer: おばあさん
+  answers:
+    - おばあさん
   hint: obaasan (romaji) — long 「あ」 sound; 「おばさん」 is “aunt” (short あ).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -214,7 +225,8 @@
       The prompt asks for the standard polite form.
 - id: g-07-kaisha
   prompt: company
-  answer: 会社
+  answers:
+    - 会社
   hint: kaisha — a business/company (e.g., 会社員 = company employee)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -233,7 +245,8 @@
       This one refers to a role/title, not the company itself.
 - id: g-07-kao
   prompt: face
-  answer: 顔
+  answers:
+    - 顔
   hint: kao — common word for someone's face (not just a specific part like eyes or
     mouth)
   strokeCount: 18
@@ -254,7 +267,8 @@
       Different body part; watch the overall shape and components.
 - id: g-07-kakeru
   prompt: to put on (glasses)
-  answer: かける（眼鏡を）
+  answers:
+    - かける（眼鏡を）
   hint: kakeru (megane o) - used for wearing/putting on glasses; also used for things
     like headphones
   stage: -1
@@ -274,7 +288,8 @@
       Used for hats/helmets—things you wear on your head.
 - id: g-07-kazoku
   prompt: family
-  answer: 家族
+  answers:
+    - 家族
   hint: kazoku — 家 (house) + 族 (clan/group); often used as 家族(かぞく)です “(It’s my) family.”
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -293,7 +308,8 @@
       It's a single kanji meaning a home or (sometimes) a family line, not the full word for family.
 - id: g-07-kata
   prompt: shoulder
-  answer: 肩
+  answers:
+    - 肩
   hint: |-
     kata — body part: shoulder (left/right)
     漢字ヒント: 「月」(body) + 「戸」(door) の形に見える
@@ -311,7 +327,8 @@
       Keep the top part compact, and make the 「月」 part vertical and balanced.
 - id: g-07-kaburu
   prompt: to put on (a hat)
-  answer: かぶる
+  answers:
+    - かぶる
   hint: kaburu — used for wearing something that goes over the head (帽子をかぶる).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -330,7 +347,8 @@
       The prompt is for something worn on the head.
 - id: g-07-kami
   prompt: hair
-  answer: 髪
+  answers:
+    - 髪
   hint: kami — 「髪の毛」 means “head hair.” Distinguish from 紙 (paper) and 神 (god).
   strokeCount: 14
   stage: -1
@@ -350,7 +368,8 @@
       Different kanji used for facial hair, not hair on the head.
 - id: g-07-kara
   prompt: from ... (starting point)
-  answer: ～から
+  answers:
+    - ～から
   hint: 'kara — marks the starting point (time/place/source): 3時から, 日本から'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -369,7 +388,8 @@
       Commonly used for comparisons (AよりB).
 - id: g-07-kiwotsu
   prompt: to take care of oneself
-  answer: 体に気をつける
+  answers:
+    - 体に気をつける
   hint: 'karada ni ki o tsukeru — literal: "pay attention to your body"; often used
     as 体に気をつけてね (Take care!)'
   stage: -1
@@ -389,7 +409,8 @@
       Similar idea, but it specifically mentions health rather than the body in general.
 - id: g-07-kawaii
   prompt: cute
-  answer: かわいい
+  answers:
+    - かわいい
   hint: kawaii — い-adj. used for people/animals/things that feel charming or adorable
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -408,7 +429,8 @@
       Watch the first kana: か (ka) vs こ (ko).
 - id: g-07-kyodai
   prompt: brothers and sisters
-  answer: 兄弟
+  answers:
+    - 兄弟
   hint: 'kyoudai — siblings (usually refers to brothers/siblings; for “sisters” only:
     姉妹)'
   stage: -1
@@ -428,7 +450,8 @@
       The first kanji is “older sister,” not “older brother.”
 - id: g-07-kiru
   prompt: to put on (clothes above your waist)
-  answer: 着る
+  answers:
+    - 着る
   hint: kiru — for wearing on your upper body (e.g., シャツを着る). Not 切る (to cut).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -447,7 +470,8 @@
       Used for hats, caps, helmets, etc.
 - id: g-07-kuchi
   prompt: mouth
-  answer: 口
+  answers:
+    - 口
   hint: kuchi — 3 strokes; looks like a box (mouth opening)
   strokeCount: 3
   stage: -1
@@ -467,7 +491,8 @@
       It has a smaller box inside (double enclosure).
 - id: g-07-kubi
   prompt: neck
-  answer: 首
+  answers:
+    - 首
   hint: kubi (neck). Also used in phrases like 首になる (to get fired). 9 strokes.
   strokeCount: 9
   stage: -1
@@ -487,7 +512,8 @@
       It looks like a box with a single line inside; the target has extra strokes and a different top.
 - id: g-07-kuruma
   prompt: car
-  answer: 車
+  answers:
+    - 車
   hint: kuruma — 7 strokes; also used in words like 電車 (train) and 自動車 (automobile).
   strokeCount: 7
   stage: -1
@@ -507,7 +533,8 @@
       Pay attention to whether there is an enclosing frame around the middle.
 - id: g-07-kekkon
   prompt: to get married
-  answer: 結婚する
+  answers:
+    - 結婚する
   hint: 'kekkon suru — common pattern: 結婚します／結婚しました (to marry/get married)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -526,7 +553,8 @@
       For "to get married," you need the verb form with する.
 - id: g-07-circle
   prompt: club activity
-  answer: サークル
+  answers:
+    - サークル
   hint: 'saakuru — usually a student club/circle (e.g., 大学のサークル). Long vowel: サー.'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -545,7 +573,8 @@
       Watch the middle: small ッ changes the sound; this word has a long vowel instead.
 - id: g-07-shitte
   prompt: I know
-  answer: 知っています
+  answers:
+    - 知っています
   hint: 'shitteimasu — polite form of 知る (to know). Often used as: 〜を知っています (I know
     ~).'
   stage: -1
@@ -561,7 +590,8 @@
     toast: "That means \"I don't know.\" \nThis one is the negative form."
 - id: g-07-juku
   prompt: cram school
-  answer: 塾
+  answers:
+    - 塾
   hint: juku — after-school prep academy (often for exams); 14 strokes
   strokeCount: 14
   stage: -1
@@ -581,7 +611,8 @@
       The right-side components differ; make sure the right part matches the school-related kanji form.
 - id: g-07-shokudo
   prompt: cafeteria; dining commons
-  answer: 食堂
+  answers:
+    - 食堂
   hint: shokudou — a place to eat (often in schools/companies). 食 = food, 堂 = hall
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -600,7 +631,8 @@
       The prompt is a general cafeteria/dining hall, not a train car.
 - id: g-07-shiri
   prompt: buttocks
-  answer: 尻
+  answers:
+    - 尻
   hint: shiri — common word for “butt”; often in 尻尾(しっぽ) “tail”
   strokeCount: 5
   stage: -1
@@ -620,7 +652,8 @@
       The prompt is just the body-part word by itself.
 - id: g-07-shirn
   prompt: I do not know
-  answer: 知りません
+  answers:
+    - 知りません
   hint: shirimasen — polite negative of 知る (to know). Often used as 「知りません」 / 「知りませんでした」.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -639,7 +672,8 @@
       The prompt expects a polite expression ending in ません.
 - id: g-07-shiru
   prompt: to get to know
-  answer: 知る
+  answers:
+    - 知る
   hint: shiru (u-verb) — to come to know/learn a fact; often used as 知っている for “to
     know (state)”
   stage: -1
@@ -659,7 +693,8 @@
       It’s about giving information to others (transitive).
 - id: g-07-shinsetsu
   prompt: kind
-  answer: 親切
+  answers:
+    - 親切
   hint: 'shinsetsu(na) - な-adj: 親切な人 (a kind person); often used for being considerate/helpful'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -678,7 +713,8 @@
       This one means "close/intimate" (like close relationship), not "kind."
 - id: g-07-sukoshi
   prompt: a little
-  answer: 少し
+  answers:
+    - 少し
   hint: 'sukoshi — often used with negatives: 少しも〜ない (not even a little)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -697,7 +733,8 @@
       The prompt is asking for the adverb meaning "a little".
 - id: g-07-sumu
   prompt: to live (to reside)
-  answer: 住む
+  answers:
+    - 住む
   hint: |-
     sumu — to live/reside at a place (住む in + location に)
     Usage: 東京に住む = live in Tokyo
@@ -718,7 +755,8 @@
       Be careful: similar ending, but the kanji and meaning are about moving forward.
 - id: g-07-setaka
   prompt: tall (stature)
-  answer: 背が高い
+  answers:
+    - 背が高い
   hint: 'se ga takai — used for a person''s height (stature). Often: 背が高いです。'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -737,7 +775,8 @@
       多 means "many" and doesn't fit describing height.
 - id: g-07-sehiku
   prompt: short (stature)
-  answer: 背が低い
+  answers:
+    - 背が低い
   hint: se ga hikui — used for a person's height (stature), not for objects.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -756,7 +795,8 @@
       The prompt is the everyday phrasing with 背.
 - id: g-07-senaka
   prompt: back (body)
-  answer: 背中
+  answers:
+    - 背中
   hint: senaka — the back of the body (not a “background” or “back side” of an object)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -775,7 +815,8 @@
       This one is a more descriptive phrase, not the basic body-part noun.
 - id: g-07-tanoshimi
   prompt: to look forward (to)
-  answer: 楽しみにする
+  answers:
+    - 楽しみにする
   hint: tanoshimi ni suru — use with 〜を (e.g., 旅行を楽しみにしています = I’m looking forward
     to the trip)
   stage: -1
@@ -795,7 +836,8 @@
       The prompt is about looking ahead to something.
 - id: g-07-chichi
   prompt: (my) father
-  answer: 父
+  answers:
+    - 父
   hint: chichi — humble form for your own father (vs お父さん for someone else’s). 4 strokes.
   strokeCount: 4
   stage: -1
@@ -815,7 +857,8 @@
       The prompt is asking for the humble form used for your own family member.
 - id: g-07-te
   prompt: hand; arm
-  answer: 手
+  answers:
+    - 手
   hint: 'te — 4 strokes (meaning: hand)'
   strokeCount: 4
   stage: -1
@@ -835,7 +878,8 @@
       The middle strokes cross differently from the "hand" kanji.
 - id: g-07-depa
   prompt: department store
-  answer: デパート
+  answers:
+    - デパート
   hint: depaato — katakana loanword (from “department store”)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -854,7 +898,8 @@
       Refers to sweet food, not a store.
 - id: g-07-toru
   prompt: to take (a class); to get (a grade)
-  answer: 取る
+  answers:
+    - 取る
   hint: toru — used for taking a class/course (授業を取る) or getting a grade/points (点を取る).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -873,7 +918,8 @@
       This implies taking illegally, not enrolling or earning points.
 - id: g-07-nagai
   prompt: long
-  answer: 長い
+  answers:
+    - 長い
   hint: 'nagai — い-adj. meaning “long” (length/time). Often used as: 長い間 (a long time),
     髪が長い (hair is long).'
   stage: -1
@@ -893,7 +939,8 @@
       It describes width/area rather than length.
 - id: g-07-nanimo
   prompt: not ... anything (used with a negative verb)
-  answer: 何も
+  answers:
+    - 何も
   hint: nani mo + NEGATIVE (e.g., 何もない = there isn't anything; 何も食べない = don't eat
     anything)
   stage: -1
@@ -913,7 +960,8 @@
       It refers to selecting among items ("which one"), not "anything" with negation.
 - id: g-07-nin
   prompt: '[counter for people]'
-  answer: ～人
+  answers:
+    - ～人
   hint: |-
     〜nin / 〜jin — counter suffix for people.
     Readings vary: 一人 hitori, 二人 futari, 三人 sannin, 四人 yonin, 何人 nan-nin.
@@ -935,7 +983,8 @@
       This prompt is for counting people.
 - id: g-07-ha
   prompt: tooth
-  answer: 歯
+  answers:
+    - 歯
   hint: |-
     ha — means “tooth”; note this is 歯 (tooth), not は (hiragana particle “wa”)
     12 strokes
@@ -957,7 +1006,8 @@
       Different kanji and used for animal fangs rather than regular teeth.
 - id: g-07-haku
   prompt: to put on (items below your waist)
-  answer: はく
+  answers:
+    - はく
   hint: 'haku — used for lower-body clothing: ズボンをはく / 靴下をはく'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -976,7 +1026,8 @@
       Not the verb used for pants/skirts/shoes.
 - id: g-07-hataraku
   prompt: to work
-  answer: 働く
+  answers:
+    - 働く
   hint: hataraku (u-verb) — often used for working at a job; kanji has the 亻(person)
     radical on the left
   stage: -1
@@ -996,7 +1047,8 @@
       This is about producing something, not working (in general).
 - id: g-07-hana
   prompt: nose
-  answer: 鼻
+  answers:
+    - 鼻
   hint: hana — 14 strokes. Looks like 自 on top; remember it’s the body part you breathe
     with.
   strokeCount: 14
@@ -1017,7 +1069,8 @@
       Watch the overall structure: this one has a clearer top 'lid' and a different bottom shape.
 - id: g-07-haha
   prompt: (my) mother
-  answer: 母
+  answers:
+    - 母
   hint: 'haha — used for your own mother (humble). For someone else’s mother: お母さん
     (okaasan).'
   strokeCount: 5
@@ -1038,7 +1091,8 @@
       The prompt is asking for the plain word you use for your own mother.
 - id: g-07-hayai
   prompt: fast
-  answer: 速い
+  answers:
+    - 速い
   hint: hayai — 速い is “fast/quick” (speed). Often contrasted with 早い (early).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1057,7 +1111,8 @@
       The prompt is asking for the dictionary adjective form.
 - id: g-07-hitori
   prompt: one person
-  answer: 一人
+  answers:
+    - 一人
   hint: hitori — counter for people; can also mean "alone" depending on context
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1076,7 +1131,8 @@
       Not just the number of people.
 - id: g-07-futari
   prompt: two people
-  answer: 二人
+  answers:
+    - 二人
   hint: futari — counter/expression for two people (irregular; 1人=ひとり, 2人=ふたり)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1095,7 +1151,8 @@
       It adds the particle で, changing the phrase.
 - id: g-07-futot
   prompt: to be on the heavy side
-  answer: 太っています
+  answers:
+    - 太っています
   hint: futotte imasu (polite progressive) — describes a current/ongoing state of
     being overweight
   stage: -1
@@ -1115,7 +1172,8 @@
       The prompt is present/ongoing, not in the past.
 - id: g-07-futoru
   prompt: to gain weight; overweight
-  answer: 太る
+  answers:
+    - 太る
   hint: futoru (u-verb) — to gain weight (body). Often used as 太った “got fat/put on
     weight.”
   stage: -1
@@ -1135,7 +1193,8 @@
       The prompt is for the dictionary form, not a negative imperative.
 - id: g-07-betsuni
   prompt: nothing in particular (used with negatives)
-  answer: 別に
+  answers:
+    - 別に
   hint: betsuni — usually followed by a negative (e.g., 別に〜ない) to mean “not really
     / nothing in particular”
   stage: -1
@@ -1155,7 +1214,8 @@
       It’s not the adverb meaning “not really / nothing in particular.”
 - id: g-07-benri
   prompt: convenient
-  answer: 便利
+  answers:
+    - 便利
   hint: benri (na-adj) — often used as 便利な + noun / 便利です
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1174,7 +1234,8 @@
       It adds a negative prefix, reversing the meaning.
 - id: g-07-mayuge
   prompt: eyebrow
-  answer: 眉毛
+  answers:
+    - 眉毛
   hint: mayuge — written with 眉 (eyebrow) + 毛 (hair/fur). Often used as 眉毛が太い/薄い (thick/thin
     eyebrows).
   stage: -1
@@ -1194,7 +1255,8 @@
       The prompt expects the full word with the hair component included.
 - id: g-07-mijikai
   prompt: short (length)
-  answer: 短い
+  answers:
+    - 短い
   hint: mijikai — length/time is short (shorter than expected)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1213,7 +1275,8 @@
       This describes thickness, not length.
 - id: g-07-mimi
   prompt: ear
-  answer: 耳
+  answers:
+    - 耳
   hint: mimi — 6 strokes (looks like an ear shape on the side of a head)
   strokeCount: 6
   stage: -1
@@ -1233,7 +1296,8 @@
       This one adds an extra component on the right side.
 - id: g-07-minna
   prompt: all (everyone)
-  answer: みんな
+  answers:
+    - みんな
   hint: 'minna — used for people: “everyone/all (of us/you/them)” (e.g., みんなで = together)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1252,7 +1316,8 @@
       The prompt is just “everyone/all,” without the extra meaning.
 - id: g-07-mune
   prompt: breast
-  answer: 胸
+  answers:
+    - 胸
   hint: mune — also means "chest"; often used as 胸が痛い (my heart/chest hurts)
   strokeCount: 10
   stage: -1
@@ -1272,7 +1337,8 @@
       Both are body parts with the 月 radical, but the right side here is different (not the "凶" component).
 - id: g-07-me
   prompt: eye
-  answer: 目
+  answers:
+    - 目
   hint: me — 5 strokes; the box shape should close neatly
   strokeCount: 5
   stage: -1
@@ -1292,7 +1358,8 @@
       The top portion is different; be careful with the inner stroke direction and placement.
 - id: g-07-megane
   prompt: glasses
-  answer: 眼鏡
+  answers:
+    - 眼鏡
   hint: megane — usually written in kana (めがね) in everyday use, but this is the kanji
     form.
   stage: -1
@@ -1312,7 +1379,8 @@
       It uses the metal radical and looks similar, but the meaning is different.
 - id: g-07-mochiron
   prompt: of course
-  answer: もちろん
+  answers:
+    - もちろん
   hint: 'mochiron — used to agree/confirm (“of course”, “sure”). Often: もちろんです／もちろん〜'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1331,7 +1399,8 @@
       The prompt expects the base adverb only (no です).
 - id: g-07-yasete
   prompt: to be thin
-  answer: やせています
+  answers:
+    - やせています
   hint: yaseteimasu — polite progressive state (“is thin”). Often describes someone’s
     current appearance/condition.
   stage: -1
@@ -1351,7 +1420,8 @@
       This prompt is about the current state.
 - id: g-07-yaseru
   prompt: to lose weight
-  answer: やせる
+  answers:
+    - やせる
   hint: yaseru - intransitive ru-verb (to become thin/lose weight)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1370,7 +1440,8 @@
       The prompt expects hiragana, which is more rounded.
 - id: g-07-yubi
   prompt: finger
-  answer: 指
+  answers:
+    - 指
   hint: yubi — 9 strokes; means “finger/to point” depending on context
   strokeCount: 9
   stage: -1
@@ -1390,7 +1461,8 @@
       This one has the tree radical (木) on the left, not the radical used for pointing/fingers.
 - id: g-07-yokattara
   prompt: if you like
-  answer: よかったら
+  answers:
+    - よかったら
   hint: yokattara - polite/soft way to say “if it’s okay with you” (often used to
     make an offer or invitation)
   stage: -1

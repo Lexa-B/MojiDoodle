@@ -1,6 +1,7 @@
 - id: g-02-asoko
   prompt: over there
-  answer: あそこ
+  answers:
+    - あそこ
   hint: asoko — indicates a place away from both speaker and listener (there, over
     there)
   stage: -1
@@ -20,7 +21,8 @@
       The prompt is a place word.
 - id: g-02-ano
   prompt: that . . . (over there)
-  answer: あの
+  answers:
+    - あの
   hint: |-
     ano - pre-noun adjective (連体詞)
     Used before a noun: あの人 = that person (over there).
@@ -41,7 +43,8 @@
       Use it when asking to choose.
 - id: g-02-are
   prompt: that one (over there)
-  answer: あれ
+  answers:
+    - あれ
   hint: 'are — demonstrative meaning “that (over there)”; contrasts: これ (this), それ
     (that near you)'
   stage: -1
@@ -61,7 +64,8 @@
       This prompt is a standalone pronoun meaning “that one.”
 - id: g-02-ikura
   prompt: how much
-  answer: いくら
+  answers:
+    - いくら
   hint: ikura — used to ask price/amount (e.g., これ、いくらですか)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -80,7 +84,8 @@
       It’s not the direct question word.
 - id: g-02-isu
   prompt: chair
-  answer: いす
+  answers:
+    - いす
   hint: isu (hiragana) - a chair (not a desk)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -99,7 +104,8 @@
       Watch the last character: one is す, the other is ぬ.
 - id: g-02-irasshai
   prompt: Welcome (to our store).
-  answer: いらっしゃいませ
+  answers:
+    - いらっしゃいませ
   hint: irasshaimase - polite set phrase said by shop staff to customers (written
     in hiragana here).
   stage: -1
@@ -119,7 +125,8 @@
       The prompt is used to greet someone as they enter.
 - id: g-02-eigo
   prompt: English language
-  answer: 英語
+  answers:
+    - 英語
   hint: eigo — 「英」= England/English + 「語」= language/word
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -138,7 +145,8 @@
       The first character indicates the country (Japan), not English.
 - id: g-02-yen
   prompt: '... yen (suffix)'
-  answer: ～円
+  answers:
+    - ～円
   hint: '～en — write after a number (e.g., 100円 = hyaku-en). Note: 円 is the kanji
     for Japanese yen/“circle.”'
   stage: -1
@@ -158,7 +166,8 @@
       The prompt is just the currency suffix, not an approximation.
 - id: g-02-oishii
   prompt: delicious
-  answer: おいしい
+  answers:
+    - おいしい
   hint: 'oishii — i-adjective; ends in い (polite: おいしいです)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -177,7 +186,8 @@
       This form adds そう to describe appearance, not the actual taste.
 - id: g-02-onegai
   prompt: '..., please.'
-  answer: おねがいします（～を）
+  answers:
+    - おねがいします（～を）
   hint: |-
     onegai shimasu - polite request (often used when asking for an item/service)
     Example: コーヒーをおねがいします。
@@ -198,7 +208,8 @@
       The prompt needs the polite verb form used to make the request.
 - id: g-02-curtain
   prompt: curtain
-  answer: カーテン
+  answers:
+    - カーテン
   hint: kaaten - katakana loanword (curtain in a room/window)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -217,7 +228,8 @@
       Be careful: the last character should be ン, not ル.
 - id: g-02-kasa
   prompt: umbrella
-  answer: 傘
+  answers:
+    - 傘
   hint: kasa — 12 strokes; looks like an umbrella with many ribs
   strokeCount: 12
   stage: -1
@@ -237,7 +249,8 @@
       This one has "手" at the bottom (hand), not the umbrella ribs.
 - id: g-02-kaban
   prompt: bag
-  answer: かばん
+  answers:
+    - かばん
   hint: kaban — often used for bags you carry (school bag/briefcase).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -256,7 +269,8 @@
       Make sure to include the ん sound at the end.
 - id: g-02-ginko
   prompt: bank
-  answer: 銀行
+  answers:
+    - 銀行
   hint: ginkou — financial institution (not "silver")
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -275,7 +289,8 @@
       Different service: mail/shipments rather than banking.
 - id: g-02-kudasai
   prompt: Please give me . . .
-  answer: ください（～を）
+  answers:
+    - ください（～を）
   hint: 'kudasai — polite request: (object) を ください (e.g., 水をください = Please give me
     water)'
   stage: -1
@@ -295,7 +310,8 @@
       It isn't a request meaning "please give me".
 - id: g-02-kutsu
   prompt: shoes
-  answer: 靴
+  answers:
+    - 靴
   hint: 'kutsu — 13 strokes; common counter: 一足（いっそく）'
   strokeCount: 13
   stage: -1
@@ -315,7 +331,8 @@
       Similar category (clothing/accessories), but the components and top shape differ.
 - id: g-02-keshig
   prompt: eraser
-  answer: 消しゴム
+  answers:
+    - 消しゴム
   hint: keshigomu — 消し (erase) + ゴム (rubber); common for pencil eraser
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -334,7 +351,8 @@
       Different stationery item—check the meaning carefully.
 - id: g-02-kokuban
   prompt: blackboard
-  answer: 黒板
+  answers:
+    - 黒板
   hint: kokuban — 「黒」= black, 「板」= board/plank
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -353,7 +371,8 @@
       Different kind of board (used with markers instead of chalk).
 - id: g-02-koko
   prompt: here
-  answer: ここ
+  answers:
+    - ここ
   hint: koko — indicates a location near the speaker (e.g., ここです = It's here).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -372,7 +391,8 @@
       It's used for asking about a location, not pointing one out.
 - id: g-02-kono
   prompt: this ... (before a noun)
-  answer: この
+  answers:
+    - この
   hint: kono — demonstrative adjective; use before a noun (e.g., この本 = this book)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -391,7 +411,8 @@
       It points to something far from both speaker and listener.
 - id: g-02-kore
   prompt: this one
-  answer: これ
+  answers:
+    - これ
   hint: kore — demonstrative pronoun meaning “this (near the speaker)”.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -410,7 +431,8 @@
       It must be followed by a noun (e.g., “… book”).
 - id: g-02-konbini
   prompt: convenience store
-  answer: コンビニ
+  answers:
+    - コンビニ
   hint: konbini (abbr. of コンビニエンスストア)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -429,7 +451,8 @@
       The prompt expects the katakana loanword style.
 - id: g-02-saifu
   prompt: wallet
-  answer: 財布
+  answers:
+    - 財布
   hint: saifu — used for money/cards; often written as お財布 in polite speech
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -448,7 +471,8 @@
       This is for carrying items; the prompt is for a smaller item used specifically for money.
 - id: g-02-sakana
   prompt: fish
-  answer: 魚
+  answers:
+    - 魚
   hint: sakana — the kanji means fish (also read うお in compounds).
   strokeCount: 11
   stage: -1
@@ -468,7 +492,8 @@
       This one adds extra components to specify a particular fish.
 - id: g-02-jeans
   prompt: jeans
-  answer: ジーンズ
+  answers:
+    - ジーンズ
   hint: jiinzu (katakana) - clothing word loaned from English; long vowel ー and small
     ン
   stage: -1
@@ -488,7 +513,8 @@
       Small ン should be clearly formed, and ー should be a straight long dash.
 - id: g-02-jisho
   prompt: dictionary
-  answer: 辞書
+  answers:
+    - 辞書
   hint: jisho — common word for a dictionary/book of definitions (辞=words, 書=book)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -507,7 +533,8 @@
       It has 教科 (school subjects) in front, so it’s not a general reference dictionary.
 - id: g-02-jitensha
   prompt: bicycle
-  answer: 自転車
+  answers:
+    - 自転車
   hint: jitensha — 自 (self) + 転 (turn/roll) + 車 (vehicle); common word for a bicycle
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -526,7 +553,8 @@
       The correct word has three kanji total, ending with 車 only once.
 - id: g-02-jaa
   prompt: then...; if that is the case...
-  answer: じゃあ
+  answers:
+    - じゃあ
   hint: jaa — casual transition meaning "well then..." / "in that case..." (often
     at the start of a sentence)
   stage: -1
@@ -546,7 +574,8 @@
       This one adds a farewell nuance, not just "then...".
 - id: g-02-shinbun
   prompt: newspaper
-  answer: 新聞
+  answers:
+    - 新聞
   hint: shinbun — daily newspaper; often used with 読む (to read) or 取る (to subscribe)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -565,7 +594,8 @@
       Magazines are typically periodic and feature-based, not daily news.
 - id: g-02-sumaho
   prompt: smartphone; mobile
-  answer: スマホ
+  answers:
+    - スマホ
   hint: sumaho — short for スマートフォン (smartphone)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -584,7 +614,8 @@
       This word is normally written in katakana for loanwords.
 - id: g-02-soko
   prompt: there
-  answer: そこ
+  answers:
+    - そこ
   hint: soko — indicates a location near the listener / that place
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -603,7 +634,8 @@
       This one is used for asking about a location.
 - id: g-02-sono
   prompt: 'that ... (prenominal: modifies a noun)'
-  answer: その
+  answers:
+    - その
   hint: 'sono — used before a noun: その本 = that book (near listener/previously mentioned)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -622,7 +654,8 @@
       It expects an answer/choice.
 - id: g-02-sore
   prompt: that one
-  answer: それ
+  answers:
+    - それ
   hint: sore — “that” near the listener (そ=that / れ=one). Often contrasts with これ
     (this) and あれ (that over there).
   stage: -1
@@ -642,7 +675,8 @@
       The prompt is singular (“that one”).
 - id: g-02-takai
   prompt: expensive; high
-  answer: 高い
+  answers:
+    - 高い
   hint: takai — also means "tall" or "high" (price/height/level).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -661,7 +695,8 @@
       The prompt is for the dictionary form ending in い.
 - id: g-02-dare
   prompt: who
-  answer: だれ
+  answers:
+    - だれ
   hint: dare — used to ask a person’s identity (e.g., だれですか “Who is it?”)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -680,7 +715,8 @@
       A pointing word (demonstrative), not a question word.
 - id: g-02-tsukue
   prompt: desk
-  answer: 机
+  answers:
+    - 机
   hint: tsukue — 6 strokes; includes the 木 (tree) radical on the left
   strokeCount: 6
   stage: -1
@@ -700,7 +736,8 @@
       It combines a person on the left with a tree on the right.
 - id: g-02-tshirt
   prompt: T-shirt
-  answer: Ｔシャツ
+  answers:
+    - Ｔシャツ
   hint: 'tii shatsu (katakana loanword). Note: uses full-width Ｔ + シャツ.'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -719,7 +756,8 @@
       Be careful to finish with ツ, not ッ.
 - id: g-02-denki
   prompt: electricity; light
-  answer: 電気
+  answers:
+    - 電気
   hint: denki — used for electricity (電気) and electric light (電気をつける = turn on the
     light)
   stage: -1
@@ -739,7 +777,8 @@
       The second kanji here refers to a "pond/pool" meaning, not "ki" as in energy/spirit.
 - id: g-02-doa
   prompt: door
-  answer: ドア
+  answers:
+    - ドア
   hint: doa (katakana loanword). Write in katakana, not hiragana.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -758,7 +797,8 @@
       Make sure you include the leading character with the ゛ (dakuten).
 - id: g-02-toire
   prompt: toilet; restroom
-  answer: トイレ
+  answers:
+    - トイレ
   hint: toire (katakana loanword); commonly seen on signs like トイレはこちら
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -777,7 +817,8 @@
       Don't switch the ending sound to "ru" by mistake.
 - id: g-02-douzo
   prompt: Please.; Here it is.
-  answer: どうぞ
+  answers:
+    - どうぞ
   hint: douzo — used when offering/allowing (e.g., どうぞ召し上がって = Please help yourself).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -796,7 +837,8 @@
       The prompt is for inviting/allowing or handing something over.
 - id: g-02-doumo
   prompt: Thank you.
-  answer: どうも
+  answers:
+    - どうも
   hint: doumo — casual/quick “thanks”; often used as どうもありがとう
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -815,7 +857,8 @@
       The prompt is for the shorter version.
 - id: g-02-tokei
   prompt: watch; clock
-  answer: 時計
+  answers:
+    - 時計
   hint: tokei — a timepiece (腕時計 = wristwatch, 時計 = clock/watch)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -834,7 +877,8 @@
       This refers to the time itself, not a clock/watch.
 - id: g-02-doko
   prompt: where
-  answer: どこ
+  answers:
+    - どこ
   hint: doko — question word meaning “where?” (e.g., どこですか)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -853,7 +897,8 @@
       Used for a location far from both speaker and listener.
 - id: g-02-toshokan
   prompt: library
-  answer: 図書館
+  answers:
+    - 図書館
   hint: toshokan — 図(zu)=diagram, 書(sho)=book/writing, 館(kan)=building; often used
     with 行く/借りる (図書館へ行く, 図書館で本を借りる)
   stage: -1
@@ -873,7 +918,8 @@
       It’s a smaller room, not a full public facility.
 - id: g-02-dono
   prompt: which ... (as in “which one/which + noun?”)
-  answer: どの
+  answers:
+    - どの
   hint: 'dono — used before a noun: どの本 (which book?) / どの人 (which person?)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -892,7 +938,8 @@
       It points to something far from both speaker and listener, not a question word.
 - id: g-02-dore
   prompt: which one
-  answer: どれ
+  answers:
+    - どれ
   hint: dore — used to ask “which (one)?” among several options (e.g., どれがいい？)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -911,7 +958,8 @@
       This prompt is for “which one?” by itself.
 - id: g-02-tonkatsu
   prompt: pork cutlet
-  answer: とんかつ
+  answers:
+    - とんかつ
   hint: tonkatsu — often written in kana; also seen as 豚カツ (short for 豚肉カツレツ).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -930,7 +978,8 @@
       Watch the ending: one is "katsu" vs "kotsu".
 - id: g-02-niku
   prompt: meat
-  answer: 肉
+  answers:
+    - 肉
   hint: niku — looks like a "chunk" inside a frame; common in words like 牛肉 (beef)
     and 鶏肉 (chicken)
   strokeCount: 6
@@ -951,7 +1000,8 @@
       Pay attention to the top component and how the inside is written.
 - id: g-02-note
   prompt: notebook
-  answer: ノート
+  answers:
+    - ノート
   hint: nooto (katakana) - loanword for a notebook/notepad
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -970,7 +1020,8 @@
       Make sure to include the sound-stretching dash in the middle.
 - id: g-02-pen
   prompt: pen
-  answer: ペン
+  answers:
+    - ペン
   hint: pen (katakana) — loanword; written in katakana
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -989,7 +1040,8 @@
       This one uses a handakuten (small circle) on the first character, not dakuten (two lines).
 - id: g-02-boshi
   prompt: hat; cap
-  answer: 帽子
+  answers:
+    - 帽子
   hint: boushi — 帽 (hat) + 子 (child). Common in 「帽子をかぶる」 (to wear a hat).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1008,7 +1060,8 @@
       It’s broader than a simple hat/cap.
 - id: g-02-hon
   prompt: book
-  answer: 本
+  answers:
+    - 本
   hint: hon — also means "origin/main" depending on context
   strokeCount: 5
   stage: -1
@@ -1028,7 +1081,8 @@
       Different meaning and a more complex shape.
 - id: g-02-mado
   prompt: window
-  answer: 窓
+  answers:
+    - 窓
   hint: mado — 11 strokes (穴 + 心 + 夂)
   strokeCount: 11
   stage: -1
@@ -1048,7 +1102,8 @@
       Similar top shape, but it doesn't have the 穴 (cave) radical.
 - id: g-02-menu
   prompt: menu
-  answer: メニュー
+  answers:
+    - メニュー
   hint: menyuu (katakana) — long vowel ー, then small ュ to make ニュ
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1067,7 +1122,8 @@
       In katakana, ー lengthens the vowel sound.
 - id: g-02-yasai
   prompt: vegetable
-  answer: 野菜
+  answers:
+    - 野菜
   hint: 'yasai — common in 野菜を食べる (to eat vegetables). Kanji: 野=field, 菜=greens/vegetables.'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1086,7 +1142,8 @@
       The second character means "plain," not edible greens.
 - id: g-02-yubin
   prompt: post office
-  answer: 郵便局
+  answers:
+    - 郵便局
   hint: yuubinkyoku — 郵(ゆう) + 便(びん) + 局(きょく); place to send mail/packages
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'

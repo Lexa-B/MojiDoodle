@@ -1,6 +1,7 @@
 - id: g-08-ato
   prompt: after (an event)
-  answer: 後
+  answers:
+    - 後
   hint: ato / go — used for time order (e.g., 授業の後 = after class).
   strokeCount: 9
   stage: -1
@@ -20,7 +21,8 @@
       Same reading (あと), but it means a mark or remains, not time "after".
 - id: g-08-avo
   prompt: avocado
-  answer: アボカド
+  answers:
+    - アボカド
   hint: abokado (katakana) — a loanword for the fruit
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -39,7 +41,8 @@
       カ and ガ differ by dakuten (two dots).
 - id: g-08-ame
   prompt: rain
-  answer: 雨
+  answers:
+    - 雨
   hint: ame (あめ) — weather/rain (not candy). 8 strokes.
   strokeCount: 8
   stage: -1
@@ -59,7 +62,8 @@
       Same reading, but it uses the "food" radical (食) on the left.
 - id: g-08-arau
   prompt: to wash
-  answer: 洗う
+  answers:
+    - 洗う
   hint: arau (u-verb) — often used for washing hands/face or dishes (e.g., 手を洗う)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -78,7 +82,8 @@
       Often used for brushing teeth or polishing, rather than washing with water.
 - id: g-08-algy
   prompt: allergy
-  answer: アレルギー
+  answers:
+    - アレルギー
   hint: arerugii (katakana loanword); long vowel mark 「ー」 at the end
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -97,7 +102,8 @@
       Loanwords usually use 「ー」 to show a long sound.
 - id: g-08-anke
   prompt: questionnaire
-  answer: アンケート
+  answers:
+    - アンケート
   hint: ankeeto — a survey/questionnaire (common loanword; often used with 取る/実施する)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -116,7 +122,8 @@
       The prompt is asking for the simple noun.
 - id: g-08-iu
   prompt: to say
-  answer: 言う
+  answers:
+    - 言う
   hint: iu — used for saying/telling (e.g., 〜と言う = “to say that …”)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -135,7 +142,8 @@
       Use the standard modern kanji form in most contexts.
 - id: g-08-ichigo
   prompt: strawberry
-  answer: いちご
+  answers:
+    - いちご
   hint: ichigo (hiragana) — common fruit word; usually written in kana
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -154,7 +162,8 @@
       Watch the dakuten marks ( ゛ ) on the final character.
 - id: g-08-iru
   prompt: to need
-  answer: いる
+  answers:
+    - いる
   hint: |-
     iru (to need; required/necessary)
     Often used as 「〜がいる」 for needing someone/something.
@@ -175,7 +184,8 @@
       Different meaning; be careful not to add the "enter" kanji.
 - id: g-08-uun
   prompt: uh-uh; no
-  answer: ううん
+  answers:
+    - ううん
   hint: uun — casual spoken “no/uh-uh” (softer than いいえ). Often used with a slight
     head shake.
   stage: -1
@@ -195,7 +205,8 @@
       This prompt is a casual negative reply.
 - id: g-08-un
   prompt: uh-huh; yes
-  answer: うん
+  answers:
+    - うん
   hint: un — casual “yeah/uh-huh” (used in conversation; informal)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -214,7 +225,8 @@
       Common in polite conversation and to show agreement.
 - id: g-08-unten
   prompt: to drive
-  answer: 運転する
+  answers:
+    - 運転する
   hint: unten suru — to drive/operate a vehicle (車を運転する).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -233,7 +245,8 @@
       The prompt is asking for the verb form with する.
 - id: g-08-okuru
   prompt: to be late
-  answer: 遅くなる
+  answers:
+    - 遅くなる
   hint: osoku naru - become late; 遅い (osoi) + くなる (become)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -252,7 +265,8 @@
       The prompt is a verb meaning "to become late".
 - id: g-08-ofuro
   prompt: bath
-  answer: お風呂
+  answers:
+    - お風呂
   hint: ofuro — usually means a Japanese bath/tub (also used for bath time or bathroom
     depending on context)
   stage: -1
@@ -272,7 +286,8 @@
       Related meaning, but this prompt is for the common word for a bath/tub.
 - id: g-08-furohairu
   prompt: to take a bath
-  answer: お風呂に入る
+  answers:
+    - お風呂に入る
   hint: 'ofuro ni hairu - literal: “enter the bath” (common set phrase)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -291,7 +306,8 @@
       This prompt is for the dictionary form.
 - id: g-08-omou
   prompt: to think
-  answer: 思う
+  answers:
+    - 思う
   hint: omou — to think/feel (often subjective opinion); dictionary form u-verb
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -310,7 +326,8 @@
       The prompt expects the dictionary form.
 - id: g-08-cam
   prompt: camera
-  answer: カメラ
+  answers:
+    - カメラ
   hint: kamera (katakana loanword); watch small ム vs メ in the middle
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -329,7 +346,8 @@
       One uses a box-like shape; the other has a simpler 'mo' form.
 - id: g-08-kara
   prompt: karaoke
-  answer: カラオケ
+  answers:
+    - カラオケ
   hint: karaoke (katakana loanword; short for カラオケ＝空(から)＋オーケストラ)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -348,7 +366,8 @@
       Be careful: ケ has an extra stroke compared to キ.
 - id: g-08-kanpai
   prompt: Cheers! (a toast)
-  answer: 乾杯
+  answers:
+    - 乾杯
   hint: kanpai — said when raising glasses for a toast (common at parties/after work)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -367,7 +386,8 @@
       Not used as the clinking-glasses toast.
 - id: g-08-kion
   prompt: temperature (weather)
-  answer: 気温
+  answers:
+    - 気温
   hint: kion — weather temperature; often used in 気温が上がる/下がる
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -386,7 +406,8 @@
       A different weather measurement (moisture in the air).
 - id: g-08-kyabe
   prompt: cabbage
-  answer: キャベツ
+  answers:
+    - キャベツ
   hint: kyabetsu (katakana loanword; often used in food contexts like サラダ or とんかつ)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -405,7 +426,8 @@
       The prompt expects the common katakana spelling for a loanword.
 - id: g-08-gyu
   prompt: beef
-  answer: 牛肉
+  answers:
+    - 牛肉
   hint: gyuuniku — "cow + meat" (牛=ぎゅう, 肉=にく)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -424,7 +446,8 @@
       The second kanji here means "milk", not "meat".
 - id: g-08-kyuri
   prompt: cucumber
-  answer: きゅうり
+  answers:
+    - きゅうり
   hint: kyuuri (hiragana) — a common vegetable; often written in kana
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -443,7 +466,8 @@
       Watch the last character shape: it should be the one with a looped curve, not the simpler one.
 - id: g-08-kiru
   prompt: to cut
-  answer: 切る
+  answers:
+    - 切る
   hint: kiru — to cut/slice (e.g., paper, rope). Often used as 切って / 切った.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -462,7 +486,8 @@
       It means "to be cut / to run out" rather than doing the cutting.
 - id: g-08-kumori
   prompt: cloudy weather
-  answer: 曇り
+  answers:
+    - 曇り
   hint: kumori — often used in weather forecasts (e.g., 曇りのち雨 “cloudy, then rain”)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -481,7 +506,8 @@
       This is the opposite type of weather.
 - id: g-08-kesa
   prompt: this morning
-  answer: 今朝
+  answers:
+    - 今朝
   hint: 'kesa — used for earlier today (not tonight): 今朝は寒い。'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -500,7 +526,8 @@
       It covers the whole day, not specifically the morning.
 - id: g-08-kotae
   prompt: to answer
-  answer: 答える
+  answers:
+    - 答える
   hint: kotaeru - to answer/respond (often to a question)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -519,7 +546,8 @@
       The prompt is asking for the verb form ending in -る.
 - id: g-08-konoaida
   prompt: the other day
-  answer: この間
+  answers:
+    - この間
   hint: kono aida — used to mean “the other day / recently” (not literally “during
     this time”)
   stage: -1
@@ -539,7 +567,8 @@
       It expresses a time span, not a past day/event.
 - id: g-08-saigo
   prompt: finally; lastly
-  answer: 最後に
+  answers:
+    - 最後に
   hint: saigo ni — often used to introduce the final point or closing remark (e.g.,
     最後に一つだけ…).
   stage: -1
@@ -559,7 +588,8 @@
       This card expects the kanji form.
 - id: g-08-zangyo
   prompt: overtime work
-  answer: 残業
+  answers:
+    - 残業
   hint: zangyō — staying at work beyond regular hours (e.g., 残業する = to work overtime)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -577,18 +607,24 @@
       That's "the remainder/leftovers".
       This is about what's left, not work time.
 - id: g-08-zannen
-  prompt: That’s too bad.
-  answer: 残念（ですね）
+  prompt: That's too bad.
+  answers:
+    - 残念
+    - 残念ですね
   hint: zannen (desu ne) - used to react to disappointing news; often with 「ですね」 to
     soften/agree
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 大変（ですね）
+  - answers:
+      - 大変
+      - 大変ですね
     toast: |-
       That's more like "That's tough/serious" or "What a hassle."
       Use it for hardship or trouble, not disappointment.
-  - answer: 惜しい（ですね）
+  - answers:
+      - 惜しい
+      - 惜しいですね
     toast: |-
       That's "So close!/What a waste."
       Use it when something nearly succeeded or feels wasteful.
@@ -598,7 +634,8 @@
       Be careful with the second kanji.
 - id: g-08-shigoto
   prompt: job; work; occupation
-  answer: 仕事
+  answers:
+    - 仕事
   hint: shigoto — everyday word for work/job (仕事をする = to work)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -617,7 +654,8 @@
       More formal and about your type of profession rather than today's work.
 - id: g-08-jaga
   prompt: potato
-  answer: じゃがいも
+  answers:
+    - じゃがいも
   hint: jagaimo — common in cooking (e.g., じゃがいもを切る "cut potatoes")
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -636,7 +674,8 @@
       This includes an extra word and refers to a prepared food, not the ingredient itself.
 - id: g-08-jouzu
   prompt: Skillful; good at ... (na-adj.)
-  answer: 上手
+  answers:
+    - 上手
   hint: 'joubu(na) — use with が: 日本語が上手 (good at Japanese). Often contrasts with 下手
     (unskilled).'
   stage: -1
@@ -656,7 +695,8 @@
       Often used for 'tasty' or 'cleverly done' in casual speech.
 - id: g-08-suika
   prompt: watermelon
-  answer: すいか
+  answers:
+    - すいか
   hint: suika (hiragana) — summer fruit; often written in kana
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -671,7 +711,8 @@
       「か」 has an extra stroke/turn compared with 「こ」.
 - id: g-08-suteru
   prompt: to throw away
-  answer: 捨てる
+  answers:
+    - 捨てる
   hint: suteru — to discard/abandon (e.g., ゴミを捨てる)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -690,7 +731,8 @@
       The prompt is asking for the dictionary form.
 - id: g-08-stress
   prompt: stress
-  answer: ストレス
+  answers:
+    - ストレス
   hint: sutoresu (katakana loanword) — often used for mental/physical stress
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -709,7 +751,8 @@
       Different word ending and meaning.
 - id: g-08-spain
   prompt: Spain
-  answer: スペイン
+  answers:
+    - スペイン
   hint: supein (katakana) — country name; watch small strokes on ペ (handakuten ゜)
     and イ
   stage: -1
@@ -729,7 +772,8 @@
       The prompt expects the sharp, angular script used for foreign country names.
 - id: g-08-sentaku
   prompt: to do laundry
-  answer: 洗濯する
+  answers:
+    - 洗濯する
   hint: sentaku suru — 洗=wash + 濯=rinse; everyday chore verb (can also say 洗濯をする)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -748,7 +792,8 @@
       Laundry refers to washing clothes as a task.
 - id: g-08-souji
   prompt: to clean
-  answer: 掃除する
+  answers:
+    - 掃除する
   hint: 'souji suru — to do cleaning (掃=to sweep, 除=to remove); often used with を:
     部屋を掃除する'
   stage: -1
@@ -768,7 +813,8 @@
       The prompt expects the verb form with する.
 - id: g-08-tamanegi
   prompt: onion
-  answer: たまねぎ
+  answers:
+    - たまねぎ
   hint: tamanegi — usually written in kana; common in cooking (e.g., たまねぎを切る)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -787,7 +833,8 @@
       Be careful: ぎ has dakuten (two little marks).
 - id: g-08-tsukare
   prompt: to be tired
-  answer: 疲れている
+  answers:
+    - 疲れている
   hint: 'tsukarete iru - ongoing state/result: "I''m tired" (from 疲れる). Often used
     as 疲れてる in casual speech.'
   stage: -1
@@ -806,7 +853,8 @@
       Sleepiness is specifically about wanting to sleep.
 - id: g-08-tsugi
   prompt: secondly
-  answer: 次に
+  answers:
+    - 次に
   hint: tsugi ni — used when moving to the next point/step ("Next,")
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -825,7 +873,8 @@
       The prompt expects the common everyday expression.
 - id: g-08-tsukuru
   prompt: to make
-  answer: 作る
+  answers:
+    - 作る
   hint: tsukuru (u-verb) — used for making/creating something tangible (food, objects)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -844,7 +893,8 @@
       keep the left side narrower and write the right side with clear, separate strokes so it doesn't get misread.
 - id: g-08-tenkiyoho
   prompt: weather forecast
-  answer: 天気予報
+  answers:
+    - 天気予報
   hint: 'tenki yohou — 天気 (weather) + 予報 (forecast); common phrase: 天気予報を見る (to check
     the weather forecast)'
   stage: -1
@@ -864,7 +914,8 @@
       The prompt is about the report/forecast, not the weather itself.
 - id: g-08-do
   prompt: '... degrees (temperature)'
-  answer: ～度
+  answers:
+    - ～度
   hint: '〜do (counter suffix for temperature degrees). Example: 30度 = sanjū-do (30°C).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -883,7 +934,8 @@
       It emphasizes repetition rather than indicating temperature.
 - id: g-08-dou
   prompt: how
-  answer: どう
+  answers:
+    - どう
   hint: dou — used in questions like どうですか (How is it?) / どうして (Why?)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -902,7 +954,8 @@
       This asks for a reason, not "how" something is/gets done.
 - id: g-08-tokoro
   prompt: place
-  answer: 所
+  answers:
+    - 所
   hint: tokoro — often means “place/spot” (physical or abstract, e.g., いい所 = good
     point).
   strokeCount: 8
@@ -923,7 +976,8 @@
       The prompt expects a single kanji character.
 - id: g-08-toma
   prompt: tomato
-  answer: トマト
+  answers:
+    - トマト
   hint: tomato (katakana) — loanword used for the vegetable/fruit
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -942,7 +996,8 @@
       Check the last two characters—this one ends with ダチ.
 - id: g-08-tori
   prompt: chicken
-  answer: 鶏肉
+  answers:
+    - 鶏肉
   hint: toriniku — 「鶏」= chicken, 「肉」= meat
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -961,7 +1016,8 @@
       Same pattern: animal kanji + 「肉」.
 - id: g-08-nasu
   prompt: eggplant
-  answer: なす
+  answers:
+    - なす
   hint: nasu — often written in kana; in cooking you may also see 茄子
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -980,7 +1036,8 @@
       Be careful with す vs ぬ: ぬ has an extra loop and looks more like it ties back in.
 - id: g-08-natsu
   prompt: summer
-  answer: 夏
+  answers:
+    - 夏
   hint: natsu (summer) — 10 strokes
   strokeCount: 10
   stage: -1
@@ -1000,7 +1057,8 @@
       It includes "grain" (禾) and "fire" (火) parts, not the boxed top structure.
 - id: g-08-nanika
   prompt: something
-  answer: 何か
+  answers:
+    - 何か
   hint: nanika — often used when you don't know/aren't saying what it is (e.g., 何か食べる？)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1019,7 +1077,8 @@
       The prompt is the neutral “something.”
 - id: g-08-ni-tsuite
   prompt: about . . . ; concerning . . .
-  answer: ～について
+  answers:
+    - ～について
   hint: tsuite — attach to a noun (N＋について) meaning “about/concerning.” Often used
     in writing/speeches (e.g., 日本文化について話す).
   stage: -1
@@ -1039,7 +1098,8 @@
       If you need to directly describe a following noun, use this pattern.
 - id: g-08-ninjin
   prompt: carrot
-  answer: にんじん
+  answers:
+    - にんじん
   hint: ninjin — often written in kana; can also be written as 人参
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1058,7 +1118,8 @@
       The prompt expects a hiragana word.
 - id: g-08-party
   prompt: party
-  answer: パーティー
+  answers:
+    - パーティー
   hint: 'paatii — long vowels: ー extends パ and ティ sounds'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1077,7 +1138,8 @@
       Be careful to include long vowels where they belong.
 - id: g-08-bbq
   prompt: barbecue
-  answer: バーベキュー
+  answers:
+    - バーベキュー
   hint: baabekyuu — katakana loanword; long vowel mark「ー」appears twice
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1096,7 +1158,8 @@
       Write only the word itself without symbols.
 - id: g-08-hashi
   prompt: chopsticks
-  answer: はし
+  answers:
+    - はし
   hint: |-
     hashi (chopsticks). Often written as 箸, but this card uses kana.
     Watch the pitch: はし (chopsticks) vs はし (bridge).
@@ -1117,7 +1180,8 @@
       Same reading, but it refers to a boundary/side, not something you eat with.
 - id: g-08-hajime
   prompt: to begin
-  answer: 始める
+  answers:
+    - 始める
   hint: hajimeru — to start something (a new action). Often written 始める; contrast
     with 始まる (something begins by itself).
   stage: -1
@@ -1137,7 +1201,8 @@
       The prompt asks for the verb form with 〜る.
 - id: g-08-hanashi
   prompt: story; talk
-  answer: 話
+  answers:
+    - 話
   hint: hanashi — also used in 話す (hanasu, “to speak”). 13 strokes.
   strokeCount: 13
   stage: -1
@@ -1157,7 +1222,8 @@
       It’s 言 + 寺, referring to poetry rather than conversation or a story.
 - id: g-08-halal
   prompt: halal
-  answer: ハラルフード
+  answers:
+    - ハラルフード
   hint: hararu fuudo - katakana loanword meaning "halal food" (permissible under Islamic
     law)
   stage: -1
@@ -1177,7 +1243,8 @@
       Similar ending, but the first part changes the meaning.
 - id: g-08-hare
   prompt: sunny weather
-  answer: 晴れ
+  answers:
+    - 晴れ
   hint: hare — used for clear/sunny conditions (e.g., 晴れの日 = a sunny day)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1196,7 +1263,8 @@
       The prompt is asking for the noun (weather state), not an action.
 - id: g-08-peanuts
   prompt: peanut
-  answer: ピーナッツ
+  answers:
+    - ピーナッツ
   hint: piinattsu (katakana) — long vowel mark「ー」and small「ッ」for the double consonant
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1215,7 +1283,8 @@
       The prompt expects katakana for a loanword-style food name.
 - id: g-08-fukuro
   prompt: bag; sack; plastic/paper bag
-  answer: 袋
+  answers:
+    - 袋
   hint: fukuro — often used for shopping bags (レジ袋) or a sack; 11 strokes
   strokeCount: 11
   stage: -1
@@ -1235,7 +1304,8 @@
       Pay attention to the top element and how the right side is formed.
 - id: g-08-buta
   prompt: pork
-  answer: 豚肉
+  answers:
+    - 豚肉
   hint: butaniku — 豚(ぶた)=pig + 肉(にく)=meat
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1254,7 +1324,8 @@
       The prompt is asking for the meat, so it needs the meat-related kanji too.
 - id: g-08-budou
   prompt: grape
-  answer: ぶどう
+  answers:
+    - ぶどう
   hint: budou (grape). Often written in kana; kanji is 葡萄.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1273,7 +1344,8 @@
       The prompt expects hiragana (curvy script), not the angular katakana form.
 - id: g-08-fuyu
   prompt: winter
-  answer: 冬
+  answers:
+    - 冬
   hint: fuyu (winter); 5 strokes
   strokeCount: 5
   stage: -1
@@ -1293,7 +1365,8 @@
       It has a more complex top and a different overall balance than the winter kanji.
 - id: g-08-furu
   prompt: (rain/snow) falls
-  answer: 降る（雨/雪が）
+  answers:
+    - 降る（雨/雪が）
   hint: 'furu — used with weather: 雨が降る / 雪が降る (it rains/snows).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1312,7 +1385,8 @@
       Weather uses a different verb pattern: (X)が…
 - id: g-08-furo
   prompt: bath
-  answer: 風呂
+  answers:
+    - 風呂
   hint: furo — often used for a Japanese-style bath (お風呂).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1331,7 +1405,8 @@
       This is only one character; the target is a full word.
 - id: g-08-furo-in
   prompt: to take a bath
-  answer: 風呂に入る
+  answers:
+    - 風呂に入る
   hint: furo ni hairu — literally “enter the bath” (common set phrase)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1350,7 +1425,8 @@
       Different bathing method and different verb.
 - id: g-08-heta
   prompt: clumsy; poor at . . .
-  answer: 下手
+  answers:
+    - 下手
   hint: 'heta (na) — pattern: ～が下手(だ) = “be bad at ～” (e.g., 料理が下手)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1369,7 +1445,8 @@
       The prompt is for the neutral adjective form.
 - id: g-08-homestay
   prompt: homestay; living with a local family
-  answer: ホームステイ
+  answers:
+    - ホームステイ
   hint: 'hoomu-sutei (katakana) — often used with する: ホームステイする (to do a homestay)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1388,7 +1465,8 @@
       A hostel is paid lodging, not staying with a local family.
 - id: g-08-maishu
   prompt: every week
-  answer: 毎週
+  answers:
+    - 毎週
   hint: maishuu — 毎=every, 週=week; used for recurring weekly actions (e.g., 毎週行きます).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1407,7 +1485,8 @@
       Be careful: the last kanji here means "month," not "week".
 - id: g-08-mazu
   prompt: first of all
-  answer: まず
+  answers:
+    - まず
   hint: 'mazu — used to start a sequence: “First of all..., then...” (まずは〜 / まず〜してから)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1426,7 +1505,8 @@
       Here the prompt expects the kana form.
 - id: g-08-madanai
   prompt: not . . . yet (used with a negative verb)
-  answer: まだ〜ない
+  answers:
+    - まだ〜ない
   hint: 'mada + nai — used with a negative verb: まだ食べない/まだ食べていない = not eating yet
     (not done yet).'
   stage: -1
@@ -1446,7 +1526,8 @@
       It’s not the standard pattern for "not ... yet" with a negative verb.
 - id: g-08-mikan
   prompt: mandarin orange
-  answer: みかん
+  answers:
+    - みかん
   hint: mikan (usually written in kana; can also be written as 蜜柑)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1465,7 +1546,8 @@
       Similar simple kana shape, but a different fruit.
 - id: g-08-minnade
   prompt: all (of the people) together
-  answer: みんなで
+  answers:
+    - みんなで
   hint: |-
     minna de - 「みんな」(everyone) + で (together/with)
     Used with an action: みんなで食べる = eat together
@@ -1486,7 +1568,8 @@
       This one is more like "as a group / everyone together".
 - id: g-08-motteku
   prompt: to take (a thing)
-  answer: 持っていく
+  answers:
+    - 持っていく
   hint: motte iku — take/carry something from here to there (away from the speaker);
     often used for bringing something along
   stage: -1
@@ -1506,7 +1589,8 @@
       This prompt is for taking a thing/object.
 - id: g-08-momo
   prompt: peach
-  answer: もも
+  answers:
+    - もも
   hint: momo — fruit; often written as 桃, but this card uses kana
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1521,7 +1605,8 @@
       This one adds いろ (color).
 - id: g-08-yumei
   prompt: famous
-  answer: 有名
+  answers:
+    - 有名
   hint: yuumei (na-adj.) — use with な before nouns (e.g., 有名な人)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1540,7 +1625,8 @@
       It describes strong influence or promising force, not being well-known.
 - id: g-08-ryori
   prompt: to cook
-  answer: 料理する
+  answers:
+    - 料理する
   hint: ryouri suru — to cook/prepare food (料理 = cuisine/cooking)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1559,7 +1645,8 @@
       The prompt expects the verb form with する.
 - id: g-08-ringo
   prompt: apple
-  answer: りんご
+  answers:
+    - りんご
   hint: ringo (hiragana) — common fruit word; write in hiragana (not katakana).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'

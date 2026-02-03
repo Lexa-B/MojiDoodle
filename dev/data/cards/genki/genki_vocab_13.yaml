@@ -1,6 +1,7 @@
 - id: g-13-depo
   prompt: deposit
-  answer: 預け入れ
+  answers:
+    - 預け入れ
   hint: 'azukeire — depositing/placing money or valuables into custody (e.g., bank
     deposit: 銀行の預け入れ).'
   stage: -1
@@ -20,7 +21,8 @@
       It's the opposite direction: taking money out rather than putting it in.
 - id: g-13-announce
   prompt: announcement
-  answer: アナウンス
+  answers:
+    - アナウンス
   hint: anaunsu — used for public/official announcements (station, school, company).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -39,7 +41,8 @@
       The prompt expects a katakana loanword used for announcements (e.g., over speakers).
 - id: g-13-apto
   prompt: apartment; smaller apartment building
-  answer: アパート
+  answers:
+    - アパート
   hint: 'apaato (katakana loanword). Long vowel: ー makes the “aa” sound.'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -58,7 +61,8 @@
       Be careful: the long bar is used only where the pronunciation is long.
 - id: g-13-app
   prompt: application (app)
-  answer: アプリ
+  answers:
+    - アプリ
   hint: apuri - short for アプリケーション; commonly used for phone apps
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -77,7 +81,8 @@
       The prompt expects katakana, which has sharper, straighter lines.
 - id: g-13-knit
   prompt: to knit
-  answer: 編む
+  answers:
+    - 編む
   hint: |-
     amu (to knit/weave)
     Often used for knitting/crocheting or weaving (e.g., マフラーを編む).
@@ -98,7 +103,8 @@
       This is about tying a knot or connecting, not making fabric from yarn.
 - id: g-13-pin
   prompt: personal identification number
-  answer: 暗証番号
+  answers:
+    - 暗証番号
   hint: anshou bangou — used for ATM/bank cards and phone unlock PINs (often written
     as PIN/暗証番号).
   stage: -1
@@ -118,7 +124,8 @@
       The prompt is the common everyday term for a PIN used for authentication.
 - id: g-13-1day
   prompt: one day
-  answer: 一日
+  answers:
+    - 一日
   hint: |-
     ichinichi / tsuitachi — reading changes by meaning:
     ・いちにち = one day (duration)
@@ -140,7 +147,8 @@
       This is a specific day, not a duration like "one day."
 - id: g-13-5day
   prompt: five days
-  answer: 五日
+  answers:
+    - 五日
   hint: itsuka — counter for days (e.g., 五日間 = five days). Also can mean “the 5th
     day of the month” depending on context.
   stage: -1
@@ -160,7 +168,8 @@
       The prompt is only “number + day,” not a month/date format.
 - id: g-13-once
   prompt: once in a lifetime
-  answer: 一生に一度
+  answers:
+    - 一生に一度
   hint: isshō ni ichido — “once in one’s whole life”; often used like 「一生に一度のチャンス」(a
     once-in-a-lifetime chance).
   stage: -1
@@ -180,7 +189,8 @@
       It doesn’t include the idea of “once.”
 - id: g-13-glad
   prompt: glad
-  answer: うれしい
+  answers:
+    - うれしい
   hint: ureshii - i-adjective for feeling happy/glad (うれしいです)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -199,7 +209,8 @@
       Opposite meaning—make sure the vowels match.
 - id: g-13-depo-p
   prompt: deposit
-  answer: お預け入れ
+  answers:
+    - お預け入れ
   hint: o-azukeire — polite noun used for putting money into a bank account (e.g.,
     銀行でお預け入れをする).
   stage: -1
@@ -219,7 +230,8 @@
       The prompt is for the bank-service term used when you deposit money.
 - id: g-13-late
   prompt: to become late
-  answer: 遅れる
+  answers:
+    - 遅れる
   hint: 'okureru — intransitive: to be late (e.g., 電車が遅れる). Often confused with "late
     someone/something" (遅らせる).'
   stage: -1
@@ -239,7 +251,8 @@
       Check the left side: this one uses the "road/walk" radical instead.
 - id: g-13-with-p
   prompt: withdrawal
-  answer: お引き出し
+  answers:
+    - お引き出し
   hint: ohikidashi — polite term often used for bank withdrawals (e.g., 現金のお引き出し).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -258,7 +271,8 @@
       In bank/ATM menus these two are easy to mix up.
 - id: g-13-xfer-p
   prompt: bank transfer
-  answer: お振込
+  answers:
+    - お振込
   hint: 'ofurikomi - polite/business term for a bank transfer (振込). Often used in
     forms: お振込先 (transfer destination).'
   stage: -1
@@ -278,7 +292,8 @@
       Not sending money to another account.
 - id: g-13-kai
   prompt: '... times (counter suffix)'
-  answer: ～回
+  answers:
+    - ～回
   hint: '~kai (counter for occurrences: 1回, 2回, 何回)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -297,7 +312,8 @@
       Use it for paper, shirts, tickets, etc., not repetitions.
 - id: g-13-gaigo
   prompt: foreign language
-  answer: 外国語
+  answers:
+    - 外国語
   hint: gaikokugo — 外 (outside) + 国 (country) + 語 (language/word). Often used like
     「外国語を勉強する」.
   stage: -1
@@ -317,7 +333,8 @@
       This refers to the language of one’s own country, not foreign languages.
 - id: g-13-gakki
   prompt: musical instrument
-  answer: 楽器
+  answers:
+    - 楽器
   hint: gakki — written with kanji meaning “music” + “tool/device.” Often used in
     compounds like 楽器店 (instrument shop).
   stage: -1
@@ -337,7 +354,8 @@
       The first kanji means “eat/food,” so it refers to dishes and utensils.
 - id: g-13-turtle
   prompt: turtle
-  answer: かめ
+  answers:
+    - かめ
   hint: 'kame (hiragana) — animal: turtle/tortoise'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -356,7 +374,8 @@
       め and ね look similar—check the final stroke and curve direction.
 - id: g-13-spicy
   prompt: hot and spicy; salty
-  answer: 辛い
+  answers:
+    - 辛い
   hint: karai — spicy/hot (taste); also can mean salty. Often used for spicy food
     (辛いラーメン).
   stage: -1
@@ -376,7 +395,8 @@
       Different taste category; watch the kanji shape and the reading.
 - id: g-13-body
   prompt: body
-  answer: 体
+  answers:
+    - 体
   hint: karada; 7 strokes (person 亻 + root 本)
   strokeCount: 7
   stage: -1
@@ -396,7 +416,8 @@
       The prompt expects the simpler single-kanji form.
 - id: g-13-karate
   prompt: karate
-  answer: 空手
+  answers:
+    - 空手
   hint: karate (kara-te) — literally “empty hand”; martial art
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -415,7 +436,8 @@
       Different martial art: practiced with bamboo swords and protective armor.
 - id: g-13-curry
   prompt: curry
-  answer: カレー
+  answers:
+    - カレー
   hint: karē (katakana) — a common loanword food term
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -434,7 +456,8 @@
       The prompt uses katakana for loanwords and menu items.
 - id: g-13-kando
   prompt: to be moved/touched (by . . . )
-  answer: 感動する
+  answers:
+    - 感動する
   hint: kandou suru — often used for being emotionally moved (e.g., 映画に感動する)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -453,7 +476,8 @@
       This is a stronger, more dramatic reaction than the prompt usually implies.
 - id: g-13-ganbaru
   prompt: to do one’s best; to try hard
-  answer: 頑張る
+  answers:
+    - 頑張る
   hint: ganbaru (to persevere/keep at it; often used as 頑張って! = “Do your best!”)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -472,7 +496,8 @@
       The prompt expects the non-past form.
 - id: g-13-strict
   prompt: strict
-  answer: 厳しい
+  answers:
+    - 厳しい
   hint: kibishii — strict/harsh (rules, teacher, conditions); often used for people
     or situations
   stage: -1
@@ -492,7 +517,8 @@
       It’s the opposite nuance: warm and lenient rather than strict.
 - id: g-13-cashcard
   prompt: bank card
-  answer: キャッシュカード
+  answers:
+    - キャッシュカード
   hint: kyasshu kaado - Japanese ATM/bank cash card (often separate from a credit
     card)
   stage: -1
@@ -512,7 +538,8 @@
       The prompt is asking for a more specific compound word.
 - id: g-13-kilo
   prompt: '... kilometers; ... kilograms (suffix)'
-  answer: ～キロ
+  answers:
+    - ～キロ
   hint: kiro — suffix meaning “... km” or “... kg” (e.g., 3キロ = 3 km or 3 kg; context
     decides)
   stage: -1
@@ -532,7 +559,8 @@
       The prompt expects the shortened suffix form.
 - id: g-13-amount
   prompt: amount (sum of money)
-  answer: 金額
+  answers:
+    - 金額
   hint: 'kingaku — often used for prices/invoices: 金額はいくらですか。'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -551,7 +579,8 @@
       The prompt is a broader "amount" used for sums of money, often in documents.
 - id: g-13-airport
   prompt: airport
-  answer: 空港
+  answers:
+    - 空港
   hint: |-
     kuukou — 空(そら/から) + 港(みなと)
     Common phrase: 空港に行く (to go to the airport)
@@ -572,7 +601,8 @@
       Used for trains, not air travel.
 - id: g-13-credit
   prompt: credit card
-  answer: クレジットカード
+  answers:
+    - クレジットカード
   hint: kurejitto kaado - often used with を (e.g., クレジットカードを使う = to use a credit card)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -591,7 +621,8 @@
       The prompt is asking for a specific kind of card.
 - id: g-13-keiken
   prompt: experience
-  answer: 経験
+  answers:
+    - 経験
   hint: keiken — life/work experience; often used as 〜の経験がある (to have experience in
     ~)
   stage: -1
@@ -611,7 +642,8 @@
       The second kanji is different and changes the meaning.
 - id: g-13-genkin
   prompt: cash
-  answer: 現金
+  answers:
+    - 現金
   hint: genkin — cash (physical money); often used vs クレジットカード/電子マネー
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -630,7 +662,8 @@
       It contrasts with money or documents, but isn't cash itself.
 - id: g-13-ad
   prompt: advertisement
-  answer: 広告
+  answers:
+    - 広告
   hint: 'koukoku — often used for ads in media (TV/ネット/新聞): 広告を出す'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -651,7 +684,8 @@
       This is the act of promoting/PR; the other is an ad itself or advertising as a category.
 - id: g-13-koza
   prompt: account
-  answer: 口座
+  answers:
+    - 口座
   hint: kouza - usually a bank account (銀行口座).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -670,7 +704,8 @@
       The prompt is for an account, which is written with two kanji.
 - id: g-13-tea
   prompt: black tea
-  answer: 紅茶
+  answers:
+    - 紅茶
   hint: koucha — 紅(べに)=crimson + 茶(ちゃ)=tea
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -689,7 +724,8 @@
       It shares the first kanji, but the second kanji means "leaf," not "tea."
 - id: g-13-9day
   prompt: nine days
-  answer: 九日
+  answers:
+    - 九日
   hint: kokonoka — can mean “the 9th day of the month” or “nine days (duration)” depending
     on context.
   stage: -1
@@ -709,7 +745,8 @@
       This one uses the month kanji, not the day kanji.
 - id: g-13-kotoba
   prompt: language
-  answer: 言葉
+  answers:
+    - 言葉
   hint: kotoba — often means “words” or “language” (e.g., 日本語の言葉).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -728,7 +765,8 @@
       It’s about speaking/talking, not the concept of language/words.
 - id: g-13-golf
   prompt: golf
-  answer: ゴルフ
+  answers:
+    - ゴルフ
   hint: gorufu (katakana) - a loanword for the sport
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -747,7 +785,8 @@
       Watch the small hook/shape at the end of the final katakana.
 - id: g-13-zadankai
   prompt: round-table discussion
-  answer: 座談会
+  answers:
+    - 座談会
   hint: zadan-kai — friendly group talk; 座(za) sit + 談(dan) talk + 会(kai) meeting
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -766,7 +805,8 @@
       Usually one person speaks, rather than everyone chatting equally.
 - id: g-13-balance
   prompt: balance inquiry
-  answer: 残高照会
+  answers:
+    - 残高照会
   hint: 'zandakashoukai — banking/ATM term: checking an account balance (残高=balance,
     照会=inquiry)'
   stage: -1
@@ -786,7 +826,8 @@
       This prompt is for the formal term often used on ATMs/online banking.
 - id: g-13-ontime
   prompt: on time
-  answer: 時間通り
+  answers:
+    - 時間通り
   hint: jikan doori - literally “according to time”; used for being punctual (e.g.,
     時間通りに来る).
   stage: -1
@@ -806,7 +847,8 @@
       The prompt is the “exactly on schedule” expression.
 - id: g-13-auto
   prompt: automatic
-  answer: 自動
+  answers:
+    - 自動
   hint: jidou — often used in compounds like 自動車 (car) and 自動販売機 (vending machine)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -825,7 +867,8 @@
       The second kanji is "turn/roll," not "move."
 - id: g-13-sugoi
   prompt: incredible; awesome
-  answer: すごい
+  answers:
+    - すごい
   hint: 'sugoi (often used as an exclamation: 「すごい！」 = “Amazing!”)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -844,7 +887,8 @@
       It sounds a bit more formal/polite than casual slang.
 - id: g-13-suppon
   prompt: snapping turtle; terrapin
-  answer: すっぽん
+  answers:
+    - すっぽん
   hint: suppon — written in hiragana; often refers to the softshell-type turtle used
     in cuisine
   stage: -1
@@ -864,7 +908,8 @@
       The prompt expects hiragana (curvier shapes).
 - id: g-13-sweatr
   prompt: sweater
-  answer: セーター
+  answers:
+    - セーター
   hint: seetaa (katakana) - a loanword; long vowel mark 「ー」 after セ and 夕 sound 「ター」
     at the end
   stage: -1
@@ -884,7 +929,8 @@
       Similar katakana length, but different sounds and meaning.
 - id: g-13-all
   prompt: all
-  answer: 全部
+  answers:
+    - 全部
   hint: zenbu — “all/entirely”; often used like 全部で (in total) or 全部〜する (do everything)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -903,7 +949,8 @@
       This one is usually written in kana and feels a bit more general/formal.
 - id: g-13-eleph
   prompt: elephant
-  answer: 象
+  answers:
+    - 象
   hint: zou — 12 strokes. Looks like an elephant’s long trunk and body.
   strokeCount: 12
   stage: -1
@@ -923,7 +970,8 @@
       This one has the distinctive mane/leg strokes at the bottom.
 - id: g-13-taxi
   prompt: taxi
-  answer: タクシー
+  answers:
+    - タクシー
   hint: |-
     takushii (katakana loanword)
     Long vowel mark「ー」extends the preceding vowel.
@@ -944,26 +992,35 @@
       Check the two short strokes: they should be for シ, not ジ.
 - id: g-13-dame
   prompt: no good
-  answer: だめ（な）
+  answers:
+    - だめ
+    - だめな
   hint: dame (na) - used to say something is not allowed / not OK (e.g., それはだめ！)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 無理（な）
+  - answers:
+      - 無理
+      - 無理な
     toast: |-
       That's "impossible / unreasonable".
       Used when something can't be done or is too much, not simply "not OK."
-  - answer: 下手（な）
+  - answers:
+      - 下手
+      - 下手な
     toast: |-
       That's "bad at (a skill)".
       It describes lack of ability, not that something is forbidden or unacceptable.
-  - answer: 駄目（な）
+  - answers:
+      - 駄目
+      - 駄目な
     toast: |-
       That's the kanji spelling.
       The prompt expects the kana form shown in the lesson.
 - id: g-13-near
   prompt: close; near
-  answer: 近い
+  answers:
+    - 近い
   hint: chikai — used for physical distance or being nearby (e.g., 駅が近い)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -982,7 +1039,8 @@
       It describes movement toward something, not a static description.
 - id: g-13-tip
   prompt: tip
-  answer: チップ
+  answers:
+    - チップ
   hint: chippu (katakana) - a gratuity/extra money given for service
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1001,7 +1059,8 @@
       Watch the small ッ and the ending characters.
 - id: g-13-bankbook
   prompt: passbook
-  answer: 通帳
+  answers:
+    - 通帳
   hint: tsuuchou — a bank passbook (通 = “through/commute”, 帳 = “book/ledger”)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1020,7 +1079,8 @@
       The second kanji here means “talk,” not “ledger/book.”
 - id: g-13-update
   prompt: passbook update
-  answer: 通帳記入
+  answers:
+    - 通帳記入
   hint: 'tsuuchou kinyuu — bank term: updating/printing entries in a savings passbook
     (ATM or teller).'
   stage: -1
@@ -1040,7 +1100,8 @@
       The prompt is about printing/updating records, not adding funds.
 - id: g-13-arrive
   prompt: to arrive
-  answer: 着く
+  answers:
+    - 着く
   hint: tsuku — for arriving at a destination (駅に着く). Often written in kana in casual
     text.
   stage: -1
@@ -1060,7 +1121,8 @@
       Not used for physical arrival.
 - id: g-13-dessert
   prompt: desert
-  answer: デザート
+  answers:
+    - デザート
   hint: dezaato (katakana) — loanword; often means “dessert” in Japanese, so check
     context
   stage: -1
@@ -1080,7 +1142,8 @@
       Dakuten changes the sound.
 - id: g-13-fee
   prompt: commission
-  answer: 手数料
+  answers:
+    - 手数料
   hint: tesuuryou — fee/commission charged for handling a transaction (e.g., bank
     transfer, brokerage)
   stage: -1
@@ -1100,7 +1163,8 @@
       It’s about the process itself, not the commission charged for it.
 - id: g-13-10day
   prompt: ten days
-  answer: 十日
+  answers:
+    - 十日
   hint: tooka — also used for “the 10th day of the month” (e.g., 10日(とおか))
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1119,7 +1183,8 @@
       Look for the kanji that means “day” instead of “month.”
 - id: g-13-toku
   prompt: especially
-  answer: 特に
+  answers:
+    - 特に
   hint: tokuni — often used as 特に〜ない (“not particularly…”)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1138,7 +1203,8 @@
       The prompt is for an adverb used to emphasize.
 - id: g-13-moushi
   prompt: my name is . . .
-  answer: ～と申します
+  answers:
+    - ～と申します
   hint: |-
     to mōshimasu (polite/humble self-introduction)
     Pattern: [Name] と申します。
@@ -1159,7 +1225,8 @@
       It introduces a topic or explanation rather than a simple self-introduction.
 - id: g-13-bird
   prompt: bird; poultry
-  answer: 鳥
+  answers:
+    - 鳥
   hint: tori — 11 strokes. Kanji looks like a bird with wings and a tail.
   strokeCount: 11
   stage: -1
@@ -1179,7 +1246,8 @@
       It reads いか and means "squid" (not a bird).
 - id: g-13-7day
   prompt: seven days
-  answer: 七日
+  answers:
+    - 七日
   hint: nanoka — also means “the 7th day of the month” depending on context
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1198,7 +1266,8 @@
       This one adds a duration marker at the end.
 - id: g-13-nabe
   prompt: pot
-  answer: なべ
+  answers:
+    - なべ
   hint: nabe - cooking pot (also used in 鍋料理 "hot pot")
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1217,7 +1286,8 @@
       The prompt is a single word; don't extend it with a long vowel or extra kana.
 - id: g-13-anything
   prompt: anything; everything
-  answer: なんでも
+  answers:
+    - なんでも
   hint: nandemo — used for “anything/everything,” often with a positive verb (e.g.,
     なんでも食べる).
   stage: -1
@@ -1237,7 +1307,8 @@
       Watch for the negative pattern (〜ない).
 - id: g-13-grin
   prompt: to grin
-  answer: ニヤニヤする
+  answers:
+    - ニヤニヤする
   hint: niya-niya suru — to grin/smirk to yourself (often suggests a sneaky or amused
     smile)
   stage: -1
@@ -1257,7 +1328,8 @@
       This prompt is a more subtle smirk-like grin.
 - id: g-13-bike
   prompt: motorcycle
-  answer: バイク
+  answers:
+    - バイク
   hint: baiku (katakana) — a loanword; also used for motorbikes/scooters
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1276,7 +1348,8 @@
       This one ends with a different consonant sound.
 - id: g-13-with
   prompt: withdrawal
-  answer: 引き出し
+  answers:
+    - 引き出し
   hint: hikidashi — as in お金を引き出す (to withdraw money). Also commonly means “drawer.”
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1295,7 +1368,8 @@
       This is the opposite direction of money movement.
 - id: g-13-anx
   prompt: anxious; worried (na-adj.)
-  answer: 不安
+  answers:
+    - 不安
   hint: fuan (na) — use as 不安な + noun / 不安だ
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1314,7 +1388,8 @@
       Make sure the second kanji is about feeling at ease vs. clarity.
 - id: g-13-2day
   prompt: two days
-  answer: 二日
+  answers:
+    - 二日
   hint: futsuka — also used for the 2nd day of the month (二日/ふつか)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1333,7 +1408,8 @@
       Same starting kanji, but it's a different word with an extra kanji.
 - id: g-13-bukka
   prompt: consumer prices
-  answer: 物価
+  answers:
+    - 物価
   hint: 'bukka — prices of goods (often in: 物価が上がる/下がる = prices rise/fall)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1352,7 +1428,8 @@
       This one is about worth/importance, not the market price level.
 - id: g-13-xfer
   prompt: bank transfer
-  answer: 振込
+  answers:
+    - 振込
   hint: furikomi — used for bank transfers/payments (e.g., 振込先 "transfer destination")
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1371,7 +1448,8 @@
       The prompt asks for the act/method itself, not the destination.
 - id: g-13-pudding
   prompt: pudding
-  answer: プリン
+  answers:
+    - プリン
   hint: purin (katakana) - a loanword dessert; written in katakana
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1390,7 +1468,8 @@
       This one is longer and ends with ー.
 - id: g-13-boshu
   prompt: recruitment
-  answer: 募集
+  answers:
+    - 募集
   hint: boshū — commonly used in 募集する (to recruit) / 求人募集 (job recruitment).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1409,7 +1488,8 @@
       It’s what applicants do in response to a recruitment notice.
 - id: g-13-mansion
   prompt: larger apartment building; condominium
-  answer: マンション
+  answers:
+    - マンション
   hint: manshon (katakana) — in Japanese this usually means an apartment/condo building
     (not a “mansion” house).
   stage: -1
@@ -1429,7 +1509,8 @@
       This prompt is for a specific type of residential building.
 - id: g-13-polish
   prompt: to brush (teeth); to polish
-  answer: 磨く
+  answers:
+    - 磨く
   hint: migaku — used for brushing teeth (歯を磨く) and polishing things (靴を磨く).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1448,7 +1529,8 @@
       Wiping uses a cloth and swipes; the prompt is brushing/polishing with repeated rubbing.
 - id: g-13-swim
   prompt: swimwear
-  answer: 水着
+  answers:
+    - 水着
   hint: mizugi — 「水」(water) + 「着」(to wear). Usually refers to a swimsuit.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1467,7 +1549,8 @@
       The second kanji means "grass," not "to wear."
 - id: g-13-3day
   prompt: three days
-  answer: 三日
+  answers:
+    - 三日
   hint: mikka — counter for days (3 days); can also mean “the 3rd day of the month”
     depending on context
   stage: -1
@@ -1487,7 +1570,8 @@
       The first kanji is different (4 vs 3).
 - id: g-13-6day
   prompt: six days
-  answer: 六日
+  answers:
+    - 六日
   hint: 'muika (6th day of the month / six days). Note: reading is irregular (not
     *rokunichi*).'
   stage: -1
@@ -1507,7 +1591,8 @@
       Watch the first kanji: it's a different number.
 - id: g-13-rare
   prompt: rare
-  answer: めずらしい
+  answers:
+    - めずらしい
   hint: mezurashii — “unusual; seldom seen” (い-adj.)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1526,7 +1611,8 @@
       Modern standard spelling uses ず in this word.
 - id: g-13-nomore
   prompt: not any longer (already no longer ~)
-  answer: もう～ない
+  answers:
+    - もう～ない
   hint: 'mou ~ nai — used with a negative verb to mean “no longer”: もう食べない (I won’t
     eat anymore).'
   stage: -1
@@ -1546,7 +1632,8 @@
       Use it for formal speech instead of the plain negative form.
 - id: g-13-yakusoku
   prompt: promise; appointment
-  answer: 約束
+  answers:
+    - 約束
   hint: yakusoku — 約(agreement) + 束(bundle/tie) → “a tied agreement” (promise/appointment)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1565,7 +1652,8 @@
       More formal/technical wording; not the everyday word for a promise or meeting.
 - id: g-13-keep
   prompt: to keep a promise
-  answer: 約束を守る
+  answers:
+    - 約束を守る
   hint: yakusoku o mamoru — 約束(やくそく)=promise, 守る(まもる)=to protect/observe (keep/obey)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1584,7 +1672,8 @@
       This one is about rules/regulations rather than a promise.
 - id: g-13-yappari
   prompt: after all
-  answer: やっぱり
+  answers:
+    - やっぱり
   hint: yappari — often means “as expected / I knew it.” Casual form of やはり.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1603,7 +1692,8 @@
       The prompt expects the common standard spelling.
 - id: g-13-8day
   prompt: eight days
-  answer: 八日
+  answers:
+    - 八日
   hint: youka — also used for the 8th day of the month (e.g., 八日(ようか)に).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1622,7 +1712,8 @@
       It refers to an ordinal day (day number), often in sequences or events.
 - id: g-13-yokin
   prompt: savings
-  answer: 預金
+  answers:
+    - 預金
   hint: yokin — money deposited at a bank (savings/deposit). Often used in 預金口座 (deposit
     account).
   stage: -1
@@ -1642,7 +1733,8 @@
       The prompt is asking for the noun form meaning money held as a deposit.
 - id: g-13-4day
   prompt: four days
-  answer: 四日
+  answers:
+    - 四日
   hint: yokka — also used for the 4th day of the month (irregular reading)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1661,7 +1753,8 @@
       Be careful: the day/date reading pattern differs by number.
 - id: g-13-exchange
   prompt: money exchange
-  answer: 両替
+  answers:
+    - 両替
   hint: ryougae — exchanging money (e.g., at a bank, hotel, or by a vending machine/両替機)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1680,7 +1773,8 @@
       The second kanji is different; this one means two sides/both, not exchanging.
 - id: g-13-watashi
   prompt: I (formal)
-  answer: 私
+  answers:
+    - 私
   hint: watakushi — very formal “I”; also read わたし in neutral speech
   strokeCount: 7
   stage: -1

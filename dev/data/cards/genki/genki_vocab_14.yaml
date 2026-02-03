@@ -1,6 +1,7 @@
 - id: g-14-aisu
   prompt: to love
-  answer: 愛す
+  answers:
+    - 愛す
   hint: 'aisu — classical/literary verb meaning “to love”; more common in modern speech:
     愛する (aisuru)'
   stage: -1
@@ -20,7 +21,8 @@
       The prompt asks for a verb form ending with す.
 - id: g-14-akirame
   prompt: to give up
-  answer: あきらめる
+  answers:
+    - あきらめる
   hint: 'akirameru (ru-verb) — often used as: 〜をあきらめる (give up on ~)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -39,7 +41,8 @@
       It's an adjective-like word meaning something is evident, not a verb about stopping an attempt.
 - id: g-14-ageru
   prompt: to give (to others)
-  answer: あげる
+  answers:
+    - あげる
   hint: ageru (ru-verb) — use when you give something to someone else (not to yourself/your
     in-group)
   stage: -1
@@ -59,7 +62,8 @@
       The prompt is asking for the plain dictionary form.
 - id: g-14-advice
   prompt: advice
-  answer: アドバイス
+  answers:
+    - アドバイス
   hint: 'adobaisu - katakana loanword; often used with する: アドバイスする (to give advice)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -78,7 +82,8 @@
       One version has a voiced sound mark on the right character.
 - id: g-14-enpitsu
   prompt: pencil
-  answer: 鉛筆
+  answers:
+    - 鉛筆
   hint: 'enpitsu — 鉛(lead)＋筆(brush/pen). Common item: えんぴつを使う (to use a pencil).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -97,7 +102,8 @@
       It's used to remove writing rather than to write.
 - id: g-14-ooya
   prompt: landlord; landlady
-  answer: 大家さん
+  answers:
+    - 大家さん
   hint: ooyasan — honorific さん; also commonly used for “apartment manager/owner”
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -116,7 +122,8 @@
       Watch the second character: it changes the written form.
 - id: g-14-okaeshi
   prompt: return (as a token of gratitude)
-  answer: お返し
+  answers:
+    - お返し
   hint: okaeshi — a return gift/reciprocal gesture (e.g., after receiving a present;
     also 「お返しする」)
   stage: -1
@@ -136,7 +143,8 @@
       This is a gift from a trip, not something given back in return for receiving a gift.
 - id: g-14-okusan
   prompt: (your/someone’s) wife
-  answer: 奥さん
+  answers:
+    - 奥さん
   hint: okusan — polite term for someone else’s wife (not your own); often used with
     ご/お (e.g., ご奥さん).
   stage: -1
@@ -156,7 +164,8 @@
       Be careful: this one refers to the male spouse.
 - id: g-14-okuru
   prompt: to send
-  answer: 送る
+  answers:
+    - 送る
   hint: okuru — to send (a person/thing/message); also used for “to see someone off”
     (駅まで送る).
   stage: -1
@@ -176,7 +185,8 @@
       Focus is on making it arrive, not the act of sending.
 - id: g-14-osara
   prompt: plate; dish
-  answer: お皿
+  answers:
+    - お皿
   hint: osara — polite お + 皿 (さら, plate). Often used for a dish/plate (esp. a small
     plate).
   stage: -1
@@ -196,7 +206,8 @@
       Different container: deeper shape and different kanji on the right.
 - id: g-14-ojisan
   prompt: uncle; middle-aged man
-  answer: おじさん
+  answers:
+    - おじさん
   hint: ojisan — often used for "uncle" or a middle-aged man; not the same as おじいさん
     (grandfather)
   stage: -1
@@ -216,16 +227,22 @@
       This one uses a different word; it’s not about an uncle.
 - id: g-14-oshare
   prompt: fashionable; stylish
-  answer: おしゃれ（な）
+  answers:
+    - おしゃれ
+    - おしゃれな
   hint: oshare (na) - na-adjective; use 「おしゃれな服」 (stylish clothes)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: しゃれ（な）
+  - answers:
+      - しゃれ
+      - しゃれな
     toast: |-
       That's closer to "witty/chic" as in good wordplay or being sophisticated.
       The prompt is about being fashionable in appearance.
-  - answer: きれい（な）
+  - answers:
+      - きれい
+      - きれいな
     toast: |-
       That's "pretty/clean".
       This describes beauty or cleanliness, not fashion sense.
@@ -235,7 +252,8 @@
       This is broader than fashion and not a な-adjective.
 - id: g-14-obasan
   prompt: aunt; middle-aged woman
-  answer: おばさん
+  answers:
+    - おばさん
   hint: |-
     obasan — often means “aunt” or “middle-aged woman.”
     Be careful: long vowel おばあさん = grandmother/elderly woman.
@@ -256,7 +274,8 @@
       It uses ねえ with a long え sound.
 - id: g-14-kyuni
   prompt: suddenly
-  answer: 急に
+  answers:
+    - 急に
   hint: kyuu ni — an adverb meaning “all of a sudden/abruptly” (急 + に)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -275,7 +294,8 @@
       Often implies no preparation or abrupt action.
 - id: g-14-xmas
   prompt: Christmas
-  answer: クリスマス
+  answers:
+    - クリスマス
   hint: kurisumasu (katakana loanword); often written as クリスマス or shortened to クリスマス
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -294,7 +314,8 @@
       Different word: the person, not the holiday.
 - id: g-14-kureru
   prompt: to give (me)
-  answer: くれる
+  answers:
+    - くれる
   hint: kureru — giver is someone else; used when something is given to me/us (or
     someone in my in-group). Often with 〜てくれる (“do for me”).
   stage: -1
@@ -314,7 +335,8 @@
       Use it when the giver is a respected person (polite).
 - id: g-14-kun
   prompt: Mr./Ms. ... (casual; suffix used after a name)
-  answer: ～君
+  answers:
+    - ～君
   hint: ～kun — casual honorific, often for boys/young men or juniors; attached to
     a name (e.g., 太郎君).
   stage: -1
@@ -334,7 +356,8 @@
       This prompt is asking for a casual suffix instead.
 - id: g-14-keshou
   prompt: cosmetics
-  answer: 化粧品
+  answers:
+    - 化粧品
   hint: keshouhin — makeup/cosmetics; often used in 化粧品売り場 (cosmetics section)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -353,7 +376,8 @@
       Different kanji and used for drugs, not beauty products.
 - id: g-14-kechi
   prompt: stingy; cheap (na-adjective)
-  answer: けちな
+  answers:
+    - けちな
   hint: kechi-na — means "stingy" or "cheap" in a negative sense (not "inexpensive").
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -372,7 +396,8 @@
       The prompt expects the hiragana form (softer, curvier shapes).
 - id: g-14-ko
   prompt: '[generic counter for smaller items]'
-  answer: ～個
+  answers:
+    - ～個
   hint: ～ko — counter for small items (e.g., りんごを3個). 個 is also used for general items
     when no specific counter is known.
   stage: -1
@@ -392,7 +417,8 @@
       Not the small-item/general counter.
 - id: g-14-goshujin
   prompt: (your/someone’s) husband
-  answer: ご主人
+  answers:
+    - ご主人
   hint: goshujin — polite term for someone else’s husband (not used for your own in
     polite speech).
   stage: -1
@@ -411,7 +437,8 @@
       Different spouse term and the kanji is completely different.
 - id: g-14-konna
   prompt: '... like this; this kind of ...'
-  answer: こんな～
+  answers:
+    - こんな～
   hint: konna~ — modifies a noun (e.g., こんな本 = a book like this). Often used with
     こんなに (to this extent).
   stage: -1
@@ -431,7 +458,8 @@
       It’s used for asking a question, not pointing to an example.
 - id: g-14-saa
   prompt: I am not sure . . .
-  answer: さあ
+  answers:
+    - さあ
   hint: saa — used when you’re uncertain or can’t say (e.g., さあ、どうかな). Often said
     with a pause.
   stage: -1
@@ -451,7 +479,8 @@
       It’s questioning a statement rather than saying you don’t know.
 - id: g-14-satsu
   prompt: '[counter for bound volumes]'
-  answer: ～冊
+  answers:
+    - ～冊
   hint: |-
     ～satsu (counter)
     Used for bound volumes like books, notebooks, magazines.
@@ -473,7 +502,8 @@
       Not the standard counter for bound volumes like books.
 - id: g-14-sara
   prompt: plate; dish
-  answer: 皿
+  answers:
+    - 皿
   hint: sara — kanji meaning “plate/dish” (5 strokes)
   strokeCount: 5
   stage: -1
@@ -493,7 +523,8 @@
       This one is a simple box with two horizontals—don’t forget the dish-like bottom line/shape.
 - id: g-14-jidai
   prompt: age; era
-  answer: 時代
+  answers:
+    - 時代
   hint: jidai — a historical period/era (e.g., 江戸時代), or “the times” (時代が変わる).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -512,7 +543,8 @@
       Refers to people born around the same time, not a historical era.
 - id: g-14-shirt
   prompt: shirt
-  answer: シャツ
+  answers:
+    - シャツ
   hint: shatsu (katakana) — clothing item; watch small ャ and small ッ
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -531,7 +563,8 @@
       Small ャ makes the combined sound.
 - id: g-14-shuccho
   prompt: business trip
-  answer: 出張
+  answers:
+    - 出張
   hint: shutchou — 出(leave/go out) + 張(extend) → going out for work
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -550,7 +583,8 @@
       It focuses on leaving, not the purpose of a work trip.
 - id: g-14-senpai
   prompt: senior member of a group
-  answer: 先輩
+  answers:
+    - 先輩
   hint: senpai — someone senior to you in the same school/club/company (opposite of
     後輩)
   stage: -1
@@ -570,7 +604,8 @@
       This is a workplace rank relationship, not the general senior–junior relationship in a group.
 - id: g-14-soudan
   prompt: to consult
-  answer: 相談する
+  answers:
+    - 相談する
   hint: soudan suru — to consult/discuss with someone for advice (e.g., 先生に相談する)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -589,7 +624,8 @@
       This prompt is about seeking advice/consulting.
 - id: g-14-dai
   prompt: '[counter for equipment]'
-  answer: ～台
+  answers:
+    - ～台
   hint: 〜dai — counter for machines/vehicles (e.g., パソコン2台, 車3台). Use after a number.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -608,7 +644,8 @@
       Machines/vehicles don't use this one.
 - id: g-14-tachi
   prompt: '[makes a noun plural] (plural suffix: -s / -and others)'
-  answer: ～たち
+  answers:
+    - ～たち
   hint: tachi — attach to a person/animal noun (e.g., 私たち = we, 子どもたち = children).
     Often implies a group around that person.
   stage: -1
@@ -628,7 +665,8 @@
       This prompt expects the kana form.
 - id: g-14-chichioya
   prompt: father
-  answer: 父親
+  answers:
+    - 父親
   hint: chichioya — more formal than お父さん; used when talking about your own father
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -647,7 +685,8 @@
       The prompt expects the more formal kanji word used as a noun.
 - id: g-14-chuui
   prompt: to give warning; to watch out
-  answer: 注意する
+  answers:
+    - 注意する
   hint: chuui suru — to warn/caution someone; also “to be careful/watch out” (e.g.,
     車に注意する).
   stage: -1
@@ -667,7 +706,8 @@
       This is about focusing your eyes/interest, not warning or cautioning.
 - id: g-14-choudo
   prompt: exactly
-  answer: ちょうど
+  answers:
+    - ちょうど
   hint: choudo — “exactly/just (right)”; often used with time or amounts (e.g., ちょうど3時).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -686,7 +726,8 @@
       Used for emphasis like “indeed,” rather than neutral “exactly.”
 - id: g-14-choco
   prompt: chocolate
-  answer: チョコレート
+  answers:
+    - チョコレート
   hint: chokorēto — katakana loanword; long vowel mark「ー」in レート
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -705,7 +746,8 @@
       Watch the sequence around「コ・レ」and the long vowel mark.
 - id: g-14-tsukiau
   prompt: to date (someone); to keep company
-  answer: 付き合う
+  answers:
+    - 付き合う
   hint: tsukiau (付き合う) - to go out with someone / associate with; often used as 彼と付き合っている
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -724,7 +766,8 @@
       The prompt likely expects the everyday verb form.
 - id: g-14-dekiru
   prompt: to come into existence; to be made
-  answer: できる
+  answers:
+    - できる
   hint: dekiru — often used for something being completed/produced (e.g., 料理ができる =
     the food is ready)
   stage: -1
@@ -744,7 +787,8 @@
       This one is more general: something gets made/finished or comes into existence.
 - id: g-14-doushita
   prompt: what should one do
-  answer: どうしたらいい
+  answers:
+    - どうしたらいい
   hint: doushitara ii — use when asking for advice/what to do next (often in trouble
     or uncertainty)
   stage: -1
@@ -764,7 +808,8 @@
       It’s not the advice-seeking pattern with 〜たら/〜れば + いい.
 - id: g-14-trainer
   prompt: sweatshirt
-  answer: トレーナー
+  answers:
+    - トレーナー
   hint: torēnā — katakana loanword; often means a sweatshirt/crewneck (not a “trainer”
     person)
   stage: -1
@@ -784,7 +829,8 @@
       Typically knitted (wool-like), different from a sweatshirt's fabric.
 - id: g-14-nayami
   prompt: worry
-  answer: 悩み
+  answers:
+    - 悩み
   hint: nayami — a worry/concern (noun); often used like 悩みがある (to have worries).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -803,7 +849,8 @@
       This is about an objective issue, not a personal worry.
 - id: g-14-niau
   prompt: to look good (on somebody)
-  answer: 似合う
+  answers:
+    - 似合う
   hint: 'niau — used for clothes/colors/styles that suit someone: 「この服は君に似合う」'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -822,7 +869,8 @@
       The prompt is about something suiting someone (clothes/style), not similarity.
 - id: g-14-nuigurumi
   prompt: stuffed animal (e.g., teddy bear)
-  answer: ぬいぐるみ
+  answers:
+    - ぬいぐるみ
   hint: nuigurumi — often written in kana; also seen as 縫い包み (rare). Used for plush
     toys.
   stage: -1
@@ -842,7 +890,8 @@
       Watch the ending: み vs ま changes the meaning.
 - id: g-14-necktie
   prompt: necktie
-  answer: ネクタイ
+  answers:
+    - ネクタイ
   hint: 'nekutai (katakana loanword). Pay attention to タ vs ク: タ has a right-side
     stroke, ク is one curved stroke.'
   stage: -1
@@ -862,7 +911,8 @@
       A long vowel mark 「ー」 is not used here; it ends with a small diagonal stroke character.
 - id: g-14-nenkan
   prompt: for ... years (duration suffix)
-  answer: ～年間
+  answers:
+    - ～年間
   hint: …nenkan — attach after a number to mean a duration (e.g., 3年間 = for three
     years). Not the same as ～年 (year counter).
   stage: -1
@@ -882,7 +932,8 @@
       It indicates an approximate time, not a duration.
 - id: g-14-baai
   prompt: case
-  answer: 場合
+  answers:
+    - 場合
   hint: baai — “in the case of …” (often used as 〜の場合(は) / 万一の場合)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -901,7 +952,8 @@
       This refers to time in general, not specifically ‘in the case of …’.
 - id: g-14-partner
   prompt: partner
-  answer: パートナー
+  answers:
+    - パートナー
   hint: |-
     pātonā (katakana loanword)
     Often used for business/relationship partners; for spouse, also 夫・妻.
@@ -922,7 +974,8 @@
       バ uses two dots (dakuten), while パ uses a small circle (handakuten).
 - id: g-14-vday
   prompt: Valentine’s Day
-  answer: バレンタインデー
+  answers:
+    - バレンタインデー
   hint: barentain dee (katakana) - In Japan, women often give chocolate on 2/14; men
     reciprocate on White Day (3/14).
   stage: -1
@@ -942,7 +995,8 @@
       Different event—this one is associated with costumes and October.
 - id: g-14-hiki
   prompt: '[counter for smaller animals]'
-  answer: ～匹
+  answers:
+    - ～匹
   hint: |-
     …hiki (also read -piki / -biki depending on the number)
     Used for small animals: 猫1匹・犬2匹・うさぎ3匹
@@ -963,7 +1017,8 @@
       This one relates to "tails."
 - id: g-14-propose
   prompt: to propose marriage
-  answer: プロポーズする
+  answers:
+    - プロポーズする
   hint: puropoozu suru - カタカナ語。「〜にプロポーズする」= propose to ~
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -982,7 +1037,8 @@
       Used for applications or reservations, not a romantic marriage question.
 - id: g-14-hoshii
   prompt: to want
-  answer: 欲しい
+  answers:
+    - 欲しい
   hint: 'hoshii — used for wanting an object (Nが欲しい). For wanting to do: V-たい.'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1001,7 +1057,8 @@
       This is about necessity (often with は/が), not desire.
 - id: g-14-whiteday
   prompt: '"White Day" (yet another gift-giving day)'
-  answer: ホワイトデー
+  answers:
+    - ホワイトデー
   hint: howaito-dee — Katakana loanword; use the long vowel mark ー (not a hyphen).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1020,7 +1077,8 @@
       テ and デ are different: デ has dakuten (two little lines).
 - id: g-14-hon
   prompt: '[counter for long objects]'
-  answer: ～本
+  answers:
+    - ～本
   hint: |-
     〜hon — counter for long, cylindrical items (bottles, pens, umbrellas, etc.).
     Sound changes: 1本 いっぽん, 3本 さんぼん, 6本 ろっぽん, 8本 はっぽん, 10本 じゅっぽん.
@@ -1041,7 +1099,8 @@
       Not used for inanimate objects.
 - id: g-14-hontou
   prompt: really
-  answer: 本当に
+  answers:
+    - 本当に
   hint: hontou ni — used to emphasize sincerity/strong feeling (e.g., 本当にありがとう). Often
     means “truly/actually.”
   stage: -1
@@ -1061,7 +1120,8 @@
       The prompt is for the plain adverb form.
 - id: g-14-muffler
   prompt: winter scarf
-  answer: マフラー
+  answers:
+    - マフラー
   hint: mafuraa (katakana) — a neck scarf worn in cold weather
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1080,7 +1140,8 @@
       Pay attention to the small details in ラ vs レ and the following character.
 - id: g-14-manga
   prompt: comic book
-  answer: 漫画
+  answers:
+    - 漫画
   hint: manga — Japanese comics; often written as 漫画 (まんが)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1099,7 +1160,8 @@
       This is typically for children with more pictures and simpler text.
 - id: g-14-yubiwa
   prompt: ring
-  answer: 指輪
+  answers:
+    - 指輪
   hint: yubiwa — 指=finger + 輪=ring/circle (a ring worn on a finger)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1118,7 +1180,8 @@
       You're missing the part that means a ring/circle.
 - id: g-14-yoku
   prompt: well
-  answer: よく
+  answers:
+    - よく
   hint: 'yoku — adverb meaning "well" (often with verbs: よく分かる = understand well;
     よく食べる = eat a lot/often)'
   stage: -1
@@ -1138,7 +1201,8 @@
       The prompt expects hiragana, which is curvier and used for native adverbs.
 - id: g-14-radio
   prompt: radio
-  answer: ラジオ
+  answers:
+    - ラジオ
   hint: rajio (katakana) - loanword; write in katakana, not hiragana
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1157,7 +1221,8 @@
       Check the final vowel shape (オ vs ア).
 - id: g-14-ryoushin
   prompt: parents
-  answer: 両親
+  answers:
+    - 両親
   hint: 'ryoushin — a formal/neutral word for one’s parents (both mother and father).
     Often used in writing: 両親に会う.'
   stage: -1
@@ -1177,7 +1242,8 @@
       The prompt is specifically only the parents.
 - id: g-14-rireki
   prompt: résumé
-  answer: 履歴書
+  answers:
+    - 履歴書
   hint: rirekisho — job-hunting document; 履(は)歴(れき)書(しょ)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'

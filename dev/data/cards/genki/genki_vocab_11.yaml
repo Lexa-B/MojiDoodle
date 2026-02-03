@@ -1,6 +1,7 @@
 - id: g-11-outdoor
   prompt: outdoor activities
-  answer: アウトドア
+  answers:
+    - アウトドア
   hint: autodoa (katakana) - often used as アウトドア活動 (outdoor activities)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -19,7 +20,8 @@
       The prompt is about outdoor activities, so it needs the full loanword.
 - id: g-11-akarui
   prompt: cheerful
-  answer: 明るい
+  answers:
+    - 明るい
   hint: akarui — also means “bright” (light/color); 明 (bright) + るい
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -38,7 +40,8 @@
       It's the opposite meaning.
 - id: g-11-imi
   prompt: meaning
-  answer: 意味
+  answers:
+    - 意味
   hint: imi — often used as 「〜という意味です」 (“It means …”).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -57,7 +60,8 @@
       This is what someone thinks, not the definition/interpretation of something.
 - id: g-11-usotsuku
   prompt: to tell a lie
-  answer: うそをつく
+  answers:
+    - うそをつく
   hint: uso o tsuku — often written as 嘘をつく; means to lie (tell an untruth), not just
     a joke
   stage: -1
@@ -77,7 +81,8 @@
       This is about misleading someone, not simply stating something untrue.
 - id: g-11-astro
   prompt: astronaut
-  answer: 宇宙飛行士
+  answers:
+    - 宇宙飛行士
   hint: uchuu-hikoushi — 宇宙(うちゅう) space + 飛行(ひこう) flight + 士(し) professional
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -96,7 +101,8 @@
       This is the craft used for space travel, not the crew member.
 - id: g-11-okashi
   prompt: snack; sweets
-  answer: お菓子
+  answers:
+    - お菓子
   hint: okashi — usually snacks/sweets (candy, cookies). Often used with 食べる/買う.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -115,7 +121,8 @@
       You’re missing the final kanji that makes it the full word.
 - id: g-11-hungry
   prompt: to become hungry
-  answer: おなかがすく
+  answers:
+    - おなかがすく
   hint: onaka ga suku - literally “the stomach becomes empty”; common as おなかがすいた (I
     got hungry)
   stage: -1
@@ -135,7 +142,8 @@
       It’s pain, not hunger.
 - id: g-11-ohenji
   prompt: reply
-  answer: お返事
+  answers:
+    - お返事
   hint: ohenji - polite noun often used for answering someone (e.g., メールの返事)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -154,7 +162,8 @@
       More about solving/responding to a query than replying to someone.
 - id: g-11-omatsuri
   prompt: festival
-  answer: お祭り
+  answers:
+    - お祭り
   hint: omatsuri — usually a local shrine/temple festival; note the polite お + 祭り
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -173,7 +182,8 @@
       This is a specific holiday, not a general festival.
 - id: g-11-omocha
   prompt: toy
-  answer: おもちゃ
+  answers:
+    - おもちゃ
   hint: omocha — usually written in hiragana; a children’s plaything
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -192,7 +202,8 @@
       Food, not something you play with.
 - id: g-11-onsen
   prompt: spa; hot spring
-  answer: 温泉
+  answers:
+    - 温泉
   hint: |-
     onsen — 温(あたた)かい water + 泉(spring)
     Common in: 温泉に入る (to bathe in a hot spring)
@@ -213,7 +224,8 @@
       It describes temperature, not a place to bathe.
 - id: g-11-gaikoku
   prompt: foreign country
-  answer: 外国
+  answers:
+    - 外国
   hint: gaikoku — literally "outside" (外) + "country" (国)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -232,7 +244,8 @@
       This refers to relations between countries, not a country itself.
 - id: g-11-kau
   prompt: to own (a pet)
-  answer: 飼う
+  answers:
+    - 飼う
   hint: kau — used for keeping/raising an animal (e.g., 犬を飼う).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -251,7 +264,8 @@
       This is general possession, not the special verb used for keeping animals.
 - id: g-11-kashi
   prompt: snack; sweets
-  answer: 菓子
+  answers:
+    - 菓子
   hint: kashi — sweets/snacks (often store-bought); contrasts with お菓子 (polite) and
     果物 (fruit)
   stage: -1
@@ -271,7 +285,8 @@
       Use the common kanji used for confectionery in Japanese.
 - id: g-11-kashu
   prompt: singer
-  answer: 歌手
+  answers:
+    - 歌手
   hint: kashu — 歌(うた)=song + 手(て)=hand/person → “person who sings”
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -290,7 +305,8 @@
       The prompt is an occupation; you need the character related to singing plus the person marker.
 - id: g-11-katai
   prompt: bookish expression
-  answer: かたい言い方
+  answers:
+    - かたい言い方
   hint: katai iikata — a formal/stiff way of saying something (bookish; opposite of
     くだけた言い方).
   stage: -1
@@ -310,7 +326,8 @@
       Polite doesn’t always mean stiff/bookish; this can be friendly and natural.
 - id: g-11-kakko
   prompt: parenthesis
-  answer: かっこ
+  answers:
+    - かっこ
   hint: kakko — brackets/parentheses like （ ）; often said as かっこ（ ）
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -325,7 +342,8 @@
       Be careful: it ends with a long vowel う.
 - id: g-11-kawa
   prompt: river
-  answer: 川
+  answers:
+    - 川
   hint: kawa — 3 strokes (looks like three flowing lines of water)
   strokeCount: 3
   stage: -1
@@ -345,7 +363,8 @@
       It has a distinct short stroke in the middle and a different overall balance.
 - id: g-11-camp
   prompt: camp
-  answer: キャンプ
+  answers:
+    - キャンプ
   hint: kyanpu - カ + ャ(小) + ン + プ (small ャ after カ)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -364,7 +383,8 @@
       The prompt expects katakana loanword spelling.
 - id: g-11-kyoshi
   prompt: schoolteacher
-  answer: 教師
+  answers:
+    - 教師
   hint: kyoushi — a teacher by profession (often a school teacher). Not used for “my
     teacher” as a title (use 先生).
   stage: -1
@@ -384,7 +404,8 @@
       Not specifically a school homeroom/regular teacher.
 - id: g-11-kyotsu
   prompt: common language
-  answer: 共通語
+  answers:
+    - 共通語
   hint: kyoutsuugo — literally "common/shared" (共通) + "language/word" (語)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -403,7 +424,8 @@
       It’s the standardized form (often based on a region), not simply a language shared in common.
 - id: g-11-gyome
   prompt: line number ... (e.g., the __th line)
-  answer: ～行目
+  answers:
+    - ～行目
   hint: '～gyoume — attach a number before it: 1行目(いちぎょうめ)=line 1, 3行目(さんぎょうめ)=line
     3'
   stage: -1
@@ -423,7 +445,8 @@
       This prompt asks for a row/line of text, not a vertical column.
 - id: g-11-kinjo
   prompt: neighborhood
-  answer: 近所
+  answers:
+    - 近所
   hint: kinjo — your nearby area; often used with の (e.g., 近所の店)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -442,7 +465,8 @@
       It’s used for politeness (often about neighbors), not the plain dictionary form.
 - id: g-11-kudake
   prompt: colloquial expression
-  answer: くだけた言い方
+  answers:
+    - くだけた言い方
   hint: kudaketa iikata — casual/informal wording (more relaxed than 丁寧な言い方)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -461,7 +485,8 @@
       It focuses on phrasing patterns, not necessarily casualness.
 - id: g-11-keisatsu
   prompt: police officer
-  answer: 警察官
+  answers:
+    - 警察官
   hint: keisatsukan — the officer/person (官) who works for the police (警察)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -480,7 +505,8 @@
       Different role from a general police officer.
 - id: g-11-kenka
   prompt: to have a fight; to quarrel
-  answer: けんかする
+  answers:
+    - けんかする
   hint: kenka suru - verbal/physical quarrel; often used as 〜とけんかする (fight with ~)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -499,7 +525,8 @@
       This is the opposite situation (after an argument).
 - id: g-11-kenkyu
   prompt: researcher
-  answer: 研究者
+  answers:
+    - 研究者
   hint: kenkyuusha — 研究 (research) + 者 (person); often used for academic/scientific
     researchers
   stage: -1
@@ -519,7 +546,8 @@
       This one focuses on practical technology and implementation rather than studying a topic.
 - id: g-11-kotae
   prompt: answer
-  answer: 答え
+  answers:
+    - 答え
   hint: kotae — noun meaning “an answer/response” (often used as ～の答え).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -538,7 +566,8 @@
       The prompt is the everyday word.
 - id: g-11-kochira
   prompt: this person (polite)
-  answer: こちら
+  answers:
+    - こちら
   hint: kochira — polite/neutral way to say “this (person/side)”; often used in introductions
     (e.g., こちらは〜です).
   stage: -1
@@ -558,7 +587,8 @@
       The first sound changes from ko- to so-.
 - id: g-11-koto
   prompt: things; matters
-  answer: こと
+  answers:
+    - こと
   hint: koto — used for abstract things/matters (often written in kana); e.g., 大事なこと
     = important matter
   stage: -1
@@ -578,7 +608,8 @@
       This one adds ば and means something different.
 - id: g-11-korekara
   prompt: from now on
-  answer: これから
+  answers:
+    - これから
   hint: 'kore kara — used for starting now/next: これから勉強します (I’ll study from now on).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -597,7 +628,8 @@
       It adds も to emphasize continuation.
 - id: g-11-konki
   prompt: this semester
-  answer: 今学期
+  answers:
+    - 今学期
   hint: kongakki — means “this (current) school term/semester” (今＝now, 学期＝school term)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -616,7 +648,8 @@
       This one refers to the upcoming term, not the current one.
 - id: g-11-sakka
   prompt: writer
-  answer: 作家
+  answers:
+    - 作家
   hint: sakka — “author/writer” as a profession (novelist, artist, etc.)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -635,7 +668,8 @@
       More specific: a writer of novels.
 - id: g-11-saboru
   prompt: to cut (classes)
-  answer: サボる
+  answers:
+    - サボる
   hint: saboru — slang; to skip class/work by slacking off (サボり = skipping)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -654,7 +688,8 @@
       This implies making an excuse rather than just ditching.
 - id: g-11-shitsumon
   prompt: question
-  answer: 質問
+  answers:
+    - 質問
   hint: shitsumon — often used as 質問(しつもん)する “to ask a question”
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -673,7 +708,8 @@
       It’s formal/harsh questioning (e.g., police), not a normal question.
 - id: g-11-shimekiri
   prompt: deadline
-  answer: 締め切り
+  answers:
+    - 締め切り
   hint: shimekiri — due date/cutoff (e.g., レポートの締め切り = report deadline)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -692,7 +728,8 @@
       It’s a more formal word and not the specific “submission cutoff” nuance.
 - id: g-11-journo
   prompt: journalist
-  answer: ジャーナリスト
+  answers:
+    - ジャーナリスト
   hint: jānarisuto (katakana loanword) — a person who reports/writes news
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -711,7 +748,8 @@
       Similar meaning, but a different job word and spelling.
 - id: g-11-shacho
   prompt: president of a company
-  answer: 社長
+  answers:
+    - 社長
   hint: shachou — company president/CEO; often used with a name (e.g., 田中社長).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -730,7 +768,8 @@
       This refers to staff in general, not the top executive.
 - id: g-11-jugyo
   prompt: class
-  answer: 授業
+  answers:
+    - 授業
   hint: 'jugyō — a class/lesson (school setting). Often used in: 授業を受ける (to take a
     class).'
   stage: -1
@@ -750,7 +789,8 @@
       The prompt is a general "class"/school lesson.
 - id: g-11-shusshin
   prompt: coming from
-  answer: 出身
+  answers:
+    - 出身
   hint: shusshin — “origin/hometown; where someone is from” (e.g., 東京出身)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -769,7 +809,8 @@
       The prompt expects the shorter noun form.
 - id: g-11-shokai
   prompt: to introduce
-  answer: 紹介する
+  answers:
+    - 紹介する
   hint: shoukai suru — to introduce someone/something (e.g., 友だちを紹介する)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -788,7 +829,8 @@
       It means inviting someone to an event/place, not introducing people.
 - id: g-11-shobo
   prompt: firefighter
-  answer: 消防士
+  answers:
+    - 消防士
   hint: shouboushi — 消(put out/extinguish) + 防(prevent/defend) + 士(professional)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -807,7 +849,8 @@
       Different public safety job; the last kanji here means "official" instead of "professional".
 - id: g-11-shorai
   prompt: future
-  answer: 将来
+  answers:
+    - 将来
   hint: shourai — “in the future / someday” (e.g., 将来の夢 = future dream)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -826,7 +869,8 @@
       It refers to ability or possibility, not time in the future.
 - id: g-11-jinja
   prompt: shrine
-  answer: 神社
+  answers:
+    - 神社
   hint: jinja — Shinto shrine (not a Buddhist temple)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -845,7 +889,8 @@
       The prompt is for the place of worship, not the deity.
 - id: g-11-athlete
   prompt: athlete
-  answer: スポーツ選手
+  answers:
+    - スポーツ選手
   hint: supōtsu senshu (sports athlete/player). Often used for professional athletes.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -864,7 +909,8 @@
       The prompt targets the common loanword-based expression.
 - id: g-11-diet
   prompt: to go on a diet
-  answer: ダイエットする
+  answers:
+    - ダイエットする
   hint: daietto suru - カタカナ＋するの形（例：来月からダイエットする）
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -883,7 +929,8 @@
       More specific/technical than the everyday verb in the prompt.
 - id: g-11-daitoryo
   prompt: president of a country
-  answer: 大統領
+  answers:
+    - 大統領
   hint: daitōryō — 「大(large)＋統(unify)＋領(lead/territory)」; used for national presidents
     (e.g., アメリカ大統領).
   stage: -1
@@ -903,7 +950,8 @@
       Used for a prefecture/region, not the leader of an entire country.
 - id: g-11-dake
   prompt: just ...; only ... (suffix/particle meaning “only”)
-  answer: ～だけ
+  answers:
+    - ～だけ
   hint: 'dake — attaches to nouns/phrases: 「Nだけ」= “only N” (e.g., 水だけ = only water).
     Often confused with しか (used with negatives).'
   stage: -1
@@ -923,7 +971,8 @@
       Example: 必要なだけの水 = as much water as needed.
 - id: g-11-tatoeba
   prompt: for example
-  answer: 例えば
+  answers:
+    - 例えば
   hint: tatoeba — used to introduce an example (e.g., 例えば、りんごやバナナ). Often followed
     by 「〜など」.
   stage: -1
@@ -943,7 +992,8 @@
       It emphasizes something rather than giving a sample case.
 - id: g-11-chikoku
   prompt: to be late (for an appointment)
-  answer: 遅刻する
+  answers:
+    - 遅刻する
   hint: chikoku suru — for arriving late to a meeting/appointment (遅=late, 刻=time)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -962,7 +1012,8 @@
       Opposite situation: leaving before the end, not arriving after the start.
 - id: g-11-tsukareru
   prompt: to get tired
-  answer: 疲れる
+  answers:
+    - 疲れる
   hint: tsukareru (ru-verb) — often used for becoming tired after work/exertion (e.g.,
     仕事で疲れる).
   stage: -1
@@ -982,7 +1033,8 @@
       It implies falling down, not just feeling tired.
 - id: g-11-tsuri
   prompt: fishing
-  answer: つり
+  answers:
+    - つり
   hint: tsuri — often written as 釣り when using kanji (fishing/angling)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1001,7 +1053,8 @@
       Be careful: the long vowel mark (ー) is for katakana, not hiragana.
 - id: g-11-teinei
   prompt: polite expression
-  answer: ていねいな言い方
+  answers:
+    - ていねいな言い方
   hint: teinei na iikata — 「丁寧」= polite/courteous; 「言い方」= way of saying (phrasing)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1020,7 +1073,8 @@
       This prompt is about wording/phrasing, not speaking style.
 - id: g-11-ten
   prompt: '... points (counter suffix)'
-  answer: ～点
+  answers:
+    - ～点
   hint: ～ten — suffix used after a number to count points/scores (e.g., 100点 = 100
     points)
   stage: -1
@@ -1040,7 +1094,8 @@
       Watch the top strokes—they form a 'big' shape rather than a 'small dot/mark' element.
 - id: g-11-drive
   prompt: drive
-  answer: ドライブ
+  answers:
+    - ドライブ
   hint: doraibu - often used for going for a drive (e.g., ドライブに行く)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1059,7 +1114,8 @@
       This one is an adjective/descriptor, not the activity of driving.
 - id: g-11-narau
   prompt: to learn
-  answer: 習う
+  answers:
+    - 習う
   hint: 'narau — to learn (a skill) from someone; より/から: 先生に習う'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1078,7 +1134,8 @@
       Doing repeated training is different from learning from someone.
 - id: g-11-noboru
   prompt: to climb
-  answer: 登る
+  answers:
+    - 登る
   hint: 'noboru (u-verb) — for climbing (a mountain/stairs); often used with に/を:
     山に登る, 階段を登る'
   stage: -1
@@ -1098,7 +1155,8 @@
       The prompt asks for the plain dictionary form.
 - id: g-11-haiyu
   prompt: actor; actress
-  answer: 俳優
+  answers:
+    - 俳優
   hint: haiyuu — performing arts; 俳=actor/performer, 優=excellent/actor
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1117,7 +1175,8 @@
       It uses the same first kanji but refers to poetry, not a profession.
 - id: g-11-hashiru
   prompt: to run
-  answer: 走る
+  answers:
+    - 走る
   hint: hashiru (u-verb) — physical running; written with 走
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1136,7 +1195,8 @@
       Used in compounds like "run(ning)" or before ます/たい, etc.
 - id: g-11-batsu
   prompt: × (wrong)
-  answer: ばつ
+  answers:
+    - ばつ
   hint: batsu — used for marking an incorrect answer (×), opposite of まる (○)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1155,7 +1215,8 @@
       "ば" has two small ticks; "ぱ" has a small circle.
 - id: g-11-hatsuon
   prompt: pronunciation
-  answer: 発音
+  answers:
+    - 発音
   hint: hatsuon — “sound you produce”; used in 発音がいい/発音する
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1174,7 +1235,8 @@
       This is about what is said, not how it is pronounced.
 - id: g-11-band
   prompt: band
-  answer: バンド
+  answers:
+    - バンド
   hint: 'bando — katakana loanword (music group). Note: also used for “rubber band.”'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1193,7 +1255,8 @@
       Look at the marks: PA uses a small circle (゜), while BA uses dakuten (゛).
 - id: g-11-beer
   prompt: beer
-  answer: ビール
+  answers:
+    - ビール
   hint: biiru (katakana) — long vowel mark ー; common loanword for beer
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1212,7 +1275,8 @@
       Watch the strokes: ミ vs ビ (with dakuten ゛).
 - id: g-11-hisaburi
   prompt: it has been a long time
-  answer: 久しぶり
+  answers:
+    - 久しぶり
   hint: 'hisashiburi - used as a greeting after not seeing someone for a while (often:
     久しぶりだね / 久しぶり！)'
   stage: -1
@@ -1232,7 +1296,8 @@
       The prompt is the full everyday greeting.
 - id: g-11-bijutsu
   prompt: art museum
-  answer: 美術館
+  answers:
+    - 美術館
   hint: bijutsukan — 美(beauty) + 術(art/technique) + 館(building). Often used with に行く
     (go to).
   stage: -1
@@ -1252,7 +1317,8 @@
       The final kanji means "room," not a public building/facility.
 - id: g-11-futari
   prompt: two people each
-  answer: 二人ずつ
+  answers:
+    - 二人ずつ
   hint: futari zutsu — used for distributing in groups of two (e.g., 「二人ずつ入ってください」).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1271,7 +1337,8 @@
       The number of people per group is different.
 - id: g-11-bunka
   prompt: culture
-  answer: 文化
+  answers:
+    - 文化
   hint: bunka — often used in 文化祭 (school culture festival) / 文化的 (cultural)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1290,7 +1357,8 @@
       It refers more to the development of society/technology, not everyday culture.
 - id: g-11-bunpo
   prompt: grammar
-  answer: 文法
+  answers:
+    - 文法
   hint: bunpou — 文=sentence/writing + 法=method/rules
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1309,7 +1377,8 @@
       This one focuses on word usage rather than overall grammar.
 - id: g-11-heijitsu
   prompt: weekday
-  answer: 平日
+  answers:
+    - 平日
   hint: heijitsu — Mon–Fri (not weekends/holidays); often used like「平日は仕事です」
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1328,7 +1397,8 @@
       It includes weekends too, not just work/school days.
 - id: g-11-henji
   prompt: reply
-  answer: 返事
+  answers:
+    - 返事
   hint: henji — used for replying/answering (e.g., メールの返事 = reply to an email).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1347,7 +1417,8 @@
       Not specifically the act of replying to someone.
 - id: g-11-hogen
   prompt: dialect
-  answer: 方言
+  answers:
+    - 方言
   hint: hougen — regional speech; 方=direction, 言=words
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1366,7 +1437,8 @@
       The prompt is about language, not location.
 - id: g-11-hokani
   prompt: anything else
-  answer: ほかに
+  answers:
+    - ほかに
   hint: 'hokani — used to ask/add another item: ほかにありますか (Is there anything else?)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1385,7 +1457,8 @@
       The prompt is the expression used for "anything else?"
 - id: g-11-boshu
   prompt: looking for ... (recruiting ... / seeking ...; suffix)
-  answer: ～募集
+  answers:
+    - ～募集
   hint: 'boshuu — attach to a noun: 学生募集 (recruiting students), 参加者募集 (looking for
     participants). Write the tilde as a placeholder mark.'
   stage: -1
@@ -1405,7 +1478,8 @@
       The prompt is a general "looking for ..." suffix, not specifically job listings.
 - id: g-11-horror
   prompt: horror
-  answer: ホラー
+  answers:
+    - ホラー
   hint: horā (katakana loanword; often used for horror movies/genres)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1424,7 +1498,8 @@
       This one ends with ロ + long vowel mark.
 - id: g-11-volunteer
   prompt: volunteer
-  answer: ボランティア
+  answers:
+    - ボランティア
   hint: 'borantia (katakana loanword) — often used with する: ボランティアする'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1443,7 +1518,8 @@
       The prompt expects katakana for a loanword.
 - id: g-11-maamaa
   prompt: okay; so-so
-  answer: まあまあ
+  answers:
+    - まあまあ
   hint: maa maa — “so-so / not bad”; can also soften disagreement (e.g., まあまあ落ち着いて
     “now, now, calm down”).
   stage: -1
@@ -1463,7 +1539,8 @@
       More like “to a certain extent,” rather than a neutral “so-so.”
 - id: g-11-matsuri
   prompt: festival
-  answer: 祭り
+  answers:
+    - 祭り
   hint: matsuri — traditional festival (often with shrines, stalls, and parades)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1482,7 +1559,8 @@
       This is more general and not specifically a festival.
 - id: g-11-maru
   prompt: ○ (correct)
-  answer: まる
+  answers:
+    - まる
   hint: 'maru — the “circle” mark meaning correct/OK (opposite: × ばつ)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1501,7 +1579,8 @@
       This prompt expects the word written in kana.
 - id: g-11-mangaka
   prompt: cartoonist
-  answer: 漫画家
+  answers:
+    - 漫画家
   hint: 'mangaka — 漫画 (manga) + 家 (profession: -ist/-er). Often used for people who
     draw/write manga.'
   stage: -1
@@ -1521,7 +1600,8 @@
       This refers to fine art painting rather than comics.
 - id: g-11-mizuumi
   prompt: lake
-  answer: 湖
+  answers:
+    - 湖
   hint: mizūmi (みずうみ) — 12 strokes; water radical 氵 on the left
   strokeCount: 12
   stage: -1
@@ -1541,7 +1621,8 @@
       Also has 氵, but it has a different right side and implies muddy wetlands.
 - id: g-11-motto
   prompt: more
-  answer: もっと
+  answers:
+    - もっと
   hint: motto — used to mean “more; even more” (e.g., もっとください = Please give me more).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1560,7 +1641,8 @@
       Watch the small っ (sokuon), which marks a brief pause/doubled consonant.
 - id: g-11-yameru
   prompt: to quit
-  answer: やめる
+  answers:
+    - やめる
   hint: yameru (ru-verb) — to stop/quit doing something (e.g., たばこをやめる)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1579,7 +1661,8 @@
       Check the middle sound: it’s not the same.
 - id: g-11-yume
   prompt: dream
-  answer: 夢
+  answers:
+    - 夢
   hint: yume — 13 strokes; often used in expressions like 夢を見る (to have a dream)
   strokeCount: 13
   stage: -1
@@ -1599,7 +1682,8 @@
       The prompt is about dreams (sleep or aspirations), not wishing/hope.
 - id: g-11-raiki
   prompt: next semester
-  answer: 来学期
+  answers:
+    - 来学期
   hint: raigakki — 来(coming) + 学期(semester); often used like「来学期から」(starting next
     semester)
   stage: -1
@@ -1619,7 +1703,8 @@
       Be careful: this one is about the year, not a school term.
 - id: g-11-ryugaku
   prompt: to study abroad
-  answer: 留学する
+  answers:
+    - 留学する
   hint: 'ryuugaku suru — 留(keep/stay) + 学(study): studying while staying in another
     country'
   stage: -1
@@ -1639,7 +1724,8 @@
       This is for trips, not studying as a student overseas.
 - id: g-11-roommate
   prompt: roommate
-  answer: ルームメイト
+  answers:
+    - ルームメイト
   hint: ruumu meito — katakana loanword; long vowels marked with 「ー」
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1658,7 +1744,8 @@
       Same pattern, but it refers to school/class, not living together.
 - id: g-11-rei
   prompt: example
-  answer: 例
+  answers:
+    - 例
   hint: rei — as in 例えば (tatoeba) “for example”
   strokeCount: 8
   stage: -1
@@ -1678,7 +1765,8 @@
       It has the ice radical (冫) on the left.
 - id: g-11-renshu
   prompt: exercise
-  answer: 練習
+  answers:
+    - 練習
   hint: renshū — practice/training (e.g., 日本語を練習する)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
