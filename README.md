@@ -113,6 +113,18 @@ Cards advance through 16 stages with increasing intervals:
 - Stage 10: 1 month
 - Stage 15: 12 months
 
+## Acknowledgements
+
+### Data Sources
+- **[Genki](https://genki3.japantimes.co.jp/)** by The Japan Times - Japanese textbook vocabulary
+  - Vocabulary index downloaded from [Japan Times Book Club](https://bookclub2.japantimes.co.jp/)
+- **[Google Input Tools](https://www.google.com/inputtools/)** - Handwriting recognition API
+- **[KanjiVG](https://kanjivg.tagaini.net/)** - Stroke order data (CC BY-SA 3.0)
+- **[Project X0213](https://x0213.org/)** - Kanji code tables
+  - [Joyo Kanji Code](https://x0213.org/joyo-kanji-code/index.en.html) - 2,136 joyo kanji with encoding data
+  - [Jinmeiyou Kanji Code](https://x0213.org/jinmeiyou-kanji-code/index.en.html) - 861 jinmeiyou (name) kanji
+- **[KANJIDIC](https://www.edrdg.org/wiki/index.php/KANJIDIC_Project)** by James William Breen and the [EDRDG](https://www.edrdg.org/) - Kanji meanings (CC BY-SA 4.0)
+
 ## TODO
 
 - [ ] More kanji and vocabulary

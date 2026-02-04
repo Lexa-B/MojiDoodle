@@ -1,0 +1,13 @@
+[project]
+name = "vocab-processing"
+version = "0.1.0"
+description = "Process Genki vocabulary using LangChain and OpenAI"
+requires-python = ">=3.11"
+dependencies = [
+    "langchain>=0.3.0",
+    "langchain-openai>=0.2.0",
+    "python-dotenv>=1.0.0",
+]
+
+[project.scripts]
+process-lesson = "process_lesson:main"
