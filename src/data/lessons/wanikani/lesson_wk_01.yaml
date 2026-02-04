@@ -1,0 +1,28 @@
+# WaniKani Level 1 Kanji
+# 18 basic kanji characters
+
+id: wk_01
+name: "WaniKani Level 1"
+status: available
+requires: []
+supercedes: []
+
+ids:
+  - k-joyo-4e00  # 一 One
+  - k-joyo-4e8c  # 二 Two
+  - k-joyo-4e09  # 三 Three
+  - k-joyo-4e03  # 七 Seven
+  - k-joyo-516b  # 八 Eight
+  - k-joyo-4e5d  # 九 Nine
+  - k-joyo-5341  # 十 Ten
+  - k-joyo-53e3  # 口 Mouth
+  - k-joyo-5165  # 入 Enter
+  - k-joyo-529b  # 力 Power
+  - k-joyo-4e0a  # 上 Above
+  - k-joyo-4e0b  # 下 Below
+  - k-joyo-5973  # 女 Woman
+  - k-joyo-5c71  # 山 Mountain
+  - k-joyo-5ddd  # 川 River
+  - k-joyo-5de5  # 工 Construction
+  - k-joyo-5927  # 大 Big
+  - k-joyo-4eba  # 人 Person

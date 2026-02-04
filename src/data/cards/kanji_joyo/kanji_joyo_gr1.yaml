@@ -1,0 +1,719 @@
+- id: k-joyo-4e00
+  prompt: "Meanings: one, one radical (no.1)\nOnyomi: イチ, イツ\nKunyomi: ひと-, ひと.つ"
+  answers:
+    - 一
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-53f3
+  prompt: "Meanings: right\nOnyomi: ウ, ユウ\nKunyomi: みぎ"
+  answers:
+    - 右
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-96e8
+  prompt: "Meanings: rain\nOnyomi: ウ\nKunyomi: あめ, あま-, -さめ"
+  answers:
+    - 雨
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-5186
+  prompt: "Meanings: circle, yen, round\nOnyomi: エン\nKunyomi: まる.い, まる, まど, まど.か"
+  answers:
+    - 円
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-738b
+  prompt: "Meanings: king, rule, magnate\nOnyomi: オウ, -ノウ"
+  answers:
+    - 王
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-97f3
+  prompt: "Meanings: sound, noise\nOnyomi: オン, イン, -ノン\nKunyomi: おと, ね"
+  answers:
+    - 音
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-4e0b
+  prompt: "Meanings: below, down, descend\nOnyomi: カ, ゲ\nKunyomi: した, しも, もと, さ.げる"
+  answers:
+    - 下
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-706b
+  prompt: "Meanings: fire\nOnyomi: カ\nKunyomi: ひ, -び, ほ-"
+  answers:
+    - 火
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-82b1
+  prompt: "Meanings: flower\nOnyomi: カ, ケ\nKunyomi: はな"
+  answers:
+    - 花
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-8c9d
+  prompt: "Meanings: shellfish\nOnyomi: バイ\nKunyomi: かい"
+  answers:
+    - 貝
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-5b66
+  prompt: "Meanings: study, learning, science\nOnyomi: ガク\nKunyomi: まな.ぶ"
+  answers:
+    - 学
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-6c17
+  prompt: "Meanings: spirit, mind, air\nOnyomi: キ, ケ\nKunyomi: いき, き"
+  answers:
+    - 気
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-4e5d
+  prompt: "Meanings: nine\nOnyomi: キュウ, ク\nKunyomi: ここの, ここの.つ"
+  answers:
+    - 九
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-4f11
+  prompt: "Meanings: rest, day off, retire\nOnyomi: キュウ\nKunyomi: やす.む, やす.まる, やす.める"
+  answers:
+    - 休
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-7389
+  prompt: "Meanings: jewel, ball\nOnyomi: ギョク\nKunyomi: たま, たま-, -だま"
+  answers:
+    - 玉
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-91d1
+  prompt: "Meanings: gold\nOnyomi: キン, コン, ゴン\nKunyomi: かね, かな-, -がね"
+  answers:
+    - 金
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-7a7a
+  prompt: "Meanings: empty, sky, void\nOnyomi: クウ\nKunyomi: そら, あ.く, あ.き, あ.ける"
+  answers:
+    - 空
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-6708
+  prompt: "Meanings: month, moon\nOnyomi: ゲツ, ガツ\nKunyomi: つき"
+  answers:
+    - 月
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-72ac
+  prompt: "Meanings: dog\nOnyomi: ケン\nKunyomi: いぬ, いぬ-"
+  answers:
+    - 犬
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-898b
+  prompt: "Meanings: see, hopes, chances\nOnyomi: ケン\nKunyomi: み.る, み.える, み.せる"
+  answers:
+    - 見
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-4e94
+  prompt: "Meanings: five\nOnyomi: ゴ\nKunyomi: いつ, いつ.つ"
+  answers:
+    - 五
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-53e3
+  prompt: "Meanings: mouth\nOnyomi: コウ, ク\nKunyomi: くち"
+  answers:
+    - 口
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-6821
+  prompt: "Meanings: exam, school, printing\nOnyomi: コウ, キョウ"
+  answers:
+    - 校
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-5de6
+  prompt: "Meanings: left\nOnyomi: サ, シャ\nKunyomi: ひだり"
+  answers:
+    - 左
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-4e09
+  prompt: "Meanings: three\nOnyomi: サン, ゾウ\nKunyomi: み, み.つ, みっ.つ"
+  answers:
+    - 三
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-5c71
+  prompt: "Meanings: mountain\nOnyomi: サン, セン\nKunyomi: やま"
+  answers:
+    - 山
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-5b50
+  prompt: "Meanings: child, sign of the rat, 11PM-1AM\nOnyomi: シ, ス, ツ\nKunyomi: こ, -こ, ね"
+  answers:
+    - 子
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-56db
+  prompt: "Meanings: four\nOnyomi: シ\nKunyomi: よ, よ.つ, よっ.つ, よん"
+  answers:
+    - 四
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-7cf8
+  prompt: "Meanings: thread\nOnyomi: シ\nKunyomi: いと"
+  answers:
+    - 糸
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-5b57
+  prompt: "Meanings: character, letter, word\nOnyomi: ジ\nKunyomi: あざ, あざな, -な"
+  answers:
+    - 字
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-8033
+  prompt: "Meanings: ear\nOnyomi: ジ\nKunyomi: みみ"
+  answers:
+    - 耳
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-4e03
+  prompt: "Meanings: seven\nOnyomi: シチ\nKunyomi: なな, なな.つ, なの"
+  answers:
+    - 七
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-8eca
+  prompt: "Meanings: car\nOnyomi: シャ\nKunyomi: くるま"
+  answers:
+    - 車
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-624b
+  prompt: "Meanings: hand\nOnyomi: シュ, ズ\nKunyomi: て, て-, -て, た-"
+  answers:
+    - 手
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-5341
+  prompt: "Meanings: ten\nOnyomi: ジュウ, ジッ, ジュッ\nKunyomi: とお, と, そ"
+  answers:
+    - 十
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-51fa
+  prompt: "Meanings: exit, leave, go out\nOnyomi: シュツ, スイ\nKunyomi: で.る, -で, だ.す, -だ.す"
+  answers:
+    - 出
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-5973
+  prompt: "Meanings: woman, female\nOnyomi: ジョ, ニョ, ニョウ\nKunyomi: おんな, め"
+  answers:
+    - 女
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-5c0f
+  prompt: "Meanings: little, small\nOnyomi: ショウ\nKunyomi: ちい.さい, こ-, お-, さ-"
+  answers:
+    - 小
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-4e0a
+  prompt: "Meanings: above, up\nOnyomi: ジョウ, ショウ, シャン\nKunyomi: うえ, -うえ, うわ-, かみ"
+  answers:
+    - 上
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-68ee
+  prompt: "Meanings: forest, woods\nOnyomi: シン\nKunyomi: もり"
+  answers:
+    - 森
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-4eba
+  prompt: "Meanings: person\nOnyomi: ジン, ニン\nKunyomi: ひと, -り, -と"
+  answers:
+    - 人
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-6c34
+  prompt: "Meanings: water\nOnyomi: スイ\nKunyomi: みず, みず-"
+  answers:
+    - 水
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-6b63
+  prompt: "Meanings: correct, justice, righteous\nOnyomi: セイ, ショウ\nKunyomi: ただ.しい, ただ.す, まさ, まさ.に"
+  answers:
+    - 正
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-751f
+  prompt: "Meanings: life, genuine, birth\nOnyomi: セイ, ショウ\nKunyomi: い.きる, い.かす, い.ける, う.まれる"
+  answers:
+    - 生
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-9752
+  prompt: "Meanings: blue, green\nOnyomi: セイ, ショウ\nKunyomi: あお, あお-, あお.い"
+  answers:
+    - 青
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-5915
+  prompt: "Meanings: evening\nOnyomi: セキ\nKunyomi: ゆう"
+  answers:
+    - 夕
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-77f3
+  prompt: "Meanings: stone\nOnyomi: セキ, シャク, コク\nKunyomi: いし"
+  answers:
+    - 石
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-8d64
+  prompt: "Meanings: red\nOnyomi: セキ, シャク\nKunyomi: あか, あか-, あか.い, あか.らむ"
+  answers:
+    - 赤
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-5343
+  prompt: "Meanings: thousand\nOnyomi: セン\nKunyomi: ち"
+  answers:
+    - 千
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-5ddd
+  prompt: "Meanings: stream, river, river or three-stroke river radical (no. 47)\nOnyomi: セン\nKunyomi: かわ"
+  answers:
+    - 川
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-5148
+  prompt: "Meanings: before, ahead, previous\nOnyomi: セン\nKunyomi: さき, ま.ず"
+  answers:
+    - 先
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-65e9
+  prompt: "Meanings: early, fast\nOnyomi: ソウ, サッ\nKunyomi: はや.い, はや, はや-, はや.まる"
+  answers:
+    - 早
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-8349
+  prompt: "Meanings: grass, weeds, herbs\nOnyomi: ソウ\nKunyomi: くさ, くさ-, -ぐさ"
+  answers:
+    - 草
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-8db3
+  prompt: "Meanings: leg, foot, be sufficient\nOnyomi: ソク\nKunyomi: あし, た.りる, た.る, た.す"
+  answers:
+    - 足
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-6751
+  prompt: "Meanings: village, town\nOnyomi: ソン\nKunyomi: むら"
+  answers:
+    - 村
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-5927
+  prompt: "Meanings: large, big\nOnyomi: ダイ, タイ\nKunyomi: おお-, おお.きい, -おお.いに"
+  answers:
+    - 大
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-7537
+  prompt: "Meanings: male\nOnyomi: ダン, ナン\nKunyomi: おとこ, お"
+  answers:
+    - 男
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-7af9
+  prompt: "Meanings: bamboo\nOnyomi: チク\nKunyomi: たけ"
+  answers:
+    - 竹
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-4e2d
+  prompt: "Meanings: in, inside, middle\nOnyomi: チュウ\nKunyomi: なか, うち, あた.る"
+  answers:
+    - 中
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-866b
+  prompt: "Meanings: insect, bug, temper\nOnyomi: チュウ, キ\nKunyomi: むし"
+  answers:
+    - 虫
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-753a
+  prompt: "Meanings: town, village, block\nOnyomi: チョウ\nKunyomi: まち"
+  answers:
+    - 町
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-5929
+  prompt: "Meanings: heavens, sky, imperial\nOnyomi: テン\nKunyomi: あまつ, あめ, あま-"
+  answers:
+    - 天
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-7530
+  prompt: "Meanings: rice field, rice paddy\nOnyomi: デン\nKunyomi: た"
+  answers:
+    - 田
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-571f
+  prompt: "Meanings: soil, earth, ground\nOnyomi: ド, ト\nKunyomi: つち"
+  answers:
+    - 土
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-4e8c
+  prompt: "Meanings: two, two radical (no. 7)\nOnyomi: ニ, ジ\nKunyomi: ふた, ふた.つ, ふたたび"
+  answers:
+    - 二
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-65e5
+  prompt: "Meanings: day, sun, Japan\nOnyomi: ニチ, ジツ\nKunyomi: ひ, -び, -か"
+  answers:
+    - 日
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-5165
+  prompt: "Meanings: enter, insert\nOnyomi: ニュウ, ジュ\nKunyomi: い.る, -い.る, -い.り, い.れる"
+  answers:
+    - 入
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-5e74
+  prompt: "Meanings: year, counter for years\nOnyomi: ネン\nKunyomi: とし"
+  answers:
+    - 年
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-767d
+  prompt: "Meanings: white\nOnyomi: ハク, ビャク\nKunyomi: しろ, しら-, しろ.い"
+  answers:
+    - 白
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-516b
+  prompt: "Meanings: eight, eight radical (no. 12)\nOnyomi: ハチ, ハツ\nKunyomi: や, や.つ, やっ.つ, よう"
+  answers:
+    - 八
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-767e
+  prompt: "Meanings: hundred\nOnyomi: ヒャク, ビャク\nKunyomi: もも"
+  answers:
+    - 百
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-6587
+  prompt: "Meanings: sentence, literature, style\nOnyomi: ブン, モン\nKunyomi: ふみ, あや"
+  answers:
+    - 文
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-6728
+  prompt: "Meanings: tree, wood\nOnyomi: ボク, モク\nKunyomi: き, こ-"
+  answers:
+    - 木
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-672c
+  prompt: "Meanings: book, present, main\nOnyomi: ホン\nKunyomi: もと"
+  answers:
+    - 本
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-540d
+  prompt: "Meanings: name, noted, distinguished\nOnyomi: メイ, ミョウ\nKunyomi: な, -な"
+  answers:
+    - 名
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-76ee
+  prompt: "Meanings: eye, class, look\nOnyomi: モク, ボク\nKunyomi: め, -め, ま-"
+  answers:
+    - 目
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-7acb
+  prompt: "Meanings: stand up, rise, set up\nOnyomi: リツ, リュウ, リットル\nKunyomi: た.つ, -た.つ, た.ち-, た.てる"
+  answers:
+    - 立
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-529b
+  prompt: "Meanings: power, strength, strong\nOnyomi: リョク, リキ, リイ\nKunyomi: ちから"
+  answers:
+    - 力
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-6797
+  prompt: "Meanings: grove, forest\nOnyomi: リン\nKunyomi: はやし"
+  answers:
+    - 林
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-516d
+  prompt: "Meanings: six\nOnyomi: ロク, リク\nKunyomi: む, む.つ, むっ.つ, むい"
+  answers:
+    - 六
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []

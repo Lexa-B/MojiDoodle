@@ -66,3 +66,24 @@ packs:
       - genki/genki_vocab_21.yaml
       - genki/genki_vocab_22.yaml
       - genki/genki_vocab_23.yaml
+
+  - id: joyo-kanji
+    name: Jōyō Kanji
+    description: The 2,136 commonly-used kanji
+    category: joyo-kanji
+    files:
+      - kanji_joyo/kanji_joyo_gr1.yaml
+      - kanji_joyo/kanji_joyo_gr2.yaml
+      - kanji_joyo/kanji_joyo_gr3.yaml
+      - kanji_joyo/kanji_joyo_gr4.yaml
+      - kanji_joyo/kanji_joyo_gr5.yaml
+      - kanji_joyo/kanji_joyo_gr6.yaml
+      - kanji_joyo/kanji_joyo_gr8.yaml
+
+  - id: jinmeiyo-kanji
+    name: Jinmeiyō Kanji
+    description: The 863 kanji for use in names
+    category: jinmeiyo-kanji
+    files:
+      - kanji_jinmeiyo/kanji_jinmeiyo_gr9.yaml
+      - kanji_jinmeiyo/kanji_jinmeiyo_gr10.yaml

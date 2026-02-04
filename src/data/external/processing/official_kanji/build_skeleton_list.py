@@ -3,6 +3,10 @@
 Build skeleton YAML card files for joyo and jinmeiyo kanji lists.
 Reads raw CSV files, enriches with KANJIDIC data, and outputs YAML card definitions.
 
+Outputs separate files by grade:
+- kanji_skeleton_joyo_gr{1-6,8}.yaml for Jōyō kanji
+- kanji_skeleton_jinmeiyo_gr{9,10}.yaml for Jinmeiyō kanji
+
 Skips CJK Compatibility Ideograph variants (U+F900-U+FAFF) when their canonical
 equivalent is already in the lists.
 """
@@ -10,6 +14,7 @@ equivalent is already in the lists.
 import unicodedata
 import xml.etree.ElementTree as ET
 from pathlib import Path
+from collections import defaultdict
 
 # Paths relative to this script
 SCRIPT_DIR = Path(__file__).parent
@@ -20,13 +25,13 @@ KANJIDIC_PATH = RAW_DIR / "kanjidic2.xml"
 SOURCES = [
     {
         "input": RAW_DIR / "joyo-kanji-code-u.csv",
-        "output": OUTPUT_DIR / "kanji_skeleton_joyo.yaml",
         "id_prefix": "joyo",
+        "expected_grades": [1, 2, 3, 4, 5, 6, 8],
     },
     {
         "input": RAW_DIR / "jinmeiyou-kanji-code-u.csv",
-        "output": OUTPUT_DIR / "kanji_skeleton_jinmeiyo.yaml",
         "id_prefix": "jinmeiyo",
+        "expected_grades": [9, 10],
     },
 ]
 
@@ -34,7 +39,7 @@ SOURCES = [
 def parse_kanjidic(filepath: Path) -> dict[str, dict]:
     """
     Parse KANJIDIC2 XML and return a dictionary keyed by UCS code (lowercase hex).
-    Each entry contains: meanings (English), ja_on readings, ja_kun readings.
+    Each entry contains: meanings (English), ja_on readings, ja_kun readings, grade.
     """
     print(f"Parsing KANJIDIC from {filepath}...")
     tree = ET.parse(filepath)
@@ -54,6 +59,14 @@ def parse_kanjidic(filepath: Path) -> dict[str, dict]:
 
         if not ucs_code:
             continue
+
+        # Get grade from misc
+        grade = None
+        misc = character.find("misc")
+        if misc is not None:
+            grade_elem = misc.find("grade")
+            if grade_elem is not None and grade_elem.text:
+                grade = int(grade_elem.text)
 
         # Get readings and meanings from reading_meaning/rmgroup
         meanings = []
@@ -80,6 +93,7 @@ def parse_kanjidic(filepath: Path) -> dict[str, dict]:
             "meanings": meanings,
             "ja_on": ja_on,
             "ja_kun": ja_kun,
+            "grade": grade,
         }
 
     print(f"  Loaded {len(kanji_data)} kanji entries from KANJIDIC")
@@ -223,6 +237,27 @@ def generate_yaml(
     return "\n".join(lines), all_warnings
 
 
+def group_by_grade(
+    entries: list[tuple[str, str]], kanjidic: dict[str, dict], expected_grades: list[int]
+) -> tuple[dict[int, list[tuple[str, str]]], list[tuple[str, str]]]:
+    """
+    Group entries by their KANJIDIC grade.
+    Returns (grade_groups, no_grade_entries).
+    """
+    grade_groups: dict[int, list[tuple[str, str]]] = defaultdict(list)
+    no_grade = []
+
+    for kanji, unicode_id in entries:
+        kanji_info = kanjidic.get(unicode_id)
+        if kanji_info and kanji_info.get("grade") is not None:
+            grade = kanji_info["grade"]
+            grade_groups[grade].append((kanji, unicode_id))
+        else:
+            no_grade.append((kanji, unicode_id))
+
+    return dict(grade_groups), no_grade
+
+
 def main():
     # Ensure output directory exists
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
@@ -244,9 +279,11 @@ def main():
 
     total_warnings = 0
     total_skipped = 0
+    total_written = 0
+    total_no_grade = 0
 
     for source in SOURCES:
-        print(f"Processing {source['input'].name}...")
+        print(f"\nProcessing {source['input'].name}...")
 
         entries = all_entries[source["id_prefix"]]
         print(f"  Found {len(entries)} kanji in source")
@@ -259,19 +296,47 @@ def main():
             total_skipped += len(skipped)
             print(f"  Filtered to {len(filtered_entries)} kanji (skipped {len(skipped)} duplicates)")
 
-        yaml_content, warnings = generate_yaml(filtered_entries, source["id_prefix"], kanjidic)
+        # Group by grade
+        grade_groups, no_grade = group_by_grade(
+            filtered_entries, kanjidic, source["expected_grades"]
+        )
 
-        if warnings:
-            for warning in warnings:
-                print(warning)
-            total_warnings += len(warnings)
+        if no_grade:
+            print(f"  WARNING: {len(no_grade)} kanji have no grade in KANJIDIC:")
+            for kanji, unicode_id in no_grade:
+                print(f"    {kanji} (U+{unicode_id.upper()})")
+            total_no_grade += len(no_grade)
 
-        with open(source["output"], "w", encoding="utf-8") as f:
-            f.write(yaml_content)
+        # Check for unexpected grades
+        for grade in grade_groups:
+            if grade not in source["expected_grades"]:
+                print(f"  WARNING: Found {len(grade_groups[grade])} kanji with unexpected grade {grade}")
 
-        print(f"  Written to {source['output'].name}")
+        # Generate files for each expected grade
+        for grade in source["expected_grades"]:
+            grade_entries = grade_groups.get(grade, [])
+            if not grade_entries:
+                print(f"  Grade {grade}: 0 kanji (skipping file)")
+                continue
 
-    print(f"\nTotal skipped duplicates: {total_skipped}")
+            yaml_content, warnings = generate_yaml(grade_entries, source["id_prefix"], kanjidic)
+
+            if warnings:
+                for warning in warnings:
+                    print(warning)
+                total_warnings += len(warnings)
+
+            output_file = OUTPUT_DIR / f"kanji_skeleton_{source['id_prefix']}_gr{grade}.yaml"
+            with open(output_file, "w", encoding="utf-8") as f:
+                f.write(yaml_content)
+
+            print(f"  Grade {grade}: {len(grade_entries)} kanji -> {output_file.name}")
+            total_written += len(grade_entries)
+
+    print(f"\n{'='*50}")
+    print(f"Total kanji written: {total_written}")
+    print(f"Total skipped duplicates: {total_skipped}")
+    print(f"Total with no grade: {total_no_grade}")
     if total_warnings:
         print(f"Total warnings: {total_warnings}")
     else:
