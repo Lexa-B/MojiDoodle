@@ -64,18 +64,26 @@ export class AppComponent implements OnInit {
   private async showUpdateAlert(serverTimestamp: string) {
     const alert = await this.alertCtrl.create({
       header: 'Update Available',
-      message: 'New content is available. Would you like to refresh your data? This will reset your progress.',
+      message: 'New content is available. Migrate will preserve your progress. Reset will delete all progress.',
       buttons: [
+        {
+          text: 'Migrate',
+          handler: async () => {
+            await this.migrateProgress(serverTimestamp);
+          }
+        },
         {
           text: 'Later',
           role: 'cancel',
+          cssClass: 'secondary',
           handler: () => {
             // Store version so we don't keep asking
             localStorage.setItem(VERSION_KEY, serverTimestamp);
           }
         },
         {
-          text: 'Update',
+          text: 'Reset',
+          cssClass: 'secondary',
           handler: async () => {
             localStorage.setItem(VERSION_KEY, serverTimestamp);
             await this.cardsService.rebuild();
@@ -85,6 +93,41 @@ export class AppComponent implements OnInit {
       ]
     });
     await alert.present();
+  }
+
+  private async migrateProgress(serverTimestamp: string) {
+    // Export current progress
+    const backup = await this.cardsService.exportToBundle();
+
+    // Rebuild database with new data
+    localStorage.setItem(VERSION_KEY, serverTimestamp);
+    await this.cardsService.rebuild();
+
+    // Restore progress
+    const result = await this.cardsService.restoreFromBundle(backup);
+
+    // Show result
+    const notFoundTotal = result.cardsNotFound + result.lessonsNotFound;
+    let subHeader = `${result.cardsUpdated} cards, ${result.lessonsUpdated} lessons migrated`;
+    let message = '';
+    if (notFoundTotal > 0) {
+      const parts: string[] = [];
+      if (result.cardsNotFound > 0) {
+        parts.push(`${result.cardsNotFound} cards`);
+      }
+      if (result.lessonsNotFound > 0) {
+        parts.push(`${result.lessonsNotFound} lessons`);
+      }
+      message = `Items removed in update: ${parts.join(', ')}`;
+    }
+
+    const resultAlert = await this.alertCtrl.create({
+      header: 'Migration Complete',
+      subHeader,
+      message: message || undefined,
+      buttons: ['OK']
+    });
+    await resultAlert.present();
   }
 
   private getBaseUrl(): string {

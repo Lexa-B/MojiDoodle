@@ -43,3 +43,8 @@
   font-weight: 700;
   font-style: normal;
 }
+
+/* Alert button styles */
+ion-alert button.alert-button.secondary {
+  color: var(--ion-color-medium);
+}
