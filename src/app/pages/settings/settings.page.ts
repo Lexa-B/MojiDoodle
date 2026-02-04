@@ -16,6 +16,8 @@ export class SettingsPage implements OnInit {
     { id: 'hiragana', label: 'Hiragana' },
     { id: 'katakana', label: 'Katakana' },
     { id: 'genki', label: 'Genki Vocabulary' },
+    { id: 'wanikani', label: 'WaniKani Lessons' },
+    { id: 'joyo-kanji', label: 'Jōyō Kanji' },
   ];
 
   constructor(
