@@ -1,0 +1,1736 @@
+- id: k-joyo-5727
+  prompt: "Meanings: pressure, push, overwhelm\nOnyomi: アツ, エン, オウ\nKunyomi: お.す, へ.す, おさ.える, お.さえる"
+  answers:
+    - 圧
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-56f2
+  prompt: "Meanings: surround, besiege, store\nOnyomi: イ\nKunyomi: かこ.む, かこ.う, かこ.い"
+  answers:
+    - 囲
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-79fb
+  prompt: "Meanings: shift, move, change\nOnyomi: イ\nKunyomi: うつ.る, うつ.す"
+  answers:
+    - 移
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-56e0
+  prompt: "Meanings: cause, factor, be associated with\nOnyomi: イン\nKunyomi: よ.る, ちな.む"
+  answers:
+    - 因
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-6c38
+  prompt: "Meanings: eternity, long, lengthy\nOnyomi: エイ\nKunyomi: なが.い"
+  answers:
+    - 永
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-55b6
+  prompt: "Meanings: camp, perform, build\nOnyomi: エイ\nKunyomi: いとな.む, いとな.み"
+  answers:
+    - 営
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-885b
+  prompt: "Meanings: defense, protection\nOnyomi: エイ, エ"
+  answers:
+    - 衛
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-6613
+  prompt: "Meanings: easy, ready to, simple\nOnyomi: エキ, イ\nKunyomi: やさ.しい, やす.い"
+  answers:
+    - 易
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-76ca
+  prompt: "Meanings: benefit, gain, profit\nOnyomi: エキ, ヤク\nKunyomi: ま.す"
+  answers:
+    - 益
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-6db2
+  prompt: "Meanings: fluid, liquid, juice\nOnyomi: エキ"
+  answers:
+    - 液
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-6f14
+  prompt: "Meanings: performance, act, play\nOnyomi: エン"
+  answers:
+    - 演
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-5fdc
+  prompt: "Meanings: apply, answer, yes\nOnyomi: オウ, ヨウ, -ノウ\nKunyomi: あた.る, まさに, こた.える"
+  answers:
+    - 応
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-5f80
+  prompt: "Meanings: journey, travel, chase away\nOnyomi: オウ\nKunyomi: い.く, いにしえ, さき.に, ゆ.く"
+  answers:
+    - 往
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-685c
+  prompt: "Meanings: cherry\nOnyomi: オウ, ヨウ\nKunyomi: さくら"
+  answers:
+    - 桜
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-53ef
+  prompt: "Meanings: can, passable, approval\nOnyomi: カ, コク\nKunyomi: -べ.き, -べ.し"
+  answers:
+    - 可
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-4eee
+  prompt: "Meanings: sham, temporary, interim\nOnyomi: カ, ケ\nKunyomi: かり, かり-"
+  answers:
+    - 仮
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-4fa1
+  prompt: "Meanings: value, price\nOnyomi: カ, ケ\nKunyomi: あたい"
+  answers:
+    - 価
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-6cb3
+  prompt: "Meanings: river\nOnyomi: カ\nKunyomi: かわ"
+  answers:
+    - 河
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-904e
+  prompt: "Meanings: overdo, exceed, go beyond\nOnyomi: カ\nKunyomi: す.ぎる, す.ごす, あやま.ち, あやま.つ"
+  answers:
+    - 過
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-5feb
+  prompt: "Meanings: cheerful, pleasant, agreeable\nOnyomi: カイ\nKunyomi: こころよ.い"
+  answers:
+    - 快
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-89e3
+  prompt: "Meanings: unravel, notes, key\nOnyomi: カイ, ゲ\nKunyomi: と.く, と.かす, と.ける, ほど.く"
+  answers:
+    - 解
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-683c
+  prompt: "Meanings: status, rank, capacity\nOnyomi: カク, コウ, キャク, ゴウ"
+  answers:
+    - 格
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-78ba
+  prompt: "Meanings: assurance, firm, tight\nOnyomi: カク, コウ\nKunyomi: たし.か, たし.かめる"
+  answers:
+    - 確
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-984d
+  prompt: "Meanings: forehead, tablet, plaque\nOnyomi: ガク\nKunyomi: ひたい"
+  answers:
+    - 額
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-520a
+  prompt: "Meanings: publish, carve, engrave\nOnyomi: カン"
+  answers:
+    - 刊
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-5e79
+  prompt: "Meanings: tree trunk, main part, talent\nOnyomi: カン\nKunyomi: みき"
+  answers:
+    - 幹
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-6163
+  prompt: "Meanings: accustomed, get used to, become experienced\nOnyomi: カン\nKunyomi: な.れる, な.らす"
+  answers:
+    - 慣
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-773c
+  prompt: "Meanings: eyeball\nOnyomi: ガン, ゲン\nKunyomi: まなこ, め"
+  answers:
+    - 眼
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-7d00
+  prompt: "Meanings: chronicle, account, narrative\nOnyomi: キ"
+  answers:
+    - 紀
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-57fa
+  prompt: "Meanings: fundamentals, radical (chem), counter for machines\nOnyomi: キ\nKunyomi: もと, もとい"
+  answers:
+    - 基
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-5bc4
+  prompt: "Meanings: draw near, stop in, bring near\nOnyomi: キ\nKunyomi: よ.る, -よ.り, よ.せる"
+  answers:
+    - 寄
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-898f
+  prompt: "Meanings: standard, measure\nOnyomi: キ"
+  answers:
+    - 規
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-559c
+  prompt: "Meanings: rejoice, take pleasure in\nOnyomi: キ\nKunyomi: よろこ.ぶ, よろこ.ばす"
+  answers:
+    - 喜
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-6280
+  prompt: "Meanings: skill, art, craft\nOnyomi: ギ\nKunyomi: わざ"
+  answers:
+    - 技
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-7fa9
+  prompt: "Meanings: righteousness, justice, morality\nOnyomi: ギ"
+  answers:
+    - 義
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-9006
+  prompt: "Meanings: inverted, reverse, opposite\nOnyomi: ギャク, ゲキ\nKunyomi: さか, さか.さ, さか.らう"
+  answers:
+    - 逆
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-4e45
+  prompt: "Meanings: long time, old story\nOnyomi: キュウ, ク\nKunyomi: ひさ.しい"
+  answers:
+    - 久
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-65e7
+  prompt: "Meanings: old times, old things, old friend\nOnyomi: キュウ\nKunyomi: ふる.い, もと"
+  answers:
+    - 旧
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-6551
+  prompt: "Meanings: salvation, save, help\nOnyomi: キュウ\nKunyomi: すく.う"
+  answers:
+    - 救
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-5c45
+  prompt: "Meanings: reside, to be, exist\nOnyomi: キョ, コ\nKunyomi: い.る, -い, お.る"
+  answers:
+    - 居
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-8a31
+  prompt: "Meanings: permit, approve\nOnyomi: キョ\nKunyomi: ゆる.す, もと"
+  answers:
+    - 許
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-5883
+  prompt: "Meanings: boundary, border, region\nOnyomi: キョウ, ケイ\nKunyomi: さかい"
+  answers:
+    - 境
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-5747
+  prompt: "Meanings: level, average\nOnyomi: キン\nKunyomi: なら.す"
+  answers:
+    - 均
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-7981
+  prompt: "Meanings: prohibition, ban, forbid\nOnyomi: キン"
+  answers:
+    - 禁
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-53e5
+  prompt: "Meanings: phrase, clause, sentence\nOnyomi: ク"
+  answers:
+    - 句
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-578b
+  prompt: "Meanings: mould, type, model\nOnyomi: ケイ\nKunyomi: かた, -がた"
+  answers:
+    - 型
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-7d4c
+  prompt: "Meanings: sutra, longitude, pass thru\nOnyomi: ケイ, キョウ, キン\nKunyomi: へ.る, た.つ, たていと, はか.る"
+  answers:
+    - 経
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-6f54
+  prompt: "Meanings: undefiled, pure, clean\nOnyomi: ケツ\nKunyomi: いさぎよ.い"
+  answers:
+    - 潔
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-4ef6
+  prompt: "Meanings: affair, case, matter\nOnyomi: ケン\nKunyomi: くだん"
+  answers:
+    - 件
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-967a
+  prompt: "Meanings: precipitous, inaccessible place, impregnable position\nOnyomi: ケン\nKunyomi: けわ.しい"
+  answers:
+    - 険
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-691c
+  prompt: "Meanings: examination, investigate\nOnyomi: ケン\nKunyomi: しら.べる"
+  answers:
+    - 検
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-9650
+  prompt: "Meanings: limit, restrict, to best of ability\nOnyomi: ゲン\nKunyomi: かぎ.る, かぎ.り, -かぎ.り"
+  answers:
+    - 限
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-73fe
+  prompt: "Meanings: present, existing, actual\nOnyomi: ゲン\nKunyomi: あらわ.れる, あらわ.す, うつつ, うつ.つ"
+  answers:
+    - 現
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-6e1b
+  prompt: "Meanings: dwindle, decrease, reduce\nOnyomi: ゲン\nKunyomi: へ.る, へ.らす"
+  answers:
+    - 減
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-6545
+  prompt: "Meanings: happenstance, especially, intentionally\nOnyomi: コ\nKunyomi: ゆえ, ふる.い, もと"
+  answers:
+    - 故
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-500b
+  prompt: "Meanings: individual, counter for articles\nOnyomi: コ, カ"
+  answers:
+    - 個
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-8b77
+  prompt: "Meanings: safeguard, protect\nOnyomi: ゴ\nKunyomi: まも.る"
+  answers:
+    - 護
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-52b9
+  prompt: "Meanings: merit, efficacy, efficiency\nOnyomi: コウ\nKunyomi: き.く, ききめ, なら.う"
+  answers:
+    - 効
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-539a
+  prompt: "Meanings: thick, heavy, rich\nOnyomi: コウ\nKunyomi: あつ.い, あか"
+  answers:
+    - 厚
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-8015
+  prompt: "Meanings: till, plow, cultivate\nOnyomi: コウ\nKunyomi: たがや.す"
+  answers:
+    - 耕
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-822a
+  prompt: "Meanings: navigate, sail, cruise\nOnyomi: コウ"
+  answers:
+    - 航
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-9271
+  prompt: "Meanings: mineral, ore\nOnyomi: コウ\nKunyomi: あらがね"
+  answers:
+    - 鉱
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-69cb
+  prompt: "Meanings: posture, stance, appearance\nOnyomi: コウ\nKunyomi: かま.える, かま.う"
+  answers:
+    - 構
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-8208
+  prompt: "Meanings: entertain, revive, retrieve\nOnyomi: コウ, キョウ\nKunyomi: おこ.る, おこ.す"
+  answers:
+    - 興
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-8b1b
+  prompt: "Meanings: lecture, club, association\nOnyomi: コウ"
+  answers:
+    - 講
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-544a
+  prompt: "Meanings: revelation, tell, inform\nOnyomi: コク\nKunyomi: つ.げる"
+  answers:
+    - 告
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-6df7
+  prompt: "Meanings: mix, blend, confuse\nOnyomi: コン\nKunyomi: ま.じる, -ま.じり, ま.ざる, ま.ぜる"
+  answers:
+    - 混
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-67fb
+  prompt: "Meanings: investigate\nOnyomi: サ"
+  answers:
+    - 査
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-518d
+  prompt: "Meanings: again, twice, second time\nOnyomi: サイ, サ\nKunyomi: ふたた.び"
+  answers:
+    - 再
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-707d
+  prompt: "Meanings: disaster, calamity, woe\nOnyomi: サイ\nKunyomi: わざわ.い"
+  answers:
+    - 災
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-59bb
+  prompt: "Meanings: wife, spouse\nOnyomi: サイ\nKunyomi: つま"
+  answers:
+    - 妻
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-63a1
+  prompt: "Meanings: pick, take, fetch\nOnyomi: サイ\nKunyomi: と.る"
+  answers:
+    - 採
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-969b
+  prompt: "Meanings: occasion, side, edge\nOnyomi: サイ\nKunyomi: きわ, -ぎわ"
+  answers:
+    - 際
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-5728
+  prompt: "Meanings: exist, outskirts, suburbs\nOnyomi: ザイ\nKunyomi: あ.る"
+  answers:
+    - 在
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-8ca1
+  prompt: "Meanings: property, money, wealth\nOnyomi: ザイ, サイ, ゾク\nKunyomi: たから"
+  answers:
+    - 財
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-7f6a
+  prompt: "Meanings: guilt, sin, crime\nOnyomi: ザイ\nKunyomi: つみ"
+  answers:
+    - 罪
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-6bba
+  prompt: "Meanings: kill, murder, butcher\nOnyomi: サツ, サイ, セツ\nKunyomi: ころ.す, -ごろ.し, そ.ぐ, あや.める"
+  answers:
+    - 殺
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-96d1
+  prompt: "Meanings: miscellaneous\nOnyomi: ザツ, ゾウ\nKunyomi: まじ.える, まじ.る"
+  answers:
+    - 雑
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-9178
+  prompt: "Meanings: acid, bitterness, sour\nOnyomi: サン\nKunyomi: す.い"
+  answers:
+    - 酸
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-8cdb
+  prompt: "Meanings: approve, praise, title or inscription on picture\nOnyomi: サン\nKunyomi: たす.ける, たた.える"
+  answers:
+    - 賛
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-58eb
+  prompt: "Meanings: gentleman, scholar, samurai\nOnyomi: シ\nKunyomi: さむらい"
+  answers:
+    - 士
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-652f
+  prompt: "Meanings: branch, support, sustain\nOnyomi: シ\nKunyomi: ささ.える, つか.える, か.う"
+  answers:
+    - 支
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-53f2
+  prompt: "Meanings: history, chronicle\nOnyomi: シ"
+  answers:
+    - 史
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-5fd7
+  prompt: "Meanings: intention, plan, resolve\nOnyomi: シ\nKunyomi: シリング, こころざ.す, こころざし"
+  answers:
+    - 志
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-679d
+  prompt: "Meanings: bough, branch, twig\nOnyomi: シ\nKunyomi: えだ"
+  answers:
+    - 枝
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-5e2b
+  prompt: "Meanings: expert, teacher, master\nOnyomi: シ\nKunyomi: いくさ"
+  answers:
+    - 師
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-8cc7
+  prompt: "Meanings: assets, resources, capital\nOnyomi: シ"
+  answers:
+    - 資
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-98fc
+  prompt: "Meanings: domesticate, raise, keep\nOnyomi: シ\nKunyomi: か.う"
+  answers:
+    - 飼
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-793a
+  prompt: "Meanings: show, indicate, point out\nOnyomi: ジ, シ\nKunyomi: しめ.す"
+  answers:
+    - 示
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-4f3c
+  prompt: "Meanings: becoming, resemble, counterfeit\nOnyomi: ジ\nKunyomi: に.る, ひ.る"
+  answers:
+    - 似
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-8b58
+  prompt: "Meanings: discriminating, know, write\nOnyomi: シキ\nKunyomi: し.る, しる.す"
+  answers:
+    - 識
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-8cea
+  prompt: "Meanings: substance, quality, matter\nOnyomi: シツ, シチ, チ\nKunyomi: たち, ただ.す, もと, わりふ"
+  answers:
+    - 質
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-820e
+  prompt: "Meanings: cottage, inn, hut\nOnyomi: シャ, セキ\nKunyomi: やど.る"
+  answers:
+    - 舎
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-8b1d
+  prompt: "Meanings: apologize, thank, refuse\nOnyomi: シャ\nKunyomi: あやま.る"
+  answers:
+    - 謝
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-6388
+  prompt: "Meanings: impart, instruct, grant\nOnyomi: ジュ\nKunyomi: さず.ける, さず.かる"
+  answers:
+    - 授
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-4fee
+  prompt: "Meanings: discipline, conduct oneself well, study\nOnyomi: シュウ, シュ\nKunyomi: おさ.める, おさ.まる"
+  answers:
+    - 修
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-8ff0
+  prompt: "Meanings: mention, state, speak\nOnyomi: ジュツ\nKunyomi: の.べる"
+  answers:
+    - 述
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-8853
+  prompt: "Meanings: art, technique, skill\nOnyomi: ジュツ\nKunyomi: すべ"
+  answers:
+    - 術
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-6e96
+  prompt: "Meanings: semi-, correspond to, proportionate to\nOnyomi: ジュン\nKunyomi: じゅん.じる, じゅん.ずる, なぞら.える, のり"
+  answers:
+    - 準
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-5e8f
+  prompt: "Meanings: preface, beginning, order\nOnyomi: ジョ\nKunyomi: つい.で, ついで"
+  answers:
+    - 序
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-62db
+  prompt: "Meanings: beckon, invite, summon\nOnyomi: ショウ\nKunyomi: まね.く"
+  answers:
+    - 招
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-8a3c
+  prompt: "Meanings: evidence, proof, certificate\nOnyomi: ショウ\nKunyomi: あかし"
+  answers:
+    - 証
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-8c61
+  prompt: "Meanings: elephant, pattern after, imitate\nOnyomi: ショウ, ゾウ\nKunyomi: かたど.る"
+  answers:
+    - 象
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-8cde
+  prompt: "Meanings: prize, reward, praise\nOnyomi: ショウ\nKunyomi: ほ.める"
+  answers:
+    - 賞
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-6761
+  prompt: "Meanings: article, clause, counter for articles, clauses, paragraphs, etc.\nOnyomi: ジョウ, チョウ, デキ\nKunyomi: えだ, すじ"
+  answers:
+    - 条
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-72b6
+  prompt: "Meanings: status quo, conditions, circumstances\nOnyomi: ジョウ"
+  answers:
+    - 状
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-5e38
+  prompt: "Meanings: usual, ordinary, normal\nOnyomi: ジョウ\nKunyomi: つね, とこ-"
+  answers:
+    - 常
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-60c5
+  prompt: "Meanings: feelings, emotion, passion\nOnyomi: ジョウ, セイ\nKunyomi: なさ.け"
+  answers:
+    - 情
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-7e54
+  prompt: "Meanings: weave, fabric\nOnyomi: ショク, シキ\nKunyomi: お.る, お.り, おり, -おり"
+  answers:
+    - 織
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-8077
+  prompt: "Meanings: post, employment, work\nOnyomi: ショク, ソク"
+  answers:
+    - 職
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-5236
+  prompt: "Meanings: system, law, rule\nOnyomi: セイ"
+  answers:
+    - 制
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-6027
+  prompt: "Meanings: sex, gender, nature\nOnyomi: セイ, ショウ\nKunyomi: さが"
+  answers:
+    - 性
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-653f
+  prompt: "Meanings: politics, government\nOnyomi: セイ, ショウ\nKunyomi: まつりごと, まん"
+  answers:
+    - 政
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-52e2
+  prompt: "Meanings: forces, energy, military strength\nOnyomi: セイ, ゼイ\nKunyomi: いきお.い, はずみ"
+  answers:
+    - 勢
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-7cbe
+  prompt: "Meanings: refined, ghost, fairy\nOnyomi: セイ, ショウ\nKunyomi: しら.げる, くわ.しい"
+  answers:
+    - 精
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-88fd
+  prompt: "Meanings: made in..., manufacture\nOnyomi: セイ"
+  answers:
+    - 製
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-7a0e
+  prompt: "Meanings: tax, duty\nOnyomi: ゼイ"
+  answers:
+    - 税
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-8cac
+  prompt: "Meanings: blame, condemn, censure\nOnyomi: セキ\nKunyomi: せ.める"
+  answers:
+    - 責
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-7e3e
+  prompt: "Meanings: exploits, achievements, unreeling cocoons\nOnyomi: セキ"
+  answers:
+    - 績
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-63a5
+  prompt: "Meanings: touch, contact, adjoin\nOnyomi: セツ, ショウ\nKunyomi: つ.ぐ"
+  answers:
+    - 接
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-8a2d
+  prompt: "Meanings: establishment, provision, prepare\nOnyomi: セツ\nKunyomi: もう.ける"
+  answers:
+    - 設
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-7d76
+  prompt: "Meanings: discontinue, sever, cut off\nOnyomi: ゼツ\nKunyomi: た.える, た.やす, た.つ"
+  answers:
+    - 絶
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-7956
+  prompt: "Meanings: ancestor, pioneer, founder\nOnyomi: ソ"
+  answers:
+    - 祖
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-7d20
+  prompt: "Meanings: elementary, principle, naked\nOnyomi: ソ, ス\nKunyomi: もと"
+  answers:
+    - 素
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-7dcf
+  prompt: "Meanings: general, whole, all\nOnyomi: ソウ\nKunyomi: す.べて, すべ.て, ふさ"
+  answers:
+    - 総
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-9020
+  prompt: "Meanings: create, make, structure\nOnyomi: ゾウ\nKunyomi: つく.る, つく.り, -づく.り"
+  answers:
+    - 造
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-50cf
+  prompt: "Meanings: statue, picture, image\nOnyomi: ゾウ"
+  answers:
+    - 像
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-5897
+  prompt: "Meanings: increase, add, augment\nOnyomi: ゾウ\nKunyomi: ま.す, ま.し, ふ.える, ふ.やす"
+  answers:
+    - 増
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-5247
+  prompt: "Meanings: rule, law, follow\nOnyomi: ソク\nKunyomi: のっと.る, のり, すなわち"
+  answers:
+    - 則
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-6e2c
+  prompt: "Meanings: fathom, plan, scheme\nOnyomi: ソク\nKunyomi: はか.る"
+  answers:
+    - 測
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-5c5e
+  prompt: "Meanings: belong, genus, subordinate official\nOnyomi: ゾク, ショク\nKunyomi: さかん, つく, やから"
+  answers:
+    - 属
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-7387
+  prompt: "Meanings: ratio, rate, proportion\nOnyomi: ソツ, リツ, シュツ\nKunyomi: ひき.いる"
+  answers:
+    - 率
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-640d
+  prompt: "Meanings: damage, loss, disadvantage\nOnyomi: ソン\nKunyomi: そこ.なう, そこな.う, -そこ.なう, そこ.ねる"
+  answers:
+    - 損
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-8cb8
+  prompt: "Meanings: lend\nOnyomi: タイ\nKunyomi: か.す, か.し-, かし-"
+  answers:
+    - 貸
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-614b
+  prompt: "Meanings: attitude, condition, figure\nOnyomi: タイ\nKunyomi: わざ.と"
+  answers:
+    - 態
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-56e3
+  prompt: "Meanings: group, association\nOnyomi: ダン, トン\nKunyomi: かたまり, まる.い"
+  answers:
+    - 団
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-65ad
+  prompt: "Meanings: severance, decline, refuse\nOnyomi: ダン\nKunyomi: た.つ, ことわ.る, さだ.める"
+  answers:
+    - 断
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-7bc9
+  prompt: "Meanings: fabricate, build, construct\nOnyomi: チク\nKunyomi: きず.く"
+  answers:
+    - 築
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-8caf
+  prompt: "Meanings: savings, store, lay in\nOnyomi: チョ\nKunyomi: た.める, たくわ.える"
+  answers:
+    - 貯
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-5f35
+  prompt: "Meanings: counter for bows & stringed instruments, stretch, spread\nOnyomi: チョウ\nKunyomi: は.る, -は.り, -ば.り"
+  answers:
+    - 張
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-505c
+  prompt: "Meanings: halt, stopping\nOnyomi: テイ\nKunyomi: と.める, と.まる"
+  answers:
+    - 停
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-63d0
+  prompt: "Meanings: propose, take along, carry in hand\nOnyomi: テイ, チョウ, ダイ\nKunyomi: さ.げる"
+  answers:
+    - 提
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-7a0b
+  prompt: "Meanings: extent, degree, law\nOnyomi: テイ\nKunyomi: ほど, -ほど"
+  answers:
+    - 程
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-9069
+  prompt: "Meanings: suitable, occasional, rare\nOnyomi: テキ\nKunyomi: かな.う"
+  answers:
+    - 適
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-7d71
+  prompt: "Meanings: overall, relationship, ruling\nOnyomi: トウ\nKunyomi: す.べる"
+  answers:
+    - 統
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-5802
+  prompt: "Meanings: public chamber, hall\nOnyomi: ドウ"
+  answers:
+    - 堂
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-9285
+  prompt: "Meanings: copper\nOnyomi: ドウ\nKunyomi: あかがね"
+  answers:
+    - 銅
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-5c0e
+  prompt: "Meanings: guidance, leading, conduct\nOnyomi: ドウ\nKunyomi: みちび.く"
+  answers:
+    - 導
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-5f97
+  prompt: "Meanings: gain, get, find\nOnyomi: トク\nKunyomi: え.る, う.る"
+  answers:
+    - 得
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-6bd2
+  prompt: "Meanings: poison, virus, venom\nOnyomi: ドク"
+  answers:
+    - 毒
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-72ec
+  prompt: "Meanings: single, alone, spontaneously\nOnyomi: ドク, トク\nKunyomi: ひと.り"
+  answers:
+    - 独
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-4efb
+  prompt: "Meanings: responsibility, duty, term\nOnyomi: ニン\nKunyomi: まか.せる, まか.す"
+  answers:
+    - 任
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-71c3
+  prompt: "Meanings: burn, blaze, glow\nOnyomi: ネン\nKunyomi: も.える, も.やす, も.す"
+  answers:
+    - 燃
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-80fd
+  prompt: "Meanings: ability, talent, skill\nOnyomi: ノウ\nKunyomi: よ.く, あた.う"
+  answers:
+    - 能
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-7834
+  prompt: "Meanings: rend, rip, tear\nOnyomi: ハ\nKunyomi: やぶ.る, やぶ.れる, わ.れる"
+  answers:
+    - 破
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-72af
+  prompt: "Meanings: crime, sin, offense\nOnyomi: ハン, ボン\nKunyomi: おか.す"
+  answers:
+    - 犯
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-5224
+  prompt: "Meanings: judgement, judgment, signature\nOnyomi: ハン, バン\nKunyomi: わか.る"
+  answers:
+    - 判
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-7248
+  prompt: "Meanings: printing block, printing plate, edition\nOnyomi: ハン"
+  answers:
+    - 版
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-6bd4
+  prompt: "Meanings: compare, race, ratio\nOnyomi: ヒ\nKunyomi: くら.べる"
+  answers:
+    - 比
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-80a5
+  prompt: "Meanings: fertilizer, get fat, fertile\nOnyomi: ヒ\nKunyomi: こ.える, こえ, こ.やす, こ.やし"
+  answers:
+    - 肥
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-975e
+  prompt: "Meanings: un-, mistake, negative\nOnyomi: ヒ\nKunyomi: あら.ず"
+  answers:
+    - 非
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-8cbb
+  prompt: "Meanings: expense, cost, spend\nOnyomi: ヒ\nKunyomi: つい.やす, つい.える"
+  answers:
+    - 費
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-5099
+  prompt: "Meanings: equip, provision, preparation\nOnyomi: ビ\nKunyomi: そな.える, そな.わる, つぶさ.に"
+  answers:
+    - 備
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-8a55
+  prompt: "Meanings: evaluate, criticism, comment\nOnyomi: ヒョウ"
+  answers:
+    - 評
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-8ca7
+  prompt: "Meanings: poverty, poor\nOnyomi: ヒン, ビン\nKunyomi: まず.しい"
+  answers:
+    - 貧
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-5e03
+  prompt: "Meanings: linen, cloth, spread\nOnyomi: フ, ホ\nKunyomi: ぬの, し.く, きれ"
+  answers:
+    - 布
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-5a66
+  prompt: "Meanings: lady, woman, wife\nOnyomi: フ\nKunyomi: よめ"
+  answers:
+    - 婦
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-6b66
+  prompt: "Meanings: warrior, military, chivalry\nOnyomi: ブ, ム\nKunyomi: たけ, たけ.し"
+  answers:
+    - 武
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-5fa9
+  prompt: "Meanings: restore, return to, revert\nOnyomi: フク\nKunyomi: また"
+  answers:
+    - 復
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-8907
+  prompt: "Meanings: duplicate, double, compound\nOnyomi: フク"
+  answers:
+    - 複
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-4ecf
+  prompt: "Meanings: Buddha, the dead, France\nOnyomi: ブツ, フツ\nKunyomi: ほとけ"
+  answers:
+    - 仏
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-7c89
+  prompt: "Meanings: flour, powder, dust\nOnyomi: フン\nKunyomi: デシメートル, こ, こな"
+  answers:
+    - 粉
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-7de8
+  prompt: "Meanings: compilation, knit, plait\nOnyomi: ヘン\nKunyomi: あ.む, -あ.み"
+  answers:
+    - 編
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-5f01
+  prompt: "Meanings: valve, petal, braid\nOnyomi: ベン, ヘン\nKunyomi: かんむり, わきま.える, わ.ける, はなびら"
+  answers:
+    - 弁
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-4fdd
+  prompt: "Meanings: protect, guarantee, keep\nOnyomi: ホ, ホウ\nKunyomi: たも.つ"
+  answers:
+    - 保
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-5893
+  prompt: "Meanings: grave, tomb\nOnyomi: ボ\nKunyomi: はか"
+  answers:
+    - 墓
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-5831
+  prompt: "Meanings: report, news, reward\nOnyomi: ホウ\nKunyomi: むく.いる"
+  answers:
+    - 報
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-8c4a
+  prompt: "Meanings: bountiful, excellent, rich\nOnyomi: ホウ, ブ\nKunyomi: ゆた.か, とよ"
+  answers:
+    - 豊
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-9632
+  prompt: "Meanings: ward off, defend, protect\nOnyomi: ボウ\nKunyomi: ふせ.ぐ"
+  answers:
+    - 防
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-8cbf
+  prompt: "Meanings: trade, exchange\nOnyomi: ボウ"
+  answers:
+    - 貿
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-66b4
+  prompt: "Meanings: outburst, rave, fret\nOnyomi: ボウ, バク\nKunyomi: あば.く, あば.れる"
+  answers:
+    - 暴
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-8108
+  prompt: "Meanings: vein, pulse, hope\nOnyomi: ミャク\nKunyomi: すじ"
+  answers:
+    - 脈
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-52d9
+  prompt: "Meanings: task, duties\nOnyomi: ム\nKunyomi: つと.める"
+  answers:
+    - 務
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-5922
+  prompt: "Meanings: dream, vision, illusion\nOnyomi: ム, ボウ\nKunyomi: ゆめ, ゆめ.みる, くら.い"
+  answers:
+    - 夢
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-8ff7
+  prompt: "Meanings: astray, be perplexed, in doubt\nOnyomi: メイ\nKunyomi: まよ.う"
+  answers:
+    - 迷
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-7dbf
+  prompt: "Meanings: cotton\nOnyomi: メン\nKunyomi: わた"
+  answers:
+    - 綿
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-8f38
+  prompt: "Meanings: transport, send, be inferior\nOnyomi: ユ, シュ"
+  answers:
+    - 輸
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-4f59
+  prompt: "Meanings: too much, myself, surplus\nOnyomi: ヨ\nKunyomi: あま.る, あま.り, あま.す, あんま.り"
+  answers:
+    - 余
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-5bb9
+  prompt: "Meanings: contain, form, looks\nOnyomi: ヨウ\nKunyomi: い.れる"
+  answers:
+    - 容
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-7565
+  prompt: "Meanings: abbreviation, omission, outline\nOnyomi: リャク\nKunyomi: ほぼ, はぶ.く, おか.す, おさ.める"
+  answers:
+    - 略
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-7559
+  prompt: "Meanings: detain, fasten, halt\nOnyomi: リュウ, ル\nKunyomi: と.める, と.まる, とど.める, とど.まる"
+  answers:
+    - 留
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-9818
+  prompt: "Meanings: jurisdiction, dominion, territory\nOnyomi: リョウ\nKunyomi: えり"
+  answers:
+    - 領
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: k-joyo-6b74
+  prompt: "Meanings: curriculum, continuation, passage of time\nOnyomi: レキ, レッキ"
+  answers:
+    - 歴
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
