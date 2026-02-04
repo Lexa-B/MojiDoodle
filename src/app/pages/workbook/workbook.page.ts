@@ -7,7 +7,7 @@ import { Subscription } from 'rxjs';
 import { StrokeRecognitionService } from '../../services/stroke-recognition.service';
 import { CardsService, Card } from '../../services/cards.service';
 import { CharacterSegmentationService } from '../../services/character-segmentation.service';
-import { SegmentationResult, SegmentationGrid } from '../../models/segmentation.types';
+import { SegmentationResult, SegmentationGrid, GridCell } from '../../models/segmentation.types';
 
 interface Point {
   x: number;
@@ -471,23 +471,31 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
     try {
       const canvas = this.canvasRef.nativeElement;
 
-      // Run segmentation if not already done
-      if (!this.segmentationResult) {
-        this.segmentationResult = this.segmentationService.segment(
-          this.strokes,
-          canvas.width,
-          canvas.height
-        );
+      // Calculate max answer length to determine if segmentation is needed
+      const maxAnswerLength = Math.max(...this.currentCard.answers.map(a => [...a.replace(/\s+/g, '')].length));
+
+      let sortedCells: GridCell[] = [];
+
+      // Only run segmentation for multi-character answers
+      if (maxAnswerLength > 1) {
+        // Run segmentation if not already done
+        if (!this.segmentationResult) {
+          this.segmentationResult = this.segmentationService.segment(
+            this.strokes,
+            canvas.width,
+            canvas.height
+          );
+        }
+
+        const grid = this.segmentationResult.grid;
+        const cellsWithStrokes = grid.cells.filter(c => c.strokeIndices.length > 0);
+
+        // Sort cells in Japanese reading order: right-to-left columns, top-to-bottom rows
+        sortedCells = [...cellsWithStrokes].sort((a, b) => {
+          if (a.column !== b.column) return a.column - b.column;  // Column 0 is rightmost
+          return a.row - b.row;  // Top to bottom
+        });
       }
-
-      const grid = this.segmentationResult.grid;
-      const cellsWithStrokes = grid.cells.filter(c => c.strokeIndices.length > 0);
-
-      // Sort cells in Japanese reading order: right-to-left columns, top-to-bottom rows
-      const sortedCells = [...cellsWithStrokes].sort((a, b) => {
-        if (a.column !== b.column) return a.column - b.column;  // Column 0 is rightmost
-        return a.row - b.row;  // Top to bottom
-      });
 
       let results: { character: string; score: number }[];
 
@@ -719,11 +727,22 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
 
   /**
    * Run segmentation analysis and redraw with boundary boxes.
+   * Skips segmentation for single-character cards to avoid false positives.
    */
   private analyzeAndVisualize(): void {
     if (this.strokes.length === 0) {
       this.segmentationResult = null;
       return;
+    }
+
+    // Skip segmentation for single-character cards
+    if (this.currentCard) {
+      const maxAnswerLength = Math.max(...this.currentCard.answers.map(a => [...a.replace(/\s+/g, '')].length));
+      if (maxAnswerLength <= 1) {
+        this.segmentationResult = null;
+        this.redrawStrokes();
+        return;
+      }
     }
 
     const canvas = this.canvasRef.nativeElement;
