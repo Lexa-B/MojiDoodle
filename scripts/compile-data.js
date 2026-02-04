@@ -241,7 +241,12 @@ function parseLessonYaml(content) {
     }
 
     if (trimmed.startsWith('- ')) {
-      const value = trimmed.slice(2).trim();
+      // Strip inline comments (e.g., "k-joyo-4e00  # 一 One" -> "k-joyo-4e00")
+      let value = trimmed.slice(2).trim();
+      const commentIndex = value.indexOf('#');
+      if (commentIndex > 0) {
+        value = value.slice(0, commentIndex).trim();
+      }
       if (currentSection === 'requires') {
         requires.push(value);
       } else if (currentSection === 'ids') {

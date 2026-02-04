@@ -1,8 +1,26 @@
 {
   "name": "MojiDoodle",
-  "version": "0.0.1",
-  "author": "Ionic Framework",
-  "homepage": "https://ionicframework.com/",
+  "version": "0.1.0",
+  "description": "A Japanese writing spaced repetition practice app.",
+  "author": {
+    "name": "Lexa Baldwin",
+    "email": "lexa.40@proton.me",
+    "url": "https://github.com/Lexa-B",
+    "orcid": "https://orcid.org/0000-0002-3990-2875"
+  },
+  "homepage": "https://lexa-b.github.io/MojiDoodle/",
+  "repository": "https://github.com/Lexa-B/MojiDoodle",
+  "bugs": "https://github.com/Lexa-B/MojiDoodle/issues",
+  "license": "MIT",
+  "keywords": [
+    "Japanese",
+    "language",
+    "learning",
+    "spaced repetition",
+    "SRS",
+    "writing practice"
+  ],
+  "private": false,
   "scripts": {
     "ng": "ng",
     "prebuild": "node scripts/generate-version.js && node scripts/compile-data.js",
@@ -15,7 +33,6 @@
     "deploy": "./scripts/deploy.sh",
     "deploy:dev": "./scripts/deploy-dev.sh"
   },
-  "private": true,
   "dependencies": {
     "@angular/animations": "^20.0.0",
     "@angular/common": "^20.0.0",
@@ -69,6 +86,5 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
     "typescript": "~5.9.0"
-  },
-  "description": "An Ionic project"
+  }
 }
