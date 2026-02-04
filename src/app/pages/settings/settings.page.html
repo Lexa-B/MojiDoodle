@@ -16,6 +16,32 @@
 
   <ion-list>
     <ion-list-header>
+      <ion-label>Data</ion-label>
+    </ion-list-header>
+
+    <ion-item>
+      <ion-label>
+        <h2>Backup Progress</h2>
+        <p>Download your progress as a JSON file</p>
+      </ion-label>
+      <ion-button slot="end" (click)="backupData()">
+        Backup
+      </ion-button>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>
+        <h2>Restore Progress</h2>
+        <p>Load progress from a backup file</p>
+      </ion-label>
+      <ion-button slot="end" (click)="restoreData()">
+        Restore
+      </ion-button>
+    </ion-item>
+  </ion-list>
+
+  <ion-list>
+    <ion-list-header>
       <ion-label>Reset Progression</ion-label>
     </ion-list-header>
 

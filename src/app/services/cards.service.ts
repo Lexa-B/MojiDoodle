@@ -1214,4 +1214,167 @@ export class CardsService {
     );
     return result?.count ?? 0;
   }
+
+  /** Result of a restore operation */
+  exportRestoreResult?: {
+    cardsUpdated: number;
+    lessonsUpdated: number;
+    cardsNotFound: number;
+    lessonsNotFound: number;
+  };
+
+  /** Export current database state to bundle.json format */
+  async exportToBundle(): Promise<{ stages: any[]; cards: any[]; lessons: any[] }> {
+    // Get stages from the in-memory maps (or fetch from bundle if needed)
+    const stages: { stage: number; minutes: number; color: string }[] = [];
+    for (const [stage, minutes] of this.stages) {
+      stages.push({
+        stage,
+        minutes,
+        color: this.stageColors.get(stage) ?? '#FFFFFF'
+      });
+    }
+    stages.sort((a, b) => a.stage - b.stage);
+
+    // Export all cards
+    const cardRows = this.queryAll<{
+      id: string;
+      prompt: string;
+      answers: string;
+      hint: string | null;
+      stroke_count: number | null;
+      stage: number;
+      unlocks: string;
+      category: string;
+    }>('SELECT * FROM cards');
+
+    const cards = cardRows.map(card => {
+      // Get befuddlers for this card
+      const befuddlerRows = this.queryAll<{ answers: string; toast: string }>(
+        'SELECT answers, toast FROM befuddlers WHERE card_id = ?',
+        [card.id]
+      );
+      const befuddlers = befuddlerRows.map(b => ({
+        answers: JSON.parse(b.answers),
+        toast: b.toast
+      }));
+
+      const result: any = {
+        id: card.id,
+        prompt: card.prompt,
+        answers: JSON.parse(card.answers),
+        stage: card.stage,
+        unlocks: card.unlocks,
+        category: card.category,
+        befuddlers
+      };
+      if (card.hint) result.hint = card.hint;
+      if (card.stroke_count) result.strokeCount = card.stroke_count;
+      return result;
+    });
+
+    // Export all lessons with their relationships
+    const lessonRows = this.queryAll<{
+      id: string;
+      name: string;
+      status: string;
+      reset_by: string;
+    }>('SELECT id, name, status, reset_by FROM lessons');
+
+    const lessons = lessonRows.map(lesson => {
+      // Get requires
+      const requiresRows = this.queryAll<{ required_lesson_id: string }>(
+        'SELECT required_lesson_id FROM lesson_requires WHERE lesson_id = ?',
+        [lesson.id]
+      );
+      const requires = requiresRows.map(r => r.required_lesson_id);
+
+      // Get card IDs
+      const cardIdRows = this.queryAll<{ card_id: string }>(
+        'SELECT card_id FROM lesson_cards WHERE lesson_id = ?',
+        [lesson.id]
+      );
+      const ids = cardIdRows.map(r => r.card_id);
+
+      // Get supercedes
+      const supercedesRows = this.queryAll<{ superceded_lesson_id: string }>(
+        'SELECT superceded_lesson_id FROM lesson_supercedes WHERE lesson_id = ?',
+        [lesson.id]
+      );
+      const supercedes = supercedesRows.map(r => r.superceded_lesson_id);
+
+      return {
+        id: lesson.id,
+        name: lesson.name,
+        status: lesson.status,
+        category: lesson.reset_by,
+        requires,
+        ids,
+        supercedes
+      };
+    });
+
+    return { stages, cards, lessons };
+  }
+
+  /** Restore progress from a backup bundle */
+  async restoreFromBundle(bundle: { cards?: any[]; lessons?: any[] }): Promise<{
+    cardsUpdated: number;
+    lessonsUpdated: number;
+    cardsNotFound: number;
+    lessonsNotFound: number;
+  }> {
+    if (!this.db) {
+      return { cardsUpdated: 0, lessonsUpdated: 0, cardsNotFound: 0, lessonsNotFound: 0 };
+    }
+
+    let cardsUpdated = 0;
+    let cardsNotFound = 0;
+    let lessonsUpdated = 0;
+    let lessonsNotFound = 0;
+
+    // Restore cards: only those with stage >= 0, only update stage and unlocks
+    if (bundle.cards) {
+      for (const card of bundle.cards) {
+        if (card.stage >= 0 && card.id) {
+          // Check if card exists in current DB
+          const existing = this.queryOne<{ id: string }>('SELECT id FROM cards WHERE id = ?', [card.id]);
+          if (existing) {
+            this.db.run(
+              'UPDATE cards SET stage = ?, unlocks = ? WHERE id = ?',
+              [card.stage, card.unlocks ?? '', card.id]
+            );
+            cardsUpdated++;
+          } else {
+            cardsNotFound++;
+          }
+        }
+      }
+    }
+
+    // Restore lessons: only those with status != 'locked', only update status
+    if (bundle.lessons) {
+      for (const lesson of bundle.lessons) {
+        if (lesson.status !== 'locked' && lesson.id) {
+          // Check if lesson exists in current DB
+          const existing = this.queryOne<{ id: string }>('SELECT id FROM lessons WHERE id = ?', [lesson.id]);
+          if (existing) {
+            this.db.run(
+              'UPDATE lessons SET status = ? WHERE id = ?',
+              [lesson.status, lesson.id]
+            );
+            lessonsUpdated++;
+          } else {
+            lessonsNotFound++;
+          }
+        }
+      }
+    }
+
+    await this.saveToStorage();
+
+    const result = { cardsUpdated, lessonsUpdated, cardsNotFound, lessonsNotFound };
+    this.exportRestoreResult = result;
+    return result;
+  }
 }
