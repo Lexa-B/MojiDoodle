@@ -75,6 +75,11 @@ export class CharacterSegmentationService {
     // Step 4: PASS 1 - Find column dividers (vertical gaps)
     let columnDividers = this.findColumnDividers(strokeBounds, charWidth, canvasHeight, protectedGroups || []);
 
+    // Step 4b: Add required inter-lasso column dividers
+    columnDividers = this.addInterLassoDividers(
+      columnDividers, strokeBounds, protectedGroups || [], 'x', canvasHeight
+    );
+
     // Step 5: Enforce column width uniformity (no column >2x wider than another)
     columnDividers = this.enforceColumnUniformity(columnDividers, strokeBounds, contentBounds);
 
@@ -83,6 +88,11 @@ export class CharacterSegmentationService {
 
     // Step 7: PASS 2 - Find row dividers within each column
     let rowDividers = this.findAllRowDividers(strokesByColumn, strokeBounds, columnDividers, charHeight, protectedGroups || []);
+
+    // Step 7b: Add required inter-lasso row dividers within each column
+    rowDividers = this.addInterLassoRowDividers(
+      rowDividers, strokesByColumn, strokeBounds, columnDividers, protectedGroups || []
+    );
 
     // Step 8: Enforce row height uniformity per column (no cell >2x taller than another)
     rowDividers = this.enforceRowUniformity(rowDividers, strokesByColumn, strokeBounds, columnDividers);
@@ -502,6 +512,137 @@ export class CharacterSegmentationService {
       }
     }
     return false;
+  }
+
+  /**
+   * Get the lasso index that a stroke belongs to, or -1 if not in any lasso.
+   */
+  private getStrokeLassoIndex(strokeIndex: number, protectedGroups: ProtectedGroup[]): number {
+    for (let i = 0; i < protectedGroups.length; i++) {
+      if (protectedGroups[i].strokeIndices.includes(strokeIndex)) {
+        return i;
+      }
+    }
+    return -1;
+  }
+
+  /**
+   * Add dividers between strokes that belong to different lassos.
+   * This ensures that manually grouped strokes are always segmented separately.
+   */
+  private addInterLassoDividers(
+    dividers: DividerLine[],
+    strokeBounds: StrokeBounds[],
+    protectedGroups: ProtectedGroup[],
+    dimension: 'x' | 'y',
+    _canvasDimension: number
+  ): DividerLine[] {
+    if (protectedGroups.length < 2) return dividers;
+
+    // Sort strokes by position in the relevant dimension
+    const sortedStrokes = [...strokeBounds].sort((a, b) =>
+      dimension === 'x' ? a.centerX - b.centerX : a.centerY - b.centerY
+    );
+
+    const result = [...dividers];
+    const dividerPositions = new Set(dividers.map(d => d.intercept));
+
+    // Find adjacent stroke pairs that belong to different lassos
+    for (let i = 0; i < sortedStrokes.length - 1; i++) {
+      const current = sortedStrokes[i];
+      const next = sortedStrokes[i + 1];
+
+      const currentLasso = this.getStrokeLassoIndex(current.strokeIndex, protectedGroups);
+      const nextLasso = this.getStrokeLassoIndex(next.strokeIndex, protectedGroups);
+
+      // Only add divider if BOTH strokes are in lassos AND they're in DIFFERENT lassos
+      if (currentLasso >= 0 && nextLasso >= 0 && currentLasso !== nextLasso) {
+        // Calculate divider position at boundary between their bounding boxes
+        const boundary = dimension === 'x'
+          ? (current.maxX + next.minX) / 2
+          : (current.maxY + next.minY) / 2;
+
+        // Check if there's already a divider nearby (within 10px)
+        const hasNearbyDivider = [...dividerPositions].some(pos => Math.abs(pos - boundary) < 10);
+
+        if (!hasNearbyDivider) {
+          // Get the perpendicular extent for the divider line
+          const perpMin = dimension === 'x'
+            ? Math.min(...strokeBounds.map(s => s.minY))
+            : Math.min(...strokeBounds.map(s => s.minX));
+          const perpMax = dimension === 'x'
+            ? Math.max(...strokeBounds.map(s => s.maxY))
+            : Math.max(...strokeBounds.map(s => s.maxX));
+
+          result.push({
+            slope: 0,
+            intercept: boundary,
+            start: perpMin - 10,
+            end: perpMax + 10,
+          });
+          dividerPositions.add(boundary);
+        }
+      }
+    }
+
+    // Sort dividers by position
+    return result.sort((a, b) => a.intercept - b.intercept);
+  }
+
+  /**
+   * Add inter-lasso row dividers within each column.
+   */
+  private addInterLassoRowDividers(
+    rowDividers: DividerLine[][],
+    strokesByColumn: number[][],
+    strokeBounds: StrokeBounds[],
+    columnDividers: DividerLine[],
+    protectedGroups: ProtectedGroup[]
+  ): DividerLine[][] {
+    if (protectedGroups.length < 2) return rowDividers;
+
+    return rowDividers.map((colRowDividers, colIdx) => {
+      const colStrokeIndices = strokesByColumn[colIdx];
+      if (colStrokeIndices.length < 2) return colRowDividers;
+
+      const colStrokes = colStrokeIndices.map(i => strokeBounds[i]);
+      const colBounds = this.getColumnXBounds(colIdx, columnDividers, strokesByColumn.length, colStrokes);
+
+      // Sort strokes in this column by Y position
+      const sortedByY = [...colStrokes].sort((a, b) => a.centerY - b.centerY);
+
+      const result = [...colRowDividers];
+      const dividerPositions = new Set(colRowDividers.map(d => d.intercept));
+
+      // Find adjacent stroke pairs that belong to different lassos
+      for (let i = 0; i < sortedByY.length - 1; i++) {
+        const current = sortedByY[i];
+        const next = sortedByY[i + 1];
+
+        const currentLasso = this.getStrokeLassoIndex(current.strokeIndex, protectedGroups);
+        const nextLasso = this.getStrokeLassoIndex(next.strokeIndex, protectedGroups);
+
+        // Only add divider if BOTH strokes are in lassos AND they're in DIFFERENT lassos
+        if (currentLasso >= 0 && nextLasso >= 0 && currentLasso !== nextLasso) {
+          const boundary = (current.maxY + next.minY) / 2;
+
+          // Check if there's already a divider nearby
+          const hasNearbyDivider = [...dividerPositions].some(pos => Math.abs(pos - boundary) < 10);
+
+          if (!hasNearbyDivider) {
+            result.push({
+              slope: 0,
+              intercept: boundary,
+              start: colBounds.minX - 10,
+              end: colBounds.maxX + 10,
+            });
+            dividerPositions.add(boundary);
+          }
+        }
+      }
+
+      return result.sort((a, b) => a.intercept - b.intercept);
+    });
   }
 
   /**

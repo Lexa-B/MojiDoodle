@@ -99,12 +99,28 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
     'ヮ': 'ワ',
   };
 
+  // Chōon (長音) mark equivalents - vertical line characters (全角/半角)
+  // that the API returns when drawing the prolonged sound mark vertically
+  private static readonly CHOON_EQUIVALENTS = new Set([
+    'ー',  // U+30FC Katakana-Hiragana Prolonged Sound Mark
+    '|',  // U+007C Vertical Line (halfwidth)
+    '｜', // U+FF5C Fullwidth Vertical Line
+  ]);
+
   /**
-   * Check if two characters match, treating small/big kana as equivalent.
-   * e.g., 'っ' matches 'つ', 'ッ' matches 'ツ'
+   * Check if two characters match, treating small/big kana as equivalent,
+   * and chōon mark as equivalent to various line characters.
+   * e.g., 'っ' matches 'つ', 'ッ' matches 'ツ', 'ー' matches '|'
    */
   private kanaMatch(target: string, candidate: string): boolean {
     if (target === candidate) return true;
+
+    // Check chōon equivalence first
+    if (WorkbookPage.CHOON_EQUIVALENTS.has(target) &&
+        WorkbookPage.CHOON_EQUIVALENTS.has(candidate)) {
+      return true;
+    }
+
     // Check if target's big form matches candidate
     const targetBig = WorkbookPage.SMALL_TO_BIG_KANA[target];
     if (targetBig && targetBig === candidate) return true;
@@ -640,40 +656,53 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
 
       // Check if answer matches - different logic for single vs multi-character
       let isCorrect = false;
+      let matchedAnswer = '';
 
       if (this.lastBatchResults.length > 0) {
         // Multi-character: check if each char of ANY valid answer is in corresponding cell's results
-        isCorrect = normalizedAnswers.some(normalizedTarget => {
+        for (const normalizedTarget of normalizedAnswers) {
           const targetChars = [...normalizedTarget]; // Split into characters (unicode-safe)
 
-          if (targetChars.length !== this.lastBatchResults.length) return false;
+          if (targetChars.length !== this.lastBatchResults.length) continue;
 
           // Check each character against its cell's top 5 candidates (with kana fuzzy matching)
-          return targetChars.every((char, idx) => {
+          const allMatch = targetChars.every((char, idx) => {
             const cellCandidates = this.lastBatchResults[idx].slice(0, 5).map(r => r.character);
             const matched = cellCandidates.some(candidate => this.kanaMatch(char, candidate));
             console.log(`  Cell ${idx}: target='${char}' (code=${char.charCodeAt(0)}), candidates=[${cellCandidates.map(c => `'${c}'(${c.charCodeAt(0)})`).join(', ')}], matched=${matched}`);
             return matched;
           });
-        });
+
+          if (allMatch) {
+            isCorrect = true;
+            matchedAnswer = normalizedTarget;
+            break;
+          }
+        }
 
         console.log('Grading multi-char:', {
           targets: normalizedAnswers,
           cellResults: this.lastBatchResults.map(r => r.slice(0, 5).map(c => c.character)),
-          isCorrect
+          isCorrect,
+          matchedAnswer
         });
       } else {
         // Single character: check if ANY valid answer is in top 5 (with kana fuzzy matching)
         const top5Characters = this.topMatches.map(r => r.character);
-        isCorrect = normalizedAnswers.some(target =>
-          top5Characters.some(candidate => this.kanaMatch(target, candidate))
-        );
+        for (const target of normalizedAnswers) {
+          if (top5Characters.some(candidate => this.kanaMatch(target, candidate))) {
+            isCorrect = true;
+            matchedAnswer = target;
+            break;
+          }
+        }
       }
 
       if (isCorrect) {
         this.resultStatus = 'correct';
         this.resultFeedback = this.randomFrom(this.correctFeedback);
-        this.displayMatches = this.topMatches.slice(0, 1);
+        // Show the matched answer, not the raw API result
+        this.displayMatches = [{ character: matchedAnswer, score: 1 }];
         this.correctAnswer = '';
         // Advance card to next SRS stage
         this.cardsService.advanceCard(this.currentCard.id);
