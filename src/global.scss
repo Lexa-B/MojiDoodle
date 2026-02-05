@@ -36,13 +36,8 @@
 /* @import "@ionic/angular/css/palettes/dark.class.css"; */
 @import "@ionic/angular/css/palettes/dark.system.css";
 
-/* Custom fonts */
-@font-face {
-  font-family: 'Shippori Mincho';
-  src: url('assets/fonts/ShipporiMinchoB1-Bold.ttf') format('truetype');
-  font-weight: 700;
-  font-style: normal;
-}
+/* Custom fonts - loaded via Google Fonts in index.html */
+/* font-family: 'Shippori Mincho B1', serif; */
 
 /* Alert button styles */
 ion-alert button.alert-button.secondary {
