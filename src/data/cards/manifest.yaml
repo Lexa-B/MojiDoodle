@@ -87,3 +87,12 @@ packs:
     files:
       - kanji_jinmeiyo/kanji_jinmeiyo_gr9.yaml
       - kanji_jinmeiyo/kanji_jinmeiyo_gr10.yaml
+
+  - id: common-katakana-words
+    name: Common Katakana Words
+    description: Frequently used loanwords from BCCWJ corpus
+    category: common-katakana-words
+    source: "BCCWJ (Balanced Corpus of Contemporary Written Japanese) by NINJAL"
+    files:
+      - common_katakana_words/common_katakana_l01.yaml
+      - common_katakana_words/common_katakana_l02.yaml

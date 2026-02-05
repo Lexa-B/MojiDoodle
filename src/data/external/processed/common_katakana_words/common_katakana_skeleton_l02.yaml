@@ -1,0 +1,134 @@
+- id: ckw-l02-955
+  prompt: ""
+  answers:
+    - エネルギー
+  hint: "noun"
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: ckw-l02-992
+  prompt: ""
+  answers:
+    - タイプ
+  hint: "noun"
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: ckw-l02-1008
+  prompt: ""
+  answers:
+    - ドル
+  hint: "noun/counter"
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: ckw-l02-1022
+  prompt: ""
+  answers:
+    - アップ
+  hint: "verbal noun (する verb)"
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: ckw-l02-1036
+  prompt: ""
+  answers:
+    - イメージ
+  hint: "verbal noun (する verb)"
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: ckw-l02-1055
+  prompt: ""
+  answers:
+    - センチメートル
+  hint: "noun/counter"
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: ckw-l02-1073
+  prompt: ""
+  answers:
+    - スポーツ
+  hint: "verbal noun (する verb)"
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: ckw-l02-1082
+  prompt: ""
+  answers:
+    - パソコン
+  hint: "noun"
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: ckw-l02-1097
+  prompt: ""
+  answers:
+    - モデル
+  hint: "noun"
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: ckw-l02-1107
+  prompt: ""
+  answers:
+    - レベル
+  hint: "noun"
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: ckw-l02-1132
+  prompt: ""
+  answers:
+    - カード
+  hint: "noun"
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: ckw-l02-1137
+  prompt: ""
+  answers:
+    - チーム
+  hint: "noun"
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: ckw-l02-1144
+  prompt: ""
+  answers:
+    - バス
+  hint: "noun"
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: ckw-l02-1175
+  prompt: ""
+  answers:
+    - ソフト
+  hint: "noun (な-adj)"
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: ckw-l02-1190
+  prompt: ""
+  answers:
+    - ファイル
+  hint: "verbal noun (する verb)"
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []

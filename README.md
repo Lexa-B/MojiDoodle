@@ -181,6 +181,8 @@ Migration safely exports your card stages and lesson statuses, rebuilds the data
   - [Joyo Kanji Code](https://x0213.org/joyo-kanji-code/index.en.html) - 2,136 joyo kanji with encoding data
   - [Jinmeiyou Kanji Code](https://x0213.org/jinmeiyou-kanji-code/index.en.html) - 861 jinmeiyou (name) kanji
 - **[KANJIDIC](https://www.edrdg.org/wiki/index.php/KANJIDIC_Project)** by James William Breen and the [EDRDG](https://www.edrdg.org/) - Kanji meanings (CC BY-SA 4.0)
+- **[BCCWJ](https://clrd.ninjal.ac.jp/bccwj/en/index.html)** (Balanced Corpus of Contemporary Written Japanese) by [NINJAL](https://www.ninjal.ac.jp/english/) - Word frequency data for Common Katakana Words lessons
+  - [Frequency list (SUW)](https://repository.ninjal.ac.jp/records/3234) - Short Unit Word frequency list - https://doi.org/10.15084/00003218
 
 ## TODO
 

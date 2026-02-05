@@ -1,0 +1,134 @@
+- id: ckw-l01-142
+  prompt: ""
+  answers:
+    - パーセント
+  hint: "noun/counter"
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: ckw-l01-351
+  prompt: ""
+  answers:
+    - ページ
+  hint: "noun/counter"
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: ckw-l01-420
+  prompt: ""
+  answers:
+    - センター
+  hint: "noun"
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: ckw-l01-549
+  prompt: ""
+  answers:
+    - サービス
+  hint: "verbal noun (する verb)"
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: ckw-l01-557
+  prompt: ""
+  answers:
+    - システム
+  hint: "noun"
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: ckw-l01-574
+  prompt: ""
+  answers:
+    - メートル
+  hint: "noun/counter"
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: ckw-l01-589
+  prompt: ""
+  answers:
+    - テレビ
+  hint: "noun"
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: ckw-l01-592
+  prompt: ""
+  answers:
+    - メール
+  hint: "verbal noun (する verb)"
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: ckw-l01-709
+  prompt: ""
+  answers:
+    - データ
+  hint: "noun"
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: ckw-l01-875
+  prompt: ""
+  answers:
+    - ポイント
+  hint: "noun/counter"
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: ckw-l01-888
+  prompt: ""
+  answers:
+    - ホーム
+  hint: "noun"
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: ckw-l01-907
+  prompt: ""
+  answers:
+    - ホテル
+  hint: "noun"
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: ckw-l01-935
+  prompt: ""
+  answers:
+    - ブログ
+  hint: "noun"
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: ckw-l01-940
+  prompt: ""
+  answers:
+    - クリック
+  hint: "verbal noun (する verb)"
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: ckw-l01-949
+  prompt: ""
+  answers:
+    - グループ
+  hint: "noun"
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []

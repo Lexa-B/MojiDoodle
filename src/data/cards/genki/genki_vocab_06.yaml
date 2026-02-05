@@ -7,15 +7,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 開く
+  - answers:
+      - 開く
     toast: |-
       That's the intransitive form.
       It means something opens (by itself) / is open, not that you open something.
-  - answer: 閉める
+  - answers:
+      - 閉める
     toast: |-
       That's "to close".
       It’s the opposite action.
-  - answer: 明ける
+  - answers:
+      - 明ける
     toast: |-
       That's also read "akeru" but means "to dawn / to end (a period)".
       Used for things like night ending or the New Year beginning.
@@ -27,15 +30,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 泳ぐ
+  - answers:
+      - 泳ぐ
     toast: |-
       That's "to swim"!
       Watch the left side: this one uses the water radical (氵), used with water-related actions.
-  - answer: 運ぶ
+  - answers:
+      - 運ぶ
     toast: |-
       That's "to carry/transport"!
       This one includes the movement idea (運) and is used for moving things from place to place.
-  - answer: 楽しむ
+  - answers:
+      - 楽しむ
     toast: |-
       That's "to enjoy"!
       This is about feeling enjoyment, not the act of playing or hanging out.
@@ -47,15 +53,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 後に
+  - answers:
+      - 後に
     toast: |-
       That's “after / afterward” in a more formal, written style.
       Often used with nouns or in set phrases (e.g., 〜の後に).
-  - answer: のちほど
+  - answers:
+      - のちほど
     toast: |-
       That's a polite “later” expression.
       Common in business situations.
-  - answer: さきに
+  - answers:
+      - さきに
     toast: |-
       That's “first / ahead of time.”
       It indicates doing something before something else.
@@ -67,15 +76,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 速い
+  - answers:
+      - 速い
     toast: |-
       That's “fast/quick” (speed), usually describing how something is.
       The prompt is about doing an action quickly (to hurry).
-  - answer: 早い
+  - answers:
+      - 早い
     toast: |-
       That's “early” (time) or sometimes “fast”.
       The prompt is a verb meaning to rush/hurry.
-  - answer: 慌てる
+  - answers:
+      - 慌てる
     toast: |-
       That's “to panic / to be flustered”.
       The prompt is about hurrying, not losing composure.
@@ -87,15 +99,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: イギリス
+  - answers:
+      - イギリス
     toast: |-
       That's the United Kingdom.
       Watch the middle sounds: ギ is different from タ.
-  - answer: オーストラリア
+  - answers:
+      - オーストラリア
     toast: |-
       That's Australia.
       Much longer word; look for the long vowel ー and the ending リア.
-  - answer: イラン
+  - answers:
+      - イラン
     toast: |-
       That's Iran.
       Shorter word; missing the タ and リ sounds in the middle.
@@ -107,15 +122,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: ずっと
+  - answers:
+      - ずっと
     toast: |-
       That means “for the whole time/continuously.”
       Often implies an unbroken duration rather than a usual habit.
-  - answer: いつでも
+  - answers:
+      - いつでも
     toast: |-
       That means “anytime/whenever.”
       It’s about being available at any time, not a usual frequency.
-  - answer: たいてい
+  - answers:
+      - たいてい
     toast: |-
       That means “usually/most of the time.”
       It’s not 100%—more like “in general.”
@@ -127,15 +145,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: エアコンディショナー
+  - answers:
+      - エアコンディショナー
     toast: |-
       That's the full loanword form.
       The prompt expects the common shortened version used in everyday Japanese.
-  - answer: クーラー
+  - answers:
+      - クーラー
     toast: |-
       That's “cooler/AC” (often specifically cooling).
       This prompt is for the broader loanword term used for air conditioners in general.
-  - answer: エレコン
+  - answers:
+      - エレコン
     toast: |-
       That’s a different katakana word.
       Check the middle vowel length and the consonant: it should read like “air-con.”
@@ -148,15 +169,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 馬
+  - answers:
+      - 馬
     toast: |-
       That's "horse".
       This one lacks the extra parts on the left and right seen in the station kanji.
-  - answer: 駅前
+  - answers:
+      - 駅前
     toast: |-
       That's "in front of the station".
       The prompt is just the single word, not a compound.
-  - answer: 電車
+  - answers:
+      - 電車
     toast: |-
       That's "train".
       The prompt is asking for the place (station), not the vehicle.
@@ -168,15 +192,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 金
+  - answers:
+      - 金
     toast: |-
       That's just the kanji meaning "gold/money".
       The prompt expects the word with the polite prefix.
-  - answer: おかし
+  - answers:
+      - おかし
     toast: |-
       That's "snacks/sweets".
       Check the final kana: it ends with ね vs し.
-  - answer: おかねえ
+  - answers:
+      - おかねえ
     toast: |-
       That's a drawn-out version used in casual speech.
       The standard spelling doesn’t add an extra え.
@@ -189,15 +216,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 習える
+  - answers:
+      - 習える
     toast: |-
       That's "to learn (be taught)"!
       It focuses on the learner receiving instruction, not giving it.
-  - answer: 伝える
+  - answers:
+      - 伝える
     toast: |-
       That's "to convey/tell"!
       It’s about passing along information, not teaching or instructing.
-  - answer: 数える
+  - answers:
+      - 数える
     toast: |-
       That's "to count"!
       Watch the kana ending: one is "...shieru" and the other is "...zoeru".
@@ -210,15 +240,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 下りる
+  - answers:
+      - 下りる
     toast: |-
       That's the verb meaning "to go down/come down" (downward direction).
       Use it for descending places like a mountain or stairs, not primarily for getting off a vehicle.
-  - answer: 乗りる
+  - answers:
+      - 乗りる
     toast: |-
       That form is incorrect as a standard verb.
       For "to get on/ride" a vehicle, the common verb is different.
-  - answer: 落ちる
+  - answers:
+      - 落ちる
     toast: |-
       That's "to fall/drop".
       This is about falling, not getting off a vehicle or descending intentionally.
@@ -231,15 +264,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 帰す
+  - answers:
+      - 帰す
     toast: |-
       This is a different verb meaning "to send back/attribute" and uses the "go home" kanji.
       It’s not the common everyday verb for returning an item.
-  - answer: 戻す
+  - answers:
+      - 戻す
     toast: |-
       This means "to put back/restore" (return to a previous state or place).
       Used more for restoring or returning something to where it was.
-  - answer: 返る
+  - answers:
+      - 返る
     toast: |-
       This is intransitive: "to return" (something returns by itself).
       The prompt is about returning an object (you do the action).
@@ -255,15 +291,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 用
+  - answers:
+      - 用
     toast: |-
       Easy to mix up—both have a boxy shape.
       Check the top and inner lines: this one looks like a “use” shape with a central vertical element.
-  - answer: 居
+  - answers:
+      - 居
     toast: |-
       Similar outline.
       This one has a roof-like top and a different interior structure.
-  - answer: 角度
+  - answers:
+      - 角度
     toast: |-
       That’s a related word meaning “angle/degree.”
       The prompt is asking for the single kanji/noun form.
@@ -276,15 +315,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 全
+  - answers:
+      - 全
     toast: |-
       Looks similar, but this one has a “roof” shape on top.
       Watch the inside strokes and the bottom line placement.
-  - answer: 今
+  - answers:
+      - 今
     toast: |-
       Similar top shape, but the bottom is different.
       This one has fewer strokes and a simpler lower part.
-  - answer: 釜
+  - answers:
+      - 釜
     toast: |-
       This shares the same top component, but has a much more complex bottom.
       Be careful not to add extra parts underneath.
@@ -296,15 +338,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 貸す
+  - answers:
+      - 貸す
     toast: |-
       That's "to lend"!
       The direction is opposite: giving out to someone else.
-  - answer: 借す
+  - answers:
+      - 借す
     toast: |-
       That uses the wrong kanji.
       Be careful: this character is used for lending, not borrowing.
-  - answer: 借りれる
+  - answers:
+      - 借りれる
     toast: |-
       That's a (nonstandard/casual) potential form.
       The prompt is for the dictionary form of the verb.
@@ -316,15 +361,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 感じ
+  - answers:
+      - 感じ
     toast: |-
       That means "feeling/impression" (かんじ).
       Same reading, but different meaning and kanji.
-  - answer: 字
+  - answers:
+      - 字
     toast: |-
       That's "character/letter" in general.
       The prompt is specifically about Chinese-derived characters used in Japanese.
-  - answer: 文字
+  - answers:
+      - 文字
     toast: |-
       That's "letters/characters" in general (e.g., hiragana/katakana too).
       The prompt is specifically about Chinese characters.
@@ -337,15 +385,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 比
+  - answers:
+      - 比
     toast: |-
       Close shape, but this one is the kanji for "compare".
       Watch the middle stroke and overall balance.
-  - answer: 背
+  - answers:
+      - 背
     toast: |-
       This means "back" (body).
       It has extra parts on top, so it's more complex.
-  - answer: 南
+  - answers:
+      - 南
     toast: |-
       That's "south".
       Different direction word; the kanji shape is more box-like with extra strokes.
@@ -357,15 +408,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 参考書
+  - answers:
+      - 参考書
     toast: |-
       That's a reference/study book!
       It’s used to supplement learning, not the standard book for a class.
-  - answer: 辞書
+  - answers:
+      - 辞書
     toast: |-
       That's a dictionary!
       Used to look up words/meanings, not a subject-based school book.
-  - answer: 教科
+  - answers:
+      - 教科
     toast: |-
       That's a school subject!
       It refers to the subject itself, not the book.
@@ -378,15 +432,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 囯
+  - answers:
+      - 囯
     toast: |-
       Common miswrite!
       This version has the inner part written differently; pay attention to the box inside.
-  - answer: 回
+  - answers:
+      - 回
     toast: |-
       That means “times/round”!
       This one is basically boxes; the inside component is not the same.
-  - answer: 園
+  - answers:
+      - 園
     toast: |-
       That means “garden/park”!
       It has a similar outer box, but the inside has many more parts.
@@ -399,15 +456,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 消える
+  - answers:
+      - 消える
     toast: |-
       That's the intransitive form (something goes out/disappears on its own).
       Use it when the subject changes by itself, like a light going out.
-  - answer: 止める
+  - answers:
+      - 止める
     toast: |-
       That's "to stop" (an action/movement).
       Turning off a device/light uses a different verb.
-  - answer: 消しゴム
+  - answers:
+      - 消しゴム
     toast: |-
       That's an eraser (the object).
       The prompt is asking for the action verb.
@@ -420,15 +480,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 大丈夫です
+  - answers:
+      - 大丈夫です
     toast: |-
       That means “It’s okay / no problem.”
       Often used for reassurance; it can also refuse, but the nuance differs depending on context.
-  - answer: いいです
+  - answers:
+      - いいです
     toast: |-
       That means “It’s good / fine.”
       Very common and can be ambiguous; context decides whether it’s acceptance or refusal.
-  - answer: 要りません
+  - answers:
+      - 要りません
     toast: |-
       That means “I don’t need it.”
       A more direct refusal; less soft/polite than the expression in the prompt.
@@ -440,15 +503,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: シーフ
+  - answers:
+      - シーフ
     toast: |-
       That's "thief/sea" in katakana!
       Watch the small ェ (small vowel) vs. a long vowel ー.
-  - answer: シェア
+  - answers:
+      - シェア
     toast: |-
       That's "share"!
       The ending character differs: フ vs ア.
-  - answer: しぇふ
+  - answers:
+      - しぇふ
     toast: |-
       That's hiragana.
       The prompt expects katakana for this loanword.
@@ -460,15 +526,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 殺す
+  - answers:
+      - 殺す
     toast: |-
       That's "to kill" (something/someone)!
       This is a transitive verb: the subject causes death.
-  - answer: 亡くなる
+  - answers:
+      - 亡くなる
     toast: |-
       That's a more polite/indirect way to say "to pass away"!
       Often used for people and in formal contexts.
-  - answer: 氏ぬ
+  - answers:
+      - 氏ぬ
     toast: |-
       That uses a different kanji (rare/incorrect in modern usage)!
       Make sure the left side is the "bone" radical and the bottom is the "person" shape.
@@ -481,15 +550,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 閉まる
+  - answers:
+      - 閉まる
     toast: |-
       That's intransitive (something closes by itself).
       Use it for things like "the door closes" rather than closing something.
-  - answer: 締める
+  - answers:
+      - 締める
     toast: |-
       That's "to tighten/fasten" (belt, screw) or "to conclude".
       Different kanji: use this when making something tight, not shutting it.
-  - answer: 止める
+  - answers:
+      - 止める
     toast: |-
       That's "to stop" (an action or movement).
       It means stopping rather than shutting/closing.
@@ -501,15 +573,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: シャツ
+  - answers:
+      - シャツ
     toast: |-
       That's "shirt"!
       Watch the ending: this one ends with ツ, not a long vowel mark.
-  - answer: シャワ
+  - answers:
+      - シャワ
     toast: |-
       Missing the long vowel!
       Be sure to include 「ー」 to show the stretched sound.
-  - answer: しゃわー
+  - answers:
+      - しゃわー
     toast: |-
       That's hiragana!
       The prompt expects the loanword style written in katakana.
@@ -521,15 +596,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: シャワーをあびる
+  - answers:
+      - シャワーをあびる
     toast: |-
       Kana-only form.
       The prompt expects the version that uses kanji for the verb.
-  - answer: シャワーをする
+  - answers:
+      - シャワーをする
     toast: |-
       This means "to shower" using する.
       The prompt is the pattern "to bathe in a shower" (object + verb).
-  - answer: 風呂に入る
+  - answers:
+      - 風呂に入る
     toast: |-
       That's "to take a bath" (get into the tub).
       Different from using a shower.
@@ -541,15 +619,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 標識
+  - answers:
+      - 標識
     toast: |-
       That's a road sign/signpost.
       It refers to posted signs, not the light that changes colors.
-  - answer: 信号機
+  - answers:
+      - 信号機
     toast: |-
       That's the traffic signal device (the machine).
       It’s a more specific form than the general word for a traffic light/signal.
-  - answer: 横断歩道
+  - answers:
+      - 横断歩道
     toast: |-
       That's a crosswalk.
       It’s the place pedestrians cross, not the signal.
@@ -562,15 +643,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: すこし
+  - answers:
+      - すこし
     toast: |-
       That means “a little / a bit.”
       It’s about a small amount or short time, not immediacy.
-  - answer: すでに
+  - answers:
+      - すでに
     toast: |-
       That means “already.”
       It refers to something completed before now, not doing it immediately.
-  - answer: すぐに
+  - answers:
+      - すぐに
     toast: |-
       That adds the particle に.
       The prompt is asking for the base adverb form (without extra particles).
@@ -583,15 +667,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 座す
+  - answers:
+      - 座す
     toast: |-
       That's a classical/very formal verb meaning "to sit/seat oneself".
       For everyday Japanese, use the common verb form instead.
-  - answer: 坐る
+  - answers:
+      - 坐る
     toast: |-
       That's an older/less common kanji form for the same verb.
       The prompt expects the standard modern kanji spelling.
-  - answer: 立つ
+  - answers:
+      - 立つ
     toast: |-
       That's "to stand" (the opposite action).
       Check the meaning: sitting vs standing.
@@ -603,15 +690,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 建つ
+  - answers:
+      - 建つ
     toast: |-
       That's "to be built" (buildings)!
       Used for something being constructed or standing as a structure.
-  - answer: 起つ
+  - answers:
+      - 起つ
     toast: |-
       That's "to rise/occur" (formal/rare)!
       Often refers to events starting or something happening, not simply standing up.
-  - answer: 座る
+  - answers:
+      - 座る
     toast: |-
       That's "to sit"!
       It's the opposite action (going down to a seated position).
@@ -623,15 +713,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: たばこを食う
+  - answers:
+      - たばこを食う
     toast: |-
       That means “to eat” (rough/masculine).
       Watch the left radical: 食 has a top hat-like part, not the mouth (口) + 欠 shape.
-  - answer: たばこを買う
+  - answers:
+      - たばこを買う
     toast: |-
       That means “to buy (cigarettes)”.
       Different verb: purchasing vs inhaling.
-  - answer: たばこを吸うな
+  - answers:
+      - たばこを吸うな
     toast: |-
       That’s a negative command: “Don’t smoke.”
       The ending changes the meaning into a prohibition.
@@ -643,15 +736,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 用いる
+  - answers:
+      - 用いる
     toast: |-
       That's a more formal/literary way to say "to use".
       Often used in writing or set expressions.
-  - answer: 使える
+  - answers:
+      - 使える
     toast: |-
       That's "can be used / usable" (potential form).
       The prompt is the plain dictionary form.
-  - answer: 使い
+  - answers:
+      - 使い
     toast: |-
       That's the noun/masu-stem form (used in compounds).
       The prompt is a verb ending in う.
@@ -664,15 +760,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 欠
+  - answers:
+      - 欠
     toast: |-
       Similar shape, but this one means “lack/欠ける”.
       Watch the extra small stroke/component placement.
-  - answer: 吹
+  - answers:
+      - 吹
     toast: |-
       Looks close because it contains a similar right-side part.
       This one has the mouth radical (口) on the left and means “to blow”.
-  - answer: 一
+  - answers:
+      - 一
     toast: |-
       That’s just “one” (a single horizontal line).
       The target character has multiple parts, not a single stroke.
@@ -685,15 +784,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 消す
+  - answers:
+      - 消す
     toast: |-
       That's "to turn off"!
       It means to extinguish or switch something off.
-  - answer: 点ける
+  - answers:
+      - 点ける
     toast: |-
       Same reading, different kanji.
       This kanji is used specifically for lights/flames.
-  - answer: 付ける
+  - answers:
+      - 付ける
     toast: |-
       Same reading, different kanji.
       This kanji is often for attaching/adding (like sauce or a label), not switching power on.
@@ -706,15 +808,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 持ってくる
+  - answers:
+      - 持ってくる
     toast: |-
       That's for bringing an object!
       Use it for things you can carry, not a person.
-  - answer: 連れていく
+  - answers:
+      - 連れていく
     toast: |-
       That's taking someone away (from here to there).
       This prompt is the opposite direction: toward the speaker/this place.
-  - answer: 伴ってくる
+  - answers:
+      - 伴ってくる
     toast: |-
       That's a more formal "come accompanied by".
       Often used for situations/events rather than casually bringing someone.
@@ -726,15 +831,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 助ける
+  - answers:
+      - 助ける
     toast: |-
       That's "to rescue/save".
       Used when someone is in trouble or needs saving, not everyday assisting.
-  - answer: 手伝い
+  - answers:
+      - 手伝い
     toast: |-
       That's the noun form.
       It refers to "help/assistance" (e.g., doing chores as help), not the action verb.
-  - answer: 伝う
+  - answers:
+      - 伝う
     toast: |-
       That's "to go along / to be transmitted".
       It often appears in words like 伝わる/伝える, not helping someone.
@@ -747,15 +855,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 入る
+  - answers:
+      - 入る
     toast: |-
       That means “to enter.”
       Direction is opposite: going into a place, not going out/appearing.
-  - answer: 出す
+  - answers:
+      - 出す
     toast: |-
       That’s the transitive verb “to take out/put out.”
       It means you cause something to come out (e.g., 取り出す, 声を出す).
-  - answer: 出かける
+  - answers:
+      - 出かける
     toast: |-
       That means “to go out (for an outing).”
       It’s specifically leaving home/going somewhere, not simply exiting or appearing.
@@ -767,15 +878,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 電気
+  - answers:
+      - 電気
     toast: |-
       That's "electricity".
       It uses the same first kanji, but the second kanji means "spirit/energy," not a vehicle.
-  - answer: 自転車
+  - answers:
+      - 自転車
     toast: |-
       That's "bicycle".
       It also ends with 車, but the first kanji means "self," not "electric."
-  - answer: 汽車
+  - answers:
+      - 汽車
     toast: |-
       That's "steam train" (old-fashioned).
       The first kanji refers to steam/vapor rather than electricity.
@@ -787,15 +901,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 電話をかける
+  - answers:
+      - 電話をかける
     toast: |-
       That's a similar expression meaning "to place a call".
       This one uses かける, not する.
-  - answer: 呼ぶ
+  - answers:
+      - 呼ぶ
     toast: |-
       That's "to call" as in "to call someone over" or "to summon".
       Different meaning from making a phone call.
-  - answer: 連絡する
+  - answers:
+      - 連絡する
     toast: |-
       That's "to contact" (get in touch).
       Broader than specifically making a phone call.
@@ -809,15 +926,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 酉
+  - answers:
+      - 酉
     toast: |-
       That's the zodiac "rooster" radical form.
       It lacks the enclosing top stroke that completes the box shape.
-  - answer: 四
+  - answers:
+      - 四
     toast: |-
       That's "four".
       Watch the inside strokes: this one has a different inner structure than the 'west' kanji.
-  - answer: 東
+  - answers:
+      - 東
     toast: |-
       That's "east".
       Different direction word, and it has a tree-like structure in the middle.
@@ -829,15 +949,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 手荷物
+  - answers:
+      - 手荷物
     toast: |-
       That's "carry-on / hand baggage"!
       It refers to bags you carry with you (e.g., on a train or plane).
-  - answer: 荷物持ち
+  - answers:
+      - 荷物持ち
     toast: |-
       That's "bag carrier / someone who carries baggage"!
       It describes a person/role, not the baggage itself.
-  - answer: 貨物
+  - answers:
+      - 貨物
     toast: |-
       That's "cargo/freight"!
       This is used for transported goods/shipping, not personal luggage.
@@ -851,15 +974,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 入れる
+  - answers:
+      - 入れる
     toast: |-
       That's the transitive form!
       It means "to put/insert (something) in," not "to enter" yourself.
-  - answer: 出る
+  - answers:
+      - 出る
     toast: |-
       That's "to leave/exit"!
       Meaning is the opposite direction.
-  - answer: 入れる
+  - answers:
+      - 入れる
     toast: |-
       Careful with verb type!
       This one takes a direct object (something is put in).
@@ -871,15 +997,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: コンピューター
+  - answers:
+      - コンピューター
     toast: |-
       That's the full word for "computer".
       The prompt expects the shorter, casual abbreviation.
-  - answer: ノートパソコン
+  - answers:
+      - ノートパソコン
     toast: |-
       That's a laptop.
       This one specifies a notebook-style machine, not a general PC term.
-  - answer: パソコ
+  - answers:
+      - パソコ
     toast: |-
       That's missing the final ン.
       Be careful with ン vs leaving it off at the end.
@@ -892,15 +1021,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 西
+  - answers:
+      - 西
     toast: |-
       That's "west".
       Watch the inner shape: this one looks like a boxed "four" with a top line.
-  - answer: 京
+  - answers:
+      - 京
     toast: |-
       That's used in words like "capital".
       This one has a distinctive "small" part at the bottom.
-  - answer: 束
+  - answers:
+      - 束
     toast: |-
       That's "bundle".
       This one has a "tree"-like top and a different middle structure.
@@ -912,15 +1044,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: ぴざ
+  - answers:
+      - ぴざ
     toast: |-
       That's hiragana!
       The prompt expects katakana for a loanword.
-  - answer: ビザ
+  - answers:
+      - ビザ
     toast: |-
       That's "visa"!
       Check the first character: dakuten (two dots) changes the sound.
-  - answer: ピサ
+  - answers:
+      - ピサ
     toast: |-
       That's "Pisa"!
       Make sure the middle character has the dakuten (two dots).
@@ -933,15 +1068,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 右側
+  - answers:
+      - 右側
     toast: |-
       That's "right side".
       Check the first kanji: it should mean the opposite direction.
-  - answer: 左手
+  - answers:
+      - 左手
     toast: |-
       That's "left hand".
       The second kanji here means "hand," not "side" (as in side of something).
-  - answer: 左方
+  - answers:
+      - 左方
     toast: |-
       That's "left direction" (more formal/abstract).
       This prompt is about a "side" of an object or place.
@@ -953,15 +1091,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 一番目
+  - answers:
+      - 一番目
     toast: |-
       That's the ordinal form using 番.
       Often used for ranking/position (e.g., 1st place) rather than counting items.
-  - answer: 一つ
+  - answers:
+      - 一つ
     toast: |-
       That's just "one".
       The prompt refers to "the first" in an ordered list, not the quantity.
-  - answer: 一回目
+  - answers:
+      - 一回目
     toast: |-
       That's "the first time" (first occurrence/round).
       Used for repetitions/events rather than items in a list.
@@ -974,15 +1115,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 二番目
+  - answers:
+      - 二番目
     toast: |-
       That's "second in order/rank" using 番.
       Often used for順位・順番 (ranking/sequence), not the "second item" counter style.
-  - answer: 二つ
+  - answers:
+      - 二つ
     toast: |-
       That's just "two".
       It doesn't include the "-me" meaning "the nth one".
-  - answer: 一つ目
+  - answers:
+      - 一つ目
     toast: |-
       That's "first".
       Check the number at the start: 1 vs 2.
@@ -994,15 +1138,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: ペーシ
+  - answers:
+      - ペーシ
     toast: |-
       Close, but the last character is different.
       「シ」 has 3 strokes and looks like a "she" shape; 「ジ」 has dakuten (two small marks).
-  - answer: ベージ
+  - answers:
+      - ベージ
     toast: |-
       Watch the first character’s marks.
       「ペ」 uses handakuten (small circle) while 「ベ」 uses dakuten (two dots).
-  - answer: ペ一ジ
+  - answers:
+      - ペ一ジ
     toast: |-
       That middle bar is the wrong character.
       Use the long vowel mark 「ー」, not the kanji 「一」.
@@ -1014,15 +1161,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 本当です
+  - answers:
+      - 本当です
     toast: |-
       That’s a statement (“It’s true.”).
       The prompt is asking a question, so it needs the question marker.
-  - answer: 本当ですか？
+  - answers:
+      - 本当ですか？
     toast: |-
       That’s the same phrase but with punctuation.
       Write it without the full-width question mark if the app expects plain text.
-  - answer: 本当ですかね
+  - answers:
+      - 本当ですかね
     toast: |-
       That adds “I wonder…” / uncertainty.
       The prompt is a straightforward confirmation question.
@@ -1035,15 +1185,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 回る
+  - answers:
+      - 回る
     toast: |-
       That's "to go around / rotate"!
       It focuses on circling or making rounds, not turning left/right at a corner.
-  - answer: 折る
+  - answers:
+      - 折る
     toast: |-
       That's "to fold / break" (transitive)!
       It means doing the action to something, not changing direction while moving.
-  - answer: 曲げる
+  - answers:
+      - 曲げる
     toast: |-
       That's "to bend" (transitive)!
       It means bending something intentionally, not something turning on its own.
@@ -1056,15 +1209,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: すぐ
+  - answers:
+      - すぐ
     toast: |-
       That means “soon / immediately.”
       It’s about time, not direction or straightness.
-  - answer: まっさき
+  - answers:
+      - まっさき
     toast: |-
       That means “first / foremost.”
       It’s about priority, not going directly.
-  - answer: ちょくせつ
+  - answers:
+      - ちょくせつ
     toast: |-
       That means “directly” (more formal).
       It’s not the everyday adverb for “go straight.”
@@ -1076,15 +1232,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 左側
+  - answers:
+      - 左側
     toast: |-
       That's "left side".
       Be careful: the first kanji is different (left vs. right).
-  - answer: 右手
+  - answers:
+      - 右手
     toast: |-
       That's "right hand".
       This one refers to a body part, not the side/position.
-  - answer: 右方
+  - answers:
+      - 右方
     toast: |-
       That's "rightward/direction to the right".
       This is about direction, not the side of something.
@@ -1096,15 +1255,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 三つ
+  - answers:
+      - 三つ
     toast: |-
       That's "three (items)"!
       It’s the counter form, not the ordinal "-th" form.
-  - answer: 三番目
+  - answers:
+      - 三番目
     toast: |-
       That's also "third" but uses the ranking pattern ～番目.
       This prompt expects the ～つ目 ordinal style.
-  - answer: 二つ目
+  - answers:
+      - 二つ目
     toast: |-
       That's "second"!
       Watch the number kanji: 二 vs 三.
@@ -1117,15 +1279,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: みなさん
+  - answers:
+      - みなさん
     toast: |-
       That’s the kana-only spelling.
       The prompt expects the version using kanji plus さん.
-  - answer: 皆さま
+  - answers:
+      - 皆さま
     toast: |-
       That’s a more formal/polite address.
       Used for customers/guests; slightly higher politeness level.
-  - answer: 全員
+  - answers:
+      - 全員
     toast: |-
       That means “all members/everyone” as a noun.
       It’s not the direct way to address people like a greeting.
@@ -1138,15 +1303,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 西
+  - answers:
+      - 西
     toast: |-
       That's "west".
       Watch the inside: this one has a clear vertical line through the middle.
-  - answer: 東
+  - answers:
+      - 東
     toast: |-
       That's "east".
       This one has extra strokes in the middle compared to the prompt's direction kanji.
-  - answer: 北
+  - answers:
+      - 北
     toast: |-
       That's "north".
       This one looks like two people back-to-back; different structure from the prompt.
@@ -1158,15 +1326,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 待つ
+  - answers:
+      - 待つ
     toast: |-
       That's "to wait"!
       Different meaning: waiting for someone/something, not holding or carrying.
-  - answer: 持って行く
+  - answers:
+      - 持って行く
     toast: |-
       That's "to take (something)"!
       This includes direction/movement (take it along), not just holding/carrying.
-  - answer: 持って来る
+  - answers:
+      - 持って来る
     toast: |-
       That's "to bring"!
       This includes coming toward the speaker, not simply holding/carrying.
@@ -1179,15 +1350,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 持っていく
+  - answers:
+      - 持っていく
     toast: |-
       That's "to take (a thing)"!
       It means moving something away from the speaker / from here.
-  - answer: 連れてくる
+  - answers:
+      - 連れてくる
     toast: |-
       That's "to bring (a person/animal)"!
       This one is used for accompanying someone, not objects.
-  - answer: 運んでくる
+  - answers:
+      - 運んでくる
     toast: |-
       That's "to carry/transport (and come)"!
       This emphasizes moving something (often heavy) rather than simply bringing it.
@@ -1200,15 +1374,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 休み
+  - answers:
+      - 休み
     toast: |-
       That's the noun form (“a break/holiday”).
       The prompt is for the verb, so it ends with 〜む.
-  - answer: 止む
+  - answers:
+      - 止む
     toast: |-
       Different verb meaning “to stop/cease” (often weather like rain).
       Check the left side: it’s not the person radical (亻).
-  - answer: 寝る
+  - answers:
+      - 寝る
     toast: |-
       That means “to sleep/go to bed.”
       The prompt includes taking time off/being absent, not specifically sleeping.
@@ -1221,15 +1398,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: ゆっくりと
+  - answers:
+      - ゆっくりと
     toast: |-
       That's the form with と (emphasis/"slowly and...").
       The prompt expects the plain adverb form without the extra particle.
-  - answer: ゆっくりする
+  - answers:
+      - ゆっくりする
     toast: |-
       That's the "take it easy" verb phrase.
       The prompt is just the adverb, not the する form.
-  - answer: ゆっこり
+  - answers:
+      - ゆっこり
     toast: |-
       Looks close, but this swaps り/こ.
       Check the last character shape: り has two strokes, while こ is a box-like curve.
@@ -1241,15 +1421,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 調理
+  - answers:
+      - 調理
     toast: |-
       That's "preparation/cooking (process)"!
       Often used for cooking as a procedure (e.g., cooking methods), not the dish itself.
-  - answer: 食事
+  - answers:
+      - 食事
     toast: |-
       That's "meal"!
       It focuses on the act of eating/a mealtime, not cooking or a specific dish.
-  - answer: 料亭
+  - answers:
+      - 料亭
     toast: |-
       That's a "traditional Japanese restaurant"!
       This is a place/establishment, not the food or cooking.
@@ -1261,15 +1444,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: わいん
+  - answers:
+      - わいん
     toast: |-
       That's hiragana.
       This prompt is for the katakana loanword spelling.
-  - answer: ウィン
+  - answers:
+      - ウィン
     toast: |-
       That's closer to the sound "win".
       Check the middle vowel and the ending sound.
-  - answer: ライン
+  - answers:
+      - ライン
     toast: |-
       That's "line".
       The first character differs (ra vs wa).
@@ -1281,15 +1467,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 失う
+  - answers:
+      - 失う
     toast: |-
       That's “to lose” (something is gone)!
       This is about losing an item/state, not forgetting from memory.
-  - answer: 置き忘れる
+  - answers:
+      - 置き忘れる
     toast: |-
       That's “to leave something behind (forgetfully)”!
       This is specifically forgetting an item somewhere.
-  - answer: 忘れ物
+  - answers:
+      - 忘れ物
     toast: |-
       That's “forgotten item / lost property”!
       This is a noun, not the verb form.
@@ -1302,15 +1491,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 渡す
+  - answers:
+      - 渡す
     toast: |-
       That means “to hand over / to pass (something) to someone.”
       Transitive: you give/transfer an object.
-  - answer: 越える
+  - answers:
+      - 越える
     toast: |-
       That means “to go over/beyond” (a mountain, a limit).
       Nuance is “surpass/overcome,” not simply crossing.
-  - answer: 横断する
+  - answers:
+      - 横断する
     toast: |-
       That means “to cross (a street) / to traverse” in a formal/technical way.
       Often used with roads and crosswalks.

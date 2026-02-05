@@ -1,0 +1,134 @@
+- id: ckw-l03-1212
+  prompt: ""
+  answers:
+    - キロ
+  hint: "noun/counter"
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: ckw-l03-1220
+  prompt: ""
+  answers:
+    - ケース
+  hint: "noun"
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: ckw-l03-1239
+  prompt: ""
+  answers:
+    - ドア
+  hint: "noun"
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: ckw-l03-1242
+  prompt: ""
+  answers:
+    - サイト
+  hint: "noun"
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: ckw-l03-1261
+  prompt: ""
+  answers:
+    - チェック
+  hint: "verbal noun (する verb)"
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: ckw-l03-1290
+  prompt: ""
+  answers:
+    - ファックス
+  hint: "verbal noun (する verb)"
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: ckw-l03-1314
+  prompt: ""
+  answers:
+    - ワン
+  hint: "noun"
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: ckw-l03-1323
+  prompt: ""
+  answers:
+    - ゲーム
+  hint: "noun"
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: ckw-l03-1329
+  prompt: ""
+  answers:
+    - デザイン
+  hint: "verbal noun (する verb)"
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: ckw-l03-1344
+  prompt: ""
+  answers:
+    - ボール
+  hint: "noun"
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: ckw-l03-1370
+  prompt: ""
+  answers:
+    - クラブ
+  hint: "noun"
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: ckw-l03-1409
+  prompt: ""
+  answers:
+    - メーカー
+  hint: "noun"
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: ckw-l03-1420
+  prompt: ""
+  answers:
+    - グラム
+  hint: "noun/counter"
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: ckw-l03-1427
+  prompt: ""
+  answers:
+    - ファン
+  hint: "noun"
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: ckw-l03-1451
+  prompt: ""
+  answers:
+    - インターネット
+  hint: "noun"
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []

@@ -1,0 +1,134 @@
+- id: ckw-l38-6254
+  prompt: ""
+  answers:
+    - スペシャル
+  hint: "noun"
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: ckw-l38-6262
+  prompt: ""
+  answers:
+    - バナナ
+  hint: "noun"
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: ckw-l38-6267
+  prompt: ""
+  answers:
+    - アレンジ
+  hint: "verbal noun (する verb)"
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: ckw-l38-6273
+  prompt: ""
+  answers:
+    - テント
+  hint: "noun"
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: ckw-l38-6276
+  prompt: ""
+  answers:
+    - ライバル
+  hint: "noun"
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: ckw-l38-6281
+  prompt: ""
+  answers:
+    - コップ
+  hint: "noun"
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: ckw-l38-6307
+  prompt: ""
+  answers:
+    - タウン
+  hint: "noun"
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: ckw-l38-6313
+  prompt: ""
+  answers:
+    - ブラシ
+  hint: "noun"
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: ckw-l38-6315
+  prompt: ""
+  answers:
+    - オブジェクト
+  hint: "noun"
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: ckw-l38-6315
+  prompt: ""
+  answers:
+    - バッテリー
+  hint: "noun"
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: ckw-l38-6323
+  prompt: ""
+  answers:
+    - ターン
+  hint: "verbal noun (する verb)"
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: ckw-l38-6326
+  prompt: ""
+  answers:
+    - パッケージ
+  hint: "verbal noun (する verb)"
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: ckw-l38-6331
+  prompt: ""
+  answers:
+    - アンテナ
+  hint: "noun"
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: ckw-l38-6331
+  prompt: ""
+  answers:
+    - フィルター
+  hint: "noun"
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+
+- id: ckw-l38-6331
+  prompt: ""
+  answers:
+    - レイアウト
+  hint: "verbal noun (する verb)"
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []

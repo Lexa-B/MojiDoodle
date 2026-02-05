@@ -37,52 +37,22 @@ PROJECT_ROOT = SCRIPT_DIR.parent.parent.parent
 
 
 # Few-shot examples for card generation
+# Note: befuddlers use "answers" (plural, array) not "answer" (singular)
 FEW_SHOT_EXAMPLES = """
 Example 1 - Single hiragana character:
 Input: word="い", english="I (Hiragana)", pos="n."
-Output:
-```yaml
-  prompt: "I (Hiragana)"
-  answer: "い"
-  hint: "2 strokes"
-  strokeCount: 2
-  stage: -1
-  unlocks: "9999-12-31T23:59:59+00:00"
-  befuddlers:
-    - answer: "イ"
-      toast: "That's katakana!\\nThe prompt asks for hiragana, which is curvy."
-    - answer: "り"
-      toast: "That's \\"RI\\"!\\nThis one has connected strokes."
-```
+Output JSON:
+{"prompt": "I (Hiragana)", "answer": "い", "hint": "2 strokes", "strokeCount": 2, "befuddlers": [{"answers": ["イ"], "toast": "That's katakana!\\nThe prompt asks for hiragana, which is curvy."}, {"answers": ["り"], "toast": "That's \\"RI\\"!\\nThis one has connected strokes."}]}
 
 Example 2 - Verb with kanji:
 Input: word="おもう", kanji="思う", english="To Think (Opinion/Feeling)", pos="v."
-Output:
-```yaml
-  prompt: "To Think (Opinion/Feeling)"
-  answer: "思う"
-  hint: "omou - subjective thinking"
-  stage: -1
-  unlocks: "9999-12-31T23:59:59+00:00"
-  befuddlers:
-    - answer: "考える"
-      toast: "That's \\"to reason/consider\\"!\\nThis one is for thinking through a problem logically."
-    - answer: "知っている"
-      toast: "That's \\"to know\\"!\\nThis one is about having information, not forming thoughts."
-```
+Output JSON:
+{"prompt": "To Think (Opinion/Feeling)", "answer": "思う", "hint": "omou - subjective thinking", "strokeCount": null, "befuddlers": [{"answers": ["考える"], "toast": "That's \\"to reason/consider\\"!\\nThis one is for thinking through a problem logically."}, {"answers": ["知っている"], "toast": "That's \\"to know\\"!\\nThis one is about having information, not forming thoughts."}]}
 
 Example 3 - Single kanji with no common befuddlers:
 Input: word="さくら", kanji="桜", english="Sakura", pos="n."
-Output:
-```yaml
-  prompt: "Sakura"
-  answer: "桜"
-  hint: "10 strokes"
-  strokeCount: 10
-  stage: -1
-  unlocks: "9999-12-31T23:59:59+00:00"
-  befuddlers: []
-```
+Output JSON:
+{"prompt": "Sakura", "answer": "桜", "hint": "10 strokes", "strokeCount": 10, "befuddlers": []}
 """
 
 
@@ -121,7 +91,7 @@ so the "answer" is what they need to write, and the "prompt" is the English mean
 - stage: Always -1 (locked by default)
 - unlocks: Always "9999-12-31T23:59:59+00:00" (far future, unlocked by lessons)
 - befuddlers: Array of similar-looking or commonly confused words/characters that the handwriting API might recognize instead. Each has:
-  - answer: The confused character/word
+  - answers: Array with the confused character/word (e.g. ["イ"])
   - toast: A helpful message explaining the difference (use \\n for newlines). NEVER reveal the correct answer in the toast!
 
 ## Guidelines for befuddlers:
@@ -144,7 +114,7 @@ Return ONLY a valid JSON object with these exact keys:
 - answer (string)
 - hint (string)
 - strokeCount (number or null if not applicable)
-- befuddlers (array of objects with "answer" and "toast" keys)
+- befuddlers (array of objects with "answers" (array) and "toast" keys)
 
 Return ONLY the JSON, no markdown code blocks or other text."""
 
@@ -208,7 +178,7 @@ def generate_id_suffixes(llm, prompt_template, parser, cards: list[dict]) -> lis
     """Generate meaningful ID suffixes for all cards."""
 
     import json
-    cards_summary = [{"prompt": c["prompt"], "answer": c["answer"]} for c in cards]
+    cards_summary = [{"prompt": c["prompt"], "answer": c["answers"][0]} for c in cards]
     cards_json = json.dumps(cards_summary, ensure_ascii=False, indent=2)
 
     chain = prompt_template | llm | parser
@@ -235,7 +205,7 @@ def normalize_card(card_data: dict) -> dict:
         elif isinstance(value, list) and key == "befuddlers":
             normalized[key] = [
                 {
-                    "answer": normalize_string(b.get("answer", "")),
+                    "answers": [normalize_string(a) for a in b.get("answers", [])],
                     "toast": normalize_string(b.get("toast", ""))
                 }
                 for b in value
@@ -254,7 +224,7 @@ def build_card_yaml(card_data: dict, card_id: str) -> dict:
     card = {
         "id": card_id,
         "prompt": card_data["prompt"],
-        "answer": card_data["answer"],
+        "answers": [card_data["answer"]],  # Wrap single answer in list
         "hint": card_data["hint"],
     }
 
@@ -467,7 +437,7 @@ def main():
 
     print(f"\nSummary: {len(cards)} cards written")
     for card in cards:
-        print(f"  - {card['id']}: {card['prompt']} → {card['answer']}")
+        print(f"  - {card['id']}: {card['prompt']} → {card['answers'][0]}")
 
 
 if __name__ == "__main__":
