@@ -7,15 +7,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 辛い
+  - answers:
+      - 辛い
     toast: |-
       That means “spicy” (or “painful/tough”).
       Watch the radical: it’s not the “tongue” component.
-  - answer: 甘える
+  - answers:
+      - 甘える
     toast: |-
       That’s the verb “to depend on/act spoiled.”
       The prompt is an い-adjective meaning a taste.
-  - answer: 美味しい
+  - answers:
+      - 美味しい
     toast: |-
       That means “delicious,” not specifically “sweet.”
       It’s a broader compliment about taste.
@@ -27,15 +30,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 銀河
+  - answers:
+      - 銀河
     toast: |-
       That's “galaxy” in general.
       The prompt is for the specific band of stars seen in the night sky.
-  - answer: 天の河
+  - answers:
+      - 天の河
     toast: |-
       That uses a different kanji for “kawa.”
       The common set phrase uses the river kanji in everyday writing.
-  - answer: 天の川岸
+  - answers:
+      - 天の川岸
     toast: |-
       That's “the bank of the Milky Way.”
       The prompt is just the name of the Milky Way itself, not a location along it.
@@ -48,15 +54,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 一つ
+  - answers:
+      - 一つ
     toast: |-
       That means “one item / one (thing)”.
       The prompt is for “a certain ~ / some ~”, not counting.
-  - answer: 或る～
+  - answers:
+      - 或る～
     toast: |-
       That’s the kanji spelling.
       The prompt expects the kana form with the wave dash attached.
-  - answer: ある
+  - answers:
+      - ある
     toast: |-
       That’s the verb “to exist (inanimate) / to have)”.
       Here it’s used as a prefix meaning “a certain ~”, written with ～.
@@ -68,15 +77,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 走る
+  - answers:
+      - 走る
     toast: |-
       That's "to run".
       It implies moving fast, not walking.
-  - answer: 歩む
+  - answers:
+      - 歩む
     toast: |-
       That's "to walk/advance" in a more formal, figurative sense.
       Often used for life paths or progress.
-  - answer: 散歩する
+  - answers:
+      - 散歩する
     toast: |-
       That's "to take a walk" (a stroll).
       It suggests walking for leisure.
@@ -88,15 +100,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 辛い
+  - answers:
+      - 辛い
     toast: |-
       That means "painful/harsh" in the sense of tough, difficult, or emotionally hard.
       Common with situations or feelings rather than a specific physical ache.
-  - answer: 苦しい
+  - answers:
+      - 苦しい
     toast: |-
       That means "distressing" or "having trouble breathing".
       Used for suffering/strain rather than a sharp physical pain.
-  - answer: 痛いです
+  - answers:
+      - 痛いです
     toast: |-
       That’s the polite form.
       The prompt expects the plain dictionary form (i-adjective).
@@ -108,15 +123,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 鎮痛剤
+  - answers:
+      - 鎮痛剤
     toast: |-
       That's a more formal/medical term for a pain-relief medicine.
       The prompt is asking for the common everyday word.
-  - answer: 風邪薬
+  - answers:
+      - 風邪薬
     toast: |-
       That's cold medicine.
       This treats cold symptoms, not specifically pain.
-  - answer: 痛み
+  - answers:
+      - 痛み
     toast: |-
       That's just "pain" itself.
       The prompt asks for something that stops/relieves it (a medicine).
@@ -128,15 +146,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 年に一度
+  - answers:
+      - 年に一度
     toast: |-
       Close, but this version omits the "one year" part.
       It’s a more general "once per year" expression.
-  - answer: 一日に一度
+  - answers:
+      - 一日に一度
     toast: |-
       That means "once a day".
       Check the time unit: day vs. year.
-  - answer: 一年に一回
+  - answers:
+      - 一年に一回
     toast: |-
       That also means "once a year", but uses 「回」 for counting occurrences.
       「度」 tends to sound like "times/occasions".
@@ -148,15 +169,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: インフル
+  - answers:
+      - インフル
     toast: |-
       That's the shortened form.
       The prompt expects the full loanword.
-  - answer: インフルエンサー
+  - answers:
+      - インフルエンサー
     toast: |-
       That's "influencer".
       Different ending: ンザ vs ンサー.
-  - answer: インフレ
+  - answers:
+      - インフレ
     toast: |-
       That's "inflation" (economics).
       Similar start, but a different word and much shorter.
@@ -169,15 +193,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 午
+  - answers:
+      - 午
     toast: |-
       That's "noon" (also used in zodiac Horse).
       It lacks the extra side stroke that makes the shape look more like an animal.
-  - answer: 生
+  - answers:
+      - 生
     toast: |-
       That's "life / to be born".
       The center vertical line and crossing strokes are arranged differently.
-  - answer: 羊
+  - answers:
+      - 羊
     toast: |-
       That's "sheep".
       It has more strokes and a more complex "horns" top part.
@@ -189,15 +216,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 大い
+  - answers:
+      - 大い
     toast: |-
       That's a different word meaning "greatly/very" (often written as 大いに).
       This prompt is about quantity/number of things.
-  - answer: 少ない
+  - answers:
+      - 少ない
     toast: |-
       That's "few / not many".
       Be careful: this is the opposite meaning.
-  - answer: 多く
+  - answers:
+      - 多く
     toast: |-
       That's the adverb form meaning "many/much" (e.g., 多くの人).
       This prompt expects the plain adjective form.
@@ -211,15 +241,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 起こる
+  - answers:
+      - 起こる
     toast: |-
       That's "to happen/occur"!
       Same reading (おこる), but it's about events, not anger.
-  - answer: 叱る
+  - answers:
+      - 叱る
     toast: |-
       That's "to scold"!
       This is about reprimanding someone; it can be calm and instructional.
-  - answer: 怒り
+  - answers:
+      - 怒り
     toast: |-
       That's the noun form "anger"!
       The prompt is asking for the verb form.
@@ -232,15 +265,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: お元気で
+  - answers:
+      - お元気で
     toast: |-
       That's "Take care / Stay well" (often when parting).
       Not specifically used for someone who is sick.
-  - answer: 早く元気になってね
+  - answers:
+      - 早く元気になってね
     toast: |-
       That's "Get better soon" in a more casual, direct style.
       The prompt expects a set polite phrase.
-  - answer: ご自愛ください
+  - answers:
+      - ご自愛ください
     toast: |-
       That's "Please take care of yourself" (often in letters/emails).
       Used more for general health than immediate illness.
@@ -252,15 +288,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: トイレ
+  - answers:
+      - トイレ
     toast: |-
       That's the loanword "toilet" (katakana).
       The prompt expects a polite Japanese expression often used in public places.
-  - answer: 便所
+  - answers:
+      - 便所
     toast: |-
       That's a rougher/more blunt word for a toilet.
       The prompt is for a polite term used with guests or in shops.
-  - answer: お化粧室
+  - answers:
+      - お化粧室
     toast: |-
       That's "powder room"/restroom, often used in department stores.
       This one focuses on "makeup" rather than "washing hands."
@@ -272,15 +311,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 大事
+  - answers:
+      - 大事
     toast: |-
       That's “important/serious matter.”
       Watch the second character: it’s 事 (“matter”), not the person radical.
-  - answer: 成人
+  - answers:
+      - 成人
     toast: |-
       That's “adult (legal age)/coming of age.”
       Used for legal/official context rather than everyday “adult.”
-  - answer: 人
+  - answers:
+      - 人
     toast: |-
       That's just “person.”
       The prompt asks for the common two-kanji word for an adult.
@@ -293,15 +335,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 同様
+  - answers:
+      - 同様
     toast: |-
       That means “similar / in the same way.”
       More formal and used for situations or manner, not “the same one.”
-  - answer: 一緒
+  - answers:
+      - 一緒
     toast: |-
       That means “together.”
       It’s about being with someone or doing something jointly, not “identical/same.”
-  - answer: 同一
+  - answers:
+      - 同一
     toast: |-
       That means “identical / one and the same.”
       More technical/formal than the everyday word in the prompt.
@@ -313,15 +358,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 風
+  - answers:
+      - 風
     toast: |-
       That's "wind" (weather)!
       The prompt is about an illness, not air movement.
-  - answer: インフルエンザ
+  - answers:
+      - インフルエンザ
     toast: |-
       That's influenza (the flu)!
       This is usually more severe than a regular cold.
-  - answer: 熱
+  - answers:
+      - 熱
     toast: |-
       That's fever!
       It's a symptom, not the illness itself.
@@ -335,15 +383,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 風邪を引く
+  - answers:
+      - 風邪を引く
     toast: |-
       Looks close, but the verb kanji here is a different choice.
       In everyday writing, this expression is usually written with the verb in kana.
-  - answer: 風邪になる
+  - answers:
+      - 風邪になる
     toast: |-
       That means “to become a cold,” which is not the usual expression.
       Use the common set phrase with を + ひく for “catching” it.
-  - answer: 熱が出る
+  - answers:
+      - 熱が出る
     toast: |-
       That means “to get a fever.”
       It describes a symptom, not specifically catching a cold.
@@ -356,15 +407,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: かなえる
+  - answers:
+      - かなえる
     toast: |-
       That’s the transitive form (“to make something come true”).
       Here, the subject itself is fulfilled.
-  - answer: 叶う
+  - answers:
+      - 叶う
     toast: |-
       That’s the kanji spelling.
       The prompt expects the kana form shown in the lesson.
-  - answer: かない
+  - answers:
+      - かない
     toast: |-
       That’s a different word (“within the house/one’s wife” in some contexts).
       Be careful: the verb ends with う.
@@ -376,15 +430,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 彼氏
+  - answers:
+      - 彼氏
     toast: |-
       That's "boyfriend"!
       Different second kanji: this one means "Mr./husband" in compounds.
-  - answer: 女の子
+  - answers:
+      - 女の子
     toast: |-
       That's "girl"!
       More like a child/young girl, not specifically "she" or "girlfriend".
-  - answer: 彼ら
+  - answers:
+      - 彼ら
     toast: |-
       That's "they"!
       Plural form; used for a group rather than one female person.
@@ -396,15 +453,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 風邪
+  - answers:
+      - 風邪
     toast: |-
       That's a cold.
       It’s an infection with symptoms like fever/sore throat, not an allergy triggered by pollen.
-  - answer: 鼻炎
+  - answers:
+      - 鼻炎
     toast: |-
       That's rhinitis.
       It refers to nasal inflammation in general (various causes), not specifically seasonal pollen allergy.
-  - answer: 花見
+  - answers:
+      - 花見
     toast: |-
       That's cherry-blossom viewing.
       This is an activity/event, not a medical condition.
@@ -417,15 +477,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 神
+  - answers:
+      - 神
     toast: |-
       That’s just “god/deity” as a noun.
       The prompt implies a respectful form used when addressing or referring politely.
-  - answer: 仏様
+  - answers:
+      - 仏様
     toast: |-
       That’s “Buddha” (honorific).
       Different religion/figure; not the general word for a god.
-  - answer: 神さま
+  - answers:
+      - 神さま
     toast: |-
       That’s the same word written in kana.
       The prompt expects the kanji form.
@@ -438,15 +501,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 彼女
+  - answers:
+      - 彼女
     toast: |-
       That's "she; girlfriend".
       It uses the female radical (女) and refers to a woman.
-  - answer: 彼氏
+  - answers:
+      - 彼氏
     toast: |-
       That's "boyfriend" specifically.
       It adds 氏 (title/suffix), making it more explicit.
-  - answer: 彼ら
+  - answers:
+      - 彼ら
     toast: |-
       That's "they" (plural).
       It adds ら to make it plural rather than singular.
@@ -458,15 +524,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 彼女
+  - answers:
+      - 彼女
     toast: |-
       That's "girlfriend".
       Different second kanji: 女 (woman) instead of 氏 (Mr./family name).
-  - answer: 夫
+  - answers:
+      - 夫
     toast: |-
       That's "husband".
       This refers to a married partner, not a dating partner.
-  - answer: 彼
+  - answers:
+      - 彼
     toast: |-
       That's just "he" (a male person).
       The prompt is for a relationship term.
@@ -479,7 +548,8 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: かわいい
+  - answers:
+      - かわいい
     toast: |-
       That means "cute".
       This prompt is about feeling pity/sympathy, not cuteness.
@@ -504,15 +574,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 歯科
+  - answers:
+      - 歯科
     toast: |-
       That's dentistry.
       Look for the element meaning "tooth" vs. "eye".
-  - answer: 内科
+  - answers:
+      - 内科
     toast: |-
       That's internal medicine.
       This refers to general medical issues, not a body-part specialist.
-  - answer: 耳鼻科
+  - answers:
+      - 耳鼻科
     toast: |-
       That's ENT (ear/nose/throat).
       Different body area specialty.
@@ -525,15 +598,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 切手
+  - answers:
+      - 切手
     toast: |-
       That's a postage stamp.
       The second kanji means "hand," not a ticket/voucher.
-  - answer: 乗車券
+  - answers:
+      - 乗車券
     toast: |-
       That's a (formal) boarding fare ticket.
       Often used in announcements; longer and more specific.
-  - answer: 定期券
+  - answers:
+      - 定期券
     toast: |-
       That's a commuter pass.
       Used for season tickets, not a single ride.
@@ -546,15 +622,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 具合が悪い
+  - answers:
+      - 具合が悪い
     toast: |-
       Similar meaning (“to feel unwell”), but this one uses 具合 (condition/physical state).
       Often more directly about health/condition.
-  - answer: 気持ちが悪い
+  - answers:
+      - 気持ちが悪い
     toast: |-
       This can mean “feel sick/nauseous” OR “gross/creepy.”
       It’s more about “feeling” (emotion/sensation) than overall condition.
-  - answer: 気分がいい
+  - answers:
+      - 気分がいい
     toast: |-
       Opposite meaning (“to feel good / in a good mood”).
       Check the adjective at the end.
@@ -566,15 +645,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 興味がない
+  - answers:
+      - 興味がない
     toast: |-
       That means “not interested.”
       Check whether the prompt implies interest or lack of it.
-  - answer: 関心がある
+  - answers:
+      - 関心がある
     toast: |-
       That’s “to have concern/interest,” often more formal or about social issues.
       This one is the more common everyday phrase.
-  - answer: 好きだ
+  - answers:
+      - 好きだ
     toast: |-
       That means “to like.”
       It’s stronger/more personal preference than simply being curious or interested.
@@ -586,15 +668,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 心配する
+  - answers:
+      - 心配する
     toast: |-
       That's "to worry" (concern about what might happen).
       This prompt is about feeling tense in the moment.
-  - answer: 不安になる
+  - answers:
+      - 不安になる
     toast: |-
       That's "to feel anxious/uneasy" (often longer-lasting, uncertain feeling).
       This prompt is the tense, keyed-up feeling like before speaking or performing.
-  - answer: 興奮する
+  - answers:
+      - 興奮する
     toast: |-
       That's "to get excited" (amped up in a positive/energized way).
       This prompt is about nerves/tension, not excitement.
@@ -606,15 +691,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: くしゃくしゃ
+  - answers:
+      - くしゃくしゃ
     toast: |-
       That's an onomatopoeia meaning "crumpled" or "messy" (and sometimes "sniffling")!
       Not the noun for the action of expelling air from your nose.
-  - answer: せき
+  - answers:
+      - せき
     toast: |-
       That's "cough"!
       Different action: coughing comes from the throat/chest, not the nose.
-  - answer: はなみず
+  - answers:
+      - はなみず
     toast: |-
       That's "runny nose"!
       This is about nasal discharge, not the action itself.
@@ -626,15 +714,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: けいが
+  - answers:
+      - けいが
     toast: |-
       Extra い changes the reading.
       Make sure it’s a short 2-kana word meaning an injury.
-  - answer: けがれ
+  - answers:
+      - けがれ
     toast: |-
       That means "impurity/defilement," not a physical injury.
       Different ending sound and meaning.
-  - answer: け
+  - answers:
+      - け
     toast: |-
       That’s only one character.
       The prompt needs a two-character noun.
@@ -646,15 +737,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 内科
+  - answers:
+      - 内科
     toast: |-
       That's internal medicine.
       It's about treating illnesses without surgery.
-  - answer: 歯科
+  - answers:
+      - 歯科
     toast: |-
       That's dentistry.
       It refers to teeth and dental clinics.
-  - answer: 眼科
+  - answers:
+      - 眼科
     toast: |-
       That's ophthalmology.
       It refers to eyes and vision.
@@ -666,15 +760,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 下利
+  - answers:
+      - 下利
     toast: |-
       Close in meaning, but the right kanji is different.
       This one uses 「利」 (profit/benefit) instead of the kanji for “diarrhea.”
-  - answer: 便秘
+  - answers:
+      - 便秘
     toast: |-
       That's “constipation,” the opposite condition.
       Be careful not to mix up the symptoms.
-  - answer: 風邪
+  - answers:
+      - 風邪
     toast: |-
       That's “a cold.”
       Different illness; not specifically about stomach/bowels.
@@ -687,15 +784,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 元気じゃない
+  - answers:
+      - 元気じゃない
     toast: |-
       That means “not (feeling) well / not fine” in a casual tone.
       The prompt is the set phrase for looking unwell.
-  - answer: 具合が悪い
+  - answers:
+      - 具合が悪い
     toast: |-
       That means “to feel sick / in bad condition.”
       The prompt is about lacking energy/looking unwell.
-  - answer: 気分が悪い
+  - answers:
+      - 気分が悪い
     toast: |-
       That means “to feel nauseous / feel bad.”
       The prompt is about low energy/spirits rather than nausea.
@@ -708,15 +808,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 抗菌薬
+  - answers:
+      - 抗菌薬
     toast: |-
       That's "antibacterial drug"!
       A broader term; includes synthetic agents too, not only naturally derived ones.
-  - answer: 消毒薬
+  - answers:
+      - 消毒薬
     toast: |-
       That's a disinfectant/antiseptic!
       Used on surfaces/skin; not the same as medicine taken to treat infection.
-  - answer: 薬
+  - answers:
+      - 薬
     toast: |-
       That's just "medicine" in general!
       The prompt asks for a specific type used against bacterial infections.
@@ -729,15 +832,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 骨折
+  - answers:
+      - 骨折
     toast: |-
       Close, but this is the noun form (“a bone fracture”).
       The prompt is asking for the verb expression with する.
-  - answer: 折る
+  - answers:
+      - 折る
     toast: |-
       This means “to break/snap (something)” on purpose.
       For injuries, Japanese typically uses a different expression.
-  - answer: 捻挫する
+  - answers:
+      - 捻挫する
     toast: |-
       That means “to sprain.”
       A sprain is an injury to ligaments, not a fracture.
@@ -750,15 +856,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 小児科
+  - answers:
+      - 小児科
     toast: |-
       That’s pediatrics.
       Used for children’s medical care, not pregnancy/gynecology.
-  - answer: 内科
+  - answers:
+      - 内科
     toast: |-
       That’s internal medicine.
       A general medicine department, not a women’s health specialty.
-  - answer: 産科
+  - answers:
+      - 産科
     toast: |-
       That’s obstetrics only.
       This refers to pregnancy/childbirth, without the gynecology part.
@@ -770,15 +879,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 試験
+  - answers:
+      - 試験
     toast: |-
       That's an exam/test.
       Used for evaluating knowledge or ability, not competing in sports.
-  - answer: 会合
+  - answers:
+      - 会合
     toast: |-
       That's a meeting/gathering.
       It’s about people assembling, not a competition.
-  - answer: 試着
+  - answers:
+      - 試着
     toast: |-
       That's trying on clothes.
       Used at stores when you put on clothing to check fit.
@@ -790,15 +902,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 歯医者
+  - answers:
+      - 歯医者
     toast: |-
       That's the common everyday word for a dentist (the person).
       This one is the dental field/department (often used in clinic names).
-  - answer: 内科
+  - answers:
+      - 内科
     toast: |-
       That's internal medicine.
       Different medical department word.
-  - answer: 皮膚科
+  - answers:
+      - 皮膚科
     toast: |-
       That's dermatology.
       Same pattern: body/area + 科 (department).
@@ -810,15 +925,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 歯科
+  - answers:
+      - 歯科
     toast: |-
       That's dentistry.
       It’s about teeth, not ears/nose/throat.
-  - answer: 内科
+  - answers:
+      - 内科
     toast: |-
       That's internal medicine.
       A general medical department, not ENT.
-  - answer: 眼科
+  - answers:
+      - 眼科
     toast: |-
       That's ophthalmology.
       It’s for eyes, not ears/nose/throat.
@@ -830,15 +948,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: じゅーす
+  - answers:
+      - じゅーす
     toast: |-
       That's hiragana.
       This prompt expects katakana for a loanword.
-  - answer: ジュウス
+  - answers:
+      - ジュウス
     toast: |-
       Watch the long vowel mark ー.
       This one uses ウ instead, which changes the spelling.
-  - answer: ジュースー
+  - answers:
+      - ジュースー
     toast: |-
       Too many long vowel marks.
       There should be only one long vowel mark in the middle.
@@ -850,15 +971,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 治療
+  - answers:
+      - 治療
     toast: |-
       That means "medical treatment" in general.
       An operation is a specific procedure, often done in an operating room.
-  - answer: 手当て
+  - answers:
+      - 手当て
     toast: |-
       That means "first aid" or "care" for an injury.
       It's not a major medical procedure.
-  - answer: 手法
+  - answers:
+      - 手法
     toast: |-
       That means "method/technique" (often in work or research).
       Not related to medicine.
@@ -871,15 +995,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 食前
+  - answers:
+      - 食前
     toast: |-
       That's "before meals".
       The second kanji is "before" rather than "after".
-  - answer: 昼食後
+  - answers:
+      - 昼食後
     toast: |-
       That's "after lunch".
       This one specifies the meal (lunch) instead of meaning after meals in general.
-  - answer: 食事後
+  - answers:
+      - 食事後
     toast: |-
       That's "after eating/after a meal".
       This uses the word for "meal (as an event)" rather than the Sino-Japanese compound.
@@ -891,15 +1018,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 心配
+  - answers:
+      - 心配
     toast: |-
       That's the noun form (worry/concern).
       If you mean "to worry," it needs the verb ending.
-  - answer: 不安になる
+  - answers:
+      - 不安になる
     toast: |-
       That's "to become anxious/uneasy."
       This is a state change, not the general "worry about ~" verb.
-  - answer: 気にする
+  - answers:
+      - 気にする
     toast: |-
       That's "to mind/care about" (be bothered by).
       Often lighter and more casual than serious concern.
@@ -912,15 +1042,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 素直
+  - answers:
+      - 素直
     toast: |-
       That's "honest/straightforward".
       Same first kanji, but this one describes a person's temperament.
-  - answer: 素晴らしい
+  - answers:
+      - 素晴らしい
     toast: |-
       That's "wonderful/splendid".
       Stronger praise; different word and writing.
-  - answer: 綺麗
+  - answers:
+      - 綺麗
     toast: |-
       That's "pretty/clean".
       Often about appearance or cleanliness rather than "nice" in general.
@@ -933,15 +1066,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 整形外科医
+  - answers:
+      - 整形外科医
     toast: |-
       That's the person (doctor).
       The prompt is for the medical department/clinic name, not the occupation title.
-  - answer: 外科
+  - answers:
+      - 外科
     toast: |-
       That's general surgery.
       This is missing the part that specifies bones/joints/orthopedics.
-  - answer: 形成外科
+  - answers:
+      - 形成外科
     toast: |-
       That's plastic/reconstructive surgery.
       Different specialty than bone/joint orthopedics.
@@ -953,15 +1089,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 成果
+  - answers:
+      - 成果
     toast: |-
       That's "results/achievements" in general.
       This one is about outcomes, not specifically grades or academic records.
-  - answer: 点数
+  - answers:
+      - 点数
     toast: |-
       That's a "score/points."
       This is the numeric points, not overall performance/record.
-  - answer: 実績
+  - answers:
+      - 実績
     toast: |-
       That's "track record/achievements" (often work/business).
       This refers to proven accomplishments, not test grades.
@@ -973,15 +1112,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 整理
+  - answers:
+      - 整理
     toast: |-
       That's "organizing/tidying"!
       It uses the kanji for "arrange" (整), not "life" (生).
-  - answer: 理性
+  - answers:
+      - 理性
     toast: |-
       That's "reason/rationality"!
       The kanji order and meaning are different.
-  - answer: 生理学
+  - answers:
+      - 生理学
     toast: |-
       That's "physiology"!
       This one adds 学 and refers to the academic field.
@@ -993,15 +1135,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: せい
+  - answers:
+      - せい
     toast: |-
       That reads "sei".
       Watch the last kana: い vs き (extra stroke/shape).
-  - answer: せ
+  - answers:
+      - せ
     toast: |-
       That’s only one character.
       The prompt is a full word with two kana.
-  - answer: セキ
+  - answers:
+      - セキ
     toast: |-
       That's katakana.
       The prompt expects hiragana, which is curvier.
@@ -1013,15 +1158,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: せきをする
+  - answers:
+      - せきをする
     toast: |-
       That's “to cough” as an action you do.
       The prompt is for the expression where a cough “comes out” (more like a symptom).
-  - answer: くしゃみが出る
+  - answers:
+      - くしゃみが出る
     toast: |-
       That's “to sneeze”.
       Sneezing is くしゃみ; coughing is せき.
-  - answer: 鼻水が出る
+  - answers:
+      - 鼻水が出る
     toast: |-
       That's “runny nose”.
       This one is about the nose; the prompt is about coughing.
@@ -1033,15 +1181,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 細い
+  - answers:
+      - 細い
     toast: |-
       That's "thin/slender"!
       Used for things like a thin thread, thin arms, or a narrow line—not about a cramped space.
-  - answer: 近い
+  - answers:
+      - 近い
     toast: |-
       That's "near/close"!
       It describes distance or time being close, not how spacious a place is.
-  - answer: 広い
+  - answers:
+      - 広い
     toast: |-
       That's "spacious/wide"!
       It's the opposite meaning (plenty of space).
@@ -1054,15 +1205,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: それでは
+  - answers:
+      - それでは
     toast: |-
       That's "then / in that case".
       It often starts a new step or concludes, rather than adding another point.
-  - answer: さらに
+  - answers:
+      - さらに
     toast: |-
       That's "furthermore".
       This one feels a bit more formal/strong, like "even more".
-  - answer: それで
+  - answers:
+      - それで
     toast: |-
       That's "so / and then".
       It shows cause-and-effect or sequence, not simple addition.
@@ -1075,15 +1229,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: ～台
+  - answers:
+      - ～台
     toast: |-
       That's the counter for machines/vehicles!
       Used for things like cars, TVs, computers—not fees.
-  - answer: ～題
+  - answers:
+      - ～題
     toast: |-
       That's used for titles/topics or counting questions!
       Not the suffix for charges or fees.
-  - answer: ～大
+  - answers:
+      - ～大
     toast: |-
       That's the kanji for "big"!
       It’s not used as the fee/charge suffix here.
@@ -1096,15 +1253,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 温度計
+  - answers:
+      - 温度計
     toast: |-
       That's a general “temperature gauge/thermometer”!
       This one is for measuring temperature in general (room, outdoor, etc.).
-  - answer: 体重計
+  - answers:
+      - 体重計
     toast: |-
       That's a “scale” for body weight!
       Look for the character that means “weight,” not “temperature.”
-  - answer: 血圧計
+  - answers:
+      - 血圧計
     toast: |-
       That's a “blood pressure monitor”!
       Different measurement: blood pressure, not temperature.
@@ -1116,15 +1276,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: きっと
+  - answers:
+      - きっと
     toast: |-
       That's "surely / definitely".
       It shows strong confidence, not uncertainty.
-  - answer: もしかして
+  - answers:
+      - もしかして
     toast: |-
       That's "maybe / by any chance".
       Often used when you suspect a specific possibility.
-  - answer: 多い
+  - answers:
+      - 多い
     toast: |-
       That's "many / a lot".
       Same first kanji, but this is an adjective about quantity.
@@ -1137,15 +1300,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 印
+  - answers:
+      - 印
     toast: |-
       Easy to mix up due to a similar box-like shape.
       Make sure the inside and the final stroke placement match the character you intended.
-  - answer: 卯
+  - answers:
+      - 卯
     toast: |-
       These look similar because of shared parts.
       Watch the direction and length of the strokes in the middle section.
-  - answer: 玉子
+  - answers:
+      - 玉子
     toast: |-
       That’s the kana/kanji variant spelling.
       The prompt expects the standard single-kanji form.
@@ -1157,15 +1323,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 短冊
+  - answers:
+      - 短冊
     toast: |-
       That's the kanji form!
       The prompt expects the kana spelling, so write it in hiragana.
-  - answer: たんざん
+  - answers:
+      - たんざん
     toast: |-
       Different word!
       Double-check the ending: this one ends with ん, not く.
-  - answer: たんさく
+  - answers:
+      - たんさく
     toast: |-
       Careful with ざ vs さ!
       Look for the dakuten (two small lines) on the さ-row character.
@@ -1177,15 +1346,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 駐車
+  - answers:
+      - 駐車
     toast: |-
       That's "parking"!
       Used with 車 (cars) and places like 駐車場.
-  - answer: 注目
+  - answers:
+      - 注目
     toast: |-
       That's "attention / notice"!
       This one is about focusing or drawing attention, not medicine.
-  - answer: 射撃
+  - answers:
+      - 射撃
     toast: |-
       That's "shooting" (gunfire)!
       This one is about firing weapons, not a medical shot.
@@ -1198,15 +1370,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 連れて行く
+  - answers:
+      - 連れて行く
     toast: |-
       That's "to take (a person) along"!
       It emphasizes going somewhere with them, not returning.
-  - answer: 持って帰る
+  - answers:
+      - 持って帰る
     toast: |-
       That's "to take/bring (a thing) home"!
       This is mainly for objects, not people.
-  - answer: 連れてくる
+  - answers:
+      - 連れてくる
     toast: |-
       That's "to bring (a person) here"!
       Direction is toward the speaker/location, not back/home.
@@ -1219,15 +1394,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: なるべく
+  - answers:
+      - なるべく
     toast: |-
       That means “as much as possible” too, but it has a nuance of “if possible / if you can,” often a bit softer.
       Check which expression the prompt is targeting.
-  - answer: できれば
+  - answers:
+      - できれば
     toast: |-
       That means “if possible.”
       It’s conditional and doesn’t mean “as much as possible.”
-  - answer: できる限り
+  - answers:
+      - できる限り
     toast: |-
       That also means “as much as possible,” but it’s the “as far as the limit goes” phrasing.
       Different wording than the requested one.
@@ -1240,15 +1418,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 夫
+  - answers:
+      - 夫
     toast: |-
       Looks similar, but this one is “husband.”
       Check the top stroke and overall proportions.
-  - answer: 大
+  - answers:
+      - 大
     toast: |-
       This one is “big.”
       It’s missing the extra line at the top.
-  - answer: 夭
+  - answers:
+      - 夭
     toast: |-
       This one has a slanted stroke near the top.
       Be careful: the top part isn’t a straight horizontal line.
@@ -1260,15 +1441,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 点数
+  - answers:
+      - 点数
     toast: |-
       That's "score/points"!
       This is about counting points, not a medical drip.
-  - answer: 点検
+  - answers:
+      - 点検
     toast: |-
       That's "inspection/check"!
       Used for checking equipment or safety, not medical treatment.
-  - answer: 輸血
+  - answers:
+      - 輸血
     toast: |-
       That's "blood transfusion"!
       This is specifically giving blood, not administering fluids by IV drip.
@@ -1281,15 +1465,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 外科
+  - answers:
+      - 外科
     toast: |-
       That's “surgery/department of surgery.”
       Check the first kanji: outside vs inside.
-  - answer: 歯科
+  - answers:
+      - 歯科
     toast: |-
       That's “dentistry.”
       This one refers to teeth, not internal medicine.
-  - answer: 小児科
+  - answers:
+      - 小児科
     toast: |-
       That's “pediatrics.”
       This one is for children rather than adult internal medicine.
@@ -1303,15 +1490,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 鳴く
+  - answers:
+      - 鳴く
     toast: |-
       That's "to chirp/cry" (animals)!
       This is used for animal sounds like birds, insects, etc.
-  - answer: 叫ぶ
+  - answers:
+      - 叫ぶ
     toast: |-
       That's "to shout"!
       This is about yelling loudly, not shedding tears.
-  - answer: 泣ける
+  - answers:
+      - 泣ける
     toast: |-
       That's the potential form "can cry" / "make you cry"!
       The prompt is the basic dictionary form.
@@ -1323,15 +1513,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 失くす
+  - answers:
+      - 失くす
     toast: |-
       This uses kanji.
       The prompt expects the kana-only form.
-  - answer: 落とす
+  - answers:
+      - 落とす
     toast: |-
       This means "to drop" (something falls).
       Not the same as misplacing/losing it.
-  - answer: なくなる
+  - answers:
+      - なくなる
     toast: |-
       This is intransitive: "to be lost / disappear".
       The prompt is the transitive form (you lose something).
@@ -1343,15 +1536,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 〜とか
+  - answers:
+      - 〜とか
     toast: |-
       That’s used for giving examples in a casual/listing way.
       Often suggests “things like …” and can feel less formal than a plain “etc.” ending.
-  - answer: 〜なんか
+  - answers:
+      - 〜なんか
     toast: |-
       That’s a casual form.
       It can be used for examples, but also to downplay or show a dismissive nuance depending on context.
-  - answer: 〜などなど
+  - answers:
+      - 〜などなど
     toast: |-
       That’s an emphatic “etc., etc.”
       It sounds like you’re adding extra emphasis that the list continues.
@@ -1364,15 +1560,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 二、三日
+  - answers:
+      - 二、三日
     toast: |-
       That uses a punctuation mark.
       Write it as one continuous expression without the comma-like separator.
-  - answer: 二三ヶ月
+  - answers:
+      - 二三ヶ月
     toast: |-
       That’s “two to three months.”
       Check the time unit at the end: days vs. months.
-  - answer: 三日
+  - answers:
+      - 三日
     toast: |-
       That’s “three days” exactly.
       This prompt is about an approximate range, not a fixed number.
@@ -1385,15 +1584,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 願う
+  - answers:
+      - 願う
     toast: |-
       That's the verb form (“to wish/pray”).
       The prompt is asking for the noun form.
-  - answer: 祈り
+  - answers:
+      - 祈り
     toast: |-
       That's “prayer.”
       This one is more religious/ceremonial than a general hope or wish.
-  - answer: 望み
+  - answers:
+      - 望み
     toast: |-
       That's “hope/desire.”
       This one can feel more like an intention or desire rather than a heartfelt wish.
@@ -1405,15 +1607,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 風邪をひく
+  - answers:
+      - 風邪をひく
     toast: |-
       That's "to catch a cold"!
       It refers to getting sick (a cold), not specifically having a fever.
-  - answer: 熱が出る
+  - answers:
+      - 熱が出る
     toast: |-
       That's "to get a fever / to develop a fever"!
       It describes the fever starting or appearing.
-  - answer: 病気だ
+  - answers:
+      - 病気だ
     toast: |-
       That's "to be ill / sick"!
       It's a general statement and not specifically about fever.
@@ -1426,15 +1631,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 咽
+  - answers:
+      - 咽
     toast: |-
       That's a different kanji for throat!
       Often used in compounds (e.g., tonsils/pharynx) rather than the everyday word.
-  - answer: 喋
+  - answers:
+      - 喋
     toast: |-
       That kanji is related to talking/chattering.
       It uses the same left radical, but the right side is different.
-  - answer: 喝
+  - answers:
+      - 喝
     toast: |-
       That kanji is about shouting/scolding.
       Watch the right-side components; it's not the one used for body parts.
@@ -1447,15 +1655,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 喉が乾く
+  - answers:
+      - 喉が乾く
     toast: |-
       Close, but this uses the more general “dry” kanji.
       This is often used for things like clothes/hair drying, not specifically thirst.
-  - answer: お腹がすく
+  - answers:
+      - お腹がすく
     toast: |-
       That's “to get hungry.”
       This is about an empty stomach, not needing a drink.
-  - answer: 喉が痛い
+  - answers:
+      - 喉が痛い
     toast: |-
       That's “my throat hurts.”
       This is about pain/soreness rather than needing water.
@@ -1467,15 +1678,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 履く
+  - answers:
+      - 履く
     toast: |-
       That's "to wear (shoes/pants)"!
       It uses the shoe/foot-related kanji and is about putting something on your feet/legs.
-  - answer: 掃く
+  - answers:
+      - 掃く
     toast: |-
       That's "to sweep"!
       This one is about cleaning with a broom, not something coming out of your mouth.
-  - answer: 吐き出す
+  - answers:
+      - 吐き出す
     toast: |-
       That's "to spit out / to vomit out" (more emphatic)!
       It's a longer expression and often implies forcing something out.
@@ -1487,15 +1701,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 初めまして
+  - answers:
+      - 初めまして
     toast: |-
       That's the greeting used when meeting someone new.
       It often appears with 「よろしくお願いします」.
-  - answer: 初め
+  - answers:
+      - 初め
     toast: |-
       That's just the noun meaning “beginning/start.”
       The prompt needs the adverb form used with verbs.
-  - answer: はじめに
+  - answers:
+      - はじめに
     toast: |-
       That's “first/at the beginning” when ordering steps (like “first, ...”).
       Not specifically about doing something for the very first time.
@@ -1508,15 +1725,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 田
+  - answers:
+      - 田
     toast: |-
       That's a rice paddy!
       Think: flooded rice field vs. general cultivated field.
-  - answer: 地
+  - answers:
+      - 地
     toast: |-
       That's "ground/land"!
       This one has the 土 radical and looks more general, not specifically a field.
-  - answer: 畠
+  - answers:
+      - 畠
     toast: |-
       That's an alternate form!
       Same meaning, but a different way of writing it with a different left side.
@@ -1528,15 +1748,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 旗を折る
+  - answers:
+      - 旗を折る
     toast: |-
       That would mean "to fold a flag".
       This prompt is about making fabric by interlacing threads, not folding cloth.
-  - answer: 糸を織る
+  - answers:
+      - 糸を織る
     toast: |-
       Close, but this sounds like "to weave thread".
       The prompt’s expression uses the loom (機) as the object.
-  - answer: はたを折る
+  - answers:
+      - はたを折る
     toast: |-
       That reads as "to fold" something, not "to weave".
       Be careful: おる can be a different verb depending on the kanji.
@@ -1548,15 +1771,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 発熱
+  - answers:
+      - 発熱
     toast: |-
       That's "fever".
       This one is about body temperature rising, not a skin symptom.
-  - answer: 湿疹
+  - answers:
+      - 湿疹
     toast: |-
       That's "eczema".
       This one often implies itchy inflammation; the prompt is a general rash.
-  - answer: 発信
+  - answers:
+      - 発信
     toast: |-
       That's "sending/transmitting" (like sending a signal/message).
       Same reading, but it's not a medical word.
@@ -1568,15 +1794,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 鼻血
+  - answers:
+      - 鼻血
     toast: |-
       That's “nosebleed.”
       The second kanji means “blood,” not “water.”
-  - answer: 涙
+  - answers:
+      - 涙
     toast: |-
       That's “tears.”
       This is for eyes, not something coming from the nose.
-  - answer: くしゃみ
+  - answers:
+      - くしゃみ
     toast: |-
       That's “sneeze.”
       It’s an action, not the liquid itself.
@@ -1589,15 +1818,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 支払う
+  - answers:
+      - 支払う
     toast: |-
       That's a more formal/explicit "to pay" expression.
       Often used for bills, fees, or payments in writing.
-  - answer: 払える
+  - answers:
+      - 払える
     toast: |-
       That's the potential form ("can pay").
       The prompt is the basic dictionary form.
-  - answer: 取る
+  - answers:
+      - 取る
     toast: |-
       That's "to take/collect" (often from someone).
       Different direction: collecting vs giving payment.
@@ -1610,15 +1842,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 人
+  - answers:
+      - 人
     toast: |-
       That’s singular (“person”).
       The prompt implies a collective/plural meaning.
-  - answer: 皆
+  - answers:
+      - 皆
     toast: |-
       That means “everyone/all (people)”.
       It refers to all members, not just “people” in general.
-  - answer: 人達
+  - answers:
+      - 人達
     toast: |-
       That’s “people” with a pluralizing suffix.
       This form uses an added kanji suffix rather than repetition.
@@ -1631,15 +1866,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 皮膚
+  - answers:
+      - 皮膚
     toast: |-
       That's just "skin" (a body part).
       The prompt is asking for the medical department/clinic name.
-  - answer: 皮膚炎
+  - answers:
+      - 皮膚炎
     toast: |-
       That's "dermatitis" (a condition).
       The prompt is a type of doctor/clinic, not an illness.
-  - answer: 歯科
+  - answers:
+      - 歯科
     toast: |-
       That's the dental department.
       Look for the word related to skin rather than teeth.
@@ -1651,15 +1889,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 広く
+  - answers:
+      - 広く
     toast: |-
       That's the adverb form ("widely/spaciously").
       The prompt expects the dictionary form adjective.
-  - answer: 大きい
+  - answers:
+      - 大きい
     toast: |-
       That means "big/large" in general.
       This prompt is about width/space (spaciousness).
-  - answer: 広がる
+  - answers:
+      - 広がる
     toast: |-
       That's a verb meaning "to spread/expand".
       The prompt is asking for an adjective.
@@ -1672,15 +1913,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 福
+  - answers:
+      - 福
     toast: |-
       That's "good fortune"!
       Look for the clothing radical on the left (like a hanging garment), not the altar radical.
-  - answer: 副
+  - answers:
+      - 副
     toast: |-
       That's "vice-/secondary"!
       This one has a knife component on the right, and isn't related to clothing.
-  - answer: 脈
+  - answers:
+      - 脈
     toast: |-
       That's "pulse/vein"!
       It uses a flesh (月) component and different right-side structure.
@@ -1693,15 +1937,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 酔う
+  - answers:
+      - 酔う
     toast: |-
       That’s the verb “to get drunk”!
       The prompt is about the after-effects the next day, not the act of drinking.
-  - answer: 二日
+  - answers:
+      - 二日
     toast: |-
       That means “two days / the second day of the month”!
       You’re missing the part about alcohol-related sickness.
-  - answer: 悪酔い
+  - answers:
+      - 悪酔い
     toast: |-
       That’s “bad drunkenness” (feeling sick while still drinking)!
       The prompt is about feeling ill the day after.
@@ -1713,15 +1960,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: お土産
+  - answers:
+      - お土産
     toast: |-
       That's “souvenir”!
       It’s typically something you bring back from a trip for others.
-  - answer: 贈り物
+  - answers:
+      - 贈り物
     toast: |-
       That's “gift” in a more formal/literary way.
       Often used for giving/receiving formally.
-  - answer: プレゼン
+  - answers:
+      - プレゼン
     toast: |-
       That's “presentation” (short for a talk/demo)!
       Not a gift—it's an event or talk.
@@ -1733,15 +1983,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 便り
+  - answers:
+      - 便り
     toast: |-
       That's "letter/news" (たより).
       It uses り, not the kanji for "secret".
-  - answer: 便利
+  - answers:
+      - 便利
     toast: |-
       That's "convenient" (べんり).
       The second kanji is different and means "profit/advantage."
-  - answer: 秘書
+  - answers:
+      - 秘書
     toast: |-
       That's "secretary" (ひしょ).
       Same first kanji here is different; focus on the "secret" kanji + the character for "writing."
@@ -1754,15 +2007,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: ホムシック
+  - answers:
+      - ホムシック
     toast: |-
       Close, but a long vowel is missing.
       Be careful to include the long-vowel mark (ー) after ホ.
-  - answer: ホームスティ
+  - answers:
+      - ホームスティ
     toast: |-
       That's "homestay" (staying with a host family).
       Different meaning from missing home.
-  - answer: ノイローゼ
+  - answers:
+      - ノイローゼ
     toast: |-
       That's "neurosis"/mental breakdown.
       More general psychological trouble, not specifically missing home.
@@ -1774,15 +2030,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 免許証
+  - answers:
+      - 免許証
     toast: |-
       That's a driver's license.
       Used for ID/driving, not for medical visits.
-  - answer: 学生証
+  - answers:
+      - 学生証
     toast: |-
       That's a student ID card.
       Different purpose (school identification), not insurance.
-  - answer: 保険
+  - answers:
+      - 保険
     toast: |-
       That's just "insurance".
       The prompt refers to the physical card/certificate you present.
@@ -1807,7 +2066,8 @@
     toast: |-
       That's "serious" in the sense of being earnest/intense.
       Often used for situations like a serious talk or match.
-  - answer: まじ（で）
+  - answers:
+      - まじ（で）
     toast: |-
       That's casual slang meaning "seriously?! / for real".
       Different usage and tone from a personality trait.
@@ -1820,15 +2080,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: ～まで
+  - answers:
+      - ～まで
     toast: |-
       That's "until/up to" (end point of an action/time span).
       This prompt is about a deadline: something must be completed before that time.
-  - answer: ～までには
+  - answers:
+      - ～までには
     toast: |-
       That's the version with は for emphasis/contrast.
       The prompt is asking for the plain deadline form (no particle added).
-  - answer: ～までの
+  - answers:
+      - ～までの
     toast: |-
       That's the form that modifies a noun ("up to/by" + noun), like "by Friday's...".
       This prompt is the deadline expression used in a sentence, not the noun-modifying form.
@@ -1841,15 +2104,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 向かい
+  - answers:
+      - 向かい
     toast: |-
       That's "across from / opposite" (a facing location).
       Often used for things directly in front of each other.
-  - answer: 向き
+  - answers:
+      - 向き
     toast: |-
       That's "direction / facing".
       It describes orientation, not a place "over there".
-  - answer: 向かう
+  - answers:
+      - 向かう
     toast: |-
       That's the verb "to head toward".
       A verb of movement, not a noun meaning a location.
@@ -1861,15 +2127,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 歯
+  - answers:
+      - 歯
     toast: |-
       That's just "tooth".
       The prompt is about a diseased/decayed tooth, not teeth in general.
-  - answer: 虫
+  - answers:
+      - 虫
     toast: |-
       That's "insect/bug".
       Here it’s being used in a compound about dental problems, not an actual bug.
-  - answer: 歯医者
+  - answers:
+      - 歯医者
     toast: |-
       That's "dentist".
       The prompt asks for the condition, not the person/place you go to.
@@ -1883,15 +2152,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 好
+  - answers:
+      - 好
     toast: |-
       Looks similar because it also contains 女.
       Check the right side: this one is 子 (child), not the more complex right component.
-  - answer: 姉
+  - answers:
+      - 姉
     toast: |-
       This means “older sister.”
       Both have 女 on the left; compare the right side shape carefully.
-  - answer: 妹
+  - answers:
+      - 妹
     toast: |-
       This means “younger sister.”
       Both have 女 on the left; the right side here is 未, which has clear horizontal strokes.
@@ -1904,15 +2176,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: くらくらする
+  - answers:
+      - くらくらする
     toast: |-
       That means “to feel faint/lightheaded” (spinning/woozy feeling).
       It’s a different common expression for dizziness.
-  - answer: 立ちくらみがする
+  - answers:
+      - 立ちくらみがする
     toast: |-
       That’s “to get dizzy when standing up” (orthostatic dizziness).
       More specific situation than general dizziness.
-  - answer: よろめく
+  - answers:
+      - よろめく
     toast: |-
       That means “to stagger/reel” (an unsteady movement).
       It describes wobbling motion rather than the sensation itself.
@@ -1925,15 +2200,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: すぐ
+  - answers:
+      - すぐ
     toast: |-
       That's just "soon/right away".
       The prompt implies "very soon / almost" with an added nuance.
-  - answer: もうちょっと
+  - answers:
+      - もうちょっと
     toast: |-
       That's "a little more / a bit longer".
       It suggests waiting longer, not that the time is near.
-  - answer: まもなく
+  - answers:
+      - まもなく
     toast: |-
       That's a more formal "soon".
       Common in announcements; different nuance/style from casual daily speech.
@@ -1948,15 +2226,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 者
+  - answers:
+      - 者
     toast: |-
       That's “person” (someone).
       Watch the left side: this one uses a different radical than cow (牛).
-  - answer: 勿
+  - answers:
+      - 勿
     toast: |-
       That's a different kanji (often seen in prohibitions like “must not”).
       It’s simpler and lacks the 牛 + 攵 structure.
-  - answer: 物体
+  - answers:
+      - 物体
     toast: |-
       That's “physical object/body” as a compound.
       The prompt is for a single kanji, not a two-kanji word.
@@ -1969,15 +2250,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 火傷する
+  - answers:
+      - 火傷する
     toast: |-
       That's the kanji spelling.
       This prompt expects the kana-only form.
-  - answer: こげる
+  - answers:
+      - こげる
     toast: |-
       That's "to get scorched/burn (food or something)".
       This one is about a person getting a burn injury.
-  - answer: やける
+  - answers:
+      - やける
     toast: |-
       That's "to burn" (e.g., skin in the sun, bread in a toaster).
       This one is specifically "to get a burn injury" and uses 〜をする.
@@ -1989,15 +2273,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 用件
+  - answers:
+      - 用件
     toast: |-
       That's "matter (to handle)/requirements" (more formal, often in meetings).
       This prompt is about an errand or personal business.
-  - answer: 仕事
+  - answers:
+      - 仕事
     toast: |-
       That's "work/job".
       This prompt is about an errand/thing to take care of, not employment or work duties.
-  - answer: 用紙
+  - answers:
+      - 用紙
     toast: |-
       That's "paper (for writing/printing)".
       Watch the second kanji: it's "thing/affair" vs "paper".
@@ -2011,15 +2298,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: エックス線
+  - answers:
+      - エックス線
     toast: |-
       That's the term using "X" + "ray" in kanji/kana.
       The prompt is asking for the common loanword written in katakana.
-  - answer: レントゲン写真
+  - answers:
+      - レントゲン写真
     toast: |-
       That's "X-ray photo/image."
       The prompt is just the base word, not the longer compound.
-  - answer: スキャン
+  - answers:
+      - スキャン
     toast: |-
       That's "scan" (general scanning).
       The prompt is specifically the medical imaging done with X-rays.
@@ -2032,15 +2322,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 分かれる
+  - answers:
+      - 分かれる
     toast: |-
       That means “to be divided / to branch off / to split into groups.”
       Used for dividing paths or people into groups, not ending a relationship.
-  - answer: 別れ
+  - answers:
+      - 別れ
     toast: |-
       That’s the noun form (“a parting / farewell”).
       The prompt is asking for the verb form.
-  - answer: 離れる
+  - answers:
+      - 離れる
     toast: |-
       That means “to be apart / to leave / to get away from.”
       Focuses on distance rather than “parting/breaking up.”
@@ -2052,15 +2345,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 私
+  - answers:
+      - 私
     toast: |-
       That's just "I/me" (singular).
       The prompt is plural, meaning a group.
-  - answer: わたしたち
+  - answers:
+      - わたしたち
     toast: |-
       That's the hiragana spelling.
       The prompt expects the kanji form if available.
-  - answer: 僕たち
+  - answers:
+      - 僕たち
     toast: |-
       That's "we" but with a male-leaning/softer "I" base.
       Different nuance and character used.
@@ -2072,15 +2368,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 悪くない
+  - answers:
+      - 悪くない
     toast: |-
       That’s the negative form (“not bad”).
       The prompt is the plain i-adjective form.
-  - answer: まずい
+  - answers:
+      - まずい
     toast: |-
       That means “bad” mainly in the sense of “tastes bad” or “awkward situation.”
       The prompt is the general “bad” adjective.
-  - answer: よくない
+  - answers:
+      - よくない
     toast: |-
       That’s “not good.”
       It’s the negative of “good,” not the direct “bad” adjective.

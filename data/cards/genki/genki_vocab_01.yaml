@@ -6,15 +6,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: アジア史
+  - answers:
+      - アジア史
     toast: |-
       That's “Asian history.”
       This focuses on historical events/time periods, not academic research as a broad field.
-  - answer: 国際関係
+  - answers:
+      - 国際関係
     toast: |-
       That's “international relations.”
       This is about relations between countries, not a region-focused area studies field.
-  - answer: 研究
+  - answers:
+      - 研究
     toast: |-
       That's just “research/study.”
       It's missing the region/topic part and becomes a general term.
@@ -27,15 +30,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: えっと
+  - answers:
+      - えっと
     toast: |-
       That's a casual filler like “umm…” used when thinking.
       This prompt is for a more polite/attention-getting filler.
-  - answer: あの
+  - answers:
+      - あの
     toast: |-
       That's “um, hey…” often used to call someone or introduce a topic.
       This prompt is the drawn-out filler with an extra vowel.
-  - answer: あのー
+  - answers:
+      - あのー
     toast: |-
       That's the same sound written with a long vowel mark.
       The prompt expects the hiragana spelling, not the ー mark.
@@ -47,15 +53,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: イギリス
+  - answers:
+      - イギリス
     toast: |-
       That's the U.K.!
       Different country name in katakana.
-  - answer: アフリカ
+  - answers:
+      - アフリカ
     toast: |-
       That's Africa!
       Watch the middle consonant: フ vs メ.
-  - answer: アメリカ人
+  - answers:
+      - アメリカ人
     toast: |-
       That's "American (person)"!
       It adds the person suffix 人.
@@ -67,15 +76,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: イングランド
+  - answers:
+      - イングランド
     toast: |-
       That's "England" (a part of the UK).
       The prompt is for the whole country.
-  - answer: フランス
+  - answers:
+      - フランス
     toast: |-
       That's "France".
       Different country name in katakana.
-  - answer: アメリカ
+  - answers:
+      - アメリカ
     toast: |-
       That's "America/USA".
       Not the European country in the prompt.
@@ -88,15 +100,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 医師
+  - answers:
+      - 医師
     toast: |-
       That's a more formal term meaning "physician" (licensed medical doctor).
       The prompt is the everyday word used in conversation.
-  - answer: 看護師
+  - answers:
+      - 看護師
     toast: |-
       That's "nurse".
       Different job role: provides care and assistance rather than diagnosing/treating as the main doctor.
-  - answer: 薬者
+  - answers:
+      - 薬者
     toast: |-
       That's not a standard word for "doctor".
       Be careful: the first kanji here means medicine/medical, not the one meaning drugs.
@@ -110,15 +125,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 一時間
+  - answers:
+      - 一時間
     toast: |-
       That's "one hour"!
       This includes 間, so it's a duration, not a clock time.
-  - answer: 一度
+  - answers:
+      - 一度
     toast: |-
       That's "once / one time"!
       This uses 度 for counting occurrences, not telling the time.
-  - answer: 午後一時
+  - answers:
+      - 午後一時
     toast: |-
       That's "1 PM"!
       This adds 午後, specifying afternoon.
@@ -132,15 +150,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 二年生
+  - answers:
+      - 二年生
     toast: |-
       That's a second-year student.
       Make sure the first numeral is "two," not "one."
-  - answer: 一年
+  - answers:
+      - 一年
     toast: |-
       That's "one year" (a duration).
       The student/grade meaning needs the school-year suffix.
-  - answer: 一回生
+  - answers:
+      - 一回生
     toast: |-
       That's a (mainly Kansai) term for a first-year university student.
       Different suffix is used than the standard school-year word.
@@ -154,15 +175,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 一分
+  - answers:
+      - 一分
     toast: |-
       Be careful with pronunciation changes for counters.
       For 1 minute, the ふ sound becomes a small pause (っ) in speech.
-  - answer: 十分
+  - answers:
+      - 十分
     toast: |-
       That's "ten minutes".
       Same counter (分), but the number is different.
-  - answer: 一日
+  - answers:
+      - 一日
     toast: |-
       That's "one day".
       Different time unit (日), not minutes.
@@ -176,15 +200,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 令
+  - answers:
+      - 令
     toast: |-
       That’s a different kanji (rei).
       Watch the top: it looks like a roof, and the inside shape is different.
-  - answer: 会
+  - answers:
+      - 会
     toast: |-
       That kanji means "to meet" / "meeting".
       It has the same top, but the bottom part is more complex.
-  - answer: 合
+  - answers:
+      - 合
     toast: |-
       That kanji means "to fit" / "to combine".
       The bottom part is a boxed "mouth" shape, unlike the prompt’s kanji.
@@ -199,15 +226,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 姉
+  - answers:
+      - 姉
     toast: |-
       That's "older sister".
       Look for the right-side shape: this one uses 市, not 未.
-  - answer: 弟
+  - answers:
+      - 弟
     toast: |-
       That's "younger brother".
       This one does NOT have the 女 (woman) radical on the left.
-  - answer: 妹さん
+  - answers:
+      - 妹さん
     toast: |-
       That's a polite form ("-san").
       The prompt is for the plain family word without an honorific.
@@ -219,15 +249,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: インコ
+  - answers:
+      - インコ
     toast: |-
       That's "parakeet"!
       Watch the last character: コ has two separate strokes, not a single diagonal.
-  - answer: インドネシア
+  - answers:
+      - インドネシア
     toast: |-
       That's "Indonesia"!
       The prompt is for the shorter country name, not the longer one.
-  - answer: インド人
+  - answers:
+      - インド人
     toast: |-
       That's "Indian person"!
       人 adds the meaning "person" to the country name.
@@ -239,15 +272,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: エスプト
+  - answers:
+      - エスプト
     toast: |-
       Looks close, but check the middle sound.
       Make sure the small strokes form ジ (with dakuten) rather than ス.
-  - answer: エジブト
+  - answers:
+      - エジブト
     toast: |-
       Close, but the last consonant is different.
       Compare プ (small circle handakuten) vs ブ (two dots dakuten).
-  - answer: えじぷと
+  - answers:
+      - えじぷと
     toast: |-
       That's hiragana!
       The prompt expects a country name in katakana, with straight/angular lines.
@@ -261,15 +297,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: オーストリア
+  - answers:
+      - オーストリア
     toast: |-
       That's Austria.
       One syllable shorter; missing 「ラ」.
-  - answer: ニュージーランド
+  - answers:
+      - ニュージーランド
     toast: |-
       That's New Zealand.
       Different country name in katakana.
-  - answer: オセアニア
+  - answers:
+      - オセアニア
     toast: |-
       That's Oceania (the region).
       Not a country name.
@@ -283,15 +322,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 母
+  - answers:
+      - 母
     toast: |-
       That’s just the kanji for “mother.”
       The prompt expects the full word with the polite prefix and suffix.
-  - answer: お母様
+  - answers:
+      - お母様
     toast: |-
       That’s a more formal/honorific version.
       Used in very polite speech.
-  - answer: お父さん
+  - answers:
+      - お父さん
     toast: |-
       That’s “father.”
       Check the kanji: 母 (mother) vs 父 (father).
@@ -305,15 +347,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: お母さん
+  - answers:
+      - お母さん
     toast: |-
       That's “mother”!
       Look for the “male/parent” kanji component vs. the “female” one.
-  - answer: 父
+  - answers:
+      - 父
     toast: |-
       That's the plain word “(my) father”!
       The prompt expects the polite form with さん.
-  - answer: おとうさん
+  - answers:
+      - おとうさん
     toast: |-
       That's the same word in kana.
       The prompt expects the kanji form if available.
@@ -327,15 +372,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 兄
+  - answers:
+      - 兄
     toast: |-
       That's "older brother".
       It refers to someone older, not younger.
-  - answer: 妹
+  - answers:
+      - 妹
     toast: |-
       That's "younger sister".
       Different gender: sister vs brother.
-  - answer: 第
+  - answers:
+      - 第
     toast: |-
       That's the counter/ordinal kanji (like "first/second").
       Watch the bottom: it uses the bamboo radical on top and a different lower part.
@@ -349,15 +397,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: お姉さん
+  - answers:
+      - お姉さん
     toast: |-
       That's "older sister".
       Watch the left part: 女 (woman) vs the brother kanji with 儿 at the bottom.
-  - answer: 兄さん
+  - answers:
+      - 兄さん
     toast: |-
       This is a more casual form.
       The prompt expects the polite prefix お.
-  - answer: 弟
+  - answers:
+      - 弟
     toast: |-
       That's "younger brother".
       Different kanji and meaning: younger vs older.
@@ -370,15 +421,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: お兄さん
+  - answers:
+      - お兄さん
     toast: |-
       That means “older brother.”
       Watch the middle kanji: it’s the one for an older male sibling.
-  - answer: 姉
+  - answers:
+      - 姉
     toast: |-
       This is just the kanji alone.
       The prompt expects the polite word form with hiragana + さん.
-  - answer: おばさん
+  - answers:
+      - おばさん
     toast: |-
       That means “aunt / older lady.”
       Different family role and different kanji/reading.
@@ -391,15 +445,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 会社
+  - answers:
+      - 会社
     toast: |-
       That's "company" (the organization)!
       The prompt is asking for a person/employee, not the company itself.
-  - answer: 社員
+  - answers:
+      - 社員
     toast: |-
       That's "employee"!
       This is missing the part that specifies "company".
-  - answer: 公務員
+  - answers:
+      - 公務員
     toast: |-
       That's "civil servant"!
       This refers to government/public-sector work, not a regular company worker.
@@ -412,15 +469,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 先生
+  - answers:
+      - 先生
     toast: |-
       That's "teacher"!
       The first kanji means "previous/earlier," not "study."
-  - answer: 大学生
+  - answers:
+      - 大学生
     toast: |-
       That's "university student"!
       This one adds "university" at the start.
-  - answer: 学者
+  - answers:
+      - 学者
     toast: |-
       That's "scholar"!
       The second kanji means "person," not "student."
@@ -432,15 +492,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: かなだ
+  - answers:
+      - かなだ
     toast: |-
       That's hiragana.
       The prompt expects katakana for a country name.
-  - answer: カナタ
+  - answers:
+      - カナタ
     toast: |-
       That's "kanata" (beyond/over there).
       Watch the last character: ダ has the two dakuten marks.
-  - answer: カタナ
+  - answers:
+      - カタナ
     toast: |-
       That's "katana" (sword).
       The middle character is different: ナ vs ダ (dakuten marks).
@@ -453,15 +516,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 中国
+  - answers:
+      - 中国
     toast: |-
       That's "China"!
       Different first kanji: 中 means "middle/center".
-  - answer: 外国
+  - answers:
+      - 外国
     toast: |-
       That's "foreign country" (generic)!
       This is not a specific country name.
-  - answer: 韓国語
+  - answers:
+      - 韓国語
     toast: |-
       That's "Korean language"!
       It adds 語 meaning "language" at the end.
@@ -474,15 +540,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 介護士
+  - answers:
+      - 介護士
     toast: |-
       That's a caregiver (often elderly care), not a medical professional.
       Different job and typically different workplace.
-  - answer: 看護婦
+  - answers:
+      - 看護婦
     toast: |-
       That's an older term specifically for a female nurse.
       These days the gender-neutral term is preferred.
-  - answer: 医者
+  - answers:
+      - 医者
     toast: |-
       That's a doctor.
       Different role: doctors diagnose and prescribe, while nurses provide care and assistance.
@@ -496,15 +565,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 九時
+  - answers:
+      - 九時
     toast: |-
       That's "nine o'clock"!
       This one is a time on the clock, not a number of minutes.
-  - answer: 十分
+  - answers:
+      - 十分
     toast: |-
       That's "ten minutes"!
       Watch the first number: this one uses a different numeral.
-  - answer: 九分目
+  - answers:
+      - 九分目
     toast: |-
       That's "nine-tenths / 90% (e.g., doneness)"!
       The extra character changes it from minutes to a proportion/level.
@@ -517,15 +589,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 九日
+  - answers:
+      - 九日
     toast: |-
       That's "the ninth day / nine days" (ここのか / きゅうにち).
       Look for the time counter vs. the day counter.
-  - answer: 九分
+  - answers:
+      - 九分
     toast: |-
       That's "nine minutes" (きゅうふん).
       This uses the minutes counter, not the hour/time one.
-  - answer: 九時半
+  - answers:
+      - 九時半
     toast: |-
       That's "9:30" (くじはん).
       The extra character indicates "half past".
@@ -538,15 +613,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 経営
+  - answers:
+      - 経営
     toast: |-
       That's "management/administration" (running a business).
       Often used for company operations, not the economy as a whole.
-  - answer: 政治
+  - answers:
+      - 政治
     toast: |-
       That's "politics".
       This refers to government and policy rather than markets and the economy.
-  - answer: 経済学
+  - answers:
+      - 経済学
     toast: |-
       That's "economics" as an academic field.
       The prompt expects the general word, not "-gaku" (study/discipline).
@@ -559,15 +637,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: ～国
+  - answers:
+      - ～国
     toast: |-
       That’s the suffix for “country,” not language.
       Be careful: this one indicates a nation/land.
-  - answer: ～字
+  - answers:
+      - ～字
     toast: |-
       That’s “character/letter” (writing), not language.
       Used for scripts/letters (e.g., 漢字).
-  - answer: ～方言
+  - answers:
+      - ～方言
     toast: |-
       That’s “dialect,” not a language name.
       It refers to regional varieties within a language.
@@ -580,15 +661,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 中学
+  - answers:
+      - 中学
     toast: |-
       That's "junior high school".
       This refers to the stage before high school.
-  - answer: 大学
+  - answers:
+      - 大学
     toast: |-
       That's "university".
       This is education after high school.
-  - answer: 高等学校
+  - answers:
+      - 高等学校
     toast: |-
       That's the full formal term.
       This prompt expects the common shortened form used in everyday Japanese.
@@ -601,15 +685,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 中学生
+  - answers:
+      - 中学生
     toast: |-
       That's a junior high school student.
       Look for the kanji meaning “middle” instead of “high.”
-  - answer: 大学生
+  - answers:
+      - 大学生
     toast: |-
       That's a college/university student.
       The first two kanji refer to “university,” not high school.
-  - answer: 高校
+  - answers:
+      - 高校
     toast: |-
       That's “high school” (the school itself).
       The prompt is asking for the person (a student), so it includes the student suffix.
@@ -623,15 +710,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 国際関係学
+  - answers:
+      - 国際関係学
     toast: |-
       That's "international relations (as an academic field)"!
       It includes the "study/discipline" suffix 学.
-  - answer: 外交関係
+  - answers:
+      - 外交関係
     toast: |-
       That's "diplomatic relations"!
       This focuses on diplomacy between governments.
-  - answer: 国際関係者
+  - answers:
+      - 国際関係者
     toast: |-
       That's "an international relations professional"!
       The final 者 means "person".
@@ -644,15 +734,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 午前
+  - answers:
+      - 午前
     toast: |-
       That's "a.m." (before noon).
       This one uses the character meaning "before".
-  - answer: 正午
+  - answers:
+      - 正午
     toast: |-
       That's "noon".
       It refers specifically to 12:00.
-  - answer: 午後中
+  - answers:
+      - 午後中
     toast: |-
       That's "all afternoon".
       It means throughout the afternoon, not just "p.m."
@@ -665,15 +758,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 五分
+  - answers:
+      - 五分
     toast: |-
       That's "five minutes"!
       Look for the time-hour counter used for o'clock, not minutes.
-  - answer: 午後
+  - answers:
+      - 午後
     toast: |-
       That's "p.m."!
       This indicates afternoon/evening, not a specific hour.
-  - answer: 九時
+  - answers:
+      - 九時
     toast: |-
       That's "nine o’clock"!
       Be careful with the number kanji—different numeral.
@@ -686,15 +782,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 午後
+  - answers:
+      - 午後
     toast: |-
       That's “p.m.” (after noon).
       Watch the second kanji: it changes the meaning from before noon to after noon.
-  - answer: 朝
+  - answers:
+      - 朝
     toast: |-
       That's “morning.”
       This is a general time of day, not the a.m. label used with clock times.
-  - answer: 午
+  - answers:
+      - 午
     toast: |-
       That's only the “noon/horse” kanji by itself.
       The prompt needs the full expression used for a.m.
@@ -707,15 +806,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 十分
+  - answers:
+      - 十分
     toast: |-
       That's "ten minutes"!
       Also watch the reading: 10 minutes is often じゅっぷん/じっぷん.
-  - answer: 五分間
+  - answers:
+      - 五分間
     toast: |-
       That's "for five minutes" (duration)!
       The extra 間 adds the nuance of a time span.
-  - answer: 五分
+  - answers:
+      - 五分
     toast: |-
       Be careful: this same kanji can also mean "half" in contexts like 五分五分.
       This prompt is asking for a time amount.
@@ -727,15 +829,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: こんぴゅーたー
+  - answers:
+      - こんぴゅーたー
     toast: |-
       That's hiragana.
       The prompt expects katakana for a loanword.
-  - answer: コンピュータ
+  - answers:
+      - コンピュータ
     toast: |-
       Missing the long-vowel mark.
       Make sure to include ー where the sound is stretched.
-  - answer: コンピューターー
+  - answers:
+      - コンピューターー
     toast: |-
       Too many long-vowel marks.
       There should be only one at the end.
@@ -747,15 +852,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: ～才
+  - answers:
+      - ～才
     toast: |-
       That's the simplified character often seen in casual writing.
       This prompt expects the standard form used in formal writing and print.
-  - answer: ～年
+  - answers:
+      - ～年
     toast: |-
       That's the counter for years (time) or school grade years.
       Age uses a different counter.
-  - answer: ～代
+  - answers:
+      - ～代
     toast: |-
       That's for age range (e.g., in one's 20s/30s).
       This prompt is for an exact age.
@@ -768,15 +876,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: ～さま
+  - answers:
+      - ～さま
     toast: |-
       That's a more respectful honorific.
       Used for customers/guests or in very formal writing.
-  - answer: ～ちゃん
+  - answers:
+      - ～ちゃん
     toast: |-
       That's a cute/casual honorific.
       Often for children, close friends, or pets.
-  - answer: ～くん
+  - answers:
+      - ～くん
     toast: |-
       That's a more casual honorific.
       Often used for boys/younger men or subordinates (e.g., at school/work).
@@ -789,15 +900,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 三次
+  - answers:
+      - 三次
     toast: |-
       That's "third/next" as in sequence (e.g., 第三次).
       For time, the second kanji should relate to hours on a clock.
-  - answer: 二時
+  - answers:
+      - 二時
     toast: |-
       That's "two o’clock".
       Check the number kanji at the start.
-  - answer: 三日
+  - answers:
+      - 三日
     toast: |-
       That's "three days" or "the 3rd day".
       The second kanji here refers to days, not hours.
@@ -811,15 +925,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 三十分
+  - answers:
+      - 三十分
     toast: |-
       Check your middle kanji structure.
       Make sure the strokes match the correct form for "ten" (not "thousand").
-  - answer: 三十分間
+  - answers:
+      - 三十分間
     toast: |-
       That includes "for (a duration)".
       The prompt is just the amount of time, without adding "-for".
-  - answer: 三十秒
+  - answers:
+      - 三十秒
     toast: |-
       That's "30 seconds".
       Watch the last kanji: minutes vs seconds.
@@ -832,15 +949,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 三分
+  - answers:
+      - 三分
     toast: |-
       Watch the reading with 分 (minute counter).
       Some numbers cause a sound change (e.g., 3 becomes -ぷん).
-  - answer: 三分間
+  - answers:
+      - 三分間
     toast: |-
       That means "for three minutes" (duration).
       The prompt is just the amount "three minutes".
-  - answer: 三十分
+  - answers:
+      - 三十分
     toast: |-
       That means "thirty minutes".
       Check whether there's an extra 十 in the number.
@@ -852,15 +972,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: ～分
+  - answers:
+      - ～分
     toast: |-
       That's the suffix for minutes.
       Use it after the minute number (e.g., 10分).
-  - answer: ～秒
+  - answers:
+      - ～秒
     toast: |-
       That's the suffix for seconds.
       Use it for smaller units than minutes.
-  - answer: ～日
+  - answers:
+      - ～日
     toast: |-
       That's the suffix for day/date.
       It’s used for days of the month or number of days, not time on the clock.
@@ -874,15 +997,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 七分
+  - answers:
+      - 七分
     toast: |-
       That's "seven minutes".
       Look for the time counter used for hours vs minutes.
-  - answer: 七日
+  - answers:
+      - 七日
     toast: |-
       That's "seven days" or "the 7th day of the month".
       This uses the day counter, not a clock-time counter.
-  - answer: 七時半
+  - answers:
+      - 七時半
     toast: |-
       That's "half past seven".
       This includes an extra character meaning "half".
@@ -895,15 +1021,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 十分（じゅうぶん）
+  - answers:
+      - 十分（じゅうぶん）
     toast: |-
       This reading means “enough / sufficient.”
       For time, use the minutes reading (often with かん: 〜間).
-  - answer: 十日
+  - answers:
+      - 十日
     toast: |-
       That’s “ten days” (or “the 10th day of the month,” とおか).
       Minutes use 分.
-  - answer: 十分間
+  - answers:
+      - 十分間
     toast: |-
       That includes “for ten minutes.”
       The prompt is just the amount of time, without the “for (duration)” part.
@@ -916,15 +1045,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 十時
+  - answers:
+      - 十時
     toast: |-
       That’s “ten o’clock.”
       Make sure the number is eleven, not ten.
-  - answer: 十一分
+  - answers:
+      - 十一分
     toast: |-
       That’s “11 minutes.”
       This prompt is asking for an hour (time on the clock), not minutes.
-  - answer: 十一日
+  - answers:
+      - 十一日
     toast: |-
       That’s “the 11th day / 11 days.”
       This prompt is a time-of-day expression, not a date.
@@ -937,15 +1069,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 十分
+  - answers:
+      - 十分
     toast: |-
       That's "ten minutes".
       Watch for the extra numeral: 11 uses two number kanji before 分.
-  - answer: 十一時
+  - answers:
+      - 十一時
     toast: |-
       That's "eleven o'clock".
       This prompt is minutes, so it uses the minutes counter kanji, not the time-of-day one.
-  - answer: 十一人
+  - answers:
+      - 十一人
     toast: |-
       That's "eleven people".
       This prompt is a time amount, so it uses the minutes counter, not the people counter.
@@ -958,15 +1093,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 九十分
+  - answers:
+      - 九十分
     toast: |-
       That’s “90 minutes.”
       Check the first number: this one is a round tens number, not in the teens.
-  - answer: 十九時
+  - answers:
+      - 十九時
     toast: |-
       That’s “19 o’clock (7 PM).”
       This uses the time-of-day counter instead of the minutes counter.
-  - answer: 十九秒
+  - answers:
+      - 十九秒
     toast: |-
       That’s “19 seconds.”
       Look at the final counter: it’s for seconds, not minutes.
@@ -979,15 +1117,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 五十分
+  - answers:
+      - 五十分
     toast: |-
       That's "fifty minutes"!
       Check the order of the numerals before 分.
-  - answer: 十分
+  - answers:
+      - 十分
     toast: |-
       That's "ten minutes" (also can mean "enough")!
       Make sure the number is the intended one for time duration.
-  - answer: 十五日
+  - answers:
+      - 十五日
     toast: |-
       That's "the 15th day" / "fifteen days" depending on context!
       This one uses 日 (day), not the minutes counter.
@@ -1001,15 +1142,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 十三時
+  - answers:
+      - 十三時
     toast: |-
       That's a time of day (o'clock), not a duration.
       Use 時 for hours on the clock.
-  - answer: 十三日
+  - answers:
+      - 十三日
     toast: |-
       That's a date (the 13th day of the month).
       Use 日 for days/dates.
-  - answer: 十三円
+  - answers:
+      - 十三円
     toast: |-
       That's an amount of money.
       Use 円 for yen, not minutes.
@@ -1022,15 +1166,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 十日
+  - answers:
+      - 十日
     toast: |-
       That's "tooka" (the 10th day / ten days)!
       It uses 「日」 (day), not the time counter for o’clock.
-  - answer: 十一時
+  - answers:
+      - 十一時
     toast: |-
       That's eleven o’clock!
       Make sure the number part matches the prompt.
-  - answer: 十分
+  - answers:
+      - 十分
     toast: |-
       That's "juppun" (ten minutes)!
       It uses 「分」 (minutes), not 「時」 (o’clock).
@@ -1043,15 +1190,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 十七時
+  - answers:
+      - 十七時
     toast: |-
       That's "17 o'clock" (a time of day).
       Look for the minutes counter (〜分) vs the hour counter (〜時).
-  - answer: 十七秒
+  - answers:
+      - 十七秒
     toast: |-
       That's "17 seconds".
       Minutes use 〜分; seconds use 〜秒.
-  - answer: 十七分間
+  - answers:
+      - 十七分間
     toast: |-
       That's "for 17 minutes" (duration with 間).
       Without 間 it’s just the amount: "17 minutes".
@@ -1064,15 +1214,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 十時
+  - answers:
+      - 十時
     toast: |-
       That's "ten o’clock".
       Check the number part: this one skips the "two".
-  - answer: 二時
+  - answers:
+      - 二時
     toast: |-
       That's "two o’clock".
       This one has only the 2 + hour, without the 10.
-  - answer: 十二日
+  - answers:
+      - 十二日
     toast: |-
       That's "the 12th day" (date).
       Look at the last kanji: it's day-of-month, not hour.
@@ -1085,15 +1238,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 十分
+  - answers:
+      - 十分
     toast: |-
       That's "ten minutes" (or "enough")!
       Watch the first number: one less digit/kanji changes the time.
-  - answer: 十二時
+  - answers:
+      - 十二時
     toast: |-
       That's "twelve o'clock"!
       This uses the hour counter (時), not the minutes counter.
-  - answer: 二十分
+  - answers:
+      - 二十分
     toast: |-
       That's "twenty minutes"!
       The number is different (二十 vs 十二), even though 分 is the same.
@@ -1106,15 +1262,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 八十分
+  - answers:
+      - 八十分
     toast: |-
       That's "eighty minutes"!
       Watch the order of the numbers: 18 vs 80.
-  - answer: 十八時
+  - answers:
+      - 十八時
     toast: |-
       That's "18 o'clock" (6 PM)!
       This one uses the time-of-day counter, not minutes.
-  - answer: 十八秒
+  - answers:
+      - 十八秒
     toast: |-
       That's "18 seconds"!
       Check the time unit: seconds vs minutes.
@@ -1128,15 +1287,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 十四
+  - answers:
+      - 十四
     toast: |-
       That's "fourteen" (the number) only.
       The prompt is asking for a time duration in minutes, so it needs the minutes counter.
-  - answer: 十四時
+  - answers:
+      - 十四時
     toast: |-
       That's "14 o'clock".
       This uses the hour counter, not minutes.
-  - answer: 十四分間
+  - answers:
+      - 十四分間
     toast: |-
       That's "for 14 minutes" (explicit duration with 間).
       The prompt is just the plain "14 minutes" form.
@@ -1149,15 +1311,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 十六時
+  - answers:
+      - 十六時
     toast: |-
       That's a time of day (o'clock), not a duration.
       Look for the counter used for minutes, not hours.
-  - answer: 十六人
+  - answers:
+      - 十六人
     toast: |-
       That's counting people.
       Make sure you're using the counter for minutes.
-  - answer: 十六秒
+  - answers:
+      - 十六秒
     toast: |-
       That's seconds.
       Different time unit counter—check the last kanji.
@@ -1170,15 +1335,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 十分（じゅうぶん）
+  - answers:
+      - 十分（じゅうぶん）
     toast: |-
       Same kanji, different reading!
       One means “ten minutes/time,” the other means “enough/sufficient.”
-  - answer: 十日
+  - answers:
+      - 十日
     toast: |-
       That means “ten days / the 10th day of the month.”
       Look for the time counter for minutes.
-  - answer: 十分間
+  - answers:
+      - 十分間
     toast: |-
       That includes “for (a duration of) … minutes.”
       The prompt is just the time amount, not the full duration expression.
@@ -1191,15 +1359,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 主夫
+  - answers:
+      - 主夫
     toast: |-
       That's "househusband" (male).
       The second kanji is different: the woman radical (女) vs. the man radical (亻).
-  - answer: 婦人
+  - answers:
+      - 婦人
     toast: |-
       That's "woman/lady" (polite/general term).
       This is a broader word, not specifically someone managing a household.
-  - answer: 主婦業
+  - answers:
+      - 主婦業
     toast: |-
       That's "housework/being a housewife" as a role/job.
       It's the base noun plus an extra kanji meaning "work/occupation."
@@ -1212,15 +1383,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: ～者
+  - answers:
+      - ～者
     toast: |-
       That's a suffix meaning "person (of a type)," often used for roles/occupations.
       It's not the nationality/region suffix.
-  - answer: ～民
+  - answers:
+      - ～民
     toast: |-
       That's "people/citizens" as a group (e.g., 国民).
       It's about a population, not an individual person from a place.
-  - answer: ～国
+  - answers:
+      - ～国
     toast: |-
       That's a suffix meaning "country" (e.g., 日本国).
       It refers to the nation itself, not a person.
@@ -1233,15 +1407,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 政策
+  - answers:
+      - 政策
     toast: |-
       That's "policy" (specific measures/plans).
       This prompt is about politics as a field/system.
-  - answer: 経済
+  - answers:
+      - 経済
     toast: |-
       That's "economy".
       Often paired together, but this one is about money/markets, not government.
-  - answer: 政治学
+  - answers:
+      - 政治学
     toast: |-
       That's "political science" (an academic discipline).
       The prompt is the general concept, not the field of study.
@@ -1255,15 +1432,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 生物
+  - answers:
+      - 生物
     toast: |-
       That's "living things / organism"!
       It refers to the creatures themselves, not the field of study.
-  - answer: 化学
+  - answers:
+      - 化学
     toast: |-
       That's "chemistry"!
       Different science field; watch the final kanji.
-  - answer: 生理学
+  - answers:
+      - 生理学
     toast: |-
       That's "physiology"!
       It focuses on bodily functions rather than living things as a whole.
@@ -1276,15 +1456,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 専修
+  - answers:
+      - 専修
     toast: |-
       That's "specialized course/major" (often an official program name).
       This one uses the character meaning "to cultivate/repair" on the right.
-  - answer: 専門
+  - answers:
+      - 専門
     toast: |-
       That's "specialty/area of expertise."
       This one focuses on being an expert, not necessarily your school major.
-  - answer: 選考
+  - answers:
+      - 選考
     toast: |-
       That's "selection/screening" (e.g., hiring/entrance screening).
       This one starts with the character meaning "to choose".
@@ -1297,15 +1480,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 学生
+  - answers:
+      - 学生
     toast: |-
       That's "student".
       This refers to someone who studies, not the person teaching.
-  - answer: 教師
+  - answers:
+      - 教師
     toast: |-
       That's "teacher" as an occupation/title.
       This is more formal and job-focused than an honorific you address someone with.
-  - answer: 先輩
+  - answers:
+      - 先輩
     toast: |-
       That's "senpai" (senior).
       This is about seniority/experience, not being an instructor.
@@ -1317,15 +1503,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: そうですか
+  - answers:
+      - そうですか
     toast: |-
       That adds a question.
       It’s used to confirm/say “Is that so?” rather than agreeing.
-  - answer: そうですね
+  - answers:
+      - そうですね
     toast: |-
       That’s “I agree / let’s see…”
       Often softer or used while thinking, not a direct confirmation.
-  - answer: そうなんです
+  - answers:
+      - そうなんです
     toast: |-
       That has an explanatory tone.
       Used like “That’s right, you see…” (often more casual than the polite form).
@@ -1338,15 +1527,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: そうです
+  - answers:
+      - そうです
     toast: |-
       That’s the statement form (“That’s right/It is so”).
       The prompt is asking for the version that ends with a question.
-  - answer: そうですか。
+  - answers:
+      - そうですか。
     toast: |-
       That includes punctuation.
       The handwriting answer should be only Japanese characters.
-  - answer: そうなんですか
+  - answers:
+      - そうなんですか
     toast: |-
       That’s a similar phrase meaning “Is that so?” with ん for emphasis/softening.
       This prompt expects the shorter, standard polite form.
@@ -1359,15 +1551,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 大学院
+  - answers:
+      - 大学院
     toast: |-
       That's "graduate school"!
       It refers to studies after completing an undergraduate program.
-  - answer: 大工
+  - answers:
+      - 大工
     toast: |-
       That's "carpenter"!
       The second character is different (craft/work, not learning).
-  - answer: 高校
+  - answers:
+      - 高校
     toast: |-
       That's "high school"!
       This is the level before college/university.
@@ -1380,15 +1575,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 大学生
+  - answers:
+      - 大学生
     toast: |-
       That's an undergraduate university student.
       Missing the graduate-school part (院).
-  - answer: 院生
+  - answers:
+      - 院生
     toast: |-
       That's 'graduate student' in a shortened form.
       The prompt expects the full term including university (大学).
-  - answer: 大学院
+  - answers:
+      - 大学院
     toast: |-
       That's 'graduate school' (the institution).
       It refers to the place/program, not the person studying there.
@@ -1402,15 +1600,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 高校生
+  - answers:
+      - 高校生
     toast: |-
       That's a high school student.
       「高校」 is high school, not university.
-  - answer: 留学生
+  - answers:
+      - 留学生
     toast: |-
       That's an international/foreign exchange student.
       It emphasizes studying abroad/being from overseas.
-  - answer: 大学院生
+  - answers:
+      - 大学院生
     toast: |-
       That's a graduate student.
       It includes 「院」, meaning graduate school.
@@ -1423,15 +1624,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 中国語
+  - answers:
+      - 中国語
     toast: |-
       That's “Chinese (language)”!
       This one adds 語, meaning “language/word,” at the end.
-  - answer: 中華
+  - answers:
+      - 中華
     toast: |-
       That's “China/Chinese” in compounds (e.g., cuisine)!
       This uses 華 for “splendor/China,” not the character for “country.”
-  - answer: 中央
+  - answers:
+      - 中央
     toast: |-
       That's “center/central”!
       The second character here means “middle/center,” not “country.”
@@ -1444,15 +1648,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 電車
+  - answers:
+      - 電車
     toast: |-
       That's "train"!
       The second kanji here means "car/vehicle" rather than "talk".
-  - answer: 電話番号
+  - answers:
+      - 電話番号
     toast: |-
       That's "phone number"!
       This one adds an extra kanji at the end meaning "number".
-  - answer: 携帯電話
+  - answers:
+      - 携帯電話
     toast: |-
       That's "cellphone"!
       This one adds two kanji in front meaning "portable/carry".
@@ -1465,15 +1672,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 友人
+  - answers:
+      - 友人
     toast: |-
       That's a more formal word meaning "friend" (often used in writing).
       The prompt expects the everyday casual term.
-  - answer: 仲間
+  - answers:
+      - 仲間
     toast: |-
       That's "companion/groupmate".
       It suggests being in the same group or team, not just a general friend.
-  - answer: 知り合い
+  - answers:
+      - 知り合い
     toast: |-
       That's "acquaintance".
       It implies you know the person but aren't necessarily close.
@@ -1488,15 +1698,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 七時
+  - answers:
+      - 七時
     toast: |-
       That's "seven o'clock"!
       時 is used for clock time (hours), not a duration in minutes.
-  - answer: 七分間
+  - answers:
+      - 七分間
     toast: |-
       That's "for seven minutes"!
       間 adds the nuance of a time span/period.
-  - answer: 十分
+  - answers:
+      - 十分
     toast: |-
       That's "ten minutes" (or "enough")!
       Watch the first kanji: it changes the number.
@@ -1510,15 +1723,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 可
+  - answers:
+      - 可
     toast: |-
       Different kanji!
       Watch the inner box shape and the lower strokes—this one looks simpler overall.
-  - answer: 向
+  - answers:
+      - 向
     toast: |-
       Different kanji!
       This one has a clear 'mouth' 口 on the left and the opening faces differently.
-  - answer: 名
+  - answers:
+      - 名
     toast: |-
       Different kanji!
       This one includes a clear 口 component at the bottom; pay attention to the lower part.
@@ -1533,15 +1749,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 氏名
+  - answers:
+      - 氏名
     toast: |-
       That's "full name" (often in official forms).
       This one is more formal than the everyday word.
-  - answer: 名字
+  - answers:
+      - 名字
     toast: |-
       That's "family name / surname".
       Not the general word for a person's name.
-  - answer: 名前は？
+  - answers:
+      - 名前は？
     toast: |-
       That's a full question phrase ("What's your name?").
       The prompt is asking for the noun only.
@@ -1556,15 +1775,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 向
+  - answers:
+      - 向
     toast: |-
       Looks similar, but this one has a box shape with an opening and different inner lines.
       Watch the direction and placement of the strokes.
-  - answer: 可
+  - answers:
+      - 可
     toast: |-
       Similar outline, but this one is simpler and the inside is different.
       Check the number and placement of interior strokes.
-  - answer: 何で
+  - answers:
+      - 何で
     toast: |-
       That's the phrase meaning "why/with what" (often read なんで).
       The prompt is asking for the standalone word meaning "what".
@@ -1577,15 +1799,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 二日
+  - answers:
+      - 二日
     toast: |-
       That's "futsuka" (the 2nd day / two days)!
       This uses the day counter 日, not a time-of-day expression.
-  - answer: 二児
+  - answers:
+      - 二児
     toast: |-
       That's "two children"!
       児 means child; this is not used for telling time.
-  - answer: 二字
+  - answers:
+      - 二字
     toast: |-
       That's "two characters/letters"!
       字 means written character; it's not the time suffix.
@@ -1598,15 +1823,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 十分
+  - answers:
+      - 十分
     toast: |-
       That's "ten minutes"!
       Check whether the amount is doubled.
-  - answer: 二十日
+  - answers:
+      - 二十日
     toast: |-
       That's "twentieth day / 20 days"!
       The last kanji is for "day" rather than minutes.
-  - answer: 二十
+  - answers:
+      - 二十
     toast: |-
       That's just "twenty"!
       This prompt is asking for a duration, so include the counter for minutes.
@@ -1619,15 +1847,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 二時
+  - answers:
+      - 二時
     toast: |-
       That's just "two o'clock" (2:00).
       No "half" is included.
-  - answer: 三時半
+  - answers:
+      - 三時半
     toast: |-
       That's "half past three" (3:30).
       Check the hour number.
-  - answer: 二時三十分
+  - answers:
+      - 二時三十分
     toast: |-
       That's also 2:30, but it's the "2 o'clock 30 minutes" way.
       The prompt expects the common "half" expression.
@@ -1640,15 +1871,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 十分
+  - answers:
+      - 十分
     toast: |-
       That's "ten minutes".
       The prompt is for a longer duration.
-  - answer: 二十
+  - answers:
+      - 二十
     toast: |-
       That's just "twenty".
       The prompt includes a time unit (minutes).
-  - answer: 二十人
+  - answers:
+      - 二十人
     toast: |-
       That's "twenty people".
       人 is the counter for people, not minutes.
@@ -1661,15 +1895,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 二十分
+  - answers:
+      - 二十分
     toast: |-
       That's "20 minutes"!
       Check the number of tens (十) added to the minutes counter.
-  - answer: 二秒
+  - answers:
+      - 二秒
     toast: |-
       That's "2 seconds"!
       The unit kanji is different: seconds vs. minutes.
-  - answer: 二分間
+  - answers:
+      - 二分間
     toast: |-
       That's "for two minutes" (a time span)!
       This version adds the duration marker 間.
@@ -1682,15 +1919,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: にほん
+  - answers:
+      - にほん
     toast: |-
       That's the kana spelling.
       This prompt expects the standard kanji form.
-  - answer: 中国
+  - answers:
+      - 中国
     toast: |-
       That's "China."
       Different country name and different kanji.
-  - answer: 本日
+  - answers:
+      - 本日
     toast: |-
       That's "today" (honjitsu).
       Same two kanji, but the order is reversed and the meaning changes.
@@ -1703,15 +1943,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 日本
+  - answers:
+      - 日本
     toast: |-
       That's "Japan" (the country).
       The prompt is asking for the language, so it needs the language/word suffix.
-  - answer: 英語
+  - answers:
+      - 英語
     toast: |-
       That's "English".
       Both end with the same language suffix; the first kanji indicates which country.
-  - answer: 国語
+  - answers:
+      - 国語
     toast: |-
       That's "national language / language class".
       This is a different word; it's not specifically the Japanese language name.
@@ -1724,15 +1967,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 日本語
+  - answers:
+      - 日本語
     toast: |-
       That's "Japanese (language)"!
       This one refers to the language, not people.
-  - answer: 日本
+  - answers:
+      - 日本
     toast: |-
       That's "Japan"!
       This one is the country name, missing the "person" part.
-  - answer: 外国人
+  - answers:
+      - 外国人
     toast: |-
       That's "foreigner"!
       This one is for people from outside the country.
@@ -1745,15 +1991,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: ～年
+  - answers:
+      - ～年
     toast: |-
       That's just "... year" (a year/age marker).
       The prompt is about a student in a school year.
-  - answer: ～生
+  - answers:
+      - ～生
     toast: |-
       That's just "... student" (suffix).
       The prompt specifies the school year, so it needs the year part too.
-  - answer: ～年生まれ
+  - answers:
+      - ～年生まれ
     toast: |-
       That's "born in ... year".
       It's about birth year, not a student's grade.
@@ -1765,15 +2014,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: いいえ
+  - answers:
+      - いいえ
     toast: |-
       That's "no".
       Use this when you want to refuse or negate.
-  - answer: うん
+  - answers:
+      - うん
     toast: |-
       That's a casual "yeah".
       This is informal and not as polite.
-  - answer: ハイ
+  - answers:
+      - ハイ
     toast: |-
       That's katakana.
       The prompt expects hiragana (curvier shapes).
@@ -1786,15 +2038,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 八日
+  - answers:
+      - 八日
     toast: |-
       That's “the 8th day / eight days” (ようか).
       Look for the time-related kanji vs the day counter.
-  - answer: 八歳
+  - answers:
+      - 八歳
     toast: |-
       That's “eight years old” (はっさい).
       This uses the age counter, not the time kanji.
-  - answer: 八時半
+  - answers:
+      - 八時半
     toast: |-
       That's “half past eight” (はちじはん).
       The extra character adds “half,” so it’s a different time.
@@ -1808,15 +2063,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 十分
+  - answers:
+      - 十分
     toast: |-
       That's "ten minutes".
       Watch the first kanji: it changes the number of minutes.
-  - answer: 八時
+  - answers:
+      - 八時
     toast: |-
       That's "eight o'clock".
       The second kanji means "time/hour" rather than minutes.
-  - answer: 八分目
+  - answers:
+      - 八分目
     toast: |-
       That's "80% / about eight-tenths".
       Look for the extra character at the end.
@@ -1829,15 +2087,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 八分目
+  - answers:
+      - 八分目
     toast: |-
       That's "eight-tenths / 80%" (like a portion level).
       It includes the suffix 目 (me).
-  - answer: 八分音符
+  - answers:
+      - 八分音符
     toast: |-
       That's "eighth note" (music term).
       Look for the extra 音符 at the end.
-  - answer: 八時
+  - answers:
+      - 八時
     toast: |-
       That's "eight o'clock".
       This prompt is about minutes (分), not time-of-day hour (時).
@@ -1852,15 +2113,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 中
+  - answers:
+      - 中
     toast: |-
       Similar shape, but this one has a single vertical line through the middle.
       Watch the extra short stroke near the top in the target kanji.
-  - answer: 牛
+  - answers:
+      - 牛
     toast: |-
       Looks close, but this one has the “cow” structure.
       Pay attention to where the horizontal lines cross the vertical.
-  - answer: 平
+  - answers:
+      - 平
     toast: |-
       Also boxy with horizontals, but this one is “flat/peace.”
       Check whether there’s a boxed-in middle versus open lines.
@@ -1873,15 +2137,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: ～号
+  - answers:
+      - ～号
     toast: |-
       That’s the suffix for an issue/numbered item (like bus lines, rooms, editions).
       Used for labels like “No. 3”, not rank/order.
-  - answer: ～番目
+  - answers:
+      - ～番目
     toast: |-
       That means “the ~th” (ordinal position).
       Used when counting order like “second/third”, often with 目 added.
-  - answer: ～台
+  - answers:
+      - ～台
     toast: |-
       That’s a counter for machines/vehicles.
       Not used for ranking or numbering people/items in order.
@@ -1895,15 +2162,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 番組
+  - answers:
+      - 番組
     toast: |-
       That's "program/show"!
       The second kanji means "group" (like a TV show or class), not "number."
-  - answer: 数
+  - answers:
+      - 数
     toast: |-
       That's "count/number (quantity)"!
       This is about how many, not an ID/assigned number.
-  - answer: 電話番号
+  - answers:
+      - 電話番号
     toast: |-
       That's specifically "telephone number"!
       The prompt is asking for the general word.
@@ -1917,15 +2187,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: ビジネスマン
+  - answers:
+      - ビジネスマン
     toast: |-
       That's "businessperson"!
       It includes マン (man/person), so it's a longer word.
-  - answer: ビジネスホテル
+  - answers:
+      - ビジネスホテル
     toast: |-
       That's a "business hotel"!
       It's a compound word; the prompt is just the general concept.
-  - answer: ビジネス
+  - answers:
+      - ビジネス
     toast: |-
       Check your strokes and character shapes.
       Katakana needs sharp angles and clear separations, especially around ジ and ネ.
@@ -1937,15 +2210,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: フィリピーナ
+  - answers:
+      - フィリピーナ
     toast: |-
       That's the feminine form (often used for a Filipina person).
       The prompt is for the country name, not a person.
-  - answer: フィリピノ
+  - answers:
+      - フィリピノ
     toast: |-
       That's a term for a Filipino person/language.
       The prompt is asking for the country name.
-  - answer: フイリピン
+  - answers:
+      - フイリピン
     toast: |-
       Careful: this uses a full-sized イ.
       You need the small vowel after フ (a tiny イ) to make the right sound.
@@ -1959,15 +2235,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 文化
+  - answers:
+      - 文化
     toast: |-
       That's "culture"!
       The second kanji is different: 化 is about change/transform, not study/learning.
-  - answer: 文学部
+  - answers:
+      - 文学部
     toast: |-
       That's a university faculty/department name!
       The prompt is just the general noun, not the school division.
-  - answer: 文章
+  - answers:
+      - 文章
     toast: |-
       That's "sentences/writing"!
       This is about written text itself, not the broader field of literary works.
@@ -1981,15 +2260,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 裁判官
+  - answers:
+      - 裁判官
     toast: |-
       That's a judge.
       This role presides over the court and makes decisions, not representing a client.
-  - answer: 検察官
+  - answers:
+      - 検察官
     toast: |-
       That's a prosecutor.
       This one brings charges and represents the state, not a private client.
-  - answer: 法律家
+  - answers:
+      - 法律家
     toast: |-
       That's a legal expert (general term).
       It doesn't specifically mean someone with the attorney qualification.
@@ -2002,15 +2284,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 四日
+  - answers:
+      - 四日
     toast: |-
       That's "the 4th day / four days"!
       Look out for the kanji used for "o'clock" vs "day".
-  - answer: 四字
+  - answers:
+      - 四字
     toast: |-
       That's "four characters" (like a four-character idiom)!
       The second kanji means "character/letter," not time.
-  - answer: 一時
+  - answers:
+      - 一時
     toast: |-
       That's "one o’clock"!
       The second kanji is correct for time, but the first kanji is a different number.
@@ -2023,15 +2308,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 四分間
+  - answers:
+      - 四分間
     toast: |-
       That's "for four minutes" (a duration).
       The prompt is just the amount "four minutes" without 間.
-  - answer: 四十分
+  - answers:
+      - 四十分
     toast: |-
       That's "forty minutes".
       Watch out for the extra 十 in the middle.
-  - answer: 四時
+  - answers:
+      - 四時
     toast: |-
       That's "four o'clock".
       This one uses 時 (time of day), not 分 (minutes).
@@ -2044,15 +2332,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 交換学生
+  - answers:
+      - 交換学生
     toast: |-
       That's an exchange student.
       This refers to a temporary swap program between schools.
-  - answer: 留学
+  - answers:
+      - 留学
     toast: |-
       That's "studying abroad" (the act/program).
       The prompt is asking for the person (a student).
-  - answer: 外国人学生
+  - answers:
+      - 外国人学生
     toast: |-
       That's a foreign student (nationality-based).
       The prompt focuses on studying abroad rather than nationality.
@@ -2065,15 +2356,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 歴代
+  - answers:
+      - 歴代
     toast: |-
       That's about successive generations/lineage.
       Used for things like past rulers or past winners.
-  - answer: 史実
+  - answers:
+      - 史実
     toast: |-
       That's "historical fact".
       Refers to what actually happened, not the broader field.
-  - answer: 地理
+  - answers:
+      - 地理
     toast: |-
       That's "geography".
       A different school subject (places/land), not past events.
@@ -2086,15 +2380,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 六日
+  - answers:
+      - 六日
     toast: |-
       That’s “sixth day of the month” / “six days”.
       Time uses the kanji for “hour” (o’clock), not “day”.
-  - answer: 六児
+  - answers:
+      - 六児
     toast: |-
       That last kanji means “child” (rare in this context).
       For clock time, the last kanji should mean “hour/o’clock”.
-  - answer: 五時
+  - answers:
+      - 五時
     toast: |-
       That’s “five o’clock”.
       Watch the number kanji at the beginning.
@@ -2107,15 +2404,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 六分間
+  - answers:
+      - 六分間
     toast: |-
       That includes 「間」.
       This one means “for six minutes” (a duration), not just “six minutes” as a time amount.
-  - answer: 十分
+  - answers:
+      - 十分
     toast: |-
       That means “ten minutes.”
       Watch the first kanji: it’s different from the one for “six.”
-  - answer: 六時
+  - answers:
+      - 六時
     toast: |-
       That means “six o’clock.”
       Time-of-day uses 「時」, not the counter for minutes.
@@ -2129,15 +2429,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 和
+  - answers:
+      - 和
     toast: |-
       Looks similar, but this one has the "mouth" (口) on the left side.
       Also commonly used in words related to Japan/peace.
-  - answer: 公
+  - answers:
+      - 公
     toast: |-
       Different kanji: this one is simpler and has a clear split at the top.
       Often appears in words meaning "public".
-  - answer: 自分
+  - answers:
+      - 自分
     toast: |-
       This means "oneself" and is used differently in conversation.
       Not the usual neutral pronoun for "I".

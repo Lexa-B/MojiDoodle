@@ -7,15 +7,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 愛する
+  - answers:
+      - 愛する
     toast: |-
       That’s the modern dictionary form with する.
       Your answer should be the shorter classical/literary verb form.
-  - answer: 恋する
+  - answers:
+      - 恋する
     toast: |-
       That means “to be in love / to fall in love,” often romantic.
       The prompt is the broader verb “to love.”
-  - answer: 愛
+  - answers:
+      - 愛
     toast: |-
       That’s the noun “love.”
       The prompt asks for a verb form ending with す.
@@ -27,15 +30,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: やめる
+  - answers:
+      - やめる
     toast: |-
       That's “to quit/stop”!
       It means stopping an action (often by choice), not necessarily giving up hope or a goal.
-  - answer: あきれる
+  - answers:
+      - あきれる
     toast: |-
       That's “to be fed up/astonished”!
       Different meaning: feeling exasperated or stunned, not abandoning an effort.
-  - answer: あきらか
+  - answers:
+      - あきらか
     toast: |-
       That's “clear/obvious”!
       It's an adjective-like word meaning something is evident, not a verb about stopping an attempt.
@@ -48,15 +54,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: くれる
+  - answers:
+      - くれる
     toast: |-
       That's "to give (to me/us)"!
       It’s used when the giver gives to you or your in-group.
-  - answer: もらう
+  - answers:
+      - もらう
     toast: |-
       That's "to receive"!
       This focuses on getting something, not giving it.
-  - answer: あげます
+  - answers:
+      - あげます
     toast: |-
       That's the polite form (-ます)!
       The prompt is asking for the plain dictionary form.
@@ -68,15 +77,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: アドレス
+  - answers:
+      - アドレス
     toast: |-
       That's "address"!
       Watch the middle: this one uses レ, not バイ.
-  - answer: サービス
+  - answers:
+      - サービス
     toast: |-
       That's "service"!
       Different start: this one begins with サ, not アド.
-  - answer: アバイス
+  - answers:
+      - アバイス
     toast: |-
       Close, but check the dakuten (゛) placement!
       One version has a voiced sound mark on the right character.
@@ -88,15 +100,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 万年筆
+  - answers:
+      - 万年筆
     toast: |-
       That's a fountain pen.
       Used with ink, not the standard wooden writing tool.
-  - answer: ボールペン
+  - answers:
+      - ボールペン
     toast: |-
       That's a ballpoint pen.
       It writes with ink and typically doesn't need sharpening.
-  - answer: 消しゴム
+  - answers:
+      - 消しゴム
     toast: |-
       That's an eraser.
       It's used to remove writing rather than to write.
@@ -108,15 +123,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 家主
+  - answers:
+      - 家主
     toast: |-
       That means “landlord/owner,” but it’s a more direct term.
       This prompt expects the common polite everyday word.
-  - answer: 店主
+  - answers:
+      - 店主
     toast: |-
       That’s “shop owner.”
       Different role: running a store, not renting property.
-  - answer: 大屋さん
+  - answers:
+      - 大屋さん
     toast: |-
       Close, but this uses a different kanji for おおや.
       Watch the second character: it changes the written form.
@@ -129,15 +147,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: お礼
+  - answers:
+      - お礼
     toast: |-
       That's "thanks/expressing gratitude"!
       This is the act of saying thank you, not a reciprocal gift or return gesture.
-  - answer: 返事
+  - answers:
+      - 返事
     toast: |-
       That's "reply/response"!
       This is answering someone (often verbally or in writing), not returning a gift.
-  - answer: お土産
+  - answers:
+      - お土産
     toast: |-
       That's "souvenir"!
       This is a gift from a trip, not something given back in return for receiving a gift.
@@ -150,15 +171,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 妻
+  - answers:
+      - 妻
     toast: |-
       That's the plain word for “wife.”
       The prompt is asking for the polite term used for someone else’s spouse.
-  - answer: 家内
+  - answers:
+      - 家内
     toast: |-
       That's a humble/colloquial way to refer to your own wife.
       This prompt is for addressing or talking about someone else’s spouse politely.
-  - answer: 旦那さん
+  - answers:
+      - 旦那さん
     toast: |-
       That's “husband.”
       Be careful: this one refers to the male spouse.
@@ -171,15 +195,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 贈る
+  - answers:
+      - 贈る
     toast: |-
       That's “to give (as a gift)”!
       Used for presents or awards, not general sending.
-  - answer: 送信する
+  - answers:
+      - 送信する
     toast: |-
       That's “to transmit/send (data/email)”!
       This is specifically for electronic sending.
-  - answer: 届ける
+  - answers:
+      - 届ける
     toast: |-
       That's “to deliver”!
       Focus is on making it arrive, not the act of sending.
@@ -192,15 +219,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 皿
+  - answers:
+      - 皿
     toast: |-
       Missing the polite prefix.
       Watch for the leading hiragana at the start.
-  - answer: お茶
+  - answers:
+      - お茶
     toast: |-
       Different meaning (tea).
       The second character has many strokes and a different shape.
-  - answer: お椀
+  - answers:
+      - お椀
     toast: |-
       That's a bowl.
       Different container: deeper shape and different kanji on the right.
@@ -213,15 +243,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: おじいさん
+  - answers:
+      - おじいさん
     toast: |-
       That’s “grandfather/old man.”
       It has an extra long vowel (い) and refers to someone older.
-  - answer: おばさん
+  - answers:
+      - おばさん
     toast: |-
       That’s “aunt/middle-aged woman.”
       Watch the vowel: じ vs ば changes both sound and meaning.
-  - answer: お兄さん
+  - answers:
+      - お兄さん
     toast: |-
       That’s “older brother/young man (polite).”
       This one uses a different word; it’s not about an uncle.
@@ -246,7 +279,8 @@
     toast: |-
       That's "pretty/clean".
       This describes beauty or cleanliness, not fashion sense.
-  - answer: かっこいい
+  - answers:
+      - かっこいい
     toast: |-
       That's "cool/good-looking".
       This is broader than fashion and not a な-adjective.
@@ -260,15 +294,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: おばあさん
+  - answers:
+      - おばあさん
     toast: |-
       That’s “grandmother/elderly woman.”
       Watch for the extra あ (long vowel).
-  - answer: おじさん
+  - answers:
+      - おじさん
     toast: |-
       That’s “uncle/middle-aged man.”
       じ (ji) vs ば (ba).
-  - answer: おねえさん
+  - answers:
+      - おねえさん
     toast: |-
       That’s “older sister/young woman.”
       It uses ねえ with a long え sound.
@@ -280,15 +317,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 急ぐ
+  - answers:
+      - 急ぐ
     toast: |-
       That’s the verb “to hurry.”
       The prompt is an adverb meaning “suddenly,” often followed by に.
-  - answer: 突然
+  - answers:
+      - 突然
     toast: |-
       That means “sudden(ly)” too, but it’s a different word.
       Often used in more formal/written contexts.
-  - answer: いきなり
+  - answers:
+      - いきなり
     toast: |-
       That means “all of a sudden/without warning,” but it’s a different expression.
       Often implies no preparation or abrupt action.
@@ -300,15 +340,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: くりすます
+  - answers:
+      - くりすます
     toast: |-
       That's hiragana.
       The prompt expects the katakana loanword spelling.
-  - answer: クリスマスイブ
+  - answers:
+      - クリスマスイブ
     toast: |-
       That's Christmas Eve.
       This one adds an extra word after Christmas.
-  - answer: サンタ
+  - answers:
+      - サンタ
     toast: |-
       That's Santa.
       Different word: the person, not the holiday.
@@ -321,15 +364,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: あげる
+  - answers:
+      - あげる
     toast: |-
       That's “to give (to someone else)” from the giver’s side.
       Use it when you/your side gives to others.
-  - answer: もらう
+  - answers:
+      - もらう
     toast: |-
       That's “to receive.”
       It focuses on the receiver getting something, not the act of giving.
-  - answer: くださる
+  - answers:
+      - くださる
     toast: |-
       That's the honorific form.
       Use it when the giver is a respected person (polite).
@@ -342,15 +388,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: ～さん
+  - answers:
+      - ～さん
     toast: |-
       That’s the standard polite honorific.
       This prompt wants a more casual suffix, often used for boys/juniors.
-  - answer: ～ちゃん
+  - answers:
+      - ～ちゃん
     toast: |-
       That’s a cute/diminutive honorific.
       It’s used for children, close friends, or affection, not the casual junior-style suffix here.
-  - answer: ～様
+  - answers:
+      - ～様
     toast: |-
       That’s a very respectful honorific used in formal situations.
       This prompt is asking for a casual suffix instead.
@@ -362,15 +411,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 化粧
+  - answers:
+      - 化粧
     toast: |-
       That's just "makeup" (the act/style), not the product category.
       Look for the extra part meaning "goods/items".
-  - answer: 日用品
+  - answers:
+      - 日用品
     toast: |-
       That's "daily necessities".
       Different category from beauty/makeup products.
-  - answer: 医薬品
+  - answers:
+      - 医薬品
     toast: |-
       That's "medicines/pharmaceuticals".
       Different kanji and used for drugs, not beauty products.
@@ -382,15 +434,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 安い
+  - answers:
+      - 安い
     toast: |-
       That means "inexpensive/cheap (price)".
       The prompt is about being stingy or miserly (a personality/attitude).
-  - answer: みみっちい
+  - answers:
+      - みみっちい
     toast: |-
       That means "petty" or "small-minded".
       Close in meaning, but it's a different word and nuance.
-  - answer: ケチな
+  - answers:
+      - ケチな
     toast: |-
       That's the katakana spelling.
       The prompt expects the hiragana form (softer, curvier shapes).
@@ -403,15 +458,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: ～こ
+  - answers:
+      - ～こ
     toast: |-
       That's the kana-only form.
       The prompt expects the kanji counter form.
-  - answer: ～本
+  - answers:
+      - ～本
     toast: |-
       That's the counter for long, cylindrical objects (bottles, pencils, trees).
       Not the general/small-item counter.
-  - answer: ～枚
+  - answers:
+      - ～枚
     toast: |-
       That's the counter for flat things (paper, shirts, plates).
       Not the small-item/general counter.
@@ -424,14 +482,17 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 主人
+  - answers:
+      - 主人
     toast: |-
       This is less polite/less honorific.
       Often used for "my husband" (or "master/owner") depending on context.
-  - answer: ご夫君
+  - answers:
+      - ご夫君
     toast: This is also "(your) husband" but is more formal and used in limited contexts
       (often in writing).
-  - answer: 奥さん
+  - answers:
+      - 奥さん
     toast: |-
       That's "wife".
       Different spouse term and the kanji is completely different.
@@ -444,15 +505,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: そんな～
+  - answers:
+      - そんな～
     toast: |-
       That means "... like that" (near the listener or previously mentioned).
       Use it when referring to something on the other side, not near the speaker.
-  - answer: あんな～
+  - answers:
+      - あんな～
     toast: |-
       That means "... like that (over there)".
       It points to something far from both speaker and listener.
-  - answer: どんな～
+  - answers:
+      - どんな～
     toast: |-
       That means "what kind of ...?".
       It’s used for asking a question, not pointing to an example.
@@ -465,15 +529,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: さあ？
+  - answers:
+      - さあ？
     toast: |-
       That adds a question mark.
       Write just the expression in hiragana (no punctuation).
-  - answer: まあ
+  - answers:
+      - まあ
     toast: |-
       That means “well; so-so; now then.”
       It’s a different hesitation expression, not “I’m not sure.”
-  - answer: そうかな
+  - answers:
+      - そうかな
     toast: |-
       That means “is that so? / I wonder if that’s true.”
       It’s questioning a statement rather than saying you don’t know.
@@ -488,15 +555,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: ～冊子
+  - answers:
+      - ～冊子
     toast: |-
       That's "booklet/pamphlet" (a noun), not a counter suffix.
       This one refers to a small bound publication.
-  - answer: ～巻
+  - answers:
+      - ～巻
     toast: |-
       That's the counter for volumes/scrolls and often manga/series volumes.
       Use this when counting a volume in a set rather than general bound books.
-  - answer: ～本
+  - answers:
+      - ～本
     toast: |-
       That's a counter for long cylindrical objects, and also a common way to count movies/phone calls.
       Not the standard counter for bound volumes like books.
@@ -509,15 +579,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 血
+  - answers:
+      - 血
     toast: |-
       That’s the kanji for “blood.”
       Watch the inner part: this one has an extra stroke/mark inside compared to a simple dish shape.
-  - answer: 且
+  - answers:
+      - 且
     toast: |-
       That’s a different kanji used as a component in many characters.
       Make sure you include the “dish” shape with the bottom line.
-  - answer: 日
+  - answers:
+      - 日
     toast: |-
       That’s “sun/day.”
       This one is a simple box with two horizontals—don’t forget the dish-like bottom line/shape.
@@ -529,15 +602,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 時期
+  - answers:
+      - 時期
     toast: |-
       That's “time/season/period (timing)”.
       More like a phase or timing, not an “era” in history.
-  - answer: 年代
+  - answers:
+      - 年代
     toast: |-
       That's “years/decade/age bracket”.
       Used for a span of years or someone’s age group (e.g., 20s).
-  - answer: 世代
+  - answers:
+      - 世代
     toast: |-
       That's “generation”.
       Refers to people born around the same time, not a historical era.
@@ -549,15 +625,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: しゃつ
+  - answers:
+      - しゃつ
     toast: |-
       That's hiragana.
       The prompt expects katakana for a loanword.
-  - answer: シャッツ
+  - answers:
+      - シャッツ
     toast: |-
       Extra small ッ changes the rhythm.
       This word has only one small ッ before ツ.
-  - answer: シヤツ
+  - answers:
+      - シヤツ
     toast: |-
       That uses big ヤ instead of small ャ.
       Small ャ makes the combined sound.
@@ -569,15 +648,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 旅行
+  - answers:
+      - 旅行
     toast: |-
       That's "travel/trip" in general.
       This one is for work-related trips (often short and scheduled).
-  - answer: 出勤
+  - answers:
+      - 出勤
     toast: |-
       That's "commuting to work / going to the office".
       Not an out-of-town work trip.
-  - answer: 出発
+  - answers:
+      - 出発
     toast: |-
       That's "departure".
       It focuses on leaving, not the purpose of a work trip.
@@ -590,15 +672,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 後輩
+  - answers:
+      - 後輩
     toast: |-
       That's "junior" (kouhai)!
       It refers to someone who joined after you or is lower in rank.
-  - answer: 先生
+  - answers:
+      - 先生
     toast: |-
       That's "teacher / instructor"!
       Used for teachers, doctors, and other professionals—not simply an upperclassman.
-  - answer: 上司
+  - answers:
+      - 上司
     toast: |-
       That's "boss / supervisor"!
       This is a workplace rank relationship, not the general senior–junior relationship in a group.
@@ -610,15 +695,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 相談
+  - answers:
+      - 相談
     toast: |-
       That's just the noun form ("consultation").
       The prompt expects the verb form with する.
-  - answer: 相談して
+  - answers:
+      - 相談して
     toast: |-
       That's the て-form used to connect actions ("consult and...").
       The prompt expects the dictionary form.
-  - answer: 話し合う
+  - answers:
+      - 話し合う
     toast: |-
       That's "to discuss/talk things over" (a mutual discussion).
       This prompt is about seeking advice/consulting.
@@ -630,15 +718,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: ～枚
+  - answers:
+      - ～枚
     toast: |-
       That's the counter for flat things (paper, shirts).
       Equipment/machines use a different counter.
-  - answer: ～個
+  - answers:
+      - ～個
     toast: |-
       That's a general-purpose counter for small items.
       For machines/vehicles, a more specific counter is expected.
-  - answer: ～本
+  - answers:
+      - ～本
     toast: |-
       That's the counter for long cylindrical things (bottles, pencils).
       Machines/vehicles don't use this one.
@@ -651,15 +742,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: ～ら
+  - answers:
+      - ～ら
     toast: |-
       That’s another plural suffix.
       It’s more casual and is often used with pronouns (e.g., 俺ら).
-  - answer: ～ども
+  - answers:
+      - ～ども
     toast: |-
       That suffix can sound humble (私ども) or insulting (あいつども) depending on context.
       Different nuance from a neutral plural.
-  - answer: ～たち（達）
+  - answers:
+      - ～たち（達）
     toast: |-
       Same meaning, but written with kanji.
       This prompt expects the kana form.
@@ -671,15 +765,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 父
+  - answers:
+      - 父
     toast: |-
       This is just "father" as a single kanji.
       The prompt is asking for the noun meaning "father" as a full word.
-  - answer: 母親
+  - answers:
+      - 母親
     toast: |-
       This is "mother".
       Watch the left radical: 女 (woman) vs the one used for "father".
-  - answer: お父さん
+  - answers:
+      - お父さん
     toast: |-
       This is the polite way to say "dad".
       The prompt expects the more formal kanji word used as a noun.
@@ -692,15 +789,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 気をつける
+  - answers:
+      - 気をつける
     toast: |-
       That's “to be careful” in a more general way.
       The prompt expects the cautions/warnings sense often used with signs or instructions.
-  - answer: 警告する
+  - answers:
+      - 警告する
     toast: |-
       That's a stronger “to warn” (formal/serious).
       The target word is the common caution used in everyday situations.
-  - answer: 注目する
+  - answers:
+      - 注目する
     toast: |-
       That's “to pay attention / watch closely.”
       This is about focusing your eyes/interest, not warning or cautioning.
@@ -712,15 +812,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: ちょっと
+  - answers:
+      - ちょっと
     toast: |-
       That's “a little/for a moment”!
       Often used to soften requests or mean “just a bit,” not “exactly.”
-  - answer: ぴったり
+  - answers:
+      - ぴったり
     toast: |-
       That's “perfectly (fits)/right on”!
       This emphasizes a perfect match or fit, like clothing or exact timing.
-  - answer: まさに
+  - answers:
+      - まさに
     toast: |-
       That's “precisely/just (as you say)”!
       Used for emphasis like “indeed,” rather than neutral “exactly.”
@@ -732,15 +835,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: ちょこれーと
+  - answers:
+      - ちょこれーと
     toast: |-
       That's hiragana.
       The prompt expects a katakana loanword spelling.
-  - answer: チョコ
+  - answers:
+      - チョコ
     toast: |-
       That's the shortened form (“choco”).
       The prompt is asking for the full word.
-  - answer: チョコラート
+  - answers:
+      - チョコラート
     toast: |-
       Close, but this spelling drops the small「レ」sound.
       Watch the sequence around「コ・レ」and the long vowel mark.
@@ -752,15 +858,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 出会う
+  - answers:
+      - 出会う
     toast: |-
       That's "to meet/encounter"!
       This is about meeting someone, not being in a relationship or keeping someone company.
-  - answer: 付き添う
+  - answers:
+      - 付き添う
     toast: |-
       That's "to accompany/attend (as an escort)"!
       This is more like escorting or staying by someone's side, not dating.
-  - answer: 交際する
+  - answers:
+      - 交際する
     toast: |-
       That's "to associate/date" in a more formal/abstract way!
       The prompt likely expects the everyday verb form.
@@ -773,15 +882,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 出来る
+  - answers:
+      - 出来る
     toast: |-
       That's the kanji form.
       The prompt expects the kana form (common in everyday writing).
-  - answer: 作る
+  - answers:
+      - 作る
     toast: |-
       That's "to make" (actively create).
       This one is about something becoming completed/coming into existence.
-  - answer: 生まれる
+  - answers:
+      - 生まれる
     toast: |-
       That's "to be born".
       This one is more general: something gets made/finished or comes into existence.
@@ -794,15 +906,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: どうすればいい
+  - answers:
+      - どうすればいい
     toast: |-
       Close, but this is a different phrasing.
       This one uses すれば (from する) rather than したら (from する).
-  - answer: どうしたの
+  - answers:
+      - どうしたの
     toast: |-
       That's asking what happened/what's wrong.
       It doesn't ask for advice on what to do.
-  - answer: どうしよう
+  - answers:
+      - どうしよう
     toast: |-
       That's "what should I do..." as a self-directed thought.
       It’s not the advice-seeking pattern with 〜たら/〜れば + いい.
@@ -815,15 +930,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: パーカー
+  - answers:
+      - パーカー
     toast: |-
       That's a hoodie!
       Usually has a hood (often with a front pocket), unlike a plain sweatshirt.
-  - answer: ジャージ
+  - answers:
+      - ジャージ
     toast: |-
       That's a tracksuit/jersey!
       Sportswear, often a set or athletic top, not specifically a sweatshirt.
-  - answer: セーター
+  - answers:
+      - セーター
     toast: |-
       That's a sweater!
       Typically knitted (wool-like), different from a sweatshirt's fabric.
@@ -835,15 +953,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 悩む
+  - answers:
+      - 悩む
     toast: |-
       That's the verb form (“to be troubled”).
       The prompt is asking for the noun meaning “a worry/concern.”
-  - answer: 心配
+  - answers:
+      - 心配
     toast: |-
       That's “anxiety/concern.”
       This one is more like being worried about something rather than being troubled/tormented by it.
-  - answer: 問題
+  - answers:
+      - 問題
     toast: |-
       That's “problem/issue.”
       This is about an objective issue, not a personal worry.
@@ -855,15 +976,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 合う
+  - answers:
+      - 合う
     toast: |-
       That's just "to match/fit" in general.
       The prompt is about something suiting a person (appearance/style).
-  - answer: 似る
+  - answers:
+      - 似る
     toast: |-
       That's "to resemble" (to be similar).
       The prompt is about looking good on someone, not looking similar.
-  - answer: 似ている
+  - answers:
+      - 似ている
     toast: |-
       That's "to look like" (resemblance).
       The prompt is about something suiting someone (clothes/style), not similarity.
@@ -876,15 +1000,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: ぬいぐるみ（縫い包み）
+  - answers:
+      - ぬいぐるみ（縫い包み）
     toast: |-
       That's the kanji spelling variant.
       The prompt expects the common kana form used in everyday writing.
-  - answer: ぬいもの
+  - answers:
+      - ぬいもの
     toast: |-
       That's "sewing/needlework".
       This refers to the activity or sewn items, not a plush toy.
-  - answer: ぬいぐるま
+  - answers:
+      - ぬいぐるま
     toast: |-
       That's a different word.
       Watch the ending: み vs ま changes the meaning.
@@ -897,15 +1024,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: ねくたい
+  - answers:
+      - ねくたい
     toast: |-
       That's hiragana.
       The prompt is a loanword, so it should be written in katakana.
-  - answer: ネクタリ
+  - answers:
+      - ネクタリ
     toast: |-
       Check the last character.
       イ has a short diagonal stroke; リ has two separate strokes.
-  - answer: ネクター
+  - answers:
+      - ネクター
     toast: |-
       Check the last character.
       A long vowel mark 「ー」 is not used here; it ends with a small diagonal stroke character.
@@ -918,15 +1048,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: ～年
+  - answers:
+      - ～年
     toast: |-
       That's the year counter (what year / number of years as a count).
       This prompt is asking for a duration over a span of time.
-  - answer: ～年中
+  - answers:
+      - ～年中
     toast: |-
       That's “throughout the year / all year long.”
       Different nuance: it means the whole period is covered, not just a number of years.
-  - answer: ～年頃
+  - answers:
+      - ～年頃
     toast: |-
       That's “around the year … / about … year.”
       It indicates an approximate time, not a duration.
@@ -938,15 +1071,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 場面
+  - answers:
+      - 場面
     toast: |-
       That's “scene/situation”!
       Used for a specific situation or moment, like in a movie or event.
-  - answer: 場合によって
+  - answers:
+      - 場合によって
     toast: |-
       That's “depending on the case”!
       It’s a longer set phrase that adds the nuance of ‘it varies’.
-  - answer: 時
+  - answers:
+      - 時
     toast: |-
       That's “time/when”!
       This refers to time in general, not specifically ‘in the case of …’.
@@ -960,15 +1096,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: パート
+  - answers:
+      - パート
     toast: |-
       That's “part-time job”!
       This is a shortened word and doesn’t mean a person you work with as a pair.
-  - answer: ハートナー
+  - answers:
+      - ハートナー
     toast: |-
       Close shape, but the first character is different.
       Watch the dakuten: ハ has none, パ has two small dots.
-  - answer: バートナー
+  - answers:
+      - バートナー
     toast: |-
       Close, but the first character is different.
       バ uses two dots (dakuten), while パ uses a small circle (handakuten).
@@ -981,15 +1120,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: ホワイトデー
+  - answers:
+      - ホワイトデー
     toast: |-
       That's White Day (3/14)!
       This is the day for returning gifts, not the February celebration.
-  - answer: クリスマス
+  - answers:
+      - クリスマス
     toast: |-
       That's Christmas!
       Different holiday and season—this one is in December.
-  - answer: ハロウィン
+  - answers:
+      - ハロウィン
     toast: |-
       That's Halloween!
       Different event—this one is associated with costumes and October.
@@ -1003,15 +1145,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: ～頭
+  - answers:
+      - ～頭
     toast: |-
       That's the counter for larger animals (and livestock).
       Use it for cows, horses, elephants, etc.
-  - answer: ～羽
+  - answers:
+      - ～羽
     toast: |-
       That's the counter for birds (and rabbits in some contexts).
       This counter relates to "wings/feathers."
-  - answer: ～尾
+  - answers:
+      - ～尾
     toast: |-
       That's the counter used in formal/scientific contexts for animals (fish, reptiles, etc.).
       This one relates to "tails."
@@ -1023,15 +1168,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 告白する
+  - answers:
+      - 告白する
     toast: |-
       That's "to confess (your feelings)".
       It can be romantic, but it's not specifically a marriage proposal.
-  - answer: 結婚する
+  - answers:
+      - 結婚する
     toast: |-
       That's "to get married".
       This is the act of marrying, not asking someone to marry you.
-  - answer: 申し込む
+  - answers:
+      - 申し込む
     toast: |-
       That's "to apply/request".
       Used for applications or reservations, not a romantic marriage question.
@@ -1043,15 +1191,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 欲しがる
+  - answers:
+      - 欲しがる
     toast: |-
       That's "to show signs of wanting" (about someone else).
       Used for third person desires, not your own direct want.
-  - answer: 欲しいです
+  - answers:
+      - 欲しいです
     toast: |-
       That's the polite form.
       The prompt expects the plain dictionary form, not a full polite sentence.
-  - answer: 要る
+  - answers:
+      - 要る
     toast: |-
       That's "to need/require".
       This is about necessity (often with は/が), not desire.
@@ -1063,15 +1214,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: バレンタインデー
+  - answers:
+      - バレンタインデー
     toast: |-
       That's "Valentine's Day"!
       That day is Feb 14; the prompt is the later return-gift day.
-  - answer: ホワイトデイ
+  - answers:
+      - ホワイトデイ
     toast: |-
       Close, but check the last sound.
       This one ends with イ, while the prompt version ends with the long vowel mark ー.
-  - answer: ホワイトテー
+  - answers:
+      - ホワイトテー
     toast: |-
       Watch the small marks.
       テ and デ are different: デ has dakuten (two little lines).
@@ -1085,15 +1239,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: ～枚
+  - answers:
+      - ～枚
     toast: |-
       That's the counter for flat objects (paper, shirts, plates).
       Use it for thin/flat items, not long cylinders.
-  - answer: ～個
+  - answers:
+      - ～個
     toast: |-
       That's a general counter for small objects.
       It's used when no specific counter fits, not specifically for long items.
-  - answer: ～匹
+  - answers:
+      - ～匹
     toast: |-
       That's the counter for small animals (cats, dogs, fish, insects).
       Not used for inanimate objects.
@@ -1106,15 +1263,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 本当
+  - answers:
+      - 本当
     toast: |-
       That’s the noun form (“truth / reality”).
       To use it as an adverb meaning “really,” you need the adverb form.
-  - answer: 実は
+  - answers:
+      - 実は
     toast: |-
       That means “actually / the truth is…” and often introduces a revelation.
       It’s not a general “really” for emphasis.
-  - answer: 本当に？
+  - answers:
+      - 本当に？
     toast: |-
       That includes a question mark and is used like “Really?” as a reaction.
       The prompt is for the plain adverb form.
@@ -1126,15 +1286,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: マフラ
+  - answers:
+      - マフラ
     toast: |-
       Looks like the same loanword, but it's missing the long-vowel mark (ー).
       Be careful to include long vowels where needed.
-  - answer: マフラーー
+  - answers:
+      - マフラーー
     toast: |-
       Extra long-vowel mark!
       This word uses the long vowel mark only once at the end.
-  - answer: マフレラ
+  - answers:
+      - マフレラ
     toast: |-
       Middle character is different.
       Pay attention to the small details in ラ vs レ and the following character.
@@ -1146,15 +1309,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 動画
+  - answers:
+      - 動画
     toast: |-
       That's "video"!
       The first kanji is different: it means "move" (motion), not "random/whimsical".
-  - answer: 小説
+  - answers:
+      - 小説
     toast: |-
       That's "novel"!
       This is prose/fiction writing, not illustrated comics.
-  - answer: 絵本
+  - answers:
+      - 絵本
     toast: |-
       That's "picture book"!
       This is typically for children with more pictures and simpler text.
@@ -1166,15 +1332,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 腕輪
+  - answers:
+      - 腕輪
     toast: |-
       That's an armband/bracelet!
       It goes around the arm (腕), not the finger.
-  - answer: 首輪
+  - answers:
+      - 首輪
     toast: |-
       That's a collar (often for pets)!
       It goes around the neck (首).
-  - answer: 指
+  - answers:
+      - 指
     toast: |-
       That's just 'finger'!
       You're missing the part that means a ring/circle.
@@ -1187,15 +1356,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: よっく
+  - answers:
+      - よっく
     toast: |-
       Extra small っ changes the sound.
       That would be unnatural here and makes it sound like an emphatic/incorrect form.
-  - answer: よけ
+  - answers:
+      - よけ
     toast: |-
       Last character is different.
       This one ends with け (ke), not く (ku).
-  - answer: ヨク
+  - answers:
+      - ヨク
     toast: |-
       That's katakana.
       The prompt expects hiragana, which is curvier and used for native adverbs.
@@ -1207,15 +1379,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: らじお
+  - answers:
+      - らじお
     toast: |-
       That's hiragana.
       This prompt is a loanword typically written in katakana.
-  - answer: ラジ
+  - answers:
+      - ラジ
     toast: |-
       That's incomplete.
       Make sure you include the long word ending with オ.
-  - answer: ラジア
+  - answers:
+      - ラジア
     toast: |-
       Last character differs.
       Check the final vowel shape (オ vs ア).
@@ -1228,15 +1403,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 親
+  - answers:
+      - 親
     toast: |-
       This means “parent,” but it can refer to just one parent.
       The prompt is for both parents as a pair.
-  - answer: 父母
+  - answers:
+      - 父母
     toast: |-
       This also means “father and mother,” but it’s a more literary/formal pairing.
       The prompt expects the common compound noun.
-  - answer: 家族
+  - answers:
+      - 家族
     toast: |-
       This means “family” (parents, children, etc.).
       The prompt is specifically only the parents.
@@ -1248,15 +1426,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: 職務経歴書
+  - answers:
+      - 職務経歴書
     toast: |-
       That's a "work history / job experience" document.
       Used to detail duties and achievements, not the standard personal résumé.
-  - answer: 身分証明書
+  - answers:
+      - 身分証明書
     toast: |-
       That's an "ID / proof of identity" document.
       It's for verifying who you are, not applying for a job.
-  - answer: 申込書
+  - answers:
+      - 申込書
     toast: |-
       That's an "application form".
       It's a form you fill in to apply, not a personal résumé document.

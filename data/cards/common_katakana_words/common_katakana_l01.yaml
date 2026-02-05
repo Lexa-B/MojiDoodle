@@ -1,0 +1,150 @@
+- id: ckw-l01-142
+  prompt: percent
+  answers:
+    - パーセント
+  hint: noun/counter
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l01-351
+  prompt: page
+  answers:
+    - ページ
+  hint: noun/counter
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l01-420
+  prompt: center
+  answers:
+    - センター
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l01-549
+  prompt: service
+  answers:
+    - サービス
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l01-557
+  prompt: system
+  answers:
+    - システム
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l01-574
+  prompt: meter
+  answers:
+    - メートル
+  hint: noun/counter
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l01-589
+  prompt: television, TV
+  answers:
+    - テレビ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l01-592
+  prompt: email, mail
+  answers:
+    - メール
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - メイル
+    toast: |-
+      Check your spelling!
+      The standard Japanese spelling uses ー (long vowel mark).
+- id: ckw-l01-709
+  prompt: data
+  answers:
+    - データ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l01-875
+  prompt: point, points
+  answers:
+    - ポイント
+  hint: noun/counter
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l01-888
+  prompt: home, platform
+  answers:
+    - ホーム
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - プラットフォーム
+    toast: |-
+      This is a direct transliteration of "platform" in English.
+      It's a different borrowed term that's used in some contexts.
+  - answers:
+    - ホームページ
+    toast: |-
+      This means "homepage" or "website".
+      It's a longer compound word, not the single-word sense asked for.
+  - answers:
+    - ホール
+    toast: |-
+      Means "hall" (a large room or venue).
+      Sounds similar but has a different meaning.
+  - answers:
+    - ハウス
+    toast: |-
+      Means "house" (the building) or appears in genre names.
+      Related idea but not the target loanword.
+- id: ckw-l01-907
+  prompt: hotel
+  answers:
+    - ホテル
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l01-935
+  prompt: blog
+  answers:
+    - ブログ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l01-940
+  prompt: click
+  answers:
+    - クリック
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - タップ
+    toast: |-
+      That's "tap"!
+      クリック is specifically for mouse clicks.
+- id: ckw-l01-949
+  prompt: group
+  answers:
+    - グループ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []

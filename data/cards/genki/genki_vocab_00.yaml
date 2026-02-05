@@ -6,15 +6,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: ありがとうございます
+  - answers:
+      - ありがとうございます
     toast: |-
       That's the more polite form.
       It’s used in formal situations or with strangers.
-  - answer: どうも
+  - answers:
+      - どうも
     toast: |-
       That's a vague “thanks”/“very”.
       It’s shorter and can sound casual depending on context.
-  - answer: すみません
+  - answers:
+      - すみません
     toast: |-
       That’s “excuse me / sorry,” and can also mean “thanks” in some situations.
       The nuance is apologetic, not a straightforward thank-you.
@@ -27,15 +30,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: ありがとうございました
+  - answers:
+      - ありがとうございました
     toast: |-
       That's "thank you (past)"!
       Use this after something is done or completed.
-  - answer: どうもありがとうございます
+  - answers:
+      - どうもありがとうございます
     toast: |-
       That's "thank you very much"!
       It adds extra emphasis with どうも.
-  - answer: すみません
+  - answers:
+      - すみません
     toast: |-
       That's "excuse me / sorry"!
       It can be used to get attention or apologize, not a straightforward thank-you.
@@ -47,15 +53,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: いえ
+  - answers:
+      - いえ
     toast: |-
       That's "house" (ie)!
       It's a noun meaning "home/house," not a negative reply.
-  - answer: ううん
+  - answers:
+      - ううん
     toast: |-
       That's a casual "no"!
       More informal; commonly used with friends.
-  - answer: いや
+  - answers:
+      - いや
     toast: |-
       That's "no / unpleasant"!
       Often stronger and can sound blunt depending on context.
@@ -67,15 +76,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: ごちそうさまでした
+  - answers:
+      - ごちそうさまでした
     toast: |-
       That's said AFTER finishing a meal.
       The prompt is the phrase you say BEFORE eating.
-  - answer: いただきました
+  - answers:
+      - いただきました
     toast: |-
       That's past tense.
       The prompt is the fixed phrase used before eating.
-  - answer: いただく
+  - answers:
+      - いただく
     toast: |-
       That's the dictionary form (verb: to receive / to eat-humble).
       The prompt is the set polite expression used at the start of a meal.
@@ -87,15 +99,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: いってらっしゃい
+  - answers:
+      - いってらっしゃい
     toast: |-
       That's what someone ELSE says to see you off.
       It's the reply to the leaving phrase.
-  - answer: ただいま
+  - answers:
+      - ただいま
     toast: |-
       That's said when you RETURN home.
       Not the phrase used when heading out.
-  - answer: いってきた
+  - answers:
+      - いってきた
     toast: |-
       That's the past form meaning you went and came back.
       The prompt is for the set phrase used before leaving.
@@ -107,15 +122,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: いってきます
+  - answers:
+      - いってきます
     toast: |-
       That's what the person leaving says.
       This prompt is the phrase said to the person who is going out.
-  - answer: いってまいります
+  - answers:
+      - いってまいります
     toast: |-
       That's the more polite form used by the person leaving.
       This prompt is said to see someone off.
-  - answer: いってらっしゃいます
+  - answers:
+      - いってらっしゃいます
     toast: |-
       That's the polite verb form (used in other contexts).
       For seeing someone off, use the set phrase in casual/polite speech.
@@ -128,11 +146,13 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: ただいま
+  - answers:
+      - ただいま
     toast: |-
       That's what the person who came home says.
       This prompt is what you say back to greet them.
-  - answer: いらっしゃいませ
+  - answers:
+      - いらっしゃいませ
     toast: |-
       That's a shop/staff welcome phrase.
       This prompt is used at home to greet someone returning.
@@ -150,15 +170,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: こんにちは
+  - answers:
+      - こんにちは
     toast: |-
       That's “hello/good afternoon.”
       Used during the day, not specifically in the morning.
-  - answer: おやすみ
+  - answers:
+      - おやすみ
     toast: |-
       That's “good night.”
       Used when going to bed or saying goodbye at night.
-  - answer: こんばんは
+  - answers:
+      - こんばんは
     toast: |-
       That's “good evening.”
       Used in the evening/night, not in the morning.
@@ -170,15 +193,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: おはよう
+  - answers:
+      - おはよう
     toast: |-
       That's the casual version.
       Use it with friends or family; the prompt asks for the polite greeting.
-  - answer: こんにちは
+  - answers:
+      - こんにちは
     toast: |-
       That's "hello / good afternoon".
       This one is used later in the day, not in the morning.
-  - answer: こんばんは
+  - answers:
+      - こんばんは
     toast: |-
       That's "good evening".
       This greeting is for nighttime, not morning.
@@ -191,11 +217,13 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: こんばんは
+  - answers:
+      - こんばんは
     toast: |-
       That means "good evening."
       Use it as a greeting at night, not when going to sleep.
-  - answer: さようなら
+  - answers:
+      - さようなら
     toast: |-
       That means "goodbye."
       It's for parting, not a bedtime expression.
@@ -215,11 +243,13 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: いただきます
+  - answers:
+      - いただきます
     toast: |-
       That's said BEFORE eating.
       Use it to express gratitude before starting the meal.
-  - answer: ごちそうさまでした
+  - answers:
+      - ごちそうさまでした
     toast: |-
       That's the full polite past form.
       If the prompt includes parentheses, the shorter form may be acceptable depending on context.
@@ -238,15 +268,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: こんばんは
+  - answers:
+      - こんばんは
     toast: |-
       That's "good evening"!
       Used at night, not during the daytime.
-  - answer: おはよう
+  - answers:
+      - おはよう
     toast: |-
       That's "good morning"!
       Used earlier in the day.
-  - answer: こんにちわ
+  - answers:
+      - こんにちわ
     toast: |-
       That's a common misspelling.
       This greeting is written with は at the end (even though it sounds like "wa").
@@ -258,15 +291,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: こんにちわ
+  - answers:
+      - こんにちわ
     toast: |-
       That’s a different greeting.
       Also, this spelling uses わ and is considered nonstandard for the daytime greeting.
-  - answer: こんにちは
+  - answers:
+      - こんにちは
     toast: |-
       That means “hello / good afternoon.”
       Used during the day, not in the evening.
-  - answer: おはよう
+  - answers:
+      - おはよう
     toast: |-
       That means “good morning.”
       Used in the morning, not in the evening.
@@ -278,15 +314,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: じゃあね
+  - answers:
+      - じゃあね
     toast: |-
       That's a casual "see you".
       Used with friends; lighter than a standard farewell.
-  - answer: またね
+  - answers:
+      - またね
     toast: |-
       That's "see you again".
       It implies you'll meet again soon.
-  - answer: バイバイ
+  - answers:
+      - バイバイ
     toast: |-
       That's a casual loanword-style "bye-bye".
       Common with kids/friends; written in katakana.
@@ -299,15 +338,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: ごめんなさい
+  - answers:
+      - ごめんなさい
     toast: |-
       That's a more direct casual apology.
       Not typically used as "excuse me" to get someone's attention.
-  - answer: 失礼します
+  - answers:
+      - 失礼します
     toast: |-
       That's used for "pardon me" when entering/leaving or doing something rude.
       More formal and situational.
-  - answer: すいません
+  - answers:
+      - すいません
     toast: |-
       That's a common casual pronunciation/spelling.
       The prompt expects the standard polite form.
@@ -319,15 +361,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: おかえり
+  - answers:
+      - おかえり
     toast: |-
       That means "welcome back".
       It's said by the person already at home to greet someone returning.
-  - answer: いってきます
+  - answers:
+      - いってきます
     toast: |-
       That means "I'm off / I'm leaving".
       It's said when you leave home, not when you return.
-  - answer: おじゃまします
+  - answers:
+      - おじゃまします
     toast: |-
       That means "excuse me for intruding".
       It's used when entering someone else's place, not when coming back to your own home.
@@ -339,15 +384,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: ～でした
+  - answers:
+      - ～でした
     toast: |-
       That's past tense ("was").
       Use it for something that was true before, not now.
-  - answer: ～じゃないです
+  - answers:
+      - ～じゃないです
     toast: |-
       That's negative ("am not").
       It denies the statement rather than stating it.
-  - answer: ～ですか
+  - answers:
+      - ～ですか
     toast: |-
       That's a question form.
       The final か turns it into "Am I...?/Is it...?"
@@ -360,15 +408,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: よろしくお願いします
+  - answers:
+      - よろしくお願いします
     toast: |-
       That means "Nice to meet you / Please treat me well".
       This is often said after the first greeting, but it’s a different phrase.
-  - answer: はじめて
+  - answers:
+      - はじめて
     toast: |-
       That means "for the first time".
       It’s related in meaning, but it’s not the set greeting used when you meet someone.
-  - answer: こんにちは
+  - answers:
+      - こんにちは
     toast: |-
       That’s a general "hello".
       This prompt is the special greeting for a first meeting.
@@ -381,15 +432,18 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
-  - answer: はじめまして
+  - answers:
+      - はじめまして
     toast: |-
       That's the greeting used specifically for a first meeting.
       This prompt is the follow-up phrase asking for a good relationship/your favor.
-  - answer: よろしくおねがいします
+  - answers:
+      - よろしくおねがいします
     toast: |-
       That's the all-kana version.
       This prompt expects the common version that includes kanji for the verb.
-  - answer: ありがとうございます
+  - answers:
+      - ありがとうございます
     toast: |-
       That's "thank you."
       This prompt is a greeting/request for goodwill, not expressing gratitude.
