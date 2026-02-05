@@ -77,3 +77,11 @@ packs:
       - genki/lesson_g_21.yaml
       - genki/lesson_g_22.yaml
       - genki/lesson_g_23.yaml
+
+  - id: wanikani
+    name: WaniKani Kanji
+    description: Kanji organized by WaniKani levels
+    category: wanikani
+    files:
+      - wanikani/lesson_wk_01.yaml
+      - wanikani/lesson_wk_02.yaml
