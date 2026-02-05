@@ -4,9 +4,8 @@
   <meta charset="utf-8">
   <title>MojiDoodle</title>
   <script>
-    // GitHub Pages SPA redirect
-    // Saves the current path and redirects to root where Angular can handle routing
-    var pathSegmentsToKeep = 1; // Keep /MojiDoodle/
+    // GitHub Pages SPA redirect for /dev/ subdirectory
+    var pathSegmentsToKeep = 2; // Keep /MojiDoodle/dev/
     var l = window.location;
     var base = l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '');
     var path = l.pathname.split('/').slice(pathSegmentsToKeep + 1).join('/');
@@ -20,8 +19,8 @@
       }));
     }
 
-    // Redirect to the base URL
-    l.replace(base + '/MojiDoodle/');
+    // Redirect to the dev base URL
+    l.replace(base + '/MojiDoodle/dev/');
   </script>
 </head>
 <body>
