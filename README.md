@@ -36,6 +36,25 @@ https://lexa-b.github.io/MojiDoodle/
    - **？** Befuddled - you drew a similar but wrong character (e.g., katakana instead of hiragana). Try again!
    - **✕** Wrong - a new card loads
 
+### Toolbar
+
+The workbook has a toolbar on the right side:
+- **⌫ Undo** - Remove your last stroke
+- **🗑️ Clear All** - Clear all strokes and start over
+- **🖌️ Brush** - Default drawing mode
+- **⭕ Lasso** - Circle strokes to keep them together (prevents auto-segmentation from splitting characters)
+
+### Lasso Tool (for multi-character words)
+
+When writing multi-character words, the app automatically segments your handwriting. If it splits a character incorrectly:
+
+1. Tap the **lasso button** (⭕) to enter lasso mode
+2. Draw a circle around the strokes that belong together
+3. Those strokes will turn a pastel color showing they're grouped
+4. The segmenter will no longer split through that group
+5. Tap an existing lasso to delete it
+6. Tap the **brush button** (🖌️) to return to drawing mode
+
 ### Tips for Better Recognition
 
 - Draw characters at a reasonable size (not too small)
@@ -43,6 +62,7 @@ https://lexa-b.github.io/MojiDoodle/
 - The hint below the prompt shows expected stroke count
 - Tap the undo button (⌫) to remove your last stroke
 - For multi-character words: write vertically (top to bottom), leave visible gaps between characters
+- Use the **lasso tool** if the auto-segmentation incorrectly splits a character
 - Small kana (っ, ゃ, ゅ, ょ) are accepted even if recognized as their big counterparts
 - Some cards accept multiple answers (e.g., kanji or hiragana)
 
@@ -135,7 +155,7 @@ Cards advance through 16 stages with increasing intervals:
 
 **Data Collection (optional):**
 On first launch, you'll be asked if you want to help improve the app by sharing workbook session data. This is completely optional:
-- **Yes**: Session data (strokes, recognition results) is sent to our collection server to train better segmentation models
+- **Yes**: Session data (strokes, recognition results, and lasso selections) is sent to our collection server to train better segmentation models
 - **No**: No data is collected, ever
 - **Maybe later**: You'll be asked again next time
 

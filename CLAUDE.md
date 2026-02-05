@@ -114,6 +114,7 @@ The app uses a hybrid YAML → JSON → SQLite architecture:
   - Prompt bar showing current character (random unlocked card on load), colored by SRS stage
   - Full-screen black canvas (OLED-friendly)
   - Undo button (backspace icon)
+  - **Tool bar** with Clear All, Brush (default), and Lasso buttons
   - Check button with random Japanese labels (よし!, 判定!, できた!, etc.)
   - Results overlay: ◯ correct, ？ befuddled (try again), ✕ wrong
   - Japanese feedback messages (正解!, ちがう!, etc.)
@@ -155,7 +156,8 @@ Lesson methods:
 **CharacterSegmentationService** (`character-segmentation.service.ts`)
 - Segments multi-character handwriting into individual character cells
 - Uses gap-based two-pass approach with size uniformity enforcement
-- `segment()` - Returns `SegmentationResult` with grid, cells, and stroke assignments
+- Supports protected groups (from lassos) that prevent dividers from splitting grouped strokes
+- `segment(strokes, width, height, protectedGroups?)` - Returns `SegmentationResult` with grid, cells, and stroke assignments
 
 ### Data Models
 
@@ -217,6 +219,11 @@ interface SegmentationResult {
   grid: SegmentationGrid;
   estimatedCharHeight: number;
   estimatedCharWidth: number;
+}
+
+// Protected group for lasso-based segmentation protection
+interface ProtectedGroup {
+  strokeIndices: number[];  // Strokes that should not be split by dividers
 }
 ```
 
@@ -316,6 +323,34 @@ ids:
 - Smoothed transitions between thickness changes
 - Harai (払い) flicks: tapered tails on stroke ends based on lift-off velocity
 - Settings in `workbook.page.ts`: `minBrushSize`, `maxBrushSize`, `brushSmoothing`
+
+### Lasso Tool (Segmentation Protection)
+
+The workbook toolbar includes a lasso tool for manually grouping strokes to prevent incorrect automatic segmentation.
+
+**Toolbar buttons:**
+- 🗑️ **Clear All** - Clears all strokes AND lassos
+- 🖌️ **Brush** - Default drawing mode (highlighted when active)
+- ⭕ **Lasso** - Draw polygons to protect strokes from segmentation
+
+**How it works:**
+1. User switches to lasso mode
+2. User draws a closed polygon around strokes they want to keep together
+3. System detects which strokes are inside using percentage containment (≥50% of stroke points inside = belongs to lasso)
+4. Strokes inside the lasso render in the lasso's pastel color
+5. When segmentation runs, it skips creating any divider that would split a protected group
+6. Tap an existing lasso (in lasso mode only) to delete it
+
+**Visual feedback:**
+- 24 pastel colors distributed around the color wheel in lug-nut pattern
+- Strokes without a lasso: white (default)
+- Strokes inside a lasso: rendered in lasso's color
+- Lasso outline: dashed line in its color
+- Lasso fill: very faint (10% opacity)
+
+**Stroke ownership:** When multiple lassos overlap, the stroke belongs to whichever lasso contains the highest percentage of its points.
+
+**Data export:** Lassos are exported to the collection service as `SelectionLasso[]` with both `points` and `strokeIndices`.
 
 ### Handwriting Recognition Flow
 
@@ -439,7 +474,7 @@ interface CollectionSample {
     columnDividers: DividerLine[];
     rowDividers: DividerLine[][];
   } | null;
-  selectionLassos: SelectionLasso[] | null;  // Manual segmentation (future)
+  selectionLassos: SelectionLasso[] | null;  // Manual segmentation from lasso tool
   answers: string[];            // Card's valid answers
   recognitionResults: { character: string; score: number }[][] | null;
   groundTruth: GroundTruthEntry[] | null;  // Inferred on success
@@ -455,7 +490,7 @@ interface GroundTruthEntry {
   character: string;            // Expected character
 }
 
-interface SelectionLasso {      // Future manual segmentation
+interface SelectionLasso {      // Manual segmentation from lasso tool
   points: { x: number; y: number }[];
   strokeIndices: number[];
 }
