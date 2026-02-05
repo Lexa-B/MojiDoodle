@@ -2,13 +2,13 @@ import { Component, OnInit, ViewChild, ElementRef, AfterViewInit, OnDestroy } fr
 import { IonContent, IonMenuButton, IonButton, IonIcon, IonSpinner } from '@ionic/angular/standalone';
 import { CommonModule } from '@angular/common';
 import { addIcons } from 'ionicons';
-import { backspace } from 'ionicons/icons';
+import { backspace, trashOutline, brushOutline, ellipseOutline } from 'ionicons/icons';
 import { Subscription } from 'rxjs';
 import { StrokeRecognitionService } from '../../services/stroke-recognition.service';
 import { CardsService, Card } from '../../services/cards.service';
 import { CharacterSegmentationService } from '../../services/character-segmentation.service';
 import { CollectionService } from '../../services/collection.service';
-import { SegmentationResult, SegmentationGrid, GridCell } from '../../models/segmentation.types';
+import { SegmentationResult, SegmentationGrid, GridCell, ProtectedGroup } from '../../models/segmentation.types';
 
 interface Point {
   x: number;
@@ -61,6 +61,30 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
 
   // Sorted cells from last segmentation (for collection export)
   private lastSortedCells: GridCell[] = [];
+
+  // Drawing mode: brush (default) or lasso
+  drawMode: 'brush' | 'lasso' = 'brush';
+
+  // Lasso state
+  private lassos: { points: {x: number, y: number}[] }[] = [];
+  private currentLasso: {x: number, y: number}[] = [];
+  private lassoStartPos: {x: number, y: number} | null = null;
+
+  // Lasso hues in lug-nut pattern (24 pastel colors distributed around color wheel)
+  // Pattern skips by 11 positions (coprime with 24) like tightening lug nuts
+  private readonly LASSO_HUES = [
+    0, 165, 330, 135, 300, 105, 270, 75, 240, 45, 210, 15,
+    180, 345, 150, 315, 120, 285, 90, 255, 60, 225, 30, 195
+  ];
+
+  /**
+   * Get lasso color as hsla string.
+   * Pastel colors: 55% saturation, 78% lightness.
+   */
+  private getLassoColor(index: number, opacity: number = 0.7): string {
+    const hue = this.LASSO_HUES[index % this.LASSO_HUES.length];
+    return `hsla(${hue}, 55%, 78%, ${opacity})`;
+  }
 
   // Small kana → big kana mapping for fuzzy matching
   // The API often returns big kana when user writes small kana
@@ -138,7 +162,7 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
     private segmentationService: CharacterSegmentationService,
     private collectionService: CollectionService
   ) {
-    addIcons({ backspace });
+    addIcons({ backspace, trashOutline, brushOutline, ellipseOutline });
   }
 
   async ngOnInit() {
@@ -237,28 +261,62 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
     this.cancelSegmentation();
     this.isDrawing = true;
     const pos = this.getMousePos(e);
-    this.currentStroke = [pos];
-    // Start with a medium brush size, will taper in
-    this.lastBrushSize = (this.minBrushSize + this.maxBrushSize) / 2;
-    // Draw initial dot
-    this.drawBrushPoint(pos.x, pos.y, this.minBrushSize * 1.5);
+
+    if (this.drawMode === 'lasso') {
+      // Lasso mode: start new lasso or check for tap-to-delete
+      this.lassoStartPos = { x: pos.x, y: pos.y };
+      this.currentLasso = [{ x: pos.x, y: pos.y }];
+    } else {
+      // Brush mode: normal stroke drawing
+      this.currentStroke = [pos];
+      this.lastBrushSize = (this.minBrushSize + this.maxBrushSize) / 2;
+      this.drawBrushPoint(pos.x, pos.y, this.minBrushSize * 1.5);
+    }
   }
 
   private handleMouseMove(e: MouseEvent) {
     if (!this.isDrawing) return;
     const pos = this.getMousePos(e);
-    const prevPos = this.currentStroke[this.currentStroke.length - 1];
-    this.currentStroke.push(pos);
-    this.drawBrushSegment(prevPos, pos);
+
+    if (this.drawMode === 'lasso') {
+      // Lasso mode: capture lasso points
+      this.currentLasso.push({ x: pos.x, y: pos.y });
+      this.fullRedraw();
+    } else {
+      // Brush mode: normal stroke drawing
+      const prevPos = this.currentStroke[this.currentStroke.length - 1];
+      this.currentStroke.push(pos);
+      this.drawBrushSegment(prevPos, pos);
+    }
   }
 
   private handleMouseUp() {
-    if (this.isDrawing && this.currentStroke.length > 0) {
-      this.drawHarai(this.currentStroke);
-      this.strokes.push([...this.currentStroke]);
-      this.currentStroke = [];
-      this.scheduleSegmentation();
+    if (!this.isDrawing) return;
+
+    if (this.drawMode === 'lasso') {
+      // Check if this was a tap (very few points) vs a drawn lasso
+      if (this.lassoStartPos && this.currentLasso.length > 0) {
+        // If we have enough points to be a real lasso, complete it
+        // Otherwise treat as a tap to delete
+        if (this.currentLasso.length >= 5) {
+          this.completeLasso();
+        } else {
+          // Tap detected - try to delete a lasso
+          this.handleLassoTap(this.lassoStartPos.x, this.lassoStartPos.y);
+          this.currentLasso = [];
+        }
+      }
+      this.lassoStartPos = null;
+    } else {
+      // Brush mode: complete stroke
+      if (this.currentStroke.length > 0) {
+        this.drawHarai(this.currentStroke);
+        this.strokes.push([...this.currentStroke]);
+        this.currentStroke = [];
+        this.scheduleSegmentation();
+      }
     }
+
     this.isDrawing = false;
   }
 
@@ -267,29 +325,63 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
     this.cancelSegmentation();
     this.isDrawing = true;
     const pos = this.getTouchPos(e);
-    this.currentStroke = [pos];
-    // Start with a medium brush size
-    this.lastBrushSize = (this.minBrushSize + this.maxBrushSize) / 2;
-    // Draw initial dot
-    this.drawBrushPoint(pos.x, pos.y, this.minBrushSize * 1.5);
+
+    if (this.drawMode === 'lasso') {
+      // Lasso mode: start new lasso or check for tap-to-delete
+      this.lassoStartPos = { x: pos.x, y: pos.y };
+      this.currentLasso = [{ x: pos.x, y: pos.y }];
+    } else {
+      // Brush mode: normal stroke drawing
+      this.currentStroke = [pos];
+      this.lastBrushSize = (this.minBrushSize + this.maxBrushSize) / 2;
+      this.drawBrushPoint(pos.x, pos.y, this.minBrushSize * 1.5);
+    }
   }
 
   private handleTouchMove(e: TouchEvent) {
     if (!this.isDrawing) return;
     e.preventDefault();
     const pos = this.getTouchPos(e);
-    const prevPos = this.currentStroke[this.currentStroke.length - 1];
-    this.currentStroke.push(pos);
-    this.drawBrushSegment(prevPos, pos);
+
+    if (this.drawMode === 'lasso') {
+      // Lasso mode: capture lasso points
+      this.currentLasso.push({ x: pos.x, y: pos.y });
+      this.fullRedraw();
+    } else {
+      // Brush mode: normal stroke drawing
+      const prevPos = this.currentStroke[this.currentStroke.length - 1];
+      this.currentStroke.push(pos);
+      this.drawBrushSegment(prevPos, pos);
+    }
   }
 
   private handleTouchEnd() {
-    if (this.isDrawing && this.currentStroke.length > 0) {
-      this.drawHarai(this.currentStroke);
-      this.strokes.push([...this.currentStroke]);
-      this.currentStroke = [];
-      this.scheduleSegmentation();
+    if (!this.isDrawing) return;
+
+    if (this.drawMode === 'lasso') {
+      // Check if this was a tap (very few points) vs a drawn lasso
+      if (this.lassoStartPos && this.currentLasso.length > 0) {
+        // If we have enough points to be a real lasso, complete it
+        // Otherwise treat as a tap to delete
+        if (this.currentLasso.length >= 5) {
+          this.completeLasso();
+        } else {
+          // Tap detected - try to delete a lasso
+          this.handleLassoTap(this.lassoStartPos.x, this.lassoStartPos.y);
+          this.currentLasso = [];
+        }
+      }
+      this.lassoStartPos = null;
+    } else {
+      // Brush mode: complete stroke
+      if (this.currentStroke.length > 0) {
+        this.drawHarai(this.currentStroke);
+        this.strokes.push([...this.currentStroke]);
+        this.currentStroke = [];
+        this.scheduleSegmentation();
+      }
     }
+
     this.isDrawing = false;
   }
 
@@ -489,7 +581,8 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
           this.segmentationResult = this.segmentationService.segment(
             this.strokes,
             canvas.width,
-            canvas.height
+            canvas.height,
+            this.getProtectedGroups()
           );
         }
 
@@ -665,32 +758,8 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
   onUndo() {
     if (this.strokes.length > 0) {
       this.strokes.pop();
-      this.redrawStrokes();
+      this.fullRedraw();
       this.scheduleSegmentation();
-    }
-  }
-
-  private redrawStrokes() {
-    const canvas = this.canvasRef.nativeElement;
-    this.ctx.clearRect(0, 0, canvas.width, canvas.height);
-    this.setCanvasStyle();
-
-    for (const stroke of this.strokes) {
-      if (stroke.length === 0) continue;
-
-      // Reset brush size for each stroke
-      this.lastBrushSize = (this.minBrushSize + this.maxBrushSize) / 2;
-
-      // Draw initial point
-      this.drawBrushPoint(stroke[0].x, stroke[0].y, this.minBrushSize * 1.5);
-
-      // Draw segments with brush effect
-      for (let i = 1; i < stroke.length; i++) {
-        this.drawBrushSegment(stroke[i - 1], stroke[i]);
-      }
-
-      // Draw harai flick at the end
-      this.drawHarai(stroke);
     }
   }
 
@@ -698,6 +767,8 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
     const canvas = this.canvasRef.nativeElement;
     this.ctx.clearRect(0, 0, canvas.width, canvas.height);
     this.strokes = [];
+    this.lassos = [];
+    this.currentLasso = [];
     this.drawStartTime = 0;
     this.cancelSegmentation();
     this.segmentationResult = null;
@@ -705,6 +776,328 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
 
   private randomFrom<T>(arr: T[]): T {
     return arr[Math.floor(Math.random() * arr.length)];
+  }
+
+  // ============================================================
+  // Lasso Mode Methods
+  // ============================================================
+
+  /**
+   * Switch between brush and lasso drawing modes.
+   */
+  setDrawMode(mode: 'brush' | 'lasso'): void {
+    this.drawMode = mode;
+  }
+
+  /**
+   * Clear all strokes and lassos.
+   */
+  onClearAll(): void {
+    this.clearCanvas();
+    this.lassos = [];
+  }
+
+  /**
+   * Point-in-polygon test using ray casting algorithm.
+   */
+  private isPointInPolygon(point: {x: number, y: number}, polygon: {x: number, y: number}[]): boolean {
+    if (polygon.length < 3) return false;
+
+    let inside = false;
+    for (let i = 0, j = polygon.length - 1; i < polygon.length; j = i++) {
+      const xi = polygon[i].x, yi = polygon[i].y;
+      const xj = polygon[j].x, yj = polygon[j].y;
+
+      if (((yi > point.y) !== (yj > point.y)) &&
+          (point.x < (xj - xi) * (point.y - yi) / (yj - yi) + xi)) {
+        inside = !inside;
+      }
+    }
+    return inside;
+  }
+
+  /**
+   * Calculate what percentage of a stroke's points are inside a lasso.
+   * Returns 0.0 to 1.0.
+   */
+  private calculateLassoContainment(strokeIndex: number, lasso: {x: number, y: number}[]): number {
+    const stroke = this.strokes[strokeIndex];
+    if (!stroke || stroke.length === 0) return 0;
+
+    let pointsInside = 0;
+    for (const point of stroke) {
+      if (this.isPointInPolygon(point, lasso)) {
+        pointsInside++;
+      }
+    }
+    return pointsInside / stroke.length;
+  }
+
+  /**
+   * Convert lassos to protected groups for segmentation.
+   * Each lasso creates a protected group containing strokes it covers.
+   */
+  private getProtectedGroups(): ProtectedGroup[] {
+    const groups: ProtectedGroup[] = [];
+
+    for (const lasso of this.lassos) {
+      const strokeIndices: number[] = [];
+
+      for (let i = 0; i < this.strokes.length; i++) {
+        const containment = this.calculateLassoContainment(i, lasso.points);
+        if (containment >= 0.5) {
+          strokeIndices.push(i);
+        }
+      }
+
+      if (strokeIndices.length > 0) {
+        groups.push({ strokeIndices });
+      }
+    }
+
+    return groups;
+  }
+
+  /**
+   * Find which strokes are inside a lasso (>= 50% of points contained).
+   */
+  private findStrokesInLasso(lasso: {x: number, y: number}[]): number[] {
+    const indices: number[] = [];
+
+    for (let i = 0; i < this.strokes.length; i++) {
+      const containment = this.calculateLassoContainment(i, lasso);
+      if (containment >= 0.5) {
+        indices.push(i);
+      }
+    }
+
+    return indices;
+  }
+
+  /**
+   * Get stroke color based on lasso assignment.
+   * Stroke belongs to whichever lasso contains the highest percentage of its points.
+   */
+  private getStrokeColor(strokeIndex: number): string {
+    let bestLassoIndex = -1;
+    let bestContainment = 0;
+
+    for (let i = 0; i < this.lassos.length; i++) {
+      const containment = this.calculateLassoContainment(strokeIndex, this.lassos[i].points);
+      if (containment > bestContainment) {
+        bestContainment = containment;
+        bestLassoIndex = i;
+      }
+    }
+
+    if (bestLassoIndex >= 0 && bestContainment >= 0.5) {
+      return this.getLassoColor(bestLassoIndex, 1.0);
+    }
+    return '#fff'; // Default white
+  }
+
+  /**
+   * Handle tap on lasso to delete it (only in lasso mode).
+   * Returns true if a lasso was deleted.
+   */
+  private handleLassoTap(x: number, y: number): boolean {
+    // Check if tap is inside any lasso (reverse order so newest is checked first)
+    for (let i = this.lassos.length - 1; i >= 0; i--) {
+      if (this.isPointInPolygon({x, y}, this.lassos[i].points)) {
+        this.lassos.splice(i, 1);
+        this.fullRedraw();
+        this.scheduleSegmentation();
+        return true;
+      }
+    }
+    return false;
+  }
+
+  /**
+   * Complete the current lasso being drawn.
+   */
+  private completeLasso(): void {
+    if (this.currentLasso.length < 3) {
+      this.currentLasso = [];
+      return;
+    }
+
+    // Find strokes inside this lasso
+    const strokeIndices = this.findStrokesInLasso(this.currentLasso);
+
+    if (strokeIndices.length > 0) {
+      this.lassos.push({
+        points: [...this.currentLasso]
+      });
+    }
+
+    this.currentLasso = [];
+    this.fullRedraw();
+    this.scheduleSegmentation();
+  }
+
+  /**
+   * Draw a completed lasso with fill and outline.
+   */
+  private drawLasso(points: {x: number, y: number}[], index: number): void {
+    if (points.length < 3) return;
+
+    this.ctx.save();
+
+    // Fill with very faint color
+    this.ctx.fillStyle = this.getLassoColor(index, 0.15);
+    this.ctx.beginPath();
+    this.ctx.moveTo(points[0].x, points[0].y);
+    for (let i = 1; i < points.length; i++) {
+      this.ctx.lineTo(points[i].x, points[i].y);
+    }
+    this.ctx.closePath();
+    this.ctx.fill();
+
+    // Stroke outline
+    this.ctx.strokeStyle = this.getLassoColor(index, 0.7);
+    this.ctx.lineWidth = 2;
+    this.ctx.setLineDash([6, 4]);
+    this.ctx.stroke();
+
+    this.ctx.restore();
+  }
+
+  /**
+   * Draw the current lasso being drawn (not yet complete).
+   */
+  private drawCurrentLasso(): void {
+    if (this.currentLasso.length < 2) return;
+
+    this.ctx.save();
+    this.ctx.strokeStyle = this.getLassoColor(this.lassos.length, 0.5);
+    this.ctx.lineWidth = 2;
+    this.ctx.setLineDash([6, 4]);
+
+    this.ctx.beginPath();
+    this.ctx.moveTo(this.currentLasso[0].x, this.currentLasso[0].y);
+    for (let i = 1; i < this.currentLasso.length; i++) {
+      this.ctx.lineTo(this.currentLasso[i].x, this.currentLasso[i].y);
+    }
+    this.ctx.stroke();
+
+    this.ctx.restore();
+  }
+
+  /**
+   * Draw a single stroke with a specific color.
+   */
+  private drawStrokeWithColor(stroke: Point[], color: string): void {
+    if (stroke.length === 0) return;
+
+    this.ctx.save();
+    this.ctx.fillStyle = color;
+    this.ctx.strokeStyle = color;
+
+    // Reset brush size for this stroke
+    this.lastBrushSize = (this.minBrushSize + this.maxBrushSize) / 2;
+
+    // Draw initial point
+    this.ctx.beginPath();
+    this.ctx.arc(stroke[0].x, stroke[0].y, this.minBrushSize * 1.5 / 2, 0, Math.PI * 2);
+    this.ctx.fill();
+
+    // Draw segments with brush effect
+    for (let i = 1; i < stroke.length; i++) {
+      const brushSize = this.calculateBrushSize(stroke[i - 1], stroke[i]);
+      this.ctx.lineWidth = brushSize;
+      this.ctx.beginPath();
+      this.ctx.moveTo(stroke[i - 1].x, stroke[i - 1].y);
+      this.ctx.lineTo(stroke[i].x, stroke[i].y);
+      this.ctx.stroke();
+
+      // Draw circle at end point
+      this.ctx.beginPath();
+      this.ctx.arc(stroke[i].x, stroke[i].y, brushSize / 2, 0, Math.PI * 2);
+      this.ctx.fill();
+    }
+
+    // Draw harai flick at the end (inline to preserve color)
+    if (stroke.length >= 3) {
+      const numPoints = Math.min(5, stroke.length);
+      const recentPoints = stroke.slice(-numPoints);
+      const lastPoint = recentPoints[recentPoints.length - 1];
+      const earlierPoint = recentPoints[0];
+
+      const dx = lastPoint.x - earlierPoint.x;
+      const dy = lastPoint.y - earlierPoint.y;
+      const distance = Math.sqrt(dx * dx + dy * dy);
+
+      if (distance >= 5) {
+        const dirX = dx / distance;
+        const dirY = dy / distance;
+        const dt = Math.max(lastPoint.t - earlierPoint.t, 1);
+        const velocity = distance / dt;
+        const flickLength = Math.min(velocity * 20, 40);
+
+        if (flickLength >= 8) {
+          const steps = 8;
+          const startSize = this.lastBrushSize;
+
+          for (let i = 0; i < steps; i++) {
+            const t = i / steps;
+            const nextT = (i + 1) / steps;
+            const easeT = 1 - Math.pow(1 - t, 2);
+            const easeNextT = 1 - Math.pow(1 - nextT, 2);
+
+            const x1 = lastPoint.x + dirX * flickLength * easeT;
+            const y1 = lastPoint.y + dirY * flickLength * easeT;
+            const x2 = lastPoint.x + dirX * flickLength * easeNextT;
+            const y2 = lastPoint.y + dirY * flickLength * easeNextT;
+
+            const size = startSize * (1 - nextT);
+            if (size > 0.5) {
+              this.ctx.lineWidth = size;
+              this.ctx.beginPath();
+              this.ctx.moveTo(x1, y1);
+              this.ctx.lineTo(x2, y2);
+              this.ctx.stroke();
+            }
+          }
+        }
+      }
+    }
+
+    this.ctx.restore();
+  }
+
+  /**
+   * Full redraw including strokes with lasso colors, lassos, and segmentation.
+   */
+  private fullRedraw(): void {
+    const canvas = this.canvasRef.nativeElement;
+    this.ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    // Draw lassos first (they're background)
+    for (let i = 0; i < this.lassos.length; i++) {
+      this.drawLasso(this.lassos[i].points, i);
+    }
+
+    // Draw current lasso being drawn
+    if (this.currentLasso.length > 1) {
+      this.drawCurrentLasso();
+    }
+
+    // Draw each stroke in its assigned color
+    for (let i = 0; i < this.strokes.length; i++) {
+      const color = this.getStrokeColor(i);
+      this.drawStrokeWithColor(this.strokes[i], color);
+    }
+
+    // Draw segmentation dividers on top
+    if (this.segmentationResult) {
+      const grid = this.segmentationResult.grid;
+      const hasDividers = grid.columnDividers.length > 0 ||
+                          grid.rowDividers.some(r => r.length > 0);
+      if (hasDividers) {
+        this.drawDividers(grid);
+      }
+    }
   }
 
   /**
@@ -749,7 +1142,7 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
       const maxAnswerLength = Math.max(...this.currentCard.answers.map(a => [...a.replace(/\s+/g, '')].length));
       if (maxAnswerLength <= 1) {
         this.segmentationResult = null;
-        this.redrawStrokes();
+        this.fullRedraw();
         return;
       }
     }
@@ -758,7 +1151,8 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
     this.segmentationResult = this.segmentationService.segment(
       this.strokes,
       canvas.width,
-      canvas.height
+      canvas.height,
+      this.getProtectedGroups()
     );
 
     this.redrawWithBoundaries();
@@ -768,18 +1162,8 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
    * Redraw all strokes and overlay divider lines.
    */
   private redrawWithBoundaries(): void {
-    // First redraw all strokes
-    this.redrawStrokes();
-
-    // Then draw dividers on top (if any exist)
-    if (this.segmentationResult) {
-      const grid = this.segmentationResult.grid;
-      const hasDividers = grid.columnDividers.length > 0 ||
-                          grid.rowDividers.some(r => r.length > 0);
-      if (hasDividers) {
-        this.drawDividers(grid);
-      }
-    }
+    // Use fullRedraw which handles lassos, strokes with colors, and dividers
+    this.fullRedraw();
   }
 
   /**
@@ -789,8 +1173,8 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
    */
   private drawDividers(grid: SegmentationGrid): void {
     this.ctx.save();
-    this.ctx.strokeStyle = 'rgba(128, 128, 128, 0.4)';
-    this.ctx.lineWidth = 1;
+    this.ctx.strokeStyle = 'rgba(128, 128, 128, 0.8)';
+    this.ctx.lineWidth = 2;
     this.ctx.setLineDash([4, 4]);
 
     // Draw column dividers (vertical lines: x = slope * y + intercept)
@@ -852,7 +1236,8 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
       answers: this.currentCard.answers,
       recognitionResults,
       success,
-      cardId: this.currentCard.id
+      cardId: this.currentCard.id,
+      lassos: this.lassos.length > 0 ? this.lassos : undefined
     });
   }
 }

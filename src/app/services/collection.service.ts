@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { CollectionSample, GroundTruthEntry } from '../models/collection.types';
+import { CollectionSample, GroundTruthEntry, SelectionLasso } from '../models/collection.types';
 import { Point, DividerLine, SegmentationResult, GridCell } from '../models/segmentation.types';
 
 /**
@@ -44,6 +44,7 @@ export class CollectionService {
     recognitionResults: { character: string; score: number }[][] | null;
     success: boolean;
     cardId: string;
+    lassos?: { points: {x: number, y: number}[] }[];
   }): Promise<void> {
     const sample = this.buildSample(params);
 
@@ -87,6 +88,7 @@ export class CollectionService {
     recognitionResults: { character: string; score: number }[][] | null;
     success: boolean;
     cardId: string;
+    lassos?: { points: {x: number, y: number}[] }[];
   }): CollectionSample {
     const {
       strokes,
@@ -97,7 +99,8 @@ export class CollectionService {
       answers,
       recognitionResults,
       success,
-      cardId
+      cardId,
+      lassos
     } = params;
 
     // Extract segmentation lines if available
@@ -115,12 +118,21 @@ export class CollectionService {
       groundTruth = this.inferGroundTruth(strokes, sortedCells, answers);
     }
 
+    // Convert lassos to SelectionLasso format (with strokeIndices)
+    let selectionLassos: SelectionLasso[] | null = null;
+    if (lassos && lassos.length > 0) {
+      selectionLassos = lassos.map(lasso => ({
+        points: lasso.points,
+        strokeIndices: this.findStrokesInLasso(strokes, lasso.points)
+      }));
+    }
+
     return {
       strokes,
       canvasWidth,
       canvasHeight,
       segmentation,
-      selectionLassos: null, // Deferred feature
+      selectionLassos,
       answers,
       recognitionResults,
       groundTruth,
@@ -130,6 +142,51 @@ export class CollectionService {
       cardId,
       timestamp: Date.now()
     };
+  }
+
+  /**
+   * Find which strokes are inside a lasso polygon (>= 50% of points contained).
+   */
+  private findStrokesInLasso(strokes: Point[][], lasso: {x: number, y: number}[]): number[] {
+    const indices: number[] = [];
+
+    for (let i = 0; i < strokes.length; i++) {
+      const stroke = strokes[i];
+      if (stroke.length === 0) continue;
+
+      let pointsInside = 0;
+      for (const point of stroke) {
+        if (this.isPointInPolygon(point, lasso)) {
+          pointsInside++;
+        }
+      }
+
+      const containment = pointsInside / stroke.length;
+      if (containment >= 0.5) {
+        indices.push(i);
+      }
+    }
+
+    return indices;
+  }
+
+  /**
+   * Point-in-polygon test using ray casting algorithm.
+   */
+  private isPointInPolygon(point: {x: number, y: number}, polygon: {x: number, y: number}[]): boolean {
+    if (polygon.length < 3) return false;
+
+    let inside = false;
+    for (let i = 0, j = polygon.length - 1; i < polygon.length; j = i++) {
+      const xi = polygon[i].x, yi = polygon[i].y;
+      const xj = polygon[j].x, yj = polygon[j].y;
+
+      if (((yi > point.y) !== (yj > point.y)) &&
+          (point.x < (xj - xi) * (point.y - yi) / (yj - yi) + xi)) {
+        inside = !inside;
+      }
+    }
+    return inside;
   }
 
   /**

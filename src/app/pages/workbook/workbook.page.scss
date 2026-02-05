@@ -45,6 +45,28 @@
   font-size: 24px;
 }
 
+.tool-bar {
+  position: absolute;
+  top: 56px;
+  right: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.tool-btn {
+  --color: #666;
+  --padding-start: 8px;
+  --padding-end: 8px;
+  font-size: 20px;
+
+  &.active {
+    --color: #fff;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+  }
+}
+
 .results-overlay {
   position: absolute;
   top: 0;

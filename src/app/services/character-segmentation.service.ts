@@ -6,6 +6,7 @@ import {
   GridCell,
   SegmentationResult,
   SegmentationConfig,
+  ProtectedGroup,
 } from '../models/segmentation.types';
 
 /**
@@ -44,8 +45,14 @@ export class CharacterSegmentationService {
 
   /**
    * Segment strokes into a grid of character cells.
+   * @param protectedGroups Optional groups of strokes that should not be split by dividers
    */
-  segment(strokes: Point[][], canvasWidth: number, canvasHeight: number): SegmentationResult {
+  segment(
+    strokes: Point[][],
+    canvasWidth: number,
+    canvasHeight: number,
+    protectedGroups?: ProtectedGroup[]
+  ): SegmentationResult {
     if (strokes.length === 0) {
       return this.emptyResult();
     }
@@ -66,7 +73,7 @@ export class CharacterSegmentationService {
     const charHeight = this.estimateCharSize(strokeBounds, canvasHeight, 'height');
 
     // Step 4: PASS 1 - Find column dividers (vertical gaps)
-    let columnDividers = this.findColumnDividers(strokeBounds, charWidth, canvasHeight);
+    let columnDividers = this.findColumnDividers(strokeBounds, charWidth, canvasHeight, protectedGroups || []);
 
     // Step 5: Enforce column width uniformity (no column >2x wider than another)
     columnDividers = this.enforceColumnUniformity(columnDividers, strokeBounds, contentBounds);
@@ -75,7 +82,7 @@ export class CharacterSegmentationService {
     const strokesByColumn = this.assignStrokesToColumns(strokeBounds, columnDividers);
 
     // Step 7: PASS 2 - Find row dividers within each column
-    let rowDividers = this.findAllRowDividers(strokesByColumn, strokeBounds, columnDividers, charHeight);
+    let rowDividers = this.findAllRowDividers(strokesByColumn, strokeBounds, columnDividers, charHeight, protectedGroups || []);
 
     // Step 8: Enforce row height uniformity per column (no cell >2x taller than another)
     rowDividers = this.enforceRowUniformity(rowDividers, strokesByColumn, strokeBounds, columnDividers);
@@ -87,7 +94,8 @@ export class CharacterSegmentationService {
       rowDividers,
       strokeBounds,
       charHeight,
-      contentBounds
+      contentBounds,
+      protectedGroups || []
     );
     columnDividers = enforceResult.columnDividers;
     rowDividers = enforceResult.rowDividers;
@@ -192,11 +200,13 @@ export class CharacterSegmentationService {
 
   /**
    * Find vertical dividers between columns by looking for X-gaps.
+   * Respects protected groups by not creating dividers that would split them.
    */
   private findColumnDividers(
     strokeBounds: StrokeBounds[],
     charWidth: number,
-    _canvasHeight: number
+    _canvasHeight: number,
+    protectedGroups: ProtectedGroup[]
   ): DividerLine[] {
     if (strokeBounds.length < 2) return [];
 
@@ -225,17 +235,18 @@ export class CharacterSegmentationService {
       }
     }
 
-    // Convert gaps to divider lines
-    // Divider goes through the middle of the gap
-    return gaps.map(gap => {
-      const x = (gap.gapStart + gap.gapEnd) / 2;
-      return {
-        slope: 0,  // Perfectly vertical
-        intercept: x,
-        start: overallMinY - 10,
-        end: overallMaxY + 10,
-      };
-    });
+    // Convert gaps to divider lines, filtering out any that would split protected groups
+    return gaps
+      .map(gap => {
+        const x = (gap.gapStart + gap.gapEnd) / 2;
+        return {
+          slope: 0,  // Perfectly vertical
+          intercept: x,
+          start: overallMinY - 10,
+          end: overallMaxY + 10,
+        };
+      })
+      .filter(divider => !this.wouldSplitProtectedGroup(divider.intercept, 'x', strokeBounds, protectedGroups));
   }
 
   // ============================================================
@@ -276,12 +287,14 @@ export class CharacterSegmentationService {
 
   /**
    * Find row dividers for all columns.
+   * Respects protected groups by not creating dividers that would split them.
    */
   private findAllRowDividers(
     strokesByColumn: number[][],
     strokeBounds: StrokeBounds[],
     columnDividers: DividerLine[],
-    charHeight: number
+    charHeight: number,
+    protectedGroups: ProtectedGroup[]
   ): DividerLine[][] {
     return strokesByColumn.map((colStrokeIndices, colIdx) => {
       if (colStrokeIndices.length < 2) return [];
@@ -289,7 +302,7 @@ export class CharacterSegmentationService {
       const colStrokes = colStrokeIndices.map(i => strokeBounds[i]);
       const colBounds = this.getColumnXBounds(colIdx, columnDividers, strokesByColumn.length, colStrokes);
 
-      return this.findRowDividers(colStrokes, charHeight, colBounds);
+      return this.findRowDividers(colStrokes, charHeight, colBounds, strokeBounds, protectedGroups);
     });
   }
 
@@ -327,11 +340,14 @@ export class CharacterSegmentationService {
 
   /**
    * Find horizontal dividers within a column by looking for Y-gaps.
+   * Respects protected groups by not creating dividers that would split them.
    */
   private findRowDividers(
     colStrokes: StrokeBounds[],
     charHeight: number,
-    colBounds: { minX: number; maxX: number }
+    colBounds: { minX: number; maxX: number },
+    allStrokeBounds: StrokeBounds[],
+    protectedGroups: ProtectedGroup[]
   ): DividerLine[] {
     if (colStrokes.length < 2) return [];
 
@@ -356,16 +372,18 @@ export class CharacterSegmentationService {
       }
     }
 
-    // Convert gaps to divider lines
-    return gaps.map(gap => {
-      const y = (gap.gapStart + gap.gapEnd) / 2;
-      return {
-        slope: 0,  // Perfectly horizontal
-        intercept: y,
-        start: colBounds.minX - 10,
-        end: colBounds.maxX + 10,
-      };
-    });
+    // Convert gaps to divider lines, filtering out any that would split protected groups
+    return gaps
+      .map(gap => {
+        const y = (gap.gapStart + gap.gapEnd) / 2;
+        return {
+          slope: 0,  // Perfectly horizontal
+          intercept: y,
+          start: colBounds.minX - 10,
+          end: colBounds.maxX + 10,
+        };
+      })
+      .filter(divider => !this.wouldSplitProtectedGroup(divider.intercept, 'y', allStrokeBounds, protectedGroups));
   }
 
   // ============================================================
@@ -447,6 +465,43 @@ export class CharacterSegmentationService {
     const min = Math.min(...sizes);
     const max = Math.max(...sizes);
     return min > 0 ? max / min : Infinity;
+  }
+
+  /**
+   * Check if a divider at the given position would split any protected group.
+   * @param dividerPosition The position of the proposed divider (x for columns, y for rows)
+   * @param dimension 'x' for column dividers, 'y' for row dividers
+   * @param strokeBounds Bounds of all strokes
+   * @param protectedGroups Groups of strokes that should not be split
+   */
+  private wouldSplitProtectedGroup(
+    dividerPosition: number,
+    dimension: 'x' | 'y',
+    strokeBounds: StrokeBounds[],
+    protectedGroups: ProtectedGroup[]
+  ): boolean {
+    for (const group of protectedGroups) {
+      if (group.strokeIndices.length < 2) continue;
+
+      const groupStrokes = group.strokeIndices
+        .filter(i => i < strokeBounds.length)
+        .map(i => strokeBounds[i]);
+
+      if (groupStrokes.length < 2) continue;
+
+      // Get positions of strokes in this dimension
+      const positions = groupStrokes.map(s =>
+        dimension === 'x' ? s.centerX : s.centerY
+      );
+      const minPos = Math.min(...positions);
+      const maxPos = Math.max(...positions);
+
+      // If divider is between min and max, it would split the group
+      if (dividerPosition > minPos && dividerPosition < maxPos) {
+        return true;
+      }
+    }
+    return false;
   }
 
   /**
@@ -688,7 +743,8 @@ export class CharacterSegmentationService {
     rowDividers: DividerLine[][],
     strokeBounds: StrokeBounds[],
     charHeight: number,
-    contentBounds: { minX: number; maxX: number; minY: number; maxY: number }
+    contentBounds: { minX: number; maxX: number; minY: number; maxY: number },
+    protectedGroups: ProtectedGroup[]
   ): { columnDividers: DividerLine[]; rowDividers: DividerLine[][] } {
     const MAX_ITERATIONS = 10;
     let dividers = [...columnDividers];
@@ -736,7 +792,7 @@ export class CharacterSegmentationService {
 
       // Re-assign strokes to columns and recalculate row dividers
       const strokesByColumn = this.assignStrokesToColumns(strokeBounds, dividers);
-      rows = this.findAllRowDividers(strokesByColumn, strokeBounds, dividers, charHeight);
+      rows = this.findAllRowDividers(strokesByColumn, strokeBounds, dividers, charHeight, protectedGroups);
       rows = this.enforceRowUniformity(rows, strokesByColumn, strokeBounds, dividers);
     }
 

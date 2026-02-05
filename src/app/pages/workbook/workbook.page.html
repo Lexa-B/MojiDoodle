@@ -10,6 +10,21 @@
       <ion-icon name="backspace"></ion-icon>
     </ion-button>
 
+    <!-- Drawing tools toolbar -->
+    <div class="tool-bar" *ngIf="!noCardsAvailable">
+      <ion-button fill="clear" (click)="onClearAll()" class="tool-btn">
+        <ion-icon name="trash-outline"></ion-icon>
+      </ion-button>
+      <ion-button fill="clear" (click)="setDrawMode('brush')"
+                  class="tool-btn" [class.active]="drawMode === 'brush'">
+        <ion-icon name="brush-outline"></ion-icon>
+      </ion-button>
+      <ion-button fill="clear" (click)="setDrawMode('lasso')"
+                  class="tool-btn" [class.active]="drawMode === 'lasso'">
+        <ion-icon name="ellipse-outline"></ion-icon>
+      </ion-button>
+    </div>
+
     <div class="caught-up-box" *ngIf="noCardsAvailable">
       <div class="caught-up-title">おめでとう🥳</div>
       <div class="caught-up-message">You're all caught up. Come back again soon for more lessons!</div>

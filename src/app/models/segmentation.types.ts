@@ -91,3 +91,11 @@ export interface SegmentationConfig {
   minCharSizeRatio: number;      // Min char size as fraction of canvas (default: 0.08)
   maxCharSizeRatio: number;      // Max char size as fraction of canvas (default: 0.40)
 }
+
+/**
+ * A group of strokes that should not be split by segmentation.
+ * Used when user draws a lasso around strokes to keep them together.
+ */
+export interface ProtectedGroup {
+  strokeIndices: number[];
+}
