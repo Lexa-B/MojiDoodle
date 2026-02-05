@@ -17,7 +17,8 @@ Draw Japanese characters on a canvas and get instant feedback via handwriting re
 
 ## Try it
 
-https://lexa-b.github.io/MojiDoodle/
+**Production**: https://lexa-b.github.io/MojiDoodle/
+**Dev build**: https://lexa-b.github.io/MojiDoodle/dev/
 
 ## How to Use
 
@@ -80,6 +81,17 @@ npm install
 npm start
 ```
 
+### Data Collection Worker
+
+The worker that receives training data is in `worker/`. To deploy changes:
+
+```bash
+cd worker
+npm install
+npm run publish   # Deploy to Cloudflare
+npm run logs      # Tail logs
+```
+
 ## Tech
 
 - Ionic 8 / Angular 20 / Capacitor 8
@@ -88,6 +100,7 @@ npm start
 - Canvas 2D for brush rendering
 - IndexedDB for offline persistence
 - Character segmentation for multi-character vocabulary words
+- Cloudflare Worker + R2 for training data collection (opt-in)
 
 ## Data Architecture
 
@@ -112,6 +125,31 @@ Cards advance through 16 stages with increasing intervals:
 - Stage 5: 1 day
 - Stage 10: 1 month
 - Stage 15: 12 months
+
+### User Data & Privacy
+
+**What's stored locally:**
+- Your card progress (stages and unlock times)
+- Lesson completion status
+- A random user UUID (for data collection if opted-in)
+- Your data collection preference
+
+**Data Collection (optional):**
+On first launch, you'll be asked if you want to help improve the app by sharing workbook session data. This is completely optional:
+- **Yes**: Session data (strokes, recognition results) is sent to our collection server to train better segmentation models
+- **No**: No data is collected, ever
+- **Maybe later**: You'll be asked again next time
+
+Your card progress and lesson status are always stored locally in IndexedDB. No accounts, no cloud sync for your learning data.
+
+### Updates & Migration
+
+When new content is available, you'll see an "Update Available" prompt:
+- **Migrate**: Preserves your progress while updating to new content
+- **Later**: Keeps your current database (may have stale content)
+- **Reset**: Fresh start, all progress lost
+
+Migration safely exports your card stages and lesson statuses, rebuilds the database with new content, then restores your progress.
 
 ## Acknowledgements
 

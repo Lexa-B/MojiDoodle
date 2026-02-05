@@ -13,7 +13,8 @@ npm start                      # Dev server (ng serve with custom webpack)
 npm run build                  # Production build
 ng test                        # Unit tests
 ng lint                        # Linting
-npm run deploy                 # Build and deploy to GitHub Pages
+npm run deploy                 # Build and deploy to GitHub Pages (production)
+npm run deploy:dev             # Build and deploy to /dev path (testing)
 
 # Native platforms
 ionic capacitor add ios
@@ -23,6 +24,7 @@ ionic capacitor open ios       # Open in Xcode
 ```
 
 **Live site**: https://lexa-b.github.io/MojiDoodle/
+**Dev site**: https://lexa-b.github.io/MojiDoodle/dev/
 
 ## Architecture
 
@@ -41,9 +43,11 @@ src/
 │   ├── services/
 │   │   ├── cards.service.ts     # Card & lesson database (SQLite + IndexedDB)
 │   │   ├── stroke-recognition.service.ts  # Google Input Tools API
-│   │   └── character-segmentation.service.ts  # Multi-char segmentation
+│   │   ├── character-segmentation.service.ts  # Multi-char segmentation
+│   │   └── collection.service.ts  # Training data collection & export
 │   ├── models/
-│   │   └── segmentation.types.ts  # Segmentation grid types
+│   │   ├── segmentation.types.ts  # Segmentation grid types
+│   │   └── collection.types.ts    # Training data sample types
 │   ├── app.component.ts         # Sidemenu config, version checking
 │   └── app-routing.module.ts    # Routes (default: /dashboard)
 ├── data/
@@ -91,7 +95,7 @@ The app uses a hybrid YAML → JSON → SQLite architecture:
 
 **Cross-platform**: Works on desktop web, mobile web, Android, and iOS using the same sql.js + IndexedDB approach.
 
-**GitHub Pages SPA**: Uses `404.html` redirect trick to handle client-side routing (saves path to sessionStorage, redirects to root, `index.html` restores path).
+**GitHub Pages SPA**: Uses `404.html` redirect trick to handle client-side routing (saves path to sessionStorage, redirects to root, `index.html` restores path). The 404.html auto-detects `/dev/` paths and redirects appropriately.
 
 **Database tables:**
 - `cards` - Character cards with stage and unlock time
@@ -100,6 +104,7 @@ The app uses a hybrid YAML → JSON → SQLite architecture:
 - `lesson_cards` - Maps lessons to their cards
 - `lesson_requires` - Lesson prerequisites
 - `lesson_supercedes` - Lessons that replace others when unlocked
+- `user_settings` - Key-value store for user preferences (user_uuid, data_collection)
 
 ### Pages
 
@@ -418,3 +423,151 @@ const isCorrect = normalizedAnswers.some(target => {
 - Rows: top-to-bottom (row 0 = topmost)
 
 **Visualization:** Workbook draws faint dashed divider lines between columns and rows.
+
+### Data Collection Service
+
+Collects workbook sessions for training segmentation models. Sends JSON samples to Cloudflare Worker after each grading.
+
+**Files:**
+- `src/app/models/collection.types.ts` - Type definitions
+- `src/app/services/collection.service.ts` - Export logic
+
+**CollectionSample Schema:**
+```typescript
+interface CollectionSample {
+  strokes: Point[][];           // Raw input strokes
+  canvasWidth: number;          // Canvas dimensions for normalization
+  canvasHeight: number;
+  segmentation: {               // Algorithm output (null for single-char)
+    columnDividers: DividerLine[];
+    rowDividers: DividerLine[][];
+  } | null;
+  selectionLassos: SelectionLasso[] | null;  // Manual segmentation (future)
+  answers: string[];            // Card's valid answers
+  recognitionResults: { character: string; score: number }[][] | null;
+  groundTruth: GroundTruthEntry[] | null;  // Inferred on success
+  success: boolean;             // Did recognition match?
+  id: string;                   // UUID for this sample
+  userId: string;               // Persistent user UUID
+  cardId: string;               // Card being practiced
+  timestamp: number;            // When collected
+}
+
+interface GroundTruthEntry {
+  strokeIndices: number[];      // Strokes belonging to this character
+  character: string;            // Expected character
+}
+
+interface SelectionLasso {      // Future manual segmentation
+  points: { x: number; y: number }[];
+  strokeIndices: number[];
+}
+```
+
+**Ground Truth Strategy:**
+- On success: automatically inferred from segmentation cells
+- On failure: `groundTruth = null` (needs manual labeling)
+- Single-char: all strokes → one character
+- Multi-char: cell assignments from segmentation
+
+**Export Flow:**
+1. After grading completes, `workbook.page.ts` calls `collectionService.exportSample()`
+2. Sample built from strokes, segmentation, recognition results
+3. Browser downloads JSON file: `segmentation_{cardId}_{timestamp}.json`
+
+### User Settings & Data Collection
+
+**Database table:** `user_settings` (key-value store)
+- `user_uuid` - Persistent UUID generated on first launch
+- `data_collection` - User's opt-in status: `'opted-in'`, `'opted-out'`, or `'no-response'`
+
+**CardsService methods:**
+- `getUserUuid()` - Get persistent user UUID
+- `getDataCollectionStatus()` - Get opt-in status
+- `setDataCollectionStatus(status)` - Update opt-in status
+
+**Data Collection Prompt:**
+- On app launch, if status is `'no-response'`, shows opt-in alert
+- User can choose "Yes!", "No.", or "Maybe later"
+- "Maybe later" keeps `'no-response'` so prompt appears again next launch
+
+### Cloudflare Worker (Data Collection Backend)
+
+**Location**: `worker/`
+**Endpoint**: `https://mojidoodle.lexa.digital/collect`
+
+Receives `CollectionSample` JSON from the app and stores in R2.
+
+**Files:**
+```
+worker/
+├── src/index.ts      # Worker code
+├── wrangler.toml     # Cloudflare config
+├── package.json      # Scripts: start, publish, logs
+└── tsconfig.json
+```
+
+**Scripts** (run from `worker/` directory):
+```bash
+npm start        # Local dev server at localhost:8787
+npm run publish  # Deploy to Cloudflare
+npm run logs     # Tail worker logs
+```
+
+**Endpoints:**
+- `GET /` or `/health` - Health check
+- `POST /collect` - Receive samples
+
+**Storage:**
+- R2 bucket: `mojidoodle-samples` (samples stored as `{userId}/{cardId}/{sampleId}.json`)
+- KV namespace: `RATE_LIMIT` (for rate limiting)
+
+**Security controls:**
+- CORS: Only allows `https://lexa-b.github.io`
+- Rate limit: 60 requests/minute per IP
+- Body size limit: 1MB max
+- Content-Type: Must be `application/json`
+- Validation: Checks required fields, strokes is array, answers is non-empty array, canvas dimensions are positive
+
+**Server-side metadata** (stored in R2 custom metadata, not in JSON):
+- `receivedAt` - Server timestamp
+- `ipHash` - SHA-256 hash of client IP (first 16 hex chars)
+- `uaHash` - SHA-256 hash of User-Agent
+- `contentLength` - Request body size
+
+### Version Checking & Migration
+
+**Files:**
+- `src/data/version.json` - Build timestamp (generated by `scripts/generate-version.js`)
+- `app.component.ts` - Version check and migration logic
+
+**Flow:**
+1. On app launch, fetch `version.json` from server
+2. Compare with stored version in localStorage (`mojidoodle-version`)
+3. If mismatch AND user has existing data → show "Update Available" alert:
+   - **Migrate**: Export progress → rebuild DB → restore progress
+   - **Later**: Store version, keep old DB (may have stale content)
+   - **Reset**: Rebuild DB from scratch, lose all progress
+
+**Migration methods (CardsService):**
+- `exportToBundle()` - Export current DB state (cards, lessons, user settings)
+- `restoreFromBundle(backup)` - Restore progress after rebuild
+- `rebuild()` - Clear IndexedDB and rebuild from fresh bundle
+
+## Critical Rules
+
+### Database Initialization Order
+
+**CRITICAL**: Always call `await cardsService.initialize()` before any database operations.
+
+The service uses lazy initialization - `this.db` is null until `initialize()` is called. Any method that queries the database (like `exportToBundle()`) will return empty results if called before initialization.
+
+**Bug example (2026-02-05):** Migration wiped user progress because `exportToBundle()` was called before `initialize()`. The export returned empty arrays, then rebuild happened, then empty data was "restored".
+
+**Correct pattern:**
+```typescript
+await this.cardsService.initialize();  // Load existing DB first!
+const backup = await this.cardsService.exportToBundle();
+await this.cardsService.rebuild();
+await this.cardsService.restoreFromBundle(backup);
+```

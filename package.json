@@ -24,8 +24,7 @@
   "scripts": {
     "ng": "ng",
     "prebuild": "node scripts/generate-version.js && node scripts/compile-data.js",
-    "prestart": "node scripts/generate-version.js && node scripts/compile-data.js",
-    "start": "ng serve",
+    "start": "npm run build && ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",

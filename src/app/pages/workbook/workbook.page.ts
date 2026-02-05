@@ -7,6 +7,7 @@ import { Subscription } from 'rxjs';
 import { StrokeRecognitionService } from '../../services/stroke-recognition.service';
 import { CardsService, Card } from '../../services/cards.service';
 import { CharacterSegmentationService } from '../../services/character-segmentation.service';
+import { CollectionService } from '../../services/collection.service';
 import { SegmentationResult, SegmentationGrid, GridCell } from '../../models/segmentation.types';
 
 interface Point {
@@ -57,6 +58,9 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
 
   // Batch recognition results for multi-character grading
   private lastBatchResults: { character: string; score: number }[][] = [];
+
+  // Sorted cells from last segmentation (for collection export)
+  private lastSortedCells: GridCell[] = [];
 
   // Small kana → big kana mapping for fuzzy matching
   // The API often returns big kana when user writes small kana
@@ -131,7 +135,8 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
   constructor(
     private strokeRecognition: StrokeRecognitionService,
     private cardsService: CardsService,
-    private segmentationService: CharacterSegmentationService
+    private segmentationService: CharacterSegmentationService,
+    private collectionService: CollectionService
   ) {
     addIcons({ backspace });
   }
@@ -474,7 +479,8 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
       // Calculate max answer length to determine if segmentation is needed
       const maxAnswerLength = Math.max(...this.currentCard.answers.map(a => [...a.replace(/\s+/g, '')].length));
 
-      let sortedCells: GridCell[] = [];
+      // Reset sorted cells for this check
+      this.lastSortedCells = [];
 
       // Only run segmentation for multi-character answers
       if (maxAnswerLength > 1) {
@@ -491,7 +497,7 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
         const cellsWithStrokes = grid.cells.filter(c => c.strokeIndices.length > 0);
 
         // Sort cells in Japanese reading order: right-to-left columns, top-to-bottom rows
-        sortedCells = [...cellsWithStrokes].sort((a, b) => {
+        this.lastSortedCells = [...cellsWithStrokes].sort((a, b) => {
           if (a.column !== b.column) return a.column - b.column;  // Column 0 is rightmost
           return a.row - b.row;  // Top to bottom
         });
@@ -499,7 +505,7 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
 
       let results: { character: string; score: number }[];
 
-      if (sortedCells.length <= 1) {
+      if (this.lastSortedCells.length <= 1) {
         // Single cell - use regular recognition
         this.lastBatchResults = []; // Clear batch results
         results = await this.strokeRecognition.recognize(
@@ -509,7 +515,7 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
         );
       } else {
         // Multiple cells - use batch recognition
-        const cellData = sortedCells.map(cell => {
+        const cellData = this.lastSortedCells.map(cell => {
           const cellStrokes = cell.strokeIndices.map(i => this.strokes[i]);
           const width = cell.bounds.maxX - cell.bounds.minX;
           const height = cell.bounds.maxY - cell.bounds.minY;
@@ -528,7 +534,7 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
         // Also add individual cell interpretations for debugging
         console.log('Cell interpretations (Japanese reading order):', batchResults.map((r, i) => ({
           cell: i,
-          position: `col ${sortedCells[i].column}, row ${sortedCells[i].row}`,
+          position: `col ${this.lastSortedCells[i].column}, row ${this.lastSortedCells[i].row}`,
           top5: r.slice(0, 5).map(c => c.character)
         })));
       }
@@ -627,6 +633,9 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
       // Get stroke count info
       const expectedStrokes = this.strokeRecognition.getExpectedStrokeCount(this.currentCharacter);
       this.strokeCountInfo = `Strokes: ${this.strokes.length}/${expectedStrokes}`;
+
+      // Export sample for segmentation training data
+      this.exportCollectionSample(isCorrect);
 
     } catch (error: any) {
       console.error('Recognition error:', error);
@@ -813,5 +822,37 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
     }
 
     this.ctx.restore();
+  }
+
+  /**
+   * Export sample data for segmentation model training.
+   * Called after every grading to collect training data.
+   */
+  private exportCollectionSample(success: boolean): void {
+    if (!this.currentCard) return;
+
+    const canvas = this.canvasRef.nativeElement;
+
+    // Build recognition results array
+    // For single-char: wrap topMatches in array (one cell)
+    // For multi-char: use lastBatchResults directly
+    let recognitionResults: { character: string; score: number }[][] | null = null;
+    if (this.lastBatchResults.length > 0) {
+      recognitionResults = this.lastBatchResults;
+    } else if (this.topMatches.length > 0) {
+      recognitionResults = [this.topMatches];
+    }
+
+    this.collectionService.exportSample({
+      strokes: this.strokes,
+      canvasWidth: canvas.width,
+      canvasHeight: canvas.height,
+      segmentationResult: this.segmentationResult,
+      sortedCells: this.lastSortedCells,
+      answers: this.currentCard.answers,
+      recognitionResults,
+      success,
+      cardId: this.currentCard.id
+    });
   }
 }

@@ -29,6 +29,8 @@ export interface Lesson {
   ids?: string[];
 }
 
+export type DataCollectionStatus = 'opted-in' | 'opted-out' | 'no-response';
+
 const DB_NAME = 'mojidoodle-cards';
 const DB_VERSION = 1;
 
@@ -81,6 +83,8 @@ export class CardsService {
       this.db = new SQL.Database(stored);
       // Load stages for color lookups
       await this.loadStagesFromBundle();
+      // Run migrations for existing databases
+      this.runMigrations();
       console.log('Loaded cards database from storage');
       this.startPolling();
       return;
@@ -183,6 +187,14 @@ export class CardsService {
       CREATE INDEX idx_cards_category ON cards(category);
       CREATE INDEX idx_befuddlers_card ON befuddlers(card_id);
       CREATE INDEX idx_lesson_cards_lesson ON lesson_cards(lesson_id);
+
+      CREATE TABLE user_settings (
+        key TEXT PRIMARY KEY,
+        value TEXT NOT NULL
+      );
+
+      INSERT INTO user_settings (key, value) VALUES ('data_collection', 'no-response');
+      INSERT INTO user_settings (key, value) VALUES ('user_uuid', '${crypto.randomUUID()}');
     `);
 
     // Insert all cards
@@ -234,6 +246,40 @@ export class CardsService {
       }
     }
     console.log(`Loaded ${bundle.lessons.length} lessons from bundle`);
+  }
+
+  private runMigrations(): void {
+    if (!this.db) return;
+
+    // Migration: Add user_settings table if it doesn't exist
+    const tableExists = this.queryOne<{ name: string }>(
+      "SELECT name FROM sqlite_master WHERE type='table' AND name='user_settings'"
+    );
+    if (!tableExists) {
+      this.db.run(`
+        CREATE TABLE user_settings (
+          key TEXT PRIMARY KEY,
+          value TEXT NOT NULL
+        );
+        INSERT INTO user_settings (key, value) VALUES ('data_collection', 'no-response');
+        INSERT INTO user_settings (key, value) VALUES ('user_uuid', '${crypto.randomUUID()}');
+      `);
+      this.saveToStorage();
+      console.log('Migration: Created user_settings table');
+    }
+
+    // Migration: Add user_uuid if it doesn't exist
+    const userUuidExists = this.queryOne<{ value: string }>(
+      "SELECT value FROM user_settings WHERE key = 'user_uuid'"
+    );
+    if (!userUuidExists) {
+      this.db.run(
+        'INSERT INTO user_settings (key, value) VALUES (?, ?)',
+        ['user_uuid', crypto.randomUUID()]
+      );
+      this.saveToStorage();
+      console.log('Migration: Created user_uuid');
+    }
   }
 
   private async loadStagesFromBundle(): Promise<void> {
@@ -394,6 +440,14 @@ export class CardsService {
       CREATE INDEX idx_cards_category ON cards(category);
       CREATE INDEX idx_befuddlers_card ON befuddlers(card_id);
       CREATE INDEX idx_lesson_cards_lesson ON lesson_cards(lesson_id);
+
+      CREATE TABLE user_settings (
+        key TEXT PRIMARY KEY,
+        value TEXT NOT NULL
+      );
+
+      INSERT INTO user_settings (key, value) VALUES ('data_collection', 'no-response');
+      INSERT INTO user_settings (key, value) VALUES ('user_uuid', '${crypto.randomUUID()}');
     `);
 
     // Load card packs from manifest
@@ -1215,6 +1269,32 @@ export class CardsService {
     return result?.count ?? 0;
   }
 
+  // User settings API
+  getDataCollectionStatus(): DataCollectionStatus {
+    const result = this.queryOne<{ value: string }>(
+      'SELECT value FROM user_settings WHERE key = ?',
+      ['data_collection']
+    );
+    return (result?.value as DataCollectionStatus) ?? 'no-response';
+  }
+
+  setDataCollectionStatus(status: DataCollectionStatus): void {
+    if (!this.db) return;
+    this.db.run(
+      'INSERT OR REPLACE INTO user_settings (key, value) VALUES (?, ?)',
+      ['data_collection', status]
+    );
+    this.saveToStorage();
+  }
+
+  getUserUuid(): string | null {
+    const result = this.queryOne<{ value: string }>(
+      'SELECT value FROM user_settings WHERE key = ?',
+      ['user_uuid']
+    );
+    return result?.value ?? null;
+  }
+
   /** Result of a restore operation */
   exportRestoreResult?: {
     cardsUpdated: number;
@@ -1224,7 +1304,7 @@ export class CardsService {
   };
 
   /** Export current database state to bundle.json format */
-  async exportToBundle(): Promise<{ stages: any[]; cards: any[]; lessons: any[] }> {
+  async exportToBundle(): Promise<{ stages: any[]; cards: any[]; lessons: any[]; user_uuid?: string; data_collection?: DataCollectionStatus }> {
     // Get stages from the in-memory maps (or fetch from bundle if needed)
     const stages: { stage: number; minutes: number; color: string }[] = [];
     for (const [stage, minutes] of this.stages) {
@@ -1314,11 +1394,21 @@ export class CardsService {
       };
     });
 
-    return { stages, cards, lessons };
+    // Get user settings
+    const userUuid = this.getUserUuid();
+    const dataCollection = this.getDataCollectionStatus();
+
+    return {
+      stages,
+      cards,
+      lessons,
+      user_uuid: userUuid ?? undefined,
+      data_collection: dataCollection !== 'no-response' ? dataCollection : undefined
+    };
   }
 
   /** Restore progress from a backup bundle */
-  async restoreFromBundle(bundle: { cards?: any[]; lessons?: any[] }): Promise<{
+  async restoreFromBundle(bundle: { cards?: any[]; lessons?: any[]; user_uuid?: string; data_collection?: DataCollectionStatus }): Promise<{
     cardsUpdated: number;
     lessonsUpdated: number;
     cardsNotFound: number;
@@ -1332,6 +1422,20 @@ export class CardsService {
     let cardsNotFound = 0;
     let lessonsUpdated = 0;
     let lessonsNotFound = 0;
+
+    // Restore user settings if present in backup
+    if (bundle.user_uuid) {
+      this.db.run(
+        'INSERT OR REPLACE INTO user_settings (key, value) VALUES (?, ?)',
+        ['user_uuid', bundle.user_uuid]
+      );
+    }
+    if (bundle.data_collection) {
+      this.db.run(
+        'INSERT OR REPLACE INTO user_settings (key, value) VALUES (?, ?)',
+        ['data_collection', bundle.data_collection]
+      );
+    }
 
     // Restore cards: only those with stage >= 0, only update stage and unlocks
     if (bundle.cards) {

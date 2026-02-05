@@ -24,6 +24,7 @@ export class AppComponent implements OnInit {
 
   async ngOnInit() {
     await this.checkVersion();
+    await this.checkDataCollection();
   }
 
   private async checkVersion() {
@@ -93,11 +94,20 @@ export class AppComponent implements OnInit {
       ]
     });
     await alert.present();
+    await alert.onDidDismiss();
   }
 
   private async migrateProgress(serverTimestamp: string) {
-    // Export current progress
+    // IMPORTANT: Initialize the service first to load the existing database
+    // This must happen BEFORE export, otherwise db is null and export returns empty
+    await this.cardsService.initialize();
+
+    // Export current progress from the loaded database
     const backup = await this.cardsService.exportToBundle();
+    console.log('Migration backup:', {
+      cards: backup.cards?.filter(c => c.stage >= 0).length ?? 0,
+      lessons: backup.lessons?.filter(l => l.status !== 'locked').length ?? 0
+    });
 
     // Rebuild database with new data
     localStorage.setItem(VERSION_KEY, serverTimestamp);
@@ -133,5 +143,48 @@ export class AppComponent implements OnInit {
   private getBaseUrl(): string {
     const base = document.baseURI || '/';
     return base.endsWith('/') ? base : base + '/';
+  }
+
+  private async checkDataCollection() {
+    try {
+      // Ensure cards service is initialized
+      await this.cardsService.initialize();
+
+      const status = this.cardsService.getDataCollectionStatus();
+      if (status === 'no-response') {
+        await this.showDataCollectionAlert();
+      }
+    } catch (err) {
+      console.warn('Failed to check data collection status:', err);
+    }
+  }
+
+  private async showDataCollectionAlert() {
+    const alert = await this.alertCtrl.create({
+      header: 'Data Collection Notice',
+      subHeader: 'Totally optional:',
+      message: 'We would like to collect data from your workbook sessions so that we can create a better model for character segmentation. This will greatly improve the app experience, especially for longer responses like those needed by Genki cards.\n\nWould you like to take part and help make the app better?',
+      buttons: [
+        {
+          text: 'Yes!',
+          handler: () => {
+            this.cardsService.setDataCollectionStatus('opted-in');
+          }
+        },
+        {
+          text: 'No.',
+          handler: () => {
+            this.cardsService.setDataCollectionStatus('opted-out');
+          }
+        },
+        {
+          text: 'Maybe later',
+          role: 'cancel',
+          cssClass: 'secondary'
+          // Keep as 'no-response' - will ask again next time
+        }
+      ]
+    });
+    await alert.present();
   }
 }
