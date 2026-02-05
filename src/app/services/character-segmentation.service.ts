@@ -81,7 +81,7 @@ export class CharacterSegmentationService {
     );
 
     // Step 5: Enforce column width uniformity (no column >2x wider than another)
-    columnDividers = this.enforceColumnUniformity(columnDividers, strokeBounds, contentBounds);
+    columnDividers = this.enforceColumnUniformity(columnDividers, strokeBounds, contentBounds, protectedGroups || []);
 
     // Step 6: Assign strokes to columns
     const strokesByColumn = this.assignStrokesToColumns(strokeBounds, columnDividers);
@@ -95,7 +95,7 @@ export class CharacterSegmentationService {
     );
 
     // Step 8: Enforce row height uniformity per column (no cell >2x taller than another)
-    rowDividers = this.enforceRowUniformity(rowDividers, strokesByColumn, strokeBounds, columnDividers);
+    rowDividers = this.enforceRowUniformity(rowDividers, strokesByColumn, strokeBounds, columnDividers, protectedGroups || []);
 
     // Step 9: Enforce columns <= maxRows constraint
     // Japanese writing is vertical, so we should never have more columns than rows
@@ -515,19 +515,7 @@ export class CharacterSegmentationService {
   }
 
   /**
-   * Get the lasso index that a stroke belongs to, or -1 if not in any lasso.
-   */
-  private getStrokeLassoIndex(strokeIndex: number, protectedGroups: ProtectedGroup[]): number {
-    for (let i = 0; i < protectedGroups.length; i++) {
-      if (protectedGroups[i].strokeIndices.includes(strokeIndex)) {
-        return i;
-      }
-    }
-    return -1;
-  }
-
-  /**
-   * Add dividers between strokes that belong to different lassos.
+   * Add dividers between different lassos based on their bounding boxes.
    * This ensures that manually grouped strokes are always segmented separately.
    */
   private addInterLassoDividers(
@@ -539,49 +527,81 @@ export class CharacterSegmentationService {
   ): DividerLine[] {
     if (protectedGroups.length < 2) return dividers;
 
-    // Sort strokes by position in the relevant dimension
-    const sortedStrokes = [...strokeBounds].sort((a, b) =>
-      dimension === 'x' ? a.centerX - b.centerX : a.centerY - b.centerY
-    );
+    // Calculate bounding box for each lasso in BOTH dimensions
+    const lassoBounds: { lassoIdx: number; min: number; max: number; perpMin: number; perpMax: number }[] = [];
+    for (let i = 0; i < protectedGroups.length; i++) {
+      const group = protectedGroups[i];
+      if (group.strokeIndices.length === 0) continue;
+
+      const groupStrokes = group.strokeIndices
+        .filter(idx => idx < strokeBounds.length)
+        .map(idx => strokeBounds[idx]);
+
+      if (groupStrokes.length === 0) continue;
+
+      const min = Math.min(...groupStrokes.map(s => dimension === 'x' ? s.minX : s.minY));
+      const max = Math.max(...groupStrokes.map(s => dimension === 'x' ? s.maxX : s.maxY));
+      const perpMin = Math.min(...groupStrokes.map(s => dimension === 'x' ? s.minY : s.minX));
+      const perpMax = Math.max(...groupStrokes.map(s => dimension === 'x' ? s.maxY : s.maxX));
+      lassoBounds.push({ lassoIdx: i, min, max, perpMin, perpMax });
+    }
+
+    if (lassoBounds.length < 2) return dividers;
+
+    // Sort lassos by their min position
+    lassoBounds.sort((a, b) => a.min - b.min);
 
     const result = [...dividers];
     const dividerPositions = new Set(dividers.map(d => d.intercept));
 
-    // Find adjacent stroke pairs that belong to different lassos
-    for (let i = 0; i < sortedStrokes.length - 1; i++) {
-      const current = sortedStrokes[i];
-      const next = sortedStrokes[i + 1];
+    // Get perpendicular extent for divider lines
+    const perpExtentMin = dimension === 'x'
+      ? Math.min(...strokeBounds.map(s => s.minY))
+      : Math.min(...strokeBounds.map(s => s.minX));
+    const perpExtentMax = dimension === 'x'
+      ? Math.max(...strokeBounds.map(s => s.maxY))
+      : Math.max(...strokeBounds.map(s => s.maxX));
 
-      const currentLasso = this.getStrokeLassoIndex(current.strokeIndex, protectedGroups);
-      const nextLasso = this.getStrokeLassoIndex(next.strokeIndex, protectedGroups);
+    // Find gaps between consecutive lassos and add dividers
+    for (let i = 0; i < lassoBounds.length - 1; i++) {
+      const current = lassoBounds[i];
+      const next = lassoBounds[i + 1];
 
-      // Only add divider if BOTH strokes are in lassos AND they're in DIFFERENT lassos
-      if (currentLasso >= 0 && nextLasso >= 0 && currentLasso !== nextLasso) {
-        // Calculate divider position at boundary between their bounding boxes
-        const boundary = dimension === 'x'
-          ? (current.maxX + next.minX) / 2
-          : (current.maxY + next.minY) / 2;
+      // Calculate overlap in the primary dimension
+      const overlap = current.max - next.min;
+      const currentSize = current.max - current.min;
+      const nextSize = next.max - next.min;
+      const smallerSize = Math.min(currentSize, nextSize);
 
-        // Check if there's already a divider nearby (within 10px)
-        const hasNearbyDivider = [...dividerPositions].some(pos => Math.abs(pos - boundary) < 10);
+      // Calculate overlap in the perpendicular dimension
+      // If lassos overlap significantly in perp dimension, they might be side-by-side
+      // (e.g., for columns: if Y ranges overlap, they're at similar heights = different columns)
+      const perpOverlap = Math.min(current.perpMax, next.perpMax) - Math.max(current.perpMin, next.perpMin);
+      const currentPerpSize = current.perpMax - current.perpMin;
+      const nextPerpSize = next.perpMax - next.perpMin;
+      const smallerPerpSize = Math.min(currentPerpSize, nextPerpSize);
 
-        if (!hasNearbyDivider) {
-          // Get the perpendicular extent for the divider line
-          const perpMin = dimension === 'x'
-            ? Math.min(...strokeBounds.map(s => s.minY))
-            : Math.min(...strokeBounds.map(s => s.minX));
-          const perpMax = dimension === 'x'
-            ? Math.max(...strokeBounds.map(s => s.maxY))
-            : Math.max(...strokeBounds.map(s => s.maxX));
+      // Lassos overlap significantly in perpendicular dimension = they're side-by-side = ADD divider
+      const areSideBySide = smallerPerpSize > 0 && perpOverlap > smallerPerpSize * 0.3;
 
-          result.push({
-            slope: 0,
-            intercept: boundary,
-            start: perpMin - 10,
-            end: perpMax + 10,
-          });
-          dividerPositions.add(boundary);
-        }
+      // Skip only if lassos overlap heavily in primary dimension AND are NOT side-by-side
+      if (smallerSize > 0 && overlap > smallerSize * 0.5 && !areSideBySide) {
+        continue;
+      }
+
+      const boundary = (current.max + next.min) / 2;
+
+      // Check if there's already a divider nearby (within 10px)
+      const hasNearbyDivider = [...dividerPositions].some(pos => Math.abs(pos - boundary) < 10);
+
+      if (!hasNearbyDivider) {
+        result.push({
+          slope: 0,
+          intercept: boundary,
+          start: perpExtentMin - 10,
+          end: perpExtentMax + 10,
+        });
+        dividerPositions.add(boundary);
       }
     }
 
@@ -590,7 +610,7 @@ export class CharacterSegmentationService {
   }
 
   /**
-   * Add inter-lasso row dividers within each column.
+   * Add inter-lasso row dividers within each column based on lasso bounding boxes.
    */
   private addInterLassoRowDividers(
     rowDividers: DividerLine[][],
@@ -608,36 +628,58 @@ export class CharacterSegmentationService {
       const colStrokes = colStrokeIndices.map(i => strokeBounds[i]);
       const colBounds = this.getColumnXBounds(colIdx, columnDividers, strokesByColumn.length, colStrokes);
 
-      // Sort strokes in this column by Y position
-      const sortedByY = [...colStrokes].sort((a, b) => a.centerY - b.centerY);
+      // Find lassos that have strokes in this column and calculate their Y bounds
+      const lassoBounds: { lassoIdx: number; minY: number; maxY: number }[] = [];
+      for (let i = 0; i < protectedGroups.length; i++) {
+        const group = protectedGroups[i];
+        // Get strokes from this lasso that are in this column
+        const lassoStrokesInCol = group.strokeIndices.filter(idx => colStrokeIndices.includes(idx));
+        if (lassoStrokesInCol.length === 0) continue;
+
+        const lassoStrokes = lassoStrokesInCol.map(idx => strokeBounds[idx]);
+        const minY = Math.min(...lassoStrokes.map(s => s.minY));
+        const maxY = Math.max(...lassoStrokes.map(s => s.maxY));
+        lassoBounds.push({ lassoIdx: i, minY, maxY });
+      }
+
+      if (lassoBounds.length < 2) return colRowDividers;
+
+      // Sort lassos by their minY position
+      lassoBounds.sort((a, b) => a.minY - b.minY);
 
       const result = [...colRowDividers];
       const dividerPositions = new Set(colRowDividers.map(d => d.intercept));
 
-      // Find adjacent stroke pairs that belong to different lassos
-      for (let i = 0; i < sortedByY.length - 1; i++) {
-        const current = sortedByY[i];
-        const next = sortedByY[i + 1];
+      // Find gaps between consecutive lassos and add dividers
+      // Only add dividers where lassos don't significantly overlap
+      for (let i = 0; i < lassoBounds.length - 1; i++) {
+        const current = lassoBounds[i];
+        const next = lassoBounds[i + 1];
 
-        const currentLasso = this.getStrokeLassoIndex(current.strokeIndex, protectedGroups);
-        const nextLasso = this.getStrokeLassoIndex(next.strokeIndex, protectedGroups);
+        // Calculate overlap: positive means overlap, negative means gap
+        const overlap = current.maxY - next.minY;
+        const currentSize = current.maxY - current.minY;
+        const nextSize = next.maxY - next.minY;
+        const smallerSize = Math.min(currentSize, nextSize);
 
-        // Only add divider if BOTH strokes are in lassos AND they're in DIFFERENT lassos
-        if (currentLasso >= 0 && nextLasso >= 0 && currentLasso !== nextLasso) {
-          const boundary = (current.maxY + next.minY) / 2;
+        // Skip if lassos overlap by more than 50% of the smaller one
+        if (smallerSize > 0 && overlap > smallerSize * 0.5) {
+          continue;
+        }
 
-          // Check if there's already a divider nearby
-          const hasNearbyDivider = [...dividerPositions].some(pos => Math.abs(pos - boundary) < 10);
+        const boundary = (current.maxY + next.minY) / 2;
 
-          if (!hasNearbyDivider) {
-            result.push({
-              slope: 0,
-              intercept: boundary,
-              start: colBounds.minX - 10,
-              end: colBounds.maxX + 10,
-            });
-            dividerPositions.add(boundary);
-          }
+        // Check if there's already a divider nearby
+        const hasNearbyDivider = [...dividerPositions].some(pos => Math.abs(pos - boundary) < 10);
+
+        if (!hasNearbyDivider) {
+          result.push({
+            slope: 0,
+            intercept: boundary,
+            start: colBounds.minX - 10,
+            end: colBounds.maxX + 10,
+          });
+          dividerPositions.add(boundary);
         }
       }
 
@@ -648,11 +690,13 @@ export class CharacterSegmentationService {
   /**
    * Enforce column width uniformity: no column should be >2x wider than another.
    * Can either split large columns OR merge small columns, whichever improves ratio.
+   * Respects protected groups - won't add splits that would divide a lasso.
    */
   private enforceColumnUniformity(
     columnDividers: DividerLine[],
     strokeBounds: StrokeBounds[],
-    contentBounds: { minX: number; maxX: number; minY: number; maxY: number }
+    contentBounds: { minX: number; maxX: number; minY: number; maxY: number },
+    protectedGroups: ProtectedGroup[]
   ): DividerLine[] {
     if (strokeBounds.length === 0) return columnDividers;
 
@@ -686,18 +730,22 @@ export class CharacterSegmentationService {
       let splitX = 0;
       let mergeIdx = -1;
 
-      // Strategy 1: Split the largest
+      // Strategy 1: Split the largest (only if it won't split a protected group)
       const widestIdx = widths.indexOf(Math.max(...widths));
       const candidateSplitX = (boundaries[widestIdx] + boundaries[widestIdx + 1]) / 2;
-      const widthsAfterSplit = [...widths];
-      const splitWidth = widths[widestIdx] / 2;
-      widthsAfterSplit.splice(widestIdx, 1, splitWidth, splitWidth);
-      const ratioAfterSplit = this.calculateRatio(widthsAfterSplit);
+      const wouldSplitColumn = this.wouldSplitProtectedGroup(candidateSplitX, 'x', strokeBounds, protectedGroups);
 
-      if (ratioAfterSplit < bestRatio) {
-        bestRatio = ratioAfterSplit;
-        bestAction = 'split';
-        splitX = candidateSplitX;
+      if (!wouldSplitColumn) {
+        const widthsAfterSplit = [...widths];
+        const splitWidth = widths[widestIdx] / 2;
+        widthsAfterSplit.splice(widestIdx, 1, splitWidth, splitWidth);
+        const ratioAfterSplit = this.calculateRatio(widthsAfterSplit);
+
+        if (ratioAfterSplit < bestRatio) {
+          bestRatio = ratioAfterSplit;
+          bestAction = 'split';
+          splitX = candidateSplitX;
+        }
       }
 
       // Strategy 2: Merge the smallest with a neighbor (only if we have dividers to remove)
@@ -760,12 +808,14 @@ export class CharacterSegmentationService {
   /**
    * Enforce row height uniformity per column: no cell should be >2x taller than another.
    * Can either split large cells OR merge small cells, whichever improves ratio.
+   * Respects protected groups - won't add splits that would divide a lasso.
    */
   private enforceRowUniformity(
     rowDividers: DividerLine[][],
     strokesByColumn: number[][],
     strokeBounds: StrokeBounds[],
-    columnDividers: DividerLine[]
+    columnDividers: DividerLine[],
+    protectedGroups: ProtectedGroup[]
   ): DividerLine[][] {
     const MAX_ITERATIONS = 10;
 
@@ -804,18 +854,22 @@ export class CharacterSegmentationService {
         let splitY = 0;
         let mergeIdx = -1;
 
-        // Strategy 1: Split the tallest
+        // Strategy 1: Split the tallest (only if it won't split a protected group)
         const tallestIdx = heights.indexOf(Math.max(...heights));
         const candidateSplitY = (boundaries[tallestIdx] + boundaries[tallestIdx + 1]) / 2;
-        const heightsAfterSplit = [...heights];
-        const splitHeight = heights[tallestIdx] / 2;
-        heightsAfterSplit.splice(tallestIdx, 1, splitHeight, splitHeight);
-        const ratioAfterSplit = this.calculateRatio(heightsAfterSplit);
+        const wouldSplitRow = this.wouldSplitProtectedGroup(candidateSplitY, 'y', strokeBounds, protectedGroups);
 
-        if (ratioAfterSplit < bestRatio) {
-          bestRatio = ratioAfterSplit;
-          bestAction = 'split';
-          splitY = candidateSplitY;
+        if (!wouldSplitRow) {
+          const heightsAfterSplit = [...heights];
+          const splitHeight = heights[tallestIdx] / 2;
+          heightsAfterSplit.splice(tallestIdx, 1, splitHeight, splitHeight);
+          const ratioAfterSplit = this.calculateRatio(heightsAfterSplit);
+
+          if (ratioAfterSplit < bestRatio) {
+            bestRatio = ratioAfterSplit;
+            bestAction = 'split';
+            splitY = candidateSplitY;
+          }
         }
 
         // Strategy 2: Merge the smallest with a neighbor
@@ -934,7 +988,7 @@ export class CharacterSegmentationService {
       // Re-assign strokes to columns and recalculate row dividers
       const strokesByColumn = this.assignStrokesToColumns(strokeBounds, dividers);
       rows = this.findAllRowDividers(strokesByColumn, strokeBounds, dividers, charHeight, protectedGroups);
-      rows = this.enforceRowUniformity(rows, strokesByColumn, strokeBounds, dividers);
+      rows = this.enforceRowUniformity(rows, strokesByColumn, strokeBounds, dividers, protectedGroups);
     }
 
     return { columnDividers: dividers, rowDividers: rows };

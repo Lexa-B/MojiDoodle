@@ -338,7 +338,10 @@ The workbook toolbar includes a lasso tool for manually grouping strokes to prev
 2. User draws a closed polygon around strokes they want to keep together
 3. System detects which strokes are inside using percentage containment (≥50% of stroke points inside = belongs to lasso)
 4. Strokes inside the lasso render in the lasso's pastel color
-5. When segmentation runs, it skips creating any divider that would split a protected group
+5. When segmentation runs:
+   - Skips creating any divider that would split a protected group
+   - Forces dividers between strokes in different lassos (inter-lasso segmentation)
+   - Uses perpendicular overlap to detect multi-column layouts (for vertical writing where columns wrap to top)
 6. Tap an existing lasso (in lasso mode only) to delete it
 
 **Visual feedback:**
@@ -360,13 +363,15 @@ The workbook toolbar includes a lasso tool for manually grouping strokes to prev
 4. POST to Google Input Tools API
 5. Response parsed → returns array of `{character, score}` candidates
 6. Result logic (whitespace-normalized comparison):
-   - If ANY valid answer from answers[] is in top 5 → correct (◯), advance card via SRS, check for lesson unlocks, load new card
+   - If ANY valid answer from answers[] is in top 5 → correct (◯), display the matched answer (not raw API result), advance card via SRS, check for lesson unlocks, load new card
    - If ANY befuddler answer is in top 5 → befuddled (？), show toast, retry same card
    - Otherwise → wrong (✕), load new card
 
 **Grading normalization**: All comparisons strip whitespace/newlines from both API results and card answers using `.replace(/\s+/g, '')`. This handles any extra whitespace in YAML data or API responses.
 
 **Kana fuzzy matching**: Small kana (っ, ゃ, ゅ, ょ, etc.) are treated as equivalent to their big counterparts (つ, や, ゆ, よ, etc.) during grading. This handles cases where the API returns big kana when the user writes small kana. Works for both hiragana and katakana.
+
+**Chōon fuzzy matching**: The prolonged sound mark ー is treated as equivalent to vertical line characters (|, ｜) during grading. In vertical Japanese writing, ー is drawn as a vertical line which the API often recognizes as a pipe character.
 
 **Multi-answer support**: Cards can have multiple valid answers (e.g., kanji + hiragana reading). The system accepts ANY answer from the answers[] list. The first answer is used as the primary display character.
 
@@ -417,6 +422,15 @@ After gap detection, enforces that no cell is >2x larger than any other:
 - Can either SPLIT large regions (add divider at midpoint) or MERGE small regions (remove divider)
 - Chooses whichever action improves the max/min ratio
 - Iterates until ratio ≤ 2.0 or no improvement possible
+- Respects protected groups (from lassos) - won't split a lasso
+
+**Inter-Lasso Segmentation:**
+When lassos are present, forces dividers between different lassos:
+- Calculates bounding box for each lasso in both dimensions
+- Sorts lassos by position in the divider dimension
+- Adds dividers between consecutive lassos that don't significantly overlap
+- Uses perpendicular overlap to detect side-by-side lassos (e.g., different columns at similar Y positions)
+- For vertical Japanese writing: if lassos have >30% Y overlap, they're likely in different columns → add column divider even if X ranges overlap slightly
 
 **Configurable Thresholds** (in `SegmentationConfig`):
 - `minColumnGapRatio: 0.25` - Min gap as fraction of char width

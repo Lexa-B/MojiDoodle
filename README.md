@@ -41,30 +41,75 @@ https://lexa-b.github.io/MojiDoodle/
 The workbook has a toolbar on the right side:
 - **⌫ Undo** - Remove your last stroke
 - **🗑️ Clear All** - Clear all strokes and start over
-- **🖌️ Brush** - Default drawing mode
-- **⭕ Lasso** - Circle strokes to keep them together (prevents auto-segmentation from splitting characters)
+- **🖌️ Brush** - Default drawing mode (highlighted when active)
+- **⭕ Lasso** - Circle strokes to group them together
 
-### Lasso Tool (for multi-character words)
+### How Multi-Character Recognition Works
 
-When writing multi-character words, the app automatically segments your handwriting. If it splits a character incorrectly:
+When you're practicing a word like たべる (3 characters), the app needs to recognize each character separately. Here's what happens:
 
-1. Tap the **lasso button** (⭕) to enter lasso mode
-2. Draw a circle around the strokes that belong together
-3. Those strokes will turn a pastel color showing they're grouped
-4. The segmenter will no longer split through that group
-5. Tap an existing lasso to delete it
-6. Tap the **brush button** (🖌️) to return to drawing mode
+1. **You draw the word** - All your strokes go onto the canvas
+2. **The app segments your writing** - It looks for gaps between characters and draws faint dashed lines to show where it thinks one character ends and the next begins
+3. **Each segment gets recognized** - The app sends each character cell to Google's handwriting API
+4. **Results are matched** - The app checks if the recognized characters match the expected answer
+
+**The Problem**: Sometimes the automatic segmentation gets it wrong:
+- It might split one character into two pieces (e.g., splitting い into two separate strokes)
+- It might merge two characters into one (e.g., combining ホ and ー because they're close together)
+- For vertical writing with multiple columns, it might not detect where one column ends and the next begins
+
+**The Solution**: Use the **lasso tool** to manually tell the app which strokes belong together!
+
+### Lasso Tool
+
+The lasso tool lets you circle strokes that belong to the same character. This gives you full control over segmentation.
+
+**How to use it:**
+
+1. **Finish drawing your word** - Write all the characters first
+2. **Switch to lasso mode** - Tap the ⭕ button (it will highlight)
+3. **Circle each character** - Draw a loop around all the strokes of one character
+   - The strokes inside will turn a pastel color (pink, blue, green, etc.)
+   - Each lasso gets a different color so you can see what's grouped
+4. **Repeat for each character** - Circle the next character, it gets a new color
+5. **Check your work** - You should see each character in a different color, with dashed divider lines between them
+6. **Switch back to brush mode** - Tap 🖌️ when done lassoing
+7. **Hit the check button** - The app will use your lasso groupings for recognition
+
+**What lassos do:**
+- **Protect**: Strokes inside a lasso will NEVER be split apart
+- **Separate**: The app will ALWAYS put a divider between different lassos
+
+**To delete a lasso:** While in lasso mode (⭕), tap on an existing lasso to remove it.
+
+**Pro tips:**
+- You don't have to lasso every character - just the ones that are being mis-segmented
+- For vertical writing with multiple columns, lasso each character and the app will figure out the column layout
+- If a character has a dakuten (゛) or handakuten (゜), make sure to include it in the same lasso as the base character
 
 ### Tips for Better Recognition
 
-- Draw characters at a reasonable size (not too small)
-- Use the correct stroke count when possible
-- The hint below the prompt shows expected stroke count
-- Tap the undo button (⌫) to remove your last stroke
-- For multi-character words: write vertically (top to bottom), leave visible gaps between characters
-- Use the **lasso tool** if the auto-segmentation incorrectly splits a character
-- Small kana (っ, ゃ, ゅ, ょ) are accepted even if recognized as their big counterparts
-- Some cards accept multiple answers (e.g., kanji or hiragana)
+**Writing style:**
+- Draw characters at a reasonable size - not too tiny!
+- Leave visible gaps between characters (the segmenter looks for these)
+- The hint below the prompt shows expected stroke count - try to match it
+- Use the undo button (⌫) to fix mistakes without starting over
+
+**For multi-character words:**
+- Write vertically (top to bottom) - this is how Japanese is traditionally written
+- If you run out of room, start a new column to the LEFT
+- Leave bigger gaps between characters than within characters
+- Use the lasso tool if auto-segmentation fails
+
+**Fuzzy matching - the app is forgiving:**
+- **Small kana**: っ, ゃ, ゅ, ょ are accepted even if recognized as つ, や, ゆ, よ
+- **Chōon mark**: The prolonged sound mark ー is accepted even if recognized as a vertical line | (common when writing vertically)
+- **Multiple answers**: Some cards accept alternate writings (e.g., both kanji and hiragana)
+
+**When things go wrong:**
+- If a character is split incorrectly → lasso its strokes together
+- If two characters are merged → make sure there's a gap, or lasso them separately
+- If columns aren't detected → lasso each character to help the app understand the layout
 
 ### Progression System
 
