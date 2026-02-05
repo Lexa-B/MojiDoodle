@@ -13,8 +13,7 @@ npm start                      # Dev server (ng serve with custom webpack)
 npm run build                  # Production build
 ng test                        # Unit tests
 ng lint                        # Linting
-npm run deploy                 # Build and deploy to GitHub Pages (production)
-npm run deploy:dev             # Build and deploy to /dev path (testing)
+npm run deploy                 # Build and deploy to GitHub Pages
 
 # Native platforms
 ionic capacitor add ios
@@ -24,7 +23,6 @@ ionic capacitor open ios       # Open in Xcode
 ```
 
 **Live site**: https://lexa-b.github.io/MojiDoodle/
-**Dev site**: https://lexa-b.github.io/MojiDoodle/dev/
 
 ## Architecture
 
@@ -70,8 +68,7 @@ src/
 scripts/
 ├── compile-data.js              # Compiles YAML → bundle.json
 ├── generate-version.js          # Generates version.json timestamp
-├── deploy.sh                    # Deploy to GitHub Pages (production)
-└── deploy-dev.sh                # Deploy to /dev path
+└── deploy.sh                    # Deploy to GitHub Pages
 
 extra-webpack.config.js          # Webpack fallbacks for sql.js
 ```
@@ -95,7 +92,7 @@ The app uses a hybrid YAML → JSON → SQLite architecture:
 
 **Cross-platform**: Works on desktop web, mobile web, Android, and iOS using the same sql.js + IndexedDB approach.
 
-**GitHub Pages SPA**: Uses `404.html` redirect trick to handle client-side routing (saves path to sessionStorage, redirects to root, `index.html` restores path). The 404.html auto-detects `/dev/` paths and redirects appropriately.
+**GitHub Pages SPA**: Uses `404.html` redirect trick to handle client-side routing (saves path to sessionStorage, redirects to root, `index.html` restores path).
 
 **Database tables:**
 - `cards` - Character cards with stage and unlock time

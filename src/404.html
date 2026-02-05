@@ -8,14 +8,9 @@
     // Saves the current path and redirects to root where Angular can handle routing
     var l = window.location;
     var base = l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '');
-    var segments = l.pathname.split('/').filter(Boolean); // ['MojiDoodle', 'dev', 'dashboard', ...]
+    var segments = l.pathname.split('/').filter(Boolean); // ['MojiDoodle', 'dashboard', ...]
 
-    // Detect if this is a /dev/ path
-    var isDev = segments.length > 1 && segments[1] === 'dev';
-    var pathSegmentsToKeep = isDev ? 2 : 1; // Keep /MojiDoodle/dev/ or /MojiDoodle/
-    var redirectBase = isDev ? '/MojiDoodle/dev/' : '/MojiDoodle/';
-
-    var path = segments.slice(pathSegmentsToKeep).join('/');
+    var path = segments.slice(1).join('/'); // Skip 'MojiDoodle'
     var search = l.search;
 
     // Store the path in sessionStorage so index.html can restore it
@@ -26,8 +21,8 @@
       }));
     }
 
-    // Redirect to the appropriate base URL
-    l.replace(base + redirectBase);
+    // Redirect to the base URL
+    l.replace(base + '/MojiDoodle/');
   </script>
 </head>
 <body>

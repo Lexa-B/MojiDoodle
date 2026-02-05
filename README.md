@@ -17,8 +17,7 @@ Draw Japanese characters on a canvas and get instant feedback via handwriting re
 
 ## Try it
 
-**Production**: https://lexa-b.github.io/MojiDoodle/
-**Dev build**: https://lexa-b.github.io/MojiDoodle/dev/
+https://lexa-b.github.io/MojiDoodle/
 
 ## How to Use
 
