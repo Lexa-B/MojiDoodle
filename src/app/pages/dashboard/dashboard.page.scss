@@ -57,10 +57,33 @@
   background: var(--ion-color-medium, #92949c);
 }
 
+.now-column {
+  width: 24px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: flex-end;
+  border-left: 1px solid var(--ion-color-medium, #92949c);
+  border-bottom: 1px solid var(--ion-color-medium, #92949c);
+}
+
+.now-bar {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 3px;
+}
+
+.now-gap {
+  width: 8px;
+  flex-shrink: 0;
+  border-bottom: 1px solid var(--ion-color-medium, #92949c);
+}
+
 .chart-body {
   flex: 1;
   position: relative;
-  border-left: 1px solid var(--ion-color-medium, #92949c);
   border-bottom: 1px solid var(--ion-color-medium, #92949c);
 }
 
@@ -123,6 +146,20 @@
   flex-shrink: 0;
 }
 
+.now-x-label {
+  width: 24px;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: 0.7em;
+  color: var(--ion-color-medium, #92949c);
+  padding-top: 2px;
+}
+
+.now-gap-spacer {
+  width: 8px;
+  flex-shrink: 0;
+}
+
 .x-axis-ticks {
   flex: 1;
   position: relative;
@@ -155,6 +192,45 @@
   color: var(--ion-color-medium, #92949c);
   padding: 16px 0;
   font-size: 0.9em;
+}
+
+.workbook-section {
+  padding: 16px 16px 0 16px;
+}
+
+.workbook-box {
+  border: 1px solid var(--ion-color-medium, #92949c);
+  border-radius: 8px;
+  padding: 16px;
+  margin: 0;
+  opacity: 0.7;
+
+  legend {
+    padding: 0 8px;
+    font-size: 0.9em;
+    color: var(--ion-color-medium, #92949c);
+  }
+}
+
+.workbook-content {
+  ion-button {
+    margin: 0;
+  }
+}
+
+.caught-up-message {
+  text-align: center;
+  color: var(--ion-color-medium, #92949c);
+  padding: 16px 0;
+
+  p {
+    margin: 0;
+
+    &:first-child {
+      font-size: 1.2em;
+      margin-bottom: 8px;
+    }
+  }
 }
 
 .practice-section {

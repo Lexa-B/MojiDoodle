@@ -26,6 +26,17 @@
               <span class="y-tick-mark"></span>
             </div>
           </div>
+          <!-- Now column -->
+          <div class="now-column" [title]="nowUnlocks.count + ' card' + (nowUnlocks.count !== 1 ? 's' : '') + ' available now'">
+            <div class="now-bar">
+              <div class="bar-segment"
+                   *ngFor="let segment of nowUnlocks.segments"
+                   [style.height]="getSegmentHeight(segment.count)"
+                   [style.background-color]="segment.color"></div>
+            </div>
+          </div>
+          <!-- Gap between Now and upcoming -->
+          <div class="now-gap"></div>
           <!-- Chart body -->
           <div class="chart-body">
             <div class="grid-lines">
@@ -45,6 +56,8 @@
         <!-- X-axis -->
         <div class="x-axis">
           <div class="x-axis-spacer"></div>
+          <div class="now-x-label">Now</div>
+          <div class="now-gap-spacer"></div>
           <div class="x-axis-ticks">
             <div class="x-tick" *ngFor="let tick of xAxisTicks" [style.left.%]="tick.position">
               <span class="x-tick-mark"></span>
@@ -56,6 +69,25 @@
       <ng-template #noUnlocks>
         <div class="no-unlocks-message">No reviews scheduled in the next 48 hours</div>
       </ng-template>
+    </fieldset>
+  </div>
+
+  <div class="workbook-section">
+    <fieldset class="workbook-box">
+      <legend>Workbook:</legend>
+      <div class="workbook-content">
+        <ng-container *ngIf="nowUnlocks.count > 0; else caughtUp">
+          <ion-button expand="block" color="success" style="--ion-color-success: #1a8a44; --ion-color-success-shade: #15713a; --ion-color-success-tint: #2e9a54" (click)="goToWorkbook()">
+            <strong>Study Now! ({{ nowUnlocks.count }})</strong>
+          </ion-button>
+        </ng-container>
+        <ng-template #caughtUp>
+          <div class="caught-up-message">
+            <p>おめでとう🥳</p>
+            <p>You're all caught up. Come back again soon for more lessons!</p>
+          </div>
+        </ng-template>
+      </div>
     </fieldset>
   </div>
 

@@ -1,0 +1,160 @@
+- id: ckw-l40-6487
+  prompt: doctor
+  answers:
+    - ドクター
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l40-6494
+  prompt: desk
+  answers:
+    - デスク
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - テーブル
+    toast: |-
+      That's table.
+      A table is usually for dining or general use; the target refers to a piece of furniture used specifically as a workspace.
+  - answers:
+      - デスクトップ
+    toast: |-
+      That's desktop.
+      Usually refers to a computer desktop or a desktop computer, not the small furniture you sit at to work.
+- id: ckw-l40-6499
+  prompt: diamond
+  answers:
+    - ダイヤモンド
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l40-6502
+  prompt: jeans
+  answers:
+    - ジーンズ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l40-6507
+  prompt: classical, classic
+  answers:
+    - クラシック
+  hint: noun (な-adj)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l40-6531
+  prompt: designer
+  answers:
+    - デザイナー
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l40-6538
+  prompt: icon
+  answers:
+    - アイコン
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - イメージ
+    toast: |-
+      That's "image"!
+      Image means a picture or mental impression, not the small interface graphic used in apps.
+  - answers:
+      - シンボル
+    toast: |-
+      That's "symbol"!
+      A symbol is an emblem or sign related in meaning, but it doesn't specifically mean the tiny UI graphic.
+- id: ckw-l40-6565
+  prompt: oar
+  answers:
+    - オア
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l40-6570
+  prompt: fork
+  answers:
+    - フォーク
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l40-6571
+  prompt: sports field, playing field
+  answers:
+    - グラウンド
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - グランド
+    toast: |-
+      Different vowel pattern.
+      Often used to mean "grand" or seen in compounds like グランドピアノ.
+  - answers:
+      - スタジアム
+    toast: |-
+      That's the English "stadium".
+      Usually refers to a larger, professional venue rather than a school or local field.
+- id: ckw-l40-6573
+  prompt: dessert
+  answers:
+    - デザート
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l40-6584
+  prompt: complaint, claim
+  answers:
+    - クレーム
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l40-6588
+  prompt: scale
+  answers:
+    - スケール
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l40-6589
+  prompt: deck
+  answers:
+    - デッキ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - トランプ
+    toast: |-
+      That's the word for playing cards.
+      Not the loanword used for a platform or a pile of cards.
+  - answers:
+      - デキ
+    toast: |-
+      Sounds similar when spoken, but this is a native word meaning ability or result.
+      It isn't the loanword for a platform/deck.
+- id: ckw-l40-6607
+  prompt: oven
+  answers:
+    - オーブン
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []

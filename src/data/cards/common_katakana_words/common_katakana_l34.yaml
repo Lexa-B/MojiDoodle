@@ -1,0 +1,165 @@
+- id: ckw-l34-5720
+  prompt: appeal
+  answers:
+    - アピール
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l34-5721
+  prompt: frying pan
+  answers:
+    - フライパン
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l34-5724
+  prompt: get, obtain
+  answers:
+    - ゲット
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l34-5725
+  prompt: eye
+  answers:
+    - アイ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - エーアイ
+    toast: |-
+      That spells the letters A I
+      Usually used for the acronym for artificial intelligence, pronounced エーアイ.
+  - answers:
+      - アイス
+    toast: |-
+      That's ice (as in ice cream)
+      It has an extra syllable and a different meaning.
+  - answers:
+      - アイズ
+    toast: |-
+      That's eyes (plural) borrowed from English
+      The added syllable changes the meaning; watch the ending.
+- id: ckw-l34-5727
+  prompt: campaign
+  answers:
+    - キャンペーン
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l34-5729
+  prompt: stock, inventory
+  answers:
+    - ストック
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l34-5742
+  prompt: silver
+  answers:
+    - シルバー
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l34-5754
+  prompt: artist
+  answers:
+    - アーチスト
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - アーティスト
+    toast: |-
+      Common alternate spelling with a small イ after the long vowel.
+      Double-check whether the word uses a small イ sequence or a standalone long vowel mark.
+- id: ckw-l34-5778
+  prompt: lamp
+  answers:
+    - ランプ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l34-5782
+  prompt: department store
+  answers:
+    - デパート
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - デパートメントストア
+    toast: |-
+      That's a longer, more literal form borrowed from English
+      In everyday Japanese a shorter loanword is typically used instead.
+  - answers:
+      - デパ
+    toast: |-
+      This is an informal abbreviation used in speech
+      It's not the full standard katakana form.
+  - answers:
+      - モール
+    toast: |-
+      That's "mall" — a different kind of shopping complex
+      Not the same concept as a department store.
+- id: ckw-l34-5788
+  prompt: gold
+  answers:
+    - ゴールド
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - ゴール
+    toast: |-
+      That's "goal".
+      It refers to scoring or an endpoint, not the metal or color.
+  - answers:
+      - ゴールデン
+    toast: |-
+      That's "golden".
+      It's an adjective meaning "having gold qualities," not the noun for gold itself.
+- id: ckw-l34-5794
+  prompt: single
+  answers:
+    - シングル
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l34-5805
+  prompt: credit
+  answers:
+    - クレジット
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l34-5811
+  prompt: shift
+  answers:
+    - シフト
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l34-5846
+  prompt: rear, back
+  answers:
+    - リア
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []

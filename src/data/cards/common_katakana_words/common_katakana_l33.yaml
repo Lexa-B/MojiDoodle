@@ -1,0 +1,160 @@
+- id: ckw-l33-5608
+  prompt: microphone, mic
+  answers:
+    - マイク
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l33-5617
+  prompt: inch
+  answers:
+    - インチ
+  hint: noun/counter
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l33-5632
+  prompt: couple
+  answers:
+    - カップル
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - カップ
+    toast: |-
+      That's "cup".
+      A single object—don't confuse it with the word for a pair of people.
+  - answers:
+      - カップリング
+    toast: |-
+      Means "coupling" or a pairing in contexts like music or mechanics.
+      It's not the casual term for a romantic pair.
+- id: ckw-l33-5646
+  prompt: poster
+  answers:
+    - ポスター
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l33-5667
+  prompt: lobby
+  answers:
+    - ロビー
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l33-5677
+  prompt: handle, steering wheel
+  answers:
+    - ハンドル
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - ステアリング
+    toast: |-
+      This is the English 'steering' used in technical or manufacturer contexts.
+      A different katakana is more common in everyday speech for 'steering wheel'.
+  - answers:
+      - ハンドバッグ
+    toast: |-
+      That means 'handbag' or 'purse'.
+      Looks similar at the start but refers to a different item.
+  - answers:
+      - ハンド
+    toast: |-
+      This is just 'hand' used as a noun or prefix;
+      it doesn't mean 'handle' or 'steering wheel' by itself.
+- id: ckw-l33-5678
+  prompt: multi, multiple
+  answers:
+    - マルチ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l33-5679
+  prompt: lucky
+  answers:
+    - ラッキー
+  hint: noun (な-adj)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l33-5681
+  prompt: salon, beauty salon
+  answers:
+    - サロン
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l33-5682
+  prompt: dome
+  answers:
+    - ドーム
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l33-5684
+  prompt: jazz
+  answers:
+    - ジャズ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l33-5702
+  prompt: micro
+  answers:
+    - マイクロ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - マイク
+    toast: |-
+      That's "mic"!
+      マイク means microphone; this is a different word, not the prefix meaning 'micro-'.
+- id: ckw-l33-5704
+  prompt: Excel, spreadsheet
+  answers:
+    - エクセル
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - ワード
+    toast: |-
+      That's "Word"!
+      This is a different office app used for documents.
+  - answers:
+      - エクスル
+    toast: |-
+      Check your spelling!
+      The consonants and vowels are swapped in this misspelling.
+- id: ckw-l33-5708
+  prompt: mechanism
+  answers:
+    - メカニズム
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l33-5717
+  prompt: bell
+  answers:
+    - ベル
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []

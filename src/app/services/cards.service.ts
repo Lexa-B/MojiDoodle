@@ -1114,6 +1114,29 @@ export class CardsService {
     return card?.stroke_count ?? 0;
   }
 
+  // Get currently available cards grouped by stage
+  getAvailableCardsByStage(): { count: number; segments: { stage: number; count: number; color: string }[] } {
+    if (!this.db) return { count: 0, segments: [] };
+    const now = new Date().toISOString();
+    const cards = this.queryAll<{ stage: number }>(
+      'SELECT stage FROM cards WHERE stage >= 0 AND unlocks <= ?',
+      [now]
+    );
+    const stageCounts = new Map<number, number>();
+    for (const card of cards) {
+      stageCounts.set(card.stage, (stageCounts.get(card.stage) ?? 0) + 1);
+    }
+    const segments: { stage: number; count: number; color: string }[] = [];
+    let total = 0;
+    const sortedStages = Array.from(stageCounts.keys()).sort((a, b) => a - b);
+    for (const stage of sortedStages) {
+      const count = stageCounts.get(stage)!;
+      segments.push({ stage, count, color: this.getStageColor(stage) });
+      total += count;
+    }
+    return { count: total, segments };
+  }
+
   // Get upcoming unlocks grouped by hour for the next N hours
   getUpcomingUnlocksByHour(hours: number = 48): { hour: number; count: number; segments: { stage: number; count: number; color: string }[]; label: string }[] {
     const now = new Date();

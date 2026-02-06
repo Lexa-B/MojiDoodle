@@ -1,0 +1,165 @@
+- id: ckw-l39-6337
+  prompt: boss
+  answers:
+    - ボス
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l39-6340
+  prompt: font, typeface
+  answers:
+    - フォント
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l39-6346
+  prompt: rank, ranking
+  answers:
+    - ランク
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l39-6352
+  prompt: gallery
+  answers:
+    - ギャラリー
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - ギャラ
+    toast: |-
+      That's slang for performers' pay or appearance fee.
+      Not the place for displaying art or photos.
+  - answers:
+      - ガレージ
+    toast: |-
+      That's "garage" in katakana.
+      It's a place to park or store vehicles, not an art gallery.
+- id: ckw-l39-6356
+  prompt: order
+  answers:
+    - オーダー
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l39-6368
+  prompt: round
+  answers:
+    - ラウンド
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l39-6372
+  prompt: lighter, writer
+  answers:
+    - ライター
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - ライタ
+    toast: |-
+      Check your vowel length!
+      Katakana often uses ー for long vowels.
+  - answers:
+      - ライト
+    toast: |-
+      This is the loanword for "light".
+      Don't confuse similar-sounding words.
+- id: ckw-l39-6379
+  prompt: shutter (camera), shutter (window/door)
+  answers:
+    - シャッター
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l39-6382
+  prompt: van
+  answers:
+    - バン
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - ヴァン
+    toast: |-
+      Some transcriptions use ヴァ to show a 'v' sound.
+      In common Japanese this loanword is often written differently.
+  - answers:
+      - バス
+    toast: |-
+      That's 'bus'.
+      A bus is public transit, not the smaller cargo/passenger vehicle implied here.
+  - answers:
+      - ワゴン
+    toast: |-
+      That's 'wagon'.
+      Related vehicle type, but a different term and nuance from this word.
+- id: ckw-l39-6394
+  prompt: jet
+  answers:
+    - ジェット
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l39-6417
+  prompt: lion
+  answers:
+    - ライオン
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l39-6438
+  prompt: cent
+  answers:
+    - セント
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l39-6463
+  prompt: pose
+  answers:
+    - ポーズ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l39-6475
+  prompt: printer
+  answers:
+    - プリンター
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - プリンタ
+    toast: |-
+      Shorter form without the long vowel mark.
+      Both spellings appear, so watch for this variation.
+  - answers:
+      - プリント
+    toast: |-
+      Refers to a printed sheet or the act of printing.
+      Often confused with the machine, but this usually means the paper/result.
+- id: ckw-l39-6486
+  prompt: impact
+  answers:
+    - インパクト
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []

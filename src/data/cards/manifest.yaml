@@ -126,11 +126,11 @@ packs:
       - common_katakana_words/common_katakana_l30.yaml
       - common_katakana_words/common_katakana_l31.yaml
       - common_katakana_words/common_katakana_l32.yaml
-      # - common_katakana_words/common_katakana_l33.yaml
-      # - common_katakana_words/common_katakana_l34.yaml
-      # - common_katakana_words/common_katakana_l35.yaml
-      # - common_katakana_words/common_katakana_l36.yaml
-      # - common_katakana_words/common_katakana_l37.yaml
-      # - common_katakana_words/common_katakana_l38.yaml
-      # - common_katakana_words/common_katakana_l39.yaml
-      # - common_katakana_words/common_katakana_l40.yaml
+      - common_katakana_words/common_katakana_l33.yaml
+      - common_katakana_words/common_katakana_l34.yaml
+      - common_katakana_words/common_katakana_l35.yaml
+      - common_katakana_words/common_katakana_l36.yaml
+      - common_katakana_words/common_katakana_l37.yaml
+      - common_katakana_words/common_katakana_l38.yaml
+      - common_katakana_words/common_katakana_l39.yaml
+      - common_katakana_words/common_katakana_l40.yaml

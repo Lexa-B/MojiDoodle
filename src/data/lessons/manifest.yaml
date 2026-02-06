@@ -124,11 +124,11 @@ packs:
       - common_katakana_words/lesson_common_katakana_30.yaml
       - common_katakana_words/lesson_common_katakana_31.yaml
       - common_katakana_words/lesson_common_katakana_32.yaml
-      # - common_katakana_words/lesson_common_katakana_33.yaml
-      # - common_katakana_words/lesson_common_katakana_34.yaml
-      # - common_katakana_words/lesson_common_katakana_35.yaml
-      # - common_katakana_words/lesson_common_katakana_36.yaml
-      # - common_katakana_words/lesson_common_katakana_37.yaml
-      # - common_katakana_words/lesson_common_katakana_38.yaml
-      # - common_katakana_words/lesson_common_katakana_39.yaml
-      # - common_katakana_words/lesson_common_katakana_40.yaml
+      - common_katakana_words/lesson_common_katakana_33.yaml
+      - common_katakana_words/lesson_common_katakana_34.yaml
+      - common_katakana_words/lesson_common_katakana_35.yaml
+      - common_katakana_words/lesson_common_katakana_36.yaml
+      - common_katakana_words/lesson_common_katakana_37.yaml
+      - common_katakana_words/lesson_common_katakana_38.yaml
+      - common_katakana_words/lesson_common_katakana_39.yaml
+      - common_katakana_words/lesson_common_katakana_40.yaml

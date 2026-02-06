@@ -1,0 +1,165 @@
+- id: ckw-l35-5862
+  prompt: goods, merchandise
+  answers:
+    - グッズ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - グッツ
+    toast: |-
+      Watch the small ッ — it's easy to mix up similar katakana.
+      This spelling is nonstandard.
+  - answers:
+      - アイテム
+    toast: |-
+      Related concept: means "item" (an individual product).
+      Use this when referring to single pieces rather than merchandise as a whole.
+- id: ckw-l35-5875
+  prompt: relax, relaxation
+  answers:
+    - リラックス
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l35-5882
+  prompt: living room
+  answers:
+    - リビング
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l35-5889
+  prompt: lease
+  answers:
+    - リース
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l35-5892
+  prompt: calcium
+  answers:
+    - カルシウム
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l35-5895
+  prompt: ground, field
+  answers:
+    - グランド
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - グラウンド
+    toast: |-
+      Alternate spelling with ウ.
+      Some sources prefer this form; different texts use different spellings.
+  - answers:
+      - グラント
+    toast: |-
+      This is the loanword for "grant".
+      A different word with a different meaning, so double-check the spelling.
+- id: ckw-l35-5898
+  prompt: performance
+  answers:
+    - パフォーマンス
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l35-5899
+  prompt: hot
+  answers:
+    - ホット
+  hint: noun (な-adj)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l35-5900
+  prompt: match
+  answers:
+    - マッチ
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - マッチョ
+    toast: |-
+      Sounds similar but this word means "macho" (muscular).
+      Watch the final 2-syllable sound — it's a different word.
+  - answers:
+      - マッチャ
+    toast: |-
+      This spells the green tea powder "matcha".
+      Different vowel/consonant sequence at the end makes it a separate word.
+  - answers:
+      - マッチング
+    toast: |-
+      This is the noun/verb "matching" (often used for services/processes).
+      It has an extra -ング ending, so it's not the short noun.
+- id: ckw-l35-5922
+  prompt: technique, skill
+  answers:
+    - テクニック
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l35-5946
+  prompt: inflation
+  answers:
+    - インフレ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l35-5953
+  prompt: eco, environmentally friendly
+  answers:
+    - エコ
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - エコー
+    toast: |-
+      Different word: this one uses a long vowel mark and means echo (sound).
+      Watch the vowel length — it's not the eco prefix.
+  - answers:
+      - エコロジー
+    toast: |-
+      Related word meaning ecology or ecological.
+      It's the full term, not the short eco form used for eco-friendly.
+- id: ckw-l35-5955
+  prompt: chocolate
+  answers:
+    - チョコ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l35-5956
+  prompt: shopping
+  answers:
+    - ショッピング
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l35-5964
+  prompt: plate
+  answers:
+    - プレート
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []

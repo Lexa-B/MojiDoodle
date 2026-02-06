@@ -14,6 +14,7 @@ import { CardsService, Lesson } from '../../services/cards.service';
 export class DashboardPage implements OnInit, ViewWillEnter {
   availableLessons: Lesson[] = [];
   upcomingUnlocks: { hour: number; count: number; segments: { stage: number; count: number; color: string }[]; label: string }[] = [];
+  nowUnlocks: { count: number; segments: { stage: number; count: number; color: string }[] } = { count: 0, segments: [] };
   maxUnlockCount = 0;
 
   constructor(
@@ -34,11 +35,12 @@ export class DashboardPage implements OnInit, ViewWillEnter {
   private loadData() {
     this.availableLessons = this.cardsService.getAvailableLessons();
     this.upcomingUnlocks = this.cardsService.getUpcomingUnlocksByHour(48);
-    this.maxUnlockCount = Math.max(...this.upcomingUnlocks.map(u => u.count), 1);
+    this.nowUnlocks = this.cardsService.getAvailableCardsByStage();
+    this.maxUnlockCount = Math.max(...this.upcomingUnlocks.map(u => u.count), this.nowUnlocks.count, 1);
   }
 
   get hasUpcomingUnlocks(): boolean {
-    return this.upcomingUnlocks.some(u => u.count > 0);
+    return this.nowUnlocks.count > 0 || this.upcomingUnlocks.some(u => u.count > 0);
   }
 
   getBarHeight(count: number): string {
@@ -75,25 +77,22 @@ export class DashboardPage implements OnInit, ViewWillEnter {
 
   get xAxisTicks(): { label: string; position: number }[] {
     const ticks: { label: string; position: number }[] = [];
-    // Show ticks at 0h, 12h, 24h, 36h, 48h
+    // Show ticks at 12h, 24h, 36h, 48h (Now is a separate section)
     const hours = [0, 12, 24, 36, 48];
     for (const h of hours) {
       const position = (h / 48) * 100;
-      let label: string;
-      if (h === 0) {
-        label = 'Now';
-      } else {
-        label = `+${h}h`;
-      }
-      ticks.push({ label, position });
+      ticks.push({ label: h === 0 ? '' : `+${h}h`, position });
     }
     return ticks;
+  }
+
+  goToWorkbook() {
+    this.router.navigate(['/workbook']);
   }
 
   unlockLesson(lesson: Lesson) {
     this.cardsService.unlockLesson(lesson.id);
     this.loadData();
-    this.router.navigate(['/workbook']);
   }
 
   get hasAnyToUnlock(): boolean {
