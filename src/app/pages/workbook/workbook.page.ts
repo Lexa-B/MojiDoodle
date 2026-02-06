@@ -107,17 +107,31 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
     '｜', // U+FF5C Fullwidth Vertical Line
   ]);
 
+  // Wave dash equivalents - the API often returns ASCII tilde for wave dash
+  private static readonly WAVE_DASH_EQUIVALENTS = new Set([
+    '〜', // U+301C Wave Dash (Japanese)
+    '~',  // U+007E Tilde (ASCII)
+    '～', // U+FF5E Fullwidth Tilde
+  ]);
+
   /**
    * Check if two characters match, treating small/big kana as equivalent,
-   * and chōon mark as equivalent to various line characters.
-   * e.g., 'っ' matches 'つ', 'ッ' matches 'ツ', 'ー' matches '|'
+   * chōon mark as equivalent to various line characters,
+   * and wave dash as equivalent to tilde characters.
+   * e.g., 'っ' matches 'つ', 'ッ' matches 'ツ', 'ー' matches '|', '〜' matches '~'
    */
   private kanaMatch(target: string, candidate: string): boolean {
     if (target === candidate) return true;
 
-    // Check chōon equivalence first
+    // Check chōon equivalence
     if (WorkbookPage.CHOON_EQUIVALENTS.has(target) &&
         WorkbookPage.CHOON_EQUIVALENTS.has(candidate)) {
+      return true;
+    }
+
+    // Check wave dash equivalence
+    if (WorkbookPage.WAVE_DASH_EQUIVALENTS.has(target) &&
+        WorkbookPage.WAVE_DASH_EQUIVALENTS.has(candidate)) {
       return true;
     }
 

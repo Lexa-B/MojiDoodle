@@ -5,7 +5,17 @@
   hint: noun/counter
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
-  befuddlers: []
+  befuddlers: [
+    - answers:
+      - パーセンテージ
+    toast: |-
+      That's "percentage"!
+      The prompt is asking for the general word.
+    - answers:
+      - パセント
+    toast: |-
+      That's not the correct spelling. It should have a long vowel sound.
+  ]
 - id: ckw-l01-351
   prompt: page
   answers:

@@ -373,6 +373,8 @@ The workbook toolbar includes a lasso tool for manually grouping strokes to prev
 
 **Chōon fuzzy matching**: The prolonged sound mark ー is treated as equivalent to vertical line characters (|, ｜) during grading. In vertical Japanese writing, ー is drawn as a vertical line which the API often recognizes as a pipe character.
 
+**Wave dash fuzzy matching**: The wave dash 〜 is treated as equivalent to tilde characters (~, ～) during grading. The API often returns ASCII tilde when the user draws the Japanese wave dash.
+
 **Multi-answer support**: Cards can have multiple valid answers (e.g., kanji + hiragana reading). The system accepts ANY answer from the answers[] list. The first answer is used as the primary display character.
 
 ### Character Segmentation (Multi-Character Words)

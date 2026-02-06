@@ -2,6 +2,7 @@
   prompt: fall
   answers:
     - 秋
+    - あき
   hint: aki — 9 strokes
   strokeCount: 9
   stage: -1
@@ -26,6 +27,7 @@
   prompt: warm
   answers:
     - 暖かい
+    - あたたかい
   hint: atatakai — 温度が高すぎず心地よい「暖かい」(weather/room/food). Often written as あたたかい in
     casual contexts.
   stage: -1
@@ -50,6 +52,7 @@
   prompt: on foot
   answers:
     - 歩いて
+    - あるいて
   hint: aruite — te-form of 歩く (to walk); used like 徒歩で歩いて行く "go on foot"
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -96,6 +99,7 @@
   prompt: 'bound for ... (suffix: going to ...)'
   answers:
     - ～行き
+    - ～いき
   hint: '…iki — attach to a destination: 東京行き (bound for Tokyo), 大阪行き (Osaka-bound)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -119,6 +123,7 @@
   prompt: Car No. 1
   answers:
     - 一号車
+    - いちごうしゃ
   hint: 'ichigousha — train/bus “Car No. 1” (carriage 1); often used in announcements
     (例: 一号車は先頭です).'
   stage: -1
@@ -143,6 +148,7 @@
   prompt: best
   answers:
     - 一番
+    - いちばん
   hint: ichiban — superlative meaning “the most ~” (e.g., 一番好き = like the most)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -166,6 +172,7 @@
   prompt: entrance
   answers:
     - 入口
+    - いりぐち
   hint: iriguchi — often paired with 出口 (exit) on signs
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -189,6 +196,7 @@
   prompt: to sell
   answers:
     - 売る
+    - うる
   hint: uru — to sell (something); transitive verb (売る→売ります)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -212,6 +220,7 @@
   prompt: round trip
   answers:
     - 往復
+    - おうふく
   hint: oufuku — 往=go, 復=return; often used for tickets (往復切符).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -235,6 +244,7 @@
   prompt: rich person
   answers:
     - お金持ち
+    - おかねもち
   hint: okanemochi — literally "money + have"; often used as a noun (e.g., お金持ちの人)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -279,9 +289,10 @@
       That's "god" in a general sense!
       The prompt is about a specific protective figure (often a roadside statue).
 - id: g-10-oshogatsu
-  prompt: New Year’s
+  prompt: New Year's
   answers:
     - お正月
+    - おしょうがつ
   hint: oshougatsu — Japanese New Year; often used with あけましておめでとうございます
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -305,6 +316,7 @@
   prompt: slow; late
   answers:
     - 遅い
+    - おそい
   hint: 'osoi — used for being slow/late (e.g., 遅い電車, 遅い時間). Opposite: 速い (fast),
     早い (early).'
   stage: -1
@@ -377,6 +389,7 @@
   prompt: gate
   answers:
     - 改札
+    - かいさつ
   hint: kaisatsu — ticket gate (esp. at train/subway stations); often in 改札口（かいさつぐち）
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -400,6 +413,7 @@
   prompt: stairs
   answers:
     - 階段
+    - かいだん
   hint: kaidan — the whole staircase (not just a single step). Often used with のぼる/おりる
     (go up/down stairs).
   stage: -1
@@ -447,6 +461,7 @@
   prompt: student discount
   answers:
     - 学割
+    - がくわり
   hint: gakuwari — short for 学生割引 (student discount); often used for trains, movies,
     etc.
   stage: -1
@@ -471,6 +486,7 @@
   prompt: for ... months (counter suffix)
   answers:
     - ～か月
+    - ～かげつ
   hint: |-
     …kagetsu — used after a number: 3か月 = for three months.
     The kanji 月 is read がつ/げつ here (not つき).
@@ -519,6 +535,7 @@
   prompt: one way
   answers:
     - 片道
+    - かたみち
   hint: 'katamichi — one-way (trip/ticket); opposite: 往復 (round trip)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -542,6 +559,7 @@
   prompt: sad
   answers:
     - 悲しい
+    - かなしい
   hint: kanashii (i-adj.) — emotional sadness; often used as 悲しいです
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -565,6 +583,7 @@
   prompt: rich person
   answers:
     - 金持ち
+    - かねもち
   hint: kanemochi — literally "money" (金) + "having" (持ち); often used as 金持ちの人
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -612,6 +631,7 @@
   prompt: easy; simple
   answers:
     - 簡単
+    - かんたん
   hint: 'kantan(na) - な-adjective; use with な before a noun (例: 簡単な問題)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -635,6 +655,7 @@
   prompt: season
   answers:
     - 季節
+    - きせつ
   hint: kisetsu — time of year (e.g., 四季, 季節の変わり目)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -658,6 +679,7 @@
   prompt: ticket vending area
   answers:
     - 切符売り場
+    - きっぷうりば
   hint: kippu uriba — the place/counter where you buy tickets (common at stations).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -681,6 +703,7 @@
   prompt: to decide
   answers:
     - 決める
+    - きめる
   hint: 'kimeru — decide/settle on (a plan, rule, or choice). Often used with を: 方針を決める'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -704,6 +727,7 @@
   prompt: express (train)
   answers:
     - 急行
+    - きゅうこう
   hint: kyuukou — an express train/service (fewer stops than 普通)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -727,6 +751,7 @@
   prompt: milk
   answers:
     - 牛乳
+    - ぎゅうにゅう
   hint: gyuunyuu — common word for cow’s milk; 牛=cow, 乳=milk
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -773,6 +798,7 @@
   prompt: in ... time; after ... (suffix)
   answers:
     - ～後
+    - ～ご
   hint: |-
     〜ご (gо̄)
     Attach to a time unit: 「10分後」= in 10 minutes / 10 minutes later.
@@ -799,6 +825,7 @@
   prompt: rechargeable card such as Suica, Icoca, Pasmo, etc.
   answers:
     - 交通系ICカード
+    - こうつうけいICカード
   hint: koutsuukei ai shii kaado - transit IC card used for trains/buses; often also
     works for small purchases (チャージして使う)
   stage: -1
@@ -823,6 +850,7 @@
   prompt: voice
   answers:
     - 声
+    - こえ
   hint: |-
     koe — 7 strokes (meaning: voice/sound)
     Mnemonic: a "samurai" (士) with an "ear" (耳) makes a voice.
@@ -919,6 +947,7 @@
   prompt: happy (lasting happiness)
   answers:
     - 幸せ
+    - しあわせ
   hint: shiawase (na) — often used as 幸せな人/生活 (a happy person/life)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -942,6 +971,7 @@
   prompt: time
   answers:
     - 時間
+    - じかん
   hint: jikan — duration/time (e.g., 時間がある = have time; 2時間 = two hours)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -984,6 +1014,7 @@
   prompt: reserved seat
   answers:
     - 指定席
+    - していせき
   hint: shiteiseki — e.g., 電車の指定席 = reserved seating (not 自由席)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1007,6 +1038,7 @@
   prompt: departing second
   answers:
     - 次発
+    - じはつ
   hint: jihatsu — used in schedules/announcements (e.g., 次発は… = “The next departure
     is …”).
   stage: -1
@@ -1031,6 +1063,7 @@
   prompt: oneself
   answers:
     - 自分
+    - じぶん
   hint: jibun — “self; myself/yourself/himself” depending on context
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1052,6 +1085,7 @@
   prompt: for ... weeks (suffix)
   answers:
     - ～週間
+    - ～しゅうかん
   hint: 'shūkan; attach after a number: 2週間 = for two weeks / two-week period'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1075,6 +1109,7 @@
   prompt: general admission seat
   answers:
     - 自由席
+    - じゆうせき
   hint: jiyuuseki — unreserved (non-reserved) seat; common on trains (opposite of
     reserved seating).
   stage: -1
@@ -1099,6 +1134,7 @@
   prompt: last train (of the day)
   answers:
     - 終電
+    - しゅうでん
   hint: shuuden — the final scheduled train for the night (miss it and you may have
     to take a taxi or wait until morning)
   stage: -1
@@ -1120,9 +1156,10 @@
       That's "terminal (end) station"!
       It refers to the last stop, not the last train.
 - id: g-10-shogatsu
-  prompt: New Year’s
+  prompt: New Year's
   answers:
     - 正月
+    - しょうがつ
   hint: shōgatsu — the New Year period (esp. Jan 1–3 in Japan)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1146,6 +1183,7 @@
   prompt: (boarding) ticket
   answers:
     - 乗車券
+    - じょうしゃけん
   hint: joushaken — train/bus ticket; 乗(ride) + 車(vehicle) + 券(ticket/voucher)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1166,9 +1204,10 @@
       That's a proof/certificate of boarding.
       Not the standard word for a ticket you buy to ride.
 - id: g-10-shinkan
-  prompt: Shinkansen; “Bullet Train”
+  prompt: Shinkansen; "Bullet Train"
   answers:
     - 新幹線
+    - しんかんせん
   hint: shinkansen — Japan’s high-speed rail (often written in katakana as シンカンセン
     in ads/signs)
   stage: -1
@@ -1216,6 +1255,7 @@
   prompt: cool (weather)
   answers:
     - 涼しい
+    - すずしい
   hint: suzushii — used for pleasantly cool air/weather (not cold to the touch).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1239,6 +1279,7 @@
   prompt: life; living
   answers:
     - 生活
+    - せいかつ
   hint: seikatsu — daily life/livelihood (生活する = to live a daily life)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1262,6 +1303,7 @@
   prompt: world
   answers:
     - 世界
+    - せかい
   hint: sekai — 「世」= generation/era, 「界」= boundary/world; often used in 世界中 (all over
     the world)
   stage: -1
@@ -1286,6 +1328,7 @@
   prompt: departing first
   answers:
     - 先発
+    - せんぱつ
   hint: 'senpatsu — “first departure/first to start” (e.g., 先発隊 first team; 野球: starting
     pitcher)'
   stage: -1
@@ -1310,6 +1353,7 @@
   prompt: subway
   answers:
     - 地下鉄
+    - ちかてつ
   hint: 'chikatetsu — literal: “underground + iron” (train/rail)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1356,6 +1400,7 @@
   prompt: Next (stop), ... / Next is ...
   answers:
     - 次は～
+    - つぎは～
   hint: 'tsugi wa ~ — used for announcements (e.g., on trains/buses): 「次は東京」'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1379,6 +1424,7 @@
   prompt: cold (things/people)
   answers:
     - 冷たい
+    - つめたい
   hint: tsumetai — used for cold to the touch (cold water) or a cold/unkind attitude;
     not for cold weather
   stage: -1
@@ -1424,9 +1470,10 @@
       That's the particle meaning "and/with" (together with) or for quoting.
       It’s about accompaniment/quotation, not means or tools.
 - id: g-10-teiki
-  prompt: commuter’s pass
+  prompt: commuter's pass
   answers:
     - 定期券
+    - ていきけん
   hint: teikiken — a (train/bus) season ticket; often used with を買う (to buy) / を更新する
     (to renew)
   stage: -1
@@ -1451,6 +1498,7 @@
   prompt: exit
   answers:
     - 出口
+    - でぐち
   hint: deguchi — as in 「出口はこちら」(The exit is this way).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1474,6 +1522,7 @@
   prompt: gloves
   answers:
     - 手袋
+    - てぶくろ
   hint: tebukuro — literally “hand” + “bag”; often used as 手袋をはめる (to put on gloves)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1497,6 +1546,7 @@
   prompt: tempura
   answers:
     - 天ぷら
+    - てんぷら
   hint: 'tenpura — note the mixed writing: kanji + hiragana. Often written as てんぷら
     too.'
   stage: -1
@@ -1521,6 +1571,7 @@
   prompt: door
   answers:
     - 戸
+    - と
   hint: to — 4 strokes; means a sliding door/door panel (often in compounds like 戸口)
   strokeCount: 4
   stage: -1
@@ -1545,6 +1596,7 @@
   prompt: zoo
   answers:
     - 動物園
+    - どうぶつえん
   hint: doubutsuen (どうぶつえん) — 「動物」(animals) + 「園」(park/garden)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1591,6 +1643,7 @@
   prompt: year
   answers:
     - 年
+    - とし
   hint: toshi / nen — 6 strokes. Used for years and age (e.g., 年をとる).
   strokeCount: 6
   stage: -1
@@ -1615,6 +1668,7 @@
   prompt: someone older
   answers:
     - 年上
+    - としうえ
   hint: toshiue — someone older than you (age/seniority); often used in 年上の人
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1661,6 +1715,7 @@
   prompt: super express
   answers:
     - 特急
+    - とっきゅう
   hint: tokkyuu — used for fast (limited-stop) trains; e.g., 特急電車
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1730,6 +1785,7 @@
   prompt: to stay (at a hotel, etc.)
   answers:
     - 泊まる
+    - とまる
   hint: tomaru — to stay overnight/lodge (e.g., ホテルに泊まる). Not the same as 止まる/停まる
     “to stop.”
   stage: -1
@@ -1800,6 +1856,7 @@
   prompt: sleepy
   answers:
     - 眠い
+    - ねむい
   hint: nemui — feeling sleepy/drowsy (い-adj.)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1823,6 +1880,7 @@
   prompt: '... years (suffix; e.g., 3 years)'
   answers:
     - ～年
+    - ～ねん
   hint: '~nen (years; attaches to a number: 3年 = san-nen; note: 1年 is often ichinen)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1846,6 +1904,7 @@
   prompt: transfer
   answers:
     - 乗り換え
+    - のりかえ
   hint: norikae — changing trains/buses; often used with する (乗り換えする) or as 乗り換え駅 (transfer
     station)
   stage: -1
@@ -1870,6 +1929,7 @@
   prompt: shop; stand
   answers:
     - 売店
+    - ばいてん
   hint: baiten — small shop/stand (often in stations, schools, hospitals). 売(う) =
     sell + 店(みせ) = shop.
   stage: -1
@@ -1894,6 +1954,7 @@
   prompt: (do something) early; fast
   answers:
     - 早く
+    - はやく
   hint: hayaku — 「早く」＝ early/soon (time). 「速く」＝ fast (speed).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1917,6 +1978,7 @@
   prompt: spring
   answers:
     - 春
+    - はる
   hint: haru — the season after winter; 9 strokes
   strokeCount: 9
   stage: -1
@@ -1941,6 +2003,7 @@
   prompt: track number (railway/platform number) …
   answers:
     - ～番線
+    - ～ばんせん
   hint: ～bansen — used after a number (e.g., 3番線 = track/platform 3).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1964,6 +2027,7 @@
   prompt: airplane
   answers:
     - 飛行機
+    - ひこうき
   hint: hikouki — 飛(ひ) = fly, 行(こう) = go, 機(き) = machine
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -2010,6 +2074,7 @@
   prompt: beauty parlor
   answers:
     - 美容院
+    - びよういん
   hint: biyouin — a salon/beauty parlor (hair/beauty services). Often written with
     kanji 美(beauty) + 容(appearance) + 院(institution).
   stage: -1
@@ -2034,6 +2099,7 @@
   prompt: local (train)
   answers:
     - 普通
+    - ふつう
   hint: futsuu — on trains means “local,” stopping at every station (普通列車).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -2057,6 +2123,7 @@
   prompt: ship; boat
   answers:
     - 船
+    - ふね
   hint: fune — 11 strokes (left side is 「舟」 “boat” radical)
   strokeCount: 11
   stage: -1
@@ -2081,6 +2148,7 @@
   prompt: serving . . . areas (suffix)
   answers:
     - ～方面
+    - ～ほうめん
   hint: ～houmen — used after a place/region to mean “(in) the direction/area of …”
     or “serving … area” (e.g., 関西方面).
   stage: -1
@@ -2128,6 +2196,7 @@
   prompt: once upon a time
   answers:
     - 昔々
+    - むかしむかし
   hint: mukashi mukashi — common opening for folktales; written with the same kanji
     repeated (々 means “repeat the previous kanji”).
   stage: -1
@@ -2175,6 +2244,7 @@
   prompt: baseball
   answers:
     - 野球
+    - やきゅう
   hint: 'yakyuu — literally "field" (野) + "ball" (球); common in スポーツ: 野球をする'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -2198,6 +2268,7 @@
   prompt: mountain road
   answers:
     - 山道
+    - やまみち
   hint: yamamichi — a road/path in the mountains (山 + 道).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -2221,6 +2292,7 @@
   prompt: celebrity
   answers:
     - 有名人
+    - ゆうめいじん
   hint: yuumeijin — literally "famous person" (有名 + 人)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -2244,6 +2316,7 @@
   prompt: snow
   answers:
     - 雪
+    - ゆき
   hint: 'yuki — 11 strokes (top: rain radical 雨)'
   strokeCount: 11
   stage: -1
@@ -2268,6 +2341,7 @@
   prompt: reservation
   answers:
     - 予約
+    - よやく
   hint: yoyaku — used for booking/appointments (e.g., レストランの予約, 予約する)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -2291,6 +2365,7 @@
   prompt: to travel
   answers:
     - 旅行する
+    - りょこうする
   hint: ryokou suru — means “to go on a trip/journey” (more like traveling for a trip
     than commuting)
   stage: -1
@@ -2315,6 +2390,7 @@
   prompt: to practice
   answers:
     - 練習する
+    - れんしゅうする
   hint: renshuu suru — do practice/training (e.g., 毎日ピアノを練習する = practice piano every
     day)
   stage: -1

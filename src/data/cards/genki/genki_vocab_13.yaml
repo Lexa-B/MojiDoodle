@@ -2,6 +2,7 @@
   prompt: deposit
   answers:
     - 預け入れ
+    - あずけいれ
   hint: 'azukeire — depositing/placing money or valuables into custody (e.g., bank
     deposit: 銀行の預け入れ).'
   stage: -1
@@ -95,6 +96,7 @@
   prompt: to knit
   answers:
     - 編む
+    - あむ
   hint: |-
     amu (to knit/weave)
     Often used for knitting/crocheting or weaving (e.g., マフラーを編む).
@@ -120,6 +122,7 @@
   prompt: personal identification number
   answers:
     - 暗証番号
+    - あんしょうばんごう
   hint: anshou bangou — used for ATM/bank cards and phone unlock PINs (often written
     as PIN/暗証番号).
   stage: -1
@@ -144,6 +147,7 @@
   prompt: one day
   answers:
     - 一日
+    - いちにち
   hint: |-
     ichinichi / tsuitachi — reading changes by meaning:
     ・いちにち = one day (duration)
@@ -170,6 +174,7 @@
   prompt: five days
   answers:
     - 五日
+    - いつか
   hint: itsuka — counter for days (e.g., 五日間 = five days). Also can mean “the 5th
     day of the month” depending on context.
   stage: -1
@@ -194,6 +199,7 @@
   prompt: once in a lifetime
   answers:
     - 一生に一度
+    - いっしょうにいちど
   hint: isshō ni ichido — “once in one’s whole life”; often used like 「一生に一度のチャンス」(a
     once-in-a-lifetime chance).
   stage: -1
@@ -241,6 +247,7 @@
   prompt: deposit
   answers:
     - お預け入れ
+    - おあずけいれ
   hint: o-azukeire — polite noun used for putting money into a bank account (e.g.,
     銀行でお預け入れをする).
   stage: -1
@@ -265,6 +272,7 @@
   prompt: to become late
   answers:
     - 遅れる
+    - おくれる
   hint: 'okureru — intransitive: to be late (e.g., 電車が遅れる). Often confused with "late
     someone/something" (遅らせる).'
   stage: -1
@@ -289,6 +297,7 @@
   prompt: withdrawal
   answers:
     - お引き出し
+    - おひきだし
   hint: ohikidashi — polite term often used for bank withdrawals (e.g., 現金のお引き出し).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -312,6 +321,7 @@
   prompt: bank transfer
   answers:
     - お振込
+    - おふりこみ
   hint: 'ofurikomi - polite/business term for a bank transfer (振込). Often used in
     forms: お振込先 (transfer destination).'
   stage: -1
@@ -336,6 +346,7 @@
   prompt: '... times (counter suffix)'
   answers:
     - ～回
+    - ～かい
   hint: '~kai (counter for occurrences: 1回, 2回, 何回)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -359,6 +370,7 @@
   prompt: foreign language
   answers:
     - 外国語
+    - がいこくご
   hint: gaikokugo — 外 (outside) + 国 (country) + 語 (language/word). Often used like
     「外国語を勉強する」.
   stage: -1
@@ -383,6 +395,7 @@
   prompt: musical instrument
   answers:
     - 楽器
+    - がっき
   hint: gakki — written with kanji meaning “music” + “tool/device.” Often used in
     compounds like 楽器店 (instrument shop).
   stage: -1
@@ -430,6 +443,7 @@
   prompt: hot and spicy; salty
   answers:
     - 辛い
+    - からい
   hint: karai — spicy/hot (taste); also can mean salty. Often used for spicy food
     (辛いラーメン).
   stage: -1
@@ -454,6 +468,7 @@
   prompt: body
   answers:
     - 体
+    - からだ
   hint: karada; 7 strokes (person 亻 + root 本)
   strokeCount: 7
   stage: -1
@@ -478,6 +493,7 @@
   prompt: karate
   answers:
     - 空手
+    - からて
   hint: karate (kara-te) — literally “empty hand”; martial art
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -524,6 +540,7 @@
   prompt: to be moved/touched (by . . . )
   answers:
     - 感動する
+    - かんどうする
   hint: kandou suru — often used for being emotionally moved (e.g., 映画に感動する)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -547,6 +564,7 @@
   prompt: to do one’s best; to try hard
   answers:
     - 頑張る
+    - がんばる
   hint: ganbaru (to persevere/keep at it; often used as 頑張って! = “Do your best!”)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -570,6 +588,7 @@
   prompt: strict
   answers:
     - 厳しい
+    - きびしい
   hint: kibishii — strict/harsh (rules, teacher, conditions); often used for people
     or situations
   stage: -1
@@ -642,6 +661,7 @@
   prompt: amount (sum of money)
   answers:
     - 金額
+    - きんがく
   hint: 'kingaku — often used for prices/invoices: 金額はいくらですか。'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -665,6 +685,7 @@
   prompt: airport
   answers:
     - 空港
+    - くうこう
   hint: |-
     kuukou — 空(そら/から) + 港(みなと)
     Common phrase: 空港に行く (to go to the airport)
@@ -713,6 +734,7 @@
   prompt: experience
   answers:
     - 経験
+    - けいけん
   hint: keiken — life/work experience; often used as 〜の経験がある (to have experience in
     ~)
   stage: -1
@@ -737,6 +759,7 @@
   prompt: cash
   answers:
     - 現金
+    - げんきん
   hint: genkin — cash (physical money); often used vs クレジットカード/電子マネー
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -760,6 +783,7 @@
   prompt: advertisement
   answers:
     - 広告
+    - こうこく
   hint: 'koukoku — often used for ads in media (TV/ネット/新聞): 広告を出す'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -785,6 +809,7 @@
   prompt: account
   answers:
     - 口座
+    - こうざ
   hint: kouza - usually a bank account (銀行口座).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -808,6 +833,7 @@
   prompt: black tea
   answers:
     - 紅茶
+    - こうちゃ
   hint: koucha — 紅(べに)=crimson + 茶(ちゃ)=tea
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -831,6 +857,7 @@
   prompt: nine days
   answers:
     - 九日
+    - ここのか
   hint: kokonoka — can mean “the 9th day of the month” or “nine days (duration)” depending
     on context.
   stage: -1
@@ -855,6 +882,7 @@
   prompt: language
   answers:
     - 言葉
+    - ことば
   hint: kotoba — often means “words” or “language” (e.g., 日本語の言葉).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -901,6 +929,7 @@
   prompt: round-table discussion
   answers:
     - 座談会
+    - ざだんかい
   hint: zadan-kai — friendly group talk; 座(za) sit + 談(dan) talk + 会(kai) meeting
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -924,6 +953,7 @@
   prompt: balance inquiry
   answers:
     - 残高照会
+    - ざんだかしょうかい
   hint: 'zandakashoukai — banking/ATM term: checking an account balance (残高=balance,
     照会=inquiry)'
   stage: -1
@@ -948,6 +978,7 @@
   prompt: on time
   answers:
     - 時間通り
+    - じかんどおり
   hint: jikan doori - literally “according to time”; used for being punctual (e.g.,
     時間通りに来る).
   stage: -1
@@ -972,6 +1003,7 @@
   prompt: automatic
   answers:
     - 自動
+    - じどう
   hint: jidou — often used in compounds like 自動車 (car) and 自動販売機 (vending machine)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1066,6 +1098,7 @@
   prompt: all
   answers:
     - 全部
+    - ぜんぶ
   hint: zenbu — “all/entirely”; often used like 全部で (in total) or 全部〜する (do everything)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1089,6 +1122,7 @@
   prompt: elephant
   answers:
     - 象
+    - ぞう
   hint: zou — 12 strokes. Looks like an elephant’s long trunk and body.
   strokeCount: 12
   stage: -1
@@ -1165,6 +1199,7 @@
   prompt: close; near
   answers:
     - 近い
+    - ちかい
   hint: chikai — used for physical distance or being nearby (e.g., 駅が近い)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1211,6 +1246,7 @@
   prompt: passbook
   answers:
     - 通帳
+    - つうちょう
   hint: tsuuchou — a bank passbook (通 = “through/commute”, 帳 = “book/ledger”)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1234,6 +1270,7 @@
   prompt: passbook update
   answers:
     - 通帳記入
+    - つうちょうきにゅう
   hint: 'tsuuchou kinyuu — bank term: updating/printing entries in a savings passbook
     (ATM or teller).'
   stage: -1
@@ -1258,6 +1295,7 @@
   prompt: to arrive
   answers:
     - 着く
+    - つく
   hint: tsuku — for arriving at a destination (駅に着く). Often written in kana in casual
     text.
   stage: -1
@@ -1306,6 +1344,7 @@
   prompt: commission
   answers:
     - 手数料
+    - てすうりょう
   hint: tesuuryou — fee/commission charged for handling a transaction (e.g., bank
     transfer, brokerage)
   stage: -1
@@ -1330,6 +1369,7 @@
   prompt: ten days
   answers:
     - 十日
+    - とおか
   hint: tooka — also used for “the 10th day of the month” (e.g., 10日(とおか))
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1353,6 +1393,7 @@
   prompt: especially
   answers:
     - 特に
+    - とくに
   hint: tokuni — often used as 特に〜ない (“not particularly…”)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1376,6 +1417,7 @@
   prompt: my name is . . .
   answers:
     - ～と申します
+    - ～ともうします
   hint: |-
     to mōshimasu (polite/humble self-introduction)
     Pattern: [Name] と申します。
@@ -1401,6 +1443,7 @@
   prompt: bird; poultry
   answers:
     - 鳥
+    - とり
   hint: tori — 11 strokes. Kanji looks like a bird with wings and a tail.
   strokeCount: 11
   stage: -1
@@ -1425,6 +1468,7 @@
   prompt: seven days
   answers:
     - 七日
+    - なのか
   hint: nanoka — also means “the 7th day of the month” depending on context
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1542,6 +1586,7 @@
   prompt: withdrawal
   answers:
     - 引き出し
+    - ひきだし
   hint: hikidashi — as in お金を引き出す (to withdraw money). Also commonly means “drawer.”
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1565,6 +1610,7 @@
   prompt: anxious; worried (na-adj.)
   answers:
     - 不安
+    - ふあん
   hint: fuan (na) — use as 不安な + noun / 不安だ
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1588,6 +1634,7 @@
   prompt: two days
   answers:
     - 二日
+    - ふつか
   hint: futsuka — also used for the 2nd day of the month (二日/ふつか)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1611,6 +1658,7 @@
   prompt: consumer prices
   answers:
     - 物価
+    - ぶっか
   hint: 'bukka — prices of goods (often in: 物価が上がる/下がる = prices rise/fall)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1634,6 +1682,7 @@
   prompt: bank transfer
   answers:
     - 振込
+    - ふりこみ
   hint: furikomi — used for bank transfers/payments (e.g., 振込先 "transfer destination")
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1680,6 +1729,7 @@
   prompt: recruitment
   answers:
     - 募集
+    - ぼしゅう
   hint: boshū — commonly used in 募集する (to recruit) / 求人募集 (job recruitment).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1727,6 +1777,7 @@
   prompt: to brush (teeth); to polish
   answers:
     - 磨く
+    - みがく
   hint: migaku — used for brushing teeth (歯を磨く) and polishing things (靴を磨く).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1750,6 +1801,7 @@
   prompt: swimwear
   answers:
     - 水着
+    - みずぎ
   hint: mizugi — 「水」(water) + 「着」(to wear). Usually refers to a swimsuit.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1773,6 +1825,7 @@
   prompt: three days
   answers:
     - 三日
+    - みっか
   hint: mikka — counter for days (3 days); can also mean “the 3rd day of the month”
     depending on context
   stage: -1
@@ -1797,6 +1850,7 @@
   prompt: six days
   answers:
     - 六日
+    - むいか
   hint: 'muika (6th day of the month / six days). Note: reading is irregular (not
     *rokunichi*).'
   stage: -1
@@ -1868,6 +1922,7 @@
   prompt: promise; appointment
   answers:
     - 約束
+    - やくそく
   hint: yakusoku — 約(agreement) + 束(bundle/tie) → “a tied agreement” (promise/appointment)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1891,6 +1946,7 @@
   prompt: to keep a promise
   answers:
     - 約束を守る
+    - やくそくをまもる
   hint: yakusoku o mamoru — 約束(やくそく)=promise, 守る(まもる)=to protect/observe (keep/obey)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1937,6 +1993,7 @@
   prompt: eight days
   answers:
     - 八日
+    - ようか
   hint: youka — also used for the 8th day of the month (e.g., 八日(ようか)に).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1960,6 +2017,7 @@
   prompt: savings
   answers:
     - 預金
+    - よきん
   hint: yokin — money deposited at a bank (savings/deposit). Often used in 預金口座 (deposit
     account).
   stage: -1
@@ -1984,6 +2042,7 @@
   prompt: four days
   answers:
     - 四日
+    - よっか
   hint: yokka — also used for the 4th day of the month (irregular reading)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -2007,6 +2066,7 @@
   prompt: money exchange
   answers:
     - 両替
+    - りょうがえ
   hint: ryougae — exchanging money (e.g., at a bank, hotel, or by a vending machine/両替機)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -2030,6 +2090,7 @@
   prompt: I (formal)
   answers:
     - 私
+    - わたし
   hint: watakushi — very formal “I”; also read わたし in neutral speech
   strokeCount: 7
   stage: -1

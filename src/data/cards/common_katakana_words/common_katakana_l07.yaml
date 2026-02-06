@@ -1,0 +1,150 @@
+- id: ckw-l07-2071
+  prompt: media
+  answers:
+    - メディア
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l07-2078
+  prompt: beer
+  answers:
+    - ビール
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l07-2105
+  prompt: 'on'
+  answers:
+    - オン
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l07-2108
+  prompt: supermarket, grocery store
+  answers:
+    - スーパー
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l07-2132
+  prompt: brand
+  answers:
+    - ブランド
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l07-2148
+  prompt: kilometer
+  answers:
+    - キロメートル
+  hint: noun/counter
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l07-2150
+  prompt: centimeter, cm
+  answers:
+    - センチ
+  hint: noun/counter
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l07-2175
+  prompt: test
+  answers:
+    - テスト
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l07-2176
+  prompt: race, lace
+  answers:
+    - レース
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - レーシング
+    toast: |-
+      That's the word for "racing" — the activity or motorsport term.
+      This is a longer form, not the short noun form you should pick.
+  - answers:
+      - レイズ
+    toast: |-
+      Looks similar but corresponds to "raise" or "rays" in English.
+      Different pronunciation and meaning from this loanword.
+- id: ckw-l07-2178
+  prompt: apartment, condominium
+  answers:
+    - マンション
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - アパート
+    toast: |-
+      Careful — this usually means a cheaper, often wooden rental building in Japanese.
+      Related concept but a different nuance.
+  - answers:
+      - コンドミニアム
+    toast: |-
+      This is the English word 'condominium' rendered in katakana.
+      In Japanese usage this form is uncommon or treated differently.
+- id: ckw-l07-2196
+  prompt: millimeter
+  answers:
+    - ミリメートル
+  hint: noun/counter
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l07-2206
+  prompt: bar
+  answers:
+    - バー
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l07-2210
+  prompt: hall, hole
+  answers:
+    - ホール
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - ボール
+    toast: |-
+      That's ball!
+      Different initial consonant: voiced b vs unvoiced h.
+  - answers:
+      - ホウル
+    toast: |-
+      Watch long-vowel spelling in loanwords.
+      Most katakana use ー instead of adding ウ.
+- id: ckw-l07-2213
+  prompt: shop, store
+  answers:
+    - ショップ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l07-2227
+  prompt: business
+  answers:
+    - ビジネス
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []

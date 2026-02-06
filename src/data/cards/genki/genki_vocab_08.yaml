@@ -2,6 +2,7 @@
   prompt: after (an event)
   answers:
     - 後
+    - あと
   hint: ato / go — used for time order (e.g., 授業の後 = after class).
   strokeCount: 9
   stage: -1
@@ -49,6 +50,7 @@
   prompt: rain
   answers:
     - 雨
+    - あめ
   hint: ame (あめ) — weather/rain (not candy). 8 strokes.
   strokeCount: 8
   stage: -1
@@ -73,6 +75,7 @@
   prompt: to wash
   answers:
     - 洗う
+    - あらう
   hint: arau (u-verb) — often used for washing hands/face or dishes (e.g., 手を洗う)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -142,7 +145,8 @@
   prompt: to say
   answers:
     - 言う
-  hint: iu — used for saying/telling (e.g., 〜と言う = “to say that …”)
+    - いう
+  hint: iu — used for saying/telling (e.g., 〜と言う = "to say that …")
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
@@ -260,6 +264,7 @@
   prompt: to drive
   answers:
     - 運転する
+    - うんてんする
   hint: unten suru — to drive/operate a vehicle (車を運転する).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -283,6 +288,7 @@
   prompt: to be late
   answers:
     - 遅くなる
+    - おそくなる
   hint: osoku naru - become late; 遅い (osoi) + くなる (become)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -306,6 +312,7 @@
   prompt: bath
   answers:
     - お風呂
+    - おふろ
   hint: ofuro — usually means a Japanese bath/tub (also used for bath time or bathroom
     depending on context)
   stage: -1
@@ -330,7 +337,8 @@
   prompt: to take a bath
   answers:
     - お風呂に入る
-  hint: 'ofuro ni hairu - literal: “enter the bath” (common set phrase)'
+    - おふろにはいる
+  hint: 'ofuro ni hairu - literal: "enter the bath" (common set phrase)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
@@ -353,6 +361,7 @@
   prompt: to think
   answers:
     - 思う
+    - おもう
   hint: omou — to think/feel (often subjective opinion); dictionary form u-verb
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -422,6 +431,7 @@
   prompt: Cheers! (a toast)
   answers:
     - 乾杯
+    - かんぱい
   hint: kanpai — said when raising glasses for a toast (common at parties/after work)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -445,6 +455,7 @@
   prompt: temperature (weather)
   answers:
     - 気温
+    - きおん
   hint: kion — weather temperature; often used in 気温が上がる/下がる
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -491,6 +502,7 @@
   prompt: beef
   answers:
     - 牛肉
+    - ぎゅうにく
   hint: gyuuniku — "cow + meat" (牛=ぎゅう, 肉=にく)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -537,6 +549,7 @@
   prompt: to cut
   answers:
     - 切る
+    - きる
   hint: kiru — to cut/slice (e.g., paper, rope). Often used as 切って / 切った.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -560,7 +573,8 @@
   prompt: cloudy weather
   answers:
     - 曇り
-  hint: kumori — often used in weather forecasts (e.g., 曇りのち雨 “cloudy, then rain”)
+    - くもり
+  hint: kumori — often used in weather forecasts (e.g., 曇りのち雨 "cloudy, then rain")
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
@@ -583,6 +597,7 @@
   prompt: this morning
   answers:
     - 今朝
+    - けさ
   hint: 'kesa — used for earlier today (not tonight): 今朝は寒い。'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -606,6 +621,7 @@
   prompt: to answer
   answers:
     - 答える
+    - こたえる
   hint: kotaeru - to answer/respond (often to a question)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -629,8 +645,9 @@
   prompt: the other day
   answers:
     - この間
-  hint: kono aida — used to mean “the other day / recently” (not literally “during
-    this time”)
+    - このあいだ
+  hint: kono aida — used to mean "the other day / recently" (not literally "during
+    this time")
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
@@ -653,6 +670,7 @@
   prompt: finally; lastly
   answers:
     - 最後に
+    - さいごに
   hint: saigo ni — often used to introduce the final point or closing remark (e.g.,
     最後に一つだけ…).
   stage: -1
@@ -677,6 +695,7 @@
   prompt: overtime work
   answers:
     - 残業
+    - ざんぎょう
   hint: zangyō — staying at work beyond regular hours (e.g., 残業する = to work overtime)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -701,6 +720,8 @@
   answers:
     - 残念
     - 残念ですね
+    - ざんねん
+    - ざんねんですね
   hint: zannen (desu ne) - used to react to disappointing news; often with 「ですね」 to
     soften/agree
   stage: -1
@@ -727,6 +748,7 @@
   prompt: job; work; occupation
   answers:
     - 仕事
+    - しごと
   hint: shigoto — everyday word for work/job (仕事をする = to work)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -773,6 +795,7 @@
   prompt: Skillful; good at ... (na-adj.)
   answers:
     - 上手
+    - じょうず
   hint: 'joubu(na) — use with が: 日本語が上手 (good at Japanese). Often contrasts with 下手
     (unskilled).'
   stage: -1
@@ -815,6 +838,7 @@
   prompt: to throw away
   answers:
     - 捨てる
+    - すてる
   hint: suteru — to discard/abandon (e.g., ゴミを捨てる)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -885,6 +909,7 @@
   prompt: to do laundry
   answers:
     - 洗濯する
+    - せんたくする
   hint: sentaku suru — 洗=wash + 濯=rinse; everyday chore verb (can also say 洗濯をする)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -908,6 +933,7 @@
   prompt: to clean
   answers:
     - 掃除する
+    - そうじする
   hint: 'souji suru — to do cleaning (掃=to sweep, 除=to remove); often used with を:
     部屋を掃除する'
   stage: -1
@@ -955,6 +981,7 @@
   prompt: to be tired
   answers:
     - 疲れている
+    - つかれている
   hint: 'tsukarete iru - ongoing state/result: "I''m tired" (from 疲れる). Often used
     as 疲れてる in casual speech.'
   stage: -1
@@ -978,6 +1005,7 @@
   prompt: secondly
   answers:
     - 次に
+    - つぎに
   hint: tsugi ni — used when moving to the next point/step ("Next,")
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1001,6 +1029,7 @@
   prompt: to make
   answers:
     - 作る
+    - つくる
   hint: tsukuru (u-verb) — used for making/creating something tangible (food, objects)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1024,6 +1053,7 @@
   prompt: weather forecast
   answers:
     - 天気予報
+    - てんきよほう
   hint: 'tenki yohou — 天気 (weather) + 予報 (forecast); common phrase: 天気予報を見る (to check
     the weather forecast)'
   stage: -1
@@ -1048,6 +1078,7 @@
   prompt: '... degrees (temperature)'
   answers:
     - ～度
+    - ～ど
   hint: '〜do (counter suffix for temperature degrees). Example: 30度 = sanjū-do (30°C).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1094,7 +1125,8 @@
   prompt: place
   answers:
     - 所
-  hint: tokoro — often means “place/spot” (physical or abstract, e.g., いい所 = good
+    - ところ
+  hint: tokoro — often means "place/spot" (physical or abstract, e.g., いい所 = good
     point).
   strokeCount: 8
   stage: -1
@@ -1142,6 +1174,7 @@
   prompt: chicken
   answers:
     - 鶏肉
+    - とりにく
   hint: toriniku — 「鶏」= chicken, 「肉」= meat
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1188,6 +1221,7 @@
   prompt: summer
   answers:
     - 夏
+    - なつ
   hint: natsu (summer) — 10 strokes
   strokeCount: 10
   stage: -1
@@ -1212,6 +1246,7 @@
   prompt: something
   answers:
     - 何か
+    - なにか
   hint: nanika — often used when you don't know/aren't saying what it is (e.g., 何か食べる？)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1353,6 +1388,7 @@
   prompt: to begin
   answers:
     - 始める
+    - はじめる
   hint: hajimeru — to start something (a new action). Often written 始める; contrast
     with 始まる (something begins by itself).
   stage: -1
@@ -1377,7 +1413,8 @@
   prompt: story; talk
   answers:
     - 話
-  hint: hanashi — also used in 話す (hanasu, “to speak”). 13 strokes.
+    - はなし
+  hint: hanashi — also used in 話す (hanasu, "to speak"). 13 strokes.
   strokeCount: 13
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1425,6 +1462,7 @@
   prompt: sunny weather
   answers:
     - 晴れ
+    - はれ
   hint: hare — used for clear/sunny conditions (e.g., 晴れの日 = a sunny day)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1471,6 +1509,7 @@
   prompt: bag; sack; plastic/paper bag
   answers:
     - 袋
+    - ふくろ
   hint: fukuro — often used for shopping bags (レジ袋) or a sack; 11 strokes
   strokeCount: 11
   stage: -1
@@ -1495,6 +1534,7 @@
   prompt: pork
   answers:
     - 豚肉
+    - ぶたにく
   hint: butaniku — 豚(ぶた)=pig + 肉(にく)=meat
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1541,6 +1581,7 @@
   prompt: winter
   answers:
     - 冬
+    - ふゆ
   hint: fuyu (winter); 5 strokes
   strokeCount: 5
   stage: -1
@@ -1565,6 +1606,7 @@
   prompt: (rain/snow) falls
   answers:
     - 降る（雨/雪が）
+    - ふる（あめ/ゆきが）
   hint: 'furu — used with weather: 雨が降る / 雪が降る (it rains/snows).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1588,6 +1630,7 @@
   prompt: bath
   answers:
     - 風呂
+    - ふろ
   hint: furo — often used for a Japanese-style bath (お風呂).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1611,7 +1654,8 @@
   prompt: to take a bath
   answers:
     - 風呂に入る
-  hint: furo ni hairu — literally “enter the bath” (common set phrase)
+    - ふろにはいる
+  hint: furo ni hairu — literally "enter the bath" (common set phrase)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
@@ -1634,7 +1678,8 @@
   prompt: clumsy; poor at . . .
   answers:
     - 下手
-  hint: 'heta (na) — pattern: ～が下手(だ) = “be bad at ～” (e.g., 料理が下手)'
+    - へた
+  hint: 'heta (na) — pattern: ～が下手(だ) = "be bad at ～" (e.g., 料理が下手)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
@@ -1680,6 +1725,7 @@
   prompt: every week
   answers:
     - 毎週
+    - まいしゅう
   hint: maishuu — 毎=every, 週=week; used for recurring weekly actions (e.g., 毎週行きます).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1798,6 +1844,7 @@
   prompt: to take (a thing)
   answers:
     - 持っていく
+    - もっていく
   hint: motte iku — take/carry something from here to there (away from the speaker);
     often used for bringing something along
   stage: -1
@@ -1840,6 +1887,7 @@
   prompt: famous
   answers:
     - 有名
+    - ゆうめい
   hint: yuumei (na-adj.) — use with な before nouns (e.g., 有名な人)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1863,6 +1911,7 @@
   prompt: to cook
   answers:
     - 料理する
+    - りょうりする
   hint: ryouri suru — to cook/prepare food (料理 = cuisine/cooking)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'

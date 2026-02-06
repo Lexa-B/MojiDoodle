@@ -1,0 +1,175 @@
+- id: ckw-l06-1870
+  prompt: key
+  answers:
+    - キー
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l06-1873
+  prompt: man
+  answers:
+    - マン
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - メン
+    toast: |-
+      Similar sound but different meaning.
+      メン appears in words like ラーメン (noodles) or as a suffix with other meanings.
+  - answers:
+      - マソ
+    toast: |-
+      Looks similar in some fonts.
+      Don't confuse the katakana ン with ソ — they are different characters.
+  - answers:
+      - マンション
+    toast: |-
+      Different word entirely.
+      This means 'apartment' or 'condominium' in Japanese.
+- id: ckw-l06-1899
+  prompt: engine
+  answers:
+    - エンジン
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - モーター
+    toast: |-
+      That's an electric motor.
+      Used for electric devices and some vehicles, not the same thing.
+  - answers:
+      - エンジニア
+    toast: |-
+      That's "engineer" — a person who designs or works on machines.
+      A profession, not the mechanical part.
+- id: ckw-l06-1921
+  prompt: style
+  answers:
+    - スタイル
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l06-1922
+  prompt: base
+  answers:
+    - ベース
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - ベースボール
+    toast: |-
+      That's the word for the sport.
+      This card is the shorter term, not the sport name.
+  - answers:
+      - バス
+    toast: |-
+      That's the word for a vehicle (bus).
+      Similar consonants but a different vowel and completely different meaning.
+  - answers:
+      - ベッド
+    toast: |-
+      That's the word for a piece of furniture (bed).
+      Different final consonant sound—watch small ッ and ending syllables.
+- id: ckw-l06-1934
+  prompt: coffee
+  answers:
+    - コーヒー
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l06-1939
+  prompt: drama
+  answers:
+    - ドラマ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l06-1954
+  prompt: cost
+  answers:
+    - コスト
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l06-2003
+  prompt: seat, sheet
+  answers:
+    - シート
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l06-2004
+  prompt: okay, OK
+  answers:
+    - オーケー
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l06-2006
+  prompt: risk
+  answers:
+    - リスク
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l06-2039
+  prompt: window
+  answers:
+    - ウインドー
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - ウィンドウ
+    toast: |-
+      This uses a small イ (ィ) to show the "wi" sound.
+      It's a common alternate spelling.
+  - answers:
+      - ウインドウ
+    toast: |-
+      Uses a final ウ instead of a long vowel mark.
+      Many people write it this way for "window".
+  - answers:
+      - ウィンドー
+    toast: |-
+      Combines the small イ with a long vowel mark.
+      Seen occasionally as another variant of the same English word.
+- id: ckw-l06-2040
+  prompt: event
+  answers:
+    - イベント
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l06-2045
+  prompt: video
+  answers:
+    - ビデオ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l06-2046
+  prompt: color, colour
+  answers:
+    - カラー
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []

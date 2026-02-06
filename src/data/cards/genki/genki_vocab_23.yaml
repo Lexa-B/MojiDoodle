@@ -25,6 +25,7 @@
   prompt: the rain stops
   answers:
     - 雨がやむ
+    - あめがやむ
   hint: 'ame ga yamu — use for rain/snow stopping (～がやむ). Often becomes past: 雨がやんだ.'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -48,6 +49,7 @@
   prompt: to express; to show
   answers:
     - 表す
+    - あらわす
   hint: arawasu — to express/show (feelings, opinions, what something represents).
     Often used like 意思を表す (express one’s intention).
   stage: -1
@@ -72,6 +74,7 @@
   prompt: to talk behind someone’s back
   answers:
     - 言う（悪口を）
+    - いう（わるくちを）
   hint: iu (waruguchi o) - literally “to say (bad words)”; used for speaking ill of
     someone who isn’t present
   stage: -1
@@ -96,6 +99,7 @@
   prompt: on the other hand
   answers:
     - 一方
+    - いっぽう
   hint: ippou — used to contrast two things (Aは…一方、Bは…). Also means “one direction/one
     side” depending on context.
   stage: -1
@@ -168,6 +172,7 @@
   prompt: emoji
   answers:
     - 絵文字
+    - えもじ
   hint: emoji (えもじ) — literally "picture characters"; used for emoji/emoticons
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -215,6 +220,7 @@
   prompt: memory
   answers:
     - 思い出
+    - おもいで
   hint: omoide — a personal memory/recollection; often used as 思い出を作る (make memories)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -238,6 +244,7 @@
   prompt: trip to a foreign country
   answers:
     - 海外旅行
+    - かいがいりょこう
   hint: kaigai ryokou — 海外=overseas/abroad + 旅行=travel; used like 「海外旅行に行く」
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -261,6 +268,7 @@
   prompt: emoticon
   answers:
     - 顔文字
+    - かおもじ
   hint: kaomoji — Japanese-style emoticon using faces (e.g., (^^), (T_T))
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -284,6 +292,7 @@
   prompt: to look ... (facial expression)
   answers:
     - ～顔をする
+    - ～かおをする
   hint: 〜kao o suru — attach an adjective/phrase before 〜 (e.g., うれしそうな顔をする = to look
     happy). Often describes someone’s expression.
   stage: -1
@@ -308,6 +317,7 @@
   prompt: to be tolerant/patient
   answers:
     - 我慢する
+    - がまんする
   hint: gaman suru — endure without complaining; often used for holding back feelings
     or putting up with hardship
   stage: -1
@@ -332,6 +342,7 @@
   prompt: feeling; emotion
   answers:
     - 感情
+    - かんじょう
   hint: kanjou — feelings/emotions (often used for human emotion; e.g., 感情が高ぶる)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -378,6 +389,7 @@
   prompt: symbol
   answers:
     - 記号
+    - きごう
   hint: kigou — written symbols/marks (e.g., 記号を使う = to use symbols)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -424,6 +436,7 @@
   prompt: to find something agreeable
   answers:
     - 気に入る
+    - きにいる
   hint: 'ki ni iru — “to like; to be pleased with” (often used for things: この靴が気に入った)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -447,6 +460,7 @@
   prompt: class cancellation
   answers:
     - 休講
+    - きゅうこう
   hint: kyuukou — classes are cancelled (often due to weather/teacher absence); 休=rest,
     講=lecture
   stage: -1
@@ -471,6 +485,7 @@
   prompt: socks
   answers:
     - 靴下
+    - くつした
   hint: kutsushita — often written in kana too (くつした). "靴" = shoes, "下" = under (goes
     under shoes).
   stage: -1
@@ -495,6 +510,7 @@
   prompt: result
   answers:
     - 結果
+    - けっか
   hint: kekka — outcome/result (often used with ～の結果 “as a result of…”)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -518,6 +534,7 @@
   prompt: Take care of yourself.
   answers:
     - 元気でね
+    - げんきでね
   hint: genki de ne — casual farewell meaning “stay well/okay,” often said when parting
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -541,6 +558,7 @@
   prompt: health
   answers:
     - 健康
+    - けんこう
   hint: kenkou — often used as 健康です (I'm healthy) / 健康な生活 (a healthy life)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -611,6 +629,7 @@
   prompt: society
   answers:
     - 社会
+    - しゃかい
   hint: shakai — 社 (company/shrine) + 会 (meet/association) → “society”
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -634,6 +653,7 @@
   prompt: elementary school
   answers:
     - 小学校
+    - しょうがっこう
   hint: shougakkou — 学校 (school) with 小 (small) = primary/elementary school
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -657,6 +677,7 @@
   prompt: all over the world
   answers:
     - 世界中
+    - せかいじゅう
   hint: 'sekaijuu — used for locations: 「世界中で」 = all over the world (throughout the
     world)'
   stage: -1
@@ -681,6 +702,7 @@
   prompt: to take care of …
   answers:
     - 世話をする
+    - せわをする
   hint: sewa o suru — to look after/support someone (e.g., 子どもの世話をする).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -774,6 +796,7 @@
   prompt: vertical
   answers:
     - 縦
+    - たて
   hint: tate — "vertical" (縦の lines go up/down); 16 strokes
   strokeCount: 16
   stage: -1
@@ -845,6 +868,7 @@
   prompt: survey
   answers:
     - 調査
+    - ちょうさ
   hint: 'chousa — research/investigation (often formal: 調査を行う)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -868,6 +892,7 @@
   prompt: ~ means that ...
   answers:
     - （～は）…という意味だ
+    - （～は）…といういみだ
   hint: … to iu imi da — use to explain the meaning/definition of a word or phrase
     (often after quoting it).
   stage: -1
@@ -892,6 +917,7 @@
   prompt: to sympathize
   answers:
     - 同情する
+    - どうじょうする
   hint: dōjō suru — to feel sympathy/compassion toward someone (often 同情する＋相手に/を)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -938,6 +964,7 @@
   prompt: 〜 means that . . .
   answers:
     - ～は…という意味だ
+    - ～は…といういみだ
   hint: '… wa … to iu imi da — use to explain the meaning of a word/phrase: 「XはYという意味だ」'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -961,6 +988,7 @@
   prompt: (something/someone) separates; parts from
   answers:
     - 離れる
+    - はなれる
   hint: |-
     hanareru - intransitive ru-verb (to separate/part)
     Often used as: 〜から離れる (separate from ~), 〜を離れる (leave ~)
@@ -986,6 +1014,7 @@
   prompt: expression
   answers:
     - 表情
+    - ひょうじょう
   hint: hyōjō — facial expression (e.g., 表情が明るい = has a bright expression)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1009,6 +1038,7 @@
   prompt: Bon dance (Japanese traditional dance)
   answers:
     - 盆踊り
+    - ぼんおどり
   hint: bon-odori — a traditional dance during the Obon festival (often in summer).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1056,6 +1086,7 @@
   prompt: interview
   answers:
     - 面接
+    - めんせつ
   hint: mensetsu — job/school interview; 面=face, 接=meet/come in contact ("meet face-to-face")
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1079,6 +1110,7 @@
   prompt: (something/someone) comes back
   answers:
     - 戻ってくる
+    - もどってくる
   hint: modotte kuru — return here; often used when someone/something comes back (to
     the original place/state).
   stage: -1
@@ -1127,6 +1159,7 @@
   prompt: to win a championship
   answers:
     - 優勝する
+    - ゆうしょうする
   hint: yuushou suru — win the whole tournament/league; often used with 大会で/リーグで
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1150,6 +1183,7 @@
   prompt: dinner
   answers:
     - 夕食
+    - ゆうしょく
   hint: yuushoku — evening meal (more formal than ばんごはん)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1173,6 +1207,7 @@
   prompt: side; horizontal
   answers:
     - 横
+    - よこ
   hint: yoko — also used in words like 横書き (horizontal writing). 15 strokes.
   strokeCount: 15
   stage: -1
@@ -1197,6 +1232,7 @@
   prompt: ideal
   answers:
     - 理想
+    - りそう
   hint: 'risou — “ideal” (as in an ideal state/goal). Commonly: 理想の〜 (ideal ~).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1220,6 +1256,7 @@
   prompt: looking after a house during someone’s absence
   answers:
     - 留守番
+    - るすばん
   hint: 'rusuban — staying home to watch the house / mind the place while someone
     is away (often used with する: 留守番する)'
   stage: -1
@@ -1244,6 +1281,7 @@
   prompt: to talk behind someone’s back
   answers:
     - 悪口を言う
+    - わるくちをいう
   hint: waruguchi o iu — 悪口＝insult/bad-mouthing; よく「悪口を言わないで」(Don’t badmouth people)
     の形でも使う
   stage: -1

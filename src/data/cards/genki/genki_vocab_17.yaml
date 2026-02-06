@@ -2,6 +2,7 @@
   prompt: baby
   answers:
     - 赤ちゃん
+    - あかちゃん
   hint: akachan — common, affectionate word for a baby; often written with ちゃん in
     hiragana
   stage: -1
@@ -26,6 +27,7 @@
   prompt: dangerous
   answers:
     - 危ない
+    - あぶない
   hint: abunai — い-adjective meaning dangerous/unsafe; often used as a warning (e.g.,
     危ない！)
   stage: -1
@@ -96,6 +98,7 @@
   prompt: to be affected
   answers:
     - 影響を受ける
+    - えいきょうをうける
   hint: eikyō o ukeru — used for being influenced/affected by something (Xの影響を受ける).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -119,6 +122,7 @@
   prompt: to choose; to select
   answers:
     - 選ぶ
+    - えらぶ
   hint: erabu — to choose from options (e.g., メニューから選ぶ).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -142,6 +146,7 @@
   prompt: to pray
   answers:
     - お祈りする
+    - おいのりする
   hint: oinori suru — polite/neutral verb meaning “to pray” (often used for wishes
     like ご無事をお祈りします).
   stage: -1
@@ -166,6 +171,7 @@
   prompt: guest; visitor; client; customer
   answers:
     - お客さん
+    - おきゃくさん
   hint: okyaku-san — polite term for a customer/guest; often used by staff toward
     customers.
   stage: -1
@@ -213,6 +219,7 @@
   prompt: mainly
   answers:
     - 主に
+    - おもに
   hint: omoni — used to mean “primarily/mostly,” often with 主に〜(は) like “主に学生です” (I’m
     mainly a student).
   stage: -1
@@ -237,6 +244,7 @@
   prompt: hot water
   answers:
     - お湯
+    - おゆ
   hint: oyu — polite お + 湯 (ゆ, hot water). Often used for bathing or making tea.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -260,6 +268,7 @@
   prompt: to boil water
   answers:
     - お湯を沸かす
+    - おゆをわかす
   hint: oyu o wakasu — お湯(おゆ)=hot water; 沸かす=to bring to a boil (transitive, you boil
     something)
   stage: -1
@@ -284,6 +293,7 @@
   prompt: lock; key
   answers:
     - 鍵
+    - かぎ
   hint: kagi — often means “key” (e.g., 鍵をかける = to lock)
   strokeCount: 17
   stage: -1
@@ -308,6 +318,7 @@
   prompt: to lock
   answers:
     - 鍵をかける
+    - かぎをかける
   hint: kagi o kakeru — use for locking a door/bike, etc. (かける = “to put on/apply”)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -331,6 +342,7 @@
   prompt: To lock (e.g., a key/door)
   answers:
     - かける（鍵を）
+    - かける（かぎを）
   hint: kakeru (kagi o) — used as 鍵をかける “to lock (a door)”
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -378,6 +390,7 @@
   prompt: fire
   answers:
     - 火事
+    - かじ
   hint: kaji — house/building fire (not a campfire). Often used in 火事だ！("Fire!")
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -401,6 +414,7 @@
   prompt: to count
   answers:
     - 数える
+    - かぞえる
   hint: kazoeru (ru-verb) — used for counting things (often with counters, e.g., 人・枚・回).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -472,6 +486,7 @@
   prompt: paper
   answers:
     - 紙
+    - かみ
   hint: kami — 紙 (paper). Left side is the thread radical 糸, often related to paper/cloth.
   strokeCount: 10
   stage: -1
@@ -491,6 +506,7 @@
   prompt: hairstyle
   answers:
     - 髪形
+    - かみがた
   hint: kamigata — often refers to a person’s hairdo/style (e.g., 髪形を変える).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -514,6 +530,7 @@
   prompt: to comb one’s hair
   answers:
     - 髪をとかす
+    - かみをとかす
   hint: |-
     kami o tokasu — use を + とかす (to comb/untangle)
     Often written as 髪を梳かす too.
@@ -563,6 +580,7 @@
   prompt: to crop
   answers:
     - 刈る
+    - かる
   hint: karu — to reap/mow (cut plants like grass or rice)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -586,6 +604,7 @@
   prompt: to be completed
   answers:
     - 完成する
+    - かんせいする
   hint: kansei suru — to be completed/finished (often for projects, products, works)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -609,6 +628,7 @@
   prompt: salary
   answers:
     - 給料
+    - きゅうりょう
   hint: kyuuryou — wages/pay (often monthly pay from a company)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -632,6 +652,7 @@
   prompt: cloud
   answers:
     - 雲
+    - くも
   hint: kumo — 12 strokes
   strokeCount: 12
   stage: -1
@@ -656,6 +677,7 @@
   prompt: art
   answers:
     - 芸術
+    - げいじゅつ
   hint: geijutsu — fine arts/culture; often used in compounds like 芸術家 (artist)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -679,6 +701,7 @@
   prompt: to put makeup on
   answers:
     - 化粧する
+    - けしょうする
   hint: keshou suru — to apply makeup (often used as 化粧をする). 化=change, 粧=makeup/appearance.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -726,6 +749,7 @@
   prompt: the worst
   answers:
     - 最悪
+    - さいあく
   hint: saiaku (na-adj.) — often used as 「最悪だ」 / 「最悪な〜」 to say something is terrible
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -749,6 +773,7 @@
   prompt: work (of art, etc.)
   answers:
     - 作品
+    - さくひん
   hint: sakuhin — a created work (art, writing, film, etc.); often used as a formal
     term for an artist’s/author’s work
   stage: -1
@@ -796,6 +821,7 @@
   prompt: poem
   answers:
     - 詩
+    - し
   hint: shi — 13 strokes; written works/poetry (often contrasted with 歌 "song")
   strokeCount: 13
   stage: -1
@@ -867,6 +893,7 @@
   prompt: to get a full-time job (at . . . )
   answers:
     - 就職する
+    - しゅうしょくする
   hint: shuushoku suru — getting hired for regular employment (e.g., 会社に就職する).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -890,6 +917,7 @@
   prompt: to be shot
   answers:
     - 銃で撃たれる
+    - じゅうでうたれる
   hint: juu de utareru — passive form (撃つ → 撃たれる). Often implies being shot (by a
     gun).
   stage: -1
@@ -914,6 +942,7 @@
   prompt: prime minister
   answers:
     - 首相
+    - しゅしょう
   hint: shushou — Japan’s prime minister (e.g., 日本の首相)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -937,6 +966,7 @@
   prompt: house husband
   answers:
     - 主夫
+    - しゅふ
   hint: 'shufu — a man who manages the household (contrast: 主婦 for women)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -960,6 +990,7 @@
   prompt: preparation
   answers:
     - 準備
+    - じゅんび
   hint: 'junbi — often used with する (準備する = to prepare); common collocation: 準備ができた
     (ready)'
   stage: -1
@@ -1057,6 +1088,7 @@
   prompt: a little; a few
   answers:
     - 少ない
+    - すくない
   hint: sukunai — used for small quantity/number (e.g., 人が少ない). Often contrasts with
     多い.
   stage: -1
@@ -1151,6 +1183,7 @@
   prompt: 1960’s
   answers:
     - 1960年代
+    - 1960ねんだい
   hint: senkyuuhyakurokujuu nendai — use for decades/era talk (e.g., 1960年代の音楽). 「年代」=
     decade/period.
   stage: -1
@@ -1199,6 +1232,7 @@
   prompt: after that
   answers:
     - その後
+    - そのご
   hint: sonogo — used to mean “after that/afterwards” in sequence (e.g., その後どうなった？)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1293,6 +1327,7 @@
   prompt: big hit
   answers:
     - 大ヒット
+    - だいヒット
   hint: dai hitto — used for a product/song/movie that becomes a huge success (katakana
     ヒット = “hit”)
   stage: -1
@@ -1317,6 +1352,7 @@
   prompt: lottery
   answers:
     - 宝くじ
+    - たからくじ
   hint: takarakuji — 宝 (treasure) + くじ (lot/draw); used for lottery tickets (宝くじを買う)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1340,6 +1376,7 @@
   prompt: to win a lottery
   answers:
     - 宝くじに当たる
+    - たからくじにあたる
   hint: |-
     takarakuji ni ataru - 「当たる」= to hit/strike → to win (a prize)
     Used like: 宝くじに当たった (I won the lottery)
@@ -1365,6 +1402,7 @@
   prompt: to be sufficient; to be enough
   answers:
     - 足りる
+    - たりる
   hint: 'tariru — often used with quantity/amount: お金が足りる (have enough money), 時間が足りない
     (not enough time)'
   stage: -1
@@ -1389,6 +1427,7 @@
   prompt: difference
   answers:
     - 違い
+    - ちがい
   hint: chigai — used for differences between things (e.g., 〜の違い)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1412,6 +1451,7 @@
   prompt: Inconvenient; to have a scheduling conflict
   answers:
     - 都合が悪い
+    - つごうがわるい
   hint: tsugou ga warui — used to say your schedule/situation doesn’t work (e.g.,
     都合が悪くて行けない)
   stage: -1
@@ -1436,6 +1476,7 @@
   prompt: strong
   answers:
     - 強い
+    - つよい
   hint: tsuyoi — i-adjective meaning strong (physical strength, flavor, intensity)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1459,6 +1500,7 @@
   prompt: ceiling
   answers:
     - 天井
+    - てんじょう
   hint: 'tenjou — the ceiling (inside a room). Note: 天 = sky/heaven, 井 = well.'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1482,6 +1524,7 @@
   prompt: microwave oven
   answers:
     - 電子レンジ
+    - でんしレンジ
   hint: denshi renji — often shortened to 「レンジ」 in conversation
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1505,6 +1548,7 @@
   prompt: art exhibition
   answers:
     - 展覧会
+    - てんらんかい
   hint: tenrankai — often used for museum/gallery exhibitions (e.g., 絵画の展覧会).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1528,6 +1572,7 @@
   prompt: to name
   answers:
     - 名前をつける
+    - なまえをつける
   hint: namae o tsukeru — literally “attach a name”; used when naming a person/thing/pet
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1551,6 +1596,7 @@
   prompt: to get used to ...
   answers:
     - 慣れる
+    - なれる
   hint: 'nareru — to become accustomed (慣れる + に/と). Ex: 日本の生活に慣れる'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1574,6 +1620,7 @@
   prompt: many times
   answers:
     - 何度も
+    - なんども
   hint: nando mo — used for repetition (e.g., 何度も言った = I said it many times)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1597,6 +1644,7 @@
   prompt: compared with ...
   answers:
     - ～に比べて
+    - ～にくらべて
   hint: |-
     ni kurabete — used to compare A with B.
     Example: 去年に比べて、今年は暑い。(Compared with last year, this year is hot.)
@@ -1669,6 +1717,7 @@
   prompt: to take off (clothes)
   answers:
     - 脱ぐ
+    - ぬぐ
   hint: nugu — used for taking off clothing (e.g., 靴を脱ぐ).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1763,6 +1812,7 @@
   prompt: haiku
   answers:
     - 俳句
+    - はいく
   hint: 'haiku — 5-7-5 syllable poem (often with a seasonal word: 季語)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1947,6 +1997,7 @@
   prompt: field; realm
   answers:
     - 分野
+    - ぶんや
   hint: bunya — often used for academic/professional fields (e.g., 専門分野).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1970,6 +2021,7 @@
   prompt: before ... (suffix)
   answers:
     - 前
+    - まえ
   hint: 'mae — used after time/quantity: 3分前 (3 minutes ago), 出発前 (before departure)'
   strokeCount: 9
   stage: -1
@@ -1994,6 +2046,7 @@
   prompt: magnifying glass
   answers:
     - 虫めがね
+    - むしめがね
   hint: 'mushimegane — literally "bug glasses"; common everyday word (also: 拡大鏡).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -2017,6 +2070,7 @@
   prompt: letter; character
   answers:
     - 文字
+    - もじ
   hint: moji — written characters (e.g., 漢字・ひらがな・カタカナ). Often used as 「〜文字」 = “~ characters
     (in length)”.
   stage: -1
@@ -2041,6 +2095,7 @@
   prompt: hot water
   answers:
     - 湯
+    - ゆ
   hint: yu — hot water (bath/hot water for drinking); 氵(さんずい) + 昜. 12 strokes
   strokeCount: 12
   stage: -1
@@ -2065,6 +2120,7 @@
   prompt: to get a divorce
   answers:
     - 離婚する
+    - りこんする
   hint: rikon suru — "離"(separate) + "婚"(marriage); often used as 離婚した/離婚している
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -2088,6 +2144,7 @@
   prompt: travel agency
   answers:
     - 旅行会社
+    - りょこうがいしゃ
   hint: ryokou gaisha — a company that arranges trips (tickets, hotels, tours).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'

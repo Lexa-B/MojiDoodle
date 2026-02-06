@@ -1,0 +1,155 @@
+- id: ckw-l04-1480
+  prompt: internet, net
+  answers:
+    - ネット
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l04-1483
+  prompt: gas
+  answers:
+    - ガス
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l04-1491
+  prompt: bread
+  answers:
+    - パン
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l04-1536
+  prompt: line, LINE app
+  answers:
+    - ライン
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l04-1540
+  prompt: course
+  answers:
+    - コース
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l04-1559
+  prompt: cigarette, tobacco
+  answers:
+    - タバコ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l04-1567
+  prompt: camera
+  answers:
+    - カメラ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - カメラマン
+    toast: |-
+      That's the person who operates a camera
+      Not the device itself.
+  - answers:
+      - デジカメ
+    toast: |-
+      Informal abbreviation for "digital camera"
+      More casual than the full word.
+- id: ckw-l04-1574
+  prompt: theme, topic
+  answers:
+    - テーマ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l04-1585
+  prompt: table
+  answers:
+    - テーブル
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l04-1587
+  prompt: bed
+  answers:
+    - ベッド
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l04-1598
+  prompt: professional, pro
+  answers:
+    - プロ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - プロフェッショナル
+    toast: |-
+      A longer, more formal loanword meaning the same thing.
+      This card uses the shorter casual form.
+  - answers:
+      - アマ
+    toast: |-
+      This means "amateur," the opposite of a professional.
+      Don't confuse the two.
+  - answers:
+      - プロー
+    toast: |-
+      Not a standard spelling.
+      Check the vowel length and common katakana usage.
+- id: ckw-l04-1607
+  prompt: top
+  answers:
+    - トップ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l04-1618
+  prompt: inn
+  answers:
+    - イン
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l04-1625
+  prompt: button
+  answers:
+    - ボタン
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l04-1629
+  prompt: computer
+  answers:
+    - コンピューター
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - コンピュータ
+    toast: |-
+      Almost!
+      Both spellings are used, but this prompt expects the longer form with ー.
+  - answers:
+      - パソコン
+    toast: |-
+      Different word!
+      パソコン is the common abbreviation for personal computer and is related, but it's a separate term.

@@ -2,6 +2,7 @@
   prompt: as usual
   answers:
     - 相変わらず
+    - あいかわらず
   hint: 'aikawarazu — used when something hasn’t changed (often with a slightly negative
     nuance): 相変わらず元気だ'
   stage: -1
@@ -26,6 +27,7 @@
   prompt: partner; the other person
   answers:
     - 相手
+    - あいて
   hint: aite — often means “the other party/person” (e.g., 話し相手 conversation partner,
     相手にする to deal with someone)
   stage: -1
@@ -50,6 +52,7 @@
   prompt: reception desk
   answers:
     - 受付
+    - うけつけ
   hint: uketsuke — reception/registration counter (e.g., 受付で名前を書く)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -169,6 +172,7 @@
   prompt: English conversation
   answers:
     - 英会話
+    - えいかいわ
   hint: 'eikaiwa — often used for classes/lessons: 英会話レッスン (English conversation lesson)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -192,6 +196,7 @@
   prompt: (someone’s) daughter (polite)
   answers:
     - お嬢さん
+    - おじょうさん
   hint: ojou-san — polite term for another person’s daughter; also used to address
     a young lady
   stage: -1
@@ -216,6 +221,7 @@
   prompt: to request help
   answers:
     - お願いする
+    - おねがいする
   hint: 'onegaishisuru - polite request (e.g., 手伝ってくださいとお願いする). Kanji: 願 = “wish/request”'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -239,6 +245,7 @@
   prompt: housework
   answers:
     - 家事
+    - かじ
   hint: kaji — chores/household tasks (cleaning, cooking, laundry). Not 火事 (kaji)
     “fire”.
   stage: -1
@@ -263,6 +270,7 @@
   prompt: wind
   answers:
     - 風
+    - かぜ
   hint: kaze — 9 strokes (also read かぜ / ふう / か)
   strokeCount: 9
   stage: -1
@@ -287,6 +295,7 @@
   prompt: the wind blows
   answers:
     - 風が吹く
+    - かぜがふく
   hint: 'kazega fuku — intransitive (wind is the subject). Pattern: 風が吹く / 風が強く吹く'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -311,6 +320,7 @@
   prompt: to win
   answers:
     - 勝つ
+    - かつ
   hint: katsu — intransitive verb; often used for winning a game/contest (試合に勝つ).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -334,6 +344,7 @@
   prompt: instead
   answers:
     - 代わりに
+    - かわりに
   hint: 'kawari ni - used for substitution/replacement: Aの代わりにB = do/use B instead
     of A'
   stage: -1
@@ -358,6 +369,7 @@
   prompt: tree
   answers:
     - 木
+    - き
   hint: ki — 4 strokes; looks like a trunk with branches
   strokeCount: 4
   stage: -1
@@ -382,6 +394,7 @@
   prompt: to make a plan
   answers:
     - 計画を立てる
+    - けいかくをたてる
   hint: keikaku o tateru - use when deciding and setting up a plan (e.g., 旅行の計画を立てる).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -405,6 +418,7 @@
   prompt: junior member of a group
   answers:
     - 後輩
+    - こうはい
   hint: 'kouhai — someone junior in school/work/club; your junior (opposite: 先輩 senpai)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -428,6 +442,7 @@
   prompt: to make a photocopy
   answers:
     - コピーを取る
+    - コピーをとる
   hint: kopii o toru - literally “take a copy” (コピーを取ってください = Please make a copy.)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -475,6 +490,7 @@
   prompt: monkey
   answers:
     - 猿
+    - さる
   hint: saru — Kanji meaning “monkey”; left side is the animal radical 犭
   strokeCount: 13
   stage: -1
@@ -499,6 +515,7 @@
   prompt: to agree
   answers:
     - 賛成する
+    - さんせいする
   hint: sansei suru — used for agreeing with an idea/opinion (〜に賛成する = agree with
     ~)
   stage: -1
@@ -547,6 +564,7 @@
   prompt: to fail; to be unsuccessful
   answers:
     - 失敗する
+    - しっぱいする
   hint: 'shippai suru — often used with に: 試験に失敗する (fail an exam)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -570,6 +588,7 @@
   prompt: freedom
   answers:
     - 自由
+    - じゆう
   hint: jiyuu — "freedom/liberty" (often used like 自由に = freely)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -593,6 +612,7 @@
   prompt: freely
   answers:
     - 自由に
+    - じゆうに
   hint: jiyuu ni — "in a free way"; often modifies verbs (e.g., 自由に選ぶ = choose freely)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -616,6 +636,7 @@
   prompt: document
   answers:
     - 書類
+    - しょるい
   hint: shorui — papers/forms (often official or business documents)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -639,6 +660,7 @@
   prompt: best friend
   answers:
     - 親友
+    - しんゆう
   hint: shinyuu — close friend (very intimate); often used like 「親友だ」 / 「親友と」
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -685,6 +707,7 @@
   prompt: to raise; to bring up
   answers:
     - 育てる
+    - そだてる
   hint: |-
     sodateru — to raise (a child/animal) or grow (plants)
     Often used with を: 子どもを育てる / 野菜を育てる
@@ -758,6 +781,7 @@
   prompt: joyfully
   answers:
     - 楽しそうに
+    - たのしそうに
   hint: tanoshisou ni — 「楽しそうだ」(looks like having fun) + に (adverb). Used for how
     someone appears/acts, not necessarily their true feelings.
   stage: -1
@@ -806,6 +830,7 @@
   prompt: to stay up all night
   answers:
     - 徹夜する
+    - てつやする
   hint: tetsuya suru — to pull an all-nighter (often for studying/work). 徹夜 = staying
     awake all night
   stage: -1
@@ -877,6 +902,7 @@
   prompt: to run away; to escape
   answers:
     - 逃げる
+    - にげる
   hint: |-
     nigeru (ru-verb) — often used for escaping danger/responsibility
     Ex: 彼は家から逃げた。
@@ -902,6 +928,7 @@
   prompt: to carry
   answers:
     - 運ぶ
+    - はこぶ
   hint: hakobu (う-v.) — to carry/transport; often used for carrying something to another
     place
   stage: -1
@@ -926,6 +953,7 @@
   prompt: to oppose; to object to
   answers:
     - 反対する
+    - はんたいする
   hint: 'hantaisuru — often used with に: 「〜に反対する」 = to oppose ~'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -949,6 +977,7 @@
   prompt: living alone
   answers:
     - 一人暮らし
+    - ひとりぐらし
   hint: hitorigurashi — a lifestyle/household term (e.g., 一人暮らしです “I live alone.”)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -972,6 +1001,7 @@
   prompt: to pick up (something)
   answers:
     - 拾う
+    - ひろう
   hint: hirou — to pick up something from the ground; also used for “to find/come
     across” (拾った財布 = a wallet I found)
   stage: -1
@@ -996,6 +1026,7 @@
   prompt: poor
   answers:
     - 貧乏
+    - びんぼう
   hint: binbou (na) — な-adj; often used as 貧乏な人 (a poor person) or 貧乏で… (being poor
     and…).
   stage: -1
@@ -1020,6 +1051,7 @@
   prompt: subordinate
   answers:
     - 部下
+    - ぶか
   hint: buka — a subordinate in a company/organization (someone under you in rank)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1043,6 +1075,7 @@
   prompt: review of a lesson
   answers:
     - 復習
+    - ふくしゅう
   hint: 'fukushuu — to review/refresh what you already learned (often: 予習 prep, 復習
     review)'
   stage: -1
@@ -1067,6 +1100,7 @@
   prompt: for two days
   answers:
     - 二日間
+    - ふつかかん
   hint: 'futsukakan — duration expression: 二日 (two days) + 間 (period of time).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1139,6 +1173,7 @@
   prompt: to leave (someone/something) alone; to neglect
   answers:
     - 放っておく
+    - ほっておく
   hint: hotte oku — literally “leave it as-is”; used for leaving someone/something
     alone or neglecting it
   stage: -1
@@ -1186,6 +1221,7 @@
   prompt: to translate
   answers:
     - 翻訳する
+    - ほんやくする
   hint: |-
     honyaku suru — to translate (language)
     Often used as 翻訳する (a document) / ～を翻訳する
@@ -1211,6 +1247,7 @@
   prompt: to lose (a match)
   answers:
     - 負ける
+    - まける
   hint: makeru — used for losing a game/match/competition (vs. 勝つ).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1234,6 +1271,7 @@
   prompt: to wait eagerly for . . .
   answers:
     - 待ち遠しい
+    - まちどおしい
   hint: machidooshii (まちどおしい) - used when you’re looking forward to something so much
     you can’t wait
   stage: -1
@@ -1258,6 +1296,7 @@
   prompt: to be in time
   answers:
     - 間に合う
+    - まにあう
   hint: maniau — used for making it on time / being sufficient (e.g., 時間に間に合う)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1281,6 +1320,7 @@
   prompt: waste (money)
   answers:
     - 無駄遣い
+    - むだづかい
   hint: mudazukai — spending money needlessly; often used as 「〜を無駄遣いする」
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1327,6 +1367,7 @@
   prompt: license
   answers:
     - 免許
+    - めんきょ
   hint: menkyo — often 免許証 (めんきょしょう) “license card” (e.g., driver’s license)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1350,6 +1391,7 @@
   prompt: a little more
   answers:
     - もう少し
+    - もうすこし
   hint: mou sukoshi — used to ask/expect a small additional amount (e.g., もう少し待って
     = wait a bit more)
   stage: -1
@@ -1374,6 +1416,7 @@
   prompt: courage
   answers:
     - 勇気
+    - ゆうき
   hint: yuuki — courage/bravery; often used in phrases like 勇気を出す (to muster courage).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1420,6 +1463,7 @@
   prompt: preparation of a lesson
   answers:
     - 予習
+    - よしゅう
   hint: yoshuu — studying in advance (before class); often used as 予習する
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1443,6 +1487,7 @@
   prompt: easy; comfortable (na-adjective)
   answers:
     - 楽
+    - らく
   hint: |-
     raku (na)
     Used for “comfortable/easy” situations: 楽(な)です / 楽にする

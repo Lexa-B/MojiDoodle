@@ -25,6 +25,7 @@
   prompt: morning
   answers:
     - 朝
+    - あさ
   hint: asa — commonly used in 朝ごはん (breakfast), 朝日 (morning sun)
   strokeCount: 12
   stage: -1
@@ -49,6 +50,7 @@
   prompt: breakfast
   answers:
     - 朝ご飯
+    - あさごはん
   hint: asagohan — 朝=morning + ご飯=rice/meal; common phrase for breakfast
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -72,6 +74,7 @@
   prompt: tomorrow
   answers:
     - 明日
+    - あした
   hint: ashita / あした — also read あす (asu) in more formal contexts
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -143,6 +146,7 @@
   prompt: home; house
   answers:
     - 家
+    - いえ
   hint: ie (house/home). 10 strokes. Often used in compounds like 家族 (kazoku, family).
   strokeCount: 10
   stage: -1
@@ -167,6 +171,7 @@
   prompt: to go
   answers:
     - 行く
+    - いく
   hint: iku — movement to a destination (行く + く)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -237,6 +242,7 @@
   prompt: movie
   answers:
     - 映画
+    - えいが
   hint: 'eiga — a film/movie (common: 映画館 = movie theater)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -283,6 +289,7 @@
   prompt: to get up
   answers:
     - 起きる
+    - おきる
   hint: 'okiru (ru-verb) — to wake up/get up (from sleep). Past: 起きた'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -306,6 +313,7 @@
   prompt: sake; alcoholic drink
   answers:
     - お酒
+    - おさけ
   hint: |-
     osake — polite prefix お + 酒 (さけ)
     Often used generally for alcohol; e.g., お酒を飲む
@@ -331,6 +339,7 @@
   prompt: green tea
   answers:
     - お茶
+    - おちゃ
   hint: ocha — polite お + 茶 (tea); commonly said as お茶を飲む
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -354,6 +363,7 @@
   prompt: music
   answers:
     - 音楽
+    - おんがく
   hint: ongaku — often used with 〜を聞く (listen to music) / 〜をかける (put on music)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -377,7 +387,8 @@
   prompt: to go back; to return
   answers:
     - 帰る
-  hint: kaeru — “to return (go home/come back)”; often used for returning to a place
+    - かえる
+  hint: kaeru — "to return (go home/come back)"; often used for returning to a place
     (e.g., 家に帰る).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -401,6 +412,7 @@
   prompt: school
   answers:
     - 学校
+    - がっこう
   hint: gakkou — note the small っ (double consonant) in the reading
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -447,7 +459,8 @@
   prompt: to listen; to hear
   answers:
     - 聞く
-  hint: 'kiku — “listen/hear” (uses the particle を: 音楽を聞く).'
+    - きく
+  hint: 'kiku — "listen/hear" (uses the particle を: 音楽を聞く).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
@@ -470,6 +483,7 @@
   prompt: today
   answers:
     - 今日
+    - きょう
   hint: kyou — often read きょう as a standalone noun (e.g., 今日は…).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -493,6 +507,7 @@
   prompt: to come
   answers:
     - 来る
+    - くる
   hint: kuru (irregular verb) — 来ます／来て
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -562,6 +577,7 @@
   prompt: tonight
   answers:
     - 今晩
+    - こんばん
   hint: konban — used for tonight/this evening (e.g., 今晩は雨です).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -585,6 +601,7 @@
   prompt: sake; alcohol
   answers:
     - 酒
+    - さけ
   hint: sake — can mean Japanese rice wine or alcohol in general
   strokeCount: 10
   stage: -1
@@ -609,6 +626,7 @@
   prompt: magazine
   answers:
     - 雑誌
+    - ざっし
   hint: zasshi (ざっし) — written with 雑 (mixed/various) + 誌 (journal). Watch the small
     っ in the reading.
   stage: -1
@@ -633,6 +651,7 @@
   prompt: weekend
   answers:
     - 週末
+    - しゅうまつ
   hint: shuumatsu (しゅうまつ) — means Saturday/Sunday; contrast with 平日 (weekdays)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -703,7 +722,8 @@
   prompt: not at all (used with negative)
   answers:
     - 全然
-  hint: zenzen + negative (e.g., 全然わからない = I don’t understand at all). Often paired
+    - ぜんぜん
+  hint: zenzen + negative (e.g., 全然わからない = I don't understand at all). Often paired
     with ない/じゃない.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -775,7 +795,8 @@
   prompt: to eat
   answers:
     - 食べる
-  hint: taberu (ru-verb) — 食 is the kanji for “eat/food”; べる is okurigana
+    - たべる
+  hint: taberu (ru-verb) — 食 is the kanji for "eat/food"; べる is okurigana
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
@@ -798,7 +819,8 @@
   prompt: green tea
   answers:
     - 茶
-  hint: cha — means “tea” in general; “green tea” is often 緑茶（りょくちゃ）
+    - ちゃ
+  hint: cha — means "tea" in general; "green tea" is often 緑茶（りょくちゃ）
   strokeCount: 9
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -962,7 +984,8 @@
   prompt: sometimes
   answers:
     - 時々
-  hint: tokidoki — uses the kanji for “time” (時) repeated; means “from time to time”
+    - ときどき
+  hint: tokidoki — uses the kanji for "time" (時) repeated; means "from time to time"
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
@@ -985,6 +1008,7 @@
   prompt: Saturday
   answers:
     - 土曜日
+    - どようび
   hint: doyoubi — day of the week; ends with 曜日 (youbi)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1008,6 +1032,7 @@
   prompt: Sunday
   answers:
     - 日曜日
+    - にちようび
   hint: 'nichiyoubi — 日(day) + 曜(day of week) + 日(day). Often used with に: 日曜日に (on
     Sunday).'
   stage: -1
@@ -1032,6 +1057,7 @@
   prompt: to sleep; to go to sleep
   answers:
     - 寝る
+    - ねる
   hint: neru (る-verb) — 寝ます (polite). Often used for going to bed/sleeping.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1055,7 +1081,8 @@
   prompt: to drink
   answers:
     - 飲む
-  hint: nomu (to drink); 飲 = “eat + now” → taking a drink now
+    - のむ
+  hint: nomu (to drink); 飲 = "eat + now" → taking a drink now
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
@@ -1078,6 +1105,7 @@
   prompt: to speak; to talk
   answers:
     - 話す
+    - はなす
   hint: hanasu — to speak/talk (often "to tell" someone something); transitive in
     many uses (〜を話す).
   stage: -1
@@ -1102,7 +1130,8 @@
   prompt: early
   answers:
     - 早い
-  hint: 'hayai — time-based: early (e.g., 早い時間 / 早い到着). Note: 速い is “fast” (speed).'
+    - はやい
+  hint: 'hayai — time-based: early (e.g., 早い時間 / 早い到着). Note: 速い is "fast" (speed).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
@@ -1125,6 +1154,7 @@
   prompt: dinner
   answers:
     - 晩ご飯
+    - ばんごはん
   hint: bangohan — evening meal (晩 = evening, ご飯 = cooked rice/meal). Often written
     as 晩ごはん too.
   stage: -1
@@ -1171,6 +1201,7 @@
   prompt: lunch
   answers:
     - 昼ご飯
+    - ひるごはん
   hint: hirugohan — midday meal (昼=daytime + ご飯=meal/rice). Often written as 昼ごはん
     too.
   stage: -1
@@ -1195,7 +1226,8 @@
   prompt: to study
   answers:
     - 勉強する
-  hint: benkyou suru — common daily-use verb meaning “to study/learn” (e.g., 日本語を勉強する)
+    - べんきょうする
+  hint: benkyou suru — common daily-use verb meaning "to study/learn" (e.g., 日本語を勉強する)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
@@ -1218,7 +1250,8 @@
   prompt: every day
   answers:
     - 毎日
-  hint: mainichi — often used with the particle 「は」 (e.g., 毎日は… = “Every day, …”)
+    - まいにち
+  hint: mainichi — often used with the particle 「は」 (e.g., 毎日は… = "Every day, …")
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
@@ -1241,7 +1274,8 @@
   prompt: every night
   answers:
     - 毎晩
-  hint: maiban — “each/every (毎)” + “night (晩)”
+    - まいばん
+  hint: maiban — "each/every (毎)" + "night (晩)"
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
@@ -1264,6 +1298,7 @@
   prompt: water
   answers:
     - 水
+    - みず
   hint: 'mizu — 4 strokes (meaning: water)'
   strokeCount: 4
   stage: -1
@@ -1288,6 +1323,7 @@
   prompt: to see; to look at; to watch
   answers:
     - 見る
+    - みる
   hint: 'miru (ru-verb) — often used for intentionally looking/watching: 映画を見る (watch
     a movie)'
   stage: -1
@@ -1336,6 +1372,7 @@
   prompt: to read
   answers:
     - 読む
+    - よむ
   hint: yomu (u-verb) — e.g., 本を読む = to read a book
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'

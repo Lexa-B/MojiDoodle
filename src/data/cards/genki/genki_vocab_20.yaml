@@ -73,6 +73,7 @@
   prompt: Extra-modest expression for する (to do)
   answers:
     - 致す
+    - いたす
   hint: itasu - humble (kenjōgo) for する; used when referring to your own actions (e.g.,
     私が致します).
   stage: -1
@@ -97,6 +98,7 @@
   prompt: Extra-modest expression for “to eat” and “to drink”
   answers:
     - 頂く
+    - いただく
   hint: itadaku — humble verb used when you receive food/drink (e.g., いただきます / 頂きます
     before eating).
   stage: -1
@@ -121,6 +123,7 @@
   prompt: humble expression for もらう
   answers:
     - 頂く
+    - いただく
   hint: itadaku (humble) — used when you receive/accept something from someone of
     higher status; also used as “to eat/drink (humble)”
   stage: -1
@@ -145,6 +148,7 @@
   prompt: first floor
   answers:
     - 一階
+    - いっかい
   hint: ikkai — means “1st floor” in a building (e.g., 一階にコンビニがある).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -191,6 +195,7 @@
   prompt: to humbly visit; to humbly ask
   answers:
     - 伺う
+    - うかがう
   hint: ukagau — humble form (謙譲語). Used for visiting someone (esp. a superior) or
     asking politely (e.g., お話を伺う).
   stage: -1
@@ -215,6 +220,7 @@
   prompt: space alien
   answers:
     - 宇宙人
+    - うちゅうじん
   hint: uchuujin — 「宇宙」(space) + 「人」(person); long vowel うちゅう
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -238,6 +244,7 @@
   prompt: to be sold
   answers:
     - 売れる
+    - うれる
   hint: 'ureru — intransitive (something sells / is sold). Contrast: 売る (to sell).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -284,6 +291,7 @@
   prompt: former name of Tokyo
   answers:
     - 江戸
+    - えど
   hint: Edo (えど) — historical period/city name; written 江 (inlet/river) + 戸 (door/household)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -307,6 +315,7 @@
   prompt: Edo period (1603–1868)
   answers:
     - 江戸時代
+    - えどじだい
   hint: edojidai — Japan’s Tokugawa shogunate era; often appears in history contexts
     (江戸＝Edo, 時代＝era/period).
   stage: -1
@@ -331,6 +340,7 @@
   prompt: (someone’s) home/house
   answers:
     - お宅
+    - おたく
   hint: otaku — polite word for someone else’s home (e.g., お宅はどちらですか)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -354,6 +364,7 @@
   prompt: sound
   answers:
     - 音
+    - おと
   hint: oto — also used in 音楽(おんがく, music) and 音(おと)がする (to hear a sound)
   strokeCount: 9
   stage: -1
@@ -402,6 +413,7 @@
   prompt: heavy; serious (illness)
   answers:
     - 重い
+    - おもい
   hint: omoi — for physical heaviness or a serious condition (e.g., 病気が重い)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -449,6 +461,7 @@
   prompt: '...th floor (counter suffix)'
   answers:
     - ～階
+    - ～かい
   hint: ~kai (e.g., 3階 = さんがい, 1階 = いっかい). Used to count building floors.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -472,6 +485,7 @@
   prompt: our person in charge
   answers:
     - 係の者
+    - かかりのもの
   hint: kakari no mono — polite phrase for the staff member responsible (e.g., 「係の者を呼びます」
     “I’ll call the person in charge.”)
   stage: -1
@@ -543,6 +557,7 @@
   prompt: light
   answers:
     - 軽い
+    - かるい
   hint: karui — “light (not heavy)”; often contrasted with 重い (omoi).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -566,6 +581,7 @@
   prompt: to be audible
   answers:
     - 聞こえる
+    - きこえる
   hint: 'kikoeru - intransitive: can be heard / is audible (often uses が: 音が聞こえる)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -589,6 +605,7 @@
   prompt: to exchange
   answers:
     - 交換する
+    - こうかんする
   hint: koukan suru — exchange items/information (e.g., 名刺を交換する "exchange business
     cards")
   stage: -1
@@ -613,6 +630,7 @@
   prompt: mind; heart
   answers:
     - 心
+    - こころ
   hint: kokoro — often means both “heart” (feelings) and “mind” (state of mind); 4
     strokes
   strokeCount: 4
@@ -662,6 +680,7 @@
   prompt: humble expression for あげる
   answers:
     - 差し上げる
+    - さしあげる
   hint: sashiageru - humble/polite "to give" (to someone of higher status); used for
     the giver's action
   stage: -1
@@ -686,6 +705,7 @@
   prompt: letter; character
   answers:
     - 字
+    - じ
   hint: ji — used in words like 漢字 (kanji) and 文字 (moji)
   strokeCount: 6
   stage: -1
@@ -710,6 +730,7 @@
   prompt: I’m very sorry.
   answers:
     - 失礼しました
+    - しつれいしました
   hint: shitsurei shimashita — polite apology (lit. “I was rude”); often used when
     you did something impolite (e.g., interrupting/leaving).
   stage: -1
@@ -734,6 +755,7 @@
   prompt: branch office
   answers:
     - 支店
+    - してん
   hint: shiten — a company's branch (not a retail store chain branch). 支=branch/support,
     店=shop/office.
   stage: -1
@@ -758,6 +780,7 @@
   prompt: hobby; pastime
   answers:
     - 趣味
+    - しゅみ
   hint: shumi (しゅみ) — something you enjoy doing regularly
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -781,6 +804,7 @@
   prompt: novel
   answers:
     - 小説
+    - しょうせつ
   hint: shousetsu (shōsetsu) - written fiction/book-length story (n.)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -852,6 +876,7 @@
   prompt: to lead a life
   answers:
     - 生活する
+    - せいかつする
   hint: seikatsu suru — “to live/lead one’s daily life” (often about lifestyle or
     living conditions)
   stage: -1
@@ -876,6 +901,7 @@
   prompt: definitely; no matter what
   answers:
     - 絶対に
+    - ぜったいに
   hint: 'zettai ni — strong emphasis: “absolutely/definitely” (e.g., 絶対に忘れない “I’ll
     never forget.”)'
   stage: -1
@@ -900,6 +926,7 @@
   prompt: (hand) fan
   answers:
     - 扇子
+    - せんす
   hint: sensu — folding hand fan (often carried in summer; also used in traditional
     dance)
   stage: -1
@@ -948,6 +975,7 @@
   prompt: to hold something in one’s arm
   answers:
     - 抱く
+    - だく
   hint: daku — often used for holding/hugging (e.g., 赤ちゃんを抱く).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -994,6 +1022,7 @@
   prompt: teahouse
   answers:
     - 茶店
+    - ちゃみせ
   hint: chamise (ちゃみせ) — a shop/house that sells tea (茶 + 店).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1017,6 +1046,7 @@
   prompt: moon
   answers:
     - 月
+    - つき
   hint: tsuki — 4 strokes; also means "month" depending on context
   strokeCount: 4
   stage: -1
@@ -1041,6 +1071,7 @@
   prompt: to convey message
   answers:
     - 伝える
+    - つたえる
   hint: tsutaeru (ru-verb) — to convey/communicate information (e.g., 伝言を伝える)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1064,6 +1095,7 @@
   prompt: to continue
   answers:
     - 続ける
+    - つづける
   hint: 'tsudzukeru — transitive: to continue (something) / keep doing'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1206,6 +1238,7 @@
   prompt: animal
   answers:
     - 動物
+    - どうぶつ
   hint: doubutsu — general word for animals (not humans). Often used in compounds
     like 動物園 (zoo).
   stage: -1
@@ -1230,6 +1263,7 @@
   prompt: to stop
   answers:
     - 止まる
+    - とまる
   hint: |-
     tomaru — intransitive (something stops on its own)
     Example: 車が止まる (the car stops)
@@ -1278,6 +1312,7 @@
   prompt: price
   answers:
     - 値段
+    - ねだん
   hint: nedan — amount of money something costs; often used with 高い/安い (expensive/cheap).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1324,6 +1359,7 @@
   prompt: mysterious
   answers:
     - 不思議
+    - ふしぎ
   hint: fushigi(na) — な-adjective; use with だ/です (e.g., 不思議な話).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1370,6 +1406,7 @@
   prompt: to return (merchandise)
   answers:
     - 返品する
+    - へんぴんする
   hint: henpin suru - to return goods to a store (返品); used for products/merchandise
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1393,6 +1430,7 @@
   prompt: Extra-modest expression for “to go” and “to come”
   answers:
     - 参る
+    - まいる
   hint: mairu — humble/extra-polite いく・くる (e.g., ただいま参ります = I’m coming now)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1416,6 +1454,7 @@
   prompt: really (very polite)
   answers:
     - 誠に
+    - まことに
   hint: makoto ni — very formal/polite “truly”; common in set phrases like 誠にありがとうございます
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1462,6 +1501,7 @@
   prompt: to keep (someone) waiting
   answers:
     - 待たせる
+    - またせる
   hint: 'mataseru (ru-verb) — causative of 待つ (to wait): “make/let someone wait”'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1509,6 +1549,7 @@
   prompt: gesture
   answers:
     - 身ぶり
+    - みぶり
   hint: miburi - body movements used to express something (often with 身ぶり手ぶり).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1532,6 +1573,7 @@
   prompt: Extra-modest expression for "to say" (humble いう)
   answers:
     - 申す
+    - もうす
   hint: mousu — very humble/extra-modest 「言う」; used when speaking about yourself (e.g.,
     「田中と申します」).
   stage: -1
@@ -1556,6 +1598,7 @@
   prompt: '... shop (suffix; attached to a word to mean a store that sells it)'
   answers:
     - ～屋
+    - ～や
   hint: ~ya — attach to a noun (e.g., 本屋 bookstore, 花屋 flower shop).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1626,6 +1669,7 @@
   prompt: comic monologue
   answers:
     - 落語
+    - らくご
   hint: rakugo — traditional Japanese comedic storytelling performed by one seated
     performer
   stage: -1
@@ -1650,6 +1694,7 @@
   prompt: comic storyteller
   answers:
     - 落語家
+    - らくごか
   hint: rakugoka — a professional rakugo performer (traditional seated comic storytelling)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1673,6 +1718,7 @@
   prompt: a unit of currency used in the Edo period
   answers:
     - 両
+    - りょう
   hint: ryō — old Japanese money unit (e.g., 一両 = 1 ryō). 6 strokes.
   strokeCount: 6
   stage: -1
@@ -1697,6 +1743,7 @@
   prompt: to give; to hand
   answers:
     - 渡す
+    - わたす
   hint: watasu — to hand/pass something to someone (often physically). 渡る is intransitive
     (“to cross”).
   stage: -1

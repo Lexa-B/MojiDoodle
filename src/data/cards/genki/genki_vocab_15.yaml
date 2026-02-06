@@ -2,6 +2,7 @@
   prompt: all day long
   answers:
     - 一日中
+    - いちにちじゅう
   hint: ichinichijuu — means “throughout the whole day” (often with 〜している／〜を).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -25,6 +26,7 @@
   prompt: first day
   answers:
     - 一日目
+    - いちにちめ
   hint: 'ichinichime — use after an event starts: 「旅行の一日目」 (day 1 of the trip)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -48,6 +50,7 @@
   prompt: all year
   answers:
     - 一年中
+    - いちねんじゅう
   hint: ichinenjuu — “throughout the whole year” (often used with 〜暖かい/〜営業)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -71,6 +74,7 @@
   prompt: one night with two meals
   answers:
     - 一泊二食付き
+    - いっぱくにしょくつき
   hint: 'ippaku nishoku-tsuki — lodging plan: 1 night + 2 meals (usually dinner &
     breakfast).'
   stage: -1
@@ -118,6 +122,7 @@
   prompt: to be born
   answers:
     - 生まれる
+    - うまれる
   hint: umareru (intransitive ru-verb) — used for being born; often with に/で (場所)
     and が (subject), e.g., 日本で生まれる
   stage: -1
@@ -141,6 +146,7 @@
   prompt: painting; picture; drawing
   answers:
     - 絵
+    - え
   hint: e — “picture/drawing” (e.g., 絵を描く to draw a picture)
   strokeCount: 12
   stage: -1
@@ -165,6 +171,7 @@
   prompt: movie theater
   answers:
     - 映画館
+    - えいがかん
   hint: eigakan — 映画 (movie) + 館 (public building). Often written with えいが for the
     movie part.
   stage: -1
@@ -189,6 +196,7 @@
   prompt: to be dropped
   answers:
     - 落とされる
+    - おとされる
   hint: |-
     otosareru — passive form of 落とす (to drop)
     Used when something is dropped by someone (often accidentally): さいふが落とされた。
@@ -214,6 +222,7 @@
   prompt: to withdraw (money)
   answers:
     - 下ろす
+    - おろす
   hint: orosu — e.g., お金を下ろす (withdraw money from a bank/ATM).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -237,6 +246,7 @@
   prompt: foreigner
   answers:
     - 外国人
+    - がいこくじん
   hint: gaikokujin — literally “outside-country person” (外+国+人)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -260,6 +270,7 @@
   prompt: to draw; to paint
   answers:
     - 描く
+    - えがく
   hint: kaku — used for drawing/painting a picture (e.g., 絵を描く). Not for writing text.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -283,6 +294,7 @@
   prompt: furniture
   answers:
     - 家具
+    - かぐ
   hint: kagu — household furnishings; note 家 (house) + 具 (tool/item)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -306,6 +318,7 @@
   prompt: activity
   answers:
     - 活動
+    - かつどう
   hint: katsudou — “activities” in general (e.g., サークル活動 club activities, 環境活動 environmental
     activities)
   stage: -1
@@ -330,6 +343,7 @@
   prompt: to do sightseeing
   answers:
     - 観光する
+    - かんこうする
   hint: kankou suru — 観(look) + 光(light) → “looking at sights”; often used with を
     (e.g., 京都を観光する)
   stage: -1
@@ -354,6 +368,7 @@
   prompt: smoking
   answers:
     - 喫煙
+    - きつえん
   hint: kitsuen — noun meaning “smoking” (e.g., 喫煙所 = smoking area).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -377,6 +392,7 @@
   prompt: classroom
   answers:
     - 教室
+    - きょうしつ
   hint: kyoushitsu — a room for teaching/lessons (学校の教室 = a classroom at school)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -400,6 +416,7 @@
   prompt: to be cautious/careful
   answers:
     - 気をつける
+    - きをつける
   hint: 'ki o tsukeru — often used as a warning/advice: 気をつけて (Take care!)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -423,6 +440,7 @@
   prompt: non-smoking
   answers:
     - 禁煙
+    - きんえん
   hint: kinen — “no smoking” (e.g., 禁煙席 non-smoking seat, 禁煙車 non-smoking car)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -469,6 +487,7 @@
   prompt: scenery
   answers:
     - 景色
+    - けしき
   hint: keshiki — a view/scene (often natural scenery); commonly used as 景色がいい
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -492,6 +511,7 @@
   prompt: wedding
   answers:
     - 結婚式
+    - けっこんしき
   hint: kekkonshiki - formal wedding ceremony (式 = ceremony)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -539,6 +559,7 @@
   prompt: atomic bomb
   answers:
     - 原爆
+    - げんばく
   hint: genbaku — short for 原子爆弾 (げんしばくだん); often seen in words like 原爆ドーム
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -562,6 +583,7 @@
   prompt: autumn leaves/colors
   answers:
     - 紅葉
+    - こうよう
   hint: 'kouyou — often used for fall foliage viewing: 紅葉狩り（こうようがり）'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -585,6 +607,7 @@
   prompt: to get crowded
   answers:
     - 混む
+    - こむ
   hint: komu — intransitive; used for places/traffic getting crowded (e.g., 道が混む).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -608,6 +631,7 @@
   prompt: to be crowded
   answers:
     - 混んでいる
+    - こんでいる
   hint: kondeiru — used for places/transport being crowded (e.g., 電車が混んでいる).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -631,6 +655,7 @@
   prompt: recently
   answers:
     - 最近
+    - さいきん
   hint: 'saikin — often used with the present: 最近、忙しい (I''ve been busy lately).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -654,6 +679,7 @@
   prompt: to look for
   answers:
     - 探す
+    - さがす
   hint: sagasu — to search for something you don’t currently have/know where it is
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -677,6 +703,7 @@
   prompt: to invite
   answers:
     - 誘う
+    - さそう
   hint: sasou — to invite/ask someone out; often used like 友だちを誘う (invite a friend)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -700,6 +727,7 @@
   prompt: to participate
   answers:
     - 参加する
+    - さんかする
   hint: 'sankasuru — join/take part in an event or group (often used with に/を: イベントに参加する)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -723,6 +751,7 @@
   prompt: deer
   answers:
     - 鹿
+    - しか
   hint: shika — 11 strokes (animal kanji; looks like a deer with antlers)
   strokeCount: 11
   stage: -1
@@ -747,6 +776,7 @@
   prompt: earthquake
   answers:
     - 地震
+    - じしん
   hint: jishin — 地 (earth/ground) + 震 (tremor/shake); commonly used in news/disaster
     contexts
   stage: -1
@@ -771,6 +801,7 @@
   prompt: nature
   answers:
     - 自然
+    - しぜん
   hint: shizen — “nature” as in the natural world / naturally (自然に).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -794,6 +825,7 @@
   prompt: island
   answers:
     - 島
+    - しま
   hint: shima — 10 strokes
   strokeCount: 10
   stage: -1
@@ -864,6 +896,7 @@
   prompt: custom
   answers:
     - 習慣
+    - しゅうかん
   hint: shuukan — a personal or social habit/custom done regularly (e.g., 毎日の習慣).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -887,6 +920,7 @@
   prompt: head of a family
   answers:
     - 主人
+    - しゅじん
   hint: shujin — also commonly means “(someone’s) husband”; as “head of a family”
     it’s a traditional usage.
   stage: -1
@@ -911,6 +945,7 @@
   prompt: to look into (a matter)
   answers:
     - 調べる
+    - しらべる
   hint: shiraberu — to investigate/check up on (a matter); often used with を (e.g.,
     原因を調べる)
   stage: -1
@@ -958,6 +993,7 @@
   prompt: scramble crossing
   answers:
     - スクランブル交差点
+    - スクランブルこうさてん
   hint: sukuranburu kousaten — pedestrian crossing where traffic stops and people
     cross in all directions at once (often at big intersections).
   stage: -1
@@ -1005,6 +1041,7 @@
   prompt: tax
   answers:
     - 税金
+    - ぜいきん
   hint: zeikin — money paid to the government (e.g., 所得税 income tax, 消費税 sales tax)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1028,6 +1065,7 @@
   prompt: graduation ceremony
   answers:
     - 卒業式
+    - そつぎょうしき
   hint: sotsugyoushiki — often used with 行う/ある (to hold/take place), e.g., 卒業式に出る
     (attend the ceremony)
   stage: -1
@@ -1052,6 +1090,7 @@
   prompt: to graduate (from ...)
   answers:
     - 卒業する
+    - そつぎょうする
   hint: sotsugyou suru — use 「〜を卒業する」 for the school you graduate from (e.g., 大学を卒業する).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1099,6 +1138,7 @@
   prompt: large spa
   answers:
     - 大浴場
+    - だいよくじょう
   hint: daiyokujou — a big public bath/spa area (often in hotels, ryokan, onsen facilities)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1122,6 +1162,7 @@
   prompt: bamboo
   answers:
     - 竹
+    - たけ
   hint: take — 6 strokes; looks like two stalks of bamboo with nodes
   strokeCount: 6
   stage: -1
@@ -1146,6 +1187,7 @@
   prompt: building
   answers:
     - 建物
+    - たてもの
   hint: tatemono (たてもの) — 建=build, 物=thing/object
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1169,6 +1211,7 @@
   prompt: cannot wait; to look forward to it
   answers:
     - 楽しみです
+    - たのしみです
   hint: tanoshimi desu — use when you’re looking forward to a future event (e.g.,
     旅行が楽しみです).
   stage: -1
@@ -1193,6 +1236,7 @@
   prompt: to enjoy
   answers:
     - 楽しむ
+    - たのしむ
   hint: tanoshimu (u-verb) — used for actively enjoying an activity (e.g., 音楽を楽しむ).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1295,6 +1339,7 @@
   prompt: underground
   answers:
     - 地下
+    - ちか
   hint: chika — used for underground places like basements/subways (e.g., 地下鉄).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1318,6 +1363,7 @@
   prompt: map
   answers:
     - 地図
+    - ちず
   hint: chizu — often used in 地図アプリ (map app) or 地図を読む (to read a map)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1341,6 +1387,7 @@
   prompt: with breakfast
   answers:
     - 朝食付き
+    - ちょうしょくつき
   hint: chōshoku-tsuki — used in hotel/plan listings meaning breakfast is included
     (朝食=breakfast, 付き=included/with)
   stage: -1
@@ -1389,6 +1436,7 @@
   prompt: battery
   answers:
     - 電池
+    - でんち
   hint: denchi — 電 (electricity) + 池 (pond/cell); commonly used for AA/AAA batteries
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1412,6 +1460,7 @@
   prompt: to go through; to pass
   answers:
     - 通る
+    - とおる
   hint: 'tooru (通る) — intransitive u-verb: to pass through a place/route (e.g., 道を通る).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1435,6 +1484,7 @@
   prompt: small train usually for tourists
   answers:
     - トロッコ列車
+    - トロッコれっしゃ
   hint: torokko ressha — 観光地などで走る小型の列車（「列車」= train）
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1458,6 +1508,7 @@
   prompt: garden
   answers:
     - 庭
+    - にわ
   hint: にわ (niwa) — 10 strokes; often used for a home's yard/garden (庭で遊ぶ).
   strokeCount: 10
   stage: -1
@@ -1482,6 +1533,7 @@
   prompt: to leave; to preserve
   answers:
     - 残す
+    - のこす
   hint: nokosu (のこす) - to leave something behind / preserve (e.g., 記録を残す)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1505,6 +1557,7 @@
   prompt: '... nights (counter suffix for stays)'
   answers:
     - ～泊
+    - ～はく
   hint: |-
     ～haku (counter for nights of lodging)
     Example: 2泊(にはく) = two nights
@@ -1530,6 +1583,7 @@
   prompt: place
   answers:
     - 場所
+    - ばしょ
   hint: 'basho — physical location/spot (e.g., meeting place: 集合場所)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1553,6 +1607,7 @@
   prompt: to make a presentation; to make public
   answers:
     - 発表する
+    - はっぴょうする
   hint: happyou suru — used for giving a presentation or announcing results/news publicly
     (e.g., 研究を発表する, 新製品を発表する).
   stage: -1
@@ -1577,6 +1632,7 @@
   prompt: day
   answers:
     - 日
+    - ひ
   hint: hi / nichi — 4 strokes; a square “sun/day” with one line inside
   strokeCount: 4
   stage: -1
@@ -1671,6 +1727,7 @@
   prompt: peace
   answers:
     - 平和
+    - へいわ
   hint: heiwa — noun meaning peace; often in 平和な (peaceful)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1694,6 +1751,7 @@
   prompt: Peace Memorial Museum
   answers:
     - 平和記念資料館
+    - へいわきねんしりょうかん
   hint: |-
     heiwa kinen shiryōkan — A common proper-noun style compound:
     平和 (peace) + 記念 (memorial) + 資料館 (museum/archive).
@@ -1742,6 +1800,7 @@
   prompt: insurance
   answers:
     - 保険
+    - ほけん
   hint: hoken — often used in 保険に入る (to get insurance) / 健康保険 (health insurance)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1765,6 +1824,7 @@
   prompt: to buy insurance
   answers:
     - 保険に入る
+    - ほけんにはいる
   hint: hoken ni hairu — literally “to enter insurance” (i.e., take out an insurance
     policy)
   stage: -1
@@ -1789,6 +1849,7 @@
   prompt: to meet up
   answers:
     - 待ち合わせをする
+    - まちあわせをする
   hint: machiawase o suru — agree on a time/place and meet; often used as 待ち合わせする
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1812,6 +1873,7 @@
   prompt: to be visible
   answers:
     - 見える
+    - みえる
   hint: |-
     mieru — intransitive ru-verb (something can be seen / is visible)
     Contrast: 見る (miru) = to look/watch (intentional)
@@ -1837,6 +1899,7 @@
   prompt: =-th (ordinal counter suffix, e.g., 1st/2nd/3rd)
   answers:
     - ～目
+    - ～め
   hint: '～め (me) — attaches to numbers: 一回目 (1st time), 二人目 (2nd person), 三つ目 (third
     one). Write the kanji suffix 目.'
   stage: -1
@@ -1861,6 +1924,7 @@
   prompt: '... person(s) (counter suffix)'
   answers:
     - ～名
+    - ～めい
   hint: ～mei — counter suffix used for people in polite/formal contexts (e.g., 3名
     = san-mei).
   stage: -1
@@ -1885,6 +1949,7 @@
   prompt: one more time
   answers:
     - もう一度
+    - もういちど
   hint: mou ichido — used to ask for a repeat (e.g., もう一度お願いします “One more time, please”).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1908,6 +1973,7 @@
   prompt: schedule; plan
   answers:
     - 予定
+    - よてい
   hint: yotei — a planned schedule/appointment (e.g., 予定がある “I have plans”).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1931,6 +1997,7 @@
   prompt: to reserve
   answers:
     - 予約する
+    - よやくする
   hint: yoyaku suru — use for booking/reserving (hotel, seat, appointment).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1954,6 +2021,7 @@
   prompt: Japanese inn
   answers:
     - 旅館
+    - りょかん
   hint: ryokan — traditional Japanese lodging (often with tatami rooms and meals)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1977,6 +2045,7 @@
   prompt: young people
   answers:
     - 若者
+    - わかもの
   hint: wakamono (わかもの) — often refers to youth as a group (e.g., 若者たち)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -2000,6 +2069,7 @@
   prompt: discount coupon
   answers:
     - 割引券
+    - わりびきけん
   hint: waribikiken — 割(わ) = split/discount, 引(ひ) = pull/reduce, 券(けん) = ticket/coupon
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'

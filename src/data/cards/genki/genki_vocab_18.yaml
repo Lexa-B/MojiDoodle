@@ -2,6 +2,7 @@
   prompt: bright
   answers:
     - 明るい
+    - あかるい
   hint: akarui — bright/light (e.g., 明るい部屋 = a bright room); also means cheerful
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -25,6 +26,7 @@
   prompt: (something) opens
   answers:
     - 開く
+    - あく
   hint: 'aku — intransitive: a door/window/store opens (no direct object). Also: ひらく
     (same kanji, different reading).'
   stage: -1
@@ -49,6 +51,7 @@
   prompt: the rest
   answers:
     - 後
+    - あと
   hint: ato — also used for “after/later” (e.g., 後で)
   strokeCount: 9
   stage: -1
@@ -73,6 +76,7 @@
   prompt: to apologize
   answers:
     - 謝る
+    - あやまる
   hint: ayamaru — say "謝(sha)" = apology/thanks; often used as ～に謝る (apologize to
     someone)
   stage: -1
@@ -97,6 +101,7 @@
   prompt: '... or more (at least ~)'
   answers:
     - ～以上
+    - ～いじょう
   hint: 'ijou — attach to a number/time: 3人以上 = 3 people or more; 18歳以上 = age 18+'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -120,6 +125,7 @@
   prompt: right away
   answers:
     - 今すぐ
+    - いますぐ
   hint: imasugu — means “immediately/at once”; often used with commands (e.g., 今すぐ来て).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -167,6 +173,7 @@
   prompt: See you. (lit., I’m leaving ahead of you.)
   answers:
     - お先に失礼します
+    - おさきにしつれいします
   hint: osaki ni shitsurei shimasu - said when you leave earlier than others (at work/meetings).
     Polite set phrase.
   stage: -1
@@ -191,6 +198,7 @@
   prompt: to press; to push
   answers:
     - 押す
+    - おす
   hint: osu — often used for pressing buttons or pushing something forward (e.g.,
     ボタンを押す).
   stage: -1
@@ -215,6 +223,7 @@
   prompt: (something) drops
   answers:
     - 落ちる
+    - おちる
   hint: 'ochiru — intransitive ru-verb: something falls/drops (e.g., 落ちる = fall);
     use 落とす for “to drop (something)”'
   stage: -1
@@ -240,6 +249,8 @@
   answers:
     - お疲れ様
     - お疲れ様でした
+    - おつかれさま
+    - おつかれさまでした
   hint: otsukaresama (deshita) — phrase said after work/effort; add でした for polite
     past (e.g., leaving the office).
   stage: -1
@@ -265,6 +276,7 @@
   prompt: to drop (something)
   answers:
     - 落とす
+    - おとす
   hint: 'otosu (落とす) - transitive: to drop something / to let something fall (often
     accidental)'
   stage: -1
@@ -289,6 +301,7 @@
   prompt: water boils
   answers:
     - お湯が沸く
+    - おゆがわく
   hint: oyu ga waku — used for water/hot water reaching a boil (intransitive). Often
     with やかん/鍋.
   stage: -1
@@ -313,6 +326,7 @@
   prompt: to tidy up
   answers:
     - 片付ける
+    - かたづける
   hint: katazukeru — to tidy/put things away (clean up mess/clutter)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -336,6 +350,7 @@
   prompt: tutor
   answers:
     - 家庭教師
+    - かていきょうし
   hint: kateikyoushi — a private/home tutor (esp. for school subjects)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -359,6 +374,7 @@
   prompt: to think (about); to consider
   answers:
     - 考える
+    - かんがえる
   hint: kangaeru (ru-verb) — thinking through something logically; e.g., よく考える = think
     carefully
   stage: -1
@@ -383,6 +399,7 @@
   prompt: (something) goes off
   answers:
     - 消える
+    - きえる
   hint: 'kieru — intransitive: something disappears/goes out (e.g., 電気が消える).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -406,6 +423,7 @@
   prompt: dark
   answers:
     - 暗い
+    - くらい
   hint: kurai — い-adj meaning “dark (not bright)”; e.g., 部屋が暗い
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -429,6 +447,7 @@
   prompt: cell phone
   answers:
     - 携帯（電話）
+    - けいたい（でんわ）
   hint: keitai (denwa) — common shorthand is 携帯 (cell phone); 電話 adds “telephone”
     nuance.
   stage: -1
@@ -453,6 +472,7 @@
   prompt: to fall down
   answers:
     - 転ぶ
+    - ころぶ
   hint: 'korobu — intransitive: to fall over/down (e.g., 転んだ)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -476,6 +496,7 @@
   prompt: to break (something)
   answers:
     - 壊す
+    - こわす
   hint: 'kowasu — transitive: break something (壊れる is intransitive: something breaks)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -499,6 +520,7 @@
   prompt: (something) breaks
   answers:
     - 壊れる
+    - こわれる
   hint: kowareru — intransitive (something breaks by itself; e.g., 機械が壊れる)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -522,6 +544,7 @@
   prompt: to bloom
   answers:
     - 咲く
+    - さく
   hint: saku — used for flowers blooming (e.g., 花が咲く). Kanji 咲 has the 口 radical.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -545,6 +568,7 @@
   prompt: cherry blossom
   answers:
     - 桜
+    - さくら
   hint: さくら (sakura) — 10 strokes
   strokeCount: 10
   stage: -1
@@ -569,6 +593,7 @@
   prompt: close; intimate
   answers:
     - 親しい
+    - したしい
   hint: shitashii — used for a close relationship (e.g., 親しい友だち).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -592,6 +617,7 @@
   prompt: (something) closes
   answers:
     - 閉まる
+    - しまる
   hint: 'shimaru — intransitive: a door/window/store closes by itself (contrast: 閉める
     = to close something)'
   stage: -1
@@ -616,6 +642,7 @@
   prompt: income
   answers:
     - 収入
+    - しゅうにゅう
   hint: shuunyuu — money that comes in (e.g., 月収 = monthly income)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -639,6 +666,7 @@
   prompt: soy sauce
   answers:
     - しょう油
+    - しょうゆ
   hint: shouyu — common seasoning; often written in kana as しょうゆ
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -662,6 +690,7 @@
   prompt: cost of food
   answers:
     - 食費
+    - しょくひ
   hint: shokuhi — expenses for food/groceries (part of living costs, e.g., 家計の食費)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -685,6 +714,7 @@
   prompt: female student
   answers:
     - 女子学生
+    - じょしがくせい
   hint: joshigakusei — 女子 (girls/female) + 学生 (student). Often used for school/university
     students.
   stage: -1
@@ -779,6 +809,7 @@
   prompt: extra money to spare for the cost of living
   answers:
     - 生活のゆとり
+    - せいかつのゆとり
   hint: seikatsu no yutori — “ゆとり” = financial/mental breathing room; often used like
     生活のゆとりがある/ない
   stage: -1
@@ -803,6 +834,7 @@
   prompt: the cost of living
   answers:
     - 生活費
+    - せいかつひ
   hint: seikatsuhi — 生活 (daily life) + 費 (expense/cost); often used like 生活費がかかる (living
     expenses add up)
   stage: -1
@@ -827,6 +859,7 @@
   prompt: outside
   answers:
     - 外
+    - そと
   hint: soto (outside); 5 strokes
   strokeCount: 5
   stage: -1
@@ -874,6 +907,7 @@
   prompt: precious; important
   answers:
     - 大切
+    - たいせつ
   hint: |-
     taisetsu(na) — な-adj.
     Often used in: 大切な人 (important person), 大切にする (to treasure/take good care of)
@@ -924,6 +958,7 @@
   prompt: to be saved; to be helped
   answers:
     - 助かる
+    - たすかる
   hint: 'tasukaru — intransitive (something/someone helps you): e.g., 助かりました = “That
     saved me / Thanks, that helped.”'
   stage: -1
@@ -948,6 +983,7 @@
   prompt: to ask (a favor)
   answers:
     - 頼む
+    - たのむ
   hint: tanomu (頼む) — to request a favor/ask someone to do something (e.g., 〜てくださいと頼む)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -995,6 +1031,7 @@
   prompt: male student
   answers:
     - 男子学生
+    - だんしがくせい
   hint: danshi gakusei (male student); 男子 = male/boys, 学生 = student
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1018,6 +1055,7 @@
   prompt: physical labor (such as construction)
   answers:
     - 力仕事
+    - ちからしごと
   hint: chikara-shigoto — manual/physical work; often used for jobs requiring strength
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1041,6 +1079,7 @@
   prompt: to place an order
   answers:
     - 注文する
+    - ちゅうもんする
   hint: chuumon suru — used when ordering food/drinks or making a purchase order (e.g.,
     レストランで注文する)
   stage: -1
@@ -1065,6 +1104,7 @@
   prompt: to deposit money (in a bank)
   answers:
     - 貯金する
+    - ちょきんする
   hint: 'chokin suru — to save/deposit money (often in a bank); noun: 貯金 (ちょきん)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1136,6 +1176,7 @@
   prompt: at first
   answers:
     - 初めは
+    - はじめは
   hint: hajime wa — used to contrast an initial state with what happens later (e.g.,
     初めは難しいけど…).
   stage: -1
@@ -1160,6 +1201,7 @@
   prompt: embarrassing; to feel embarrassed
   answers:
     - 恥ずかしい
+    - はずかしい
   hint: hazukashii — used for feeling embarrassed/shy (e.g., 人前で話すのが恥ずかしい).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1206,6 +1248,7 @@
   prompt: moving
   answers:
     - 引っ越し
+    - ひっこし
   hint: 'hikkoshi — relocation/house move; often used with する: 引っ越しする'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1253,6 +1296,7 @@
   prompt: every month
   answers:
     - 毎月
+    - まいつき
   hint: maitsuki — e.g., 毎月一回 (once every month); 毎=every, 月=month
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1276,6 +1320,7 @@
   prompt: less than . . . (under; below)
   answers:
     - ～未満
+    - ～みまん
   hint: 'miman — suffix meaning “less than X” (often for numbers/amounts). Example:
     18歳未満 = under 18.'
   stage: -1
@@ -1300,6 +1345,7 @@
   prompt: insect
   answers:
     - 虫
+    - むし
   hint: 'mushi — 6 strokes; meaning: insect/bug'
   strokeCount: 6
   stage: -1
@@ -1324,6 +1370,7 @@
   prompt: impossible
   answers:
     - 無理
+    - むり
   hint: muri (na-adj.) — “no way/too difficult”; often used as 「無理だ」 or 「無理しないで」 (don’t
     overdo it)
   stage: -1
@@ -1348,6 +1395,7 @@
   prompt: object; purpose
   answers:
     - 目的
+    - もくてき
   hint: mokuteki — often used in 〜のために (for the purpose of ~)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1371,6 +1419,7 @@
   prompt: rent
   answers:
     - 家賃
+    - やちん
   hint: yachin — monthly rent (esp. for housing). Often used as 家賃を払う (to pay rent).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1394,6 +1443,7 @@
   prompt: evening
   answers:
     - 夕方
+    - ゆうがた
   hint: yuugata — early evening/dusk; common in phrases like 夕方に (in the evening)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1417,6 +1467,7 @@
   prompt: clothes
   answers:
     - 洋服
+    - ようふく
   hint: 'youfuku — Western-style clothes (contrast: 衣服 = clothing in general, 和服 =
     Japanese clothing)'
   stage: -1
@@ -1441,6 +1492,7 @@
   prompt: to make dirty
   answers:
     - 汚す
+    - よごす
   hint: 'yogosu — transitive: 汚す (make something dirty). Intransitive pair: 汚れる (to
     get dirty).'
   stage: -1
@@ -1465,6 +1517,7 @@
   prompt: to become dirty
   answers:
     - 汚れる
+    - よごれる
   hint: 'yogoreru (ru-verb) — intransitive: something gets dirty (vs 汚す to make dirty)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1488,6 +1541,7 @@
   prompt: refrigerator
   answers:
     - 冷蔵庫
+    - れいぞうこ
   hint: reizōko (れいぞうこ) — 冷=cold, 蔵=store, 庫=warehouse; common in 「冷蔵庫に入れる」
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'

@@ -1,0 +1,145 @@
+- id: ckw-l13-2979
+  prompt: cake
+  answers:
+    - ケーキ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l13-3000
+  prompt: taxi
+  answers:
+    - タクシー
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l13-3001
+  prompt: sex, sexual intercourse
+  answers:
+    - セックス
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l13-3004
+  prompt: mode
+  answers:
+    - モード
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l13-3008
+  prompt: side
+  answers:
+    - サイド
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - サイト
+    toast: |-
+      That's "site" (website).
+      Don't confuse the vowel order.
+  - answers:
+      - サイダー
+    toast: |-
+      That's "cider" (a fizzy drink).
+      It sounds similar but is a different word with an extra vowel sound.
+- id: ckw-l13-3020
+  prompt: memo, note
+  answers:
+    - メモ
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l13-3023
+  prompt: dad, papa
+  answers:
+    - パパ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l13-3041
+  prompt: and
+  answers:
+    - アンド
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - アンドゥ
+    toast: |-
+      Looks like an attempt to show the final sound with ウ.
+      Standard katakana usually doesn't add ウ after ド for this loanword.
+  - answers:
+      - アン
+    toast: |-
+      Too short—it's missing the final consonant sound.
+      This is a different word or name with a vowel ending.
+- id: ckw-l13-3041
+  prompt: green
+  answers:
+    - グリーン
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l13-3047
+  prompt: main
+  answers:
+    - メーン
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - メイン
+    toast: |-
+      This is the more common spelling for "main" in Japanese.
+      Watch the vowel: many loanwords use ン rather than a long-vowel mark.
+- id: ckw-l13-3058
+  prompt: soup
+  answers:
+    - スープ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l13-3067
+  prompt: de
+  answers:
+    - デ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l13-3082
+  prompt: piano
+  answers:
+    - ピアノ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l13-3083
+  prompt: plan
+  answers:
+    - プラン
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l13-3085
+  prompt: tour
+  answers:
+    - ツアー
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
