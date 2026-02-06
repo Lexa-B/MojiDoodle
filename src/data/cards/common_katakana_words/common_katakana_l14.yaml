@@ -1,0 +1,165 @@
+- id: ckw-l14-3089
+  prompt: truck
+  answers:
+    - トラック
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l14-3095
+  prompt: text, textbook
+  answers:
+    - テキスト
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l14-3105
+  prompt: motorcycle, motorbike
+  answers:
+    - バイク
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - オートバイ
+    toast: |-
+      A common synonym written in full katakana.
+      The prompt expects the shorter loanword form.
+  - answers:
+      - スクーター
+    toast: |-
+      That refers to a scooter — usually a smaller, step-through motorbike.
+      Not the general larger motorized bike meant here.
+  - answers:
+      - バイシクル
+    toast: |-
+      A transliteration of "bicycle" meaning a pedal-powered bike.
+      This is not the motorized vehicle the prompt wants.
+- id: ckw-l14-3110
+  prompt: lens
+  answers:
+    - レンズ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l14-3119
+  prompt: house
+  answers:
+    - ハウス
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - ホーム
+    toast: |-
+      Means “home” or a train platform.
+      Used differently from the word for a standalone building.
+  - answers:
+      - ハウジング
+    toast: |-
+      Refers to “housing” or the housing industry.
+      Different nuance from the noun for a single dwelling.
+  - answers:
+      - ハウスメーカー
+    toast: |-
+      Refers to companies that build houses.
+      Not the noun for the building itself.
+- id: ckw-l14-3127
+  prompt: ramen
+  answers:
+    - ラーメン
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l14-3155
+  prompt: process
+  answers:
+    - プロセス
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l14-3184
+  prompt: kiss
+  answers:
+    - キス
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l14-3185
+  prompt: coat, court
+  answers:
+    - コート
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l14-3200
+  prompt: league
+  answers:
+    - リーグ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l14-3218
+  prompt: new
+  answers:
+    - ニュー
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - ニュウ
+    toast: |-
+      Check your spelling!
+      Loanwords usually use ー (the long vowel mark) rather than adding ウ to lengthen the vowel.
+  - answers:
+      - ニユー
+    toast: |-
+      Watch the small kana!
+      Use a small ュ plus ー for the 'nyū' sound, not a full ユ followed by ウ.
+  - answers:
+      - ニュース
+    toast: |-
+      That's a different word!
+      It means "news" and includes an extra ース at the end.
+- id: ckw-l14-3220
+  prompt: needs
+  answers:
+    - ニーズ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l14-3223
+  prompt: mistake, error
+  answers:
+    - ミス
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l14-3225
+  prompt: salad
+  answers:
+    - サラダ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l14-3242
+  prompt: off, day off
+  answers:
+    - オフ
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
