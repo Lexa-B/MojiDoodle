@@ -124,7 +124,7 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
-- id: ckw-l02-1144
+- id: ckw-l02-1145
   prompt: bus
   answers:
     - バス

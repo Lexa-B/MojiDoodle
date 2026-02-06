@@ -14,7 +14,7 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
-- id: ckw-l14-3105
+- id: ckw-l14-3106
   prompt: motorcycle, motorbike
   answers:
     - バイク
@@ -37,7 +37,7 @@
     toast: |-
       A transliteration of "bicycle" meaning a pedal-powered bike.
       This is not the motorized vehicle the prompt wants.
-- id: ckw-l14-3110
+- id: ckw-l14-3111
   prompt: lens
   answers:
     - レンズ
@@ -68,7 +68,7 @@
     toast: |-
       Refers to companies that build houses.
       Not the noun for the building itself.
-- id: ckw-l14-3127
+- id: ckw-l14-3128
   prompt: ramen
   answers:
     - ラーメン
@@ -76,7 +76,7 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
-- id: ckw-l14-3155
+- id: ckw-l14-3156
   prompt: process
   answers:
     - プロセス
@@ -92,7 +92,7 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
-- id: ckw-l14-3185
+- id: ckw-l14-3186
   prompt: coat, court
   answers:
     - コート
@@ -100,7 +100,7 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
-- id: ckw-l14-3200
+- id: ckw-l14-3201
   prompt: league
   answers:
     - リーグ

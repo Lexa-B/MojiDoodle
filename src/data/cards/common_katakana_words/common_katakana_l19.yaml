@@ -6,7 +6,7 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
-- id: ckw-l19-3820
+- id: ckw-l19-3821
   prompt: millimeter, milli
   answers:
     - ミリ
@@ -48,7 +48,7 @@
     toast: |-
       Looks related!
       This is a different word meaning communication, not community.
-- id: ckw-l19-3837
+- id: ckw-l19-3838
   prompt: 'no'
   answers:
     - ノー
@@ -56,7 +56,7 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
-- id: ckw-l19-3841
+- id: ckw-l19-3842
   prompt: driver, screwdriver
   answers:
     - ドライバー
@@ -108,7 +108,7 @@
     toast: |-
       Different citrus fruit.
       ミカン means mandarin/tangerine, which is not the same as this loanword.
-- id: ckw-l19-3879
+- id: ckw-l19-3881
   prompt: pool, swimming pool
   answers:
     - プール

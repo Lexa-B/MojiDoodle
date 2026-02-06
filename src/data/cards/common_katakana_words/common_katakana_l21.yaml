@@ -1,4 +1,4 @@
-- id: ckw-l21-4003
+- id: ckw-l21-4004
   prompt: option
   answers:
     - オプション
@@ -14,7 +14,7 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
-- id: ckw-l21-4017
+- id: ckw-l21-4018
   prompt: ticket
   answers:
     - チケット
@@ -46,7 +46,7 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
-- id: ckw-l21-4089
+- id: ckw-l21-4090
   prompt: kitchen
   answers:
     - キッチン
@@ -54,7 +54,7 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
-- id: ckw-l21-4089
+- id: ckw-l21-4092
   prompt: channel
   answers:
     - チャンネル
@@ -80,7 +80,7 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
-- id: ckw-l21-4121
+- id: ckw-l21-4122
   prompt: concrete
   answers:
     - コンクリート
@@ -88,7 +88,7 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
-- id: ckw-l21-4130
+- id: ckw-l21-4133
   prompt: school
   answers:
     - スクール
@@ -96,7 +96,7 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
-- id: ckw-l21-4130
+- id: ckw-l21-4134
   prompt: story
   answers:
     - ストーリー
@@ -119,7 +119,7 @@
     toast: |-
       Sounds similar but means straw.
       Pay attention to the ending vowel sound.
-- id: ckw-l21-4144
+- id: ckw-l21-4145
   prompt: diet
   answers:
     - ダイエット
@@ -127,7 +127,7 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
-- id: ckw-l21-4160
+- id: ckw-l21-4161
   prompt: suit
   answers:
     - スーツ
@@ -135,7 +135,7 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
-- id: ckw-l21-4160
+- id: ckw-l21-4162
   prompt: disk, disc
   answers:
     - ディスク

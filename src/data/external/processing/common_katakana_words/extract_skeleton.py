@@ -38,11 +38,12 @@ def generate_yaml(words: list[dict], lesson_num: int) -> str:
     for word in words:
         lemma = word['lemma']
         pos = word['pos']
-        rank = word['rank']
+        row_num = word['row_num']
         hint = POS_TO_HINT.get(pos, "")
 
-        # Generate ID: ckw-l{lesson}-{rank}
-        card_id = f"ckw-l{lesson_num:02d}-{rank}"
+        # Generate ID: ckw-l{lesson}-{row_num}
+        # Uses TSV row number (unique) instead of rank (can have duplicates)
+        card_id = f"ckw-l{lesson_num:02d}-{row_num}"
 
         lines.append(f"- id: {card_id}")
         lines.append(f'  prompt: ""')
@@ -59,19 +60,22 @@ def generate_yaml(words: list[dict], lesson_num: int) -> str:
 
 def main():
     # Load TSV and filter
+    # Use 1-based TSV row number (after header) as unique key instead of rank,
+    # because multiple words can share the same rank (same frequency).
     rows = []
     with open(RAW_FILE, 'r', encoding='utf-8') as f:
         reader = csv.DictReader(f, delimiter='\t')
-        for row in reader:
+        for row_num, row in enumerate(reader, start=1):
             # Filter to foreign words only (wType=外)
             if row['wType'] == '外':
                 rows.append({
                     'rank': int(row['rank']),
+                    'row_num': row_num,
                     'lemma': row['lemma'],
                     'pos': row['pos']
                 })
 
-    # Sort by rank
+    # Sort by rank (row_num preserves original order within ties)
     rows.sort(key=lambda x: x['rank'])
 
     # Take top 600 words

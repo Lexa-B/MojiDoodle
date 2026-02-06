@@ -1,4 +1,4 @@
-- id: ckw-l36-5966
+- id: ckw-l36-5967
   prompt: ""
   answers:
     - オート
@@ -7,7 +7,7 @@
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
 
-- id: ckw-l36-5973
+- id: ckw-l36-5975
   prompt: ""
   answers:
     - データーベース
@@ -16,7 +16,7 @@
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
 
-- id: ckw-l36-5973
+- id: ckw-l36-5978
   prompt: ""
   answers:
     - ロープ
@@ -25,7 +25,7 @@
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
 
-- id: ckw-l36-5985
+- id: ckw-l36-5986
   prompt: ""
   answers:
     - コラム
@@ -34,7 +34,7 @@
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
 
-- id: ckw-l36-5989
+- id: ckw-l36-5992
   prompt: ""
   answers:
     - リンパ
@@ -43,7 +43,7 @@
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
 
-- id: ckw-l36-5993
+- id: ckw-l36-5994
   prompt: ""
   answers:
     - ストレート
@@ -52,7 +52,7 @@
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
 
-- id: ckw-l36-5999
+- id: ckw-l36-6001
   prompt: ""
   answers:
     - メジャー
@@ -61,7 +61,7 @@
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
 
-- id: ckw-l36-6002
+- id: ckw-l36-6004
   prompt: ""
   answers:
     - ゴー
@@ -70,7 +70,7 @@
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
 
-- id: ckw-l36-6012
+- id: ckw-l36-6014
   prompt: ""
   answers:
     - ラベル
@@ -88,7 +88,7 @@
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
 
-- id: ckw-l36-6016
+- id: ckw-l36-6017
   prompt: ""
   answers:
     - ミスター
@@ -97,7 +97,7 @@
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
 
-- id: ckw-l36-6032
+- id: ckw-l36-6036
   prompt: ""
   answers:
     - セブン
@@ -106,7 +106,7 @@
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
 
-- id: ckw-l36-6032
+- id: ckw-l36-6038
   prompt: ""
   answers:
     - ティー
@@ -124,7 +124,7 @@
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
 
-- id: ckw-l36-6050
+- id: ckw-l36-6051
   prompt: ""
   answers:
     - キャンセル

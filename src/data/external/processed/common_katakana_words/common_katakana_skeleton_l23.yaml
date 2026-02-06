@@ -25,7 +25,7 @@
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
 
-- id: ckw-l23-4353
+- id: ckw-l23-4354
   prompt: ""
   answers:
     - バブル
@@ -34,7 +34,7 @@
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
 
-- id: ckw-l23-4353
+- id: ckw-l23-4355
   prompt: ""
   answers:
     - ランド
@@ -43,7 +43,7 @@
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
 
-- id: ckw-l23-4356
+- id: ckw-l23-4357
   prompt: ""
   answers:
     - カフェ
@@ -61,7 +61,7 @@
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
 
-- id: ckw-l23-4367
+- id: ckw-l23-4368
   prompt: ""
   answers:
     - レーザー
@@ -88,7 +88,7 @@
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
 
-- id: ckw-l23-4405
+- id: ckw-l23-4407
   prompt: ""
   answers:
     - ガイド
@@ -106,7 +106,7 @@
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
 
-- id: ckw-l23-4432
+- id: ckw-l23-4433
   prompt: ""
   answers:
     - リード
@@ -115,7 +115,7 @@
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
 
-- id: ckw-l23-4434
+- id: ckw-l23-4436
   prompt: ""
   answers:
     - リアル

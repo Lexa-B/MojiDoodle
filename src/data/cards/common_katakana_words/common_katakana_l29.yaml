@@ -1,0 +1,153 @@
+- id: ckw-l29-5075
+  prompt: action
+  answers:
+    - アクション
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l29-5077
+  prompt: head
+  answers:
+    - ヘッド
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l29-5086
+  prompt: club, circle
+  answers:
+    - サークル
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l29-5125
+  prompt: link
+  answers:
+    - リンク
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l29-5148
+  prompt: spot, location
+  answers:
+    - スポット
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - スポーツ
+    toast: |-
+      That's "sports"!
+      Different meaning and spelling—watch the extra vowel sound.
+  - answers:
+      - スポットライト
+    toast: |-
+      That's "spotlight".
+      Related word but it's a longer compound with a different nuance.
+- id: ckw-l29-5150
+  prompt: allergy
+  answers:
+    - アレルギー
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - アレルゲン
+    toast: |-
+      That's "allergen".
+      It refers to the substance that causes a reaction, not the reaction itself.
+  - answers:
+      - アレルギ
+    toast: |-
+      Check the long vowel mark!
+      Japanese often uses ー to extend vowel sounds, so watch the spelling.
+- id: ckw-l29-5155
+  prompt: security
+  answers:
+    - セキュリティー
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - セキュリティ
+    toast: |-
+      Almost!
+      Both spellings are used; this card uses the form with the long vowel mark.
+- id: ckw-l29-5161
+  prompt: schedule
+  answers:
+    - スケジュール
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l29-5162
+  prompt: smooth
+  answers:
+    - スムーズ
+  hint: な-adjective
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l29-5165
+  prompt: guest
+  answers:
+    - ゲスト
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - ゲストハウス
+    toast: This is 'guest house' — a place to stay, not the single visitor or person.
+  - answers:
+      - テスト
+    toast: |-
+      That's 'test'.
+      Similar rhythm but a completely different meaning.
+- id: ckw-l29-5169
+  prompt: ham
+  answers:
+    - ハム
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l29-5173
+  prompt: milligram
+  answers:
+    - ミリグラム
+  hint: noun/counter
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l29-5174
+  prompt: collection
+  answers:
+    - コレクション
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l29-5192
+  prompt: baby
+  answers:
+    - ベビー
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l29-5196
+  prompt: episode
+  answers:
+    - エピソード
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []

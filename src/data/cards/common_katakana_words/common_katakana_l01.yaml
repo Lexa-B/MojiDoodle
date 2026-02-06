@@ -121,7 +121,7 @@
     toast: |-
       Means "house" (the building) or appears in genre names.
       Related idea but not the target loanword.
-- id: ckw-l01-907
+- id: ckw-l01-908
   prompt: hotel
   answers:
     - ホテル

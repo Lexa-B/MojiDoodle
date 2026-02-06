@@ -14,7 +14,7 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
-- id: ckw-l13-3001
+- id: ckw-l13-3003
   prompt: sex, sexual intercourse
   answers:
     - セックス
@@ -48,7 +48,7 @@
     toast: |-
       That's "cider" (a fizzy drink).
       It sounds similar but is a different word with an extra vowel sound.
-- id: ckw-l13-3020
+- id: ckw-l13-3021
   prompt: memo, note
   answers:
     - メモ
@@ -82,7 +82,7 @@
     toast: |-
       Too short—it's missing the final consonant sound.
       This is a different word or name with a vowel ending.
-- id: ckw-l13-3041
+- id: ckw-l13-3042
   prompt: green
   answers:
     - グリーン
@@ -111,7 +111,7 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
-- id: ckw-l13-3067
+- id: ckw-l13-3068
   prompt: de
   answers:
     - デ

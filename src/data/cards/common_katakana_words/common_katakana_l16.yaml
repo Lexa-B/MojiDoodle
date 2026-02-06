@@ -37,7 +37,7 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
-- id: ckw-l16-3366
+- id: ckw-l16-3367
   prompt: 'yes'
   answers:
     - ハイ
@@ -61,7 +61,7 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
-- id: ckw-l16-3370
+- id: ckw-l16-3371
   prompt: band, musical group
   answers:
     - バンド
@@ -69,7 +69,7 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
-- id: ckw-l16-3412
+- id: ckw-l16-3414
   prompt: route, root
   answers:
     - ルート
@@ -147,7 +147,7 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
-- id: ckw-l16-3463
+- id: ckw-l16-3464
   prompt: underwear, pants
   answers:
     - パンツ

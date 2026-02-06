@@ -14,7 +14,7 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
-- id: ckw-l04-1491
+- id: ckw-l04-1492
   prompt: bread
   answers:
     - パン
@@ -22,7 +22,7 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
-- id: ckw-l04-1536
+- id: ckw-l04-1537
   prompt: line, LINE app
   answers:
     - ライン
@@ -38,7 +38,7 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
-- id: ckw-l04-1559
+- id: ckw-l04-1560
   prompt: cigarette, tobacco
   answers:
     - タバコ

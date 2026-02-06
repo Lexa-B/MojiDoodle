@@ -6,7 +6,7 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
-- id: ckw-l12-2900
+- id: ckw-l12-2901
   prompt: communication
   answers:
     - コミュニケーション
@@ -14,7 +14,7 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
-- id: ckw-l12-2903
+- id: ckw-l12-2904
   prompt: pink
   answers:
     - ピンク
@@ -56,7 +56,7 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
-- id: ckw-l12-2924
+- id: ckw-l12-2925
   prompt: party
   answers:
     - パーティー
@@ -79,7 +79,7 @@
     toast: |-
       That changes the vowel quality rather than lengthening it.
       Check which vowel is being lengthened.
-- id: ckw-l12-2924
+- id: ckw-l12-2926
   prompt: list
   answers:
     - リスト
@@ -102,7 +102,7 @@
     toast: |-
       This means "wristband."
       It starts the same but refers to an accessory, not an itemized list.
-- id: ckw-l12-2936
+- id: ckw-l12-2937
   prompt: drive
   answers:
     - ドライブ
@@ -141,7 +141,7 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
-- id: ckw-l12-2955
+- id: ckw-l12-2956
   prompt: minus, negative
   answers:
     - マイナス
@@ -165,7 +165,7 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
-- id: ckw-l12-2971
+- id: ckw-l12-2972
   prompt: word, Microsoft Word
   answers:
     - ワード

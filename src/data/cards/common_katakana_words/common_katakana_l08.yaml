@@ -6,7 +6,7 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
-- id: ckw-l08-2249
+- id: ckw-l08-2250
   prompt: shirt
   answers:
     - シャツ
@@ -77,7 +77,7 @@
     toast: |-
       Means "pace".
       Related idea but a different word with a different nuance.
-- id: ckw-l08-2345
+- id: ckw-l08-2346
   prompt: comment
   answers:
     - コメント
@@ -93,7 +93,7 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
-- id: ckw-l08-2357
+- id: ckw-l08-2359
   prompt: volunteer
   answers:
     - ボランティア
@@ -130,7 +130,7 @@
     toast: |-
       Careful with long vowels!
       This word uses a prolonged ー sound.
-- id: ckw-l08-2392
+- id: ckw-l08-2393
   prompt: plus
   answers:
     - プラス

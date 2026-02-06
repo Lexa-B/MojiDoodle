@@ -1,0 +1,188 @@
+- id: ckw-l31-5290
+  prompt: calorie
+  answers:
+    - カロリー
+  hint: noun/counter
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l31-5294
+  prompt: coach, trainer
+  answers:
+    - コーチ
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - コート
+    toast: |-
+      Looks similar but this word usually means "coat" or "court".
+      Watch the vowel length and the final consonant.
+  - answers:
+      - コーチング
+    toast: |-
+      A related word that refers to the activity or process rather than the job/title.
+      This card expects the role/person.
+- id: ckw-l31-5302
+  prompt: cycle
+  answers:
+    - サイクル
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l31-5310
+  prompt: tank (container), tank (armored vehicle)
+  answers:
+    - タンク
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - タンクトップ
+    toast: |-
+      That's "tank top" — a sleeveless shirt.
+      Different word for clothing, not for a container or vehicle.
+  - answers:
+      - タンカー
+    toast: |-
+      That means "tanker" — often a ship or large vehicle that carries liquid.
+      It's a related concept but a different word.
+  - answers:
+      - タンクローリー
+    toast: |-
+      That specifically refers to a tanker truck (vehicle that carries liquids).
+      Not the shorter general term you're being asked for.
+- id: ckw-l31-5336
+  prompt: partner
+  answers:
+    - パートナー
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - パートナ
+    toast: |-
+      Check your spelling!
+      Don't forget the long vowel mark.
+  - answers:
+      - パート
+    toast: Different word — this means "part-time job" (short for パートタイム).
+- id: ckw-l31-5338
+  prompt: first
+  answers:
+    - ファースト
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - ファスト
+    toast: |-
+      Similar pronunciation.
+      This one means fast (speed) and appears in compounds like fast food.
+  - answers:
+      - ファース
+    toast: |-
+      Looks like an incomplete spelling.
+      Check that the final consonant sound is included.
+- id: ckw-l31-5339
+  prompt: rate, exchange rate
+  answers:
+    - レート
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l31-5347
+  prompt: cabbage
+  answers:
+    - キャベツ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l31-5350
+  prompt: flow
+  answers:
+    - フロー
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l31-5359
+  prompt: lemon
+  answers:
+    - レモン
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l31-5363
+  prompt: do (musical note)
+  answers:
+    - ド
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l31-5364
+  prompt: book
+  answers:
+    - ブック
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l31-5400
+  prompt: photo
+  answers:
+    - フォト
+  hint: noun/counter
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l31-5410
+  prompt: cash, cache
+  answers:
+    - キャッシュ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - キャシュ
+    toast: |-
+      Check the small ッ!
+      The word uses a doubled consonant, not a single one.
+  - answers:
+      - キャッシュレス
+    toast: |-
+      That's a related term meaning cashless.
+      This card expects the single-word term for cash or cache.
+- id: ckw-l31-5414
+  prompt: pipe
+  answers:
+    - パイプ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - パイ
+    toast: |-
+      That's "pie"!
+      A dessert word, not the tubular object.
+  - answers:
+      - パイプライン
+    toast: |-
+      That's "pipeline"!
+      A longer compound referring to a pipeline or sequence, not the simple item.
+  - answers:
+      - パイプオルガン
+    toast: |-
+      That's "pipe organ"!
+      A specific musical instrument, not the general object.

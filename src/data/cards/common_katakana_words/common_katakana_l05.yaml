@@ -32,7 +32,7 @@
     toast: |-
       This spelling is used for the English "mummy"/"mommy" or brand names.
       It's not the casual Japanese term most people use for mother.
-- id: ckw-l05-1774
+- id: ckw-l05-1775
   prompt: time, thyme
   answers:
     - タイム
@@ -58,7 +58,7 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
-- id: ckw-l05-1793
+- id: ckw-l05-1794
   prompt: network
   answers:
     - ネットワーク
@@ -145,7 +145,7 @@
     toast: |-
       Often used for a drinking glass
       This word usually refers to tableware or a drinking vessel, while the other word typically means the material.
-- id: ckw-l05-1819
+- id: ckw-l05-1820
   prompt: husband
   answers:
     - 旦那
@@ -169,7 +169,7 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
-- id: ckw-l05-1868
+- id: ckw-l05-1869
   prompt: news
   answers:
     - ニュース

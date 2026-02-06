@@ -1,0 +1,160 @@
+- id: ckw-l28-4979
+  prompt: shower
+  answers:
+    - シャワー
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l28-4982
+  prompt: hint, tip
+  answers:
+    - ヒント
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l28-4983
+  prompt: postbox, mailbox
+  answers:
+    - ポスト
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l28-4986
+  prompt: curtain
+  answers:
+    - カーテン
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l28-4995
+  prompt: city
+  answers:
+    - シティー
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - シティ
+    toast: |-
+      Alternate spelling without the long vowel mark.
+      Watch vowel length — the ー may be present or omitted.
+  - answers:
+      - ダウンタウン
+    toast: |-
+      This refers to "downtown," a central neighborhood or district.
+      Don't confuse a specific area with the whole place.
+- id: ckw-l28-5000
+  prompt: big
+  answers:
+    - ビッグ
+  hint: な-adjective
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l28-5002
+  prompt: recipe
+  answers:
+    - レシピ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l28-5019
+  prompt: form
+  answers:
+    - フォーム
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - フォーマット
+    toast: |-
+      This is "format".
+      Used for file formats or layout formatting, not a document you fill out.
+  - answers:
+      - フォーマル
+    toast: |-
+      That's "formal" — dress code or manner.
+      Sounds similar but has a different meaning.
+- id: ckw-l28-5021
+  prompt: map
+  answers:
+    - マップ
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l28-5031
+  prompt: seminar
+  answers:
+    - セミナー
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l28-5034
+  prompt: plastic
+  answers:
+    - プラスチック
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l28-5039
+  prompt: vinyl, plastic
+  answers:
+    - ビニール
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l28-5040
+  prompt: management
+  answers:
+    - マネージメント
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - マネジメント
+    toast: |-
+      Alternate spelling.
+      Both forms are used in Japanese; watch the vowel length and consonant placement.
+  - answers:
+      - マネージャー
+    toast: |-
+      That's "manager" — the person who manages.
+      This word refers to the individual, not the act or function of managing.
+- id: ckw-l28-5058
+  prompt: elevator
+  answers:
+    - エレベーター
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l28-5071
+  prompt: download
+  answers:
+    - ダウンロード
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - アップロード
+    toast: |-
+      That means "upload"!
+      Downloads and uploads are opposite actions.
+  - answers:
+      - ダウンロート
+    toast: |-
+      Spelling trap: vowel placement and consonant order matter.
+      This variant swaps sounds, so it's incorrect.

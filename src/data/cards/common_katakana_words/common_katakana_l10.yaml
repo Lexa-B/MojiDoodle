@@ -55,7 +55,7 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
-- id: ckw-l10-2611
+- id: ckw-l10-2612
   prompt: number
   answers:
     - ナンバー
@@ -160,7 +160,7 @@
     toast: |-
       That's "header".
       Used for header sections in layouts, which is different from the title.
-- id: ckw-l10-2729
+- id: ckw-l10-2730
   prompt: user
   answers:
     - ユーザー

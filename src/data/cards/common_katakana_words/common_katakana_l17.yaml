@@ -1,4 +1,4 @@
-- id: ckw-l17-3478
+- id: ckw-l17-3479
   prompt: dance
   answers:
     - ダンス
@@ -16,7 +16,7 @@
     toast: |-
       Different word meaning "dresser" or "chest of drawers".
       Watch the initial consonant and vowel — it's a separate word.
-- id: ckw-l17-3481
+- id: ckw-l17-3483
   prompt: glass, drinking glass
   answers:
     - グラス
@@ -42,7 +42,7 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
-- id: ckw-l17-3495
+- id: ckw-l17-3496
   prompt: sign, autograph
   answers:
     - サイン
@@ -58,7 +58,7 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
-- id: ckw-l17-3505
+- id: ckw-l17-3507
   prompt: love
   answers:
     - ラブ
@@ -66,7 +66,7 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
-- id: ckw-l17-3543
+- id: ckw-l17-3544
   prompt: ski, skiing
   answers:
     - スキー
@@ -90,7 +90,7 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
-- id: ckw-l17-3580
+- id: ckw-l17-3581
   prompt: white
   answers:
     - ホワイト
@@ -122,7 +122,7 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
-- id: ckw-l17-3651
+- id: ckw-l17-3652
   prompt: run, jog
   answers:
     - ラン
@@ -145,7 +145,7 @@
     toast: |-
       That's 'runner' (a person).
       Not the noun for the action.
-- id: ckw-l17-3664
+- id: ckw-l17-3667
   prompt: pet
   answers:
     - ペット

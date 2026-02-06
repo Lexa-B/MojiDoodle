@@ -1,4 +1,4 @@
-- id: ckw-l21-4003
+- id: ckw-l21-4004
   prompt: ""
   answers:
     - オプション
@@ -16,7 +16,7 @@
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
 
-- id: ckw-l21-4017
+- id: ckw-l21-4018
   prompt: ""
   answers:
     - チケット
@@ -52,7 +52,7 @@
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
 
-- id: ckw-l21-4089
+- id: ckw-l21-4090
   prompt: ""
   answers:
     - キッチン
@@ -61,7 +61,7 @@
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
 
-- id: ckw-l21-4089
+- id: ckw-l21-4092
   prompt: ""
   answers:
     - チャンネル
@@ -79,7 +79,7 @@
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
 
-- id: ckw-l21-4121
+- id: ckw-l21-4122
   prompt: ""
   answers:
     - コンクリート
@@ -88,7 +88,7 @@
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
 
-- id: ckw-l21-4130
+- id: ckw-l21-4133
   prompt: ""
   answers:
     - スクール
@@ -97,7 +97,7 @@
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
 
-- id: ckw-l21-4130
+- id: ckw-l21-4134
   prompt: ""
   answers:
     - ストーリー
@@ -106,7 +106,7 @@
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
 
-- id: ckw-l21-4144
+- id: ckw-l21-4145
   prompt: ""
   answers:
     - ダイエット
@@ -115,7 +115,7 @@
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
 
-- id: ckw-l21-4160
+- id: ckw-l21-4161
   prompt: ""
   answers:
     - スーツ
@@ -124,7 +124,7 @@
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
 
-- id: ckw-l21-4160
+- id: ckw-l21-4162
   prompt: ""
   answers:
     - ディスク

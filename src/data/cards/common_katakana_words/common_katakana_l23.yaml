@@ -47,7 +47,7 @@
     toast: |-
       That's the full phrase for 'rock'n'roll'.
       It's a different expression rather than the shorter term.
-- id: ckw-l23-4353
+- id: ckw-l23-4354
   prompt: bubble, economic bubble
   answers:
     - バブル
@@ -55,7 +55,7 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
-- id: ckw-l23-4353
+- id: ckw-l23-4355
   prompt: land
   answers:
     - ランド
@@ -63,7 +63,7 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
-- id: ckw-l23-4356
+- id: ckw-l23-4357
   prompt: cafe, coffee shop
   answers:
     - カフェ
@@ -89,7 +89,7 @@
     toast: |-
       Check your spelling!
       This drops the long vowel; the standard loanword uses a long vowel mark instead.
-- id: ckw-l23-4367
+- id: ckw-l23-4368
   prompt: laser
   answers:
     - レーザー
@@ -128,7 +128,7 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
-- id: ckw-l23-4405
+- id: ckw-l23-4407
   prompt: guide
   answers:
     - ガイド
@@ -144,7 +144,7 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
-- id: ckw-l23-4432
+- id: ckw-l23-4433
   prompt: lead
   answers:
     - リード
@@ -152,7 +152,7 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
-- id: ckw-l23-4434
+- id: ckw-l23-4436
   prompt: real, realistic
   answers:
     - リアル

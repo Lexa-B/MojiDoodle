@@ -6,7 +6,7 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
-- id: ckw-l20-3907
+- id: ckw-l20-3908
   prompt: memory
   answers:
     - メモリー
@@ -24,7 +24,7 @@
     toast: |-
       That's "memo" (a short note), not the concept of stored information or computer memory.
       Don't confuse the short note with this loanword.
-- id: ckw-l20-3907
+- id: ckw-l20-3909
   prompt: world
   answers:
     - ワールド
@@ -50,7 +50,7 @@
     toast: |-
       That's "goalkeeper".
       It refers to the player who defends, not the scoring action or target.
-- id: ckw-l20-3924
+- id: ckw-l20-3925
   prompt: black
   answers:
     - ブラック
@@ -58,7 +58,7 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
-- id: ckw-l20-3926
+- id: ckw-l20-3929
   prompt: vitamin
   answers:
     - ビタミン
@@ -123,7 +123,7 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
-- id: ckw-l20-3958
+- id: ckw-l20-3959
   prompt: two
   answers:
     - ツー
@@ -146,7 +146,7 @@
     toast: |-
       This reads as "tour" (as in a travel tour).
       It uses a small ア to create a different vowel sequence, not a vowel extension.
-- id: ckw-l20-3972
+- id: ckw-l20-3973
   prompt: bye
   answers:
     - バイ
@@ -182,7 +182,7 @@
     toast: |-
       Similar pronunciation but means auto/automatic.
       Not used to mean 'out'.
-- id: ckw-l20-3979
+- id: ckw-l20-3981
   prompt: recycle, recycling
   answers:
     - リサイクル

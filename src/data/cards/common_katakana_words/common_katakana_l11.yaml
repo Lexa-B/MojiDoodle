@@ -32,7 +32,7 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
-- id: ckw-l11-2804
+- id: ckw-l11-2805
   prompt: curry
   answers:
     - カレー
@@ -48,7 +48,7 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
-- id: ckw-l11-2831
+- id: ckw-l11-2832
   prompt: care
   answers:
     - ケア
@@ -64,7 +64,7 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
-- id: ckw-l11-2846
+- id: ckw-l11-2847
   prompt: private message, tell
   answers:
     - テル
@@ -72,7 +72,7 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
-- id: ckw-l11-2846
+- id: ckw-l11-2848
   prompt: trouble, problem
   answers:
     - トラブル

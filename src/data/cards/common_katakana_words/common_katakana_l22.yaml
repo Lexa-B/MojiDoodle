@@ -1,4 +1,4 @@
-- id: ckw-l22-4178
+- id: ckw-l22-4181
   prompt: milk
   answers:
     - ミルク
@@ -40,7 +40,7 @@
     toast: |-
       A different loanword meaning "machine gun".
       Looks similar but is a longer compound and not the same term.
-- id: ckw-l22-4216
+- id: ckw-l22-4217
   prompt: food, hood
   answers:
     - フード
@@ -58,7 +58,7 @@
     toast: |-
       Looks like the plural 'foods' or company names that include 'Foods'.
       Used differently from the common loanword for the concept of food or a jacket hood.
-- id: ckw-l22-4219
+- id: ckw-l22-4220
   prompt: tunnel
   answers:
     - トンネル
@@ -74,7 +74,7 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
-- id: ckw-l22-4244
+- id: ckw-l22-4245
   prompt: panel
   answers:
     - パネル
@@ -82,7 +82,7 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
-- id: ckw-l22-4255
+- id: ckw-l22-4257
   prompt: report
   answers:
     - レポート
@@ -90,7 +90,7 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
-- id: ckw-l22-4268
+- id: ckw-l22-4271
   prompt: boom, craze
   answers:
     - ブーム
@@ -98,7 +98,7 @@
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers: []
-- id: ckw-l22-4268
+- id: ckw-l22-4272
   prompt: life
   answers:
     - ライフ
@@ -129,7 +129,7 @@
     toast: |-
       This reads as "day" or appears in compound words.
       It doesn't mean a romantic outing.
-- id: ckw-l22-4282
+- id: ckw-l22-4283
   prompt: mouse, computer mouse
   answers:
     - マウス
