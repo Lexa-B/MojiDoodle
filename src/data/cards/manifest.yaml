@@ -104,16 +104,16 @@ packs:
       - common_katakana_words/common_katakana_l08.yaml
       - common_katakana_words/common_katakana_l09.yaml
       - common_katakana_words/common_katakana_l10.yaml
-      # - common_katakana_words/common_katakana_l11.yaml
-      # - common_katakana_words/common_katakana_l12.yaml
-      # - common_katakana_words/common_katakana_l13.yaml
-      # - common_katakana_words/common_katakana_l14.yaml
-      # - common_katakana_words/common_katakana_l15.yaml
-      # - common_katakana_words/common_katakana_l16.yaml
-      # - common_katakana_words/common_katakana_l17.yaml
-      # - common_katakana_words/common_katakana_l18.yaml
-      # - common_katakana_words/common_katakana_l19.yaml
-      # - common_katakana_words/common_katakana_l20.yaml
+      - common_katakana_words/common_katakana_l11.yaml
+      - common_katakana_words/common_katakana_l12.yaml
+      - common_katakana_words/common_katakana_l13.yaml
+      - common_katakana_words/common_katakana_l14.yaml
+      - common_katakana_words/common_katakana_l15.yaml
+      - common_katakana_words/common_katakana_l16.yaml
+      - common_katakana_words/common_katakana_l17.yaml
+      - common_katakana_words/common_katakana_l18.yaml
+      - common_katakana_words/common_katakana_l19.yaml
+      - common_katakana_words/common_katakana_l20.yaml
       # - common_katakana_words/common_katakana_l21.yaml
       # - common_katakana_words/common_katakana_l22.yaml
       # - common_katakana_words/common_katakana_l23.yaml

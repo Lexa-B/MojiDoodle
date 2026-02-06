@@ -1,0 +1,170 @@
+- id: ckw-l23-4317
+  prompt: approach
+  answers:
+    - アプローチ
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l23-4319
+  prompt: two
+  answers:
+    - ツー
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - トゥー
+    toast: |-
+      Alternative transliteration using トゥ.
+      Less common in everyday Japanese.
+  - answers:
+      - ツ
+    toast: |-
+      Missing the long vowel mark.
+      This doesn't show the extended ending.
+  - answers:
+      - ツアー
+    toast: |-
+      That's "tour" in Japanese.
+      A different word with another meaning.
+- id: ckw-l23-4335
+  prompt: rock (music), lock, rock (stone)
+  answers:
+    - ロック
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - ロッカー
+    toast: |-
+      Looks similar but this one means "locker" (a storage locker) or can refer to a person.
+      The different ending changes the meaning.
+  - answers:
+      - ロックンロール
+    toast: |-
+      That's the full phrase for 'rock'n'roll'.
+      It's a different expression rather than the shorter term.
+- id: ckw-l23-4353
+  prompt: bubble, economic bubble
+  answers:
+    - バブル
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l23-4353
+  prompt: land
+  answers:
+    - ランド
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l23-4356
+  prompt: cafe, coffee shop
+  answers:
+    - カフェ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l23-4359
+  prompt: all, oar
+  answers:
+    - オール
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - オーラ
+    toast: |-
+      That's "aura".
+      Different meaning from this loanword.
+  - answers:
+      - オア
+    toast: |-
+      Check your spelling!
+      This drops the long vowel; the standard loanword uses a long vowel mark instead.
+- id: ckw-l23-4367
+  prompt: laser
+  answers:
+    - レーザー
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - レーサー
+    toast: |-
+      That's "racer" — a racing driver or vehicle.
+      Different meaning and vowel length.
+  - answers:
+      - レザー
+    toast: |-
+      This means "leather".
+      Similar pronunciation but a different word.
+  - answers:
+      - レーザ
+    toast: |-
+      Check your spelling!
+      Standard Japanese uses the long vowel mark (ー) here.
+- id: ckw-l23-4373
+  prompt: Olympics
+  answers:
+    - オリンピック
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l23-4394
+  prompt: area, region
+  answers:
+    - エリア
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l23-4405
+  prompt: guide
+  answers:
+    - ガイド
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l23-4424
+  prompt: gasoline, petrol
+  answers:
+    - ガソリン
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l23-4432
+  prompt: lead
+  answers:
+    - リード
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l23-4434
+  prompt: real, realistic
+  answers:
+    - リアル
+  hint: noun (な-adj)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l23-4443
+  prompt: pace, tempo
+  answers:
+    - ペース
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []

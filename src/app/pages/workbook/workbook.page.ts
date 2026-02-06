@@ -813,6 +813,7 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
     this.lassos = [];
     this.currentLasso = [];
     this.drawStartTime = 0;
+    this.drawMode = 'brush';
     this.cancelSegmentation();
     this.segmentationResult = null;
   }

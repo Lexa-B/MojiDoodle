@@ -1,0 +1,185 @@
+- id: ckw-l19-3819
+  prompt: original
+  answers:
+    - オリジナル
+  hint: noun (な-adj)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l19-3820
+  prompt: millimeter, milli
+  answers:
+    - ミリ
+  hint: noun/counter
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l19-3833
+  prompt: work
+  answers:
+    - ワーク
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l19-3835
+  prompt: cable
+  answers:
+    - ケーブル
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l19-3837
+  prompt: community
+  answers:
+    - コミュニティー
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - コミュニティ
+    toast: |-
+      Check your spelling!
+      Some transcriptions omit the long vowel mark; be careful which form is used.
+  - answers:
+      - コミュニケーション
+    toast: |-
+      Looks related!
+      This is a different word meaning communication, not community.
+- id: ckw-l19-3837
+  prompt: 'no'
+  answers:
+    - ノー
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l19-3841
+  prompt: driver, screwdriver
+  answers:
+    - ドライバー
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - ドライヴァー
+    toast: |-
+      Alternate transliteration using ヴ for the v sound.
+      Modern katakana often uses the simpler spelling.
+  - answers:
+      - スクリュードライバー
+    toast: |-
+      Direct katakana rendering of 'screwdriver'.
+      Japanese often uses a shorter loanword or a native term instead.
+- id: ckw-l19-3843
+  prompt: camp
+  answers:
+    - キャンプ
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l19-3855
+  prompt: simple
+  answers:
+    - シンプル
+  hint: な-adjective
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l19-3862
+  prompt: orange (fruit), orange (color)
+  answers:
+    - オレンジ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - オレンヂ
+    toast: |-
+      Uncommon spelling!
+      Japanese typically uses ジ for the /dʒ/ sound in this loanword.
+  - answers:
+      - ミカン
+    toast: |-
+      Different citrus fruit.
+      ミカン means mandarin/tangerine, which is not the same as this loanword.
+- id: ckw-l19-3879
+  prompt: pool, swimming pool
+  answers:
+    - プール
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - プル
+    toast: |-
+      Check the vowel length!
+      This option is missing the long vowel mark often used in loanwords.
+  - answers:
+      - プウル
+    toast: |-
+      Some learners use ウ to show a long vowel.
+      Standard katakana usually uses ー for vowel lengthening.
+- id: ckw-l19-3884
+  prompt: support
+  answers:
+    - サポート
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l19-3885
+  prompt: player
+  answers:
+    - プレーヤー
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - プレイヤー
+    toast: |-
+      Check your spelling!
+      Some spellings omit the long vowel mark, but this card uses the form with a long vowel.
+- id: ckw-l19-3886
+  prompt: cell
+  answers:
+    - セル
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - シェル
+    toast: |-
+      That's "shell"!
+      Different word — similar pronunciation but different meaning.
+  - answers:
+      - セルフ
+    toast: |-
+      That's "self" or "self-service"!
+      Looks similar but has an extra mora and a different meaning.
+- id: ckw-l19-3887
+  prompt: timing
+  answers:
+    - タイミング
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - タイム
+    toast: |-
+      That's "time".
+      It refers to duration or a score/record, not the idea of when to do something.
+  - answers:
+      - タイマー
+    toast: |-
+      That's "timer".
+      A device or function for counting down or measuring intervals, not the moment or rhythm for action.

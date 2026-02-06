@@ -1,0 +1,155 @@
+- id: ckw-l17-3478
+  prompt: dance
+  answers:
+    - ダンス
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - ダンサー
+    toast: |-
+      That refers to a person who dances.
+      Not the activity itself.
+  - answers:
+      - タンス
+    toast: |-
+      Different word meaning "dresser" or "chest of drawers".
+      Watch the initial consonant and vowel — it's a separate word.
+- id: ckw-l17-3481
+  prompt: glass, drinking glass
+  answers:
+    - グラス
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - ガラス
+    toast: |-
+      That means the glass material.
+      It's not the word for a drinking vessel.
+  - answers:
+      - コップ
+    toast: |-
+      That’s the native Japanese word for a cup or tumbler.
+      A different word from this katakana loanword.
+- id: ckw-l17-3495
+  prompt: album
+  answers:
+    - アルバム
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l17-3495
+  prompt: sign, autograph
+  answers:
+    - サイン
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l17-3498
+  prompt: terrorism
+  answers:
+    - テロ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l17-3505
+  prompt: love
+  answers:
+    - ラブ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l17-3543
+  prompt: ski, skiing
+  answers:
+    - スキー
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l17-3557
+  prompt: pen
+  answers:
+    - ペン
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l17-3572
+  prompt: butter
+  answers:
+    - バター
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l17-3580
+  prompt: white
+  answers:
+    - ホワイト
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l17-3626
+  prompt: alcohol
+  answers:
+    - アルコール
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l17-3636
+  prompt: graph, chart
+  answers:
+    - グラフ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l17-3650
+  prompt: office
+  answers:
+    - オフィス
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l17-3651
+  prompt: run, jog
+  answers:
+    - ラン
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - ランニング
+    toast: |-
+      That's the longer 'running' form.
+      This card uses the shorter loanword.
+  - answers:
+      - ランチ
+    toast: |-
+      Nope — that means "lunch".
+      Similar sound at the start, but a different word.
+  - answers:
+      - ランナー
+    toast: |-
+      That's 'runner' (a person).
+      Not the noun for the action.
+- id: ckw-l17-3664
+  prompt: pet
+  answers:
+    - ペット
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []

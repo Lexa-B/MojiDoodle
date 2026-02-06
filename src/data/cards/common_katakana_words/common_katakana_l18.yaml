@@ -1,0 +1,160 @@
+- id: ckw-l18-3682
+  prompt: rhythm
+  answers:
+    - リズム
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - ビート
+    toast: |-
+      That's "beat"!
+      ビート usually means the pulse or accented beats, which is related but not the same.
+  - answers:
+      - テンポ
+    toast: |-
+      That's "tempo"!
+      テンポ refers to speed/pace, not the rhythmic pattern itself.
+- id: ckw-l18-3691
+  prompt: training
+  answers:
+    - トレーニング
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - トレイニング
+    toast: |-
+      Check vowel length.
+      The long vowel is written with ー, not い.
+  - answers:
+      - トレーナー
+    toast: |-
+      Different word.
+      This refers to a trainer (person) or a sweatshirt, not the act of training.
+- id: ckw-l18-3708
+  prompt: record, vinyl record
+  answers:
+    - レコード
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l18-3716
+  prompt: step
+  answers:
+    - ステップ
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l18-3730
+  prompt: hormone, offal
+  answers:
+    - ホルモン
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - ホルモーン
+    toast: |-
+      Check the vowel length!
+      This spelling uses a long vowel mark that isn't used here.
+  - answers:
+      - ホルマリン
+    toast: |-
+      Different term.
+      This katakana is used for formalin (a chemical), not the biological or food word.
+- id: ckw-l18-3751
+  prompt: advantage, benefit
+  answers:
+    - メリット
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l18-3761
+  prompt: tire, tyre
+  answers:
+    - タイヤ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - タイヤー
+    toast: |-
+      Different spelling!
+      This adds a long vowel mark that isn't standard for this loanword.
+  - answers:
+      - ホイール
+    toast: |-
+      That's "wheel" — a related part.
+      Wheels and tires are not the same thing.
+- id: ckw-l18-3766
+  prompt: bank
+  answers:
+    - バンク
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l18-3772
+  prompt: counter, service desk
+  answers:
+    - カウンター
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l18-3775
+  prompt: ranking
+  answers:
+    - ランキング
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l18-3781
+  prompt: block
+  answers:
+    - ブロック
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l18-3787
+  prompt: go down, crash
+  answers:
+    - ダウン
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l18-3790
+  prompt: art
+  answers:
+    - アート
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l18-3797
+  prompt: skirt
+  answers:
+    - スカート
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l18-3811
+  prompt: film
+  answers:
+    - フィルム
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
