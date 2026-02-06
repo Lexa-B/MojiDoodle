@@ -1,0 +1,140 @@
+- id: ckw-l08-2246
+  prompt: ton
+  answers:
+    - トン
+  hint: noun/counter
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l08-2250
+  prompt: shirt
+  answers:
+    - シャツ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l08-2256
+  prompt: toilet, restroom
+  answers:
+    - トイレ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l08-2291
+  prompt: staff, personnel
+  answers:
+    - スタッフ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l08-2295
+  prompt: stress
+  answers:
+    - ストレス
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l08-2329
+  prompt: cup
+  answers:
+    - カップ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l08-2340
+  prompt: wine
+  answers:
+    - ワイン
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l08-2344
+  prompt: speed
+  answers:
+    - スピード
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - スピート
+    toast: |-
+      Check your spelling!
+      Don't forget the long-vowel mark (ー).
+  - answers:
+      - スピーディー
+    toast: |-
+      That's "speedy".
+      It's an adjectival loanword (means fast), not the noun form you want.
+  - answers:
+      - ペース
+    toast: |-
+      Means "pace".
+      Related idea but a different word with a different nuance.
+- id: ckw-l08-2346
+  prompt: comment
+  answers:
+    - コメント
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l08-2350
+  prompt: play
+  answers:
+    - プレー
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l08-2359
+  prompt: volunteer
+  answers:
+    - ボランティア
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l08-2361
+  prompt: rule
+  answers:
+    - ルール
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l08-2375
+  prompt: series
+  answers:
+    - シリーズ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l08-2380
+  prompt: auction
+  answers:
+    - オークション
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - オクション
+    toast: |-
+      Careful with long vowels!
+      This word uses a prolonged ー sound.
+- id: ckw-l08-2393
+  prompt: plus
+  answers:
+    - プラス
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []

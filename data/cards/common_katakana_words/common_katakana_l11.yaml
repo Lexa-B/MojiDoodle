@@ -1,0 +1,180 @@
+- id: ckw-l11-2741
+  prompt: car
+  answers:
+    - カー
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l11-2744
+  prompt: present, gift
+  answers:
+    - プレゼント
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - プレゼン
+    toast: |-
+      That's short for "presentation".
+      It means giving a talk or pitch, not a wrapped item.
+  - answers:
+      - ギフト
+    toast: |-
+      A direct English loan often used in shops and ads.
+      Similar meaning but different nuance and usage.
+- id: ckw-l11-2793
+  prompt: copy, photocopy
+  answers:
+    - コピー
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l11-2805
+  prompt: curry
+  answers:
+    - カレー
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l11-2806
+  prompt: golf
+  answers:
+    - ゴルフ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l11-2832
+  prompt: care
+  answers:
+    - ケア
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l11-2837
+  prompt: restaurant
+  answers:
+    - レストラン
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l11-2847
+  prompt: private message, tell
+  answers:
+    - テル
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l11-2848
+  prompt: trouble, problem
+  answers:
+    - トラブル
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - トラベル
+    toast: |-
+      That's "travel"!
+      Different vowel sequence — this word means travel, not trouble.
+  - answers:
+      - トラップ
+    toast: |-
+      That's "trap"!
+      Similar consonants but a different borrowed word with a different meaning.
+  - answers:
+      - トラウマ
+    toast: |-
+      That's "trauma"!
+      Starts the same, but the latter part is different and the meanings don't match.
+- id: ckw-l11-2853
+  prompt: cut
+  answers:
+    - カット
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l11-2861
+  prompt: live performance, concert
+  answers:
+    - ライブ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - ライヴ
+    toast: |-
+      Alternate spelling using ヴ.
+      Some sources use this transcription instead of ブ.
+  - answers:
+      - ライフ
+    toast: |-
+      That reads "life".
+      Different word and meaning despite the similar sound.
+  - answers:
+      - ライブハウス
+    toast: |-
+      Means "live house" (small concert venue).
+      Related but refers to the place, not the performance.
+- id: ckw-l11-2864
+  prompt: show, performance
+  answers:
+    - ショー
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - ショウ
+    toast: |-
+      Check your spelling!
+      Loanwords that extend a vowel usually use ー in katakana rather than う.
+- id: ckw-l11-2872
+  prompt: kilogram
+  answers:
+    - キログラム
+  hint: noun/counter
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l11-2878
+  prompt: soccer, football
+  answers:
+    - サッカー
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - フットボール
+    toast: |-
+      That's an alternative loanword for the sport.
+      Japanese sometimes uses this term instead.
+  - answers:
+      - サーカス
+    toast: |-
+      Sounds similar but means "circus".
+      Watch the vowel differences.
+  - answers:
+      - サッカ
+    toast: |-
+      Check your spelling!
+      This is missing the final long vowel mark.
+- id: ckw-l11-2884
+  prompt: Christmas
+  answers:
+    - クリスマス
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []

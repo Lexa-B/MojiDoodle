@@ -26,6 +26,7 @@
   prompt: to oversleep
   answers:
     - 朝寝坊する
+    - あさねぼうする
   hint: asanebou suru — oversleep / sleep in (often implies being late)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -49,6 +50,7 @@
   prompt: to collect
   answers:
     - 集める
+    - あつめる
   hint: atsumeru (ru-verb) — gather things together (e.g., stamps, info, people)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -72,6 +74,7 @@
   prompt: other than ... / except for ...
   answers:
     - ～以外
+    - ～いがい
   hint: 'igai — attach after a noun: X以外 = other than X (e.g., 私以外 = everyone but
     me). Often used with は/に.'
   stage: -1
@@ -96,6 +99,7 @@
   prompt: to put (something) in
   answers:
     - 入れる
+    - いれる
   hint: ireru - to insert/put into a container (transitive ru-verb)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -119,6 +123,7 @@
   prompt: to copy
   answers:
     - 写す
+    - うつす
   hint: utsusu — to copy/photograph (make a duplicate); often used for copying text
     or taking a photo
   stage: -1
@@ -167,6 +172,8 @@
   answers:
     - 駅員
     - 駅員さん
+    - えきいん
+    - えきいんさん
   hint: ekiin (san) - polite way to address a station staff member; さん is optional
     depending on context
   stage: -1
@@ -193,6 +200,7 @@
   prompt: size
   answers:
     - 大きさ
+    - おおきさ
   hint: ookisa — noun form from 大きい (big); often used for dimensions/volume (e.g.,
     箱の大きさ = the size of a box).
   stage: -1
@@ -217,6 +225,7 @@
   prompt: to wake (someone) up
   answers:
     - 起こす
+    - おこす
   hint: okosu (transitive) — someone wakes someone up / causes something to happen
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -265,6 +274,7 @@
   prompt: to get depressed
   answers:
     - 落ち込む
+    - おちこむ
   hint: ochikomu - to feel down (mood drops); often used like 気分が落ち込む / 落ち込んでいる
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -288,6 +298,7 @@
   prompt: parent
   answers:
     - 親
+    - おや
   hint: oya — means “parent”; also used in compounds like 親子 (parent and child)
   strokeCount: 16
   stage: -1
@@ -335,6 +346,7 @@
   prompt: to lend
   answers:
     - 貸す
+    - かす
   hint: |-
     kasu — to lend out (you lend something to someone)
     Pattern: AはBにCを貸す
@@ -360,6 +372,7 @@
   prompt: dirty
   answers:
     - 汚い
+    - きたない
   hint: kitanai — い-adjective; use for something that is physically dirty/filthy (e.g.,
     汚い部屋).
   stage: -1
@@ -384,6 +397,7 @@
   prompt: final examination
   answers:
     - 期末試験
+    - きまつしけん
   hint: kimatsu shiken — end-of-term exam (学校で学期の終わりにあるテスト)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -407,6 +421,7 @@
   prompt: by the end of today
   answers:
     - 今日中に
+    - きょうじゅうに
   hint: kyoujuu ni — means "by the end of today" (deadline within today). Often used
     with までに.
   stage: -1
@@ -431,6 +446,7 @@
   prompt: research
   answers:
     - 研究
+    - けんきゅう
   hint: 'kenkyuu — often used with する: 研究する (to do research)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -477,6 +493,7 @@
   prompt: to have difficulty
   answers:
     - 困る
+    - こまる
   hint: 'komaru — to be troubled / be at a loss (often: 困った！ “Oh no…”)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -546,6 +563,7 @@
   prompt: sugar
   answers:
     - 砂糖
+    - さとう
   hint: satou — means table sugar; often written in kana as さとう too
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -569,6 +587,7 @@
   prompt: actually; in fact
   answers:
     - 実は
+    - じつは
   hint: jitsu wa — often used to introduce surprising/true information ("Actually...",
     "The truth is...")
   stage: -1
@@ -593,6 +612,7 @@
   prompt: Excuse me.; Sorry to interrupt you.
   answers:
     - 失礼します
+    - しつれいします
   hint: shitsurei shimasu — polite set phrase used when interrupting, leaving, entering,
     or doing something that might be rude (often said before/after).
   stage: -1
@@ -617,6 +637,7 @@
   prompt: (do something) by oneself
   answers:
     - 自分で
+    - じぶんで
   hint: 'jibun de — do it yourself (often used before a verb): 自分でやる'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -640,6 +661,7 @@
   prompt: in class; during the class
   answers:
     - 授業中に
+    - じゅぎょうちゅうに
   hint: jugyouchuu ni — 「授業中」= during class + に (at/when). Often used with actions
     you do while class is in session.
   stage: -1
@@ -664,6 +686,7 @@
   prompt: scholarship
   answers:
     - 奨学金
+    - しょうがくきん
   hint: shougakukin — money to support study (奨=encourage, 学=study, 金=money)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -687,6 +710,7 @@
   prompt: elementary school students
   answers:
     - 小学生
+    - しょうがくせい
   hint: 'shougakusei — 小(しょう) + 学(がく) + 生(せい): an elementary school student (collective/plural
     by context)'
   stage: -1
@@ -711,6 +735,7 @@
   prompt: relatives
   answers:
     - 親せき
+    - しんせき
   hint: 'shinseki — family/relatives (not your own parents: 親)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -734,6 +759,7 @@
   prompt: letter of recommendation
   answers:
     - 推薦状
+    - すいせんじょう
   hint: suisenjō — a written recommendation letter (often for jobs/schools). 推薦(すいせん)=recommendation
     + 状(じょう)=document
   stage: -1
@@ -781,6 +807,7 @@
   prompt: to explain
   answers:
     - 説明する
+    - せつめいする
   hint: setsumei suru — use when giving an explanation/instructions (e.g., 手順を説明する).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -804,6 +831,7 @@
   prompt: sky
   answers:
     - 空
+    - そら
   hint: sora — 8 strokes (also means “empty” in some words)
   strokeCount: 8
   stage: -1
@@ -852,6 +880,7 @@
   prompt: graduate school
   answers:
     - 大学院
+    - だいがくいん
   hint: daigakuin — higher education after university (Master’s/PhD). Often used with
     に行く/に通う.
   stage: -1
@@ -876,6 +905,7 @@
   prompt: typhoon
   answers:
     - 台風
+    - たいふう
   hint: taifuu (たいふう) - a tropical cyclone/typhoon (common in weather forecasts)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -899,6 +929,7 @@
   prompt: to take (something) out; to hand in (something)
   answers:
     - 出す
+    - だす
   hint: dasu — means to put/take something out (出すゴミ), or to submit/hand in (レポートを出す).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -922,6 +953,7 @@
   prompt: to help; to rescue
   answers:
     - 助ける
+    - たすける
   hint: tasukeru (ru-verb) — often used for helping/rescuing someone in trouble (e.g.,
     助けて！).
   stage: -1
@@ -946,6 +978,7 @@
   prompt: to be different; to be wrong
   answers:
     - 違う
+    - ちがう
   hint: 'chigau (u-verb) — often used for “No/That’s wrong” (例: 違うよ).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -969,6 +1002,7 @@
   prompt: to continue
   answers:
     - 続く
+    - つづく
   hint: 'tsudzuku — intransitive: something continues/goes on (e.g., 雨が続く).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -992,6 +1026,7 @@
   prompt: to take (someone) to (a place)
   answers:
     - 連れていく
+    - つれていく
   hint: 'tsurete iku — take/bring a person (someone goes with you). Often used with
     を: 子どもを連れていく'
   stage: -1
@@ -1016,6 +1051,7 @@
   prompt: tool
   answers:
     - 道具
+    - どうぐ
   hint: dougu — everyday tools/equipment (道=road, 具=tool/ingredient)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1062,6 +1098,7 @@
   prompt: to fly
   answers:
     - 飛ぶ
+    - とぶ
   hint: 'tobu — intransitive: birds/planes fly; also “jump” (e.g., 飛ぶように売れる = sell
     like hotcakes)'
   stage: -1
@@ -1086,6 +1123,7 @@
   prompt: to correct; to fix
   answers:
     - 直す
+    - なおす
   hint: naosu (なおす) — to fix/correct something; also used for “to cure” (illness).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1133,6 +1171,7 @@
   prompt: to miss (a train, bus, etc.)
   answers:
     - 乗り遅れる
+    - のりおくれる
   hint: noriokureru (ru-verb) — miss the ride because you were late (e.g., 電車に乗り遅れる).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1156,6 +1195,7 @@
   prompt: broadcast program
   answers:
     - 番組
+    - ばんぐみ
   hint: 'bangumi — TV/radio show; often used with TV: テレビ番組'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1179,6 +1219,7 @@
   prompt: secret
   answers:
     - 秘密
+    - ひみつ
   hint: himitsu — a hidden secret; often used in phrases like 秘密にする (to keep it secret).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1225,6 +1266,7 @@
   prompt: other
   answers:
     - 他の
+    - ほかの
   hint: 'hokano — used before a noun: 「他の人」= other person / someone else'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1294,6 +1336,7 @@
   prompt: person on one’s side
   answers:
     - 味方
+    - みかた
   hint: mikata — ally/one’s side (vs 敵 "enemy")
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1317,6 +1360,7 @@
   prompt: to show
   answers:
     - 見せる
+    - みせる
   hint: miseru (ru-verb) — to show someone something (e.g., 写真を見せる)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1340,6 +1384,7 @@
   prompt: way; road; directions
   answers:
     - 道
+    - みち
   hint: michi — also used in set phrases like 道を聞く (ask for directions)
   strokeCount: 12
   stage: -1
@@ -1364,6 +1409,7 @@
   prompt: to become lost; to lose one’s way
   answers:
     - 道に迷う
+    - みちにまよう
   hint: michi ni mayou — 道 (road) + に + 迷う (to get lost). Used when you can’t find
     the route/directions.
   stage: -1
@@ -1388,6 +1434,7 @@
   prompt: to be found
   answers:
     - 見つかる
+    - みつかる
   hint: 'mitsukaru — intransitive: something is found/turns up (e.g., 鍵が見つかった). Often
     contrasts with 見つける (to find).'
   stage: -1
@@ -1412,6 +1459,7 @@
   prompt: future
   answers:
     - 未来
+    - みらい
   hint: mirai — often used for the future (time ahead) or prospects (e.g., 未来の夢).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1435,6 +1483,7 @@
   prompt: to go to pick up
   answers:
     - 迎えに行く
+    - むかえにいく
   hint: mukae ni iku — go to meet/pick someone up (e.g., at the station/airport)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1458,6 +1507,7 @@
   prompt: to come to pick up
   answers:
     - 迎えに来る
+    - むかえにくる
   hint: mukae ni kuru — 迎え(むかえ)=picking up/meeting, 来る(くる)=to come; often used for
     meeting someone (e.g., at the station/airport)
   stage: -1
@@ -1482,6 +1532,7 @@
   prompt: to return; to come/go back
   answers:
     - 戻る
+    - もどる
   hint: modoru (u-verb) — return to a previous place/state; e.g., 家に戻る
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1505,6 +1556,7 @@
   prompt: to translate
   answers:
     - 訳す
+    - やくす
   hint: 'yakusu (to translate/interpret into another language; often used with を:
     文章を日本語に訳す)'
   stage: -1
@@ -1529,6 +1581,7 @@
   prompt: weak
   answers:
     - 弱い
+    - よわい
   hint: yowai — i-adjective (e.g., 体が弱い = physically weak)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1575,6 +1628,7 @@
   prompt: to laugh
   answers:
     - 笑う
+    - わらう
   hint: warau — often used with expressions like 「笑う／笑って」; kanji 笑 is 10 strokes
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'

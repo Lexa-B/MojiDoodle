@@ -2,6 +2,7 @@
   prompt: safe
   answers:
     - 安全
+    - あんぜん
   hint: anzen (na-adj.) — use とても安全な所 (a very safe place)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -25,6 +26,7 @@
   prompt: to complain
   answers:
     - 言う（文句を）
+    - いう（もんくを）
   hint: iu (monku o) — use when you “say” complaints/criticisms (文句を言う).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -71,6 +73,7 @@
   prompt: very hard
   answers:
     - 一生懸命
+    - いっしょうけんめい
   hint: isshōkenmei — “with all one’s might; as hard as possible” (often with がんばる／勉強する)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -94,6 +97,7 @@
   prompt: fortune-telling
   answers:
     - 占い
+    - うらない
   hint: uranai — telling fortunes (e.g., 手相占い palm reading, 星占い horoscope)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -117,6 +121,7 @@
   prompt: many ...
   answers:
     - 多くの～
+    - おおくの～
   hint: 'ookuno~ (often used before a noun: 多くの人 = many people)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -140,6 +145,7 @@
   prompt: to put; to lay; to place
   answers:
     - 置く
+    - おく
   hint: |-
     oku (to place something and leave it there)
     Common: 机の上に本を置く (put a book on the desk)
@@ -165,6 +171,7 @@
   prompt: to occur; to happen
   answers:
     - 起こる
+    - おこる
   hint: |-
     okoru (to occur/happen; events/accidents)
     Note: 「怒る」(okoru) means “to get angry” (different kanji).
@@ -190,6 +197,7 @@
   prompt: charm (against evils); amulet
   answers:
     - お守り
+    - おまもり
   hint: omamori — protective charm (often from a shrine/temple); written with 守 (to
     protect)
   stage: -1
@@ -214,6 +222,7 @@
   prompt: mosquito
   answers:
     - 蚊
+    - か
   hint: ka — the insect; left side is 虫 (insect radical). 10 strokes.
   strokeCount: 10
   stage: -1
@@ -238,6 +247,7 @@
   prompt: business meeting; conference
   answers:
     - 会議
+    - かいぎ
   hint: 'kaigi — 会(あ)う + 議(ぎ)論: a meeting for discussion; often used for work meetings
     (例: 会議を開く)'
   stage: -1
@@ -285,6 +295,7 @@
   prompt: to commute to
   answers:
     - 通う
+    - かよう
   hint: kayou — to go back and forth regularly (e.g., 学校に通う / 病院に通う)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -308,6 +319,7 @@
   prompt: environment
   answers:
     - 環境
+    - かんきょう
   hint: kankyō — often used for living/working surroundings (e.g., 自然環境, 職場環境)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -331,6 +343,7 @@
   prompt: to change clothes
   answers:
     - 着替える
+    - きがえる
   hint: kigaeru (ru-verb) — 着＝to wear/put on, 替＝to replace; often used for changing
     outfits/clothes
   stage: -1
@@ -355,6 +368,7 @@
   prompt: to notice
   answers:
     - 気が付く
+    - きがつく
   hint: 'kigatsuku — to realize/notice something (often suddenly). Common pattern:
     ～に気が付く'
   stage: -1
@@ -379,6 +393,7 @@
   prompt: to worry
   answers:
     - 気にする
+    - きにする
   hint: 'ki ni suru — to mind/be bothered by something (often small details); pattern:
     Xを気にする'
   stage: -1
@@ -403,6 +418,7 @@
   prompt: to compare
   answers:
     - 比べる
+    - くらべる
   hint: kuraberu — compare A and B (AとBを比べる).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -426,6 +442,7 @@
   prompt: police; police station
   answers:
     - 警察
+    - けいさつ
   hint: keisatsu — 警(けい) + 察(さつ). Often means “police” in general; use 交番 for a local
     police box.
   stage: -1
@@ -473,6 +490,7 @@
   prompt: factory
   answers:
     - 工場
+    - こうじょう
   hint: kōjō (koujou) - place where things are made; 工=craft/work, 場=place
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -521,6 +539,7 @@
   prompt: to bite
   answers:
     - 刺す
+    - さす
   hint: sasu — used for insects/animals biting or stinging (e.g., 蚊に刺される = to get
     bitten by a mosquito)
   stage: -1
@@ -545,6 +564,7 @@
   prompt: to touch
   answers:
     - 触る
+    - さわる
   hint: sawaru — u-verb; implies making contact (can also mean “to feel/handle”)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -568,6 +588,7 @@
   prompt: tuition
   answers:
     - 授業料
+    - じゅぎょうりょう
   hint: jugyōryō — 授業(lesson/class) + 料(fee); commonly used for school or course tuition
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -591,6 +612,7 @@
   prompt: meal
   answers:
     - 食事
+    - しょくじ
   hint: 'shokuji — a meal (e.g., 朝食/昼食/夕食). Common set: 食事をする (to have a meal).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -614,6 +636,7 @@
   prompt: to believe
   answers:
     - 信じる
+    - しんじる
   hint: |-
     shinjiru — to believe/trust (often in someone/something)
     Pattern: ～を信じる / ～と信じる
@@ -639,6 +662,7 @@
   prompt: worried about
   answers:
     - 心配
+    - しんぱい
   hint: shinpai (na) — use with だ/です, e.g., 心配な人 (a worried person)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -710,6 +734,7 @@
   prompt: government
   answers:
     - 政府
+    - せいふ
   hint: seifu — a national government/administration (e.g., 日本政府)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -758,6 +783,7 @@
   prompt: pleasure
   answers:
     - 楽しみ
+    - たのしみ
   hint: tanoshimi — something you look forward to; often used as 楽しみです (“I’m looking
     forward to it”).
   stage: -1
@@ -829,6 +855,7 @@
   prompt: to be arrested; to be caught
   answers:
     - 捕まる
+    - つかまる
   hint: 'tsukamaru — intransitive (う-verbal): the subject gets caught/arrested (often
     by police); contrast 捕まえる (to catch someone/something)'
   stage: -1
@@ -853,6 +880,7 @@
   prompt: to wrap; to cover
   answers:
     - 包む
+    - つつむ
   hint: tsutsumu (u-verb) — wrap/cover something; e.g., プレゼントを包む (wrap a present)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -876,6 +904,7 @@
   prompt: colleague
   answers:
     - 同僚
+    - どうりょう
   hint: douryou — coworker/colleague (same workplace). Often used as 同僚の〜 / 同僚と
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -899,6 +928,7 @@
   prompt: far (away)
   answers:
     - 遠い
+    - とおい
   hint: tooi — i-adjective meaning “far (distance)”; e.g., 駅は遠い (The station is far).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -970,6 +1000,7 @@
   prompt: thief; burglar
   answers:
     - 泥棒
+    - どろぼう
   hint: dorobou — 泥(どろ)=mud + 棒(ぼう)=stick; common word for a thief/burglar
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -993,6 +1024,7 @@
   prompt: long time
   answers:
     - 長い間
+    - ながいあいだ
   hint: nagai aida — means “for a long time / long period” (e.g., 長い間お世話になりました).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1016,6 +1048,7 @@
   prompt: to strike; to hit; to punch
   answers:
     - 殴る
+    - なぐる
   hint: naguru (u-verb) — rough/violent hitting; often used for punching someone
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1039,6 +1072,7 @@
   prompt: to be hospitalized
   answers:
     - 入院する
+    - にゅういんする
   hint: nyuuin suru — to enter a hospital and stay (入=enter, 院=institution/hospital).
     Often used like 「入院しました」.
   stage: -1
@@ -1063,6 +1097,7 @@
   prompt: to steal; to rob
   answers:
     - 盗む
+    - ぬすむ
   hint: nusumu — u-verb. Often used for stealing someone’s property (財布を盗む).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1109,6 +1144,7 @@
   prompt: to post; to stick
   answers:
     - 貼る
+    - はる
   hint: haru — to stick/attach or put up (e.g., ポスターを貼る, シールを貼る). Not the seasonal
     はる.
   stage: -1
@@ -1133,6 +1169,7 @@
   prompt: criminal
   answers:
     - 犯人
+    - はんにん
   hint: hannin — 犯=to commit a crime + 人=person
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1179,6 +1216,7 @@
   prompt: to take a nap
   answers:
     - 昼寝をする
+    - ひるねをする
   hint: hirune o suru — 昼(ひる)=daytime + 寝(ね)=sleep; casual/resting nap
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1202,6 +1240,7 @@
   prompt: inconvenient
   answers:
     - 不便
+    - ふべん
   hint: |-
     fuben(na) — な-adj.
     Often used as: 不便だ / 不便な + noun (e.g., 不便な場所)
@@ -1227,6 +1266,7 @@
   prompt: to step on
   answers:
     - 踏む
+    - ふむ
   hint: 'fumu — often used with を (e.g., ブレーキを踏む = step on the brake). Kanji: 足 (foot)
     + 沓 (shoe).'
   stage: -1
@@ -1275,6 +1315,7 @@
   prompt: strange; unusual
   answers:
     - 変
+    - へん
   hint: hen (na) — な-adjective; often used as 変な + noun (e.g., 変な人)
   strokeCount: 9
   stage: -1
@@ -1345,6 +1386,7 @@
   prompt: to make a mistake
   answers:
     - 間違える
+    - まちがえる
   hint: 'machigaeru (ru-verb) — often used as: 〜を間違える (make a mistake with ~)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1368,6 +1410,7 @@
   prompt: to find
   answers:
     - 見つける
+    - みつける
   hint: mitsukeru - to find/discover (something you notice or come across); transitive
     ru-verb
   stage: -1
@@ -1392,6 +1435,7 @@
   prompt: old days; past
   answers:
     - 昔
+    - むかし
   hint: mukashi — "in the old days" (e.g., 昔は… = Back then…)
   strokeCount: 8
   stage: -1
@@ -1416,6 +1460,7 @@
   prompt: superstition
   answers:
     - 迷信
+    - めいしん
   hint: meishin — irrational belief based on luck/omens (e.g., 縁起・おまじない)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1492,6 +1537,7 @@
   prompt: complaint
   answers:
     - 文句
+    - もんく
   hint: 'monku — a complaint/criticism (often: 文句を言う “to complain”)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1515,6 +1561,7 @@
   prompt: to complain
   answers:
     - 文句を言う
+    - もんくをいう
   hint: 'monku o iu — to voice complaints/gripes (often directly to someone). Also:
     文句を言うな = “Don’t complain.”'
   stage: -1
@@ -1539,6 +1586,7 @@
   prompt: to bake; to burn; to grill
   answers:
     - 焼く
+    - やく
   hint: yaku — used for grilling/baking/cooking over heat; also “burn” (e.g., CDを焼く,
     パンを焼く)
   stage: -1
@@ -1587,6 +1635,7 @@
   prompt: absence; not at home
   answers:
     - 留守
+    - るす
   hint: rusu — used for being away from home (e.g., 留守です “I’m not home”).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1610,6 +1659,7 @@
   prompt: to contact
   answers:
     - 連絡する
+    - れんらくする
   hint: |-
     renraku suru — to contact/get in touch (call, text, email)
     Often used as: 連絡します (I'll contact you)

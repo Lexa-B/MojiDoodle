@@ -1,0 +1,155 @@
+- id: ckw-l27-4895
+  prompt: stand
+  answers:
+    - スタンド
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l27-4898
+  prompt: character
+  answers:
+    - キャラ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l27-4905
+  prompt: volume
+  answers:
+    - ボリューム
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l27-4911
+  prompt: robot
+  answers:
+    - ロボット
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l27-4914
+  prompt: red
+  answers:
+    - レッド
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l27-4916
+  prompt: manager
+  answers:
+    - マネージャー
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - マネジャー
+    toast: |-
+      Check your spelling!
+      The long vowel is usually written with ー in this word.
+  - answers:
+      - マネジメント
+    toast: |-
+      Different word.
+      This means management (the concept or department), not the individual who manages.
+- id: ckw-l27-4924
+  prompt: frame
+  answers:
+    - フレーム
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l27-4936
+  prompt: career
+  answers:
+    - キャリア
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l27-4951
+  prompt: version
+  answers:
+    - バージョン
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - ヴァージョン
+    toast: |-
+      Alternative transcription using ヴ for the initial 'v' sound.
+      Less common than the バ- spelling.
+  - answers:
+      - バージョンアップ
+    toast: |-
+      This is a verb phrase meaning to update to a new version.
+      The card expects the single noun form.
+- id: ckw-l27-4956
+  prompt: illustration, drawing
+  answers:
+    - イラスト
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l27-4958
+  prompt: software
+  answers:
+    - ソフトウェア
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l27-4959
+  prompt: bench
+  answers:
+    - ベンチ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l27-4963
+  prompt: over, exaggerated
+  answers:
+    - オーバー
+  hint: verbal noun (な-adj)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - オーバーコート
+    toast: |-
+      That word means "overcoat" — a coat you wear over other clothes.
+      It's a clothing item, not the adjective meaning 'excessive'.
+  - answers:
+      - オーバータイム
+    toast: |-
+      That's "overtime" — extra working time or extra time in a game.
+      It refers to duration, not to something being exaggerated.
+  - answers:
+      - オーバーラップ
+    toast: |-
+      That's "overlap" — when things cover or coincide with each other.
+      It doesn't mean 'exaggerated' or 'over the top'.
+- id: ckw-l27-4974
+  prompt: market
+  answers:
+    - マーケット
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l27-4978
+  prompt: ribbon
+  answers:
+    - リボン
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []

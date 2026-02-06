@@ -2,6 +2,7 @@
   prompt: new
   answers:
     - 新しい
+    - あたらしい
   hint: atarashii — i-adjective; often used for new items/objects (e.g., 新しい車)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -25,6 +26,7 @@
   prompt: hot (thing)
   answers:
     - 熱い
+    - あつい
   hint: 'atsui — used for objects/temperature (熱いお茶). For weather: 暑い'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -48,6 +50,7 @@
   prompt: hot (weather)
   answers:
     - 暑い
+    - あつい
   hint: atsui — used for weather/temperature (summer heat), not hot objects
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -71,6 +74,7 @@
   prompt: busy (people/days)
   answers:
     - 忙しい
+    - いそがしい
   hint: 'isogashii - used for being busy (schedule, work, daily life). Common pattern:
     忙しいです／忙しくない'
   stage: -1
@@ -95,6 +99,7 @@
   prompt: together
   answers:
     - 一緒に
+    - いっしょに
   hint: 'issho ni — used with someone: 友だちと一緒に行く (go together with a friend).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -117,6 +122,7 @@
   prompt: sea
   answers:
     - 海
+    - うみ
   hint: umi — water radical (氵) on the left + every (毎) on the right
   strokeCount: 9
   stage: -1
@@ -164,6 +170,7 @@
   prompt: large
   answers:
     - 大きい
+    - おおきい
   hint: ookii — i-adjective meaning “big/large” (size/scale).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -187,6 +194,7 @@
   prompt: castle
   answers:
     - お城
+    - おしろ
   hint: oshiro — honorific お + 城 (しろ). Often written simply as 城 (しろ).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -210,6 +218,7 @@
   prompt: man
   answers:
     - 男の人
+    - おとこのひと
   hint: otoko no hito — means “a man” (polite/neutral). Often contrasted with 女の人
     (woman).
   stage: -1
@@ -234,6 +243,7 @@
   prompt: souvenir
   answers:
     - お土産
+    - おみやげ
   hint: omiyage — a gift you bring back from a trip (often for coworkers/family)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -257,6 +267,7 @@
   prompt: interesting; funny
   answers:
     - 面白い
+    - おもしろい
   hint: omoshiroi (おもしろい) — can mean both "interesting" and "funny" depending on context
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -280,6 +291,7 @@
   prompt: to swim
   answers:
     - 泳ぐ
+    - およぐ
   hint: oyogu (u-verb) — uses the water radical 氵 on the left
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -303,6 +315,7 @@
   prompt: woman
   answers:
     - 女の人
+    - おんなのひと
   hint: 'onna no hito — polite/neutral; more direct: 女 (おんな).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -373,6 +386,7 @@
   prompt: to ask
   answers:
     - 聞く
+    - きく
   hint: kiku — also means “to hear/listen”; use for asking a question (e.g., 先生に聞く).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -396,6 +410,7 @@
   prompt: disgusted with; to dislike
   answers:
     - 嫌い
+    - きらい
   hint: kirai(na) — a な-adjective; use が嫌い for what you dislike (e.g., 私は納豆が嫌いです).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -445,6 +460,7 @@
   prompt: fruit
   answers:
     - 果物
+    - くだもの
   hint: 'kudamono — common noun for fruit (often written in kana: くだもの)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -468,6 +484,7 @@
   prompt: healthy; energetic
   answers:
     - 元気
+    - げんき
   hint: genki (na-adj.) — use 「元気な + noun」 (元気な人) / 「元気です」 (“I’m fine/energetic”).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -491,6 +508,7 @@
   prompt: frightening
   answers:
     - 怖い
+    - こわい
   hint: kowai — used for things that scare you (怖い映画 = a scary movie).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -537,6 +555,7 @@
   prompt: Mr./Ms. … (honorific suffix)
   answers:
     - ～様
+    - ～さま
   hint: |-
     ～sama - very polite honorific suffix (more formal than ～さん)
     Often used in letters, customer service, and addressing clients (e.g., 山田様).
@@ -562,6 +581,7 @@
   prompt: cold (weather)
   answers:
     - 寒い
+    - さむい
   hint: samui — used for cold weather/air (not for cold-to-the-touch objects)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -585,6 +605,7 @@
   prompt: quiet
   answers:
     - 静か
+    - しずか
   hint: shizuka (na) — な-adjective; often used as 静かな + noun (e.g., 静かな部屋)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -608,6 +629,7 @@
   prompt: homework
   answers:
     - 宿題
+    - しゅくだい
   hint: shukudai — school assignment; often used with する/がある (e.g., 宿題をする)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -631,6 +653,7 @@
   prompt: castle
   answers:
     - 城
+    - しろ
   hint: shiro — 9 strokes (castle; often read じょう in compounds, e.g., 城下町)
   strokeCount: 9
   stage: -1
@@ -655,6 +678,7 @@
   prompt: fond of; to like
   answers:
     - 好き
+    - すき
   hint: 'suki(na) — a な-adjective meaning “to like”; pattern: Xが好きです (I like X).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -701,6 +725,7 @@
   prompt: to hate
   answers:
     - 大嫌い
+    - だいきらい
   hint: daikirai(na) - strong dislike/hate; often used as 大嫌いだ
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -724,6 +749,7 @@
   prompt: It’s okay.; Not to worry.; Everything is under control.
   answers:
     - 大丈夫
+    - だいじょうぶ
   hint: 'daijoubu — reassurance/“no problem” (casual: だいじょうぶだよ)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -747,6 +773,7 @@
   prompt: very fond of; to love
   answers:
     - 大好き
+    - だいすき
   hint: |-
     daisuki(na) — な-adj.
     Pattern: Nが大好き(だ) = really like/love (often for things, hobbies, people)
@@ -772,6 +799,7 @@
   prompt: tough (situation)
   answers:
     - 大変
+    - たいへん
   hint: taihen(na) — used for difficult/serious situations (e.g., 大変だ！). Not the same
     as "very."
   stage: -1
@@ -796,6 +824,7 @@
   prompt: fun
   answers:
     - 楽しい
+    - たのしい
   hint: tanoshii (たのしい) — i-adjective; often used for enjoyable experiences (e.g.,
     楽しい時間)
   stage: -1
@@ -820,6 +849,7 @@
   prompt: food
   answers:
     - 食べ物
+    - たべもの
   hint: tabemono — literally “things to eat” (食べる + 物)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -843,6 +873,7 @@
   prompt: birthday
   answers:
     - 誕生日
+    - たんじょうび
   hint: tanjoubi — often used with おめでとう (e.g., 誕生日おめでとう).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -866,6 +897,7 @@
   prompt: small
   answers:
     - 小さい
+    - ちいさい
   hint: chiisai — i-adj. for physically small size (小 + さい).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -912,6 +944,7 @@
   prompt: to go out
   answers:
     - 出かける
+    - でかける
   hint: dekakeru (to go out/leave home for somewhere) — often used as 出かける前に (before
     going out)
   stage: -1
@@ -959,6 +992,7 @@
   prompt: Take care.
   answers:
     - では、お元気で
+    - では、おげんきで
   hint: dewa, ogenki de - polite farewell meaning “Please stay well.” (often said
     when parting)
   stage: -1
@@ -983,6 +1017,7 @@
   prompt: weather
   answers:
     - 天気
+    - てんき
   hint: 'tenki — common phrase: 天気がいい (the weather is good)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1080,6 +1115,7 @@
   prompt: drink
   answers:
     - 飲み物
+    - のみもの
   hint: nomimono — 飲む (to drink) + 物 (thing); commonly used for beverages (not alcohol-specific).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1103,6 +1139,7 @@
   prompt: to ride; to board
   answers:
     - 乗る
+    - のる
   hint: 'noru — to get on/ride (a vehicle like a train, bus, bike). Often used with
     に: 電車に乗る'
   stage: -1
@@ -1150,6 +1187,7 @@
   prompt: not busy; free (time)
   answers:
     - 暇
+    - ひま
   hint: hima (na) — means having free time / not occupied
   strokeCount: 13
   stage: -1
@@ -1174,6 +1212,7 @@
   prompt: old (thing)
   answers:
     - 古い
+    - ふるい
   hint: furui — used for old objects/things (not people); e.g., 古い本 (an old book)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1197,6 +1236,7 @@
   prompt: room
   answers:
     - 部屋
+    - へや
   hint: heya — a room (often in a house/apartment); commonly used as お部屋 (polite).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1220,6 +1260,7 @@
   prompt: I (used by men)
   answers:
     - 僕
+    - ぼく
   hint: boku - male, casual "I" (humble/soft). Often used by boys/men; more polite
     than 俺.
   strokeCount: 14
@@ -1245,6 +1286,7 @@
   prompt: '[counter for flat objects]'
   answers:
     - ～枚
+    - ～まい
   hint: |-
     mai — counter suffix for flat/thin items (paper, shirts, CDs)
     Example: 紙を三枚 (kami o san-mai) = three sheets of paper
@@ -1270,6 +1312,7 @@
   prompt: souvenir
   answers:
     - 土産
+    - みやげ
   hint: miyage — a gift/souvenir brought back from a trip (often for coworkers/family).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1293,6 +1336,7 @@
   prompt: difficult
   answers:
     - 難しい
+    - むずかしい
   hint: muzukashii — i-adjective; often used for things that are hard/complicated
     (e.g., 難しい問題)
   stage: -1
@@ -1364,6 +1408,7 @@
   prompt: inexpensive; cheap (thing)
   answers:
     - 安い
+    - やすい
   hint: 'yasui — price is low (安). Common pattern: 安い + N (e.g., 安い店 = a cheap shop).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1387,6 +1432,7 @@
   prompt: holiday; day off; absence
   answers:
     - 休み
+    - やすみ
   hint: yasumi — time off (休=rest). Also used in 「夏休み」 (summer vacation) and 「会社を休みます」
     (take a day off work).
   stage: -1
@@ -1411,6 +1457,7 @@
   prompt: mountain
   answers:
     - 山
+    - やま
   hint: yama (kunyomi) — 3 strokes
   strokeCount: 3
   stage: -1
@@ -1459,6 +1506,7 @@
   prompt: night
   answers:
     - 夜
+    - よる
   hint: yoru — 8 strokes; means "night" (time after sunset)
   strokeCount: 8
   stage: -1
@@ -1483,6 +1531,7 @@
   prompt: travel
   answers:
     - 旅行
+    - りょこう
   hint: ryokou — a trip/journey (often for leisure); e.g., 旅行する = to travel
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'

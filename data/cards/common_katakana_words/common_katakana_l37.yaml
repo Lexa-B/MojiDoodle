@@ -1,0 +1,160 @@
+- id: ckw-l37-6084
+  prompt: macro
+  answers:
+    - マクロ
+  hint: noun (な-adj)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l37-6091
+  prompt: at sign
+  answers:
+    - アット
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l37-6100
+  prompt: weight
+  answers:
+    - ウエート
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - ウェイト
+    toast: |-
+      Common modern spelling uses a small イ to represent the 'we' sound.
+      This might be the spelling you expect.
+  - answers:
+      - ウエイト
+    toast: |-
+      Looks similar — watch whether the long vowel mark is present or not.
+      Some variants omit the long vowel.
+- id: ckw-l37-6119
+  prompt: zone
+  answers:
+    - ゾーン
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - ゾン
+    toast: |-
+      Watch the long vowel mark.
+      The short form changes pronunciation and isn't the standard spelling.
+  - answers:
+      - エリア
+    toast: |-
+      This means "area" in Japanese.
+      It's a similar concept but a different loanword.
+- id: ckw-l37-6123
+  prompt: stop
+  answers:
+    - ストップ
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l37-6124
+  prompt: mask
+  answers:
+    - マスク
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l37-6136
+  prompt: rental, rent
+  answers:
+    - レンタル
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l37-6180
+  prompt: knight
+  answers:
+    - ナイト
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - ナイフ
+    toast: |-
+      That's "knife".
+      Different final sound — watch the ふ (fu) ending.
+  - answers:
+      - ナイツ
+    toast: |-
+      Often used for team names or English plurals.
+      Ends with ツ (tsu), so the ending sound is different.
+- id: ckw-l37-6193
+  prompt: fruit
+  answers:
+    - フルーツ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l37-6198
+  prompt: password
+  answers:
+    - パスワード
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l37-6203
+  prompt: gray
+  answers:
+    - グレー
+  hint: noun (な-adj)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l37-6216
+  prompt: lady
+  answers:
+    - レディー
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l37-6221
+  prompt: dialogue
+  answers:
+    - ダイアローグ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - ダイアログ
+    toast: |-
+      Check the spelling!
+      An alternate katakana form is commonly used; be careful which spelling the card expects.
+  - answers:
+      - ダイアグラム
+    toast: |-
+      Looks similar at the start
+      This word means "diagram" or "chart," not a conversation.
+- id: ckw-l37-6232
+  prompt: curve, curveball
+  answers:
+    - カーブ
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l37-6237
+  prompt: knitwear, sweater
+  answers:
+    - ニット
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []

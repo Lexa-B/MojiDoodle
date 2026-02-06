@@ -2,6 +2,7 @@
   prompt: to love
   answers:
     - 愛す
+    - あいす
   hint: 'aisu — classical/literary verb meaning “to love”; more common in modern speech:
     愛する (aisuru)'
   stage: -1
@@ -96,6 +97,7 @@
   prompt: pencil
   answers:
     - 鉛筆
+    - えんぴつ
   hint: 'enpitsu — 鉛(lead)＋筆(brush/pen). Common item: えんぴつを使う (to use a pencil).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -119,6 +121,7 @@
   prompt: landlord; landlady
   answers:
     - 大家さん
+    - おおやさん
   hint: ooyasan — honorific さん; also commonly used for “apartment manager/owner”
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -142,6 +145,7 @@
   prompt: return (as a token of gratitude)
   answers:
     - お返し
+    - おかえし
   hint: okaeshi — a return gift/reciprocal gesture (e.g., after receiving a present;
     also 「お返しする」)
   stage: -1
@@ -166,6 +170,7 @@
   prompt: (your/someone’s) wife
   answers:
     - 奥さん
+    - おくさん
   hint: okusan — polite term for someone else’s wife (not your own); often used with
     ご/お (e.g., ご奥さん).
   stage: -1
@@ -190,6 +195,7 @@
   prompt: to send
   answers:
     - 送る
+    - おくる
   hint: okuru — to send (a person/thing/message); also used for “to see someone off”
     (駅まで送る).
   stage: -1
@@ -214,6 +220,7 @@
   prompt: plate; dish
   answers:
     - お皿
+    - おさら
   hint: osara — polite お + 皿 (さら, plate). Often used for a dish/plate (esp. a small
     plate).
   stage: -1
@@ -313,6 +320,7 @@
   prompt: suddenly
   answers:
     - 急に
+    - きゅうに
   hint: kyuu ni — an adverb meaning “all of a sudden/abruptly” (急 + に)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -383,6 +391,7 @@
   prompt: Mr./Ms. ... (casual; suffix used after a name)
   answers:
     - ～君
+    - ～くん
   hint: ～kun — casual honorific, often for boys/young men or juniors; attached to
     a name (e.g., 太郎君).
   stage: -1
@@ -407,6 +416,7 @@
   prompt: cosmetics
   answers:
     - 化粧品
+    - けしょうひん
   hint: keshouhin — makeup/cosmetics; often used in 化粧品売り場 (cosmetics section)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -453,6 +463,7 @@
   prompt: '[generic counter for smaller items]'
   answers:
     - ～個
+    - ～こ
   hint: ～ko — counter for small items (e.g., りんごを3個). 個 is also used for general items
     when no specific counter is known.
   stage: -1
@@ -477,6 +488,7 @@
   prompt: (your/someone’s) husband
   answers:
     - ご主人
+    - ごしゅじん
   hint: goshujin — polite term for someone else’s husband (not used for your own in
     polite speech).
   stage: -1
@@ -548,6 +560,7 @@
   prompt: '[counter for bound volumes]'
   answers:
     - ～冊
+    - ～さつ
   hint: |-
     ～satsu (counter)
     Used for bound volumes like books, notebooks, magazines.
@@ -574,6 +587,7 @@
   prompt: plate; dish
   answers:
     - 皿
+    - さら
   hint: sara — kanji meaning “plate/dish” (5 strokes)
   strokeCount: 5
   stage: -1
@@ -598,6 +612,7 @@
   prompt: age; era
   answers:
     - 時代
+    - じだい
   hint: jidai — a historical period/era (e.g., 江戸時代), or “the times” (時代が変わる).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -644,6 +659,7 @@
   prompt: business trip
   answers:
     - 出張
+    - しゅっちょう
   hint: shutchou — 出(leave/go out) + 張(extend) → going out for work
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -667,6 +683,7 @@
   prompt: senior member of a group
   answers:
     - 先輩
+    - せんぱい
   hint: senpai — someone senior to you in the same school/club/company (opposite of
     後輩)
   stage: -1
@@ -691,6 +708,7 @@
   prompt: to consult
   answers:
     - 相談する
+    - そうだんする
   hint: soudan suru — to consult/discuss with someone for advice (e.g., 先生に相談する)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -714,6 +732,7 @@
   prompt: '[counter for equipment]'
   answers:
     - ～台
+    - ～だい
   hint: 〜dai — counter for machines/vehicles (e.g., パソコン2台, 車3台). Use after a number.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -761,6 +780,7 @@
   prompt: father
   answers:
     - 父親
+    - ちちおや
   hint: chichioya — more formal than お父さん; used when talking about your own father
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -784,6 +804,7 @@
   prompt: to give warning; to watch out
   answers:
     - 注意する
+    - ちゅういする
   hint: chuui suru — to warn/caution someone; also “to be careful/watch out” (e.g.,
     車に注意する).
   stage: -1
@@ -854,6 +875,7 @@
   prompt: to date (someone); to keep company
   answers:
     - 付き合う
+    - つきあう
   hint: tsukiau (付き合う) - to go out with someone / associate with; often used as 彼と付き合っている
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -949,6 +971,7 @@
   prompt: worry
   answers:
     - 悩み
+    - なやみ
   hint: nayami — a worry/concern (noun); often used like 悩みがある (to have worries).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -972,6 +995,7 @@
   prompt: to look good (on somebody)
   answers:
     - 似合う
+    - にあう
   hint: 'niau — used for clothes/colors/styles that suit someone: 「この服は君に似合う」'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1043,6 +1067,7 @@
   prompt: for ... years (duration suffix)
   answers:
     - ～年間
+    - ～ねんかん
   hint: …nenkan — attach after a number to mean a duration (e.g., 3年間 = for three
     years). Not the same as ～年 (year counter).
   stage: -1
@@ -1067,6 +1092,7 @@
   prompt: case
   answers:
     - 場合
+    - ばあい
   hint: baai — “in the case of …” (often used as 〜の場合(は) / 万一の場合)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1139,6 +1165,7 @@
   prompt: '[counter for smaller animals]'
   answers:
     - ～匹
+    - ～ひき
   hint: |-
     …hiki (also read -piki / -biki depending on the number)
     Used for small animals: 猫1匹・犬2匹・うさぎ3匹
@@ -1187,6 +1214,7 @@
   prompt: to want
   answers:
     - 欲しい
+    - ほしい
   hint: 'hoshii — used for wanting an object (Nが欲しい). For wanting to do: V-たい.'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1233,6 +1261,7 @@
   prompt: '[counter for long objects]'
   answers:
     - ～本
+    - ～ほん
   hint: |-
     〜hon — counter for long, cylindrical items (bottles, pens, umbrellas, etc.).
     Sound changes: 1本 いっぽん, 3本 さんぼん, 6本 ろっぽん, 8本 はっぽん, 10本 じゅっぽん.
@@ -1258,6 +1287,7 @@
   prompt: really
   answers:
     - 本当に
+    - ほんとうに
   hint: hontou ni — used to emphasize sincerity/strong feeling (e.g., 本当にありがとう). Often
     means “truly/actually.”
   stage: -1
@@ -1305,6 +1335,7 @@
   prompt: comic book
   answers:
     - 漫画
+    - まんが
   hint: manga — Japanese comics; often written as 漫画 (まんが)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1328,6 +1359,7 @@
   prompt: ring
   answers:
     - 指輪
+    - ゆびわ
   hint: yubiwa — 指=finger + 輪=ring/circle (a ring worn on a finger)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1398,6 +1430,7 @@
   prompt: parents
   answers:
     - 両親
+    - りょうしん
   hint: 'ryoushin — a formal/neutral word for one’s parents (both mother and father).
     Often used in writing: 両親に会う.'
   stage: -1
@@ -1422,6 +1455,7 @@
   prompt: résumé
   answers:
     - 履歴書
+    - りれきしょ
   hint: rirekisho — job-hunting document; 履(は)歴(れき)書(しょ)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'

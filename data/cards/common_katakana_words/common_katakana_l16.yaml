@@ -1,0 +1,165 @@
+- id: ckw-l16-3359
+  prompt: cover
+  answers:
+    - カバー
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l16-3361
+  prompt: leader
+  answers:
+    - リーダー
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - リード
+    toast: |-
+      That's 'lead' in katakana — a noun or verb often used for 'lead' or 'to lead'.
+      Use the longer form when talking about a person who leads.
+  - answers:
+      - リーダ
+    toast: |-
+      Check the long vowel mark!
+      Katakana commonly uses ー to indicate a long vowel and is often missed.
+  - answers:
+      - リーディング
+    toast: |-
+      That's 'reading' (the activity) or 'reading' in English.
+      Not the noun for a person who leads.
+- id: ckw-l16-3362
+  prompt: Islam
+  answers:
+    - イスラム
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l16-3367
+  prompt: 'yes'
+  answers:
+    - ハイ
+  hint: noun (な-adj)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l16-3368
+  prompt: hit, success
+  answers:
+    - ヒット
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l16-3370
+  prompt: day
+  answers:
+    - デー
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l16-3371
+  prompt: band, musical group
+  answers:
+    - バンド
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l16-3414
+  prompt: route, root
+  answers:
+    - ルート
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - ルーツ
+    toast: |-
+      This means "roots" or "origin".
+      Different nuance from the path or mathematical term you want.
+  - answers:
+      - ルーター
+    toast: |-
+      That's the networking device "router".
+      Not the term for a path or mathematical root.
+  - answers:
+      - ロード
+    toast: |-
+      This means "road" — a physical roadway.
+      Not the same as the abstract/technical term here.
+- id: ckw-l16-3415
+  prompt: room
+  answers:
+    - ルーム
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l16-3421
+  prompt: mass media, press
+  answers:
+    - マスコミ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - メディア
+    toast: |-
+      Similar meaning
+      Often used interchangeably to mean "media".
+  - answers:
+      - マスメディア
+    toast: |-
+      Longer form
+      A fuller expression with the same sense as the shorter loanword.
+- id: ckw-l16-3425
+  prompt: idea
+  answers:
+    - アイディア
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - アイデア
+    toast: |-
+      Common alternate spelling without the small イ.
+      Be careful — small vowels change the rhythm of the word.
+- id: ckw-l16-3456
+  prompt: towel
+  answers:
+    - タオル
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l16-3458
+  prompt: full
+  answers:
+    - フル
+  hint: な-adjective
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l16-3464
+  prompt: underwear, pants
+  answers:
+    - パンツ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l16-3474
+  prompt: concert
+  answers:
+    - コンサート
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []

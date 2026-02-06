@@ -25,6 +25,7 @@
   prompt: cheerful
   answers:
     - 明るい
+    - あかるい
   hint: akarui — also means “bright” (light/color); 明 (bright) + るい
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -48,6 +49,7 @@
   prompt: meaning
   answers:
     - 意味
+    - いみ
   hint: imi — often used as 「〜という意味です」 (“It means …”).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -95,6 +97,7 @@
   prompt: astronaut
   answers:
     - 宇宙飛行士
+    - うちゅうひこうし
   hint: uchuu-hikoushi — 宇宙(うちゅう) space + 飛行(ひこう) flight + 士(し) professional
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -118,6 +121,7 @@
   prompt: snack; sweets
   answers:
     - お菓子
+    - おかし
   hint: okashi — usually snacks/sweets (candy, cookies). Often used with 食べる/買う.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -165,6 +169,7 @@
   prompt: reply
   answers:
     - お返事
+    - おへんじ
   hint: ohenji - polite noun often used for answering someone (e.g., メールの返事)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -188,6 +193,7 @@
   prompt: festival
   answers:
     - お祭り
+    - おまつり
   hint: omatsuri — usually a local shrine/temple festival; note the polite お + 祭り
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -234,6 +240,7 @@
   prompt: spa; hot spring
   answers:
     - 温泉
+    - おんせん
   hint: |-
     onsen — 温(あたた)かい water + 泉(spring)
     Common in: 温泉に入る (to bathe in a hot spring)
@@ -259,6 +266,7 @@
   prompt: foreign country
   answers:
     - 外国
+    - がいこく
   hint: gaikoku — literally "outside" (外) + "country" (国)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -282,6 +290,7 @@
   prompt: to own (a pet)
   answers:
     - 飼う
+    - かう
   hint: kau — used for keeping/raising an animal (e.g., 犬を飼う).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -305,6 +314,7 @@
   prompt: snack; sweets
   answers:
     - 菓子
+    - かし
   hint: kashi — sweets/snacks (often store-bought); contrasts with お菓子 (polite) and
     果物 (fruit)
   stage: -1
@@ -329,6 +339,7 @@
   prompt: singer
   answers:
     - 歌手
+    - かしゅ
   hint: kashu — 歌(うた)=song + 手(て)=hand/person → “person who sings”
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -352,6 +363,7 @@
   prompt: bookish expression
   answers:
     - かたい言い方
+    - かたいいいかた
   hint: katai iikata — a formal/stiff way of saying something (bookish; opposite of
     くだけた言い方).
   stage: -1
@@ -394,6 +406,7 @@
   prompt: river
   answers:
     - 川
+    - かわ
   hint: kawa — 3 strokes (looks like three flowing lines of water)
   strokeCount: 3
   stage: -1
@@ -441,6 +454,7 @@
   prompt: schoolteacher
   answers:
     - 教師
+    - きょうし
   hint: kyoushi — a teacher by profession (often a school teacher). Not used for “my
     teacher” as a title (use 先生).
   stage: -1
@@ -465,6 +479,7 @@
   prompt: common language
   answers:
     - 共通語
+    - きょうつうご
   hint: kyoutsuugo — literally "common/shared" (共通) + "language/word" (語)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -488,6 +503,7 @@
   prompt: line number ... (e.g., the __th line)
   answers:
     - ～行目
+    - ～ぎょうめ
   hint: '～gyoume — attach a number before it: 1行目(いちぎょうめ)=line 1, 3行目(さんぎょうめ)=line
     3'
   stage: -1
@@ -512,6 +528,7 @@
   prompt: neighborhood
   answers:
     - 近所
+    - きんじょ
   hint: kinjo — your nearby area; often used with の (e.g., 近所の店)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -535,6 +552,7 @@
   prompt: colloquial expression
   answers:
     - くだけた言い方
+    - くだけたいいかた
   hint: kudaketa iikata — casual/informal wording (more relaxed than 丁寧な言い方)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -558,6 +576,7 @@
   prompt: police officer
   answers:
     - 警察官
+    - けいさつかん
   hint: keisatsukan — the officer/person (官) who works for the police (警察)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -604,6 +623,7 @@
   prompt: researcher
   answers:
     - 研究者
+    - けんきゅうしゃ
   hint: kenkyuusha — 研究 (research) + 者 (person); often used for academic/scientific
     researchers
   stage: -1
@@ -628,6 +648,7 @@
   prompt: answer
   answers:
     - 答え
+    - こたえ
   hint: kotae — noun meaning “an answer/response” (often used as ～の答え).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -722,6 +743,7 @@
   prompt: this semester
   answers:
     - 今学期
+    - こんがっき
   hint: kongakki — means “this (current) school term/semester” (今＝now, 学期＝school term)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -745,6 +767,7 @@
   prompt: writer
   answers:
     - 作家
+    - さっか
   hint: sakka — “author/writer” as a profession (novelist, artist, etc.)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -791,6 +814,7 @@
   prompt: question
   answers:
     - 質問
+    - しつもん
   hint: shitsumon — often used as 質問(しつもん)する “to ask a question”
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -814,6 +838,7 @@
   prompt: deadline
   answers:
     - 締め切り
+    - しめきり
   hint: shimekiri — due date/cutoff (e.g., レポートの締め切り = report deadline)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -860,6 +885,7 @@
   prompt: president of a company
   answers:
     - 社長
+    - しゃちょう
   hint: shachou — company president/CEO; often used with a name (e.g., 田中社長).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -883,6 +909,7 @@
   prompt: class
   answers:
     - 授業
+    - じゅぎょう
   hint: 'jugyō — a class/lesson (school setting). Often used in: 授業を受ける (to take a
     class).'
   stage: -1
@@ -907,6 +934,7 @@
   prompt: coming from
   answers:
     - 出身
+    - しゅっしん
   hint: shusshin — “origin/hometown; where someone is from” (e.g., 東京出身)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -930,6 +958,7 @@
   prompt: to introduce
   answers:
     - 紹介する
+    - しょうかいする
   hint: shoukai suru — to introduce someone/something (e.g., 友だちを紹介する)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -953,6 +982,7 @@
   prompt: firefighter
   answers:
     - 消防士
+    - しょうぼうし
   hint: shouboushi — 消(put out/extinguish) + 防(prevent/defend) + 士(professional)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -976,6 +1006,7 @@
   prompt: future
   answers:
     - 将来
+    - しょうらい
   hint: shourai — “in the future / someday” (e.g., 将来の夢 = future dream)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -999,6 +1030,7 @@
   prompt: shrine
   answers:
     - 神社
+    - じんじゃ
   hint: jinja — Shinto shrine (not a Buddhist temple)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1022,6 +1054,7 @@
   prompt: athlete
   answers:
     - スポーツ選手
+    - スポーツせんしゅ
   hint: supōtsu senshu (sports athlete/player). Often used for professional athletes.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1068,6 +1101,7 @@
   prompt: president of a country
   answers:
     - 大統領
+    - だいとうりょう
   hint: daitōryō — 「大(large)＋統(unify)＋領(lead/territory)」; used for national presidents
     (e.g., アメリカ大統領).
   stage: -1
@@ -1116,6 +1150,7 @@
   prompt: for example
   answers:
     - 例えば
+    - たとえば
   hint: tatoeba — used to introduce an example (e.g., 例えば、りんごやバナナ). Often followed
     by 「〜など」.
   stage: -1
@@ -1140,6 +1175,7 @@
   prompt: to be late (for an appointment)
   answers:
     - 遅刻する
+    - ちこくする
   hint: chikoku suru — for arriving late to a meeting/appointment (遅=late, 刻=time)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1163,6 +1199,7 @@
   prompt: to get tired
   answers:
     - 疲れる
+    - つかれる
   hint: tsukareru (ru-verb) — often used for becoming tired after work/exertion (e.g.,
     仕事で疲れる).
   stage: -1
@@ -1210,6 +1247,7 @@
   prompt: polite expression
   answers:
     - ていねいな言い方
+    - ていねいないいかた
   hint: teinei na iikata — 「丁寧」= polite/courteous; 「言い方」= way of saying (phrasing)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1233,6 +1271,7 @@
   prompt: '... points (counter suffix)'
   answers:
     - ～点
+    - ～てん
   hint: ～ten — suffix used after a number to count points/scores (e.g., 100点 = 100
     points)
   stage: -1
@@ -1280,6 +1319,7 @@
   prompt: to learn
   answers:
     - 習う
+    - ならう
   hint: 'narau — to learn (a skill) from someone; より/から: 先生に習う'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1303,6 +1343,7 @@
   prompt: to climb
   answers:
     - 登る
+    - のぼる
   hint: 'noboru (u-verb) — for climbing (a mountain/stairs); often used with に/を:
     山に登る, 階段を登る'
   stage: -1
@@ -1327,6 +1368,7 @@
   prompt: actor; actress
   answers:
     - 俳優
+    - はいゆう
   hint: haiyuu — performing arts; 俳=actor/performer, 優=excellent/actor
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1350,6 +1392,7 @@
   prompt: to run
   answers:
     - 走る
+    - はしる
   hint: hashiru (u-verb) — physical running; written with 走
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1396,6 +1439,7 @@
   prompt: pronunciation
   answers:
     - 発音
+    - はつおん
   hint: hatsuon — “sound you produce”; used in 発音がいい/発音する
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1465,6 +1509,7 @@
   prompt: it has been a long time
   answers:
     - 久しぶり
+    - ひさしぶり
   hint: 'hisashiburi - used as a greeting after not seeing someone for a while (often:
     久しぶりだね / 久しぶり！)'
   stage: -1
@@ -1489,6 +1534,7 @@
   prompt: art museum
   answers:
     - 美術館
+    - びじゅつかん
   hint: bijutsukan — 美(beauty) + 術(art/technique) + 館(building). Often used with に行く
     (go to).
   stage: -1
@@ -1513,6 +1559,7 @@
   prompt: two people each
   answers:
     - 二人ずつ
+    - ふたりずつ
   hint: futari zutsu — used for distributing in groups of two (e.g., 「二人ずつ入ってください」).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1536,6 +1583,7 @@
   prompt: culture
   answers:
     - 文化
+    - ぶんか
   hint: bunka — often used in 文化祭 (school culture festival) / 文化的 (cultural)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1559,6 +1607,7 @@
   prompt: grammar
   answers:
     - 文法
+    - ぶんぽう
   hint: bunpou — 文=sentence/writing + 法=method/rules
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1582,6 +1631,7 @@
   prompt: weekday
   answers:
     - 平日
+    - へいじつ
   hint: heijitsu — Mon–Fri (not weekends/holidays); often used like「平日は仕事です」
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1605,6 +1655,7 @@
   prompt: reply
   answers:
     - 返事
+    - へんじ
   hint: henji — used for replying/answering (e.g., メールの返事 = reply to an email).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1628,6 +1679,7 @@
   prompt: dialect
   answers:
     - 方言
+    - ほうげん
   hint: hougen — regional speech; 方=direction, 言=words
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1674,6 +1726,7 @@
   prompt: looking for ... (recruiting ... / seeking ...; suffix)
   answers:
     - ～募集
+    - ～ぼしゅう
   hint: 'boshuu — attach to a noun: 学生募集 (recruiting students), 参加者募集 (looking for
     participants). Write the tilde as a placeholder mark.'
   stage: -1
@@ -1768,6 +1821,7 @@
   prompt: festival
   answers:
     - 祭り
+    - まつり
   hint: matsuri — traditional festival (often with shrines, stalls, and parades)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1814,6 +1868,7 @@
   prompt: cartoonist
   answers:
     - 漫画家
+    - まんがか
   hint: 'mangaka — 漫画 (manga) + 家 (profession: -ist/-er). Often used for people who
     draw/write manga.'
   stage: -1
@@ -1838,6 +1893,7 @@
   prompt: lake
   answers:
     - 湖
+    - みずうみ
   hint: mizūmi (みずうみ) — 12 strokes; water radical 氵 on the left
   strokeCount: 12
   stage: -1
@@ -1908,6 +1964,7 @@
   prompt: dream
   answers:
     - 夢
+    - ゆめ
   hint: yume — 13 strokes; often used in expressions like 夢を見る (to have a dream)
   strokeCount: 13
   stage: -1
@@ -1932,6 +1989,7 @@
   prompt: next semester
   answers:
     - 来学期
+    - らいがっき
   hint: raigakki — 来(coming) + 学期(semester); often used like「来学期から」(starting next
     semester)
   stage: -1
@@ -1956,6 +2014,7 @@
   prompt: to study abroad
   answers:
     - 留学する
+    - りゅうがくする
   hint: 'ryuugaku suru — 留(keep/stay) + 学(study): studying while staying in another
     country'
   stage: -1
@@ -2003,6 +2062,7 @@
   prompt: example
   answers:
     - 例
+    - れい
   hint: rei — as in 例えば (tatoeba) “for example”
   strokeCount: 8
   stage: -1
@@ -2027,6 +2087,7 @@
   prompt: exercise
   answers:
     - 練習
+    - れんしゅう
   hint: renshū — practice/training (e.g., 日本語を練習する)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'

@@ -1,0 +1,145 @@
+- id: ckw-l09-2403
+  prompt: cream
+  answers:
+    - クリーム
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l09-2439
+  prompt: open, opening
+  answers:
+    - オープン
+  hint: verbal noun (な-adj)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l09-2448
+  prompt: digital
+  answers:
+    - デジタル
+  hint: noun (な-adj)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l09-2451
+  prompt: back up, backing
+  answers:
+    - バック
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l09-2456
+  prompt: bag
+  answers:
+    - バッグ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l09-2471
+  prompt: address, email address
+  answers:
+    - アドレス
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - メール
+    toast: |-
+      That's "email"!
+      This word means the message itself, not the address or contact identifier.
+  - answers:
+      - アドバイス
+    toast: |-
+      That's "advice"!
+      Looks similar at the start, but it has a different meaning.
+- id: ckw-l09-2484
+  prompt: pattern
+  answers:
+    - パターン
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l09-2489
+  prompt: best, vest
+  answers:
+    - ベスト
+  hint: noun (な-adj)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l09-2490
+  prompt: box
+  answers:
+    - ボックス
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l09-2495
+  prompt: free
+  answers:
+    - フリー
+  hint: noun (な-adj)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - フリ
+    toast: |-
+      Watch the long vowel mark.
+      Omitting the ー changes the pronunciation and the word.
+  - answers:
+      - フリーター
+    toast: |-
+      That's 'freeter' — someone who works part-time.
+      It's a distinct noun and not the same meaning.
+  - answers:
+      - フリーランス
+    toast: |-
+      That's 'freelance' — referring to independent contractors.
+      It's a different term and usually longer.
+- id: ckw-l09-2496
+  prompt: message
+  answers:
+    - メッセージ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l09-2504
+  prompt: project
+  answers:
+    - プロジェクト
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l09-2524
+  prompt: corner, section
+  answers:
+    - コーナー
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l09-2526
+  prompt: chance, opportunity
+  answers:
+    - チャンス
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l09-2534
+  prompt: of
+  answers:
+    - オブ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []

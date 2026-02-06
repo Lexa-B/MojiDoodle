@@ -1,0 +1,193 @@
+- id: ckw-l05-1694
+  prompt: the (definite article)
+  answers:
+    - ザ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l05-1715
+  prompt: balance
+  answers:
+    - バランス
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l05-1756
+  prompt: mom, mommy
+  answers:
+    - ママ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - パパ
+    toast: |-
+      That's "papa" (dad).
+      A different parent — not the female parent.
+  - answers:
+      - マミー
+    toast: |-
+      This spelling is used for the English "mummy"/"mommy" or brand names.
+      It's not the casual Japanese term most people use for mother.
+- id: ckw-l05-1775
+  prompt: time, thyme
+  answers:
+    - タイム
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - タイマー
+    toast: |-
+      That's "timer"!
+      It refers to a device that counts or measures time, not the general noun.
+  - answers:
+      - タイムアウト
+    toast: |-
+      That's "timeout"!
+      It's a compound meaning a stoppage or pause, not the single-word meaning on this card.
+- id: ckw-l05-1780
+  prompt: class, course
+  answers:
+    - クラス
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l05-1794
+  prompt: network
+  answers:
+    - ネットワーク
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - ネット
+    toast: |-
+      That's the short form often used for the internet.
+      It's not the full katakana word for a network.
+  - answers:
+      - ネットワーキング
+    toast: This refers to networking as an activity — making connections — rather
+      than the noun for a network.
+  - answers:
+      - ネットワークス
+    toast: |-
+      Uncommon in Japanese; adding an -ス to pluralize is usually not used.
+      Use the standard singular katakana form instead.
+- id: ckw-l05-1795
+  prompt: member
+  answers:
+    - メンバー
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - メンバ
+    toast: |-
+      Check the long vowel!
+      The standard katakana uses a vowel length mark to show the long sound.
+  - answers:
+      - メンバーズ
+    toast: |-
+      That's a plural/derived form.
+      This card expects the simple singular noun form.
+- id: ckw-l05-1803
+  prompt: building
+  answers:
+    - ビル
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - ビール
+    toast: |-
+      That's beer.
+      Watch the long-vowel mark ー — it's a different word.
+  - answers:
+      - ビルディング
+    toast: |-
+      A longer katakana form often used for the same English word.
+      Be careful which spelling the card expects.
+- id: ckw-l05-1804
+  prompt: program
+  answers:
+    - プログラム
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l05-1805
+  prompt: menu
+  answers:
+    - メニュー
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l05-1817
+  prompt: glass
+  answers:
+    - ガラス
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - グラス
+    toast: |-
+      Often used for a drinking glass
+      This word usually refers to tableware or a drinking vessel, while the other word typically means the material.
+- id: ckw-l05-1820
+  prompt: husband
+  answers:
+    - 旦那
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l05-1822
+  prompt: set, set up
+  answers:
+    - セット
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l05-1860
+  prompt: start
+  answers:
+    - スタート
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l05-1869
+  prompt: news
+  answers:
+    - ニュース
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - ニュー
+    toast: |-
+      That's "new" (the English loanword).
+      Different meaning from "news".
+  - answers:
+      - ニューズ
+    toast: Close — some speakers pronounce the final consonant voiced, but the usual
+      katakana uses the unvoiced ending instead.
+  - answers:
+      - ナース
+    toast: |-
+      Similar rhythm and vowels; this word means "nurse".
+      Not the same meaning as "news".

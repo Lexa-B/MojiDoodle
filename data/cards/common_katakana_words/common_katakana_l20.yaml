@@ -1,0 +1,200 @@
+- id: ckw-l20-3903
+  prompt: pass, skip
+  answers:
+    - パス
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l20-3908
+  prompt: memory
+  answers:
+    - メモリー
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - メモリ
+    toast: |-
+      Alternate spelling without the long vowel mark.
+      Both forms appear in Japanese; check which one this card expects.
+  - answers:
+      - メモ
+    toast: |-
+      That's "memo" (a short note), not the concept of stored information or computer memory.
+      Don't confuse the short note with this loanword.
+- id: ckw-l20-3909
+  prompt: world
+  answers:
+    - ワールド
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l20-3910
+  prompt: goal
+  answers:
+    - ゴール
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - ボール
+    toast: |-
+      That's "ball".
+      ボール is the object used in play; don't mix it up with the scoring/target term.
+  - answers:
+      - ゴールキーパー
+    toast: |-
+      That's "goalkeeper".
+      It refers to the player who defends, not the scoring action or target.
+- id: ckw-l20-3925
+  prompt: black
+  answers:
+    - ブラック
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l20-3929
+  prompt: vitamin
+  answers:
+    - ビタミン
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - ビタメン
+    toast: |-
+      Common misspelling
+      Check the vowel order — the syllables are different.
+  - answers:
+      - ミネラル
+    toast: |-
+      Related concept
+      Means “mineral,” a different type of nutrient.
+- id: ckw-l20-3930
+  prompt: fashion
+  answers:
+    - ファッション
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l20-3941
+  prompt: share
+  answers:
+    - シェア
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - シェアー
+    toast: |-
+      Check your spelling!
+      The standard Japanese spelling doesn't use a long vowel mark here.
+- id: ckw-l20-3945
+  prompt: server
+  answers:
+    - サーバー
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - サーバ
+    toast: |-
+      Check your spelling!
+      Loanwords usually use ー to mark long vowels.
+  - answers:
+      - サーブ
+    toast: |-
+      Different word.
+      This means the action serve in sports, not the noun for a server.
+- id: ckw-l20-3946
+  prompt: anime, animation
+  answers:
+    - アニメ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l20-3959
+  prompt: two
+  answers:
+    - ツー
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - トゥー
+    toast: |-
+      Alternate katakana for the English "two" sound using トゥ.
+      Some sources prefer this spelling to show the 'tu' sound.
+  - answers:
+      - ツ
+    toast: |-
+      Just the single syllable "tsu" without the long vowel mark.
+      The long vowel mark lengthens the vowel sound.
+  - answers:
+      - ツアー
+    toast: |-
+      This reads as "tour" (as in a travel tour).
+      It uses a small ア to create a different vowel sequence, not a vowel extension.
+- id: ckw-l20-3973
+  prompt: bye
+  answers:
+    - バイ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - バイバイ
+    toast: |-
+      That's the casual repeated form "bye-bye".
+      This card is the single-word "bye".
+  - answers:
+      - バイオ
+    toast: |-
+      This reads as "bio" (short for biology/biography).
+      It’s a different word and meaning.
+- id: ckw-l20-3974
+  prompt: out
+  answers:
+    - アウト
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - イン
+    toast: |-
+      That's the opposite concept — in.
+      Used when something is inside or allowed, not 'out'.
+  - answers:
+      - オート
+    toast: |-
+      Similar pronunciation but means auto/automatic.
+      Not used to mean 'out'.
+- id: ckw-l20-3981
+  prompt: recycle, recycling
+  answers:
+    - リサイクル
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l20-4003
+  prompt: interview
+  answers:
+    - インタビュー
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []

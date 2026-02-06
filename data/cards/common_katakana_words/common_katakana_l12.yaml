@@ -1,0 +1,190 @@
+- id: ckw-l12-2895
+  prompt: sauce
+  answers:
+    - ソース
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l12-2901
+  prompt: communication
+  answers:
+    - コミュニケーション
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l12-2904
+  prompt: pink
+  answers:
+    - ピンク
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l12-2915
+  prompt: code, cord, chord
+  answers:
+    - コード
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - コート
+    toast: |-
+      That's 'coat' (outerwear).
+      Different sound and meaning — this one has a T sound instead of a D.
+  - answers:
+      - コーダー
+    toast: |-
+      That's 'coder' (a person who writes programs).
+      Refers to a person and has an extra syllable; not the same noun.
+- id: ckw-l12-2919
+  prompt: space
+  answers:
+    - スペース
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l12-2923
+  prompt: star, celebrity
+  answers:
+    - スター
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l12-2925
+  prompt: party
+  answers:
+    - パーティー
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - パーティ
+    toast: |-
+      Looks like the long vowel mark is missing.
+      Loanwords usually use ー to show a long vowel.
+  - answers:
+      - パーテイ
+    toast: |-
+      This spelling uses イ instead of the long vowel mark.
+      Modern katakana uses ー for vowel length in many loanwords.
+  - answers:
+      - パーチー
+    toast: |-
+      That changes the vowel quality rather than lengthening it.
+      Check which vowel is being lengthened.
+- id: ckw-l12-2926
+  prompt: list
+  answers:
+    - リスト
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - リストアップ
+    toast: |-
+      That’s the phrase meaning "to list up" (to make a list).
+      This card expects the standalone noun/する-form, not the phrasal verb.
+  - answers:
+      - リストラ
+    toast: |-
+      Different word: it means "restructuring" or layoffs.
+      Not related to making a list.
+  - answers:
+      - リストバンド
+    toast: |-
+      This means "wristband."
+      It starts the same but refers to an accessory, not an itemized list.
+- id: ckw-l12-2937
+  prompt: drive
+  answers:
+    - ドライブ
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - ドライヴ
+    toast: |-
+      Alternate spelling using ヴ (v sound).
+      Seen in some transcriptions, watch for variant katakana forms.
+  - answers:
+      - ドライバー
+    toast: |-
+      Different word.
+      Refers to a person who drives or to a tool (screwdriver), not the act/outing of driving.
+  - answers:
+      - ドライブスルー
+    toast: |-
+      This means 'drive-through'.
+      It's a compound phrase and not the simple noun/verb 'drive'.
+- id: ckw-l12-2949
+  prompt: tool
+  answers:
+    - ツール
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l12-2954
+  prompt: pocket
+  answers:
+    - ポケット
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l12-2956
+  prompt: minus, negative
+  answers:
+    - マイナス
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l12-2960
+  prompt: tape
+  answers:
+    - テープ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l12-2968
+  prompt: notebook, notes
+  answers:
+    - ノート
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l12-2972
+  prompt: word, Microsoft Word
+  answers:
+    - ワード
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - ワールド
+    toast: |-
+      This looks similar but means "world".
+      Watch the extra syllable — it changes the meaning.
+  - answers:
+      - ワーズ
+    toast: |-
+      Looks like a pluralized English form.
+      Japanese loanwords usually don't add an "s" to show plural.
+  - answers:
+      - ワードプロセッサ
+    toast: |-
+      That's the term for "word processor".
+      Related concept, but not the short loanword form.

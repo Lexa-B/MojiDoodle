@@ -1,0 +1,175 @@
+- id: ckw-l32-5419
+  prompt: chocolate
+  answers:
+    - チョコレート
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l32-5425
+  prompt: kilocalorie
+  answers:
+    - キロカロリー
+  hint: noun/counter
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l32-5430
+  prompt: tip, chip
+  answers:
+    - チップ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - チップス
+    toast: |-
+      Often used for potato chips, as in ポテトチップス.
+      This is the plural/snack form and not the singular loanword meaning a gratuity or small electronic chip.
+  - answers:
+      - ヒップ
+    toast: |-
+      That's "hip" (the body part).
+      Different consonant and meaning — listen carefully to the initial sound.
+- id: ckw-l32-5449
+  prompt: paper
+  answers:
+    - ペーパー
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l32-5452
+  prompt: log
+  answers:
+    - ログ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l32-5456
+  prompt: challenge, attempt
+  answers:
+    - チャレンジ
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l32-5488
+  prompt: hair
+  answers:
+    - ヘア
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l32-5493
+  prompt: link
+  answers:
+    - リンク
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l32-5538
+  prompt: digital camera
+  answers:
+    - デジカメ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - デジタルカメラ
+    toast: |-
+      That's the full phrase 'digital camera'.
+      This card expects the shortened, colloquial form.
+  - answers:
+      - カメラ
+    toast: |-
+      That just means 'camera' more generally.
+      If you want to specify digital, a longer compound is used.
+- id: ckw-l32-5541
+  prompt: application (software), app
+  answers:
+    - アプリケーション
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - アプリ
+    toast: |-
+      This is the shortened, casual form people often use for mobile apps.
+      The card expects the longer loanword.
+  - answers:
+      - ソフト
+    toast: |-
+      This means “software” more generally.
+      Related concept, but not the specific loanword shown here.
+- id: ckw-l32-5554
+  prompt: manners, etiquette
+  answers:
+    - マナー
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l32-5562
+  prompt: sense, taste
+  answers:
+    - センス
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l32-5569
+  prompt: clinic
+  answers:
+    - クリニック
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - クリーニング
+    toast: |-
+      That's "cleaning" or "dry cleaning".
+      Different meaning — not a medical facility.
+  - answers:
+      - ホスピタル
+    toast: |-
+      That's "hospital".
+      Hospitals are larger medical institutions and not the small medical office meant here.
+  - answers:
+      - クリニカル
+    toast: |-
+      That's the adjective "clinical".
+      It describes something related to clinical practice, not the place itself.
+- id: ckw-l32-5579
+  prompt: studio
+  answers:
+    - スタジオ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l32-5604
+  prompt: touch
+  answers:
+    - タッチ
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - タップ
+    toast: |-
+      Similar action but usually means a quick tap gesture.
+      Use this when you want to emphasize a brief tap.
+  - answers:
+      - タッチパネル
+    toast: |-
+      Refers to a touch-sensitive screen or device.
+      Not the short noun/verb form for the action.

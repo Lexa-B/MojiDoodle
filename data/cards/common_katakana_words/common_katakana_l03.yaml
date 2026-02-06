@@ -1,0 +1,160 @@
+- id: ckw-l03-1212
+  prompt: kilo, kilometer, kilogram
+  answers:
+    - キロ
+  hint: noun/counter
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l03-1220
+  prompt: case
+  answers:
+    - ケース
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l03-1239
+  prompt: door
+  answers:
+    - ドア
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l03-1242
+  prompt: website, site
+  answers:
+    - サイト
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l03-1261
+  prompt: check
+  answers:
+    - チェック
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - チェク
+    toast: |-
+      Missing the small ッ.
+      The doubled consonant changes the pronunciation.
+  - answers:
+      - チェックアウト
+    toast: |-
+      That's a compound meaning 'check out' (e.g. leave a hotel or pay).
+      This card is the basic 'check' used as a noun/する verb.
+- id: ckw-l03-1290
+  prompt: fax, facsimile
+  answers:
+    - ファックス
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - ファクス
+    toast: |-
+      Alternate spelling you might see.
+      Many people write it with a single く instead of a small ッ.
+  - answers:
+      - ファクシミリ
+    toast: |-
+      An older or longer form of the word 'facsimile'.
+      You might encounter this in formal or technical contexts.
+- id: ckw-l03-1314
+  prompt: one
+  answers:
+    - ワン
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l03-1323
+  prompt: game
+  answers:
+    - ゲーム
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l03-1330
+  prompt: design
+  answers:
+    - デザイン
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l03-1344
+  prompt: ball
+  answers:
+    - ボール
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - ボウル
+    toast: |-
+      Watch the vowel!
+      ボウル means "bowl" (a dish), which is a different word.
+- id: ckw-l03-1370
+  prompt: club, nightclub
+  answers:
+    - クラブ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l03-1409
+  prompt: maker, manufacturer
+  answers:
+    - メーカー
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l03-1420
+  prompt: gram
+  answers:
+    - グラム
+  hint: noun/counter
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l03-1427
+  prompt: fan (admirer), fan (device)
+  answers:
+    - ファン
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l03-1451
+  prompt: internet
+  answers:
+    - インターネット
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - インタネット
+    toast: |-
+      Check your spelling!
+      The long vowel mark is used in the standard loanword.
+  - answers:
+      - ネット
+    toast: |-
+      That's the short/colloquial form 'net'.
+      It's an abbreviation, not the full loanword.
+  - answers:
+      - ウェブ
+    toast: |-
+      That's 'web'.
+      It refers to the World Wide Web specifically, not the broader network.

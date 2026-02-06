@@ -1,0 +1,200 @@
+- id: ckw-l24-4452
+  prompt: knife
+  answers:
+    - ナイフ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l24-4455
+  prompt: sun
+  answers:
+    - サン
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - サンシャイン
+    toast: |-
+      This is the longer word for "sunshine".
+      It has more syllables and a different ending.
+  - answers:
+      - サニー
+    toast: |-
+      This is the adjective meaning "sunny".
+      Different part of speech and spelling.
+  - answers:
+      - サンデー
+    toast: |-
+      This spells "Sunday" (or the dessert 'sundae').
+      Same first syllable but a different word and ending.
+- id: ckw-l24-4484
+  prompt: jacket
+  answers:
+    - ジャケット
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l24-4520
+  prompt: dam
+  answers:
+    - ダム
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l24-4521
+  prompt: milliliter
+  answers:
+    - ミリリットル
+  hint: noun/counter
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l24-4543
+  prompt: massage
+  answers:
+    - マッサージ
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l24-4549
+  prompt: part-time job, part-timer
+  answers:
+    - バイト
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - アルバイト
+    toast: |-
+      Longer, more traditional form of the word.
+      This card expects the shorter colloquial form.
+  - answers:
+      - パート
+    toast: |-
+      Also used to mean part-time work in Japanese.
+      Often refers to more regular short-hour jobs.
+- id: ckw-l24-4565
+  prompt: field
+  answers:
+    - フィールド
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - フィール
+    toast: |-
+      That's "feel" — it means a sensation or impression.
+      Different word; watch the vowel length and the small "ィ".
+  - answers:
+      - フィルド
+    toast: |-
+      Check your spelling!
+      This nonstandard form alters the vowel/consonant pattern and is often a typo.
+- id: ckw-l24-4566
+  prompt: ru (katakana)
+  answers:
+    - ル
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - レ
+    toast: |-
+      Looks similar but this character is pronounced "re".
+      Compare the stroke angles and lengths.
+  - answers:
+      - る
+    toast: |-
+      That's the hiragana form.
+      Katakana are more angular while hiragana are more cursive.
+- id: ckw-l24-4572
+  prompt: clear, finish a level
+  answers:
+    - クリア
+  hint: verbal noun (な-adj)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - クリヤ
+    toast: |-
+      Uncommon alternative kana.
+      Standard modern spelling uses a different vowel character.
+  - answers:
+      - クリアー
+    toast: |-
+      Seen with a long vowel mark sometimes.
+      Most modern usage doesn't add ー here.
+  - answers:
+      - クリアランス
+    toast: |-
+      Means "clearance" (often a sale).
+      Related root but a different word and usage.
+  - answers:
+      - クリップ
+    toast: |-
+      Different word meaning "clip" or "paperclip".
+      Sounds similar but has a different meaning.
+- id: ckw-l24-4582
+  prompt: short-circuit
+  answers:
+    - ショート
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l24-4589
+  prompt: print, handout
+  answers:
+    - プリント
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - プリン
+    toast: |-
+      That's pudding!
+      Not the term for printed paper.
+  - answers:
+      - プリンター
+    toast: |-
+      That's printer, the machine.
+      This card is about the paper or the act of printing.
+  - answers:
+      - プリントアウト
+    toast: |-
+      That's the verb to print out.
+      This card is the noun or verbal noun referring to a print/handout.
+- id: ckw-l24-4617
+  prompt: owner
+  answers:
+    - オーナー
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l24-4619
+  prompt: hard
+  answers:
+    - ハード
+  hint: noun (な-adj)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l24-4622
+  prompt: juice
+  answers:
+    - ジュース
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []

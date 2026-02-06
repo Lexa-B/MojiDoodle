@@ -2,6 +2,7 @@
   prompt: between
   answers:
     - 間
+    - あいだ
   hint: aida (between/interval); also read ま (ma) in compounds. 12 strokes.
   strokeCount: 12
   stage: -1
@@ -26,6 +27,7 @@
   prompt: to meet; to see (a person)
   answers:
     - 会う
+    - あう
   hint: au — used for meeting/seeing a person (e.g., 友だちに会う). Not for "to fit".
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -141,6 +143,7 @@
   prompt: January
   answers:
     - 一月
+    - いちがつ
   hint: ichigatsu — first month of the year (not the one-month duration)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -164,6 +167,7 @@
   prompt: one hour
   answers:
     - 一時間
+    - いちじかん
   hint: 'ichijikan — duration: “one hour” (〜時間). Often used with かかる/いる (takes).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -187,6 +191,7 @@
   prompt: the fifth day of a month
   answers:
     - 五日
+    - いつか
   hint: itsuka — used for dates (e.g., 5日 = the 5th). Not the word for “five days”
     duration.
   stage: -1
@@ -211,6 +216,7 @@
   prompt: dog
   answers:
     - 犬
+    - いぬ
   hint: 'inu — 4 strokes (big dog radical: 犭)'
   strokeCount: 4
   stage: -1
@@ -259,6 +265,7 @@
   prompt: 'on'
   answers:
     - 上
+    - うえ
   hint: ue — "above/on top" (contrast with 下 = below)
   strokeCount: 3
   stage: -1
@@ -283,7 +290,8 @@
   prompt: back
   answers:
     - 後ろ
-  hint: ushiro — “behind/in the back (of)”; often used with の (e.g., うしろのドア)
+    - うしろ
+  hint: ushiro — "behind/in the back (of)”; often used with の (e.g., うしろのドア)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
@@ -306,6 +314,7 @@
   prompt: (do something) late
   answers:
     - 遅く
+    - おそく
   hint: 'osoku — adverb form of 遅い (late/slow). Often used with なる: 遅くなる (to become
     late).'
   stage: -1
@@ -330,6 +339,7 @@
   prompt: temple
   answers:
     - お寺
+    - おてら
   hint: otera — Buddhist temple (often お寺さん). Not a shrine (神社).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -422,6 +432,7 @@
   prompt: shopping
   answers:
     - 買い物
+    - かいもの
   hint: 'kaimono — noun: doing/buying things (e.g., 買い物に行く = to go shopping)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -445,6 +456,7 @@
   prompt: to buy
   answers:
     - 買う
+    - かう
   hint: kau — used for buying items (買い物). Kanji 買 is 12 strokes.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -468,6 +480,7 @@
   prompt: to write
   answers:
     - 書く
+    - かく
   hint: kaku (u-verb) — usually writing text/letters; often used as ～を書く (e.g., 名前を書く).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -491,6 +504,7 @@
   prompt: Tuesday
   answers:
     - 火曜日
+    - かようび
   hint: kayoubi — the day of 火 (fire) + 曜日 (day of the week)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -514,6 +528,7 @@
   prompt: yesterday
   answers:
     - 昨日
+    - きのう
   hint: kinou — time word meaning “yesterday” (not “last year”)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -537,6 +552,7 @@
   prompt: last year
   answers:
     - 去年
+    - きょねん
   hint: kyonen — time word (often used with は/の), e.g., 去年の夏 = last summer
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -560,6 +576,7 @@
   prompt: Friday
   answers:
     - 金曜日
+    - きんようび
   hint: kin'youbi — the weekday ending in 「曜日」 (day of the week). 「金」 = gold/metal
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -583,6 +600,7 @@
   prompt: September
   answers:
     - 九月
+    - くがつ
   hint: kugatsu — 「九」= 9, 「月」= month (also read がつ as a month suffix)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -676,6 +694,7 @@
   prompt: Monday
   answers:
     - 月曜日
+    - げつようび
   hint: getsuyoubi (げつようび) — literally “moon day”
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -699,6 +718,7 @@
   prompt: park
   answers:
     - 公園
+    - こうえん
   hint: kouen — a public park (公=public, 園=garden/park)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -722,6 +742,7 @@
   prompt: May
   answers:
     - 五月
+    - ごがつ
   hint: gogatsu — the 5th month (五月(ごがつ)です = It's May)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -745,6 +766,7 @@
   prompt: the ninth day of a month
   answers:
     - 九日
+    - ここのか
   hint: kokonoka — special reading for dates (not *kyuu-nichi*)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -768,6 +790,7 @@
   prompt: this year
   answers:
     - 今年
+    - ことし
   hint: kotoshi — this calendar year (e.g., 今年は忙しい)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -791,6 +814,7 @@
   prompt: child
   answers:
     - 子供
+    - こども
   hint: kodomo — common word for “child”; can also be written こども in kana
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -814,6 +838,7 @@
   prompt: rice; meal
   answers:
     - ご飯
+    - ごはん
   hint: gohan — can mean cooked rice or a (polite) meal; often used in phrases like
     朝ご飯/昼ご飯/晩ご飯
   stage: -1
@@ -861,6 +886,7 @@
   prompt: this month
   answers:
     - 今月
+    - こんげつ
   hint: kongetsu — この月 (the current month); often used with は/の (今月は…, 今月の…)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -884,6 +910,7 @@
   prompt: this week
   answers:
     - 今週
+    - こんしゅう
   hint: konshuu — e.g., 今週は忙しい (This week is busy).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -907,6 +934,7 @@
   prompt: the month after next
   answers:
     - 再来月
+    - さらいげつ
   hint: saraigetsu — the month after next (2 months from now); contrast with 来月 (next
     month) and 再来週 (the week after next)
   stage: -1
@@ -931,6 +959,7 @@
   prompt: the week after next
   answers:
     - 再来週
+    - さらいしゅう
   hint: sarai shuu — 「再」= again, 「来週」= next week → “the next week after next”
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -954,6 +983,7 @@
   prompt: the year after next
   answers:
     - 再来年
+    - さらいねん
   hint: sarainen — the year after next (来年=next year, 再来年=next-next year)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -977,6 +1007,7 @@
   prompt: March
   answers:
     - 三月
+    - さんがつ
   hint: sangatsu — read 三 as さん and 月 as がつ (month).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1000,6 +1031,7 @@
   prompt: April
   answers:
     - 四月
+    - しがつ
   hint: shigatsu — month names use ～月 (gatsu)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1023,6 +1055,7 @@
   prompt: '... hours (counter suffix)'
   answers:
     - ～時間
+    - ～じかん
   hint: ~jikan — attach to a number (e.g., 3時間 = three hours). Pronounced いちじかん, にじかん,
     さんじかん…
   stage: -1
@@ -1047,6 +1080,7 @@
   prompt: under
   answers:
     - 下
+    - した
   hint: shita — "under/below" (also means "down" depending on context)
   strokeCount: 3
   stage: -1
@@ -1071,6 +1105,7 @@
   prompt: July
   answers:
     - 七月
+    - しちがつ
   hint: shichigatsu — the month of July (七=7, 月=month). Watch for the small っ in しち.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1094,7 +1129,8 @@
   prompt: picture; photograph
   answers:
     - 写真
-  hint: shashin — 写=“copy/reflect”, 真=“true/real”; common in 写真を撮る (to take a photo)
+    - しゃしん
+  hint: shashin — 写="copy/reflect", 真=“true/real”; common in 写真を撮る (to take a photo)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
@@ -1117,6 +1153,7 @@
   prompt: November
   answers:
     - 十一月
+    - じゅういちがつ
   hint: 'juuichigatsu — month #11 (十一 = 11, 月 = month). Often pronounced じゅういちがつ (not
     じゅういちげつ).'
   stage: -1
@@ -1141,6 +1178,7 @@
   prompt: the eleventh day of a month
   answers:
     - 十一日
+    - じゅういちにち
   hint: juuichinichi — date reading; often written as 11日 in schedules
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1164,6 +1202,7 @@
   prompt: October
   answers:
     - 十月
+    - じゅうがつ
   hint: 'juugatsu — the 10th month. Note: months use the counter ～月 (がつ).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1187,6 +1226,7 @@
   prompt: December
   answers:
     - 十二月
+    - じゅうにがつ
   hint: juunigatsu — the 12th month (月 = month). Also read 12月 (じゅうにがつ).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1210,6 +1250,7 @@
   prompt: the fourteenth day of a month
   answers:
     - 十四日
+    - じゅうよっか
   hint: juuyokka — date reading (not "juuyon-nichi")
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1233,7 +1274,8 @@
   prompt: Wednesday
   answers:
     - 水曜日
-  hint: suiyoubi — literally “water day” (水) + “day of week” (曜日); written as 水・曜・日
+    - すいようび
+  hint: suiyoubi — literally "water day" (水) + “day of week” (曜日); written as 水・曜・日
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
@@ -1279,6 +1321,7 @@
   prompt: last month
   answers:
     - 先月
+    - せんげつ
   hint: sengetsu — time word; often used with は/に (e.g., 先月は忙しかった)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1302,6 +1345,7 @@
   prompt: last week
   answers:
     - 先週
+    - せんしゅう
   hint: senshū — time word meaning the week before this one (often used with 先週は…)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1394,6 +1438,7 @@
   prompt: near; nearby
   answers:
     - 近く
+    - ちかく
   hint: chikaku — often used as 近くの (nearby ~) or 近くに (nearby/in the vicinity)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1417,6 +1462,7 @@
   prompt: the first day of a month
   answers:
     - 一日
+    - ついたち
   hint: tsuitachi — special reading for 「一日」 meaning the 1st of the month (not いちにち)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1440,6 +1486,7 @@
   prompt: temple
   answers:
     - 寺
+    - てら
   hint: tera — 6 strokes. Often seen in words like お寺 (otera).
   strokeCount: 6
   stage: -1
@@ -1511,6 +1558,7 @@
   prompt: the tenth day of a month
   answers:
     - 十日
+    - とおか
   hint: |-
     tooka (10th day of the month)
     Note: also used as “ten days” depending on context.
@@ -1536,6 +1584,7 @@
   prompt: when . . . ; at the time of . . .
   answers:
     - 時
+    - とき
   hint: toki — used for time/when (e.g., 子どもの時). 10 strokes
   strokeCount: 10
   stage: -1
@@ -1560,7 +1609,8 @@
   prompt: next (neighboring/adjacent)
   answers:
     - 隣
-  hint: tonari — “next to”; often used as 隣の〜 (the neighboring ~). 15 strokes.
+    - となり
+  hint: tonari — "next to"; often used as 隣の〜 (the neighboring ~). 15 strokes.
   strokeCount: 15
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1584,6 +1634,7 @@
   prompt: to take (a picture)
   answers:
     - 撮る
+    - とる
   hint: toru — used for photos/filming (写真を撮る, 動画を撮る)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1607,6 +1658,7 @@
   prompt: inside
   answers:
     - 中
+    - なか
   hint: 'naka — 4 strokes; meaning: inside/middle'
   strokeCount: 4
   stage: -1
@@ -1631,6 +1683,7 @@
   prompt: the seventh day of a month
   answers:
     - 七日
+    - なのか
   hint: |-
     nanoka — read as な(七) + のか(日)
     Irregular reading: 七日 = なのか (not しちにち)
@@ -1656,6 +1709,7 @@
   prompt: two months ago
   answers:
     - 二か月前
+    - にかげつまえ
   hint: nikagetsu mae — time expression meaning "two months before (now/then)" (e.g.,
     二か月前に日本に来ました)
   stage: -1
@@ -1680,6 +1734,7 @@
   prompt: February
   answers:
     - 二月
+    - にがつ
   hint: nigatsu — month name; written with the number 2 + month
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1703,6 +1758,7 @@
   prompt: two weeks ago
   answers:
     - 二週間前
+    - にしゅうかんまえ
   hint: nishūkan mae — time expression; can be used like 「二週間前に日本へ行った」
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1726,6 +1782,7 @@
   prompt: the twenty-fourth day of a month
   answers:
     - 二十四日
+    - にじゅうよっか
   hint: nijuu-yokka (にじゅうよっか) — irregular day reading (…日 = か here). Used for calendar
     dates.
   stage: -1
@@ -1750,6 +1807,7 @@
   prompt: cat
   answers:
     - 猫
+    - ねこ
   hint: neko — Kanji has the 犭(けものへん) “animal” radical on the left
   strokeCount: 11
   stage: -1
@@ -1774,6 +1832,7 @@
   prompt: bus stop
   answers:
     - バス停
+    - バスてい
   hint: 'basutei - 「停」= stop (as in 停車). Often used with に/で: バス停に行く, バス停で待つ'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1797,6 +1856,7 @@
   prompt: August
   answers:
     - 八月
+    - はちがつ
   hint: hachigatsu — the 8th month (月 is read がつ in month names)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1820,6 +1880,7 @@
   prompt: the twentieth day of a month
   answers:
     - 二十日
+    - はつか
   hint: hatsuka — irregular reading (not *nijuu-nichi*) used for dates
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1843,6 +1904,7 @@
   prompt: flower
   answers:
     - 花
+    - はな
   hint: hana — common noun for a flower (not the nose). 7 strokes.
   strokeCount: 7
   stage: -1
@@ -1890,6 +1952,7 @@
   prompt: left
   answers:
     - 左
+    - ひだり
   hint: hidari — 5 strokes
   strokeCount: 5
   stage: -1
@@ -1914,6 +1977,7 @@
   prompt: person
   answers:
     - 人
+    - ひと
   hint: |-
     hito (person)
     2 strokes
@@ -1940,7 +2004,8 @@
   prompt: alone
   answers:
     - 一人で
-  hint: hitori de — means “by oneself”; often used with 行く/する (e.g., 一人で行く = go alone)
+    - ひとりで
+  hint: hitori de — means "by oneself"; often used with 行く/する (e.g., 一人で行く = go alone)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
@@ -1963,6 +2028,7 @@
   prompt: hospital
   answers:
     - 病院
+    - びょういん
   hint: byouin — 病(illness) + 院(institution); long vowel びょう
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1986,6 +2052,7 @@
   prompt: the second day of a month
   answers:
     - 二日
+    - ふつか
   hint: 'futsuka — read as ふつか (NOT ににち). Often used for dates: 2日(ふつか).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -2032,6 +2099,7 @@
   prompt: bookstore
   answers:
     - 本屋
+    - ほんや
   hint: honya — 本 (book) + 屋 (shop; -ya suffix for store)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -2055,7 +2123,8 @@
   prompt: front
   answers:
     - 前
-  hint: mae — “in front of / before” (e.g., 前に = before/in front of). 9 strokes.
+    - まえ
+  hint: mae — "in front of / before" (e.g., 前に = before/in front of). 9 strokes.
   strokeCount: 9
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -2079,6 +2148,7 @@
   prompt: town; city
   answers:
     - 町
+    - まち
   hint: machi — often means a (small) town/neighborhood; also used in place names
   strokeCount: 7
   stage: -1
@@ -2103,6 +2173,7 @@
   prompt: to wait
   answers:
     - 待つ
+    - まつ
   hint: 'matsu — u-verb (待ちます). Often used for waiting for a person/bus: バスを待つ'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -2150,6 +2221,7 @@
   prompt: right
   answers:
     - 右
+    - みぎ
   hint: migi — 5 strokes; means the right side/direction
   strokeCount: 5
   stage: -1
@@ -2174,6 +2246,7 @@
   prompt: shop; store
   answers:
     - 店
+    - みせ
   hint: mise — often used for a general shop/store (e.g., パン屋は店です).
   strokeCount: 8
   stage: -1
@@ -2198,6 +2271,7 @@
   prompt: the third day of a month
   answers:
     - 三日
+    - みっか
   hint: mikka (みっか) — irregular reading for dates (1st–10th). Often written with 「日」
     as the day counter.
   stage: -1
@@ -2222,6 +2296,7 @@
   prompt: the sixth day of a month
   answers:
     - 六日
+    - むいか
   hint: 'muika — irregular day reading (not ろくにち). Used for dates: 6日(むいか).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -2245,6 +2320,7 @@
   prompt: Thursday
   answers:
     - 木曜日
+    - もくようび
   hint: mokuyoubi — literally "wood day" + 曜日 (days of the week).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -2291,7 +2367,8 @@
   prompt: the eighth day of a month
   answers:
     - 八日
-  hint: youka — calendar day “8th”; often written with the counter 日 (day).
+    - ようか
+  hint: youka — calendar day "8th"; often written with the counter 日 (day).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
@@ -2314,6 +2391,7 @@
   prompt: the fourth day of a month
   answers:
     - 四日
+    - よっか
   hint: yokka — irregular day counter (一日ついたち, 二日ふつか, 三日みっか, 四日よっか)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -2337,6 +2415,7 @@
   prompt: next month
   answers:
     - 来月
+    - らいげつ
   hint: 'raigetsu — 来(come) + 月(month); often used for plans: 来月は旅行します。'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -2360,6 +2439,7 @@
   prompt: next week
   answers:
     - 来週
+    - らいしゅう
   hint: raishuu — time word; often used with に (来週に) or から (来週から)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -2383,6 +2463,7 @@
   prompt: next year
   answers:
     - 来年
+    - らいねん
   hint: rainen — often used for calendar year (e.g., 来年の春 = next spring)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -2452,6 +2533,7 @@
   prompt: June
   answers:
     - 六月
+    - ろくがつ
   hint: |-
     rokugatsu — 六 (6) + 月 (month)
     Note: 月 is the “month/moon” kanji; written with 4 strokes.

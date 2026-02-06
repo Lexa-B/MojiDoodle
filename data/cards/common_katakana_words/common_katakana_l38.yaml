@@ -1,0 +1,120 @@
+- id: ckw-l38-6257
+  prompt: special
+  answers:
+    - スペシャル
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l38-6266
+  prompt: banana
+  answers:
+    - バナナ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l38-6267
+  prompt: arrange, arrangement
+  answers:
+    - アレンジ
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l38-6274
+  prompt: tent
+  answers:
+    - テント
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l38-6280
+  prompt: rival, competitor
+  answers:
+    - ライバル
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l38-6281
+  prompt: cup, glass
+  answers:
+    - コップ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l38-6307
+  prompt: town
+  answers:
+    - タウン
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l38-6314
+  prompt: brush
+  answers:
+    - ブラシ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l38-6316
+  prompt: object
+  answers:
+    - オブジェクト
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l38-6319
+  prompt: battery
+  answers:
+    - バッテリー
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l38-6324
+  prompt: turn
+  answers:
+    - ターン
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l38-6328
+  prompt: package
+  answers:
+    - パッケージ
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l38-6331
+  prompt: antenna
+  answers:
+    - アンテナ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l38-6333
+  prompt: filter
+  answers:
+    - フィルター
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l38-6334
+  prompt: layout
+  answers:
+    - レイアウト
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []

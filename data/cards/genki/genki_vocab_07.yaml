@@ -2,6 +2,7 @@
   prompt: leg; foot
   answers:
     - 足
+    - あし
   hint: ashi — can mean both "leg" and "foot" depending on context
   strokeCount: 7
   stage: -1
@@ -25,6 +26,7 @@
   prompt: head
   answers:
     - 頭
+    - あたま
   hint: atama — body part; also used for “top” (e.g., 頭がいい = smart)
   strokeCount: 16
   stage: -1
@@ -49,6 +51,7 @@
   prompt: bright; smart; clever
   answers:
     - 頭がいい
+    - あたまがいい
   hint: atama ga ii — literally “has a good head”; used for being smart/clever
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -72,6 +75,7 @@
   prompt: (my) older brother
   answers:
     - 兄
+    - あに
   hint: 'ani (older brother; used for your own family, polite: 兄(あに))'
   strokeCount: 5
   stage: -1
@@ -96,6 +100,7 @@
   prompt: (my) older sister
   answers:
     - 姉
+    - あね
   hint: 'ane — used for your own older sister; polite: 姉(あね)です / someone else’s: お姉さん(おねえさん)'
   strokeCount: 8
   stage: -1
@@ -120,6 +125,7 @@
   prompt: song
   answers:
     - 歌
+    - うた
   hint: uta — the 歌 in 歌う (to sing); 14 strokes
   strokeCount: 14
   stage: -1
@@ -144,6 +150,7 @@
   prompt: to sing
   answers:
     - 歌う
+    - うたう
   hint: utau — often used for singing a song (歌). Not the same as 謳う (to praise/advertise).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -191,6 +198,7 @@
   prompt: buttocks
   answers:
     - お尻
+    - おしり
   hint: oshiri — polite/common word for “butt”; written with 尻 (read しり)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -260,6 +268,7 @@
   prompt: company
   answers:
     - 会社
+    - かいしゃ
   hint: kaisha — a business/company (e.g., 会社員 = company employee)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -283,6 +292,7 @@
   prompt: face
   answers:
     - 顔
+    - かお
   hint: kao — common word for someone's face (not just a specific part like eyes or
     mouth)
   strokeCount: 18
@@ -308,6 +318,7 @@
   prompt: to put on (glasses)
   answers:
     - かける（眼鏡を）
+    - かける（めがねを）
   hint: kakeru (megane o) - used for wearing/putting on glasses; also used for things
     like headphones
   stage: -1
@@ -332,6 +343,7 @@
   prompt: family
   answers:
     - 家族
+    - かぞく
   hint: kazoku — 家 (house) + 族 (clan/group); often used as 家族(かぞく)です “(It’s my) family.”
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -355,6 +367,7 @@
   prompt: shoulder
   answers:
     - 肩
+    - かた
   hint: |-
     kata — body part: shoulder (left/right)
     漢字ヒント: 「月」(body) + 「戸」(door) の形に見える
@@ -399,6 +412,7 @@
   prompt: hair
   answers:
     - 髪
+    - かみ
   hint: kami — 「髪の毛」 means “head hair.” Distinguish from 紙 (paper) and 神 (god).
   strokeCount: 14
   stage: -1
@@ -446,6 +460,7 @@
   prompt: to take care of oneself
   answers:
     - 体に気をつける
+    - からだにきをつける
   hint: 'karada ni ki o tsukeru — literal: "pay attention to your body"; often used
     as 体に気をつけてね (Take care!)'
   stage: -1
@@ -493,6 +508,7 @@
   prompt: brothers and sisters
   answers:
     - 兄弟
+    - きょうだい
   hint: 'kyoudai — siblings (usually refers to brothers/siblings; for “sisters” only:
     姉妹)'
   stage: -1
@@ -517,6 +533,7 @@
   prompt: to put on (clothes above your waist)
   answers:
     - 着る
+    - きる
   hint: kiru — for wearing on your upper body (e.g., シャツを着る). Not 切る (to cut).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -540,6 +557,7 @@
   prompt: mouth
   answers:
     - 口
+    - くち
   hint: kuchi — 3 strokes; looks like a box (mouth opening)
   strokeCount: 3
   stage: -1
@@ -564,6 +582,7 @@
   prompt: neck
   answers:
     - 首
+    - くび
   hint: kubi (neck). Also used in phrases like 首になる (to get fired). 9 strokes.
   strokeCount: 9
   stage: -1
@@ -588,6 +607,7 @@
   prompt: car
   answers:
     - 車
+    - くるま
   hint: kuruma — 7 strokes; also used in words like 電車 (train) and 自動車 (automobile).
   strokeCount: 7
   stage: -1
@@ -612,6 +632,7 @@
   prompt: to get married
   answers:
     - 結婚する
+    - けっこんする
   hint: 'kekkon suru — common pattern: 結婚します／結婚しました (to marry/get married)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -658,6 +679,7 @@
   prompt: I know
   answers:
     - 知っています
+    - しっています
   hint: 'shitteimasu — polite form of 知る (to know). Often used as: 〜を知っています (I know
     ~).'
   stage: -1
@@ -678,6 +700,7 @@
   prompt: cram school
   answers:
     - 塾
+    - じゅく
   hint: juku — after-school prep academy (often for exams); 14 strokes
   strokeCount: 14
   stage: -1
@@ -702,6 +725,7 @@
   prompt: cafeteria; dining commons
   answers:
     - 食堂
+    - しょくどう
   hint: shokudou — a place to eat (often in schools/companies). 食 = food, 堂 = hall
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -725,6 +749,7 @@
   prompt: buttocks
   answers:
     - 尻
+    - しり
   hint: shiri — common word for “butt”; often in 尻尾(しっぽ) “tail”
   strokeCount: 5
   stage: -1
@@ -749,6 +774,7 @@
   prompt: I do not know
   answers:
     - 知りません
+    - しりません
   hint: shirimasen — polite negative of 知る (to know). Often used as 「知りません」 / 「知りませんでした」.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -772,6 +798,7 @@
   prompt: to get to know
   answers:
     - 知る
+    - しる
   hint: shiru (u-verb) — to come to know/learn a fact; often used as 知っている for “to
     know (state)”
   stage: -1
@@ -796,6 +823,7 @@
   prompt: kind
   answers:
     - 親切
+    - しんせつ
   hint: 'shinsetsu(na) - な-adj: 親切な人 (a kind person); often used for being considerate/helpful'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -819,6 +847,7 @@
   prompt: a little
   answers:
     - 少し
+    - すこし
   hint: 'sukoshi — often used with negatives: 少しも〜ない (not even a little)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -842,6 +871,7 @@
   prompt: to live (to reside)
   answers:
     - 住む
+    - すむ
   hint: |-
     sumu — to live/reside at a place (住む in + location に)
     Usage: 東京に住む = live in Tokyo
@@ -867,6 +897,7 @@
   prompt: tall (stature)
   answers:
     - 背が高い
+    - せがたかい
   hint: 'se ga takai — used for a person''s height (stature). Often: 背が高いです。'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -890,6 +921,7 @@
   prompt: short (stature)
   answers:
     - 背が低い
+    - せがひくい
   hint: se ga hikui — used for a person's height (stature), not for objects.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -913,6 +945,7 @@
   prompt: back (body)
   answers:
     - 背中
+    - せなか
   hint: senaka — the back of the body (not a “background” or “back side” of an object)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -936,6 +969,7 @@
   prompt: to look forward (to)
   answers:
     - 楽しみにする
+    - たのしみにする
   hint: tanoshimi ni suru — use with 〜を (e.g., 旅行を楽しみにしています = I’m looking forward
     to the trip)
   stage: -1
@@ -960,6 +994,7 @@
   prompt: (my) father
   answers:
     - 父
+    - ちち
   hint: chichi — humble form for your own father (vs お父さん for someone else’s). 4 strokes.
   strokeCount: 4
   stage: -1
@@ -984,6 +1019,7 @@
   prompt: hand; arm
   answers:
     - 手
+    - て
   hint: 'te — 4 strokes (meaning: hand)'
   strokeCount: 4
   stage: -1
@@ -1031,6 +1067,7 @@
   prompt: to take (a class); to get (a grade)
   answers:
     - 取る
+    - とる
   hint: toru — used for taking a class/course (授業を取る) or getting a grade/points (点を取る).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1054,6 +1091,7 @@
   prompt: long
   answers:
     - 長い
+    - ながい
   hint: 'nagai — い-adj. meaning “long” (length/time). Often used as: 長い間 (a long time),
     髪が長い (hair is long).'
   stage: -1
@@ -1078,6 +1116,7 @@
   prompt: not ... anything (used with a negative verb)
   answers:
     - 何も
+    - なにも
   hint: nani mo + NEGATIVE (e.g., 何もない = there isn't anything; 何も食べない = don't eat
     anything)
   stage: -1
@@ -1102,6 +1141,7 @@
   prompt: '[counter for people]'
   answers:
     - ～人
+    - ～にん
   hint: |-
     〜nin / 〜jin — counter suffix for people.
     Readings vary: 一人 hitori, 二人 futari, 三人 sannin, 四人 yonin, 何人 nan-nin.
@@ -1128,6 +1168,7 @@
   prompt: tooth
   answers:
     - 歯
+    - は
   hint: |-
     ha — means “tooth”; note this is 歯 (tooth), not は (hiragana particle “wa”)
     12 strokes
@@ -1177,6 +1218,7 @@
   prompt: to work
   answers:
     - 働く
+    - はたらく
   hint: hataraku (u-verb) — often used for working at a job; kanji has the 亻(person)
     radical on the left
   stage: -1
@@ -1201,6 +1243,7 @@
   prompt: nose
   answers:
     - 鼻
+    - はな
   hint: hana — 14 strokes. Looks like 自 on top; remember it’s the body part you breathe
     with.
   strokeCount: 14
@@ -1226,6 +1269,7 @@
   prompt: (my) mother
   answers:
     - 母
+    - はは
   hint: 'haha — used for your own mother (humble). For someone else’s mother: お母さん
     (okaasan).'
   strokeCount: 5
@@ -1251,6 +1295,7 @@
   prompt: fast
   answers:
     - 速い
+    - はやい
   hint: hayai — 速い is “fast/quick” (speed). Often contrasted with 早い (early).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1274,6 +1319,7 @@
   prompt: one person
   answers:
     - 一人
+    - ひとり
   hint: hitori — counter for people; can also mean "alone" depending on context
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1297,6 +1343,7 @@
   prompt: two people
   answers:
     - 二人
+    - ふたり
   hint: futari — counter/expression for two people (irregular; 1人=ひとり, 2人=ふたり)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1320,6 +1367,7 @@
   prompt: to be on the heavy side
   answers:
     - 太っています
+    - ふとっています
   hint: futotte imasu (polite progressive) — describes a current/ongoing state of
     being overweight
   stage: -1
@@ -1344,6 +1392,7 @@
   prompt: to gain weight; overweight
   answers:
     - 太る
+    - ふとる
   hint: futoru (u-verb) — to gain weight (body). Often used as 太った “got fat/put on
     weight.”
   stage: -1
@@ -1368,6 +1417,7 @@
   prompt: nothing in particular (used with negatives)
   answers:
     - 別に
+    - べつに
   hint: betsuni — usually followed by a negative (e.g., 別に〜ない) to mean “not really
     / nothing in particular”
   stage: -1
@@ -1392,6 +1442,7 @@
   prompt: convenient
   answers:
     - 便利
+    - べんり
   hint: benri (na-adj) — often used as 便利な + noun / 便利です
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1415,6 +1466,7 @@
   prompt: eyebrow
   answers:
     - 眉毛
+    - まゆげ
   hint: mayuge — written with 眉 (eyebrow) + 毛 (hair/fur). Often used as 眉毛が太い/薄い (thick/thin
     eyebrows).
   stage: -1
@@ -1439,6 +1491,7 @@
   prompt: short (length)
   answers:
     - 短い
+    - みじかい
   hint: mijikai — length/time is short (shorter than expected)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1462,6 +1515,7 @@
   prompt: ear
   answers:
     - 耳
+    - みみ
   hint: mimi — 6 strokes (looks like an ear shape on the side of a head)
   strokeCount: 6
   stage: -1
@@ -1509,6 +1563,7 @@
   prompt: breast
   answers:
     - 胸
+    - むね
   hint: mune — also means "chest"; often used as 胸が痛い (my heart/chest hurts)
   strokeCount: 10
   stage: -1
@@ -1533,6 +1588,7 @@
   prompt: eye
   answers:
     - 目
+    - め
   hint: me — 5 strokes; the box shape should close neatly
   strokeCount: 5
   stage: -1
@@ -1557,6 +1613,7 @@
   prompt: glasses
   answers:
     - 眼鏡
+    - めがね
   hint: megane — usually written in kana (めがね) in everyday use, but this is the kanji
     form.
   stage: -1
@@ -1651,6 +1708,7 @@
   prompt: finger
   answers:
     - 指
+    - ゆび
   hint: yubi — 9 strokes; means “finger/to point” depending on context
   strokeCount: 9
   stage: -1

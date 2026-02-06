@@ -2,6 +2,7 @@
   prompt: to open (something)
   answers:
     - 開ける
+    - あける
   hint: 'akeru — transitive: opens something (e.g., ドアを開ける). Contrast with 開く (to
     open by itself / to be open).'
   stage: -1
@@ -26,6 +27,7 @@
   prompt: to play; to spend time pleasantly
   answers:
     - 遊ぶ
+    - あそぶ
   hint: 'asobu (遊ぶ) — u-verb. Used for playing (games) or hanging out: 友だちと遊ぶ'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -49,6 +51,7 @@
   prompt: later on
   answers:
     - 後で
+    - あとで
   hint: atode — used for “later/afterwards” (e.g., あとで電話する = I'll call you later)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -72,6 +75,7 @@
   prompt: to hurry
   answers:
     - 急ぐ
+    - いそぐ
   hint: isogu (u-verb) — often used for “hurry (to do something)” like 急いで！
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -164,6 +168,7 @@
   prompt: station
   answers:
     - 駅
+    - えき
   hint: eki — train/subway station; kanji has 14 strokes
   strokeCount: 14
   stage: -1
@@ -188,6 +193,7 @@
   prompt: money
   answers:
     - お金
+    - おかね
   hint: okane — polite/common word for money (often written お金)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -211,6 +217,7 @@
   prompt: to teach; to instruct
   answers:
     - 教える
+    - おしえる
   hint: 'oshieru (ru-verb) — to teach/tell someone (often takes に for the person,
     を for the content): 先生が学生に日本語を教える'
   stage: -1
@@ -235,6 +242,7 @@
   prompt: to get off (a vehicle; to go down/descend)
   answers:
     - 降りる
+    - おりる
   hint: oriru — used for getting off a train/bus/car, or descending (e.g., stairs,
     mountain).
   stage: -1
@@ -259,6 +267,7 @@
   prompt: to return (a thing)
   answers:
     - 返す
+    - かえす
   hint: 'kaesu — to give something back/return an item (transitive). Often used with
     に: 本を図書館に返す'
   stage: -1
@@ -283,6 +292,7 @@
   prompt: corner
   answers:
     - 角
+    - かど
   hint: |-
     kado (also かく)
     7 strokes
@@ -310,6 +320,7 @@
   prompt: money
   answers:
     - 金
+    - かね
   hint: kane / kin — 8 strokes; also means “gold/metal” depending on context
   strokeCount: 8
   stage: -1
@@ -334,6 +345,7 @@
   prompt: to borrow
   answers:
     - 借りる
+    - かりる
   hint: kariru (ru-verb) — borrow (something) from someone; e.g., 友だちに本を借りる
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -357,6 +369,7 @@
   prompt: kanji; Chinese character
   answers:
     - 漢字
+    - かんじ
   hint: kanji — Japanese writing using Chinese characters (e.g., 漢字 vs かな).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -380,6 +393,7 @@
   prompt: north
   answers:
     - 北
+    - きた
   hint: 'kita — 5 strokes. Looks like a person (匕) next to a line; direction: north.'
   strokeCount: 5
   stage: -1
@@ -404,6 +418,7 @@
   prompt: textbook
   answers:
     - 教科書
+    - きょうかしょ
   hint: kyoukasho — used for school textbooks (e.g., 学校の教科書).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -427,6 +442,7 @@
   prompt: country; place of origin
   answers:
     - 国
+    - くに
   hint: kuni — also used for “home country” (自分の国). 8 strokes.
   strokeCount: 8
   stage: -1
@@ -451,6 +467,7 @@
   prompt: to turn off; to erase
   answers:
     - 消す
+    - けす
   hint: kesu (u-verb) — used for switching off lights/TV (電気を消す) or erasing writing
     (字を消す)
   stage: -1
@@ -472,9 +489,10 @@
       That's an eraser (the object).
       The prompt is asking for the action verb.
 - id: g-06-kekko
-  prompt: That would be fine.; That wouldn’t be necessary.
+  prompt: That would be fine.; That wouldn't be necessary.
   answers:
     - 結構です
+    - けっこうです
   hint: kekkou desu — often a polite refusal (e.g., 「いいえ、結構です」 = “No thanks”). Can
     also mean “That’s fine/OK.”
   stage: -1
@@ -522,6 +540,7 @@
   prompt: to die
   answers:
     - 死ぬ
+    - しぬ
   hint: shinu (u-verb) — intransitive; plain form 死ぬ, past 死んだ
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -545,6 +564,7 @@
   prompt: to close (something)
   answers:
     - 閉める
+    - しめる
   hint: 'shimeru — transitive: close something (e.g., ドアを閉める). Contrast: 閉まる = something
     closes.'
   stage: -1
@@ -592,6 +612,7 @@
   prompt: to take a shower
   answers:
     - シャワーを浴びる
+    - シャワーをあびる
   hint: shawaa o abiru (ru-verb) — 「浴びる」= to bathe in (shower/light/etc.)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -615,6 +636,7 @@
   prompt: traffic light
   answers:
     - 信号
+    - しんごう
   hint: shingou — 信=trust/belief + 号=number/sign → a “signal” (traffic light).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -662,6 +684,7 @@
   prompt: to sit down
   answers:
     - 座る
+    - すわる
   hint: 'suwaru (to sit down; intransitive u-verb). Common pattern: いすに座る = sit on
     a chair.'
   stage: -1
@@ -686,6 +709,7 @@
   prompt: to stand up
   answers:
     - 立つ
+    - たつ
   hint: tatsu (u-verb) — to stand up / to rise to a standing position
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -709,6 +733,7 @@
   prompt: to smoke
   answers:
     - たばこを吸う
+    - たばこをすう
   hint: tabako o suu — literally “to inhale cigarettes”; note を + verb 吸う(すう)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -732,6 +757,7 @@
   prompt: to use
   answers:
     - 使う
+    - つかう
   hint: tsukau — used for using a tool/means (e.g., お金を使う, ペンを使う)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -755,6 +781,7 @@
   prompt: next
   answers:
     - 次
+    - つぎ
   hint: tsugi — 6 strokes; meaning “next” (sequence/order)
   strokeCount: 6
   stage: -1
@@ -803,6 +830,7 @@
   prompt: to bring (a person)
   answers:
     - 連れてくる
+    - つれてくる
   hint: tsurete kuru — bring someone along (person/animal), not an object; often used
     with を (e.g., 子どもを連れてくる).
   stage: -1
@@ -827,6 +855,7 @@
   prompt: to help
   answers:
     - 手伝う
+    - てつだう
   hint: tetsudau (help/assist someone; often used with を, e.g., 仕事を手伝う)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -850,6 +879,7 @@
   prompt: to appear; to attend; to exit
   answers:
     - 出る
+    - でる
   hint: 'deru — “to come/go out; to show up” (intransitive ru-verb). Often with に/を/へ:
     外に出る (go outside), 会議に出る (attend a meeting).'
   stage: -1
@@ -874,6 +904,7 @@
   prompt: train
   answers:
     - 電車
+    - でんしゃ
   hint: densha — common noun; 電=electric, 車=vehicle
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -897,6 +928,7 @@
   prompt: to call
   answers:
     - 電話する
+    - でんわする
   hint: denwa suru - to make a phone call (する-verb; often used as 電話する/電話をする)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -920,6 +952,7 @@
   prompt: west
   answers:
     - 西
+    - にし
   hint: nishi; 6 strokes. Looks like a box with a vertical line and two short lines
     inside.
   strokeCount: 6
@@ -945,6 +978,7 @@
   prompt: baggage
   answers:
     - 荷物
+    - にもつ
   hint: nimotsu — luggage/cargo (often used for someone’s bags while traveling)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -968,6 +1002,7 @@
   prompt: to enter
   answers:
     - 入る
+    - はいる
   hint: |-
     hairu — intransitive: to enter (a place)
     Pattern: ～に入る (enter), ～に入っている (be inside)
@@ -1016,6 +1051,7 @@
   prompt: east
   answers:
     - 東
+    - ひがし
   hint: higashi; 8 strokes
   strokeCount: 8
   stage: -1
@@ -1063,6 +1099,7 @@
   prompt: left side
   answers:
     - 左側
+    - ひだりがわ
   hint: 'hidarigawa — 左 (left) + 側 (side). Often used for locations/positions: 左側にあります
     = It''s on the left side.'
   stage: -1
@@ -1087,6 +1124,7 @@
   prompt: first (the first one; first item)
   answers:
     - 一つ目
+    - ひとつめ
   hint: 'hitotsume — counters/ordering: 一つ目、二つ目… (often used when listing items)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1110,6 +1148,7 @@
   prompt: second
   answers:
     - 二つ目
+    - ふたつめ
   hint: 'futatsume — use when counting/order: "the second one" (e.g., 二つ目の理由 = the
     second reason)'
   stage: -1
@@ -1157,6 +1196,7 @@
   prompt: Really? (Is that true?)
   answers:
     - 本当ですか
+    - ほんとうですか
   hint: hontou desu ka — polite confirmation; often said with rising intonation
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1180,6 +1220,7 @@
   prompt: to turn (right/left)
   answers:
     - 曲がる
+    - まがる
   hint: 'magaru — intransitive: something turns/bends (e.g., 道が曲がる). Often used with
     右に/左に.'
   stage: -1
@@ -1228,6 +1269,7 @@
   prompt: right side
   answers:
     - 右側
+    - みぎがわ
   hint: migigawa — 「右」(right) + 「側」(side). Used for location/position (e.g., 右側にあります).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1251,6 +1293,7 @@
   prompt: third
   answers:
     - 三つ目
+    - みっつめ
   hint: 'mittsume — ordinal form using ～つ: ひとつめ/ふたつめ/みっつめ'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1274,6 +1317,7 @@
   prompt: everyone; all of you
   answers:
     - 皆さん
+    - みなさん
   hint: 'minasan — polite way to address a group (like “everyone”). Often used at
     the start of a speech: 皆さん、こんにちは。'
   stage: -1
@@ -1298,6 +1342,7 @@
   prompt: south
   answers:
     - 南
+    - みなみ
   hint: minami (みなみ) — direction word; 9 strokes
   strokeCount: 9
   stage: -1
@@ -1322,6 +1367,7 @@
   prompt: to carry; to hold
   answers:
     - 持つ
+    - もつ
   hint: 'motsu — to hold/carry (in your hand or to have). Often used with を: かばんを持つ'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1345,6 +1391,7 @@
   prompt: to bring (a thing)
   answers:
     - 持ってくる
+    - もってくる
   hint: motte kuru — bring something toward the speaker / to here (often from somewhere
     else)
   stage: -1
@@ -1369,6 +1416,7 @@
   prompt: to be absent (from); to rest
   answers:
     - 休む
+    - やすむ
   hint: yasumu — can mean “rest/sleep” or “take time off (work/school)”; 休 = person
     (亻) + tree (木)
   stage: -1
@@ -1417,6 +1465,7 @@
   prompt: cooking; dish
   answers:
     - 料理
+    - りょうり
   hint: ryouri — refers to cooking or a prepared dish/food (e.g., 日本料理).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1463,6 +1512,7 @@
   prompt: to forget; to leave behind
   answers:
     - 忘れる
+    - わすれる
   hint: wasureru (ru-verb) — 忘 = “to forget” (heart/mind is gone)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1486,6 +1536,7 @@
   prompt: to cross
   answers:
     - 渡る
+    - わたる
   hint: wataru — to cross (a river/road); also “to go across/over” or “to pass through”
     (e.g., time/season)
   stage: -1

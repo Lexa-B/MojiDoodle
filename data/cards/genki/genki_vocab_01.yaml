@@ -2,6 +2,7 @@
   prompt: Asian studies
   answers:
     - アジア研究
+    - アジアけんきゅう
   hint: ajia kenkyuu — academic field studying Asia; 「研究」= research/study
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -632,7 +633,8 @@
   prompt: '... language (suffix)'
   answers:
     - ～語
-  hint: ~go (suffix). Attach to a country/region/name to mean “(that) language” (e.g.,
+    - ～ご
+  hint: ~go (suffix). Attach to a country/region/name to mean "(that) language" (e.g.,
     日本語, 英語).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -844,10 +846,16 @@
     toast: |-
       Too many long-vowel marks.
       There should be only one at the end.
+  - answers:
+      - パソコン
+    toast: |-
+      That's "personal computer"!
+      The prompt is asking for the general word.
 - id: g-01-sai-suf
   prompt: '... years old (age suffix)'
   answers:
     - ～歳
+    - ～さい
   hint: '～さい (sai) — attach to a number: 20歳 (はたち), 1歳 (いっさい), 8歳 (はっさい)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -965,10 +973,11 @@
       That means "thirty minutes".
       Check whether there's an extra 十 in the number.
 - id: g-01-ji-suf
-  prompt: o’clock (suffix; used after a number)
+  prompt: o'clock (suffix; used after a number)
   answers:
     - ～時
-  hint: '〜じ (ji) — attach to a time number: 1時=いちじ (1 o’clock), 7時=しちじ/ななじ'
+    - ～じ
+  hint: "〜じ (ji) — attach to a time number: 1時=いちじ (1 o'clock), 7時=しちじ/ななじ"
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
@@ -1378,6 +1387,7 @@
   prompt: '... people (suffix, e.g., American → アメリカ人)'
   answers:
     - ～人
+    - ～じん
   hint: ~jin (suffix). Attach to a country/region name to mean 'a person from ~' (e.g.,
     日本人 にほんじん).
   stage: -1
@@ -1986,6 +1996,7 @@
   prompt: '... year student'
   answers:
     - ～年生
+    - ～ねんせい
   hint: ～nensei — attach to a number for school year (e.g., 一年生 = first-year student).
     The ～ is a placeholder; write the kanji + 生.
   stage: -1
@@ -2106,8 +2117,9 @@
   prompt: half (suffix)
   answers:
     - 半
+    - はん
   hint: |-
-    han — used as a suffix meaning “half” (e.g., 半分＝half)
+    han — used as a suffix meaning "half" (e.g., 半分＝half)
     5 strokes
   strokeCount: 5
   stage: -1
@@ -2132,8 +2144,9 @@
   prompt: number ... (counter suffix)
   answers:
     - ～番
-  hint: ~ban — suffix used to label a number/order (e.g., 1番 = ichiban, “No. 1” /
-    “first”)
+    - ～ばん
+  hint: ~ban — suffix used to label a number/order (e.g., 1番 = ichiban, "No. 1" /
+    "first")
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
@@ -2198,10 +2211,11 @@
       That's a "business hotel"!
       It's a compound word; the prompt is just the general concept.
   - answers:
-      - ビジネス
+      - 会社
+      - かいしゃ
     toast: |-
-      Check your strokes and character shapes.
-      Katakana needs sharp angles and clear separations, especially around ジ and ネ.
+      That's "company"!
+      The prompt is asking for the general word.
 - id: g-01-phils
   prompt: Philippines
   answers:

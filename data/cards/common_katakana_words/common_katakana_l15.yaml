@@ -1,0 +1,160 @@
+- id: ckw-l15-3243
+  prompt: part-time job, part
+  answers:
+    - パート
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l15-3266
+  prompt: mini
+  answers:
+    - ミニ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l15-3267
+  prompt: apartment
+  answers:
+    - アパート
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - マンション
+    toast: |-
+      Different building type
+      マンション usually refers to a sturdier, often concrete, apartment/condominium.
+- id: ckw-l15-3282
+  prompt: season
+  answers:
+    - シーズン
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l15-3291
+  prompt: zero
+  answers:
+    - ゼロ
+  hint: numeral
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l15-3292
+  prompt: tomato
+  answers:
+    - トマト
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l15-3302
+  prompt: loan
+  answers:
+    - ローン
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l15-3306
+  prompt: web, website
+  answers:
+    - ウェブ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - ウエブ
+    toast: |-
+      Alternate spelling without the small vowel character.
+      Watch for the small vowel that changes the pronunciation.
+  - answers:
+      - ネット
+    toast: |-
+      That's 'net' or 'internet'.
+      Related concept but a more general term.
+  - answers:
+      - ウェーブ
+    toast: |-
+      Means 'wave' (e.g., a hairstyle or physical wave).
+      Sounds similar but has a different meaning.
+  - answers:
+      - サイト
+    toast: |-
+      Means 'site'.
+      Often combined with other words to mean a website, but it's not this single loanword.
+- id: ckw-l15-3310
+  prompt: oil
+  answers:
+    - オイル
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l15-3313
+  prompt: body
+  answers:
+    - ボディー
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l15-3319
+  prompt: size
+  answers:
+    - サイズ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l15-3332
+  prompt: cheese
+  answers:
+    - チーズ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l15-3345
+  prompt: stage
+  answers:
+    - ステージ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l15-3348
+  prompt: pack
+  answers:
+    - パック
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l15-3355
+  prompt: rubber
+  answers:
+    - ゴム
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - ガム
+    toast: |-
+      Sounds similar!
+      This one means chewing gum, not the stretchy material.
+  - answers:
+      - ケシゴム
+    toast: |-
+      This refers to an eraser.
+      Be careful — the card expects the general material/elastic, not the eraser.
+  - answers:
+      - ラバー
+    toast: |-
+      A loanword from English used in some product or sports contexts.
+      It's a different term and isn't always interchangeable.

@@ -1,0 +1,145 @@
+- id: ckw-l21-4004
+  prompt: option
+  answers:
+    - オプション
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l21-4017
+  prompt: double
+  answers:
+    - ダブル
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l21-4018
+  prompt: ticket
+  answers:
+    - チケット
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l21-4034
+  prompt: item
+  answers:
+    - アイテム
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l21-4074
+  prompt: install
+  answers:
+    - インストール
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l21-4084
+  prompt: debut
+  answers:
+    - デビュー
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l21-4090
+  prompt: kitchen
+  answers:
+    - キッチン
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l21-4092
+  prompt: channel
+  answers:
+    - チャンネル
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - チャネル
+    toast: |-
+      Close, but this version omits the ン that indicates the 'n' sound before ネ.
+      Be sure to include that consonant.
+  - answers:
+      - チヤンネル
+    toast: |-
+      This uses a full-size ヤ instead of the small ャ.
+      The loanword uses a small ャ to produce the 'cha' sound.
+- id: ckw-l21-4106
+  prompt: belt
+  answers:
+    - ベルト
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l21-4122
+  prompt: concrete
+  answers:
+    - コンクリート
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l21-4133
+  prompt: school
+  answers:
+    - スクール
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l21-4134
+  prompt: story
+  answers:
+    - ストーリー
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - ストーリ
+    toast: |-
+      Watch the long vowel mark!
+      This form is missing the long vowel and is not the standard spelling.
+  - answers:
+      - シナリオ
+    toast: |-
+      Related word meaning scenario or script.
+      Different nuance from the borrowed word for 'story'.
+  - answers:
+      - ストロー
+    toast: |-
+      Sounds similar but means straw.
+      Pay attention to the ending vowel sound.
+- id: ckw-l21-4145
+  prompt: diet
+  answers:
+    - ダイエット
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l21-4161
+  prompt: suit
+  answers:
+    - スーツ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l21-4162
+  prompt: disk, disc
+  answers:
+    - ディスク
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []

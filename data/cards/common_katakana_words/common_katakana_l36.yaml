@@ -1,0 +1,175 @@
+- id: ckw-l36-5967
+  prompt: auto, automatic
+  answers:
+    - オート
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - オートマ
+    toast: |-
+      That's short for "automatic transmission" (オートマチック).
+      Use that when talking specifically about cars' transmissions.
+  - answers:
+      - アウト
+    toast: |-
+      This means "out" (like in baseball or "no good").
+      Different meaning and vowel length — watch the long vowel mark.
+- id: ckw-l36-5975
+  prompt: database
+  answers:
+    - データーベース
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - データベース
+    toast: |-
+      Check the long-vowel placement!
+      There are multiple katakana spellings; pay attention to where the long vowel mark appears.
+  - answers:
+      - データ
+    toast: |-
+      That's just "data".
+      This prompt asks for the full compound meaning (a stored collection), not the raw data itself.
+- id: ckw-l36-5978
+  prompt: rope
+  answers:
+    - ロープ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l36-5986
+  prompt: column, newspaper article
+  answers:
+    - コラム
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - コロン
+    toast: |-
+      Sounds similar but refers to the punctuation mark ':'
+      Not an article or opinion piece.
+  - answers:
+      - カラム
+    toast: |-
+      Often used in technical contexts like databases or spreadsheets.
+      The everyday word for a newspaper/magazine piece is spelled differently in katakana.
+- id: ckw-l36-5992
+  prompt: lymph
+  answers:
+    - リンパ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l36-5994
+  prompt: straight
+  answers:
+    - ストレート
+  hint: noun (な-adj)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l36-6001
+  prompt: major
+  answers:
+    - メジャー
+  hint: noun (な-adj)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l36-6004
+  prompt: go
+  answers:
+    - ゴー
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - ゴ
+    toast: |-
+      Check the long vowel.
+      Katakana often uses ー to show a prolonged sound.
+  - answers:
+      - ゴウ
+    toast: |-
+      Different spelling!
+      Using ウ produces a different syllable and can change the meaning.
+  - answers:
+      - スタート
+    toast: |-
+      That's start.
+      Similar concept in English, but it's a different loanword in Japanese.
+- id: ckw-l36-6014
+  prompt: label
+  answers:
+    - ラベル
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - レーベル
+    toast: |-
+      Often refers to a record or brand label
+      Different spelling and usage from the sticker/identification meaning.
+  - answers:
+      - レベル
+    toast: |-
+      Sounds similar but means “level” or “degree”
+      Not the word for a physical label or tag.
+- id: ckw-l36-6016
+  prompt: tag
+  answers:
+    - タグ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l36-6017
+  prompt: Mr., mister
+  answers:
+    - ミスター
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l36-6036
+  prompt: seven
+  answers:
+    - セブン
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l36-6038
+  prompt: tea
+  answers:
+    - ティー
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l36-6041
+  prompt: TV personality, celebrity
+  answers:
+    - タレント
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l36-6051
+  prompt: cancel
+  answers:
+    - キャンセル
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []

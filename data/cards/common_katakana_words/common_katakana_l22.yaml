@@ -1,0 +1,165 @@
+- id: ckw-l22-4181
+  prompt: milk
+  answers:
+    - ミルク
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l22-4187
+  prompt: salaryman, office worker
+  answers:
+    - サラリーマン
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l22-4188
+  prompt: switch
+  answers:
+    - スイッチ
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l22-4202
+  prompt: machine
+  answers:
+    - マシン
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - マシーン
+    toast: |-
+      Alternate spelling using a long vowel mark.
+      Check whether the shorter or longer form is used in your study set.
+  - answers:
+      - マシンガン
+    toast: |-
+      A different loanword meaning "machine gun".
+      Looks similar but is a longer compound and not the same term.
+- id: ckw-l22-4217
+  prompt: food, hood
+  answers:
+    - フード
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - フォード
+    toast: |-
+      That's the car brand 'Ford' or the English word for a shallow river crossing.
+      Different from the loanword meaning 'food' or the clothing hood.
+  - answers:
+      - フーズ
+    toast: |-
+      Looks like the plural 'foods' or company names that include 'Foods'.
+      Used differently from the common loanword for the concept of food or a jacket hood.
+- id: ckw-l22-4220
+  prompt: tunnel
+  answers:
+    - トンネル
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l22-4226
+  prompt: ion, Aeon
+  answers:
+    - イオン
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l22-4245
+  prompt: panel
+  answers:
+    - パネル
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l22-4257
+  prompt: report
+  answers:
+    - レポート
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l22-4271
+  prompt: boom, craze
+  answers:
+    - ブーム
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l22-4272
+  prompt: life
+  answers:
+    - ライフ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l22-4273
+  prompt: date (romantic)
+  answers:
+    - デート
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - デイト
+    toast: |-
+      Check your spelling!
+      The standard Japanese spelling uses ー (long vowel mark).
+  - answers:
+      - データ
+    toast: |-
+      Different word.
+      This means "data" and is unrelated to going out together.
+  - answers:
+      - デイ
+    toast: |-
+      This reads as "day" or appears in compound words.
+      It doesn't mean a romantic outing.
+- id: ckw-l22-4283
+  prompt: mouse, computer mouse
+  answers:
+    - マウス
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - ラット
+    toast: |-
+      That's "rat" — a different rodent.
+      'ラット' usually refers to larger rodents often used in labs.
+  - answers:
+      - マウスパッド
+    toast: |-
+      That's "mouse pad" — the pad used under a pointing device.
+      It refers to the accessory, not the pointing device itself.
+- id: ckw-l22-4284
+  prompt: folder
+  answers:
+    - フォルダー
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l22-4302
+  prompt: ice cream, ice
+  answers:
+    - アイス
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []

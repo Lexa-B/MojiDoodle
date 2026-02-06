@@ -1,0 +1,170 @@
+- id: ckw-l30-5198
+  prompt: boat
+  answers:
+    - ボート
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - ボード
+    toast: |-
+      Careful — this katakana means "board" (e.g. skateboard, whiteboard).
+      The pronunciation and meaning differ.
+  - answers:
+      - モーターボート
+    toast: |-
+      A longer compound that specifies a motorized craft.
+      Used when emphasizing an engine rather than the shorter term.
+- id: ckw-l30-5212
+  prompt: plaza
+  answers:
+    - プラザ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l30-5216
+  prompt: mat
+  answers:
+    - マット
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l30-5221
+  prompt: opera
+  answers:
+    - オペラ
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l30-5225
+  prompt: shot
+  answers:
+    - ショット
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l30-5241
+  prompt: heart
+  answers:
+    - ハート
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l30-5242
+  prompt: long
+  answers:
+    - ロング
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l30-5254
+  prompt: trousers, pants
+  answers:
+    - ズボン
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - パンツ
+    toast: |-
+      Often used to mean 'underwear' in Japanese.
+      Be careful — it doesn't always refer to outer trousers.
+  - answers:
+      - ズポン
+    toast: |-
+      Common misspelling: the consonant is unvoiced here.
+      Check whether the middle sound should be voiced.
+  - answers:
+      - スボン
+    toast: |-
+      Missing the dakuten (゛).
+      That small mark changes the pronunciation.
+- id: ckw-l30-5255
+  prompt: category
+  answers:
+    - カテゴリー
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - カテゴリ
+    toast: |-
+      Shorter spelling sometimes used in casual or technical contexts.
+      Watch vowel length — this is a different orthography.
+  - answers:
+      - ジャンル
+    toast: |-
+      Means genre in Japanese.
+      A related concept, but not the same meaning as category.
+- id: ckw-l30-5259
+  prompt: missile
+  answers:
+    - ミサイル
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - ロケット
+    toast: |-
+      That's 'rocket'!
+      ロケット usually refers to rockets or spacecraft, a different concept from a weapon-like projectile.
+- id: ckw-l30-5263
+  prompt: monitor
+  answers:
+    - モニター
+  hint: verbal noun (する verb)
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers:
+  - answers:
+      - モニタ
+    toast: |-
+      Check your spelling!
+      The long vowel is usually written with ー in this word.
+  - answers:
+      - モニタリング
+    toast: |-
+      That's the 'monitoring' form — a different word/usage.
+      This card expects the base loanword used as a noun/する verb.
+- id: ckw-l30-5264
+  prompt: lesson
+  answers:
+    - レッスン
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l30-5270
+  prompt: manual
+  answers:
+    - マニュアル
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l30-5277
+  prompt: board
+  answers:
+    - ボード
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []
+- id: ckw-l30-5286
+  prompt: letter U
+  answers:
+    - ユー
+  hint: noun
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  befuddlers: []

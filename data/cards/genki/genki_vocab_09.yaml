@@ -2,6 +2,7 @@
   prompt: blue
   answers:
     - 青い
+    - あおい
   hint: aoi — い-adj. describing the color blue; becomes 青く (adverb) / 青かった (past)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -25,6 +26,7 @@
   prompt: green light
   answers:
     - 青信号
+    - あおしんごう
   hint: aoshin-gou — literally “blue signal,” but it means a green traffic light in
     Japanese
   stage: -1
@@ -49,6 +51,7 @@
   prompt: red
   answers:
     - 赤い
+    - あかい
   hint: akai — い-adjective meaning “red” (e.g., 赤いりんご = a red apple)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -72,6 +75,7 @@
   prompt: to show (someone) around
   answers:
     - 案内する
+    - あんないする
   hint: 'annai suru — to guide/lead someone (e.g., around a building or city). Often
     used as: 〜を案内する'
   stage: -1
@@ -96,6 +100,7 @@
   prompt: good child
   answers:
     - いい子
+    - いいこ
   hint: ii ko — often used praising a kid (e.g., いい子だね). 子 = "child".
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -119,6 +124,7 @@
   prompt: mean-spirited
   answers:
     - 意地悪
+    - いじわる
   hint: ijiwaru (na) — describes someone being nasty/unkind on purpose; often used
     like 意地悪な人
   stage: -1
@@ -143,6 +149,7 @@
   prompt: five
   answers:
     - 五つ
+    - いつつ
   hint: itsutsu — the native Japanese counting word for 5 (used for general items;
     ends in 〜つ).
   stage: -1
@@ -167,6 +174,7 @@
   prompt: color
   answers:
     - 色
+    - いろ
   hint: iro — common noun for color; also used in 色々(いろいろ) = various
   strokeCount: 6
   stage: -1
@@ -217,6 +225,7 @@
   prompt: to exercise
   answers:
     - 運動する
+    - うんどうする
   hint: undou suru — do physical exercise; often used with が/を (e.g., 毎日運動する)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -240,6 +249,7 @@
   prompt: to dance
   answers:
     - 踊る
+    - おどる
   hint: odoru — u-verb; often used for dancing (e.g., ダンスを踊る / 盆踊り).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -263,6 +273,7 @@
   prompt: boxed lunch
   answers:
     - お弁当
+    - おべんとう
   hint: 'obentou — polite お + 弁当; common phrase: お弁当を作る (to make a bento)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -286,6 +297,7 @@
   prompt: to memorize
   answers:
     - 覚える
+    - おぼえる
   hint: oboeru (ru-verb) — memorize/learn by heart; often used for remembering names/words
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -332,6 +344,7 @@
   prompt: (something) ends
   answers:
     - 終わる
+    - おわる
   hint: 'owaru — intransitive: something comes to an end (e.g., 会議が終わる).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -355,6 +368,7 @@
   prompt: to look pale
   answers:
     - 顔が青い
+    - かおがあおい
   hint: kao ga aoi — idiom meaning someone’s face looks pale (often from sickness/shock);
     literally “the face is blue.”
   stage: -1
@@ -379,6 +393,7 @@
   prompt: Kabuki; traditional Japanese theatrical art
   answers:
     - 歌舞伎
+    - かぶき
   hint: kabuki — traditional Japanese stage theater; often written with these three
     kanji
   stage: -1
@@ -403,6 +418,7 @@
   prompt: yellow
   answers:
     - 黄色い
+    - きいろい
   hint: kiiroi — い-adjective. Often written in kana as きいろい in casual contexts.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -449,6 +465,7 @@
   prompt: kimono; Japanese traditional dress
   answers:
     - 着物
+    - きもの
   hint: kimono — literally "thing to wear" (着=to wear, 物=thing)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -472,6 +489,7 @@
   prompt: gold
   answers:
     - 金色
+    - きんいろ
   hint: kin'iro — “golden color”; often used with の (金色の) to describe something golden.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -495,6 +513,7 @@
   prompt: silver
   answers:
     - 銀色
+    - ぎんいろ
   hint: giniro — literally “silver color”; often used for metallic-looking items (e.g.,
     銀色の車).
   stage: -1
@@ -519,6 +538,7 @@
   prompt: medicine
   answers:
     - 薬
+    - くすり
   hint: kusuri; 16 strokes. Commonly used for medicine/drugs (e.g., 風邪薬).
   strokeCount: 16
   stage: -1
@@ -543,6 +563,7 @@
   prompt: to take medicine
   answers:
     - 薬を飲む
+    - くすりをのむ
   hint: kusuri o nomu — use when you swallow medicine (e.g., pills). Often said as
     薬を飲みます。
   stage: -1
@@ -615,6 +636,7 @@
   prompt: black
   answers:
     - 黒い
+    - くろい
   hint: kuroi — i-adjective meaning “black” (ends in い).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -662,6 +684,7 @@
   prompt: nine
   answers:
     - 九つ
+    - ここのつ
   hint: kokonotsu — native Japanese counter for nine items (used with ～つ)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -685,6 +708,7 @@
   prompt: in the morning
   answers:
     - 午前中
+    - ごぜんちゅう
   hint: gozenchuu — 午前 (a.m.) + 中 (during/throughout); used for “sometime during the
     morning”
   stage: -1
@@ -732,6 +756,7 @@
   prompt: navy
   answers:
     - 紺色
+    - こんいろ
   hint: kon'iro — dark navy blue; often used for uniforms (e.g., 紺色のスーツ).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -778,6 +803,7 @@
   prompt: near future
   answers:
     - 今度
+    - こんど
   hint: kondo — often means “next time / soon” (the upcoming occasion)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -801,6 +827,7 @@
   prompt: essay; composition
   answers:
     - 作文
+    - さくぶん
   hint: sakubun — a written composition/essay (often for school).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -824,6 +851,7 @@
   prompt: lonely
   answers:
     - 寂しい
+    - さびしい
   hint: sabishii — feeling lonely/isolated (also used for “missing someone” in context)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -847,6 +875,7 @@
   prompt: to take a walk
   answers:
     - 散歩する
+    - さんぽする
   hint: sanpo suru — usually used for a casual stroll (e.g., 公園を散歩する)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -870,6 +899,7 @@
   prompt: exam
   answers:
     - 試験
+    - しけん
   hint: shiken — often used for school tests and official exams (e.g., 入学試験, 運転免許試験)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -917,6 +947,7 @@
   prompt: white
   answers:
     - 白い
+    - しろい
   hint: shiroi — い-adj meaning “white” (e.g., 白いシャツ = a white shirt)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -940,6 +971,7 @@
   prompt: black and white
   answers:
     - 白黒
+    - しろくろ
   hint: shirokuro — also used for monochrome photos/TV; can imply “right vs wrong”
     (白黒をつける)
   stage: -1
@@ -987,6 +1019,7 @@
   prompt: by all means
   answers:
     - 是非
+    - ぜひ
   hint: zehi — used to strongly encourage or invite (e.g., 「ぜひ来てください」 “Please do come.”)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1058,6 +1091,7 @@
   prompt: word; vocabulary
   answers:
     - 単語
+    - たんご
   hint: tango — means “a vocabulary word” (単=single, 語=language/word)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1104,6 +1138,7 @@
   prompt: brown
   answers:
     - 茶色い
+    - ちゃいろい
   hint: chairoi — い-adjective meaning “brown”; often used as 茶色い〜 (e.g., 茶色いかばん).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1127,6 +1162,7 @@
   prompt: letter
   answers:
     - 手紙
+    - てがみ
   hint: tegami — a written letter (not "mail" in general)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1150,6 +1186,7 @@
   prompt: ten
   answers:
     - 十
+    - とお
   hint: tō (とお) — the kanji for 10; 2 strokes (one horizontal, then one vertical through
     the middle)
   strokeCount: 2
@@ -1198,6 +1235,7 @@
   prompt: seven
   answers:
     - 七つ
+    - ななつ
   hint: nanatsu - Japanese-style counting (hitotsu, futatsu, ... nanatsu); used for
     general items (not people)
   stage: -1
@@ -1222,6 +1260,7 @@
   prompt: diary
   answers:
     - 日記
+    - にっき
   hint: nikki — a written journal/diary (日=day + 記=record)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1245,6 +1284,7 @@
   prompt: to be popular
   answers:
     - 人気がある
+    - にんきがある
   hint: ninki ga aru — literally “has popularity”; often used for people/products
     (e.g., この店は人気がある).
   stage: -1
@@ -1269,6 +1309,7 @@
   prompt: gray
   answers:
     - 灰色
+    - はいいろ
   hint: haiiro — literally “ash color”; often written as グレー in katakana too
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1292,6 +1333,7 @@
   prompt: (something) begins
   answers:
     - 始まる
+    - はじまる
   hint: hajimaru (intransitive u-verb) — a thing/event starts; often used with が (e.g.,
     授業が始まる)
   stage: -1
@@ -1316,6 +1358,7 @@
   prompt: to have a talk
   answers:
     - 話をする
+    - はなしをする
   hint: hanashi o suru — literally “do a talk”; common in casual conversation (e.g.,
     ちょっと話をする).
   stage: -1
@@ -1364,6 +1407,7 @@
   prompt: to play (a string instrument or piano)
   answers:
     - 弾く
+    - ひく
   hint: hiku — used for playing instruments (e.g., ピアノを弾く、ギターを弾く). Not 引く (to pull).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1387,6 +1431,7 @@
   prompt: one
   answers:
     - 一つ
+    - ひとつ
   hint: hitotsu (ひとつ) — native Japanese counter for “one (thing)”
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1410,6 +1455,7 @@
   prompt: illness; sickness
   answers:
     - 病気
+    - びょうき
   hint: byouki — 病 (illness) + 気 (spirit/condition); often used with になる (to get sick)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1433,6 +1479,7 @@
   prompt: noon
   answers:
     - 昼
+    - ひる
   hint: hiru — "daytime/noon" (also used in 昼ご飯 = lunch)
   strokeCount: 9
   stage: -1
@@ -1480,6 +1527,7 @@
   prompt: two
   answers:
     - 二つ
+    - ふたつ
   hint: futatsu - used for counting things (native Japanese counter); often written
     in kana as ふたつ
   stage: -1
@@ -1527,6 +1575,7 @@
   prompt: boxed lunch
   answers:
     - 弁当
+    - べんとう
   hint: 'bentou — common collocation: 弁当を作る (to make a boxed lunch)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1598,6 +1647,7 @@
   prompt: light blue
   answers:
     - 水色
+    - みずいろ
   hint: mizuiro — literally “water color”; often used for pale/light blue shades
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1621,6 +1671,7 @@
   prompt: three
   answers:
     - 三つ
+    - みっつ
   hint: mittsu — native Japanese counter for 3 (used up to 10).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1644,6 +1695,7 @@
   prompt: green
   answers:
     - 緑
+    - みどり
   hint: midori — the color green; often used as 緑色(みどりいろ)
   strokeCount: 14
   stage: -1
@@ -1668,6 +1720,7 @@
   prompt: six
   answers:
     - 六つ
+    - むっつ
   hint: |-
     muttsu (native Japanese counter for 1–9 items)
     Often written in kana: むっつ
@@ -1693,6 +1746,7 @@
   prompt: purple
   answers:
     - 紫
+    - むらさき
   hint: murasaki — 12 strokes (a color word; also a plant/dye)
   strokeCount: 12
   stage: -1
@@ -1787,6 +1841,7 @@
   prompt: eight
   answers:
     - 八つ
+    - やっつ
   hint: yattsu — native Japanese counter for 1–9 (hitotsu, futatsu, ...). Used for
     counting general items.
   stage: -1
@@ -1811,6 +1866,7 @@
   prompt: four
   answers:
     - 四つ
+    - よっつ
   hint: yottsu — native Japanese counter for 4 (used with general objects; e.g., 四つください)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1834,6 +1890,7 @@
   prompt: dormitory
   answers:
     - 寮
+    - りょう
   hint: ryou — a student dorm (e.g., 学生寮). 15 strokes
   strokeCount: 15
   stage: -1
@@ -1858,6 +1915,7 @@
   prompt: young
   answers:
     - 若い
+    - わかい
   hint: wakai — i-adjective meaning “young” (for people/age). Often used as 若い人 (young
     person).
   stage: -1

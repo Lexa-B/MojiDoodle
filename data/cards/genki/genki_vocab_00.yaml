@@ -237,6 +237,7 @@
   prompt: Thank you for the meal. (after eating)
   answers:
     - ごちそうさま
+    - ごちそうさまです
     - ごちそうさまでした
   hint: gochisousama (deshita) — said after finishing a meal; polite past form is
     common in restaurants
@@ -427,21 +428,21 @@
   prompt: Nice to meet you.
   answers:
     - よろしくお願いします
+    - よろしくおねがいします
   hint: yoroshiku onegaishimasu — set phrase used when meeting someone or asking for
-    goodwill; often written as よろしくお願いします
+    goodwill; often written as よろしくお願いします or all-hiragana
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   befuddlers:
+  - answers:
+      - よろしく
+    toast: |-
+      That's an informal greeting, please give the formal/polite form.
   - answers:
       - はじめまして
     toast: |-
       That's the greeting used specifically for a first meeting.
       This prompt is the follow-up phrase asking for a good relationship/your favor.
-  - answers:
-      - よろしくおねがいします
-    toast: |-
-      That's the all-kana version.
-      This prompt expects the common version that includes kanji for the verb.
   - answers:
       - ありがとうございます
     toast: |-
