@@ -6,7 +6,7 @@
  */
 
 export interface Env {
-  ALLOWED_ORIGIN: string;
+  ALLOWED_ORIGINS: string;  // Comma-separated list of allowed origins
   SAMPLES?: KVNamespace;  // Enable in wrangler.toml after creating
   BUCKET?: R2Bucket;      // Enable in wrangler.toml after creating
   RATE_LIMIT?: KVNamespace;  // For rate limiting
@@ -46,9 +46,13 @@ export default {
   async fetch(request: Request, env: Env): Promise<Response> {
     const url = new URL(request.url);
 
-    // CORS headers
+    // Dynamic CORS: reflect Origin if it's in the allowed list
+    const allowedOrigins = env.ALLOWED_ORIGINS.split(',').map(o => o.trim());
+    const requestOrigin = request.headers.get('Origin') || '';
+    const origin = allowedOrigins.includes(requestOrigin) ? requestOrigin : allowedOrigins[0];
+
     const corsHeaders = {
-      'Access-Control-Allow-Origin': env.ALLOWED_ORIGIN,
+      'Access-Control-Allow-Origin': origin,
       'Access-Control-Allow-Methods': 'GET, POST, OPTIONS',
       'Access-Control-Allow-Headers': 'Content-Type',
     };

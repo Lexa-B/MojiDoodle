@@ -13,7 +13,7 @@ import { Point, DividerLine, SegmentationResult, GridCell } from '../models/segm
 })
 export class CollectionService {
   private readonly USER_ID_KEY = 'mojidoodle_collection_user_id';
-  private readonly WORKER_URL = 'https://mojidoodle.lexa.digital/collect';
+  private readonly WORKER_URL = 'https://data-collection.mojidoodle.ai/collect';
 
   /**
    * Get or create a persistent user UUID.

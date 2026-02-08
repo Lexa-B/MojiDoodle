@@ -542,7 +542,7 @@ interface SelectionLasso {      // Manual segmentation from lasso tool
 ### Cloudflare Worker (Data Collection Backend)
 
 **Location**: `worker/`
-**Endpoint**: `https://mojidoodle.lexa.digital/collect`
+**Endpoint**: `https://data-collection.mojidoodle.ai/collect`
 
 Receives `CollectionSample` JSON from the app and stores in R2.
 

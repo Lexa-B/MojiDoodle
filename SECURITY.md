@@ -57,7 +57,7 @@ If users opt in to data collection:
 - Users can opt out at any time in Settings
 
 **Data collection endpoint security:**
-- CORS restricted to `https://lexa-b.github.io`
+- CORS restricted to allowed origins (`https://lexa-b.github.io`, `https://app.mojidoodle.ai`, `https://dev.mojidoodle.ai`)
 - Rate limited (60 requests/minute per IP)
 - 1MB request size limit
 - Input validation on all fields
