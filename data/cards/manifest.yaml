@@ -15,27 +15,6 @@ packs:
     files:
       - katakana/katakana.yaml
 
-  - id: kanji
-    name: Kanji
-    description: Common kanji characters
-    category: kanji
-    files:
-      - kanji.yaml
-
-  - id: katakana-words
-    name: Katakana Words
-    description: Common words written in katakana
-    category: katakana-words
-    files:
-      - katakana-words.yaml
-
-  - id: kanji-words
-    name: Kanji Words
-    description: Common words using kanji
-    category: kanji-words
-    files:
-      - kanji-words.yaml
-
   - id: genki
     name: Genki Textbook
     description: Vocabulary from Genki I & II (Chapters 0-23)
