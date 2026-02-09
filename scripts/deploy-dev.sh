@@ -5,8 +5,7 @@ set -e
 echo "Building for Cloudflare Pages (dev)..."
 ionic build --prod -- --base-href /
 
-# Add Cloudflare Pages SPA routing
-echo "/* /index.html 200" > www/_redirects
+# _redirects is included in the build via angular.json assets
 
 # Deploy to Cloudflare Pages (dev preview branch)
 echo "Deploying to Cloudflare Pages (dev)..."

@@ -165,8 +165,11 @@ export default {
       const ipHash = await hashString(clientIp);
       const uaHash = await hashString(userAgent);
 
-      // Generate storage key
-      const key = `${sample.userId}/${sample.cardId}/${sample.id}.json`;
+      // Generate storage key — version prefix
+      const version = (sample as any).version || 1;
+      const key = version === 2
+        ? `v2/${sample.userId}/${sample.cardId}/${sample.id}.json`
+        : `v1/${sample.userId}/${sample.cardId}/${sample.id}.json`;
 
       // Server-side metadata (not in client JSON, stored separately for audit)
       const serverMetadata = {

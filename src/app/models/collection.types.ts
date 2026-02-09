@@ -1,15 +1,15 @@
 /**
- * Types for collecting segmentation training data.
+ * Types for collecting segmentation training data (v2).
  *
- * Captures workbook sessions for building a segmentation model.
- * Each sample includes raw strokes, segmentation results, recognition results,
+ * Uses mojidoodle-algo-segmenter output instead of raw divider lines.
+ * Each sample includes raw strokes, character assignments, recognition results,
  * and ground truth (when available).
  */
 
-import { Point, DividerLine } from './segmentation.types';
+import { Point } from 'mojidoodle-algo-segmenter';
 
 /**
- * A selection lasso for manual segmentation (future feature).
+ * A selection lasso for manual segmentation.
  * Users draw polygons around strokes belonging to one character.
  */
 export interface SelectionLasso {
@@ -30,46 +30,43 @@ export interface GroundTruthEntry {
   character: string;
 }
 
-/**
- * A single training sample from a workbook session.
- * Collected after every CHECK press for building segmentation models.
- */
-export interface CollectionSample {
-  // 1. Raw input - strokes ordered by input order
-  strokes: Point[][];
+/** Character assignment from segmenter output. */
+export interface CharacterAssignment {
+  /** Reading-order index (0 = first character). */
+  characterIndex: number;
+  /** Which input strokes belong to this character. */
+  strokeIndices: number[];
+  /** Bounding box of this character's strokes. */
+  bounds: { minX: number; maxX: number; minY: number; maxY: number; width: number; height: number };
+}
 
-  // 2. Canvas dimensions for normalization
+/**
+ * v2 training sample — uses module output instead of raw divider lines.
+ * No SVG or divider line data — just character assignments.
+ */
+export interface CollectionSampleV2 {
+  version: 2;
+
+  // Raw input
+  strokes: Point[][];
   canvasWidth: number;
   canvasHeight: number;
 
-  // 3. Segmentation lines (algorithm output)
-  segmentation: {
-    columnDividers: DividerLine[];
-    rowDividers: DividerLine[][];
-  } | null;  // null for single-char cards
+  // Segmentation output: character assignments only (no divider lines, no SVG)
+  characterAssignments: CharacterAssignment[];
 
-  // 4. Selection lassos - manual segmentation (deferred feature)
-  // One lasso per character the user intended to write
-  // May differ from answers length (learning app - user might not know char count)
+  // Lasso data
   selectionLassos: SelectionLasso[] | null;
 
-  // 5. Card answers list
+  // Card & recognition
   answers: string[];
-
-  // 6. Detected character lists - API recognition results per cell
-  // For single-char: [[{char, score}, ...]] (one cell)
-  // For multi-char: [[cell0 results], [cell1 results], ...]
   recognitionResults: { character: string; score: number }[][] | null;
-
-  // 7. Ground truth stroke-to-character assignments
-  groundTruth: GroundTruthEntry[] | null;  // null until manually verified or inferred from success
-
-  // 8. Success indicator
-  success: boolean;  // Did recognition match an answer?
+  groundTruth: GroundTruthEntry[] | null;
+  success: boolean;
 
   // Metadata
-  id: string;        // UUID for this entry
-  userId: string;    // UUID for the user (persisted across sessions)
-  cardId: string;    // Which card was being practiced
-  timestamp: number; // When collected (for ordering/debugging)
+  id: string;
+  userId: string;
+  cardId: string;
+  timestamp: number;
 }

@@ -4,17 +4,11 @@ import { CommonModule } from '@angular/common';
 import { addIcons } from 'ionicons';
 import { backspace, trashOutline, brushOutline, ellipseOutline } from 'ionicons/icons';
 import { Subscription } from 'rxjs';
+import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
 import { StrokeRecognitionService } from '../../services/stroke-recognition.service';
 import { CardsService, Card } from '../../services/cards.service';
-import { CharacterSegmentationService } from '../../services/character-segmentation.service';
 import { CollectionService } from '../../services/collection.service';
-import { SegmentationResult, SegmentationGrid, GridCell, ProtectedGroup } from '../../models/segmentation.types';
-
-interface Point {
-  x: number;
-  y: number;
-  t: number; // timestamp relative to drawing start
-}
+import { Segmenter, SegmentResult, Point } from 'mojidoodle-algo-segmenter';
 
 @Component({
   selector: 'app-workbook',
@@ -53,14 +47,18 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
 
   // Segmentation state
   private segmentationTimer: ReturnType<typeof setTimeout> | null = null;
-  private segmentationResult: SegmentationResult | null = null;
+  private segmentResult: SegmentResult | null = null;
   private readonly SEGMENTATION_DELAY_MS = 500;
+
+  // Segmenter instance
+  private segmenter = new Segmenter();
+
+  // SVG overlays (bound in template)
+  lassoSvgContent: SafeHtml = '';
+  segmentationSvgContent: SafeHtml = '';
 
   // Batch recognition results for multi-character grading
   private lastBatchResults: { character: string; score: number }[][] = [];
-
-  // Sorted cells from last segmentation (for collection export)
-  private lastSortedCells: GridCell[] = [];
 
   // Drawing mode: brush (default) or lasso
   drawMode: 'brush' | 'lasso' = 'brush';
@@ -81,7 +79,7 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
    * Get lasso color as hsla string.
    * Pastel colors: 55% saturation, 78% lightness.
    */
-  private getLassoColor(index: number, opacity: number = 0.7): string {
+  private getLassoColorFromIndex(index: number, opacity: number = 1.0): string {
     const hue = this.LASSO_HUES[index % this.LASSO_HUES.length];
     return `hsla(${hue}, 55%, 78%, ${opacity})`;
   }
@@ -189,8 +187,8 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
   constructor(
     private strokeRecognition: StrokeRecognitionService,
     private cardsService: CardsService,
-    private segmentationService: CharacterSegmentationService,
-    private collectionService: CollectionService
+    private collectionService: CollectionService,
+    private sanitizer: DomSanitizer
   ) {
     addIcons({ backspace, trashOutline, brushOutline, ellipseOutline });
   }
@@ -572,8 +570,8 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
    * Check the user's handwriting against the current card's answer.
    *
    * FLOW:
-   * 1. Segment strokes into character cells using density-based mesh grid
-   * 2. Sort cells in Japanese reading order (right-to-left, top-to-bottom)
+   * 1. Segment strokes into character cells using the segmenter module
+   * 2. Characters are already sorted in Japanese reading order by the module
    * 3. Send cells to API:
    *    - Single cell: regular recognition
    *    - Multiple cells: batch recognition (one request per cell)
@@ -581,14 +579,6 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
    *    - Split target answer into characters
    *    - Check if each character appears in corresponding cell's top 5 results
    *    - All match = correct, any miss = check befuddlers, then wrong
-   *
-   * EXAMPLE (target: "あい"):
-   *   Cell 0 results: ['あ', 'お', 'ぁ', ...] ← 'あ' found ✓
-   *   Cell 1 results: ['い', 'り', 'し', ...] ← 'い' found ✓
-   *   Result: CORRECT
-   *
-   * BEFUDDLERS:
-   * Same backwards logic - if befuddler chars match cells, show befuddler toast.
    */
   async onCheck() {
     if (this.strokes.length === 0 || !this.currentCard) return;
@@ -601,65 +591,58 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
       // Calculate max answer length to determine if segmentation is needed
       const maxAnswerLength = Math.max(...this.currentCard.answers.map(a => [...a.replace(/\s+/g, '')].length));
 
-      // Reset sorted cells for this check
-      this.lastSortedCells = [];
-
-      // Only run segmentation for multi-character answers
-      if (maxAnswerLength > 1) {
-        // Run segmentation if not already done
-        if (!this.segmentationResult) {
-          this.segmentationResult = this.segmentationService.segment(
-            this.strokes,
-            canvas.width,
-            canvas.height,
-            this.getProtectedGroups()
-          );
-        }
-
-        const grid = this.segmentationResult.grid;
-        const cellsWithStrokes = grid.cells.filter(c => c.strokeIndices.length > 0);
-
-        // Sort cells in Japanese reading order: right-to-left columns, top-to-bottom rows
-        this.lastSortedCells = [...cellsWithStrokes].sort((a, b) => {
-          if (a.column !== b.column) return a.column - b.column;  // Column 0 is rightmost
-          return a.row - b.row;  // Top to bottom
-        });
-      }
-
       let results: { character: string; score: number }[];
 
-      if (this.lastSortedCells.length <= 1) {
-        // Single cell - use regular recognition
-        this.lastBatchResults = []; // Clear batch results
+      // Run segmentation for multi-character answers
+      if (maxAnswerLength > 1) {
+        const result = this.segmenter.segment({
+          strokes: this.strokes,
+          lassos: this.lassos,
+          canvasWidth: canvas.width,
+          canvasHeight: canvas.height,
+          maxCharacters: maxAnswerLength,
+        });
+        this.segmentResult = result;
+
+        if (result.characters.length <= 1) {
+          // Single character — regular recognition
+          this.lastBatchResults = [];
+          results = await this.strokeRecognition.recognize(
+            this.strokes,
+            canvas.width,
+            canvas.height
+          );
+        } else {
+          // Multi-character — batch recognition, already sorted in reading order
+          const cellData = result.characters.map(c => ({
+            strokes: c.strokes,
+            bounds: { width: c.bounds.width, height: c.bounds.height }
+          }));
+
+          const batchResults = await this.strokeRecognition.recognizeBatch(cellData);
+
+          // Store batch results for answer checking
+          this.lastBatchResults = batchResults;
+
+          // Build display results from top candidate of each cell
+          const topChars = batchResults.map(r => r[0]?.character || '?').join('');
+          results = [{ character: topChars, score: 100 }];
+
+          // Also add individual cell interpretations for debugging
+          console.log('Cell interpretations (Japanese reading order):', batchResults.map((r, i) => ({
+            cell: i,
+            top5: r.slice(0, 5).map(c => c.character)
+          })));
+        }
+      } else {
+        // Single character card — no segmentation needed
+        this.segmentResult = null;
+        this.lastBatchResults = [];
         results = await this.strokeRecognition.recognize(
           this.strokes,
           canvas.width,
           canvas.height
         );
-      } else {
-        // Multiple cells - use batch recognition
-        const cellData = this.lastSortedCells.map(cell => {
-          const cellStrokes = cell.strokeIndices.map(i => this.strokes[i]);
-          const width = cell.bounds.maxX - cell.bounds.minX;
-          const height = cell.bounds.maxY - cell.bounds.minY;
-          return { strokes: cellStrokes, bounds: { width, height } };
-        });
-
-        const batchResults = await this.strokeRecognition.recognizeBatch(cellData);
-
-        // Store batch results for answer checking
-        this.lastBatchResults = batchResults;
-
-        // Build display results from top candidate of each cell
-        const topChars = batchResults.map(r => r[0]?.character || '?').join('');
-        results = [{ character: topChars, score: 100 }];
-
-        // Also add individual cell interpretations for debugging
-        console.log('Cell interpretations (Japanese reading order):', batchResults.map((r, i) => ({
-          cell: i,
-          position: `col ${this.lastSortedCells[i].column}, row ${this.lastSortedCells[i].row}`,
-          top5: r.slice(0, 5).map(c => c.character)
-        })));
       }
 
       // Top matches for display
@@ -815,7 +798,9 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
     this.drawStartTime = 0;
     this.drawMode = 'brush';
     this.cancelSegmentation();
-    this.segmentationResult = null;
+    this.segmentResult = null;
+    this.lassoSvgContent = '';
+    this.segmentationSvgContent = '';
   }
 
   private randomFrom<T>(arr: T[]): T {
@@ -843,6 +828,7 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
 
   /**
    * Point-in-polygon test using ray casting algorithm.
+   * Used for lasso tap-to-delete detection.
    */
   private isPointInPolygon(point: {x: number, y: number}, polygon: {x: number, y: number}[]): boolean {
     if (polygon.length < 3) return false;
@@ -861,83 +847,16 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
   }
 
   /**
-   * Calculate what percentage of a stroke's points are inside a lasso.
-   * Returns 0.0 to 1.0.
+   * Get stroke color based on segmentation result lasso assignments.
    */
-  private calculateLassoContainment(strokeIndex: number, lasso: {x: number, y: number}[]): number {
-    const stroke = this.strokes[strokeIndex];
-    if (!stroke || stroke.length === 0) return 0;
-
-    let pointsInside = 0;
-    for (const point of stroke) {
-      if (this.isPointInPolygon(point, lasso)) {
-        pointsInside++;
+  private getStrokeColorFromResult(strokeIndex: number): string {
+    if (!this.segmentResult) return '#fff';
+    for (let i = 0; i < this.segmentResult.lassos.length; i++) {
+      if (this.segmentResult.lassos[i].strokeIndices.includes(strokeIndex)) {
+        return this.getLassoColorFromIndex(i);
       }
     }
-    return pointsInside / stroke.length;
-  }
-
-  /**
-   * Convert lassos to protected groups for segmentation.
-   * Each lasso creates a protected group containing strokes it covers.
-   */
-  private getProtectedGroups(): ProtectedGroup[] {
-    const groups: ProtectedGroup[] = [];
-
-    for (const lasso of this.lassos) {
-      const strokeIndices: number[] = [];
-
-      for (let i = 0; i < this.strokes.length; i++) {
-        const containment = this.calculateLassoContainment(i, lasso.points);
-        if (containment >= 0.5) {
-          strokeIndices.push(i);
-        }
-      }
-
-      if (strokeIndices.length > 0) {
-        groups.push({ strokeIndices });
-      }
-    }
-
-    return groups;
-  }
-
-  /**
-   * Find which strokes are inside a lasso (>= 50% of points contained).
-   */
-  private findStrokesInLasso(lasso: {x: number, y: number}[]): number[] {
-    const indices: number[] = [];
-
-    for (let i = 0; i < this.strokes.length; i++) {
-      const containment = this.calculateLassoContainment(i, lasso);
-      if (containment >= 0.5) {
-        indices.push(i);
-      }
-    }
-
-    return indices;
-  }
-
-  /**
-   * Get stroke color based on lasso assignment.
-   * Stroke belongs to whichever lasso contains the highest percentage of its points.
-   */
-  private getStrokeColor(strokeIndex: number): string {
-    let bestLassoIndex = -1;
-    let bestContainment = 0;
-
-    for (let i = 0; i < this.lassos.length; i++) {
-      const containment = this.calculateLassoContainment(strokeIndex, this.lassos[i].points);
-      if (containment > bestContainment) {
-        bestContainment = containment;
-        bestLassoIndex = i;
-      }
-    }
-
-    if (bestLassoIndex >= 0 && bestContainment >= 0.5) {
-      return this.getLassoColor(bestLassoIndex, 1.0);
-    }
-    return '#fff'; // Default white
+    return '#fff';
   }
 
   /**
@@ -949,8 +868,7 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
     for (let i = this.lassos.length - 1; i >= 0; i--) {
       if (this.isPointInPolygon({x, y}, this.lassos[i].points)) {
         this.lassos.splice(i, 1);
-        this.fullRedraw();
-        this.scheduleSegmentation();
+        this.analyzeAndVisualize();
         return true;
       }
     }
@@ -966,45 +884,9 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
       return;
     }
 
-    // Find strokes inside this lasso
-    const strokeIndices = this.findStrokesInLasso(this.currentLasso);
-
-    if (strokeIndices.length > 0) {
-      this.lassos.push({
-        points: [...this.currentLasso]
-      });
-    }
-
+    this.lassos.push({ points: [...this.currentLasso] });
     this.currentLasso = [];
-    this.fullRedraw();
-    this.scheduleSegmentation();
-  }
-
-  /**
-   * Draw a completed lasso with fill and outline.
-   */
-  private drawLasso(points: {x: number, y: number}[], index: number): void {
-    if (points.length < 3) return;
-
-    this.ctx.save();
-
-    // Fill with very faint color
-    this.ctx.fillStyle = this.getLassoColor(index, 0.15);
-    this.ctx.beginPath();
-    this.ctx.moveTo(points[0].x, points[0].y);
-    for (let i = 1; i < points.length; i++) {
-      this.ctx.lineTo(points[i].x, points[i].y);
-    }
-    this.ctx.closePath();
-    this.ctx.fill();
-
-    // Stroke outline
-    this.ctx.strokeStyle = this.getLassoColor(index, 0.7);
-    this.ctx.lineWidth = 2;
-    this.ctx.setLineDash([6, 4]);
-    this.ctx.stroke();
-
-    this.ctx.restore();
+    this.analyzeAndVisualize();
   }
 
   /**
@@ -1014,7 +896,7 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
     if (this.currentLasso.length < 2) return;
 
     this.ctx.save();
-    this.ctx.strokeStyle = this.getLassoColor(this.lassos.length, 0.5);
+    this.ctx.strokeStyle = this.getLassoColorFromIndex(this.lassos.length, 0.5);
     this.ctx.lineWidth = 2;
     this.ctx.setLineDash([6, 4]);
 
@@ -1111,35 +993,34 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
   }
 
   /**
-   * Full redraw including strokes with lasso colors, lassos, and segmentation.
+   * Full redraw including strokes with lasso colors and SVG overlays.
    */
   private fullRedraw(): void {
     const canvas = this.canvasRef.nativeElement;
     this.ctx.clearRect(0, 0, canvas.width, canvas.height);
 
-    // Draw lassos first (they're background)
-    for (let i = 0; i < this.lassos.length; i++) {
-      this.drawLasso(this.lassos[i].points, i);
-    }
+    // Update SVG overlays (sanitized for Angular innerHTML binding)
+    this.lassoSvgContent = this.sanitizer.bypassSecurityTrustHtml(
+      this.segmentResult?.lassoSvg ?? ''
+    );
+    this.segmentationSvgContent = this.sanitizer.bypassSecurityTrustHtml(
+      this.segmentResult?.segmentationSvg ?? ''
+    );
 
-    // Draw current lasso being drawn
+    // Draw current lasso being drawn (interactive, stays on canvas)
     if (this.currentLasso.length > 1) {
       this.drawCurrentLasso();
     }
 
-    // Draw each stroke in its assigned color
-    for (let i = 0; i < this.strokes.length; i++) {
-      const color = this.getStrokeColor(i);
-      this.drawStrokeWithColor(this.strokes[i], color);
-    }
-
-    // Draw segmentation dividers on top
-    if (this.segmentationResult) {
-      const grid = this.segmentationResult.grid;
-      const hasDividers = grid.columnDividers.length > 0 ||
-                          grid.rowDividers.some(r => r.length > 0);
-      if (hasDividers) {
-        this.drawDividers(grid);
+    // Draw strokes — use module's annotated stroke data for coloring
+    if (this.segmentResult) {
+      for (const annotated of this.segmentResult.strokes) {
+        const color = this.getStrokeColorFromResult(annotated.index);
+        this.drawStrokeWithColor(this.strokes[annotated.index], color);
+      }
+    } else {
+      for (const stroke of this.strokes) {
+        this.drawStrokeWithColor(stroke, '#fff');
       }
     }
   }
@@ -1152,7 +1033,9 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
     this.cancelSegmentation();
 
     if (this.strokes.length === 0) {
-      this.segmentationResult = null;
+      this.segmentResult = null;
+      this.lassoSvgContent = '';
+      this.segmentationSvgContent = '';
       return;
     }
 
@@ -1172,84 +1055,35 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
   }
 
   /**
-   * Run segmentation analysis and redraw with boundary boxes.
+   * Run segmentation analysis and redraw with visualization.
    * Skips segmentation for single-character cards to avoid false positives.
    */
   private analyzeAndVisualize(): void {
-    if (this.strokes.length === 0) {
-      this.segmentationResult = null;
+    if (this.strokes.length === 0 || !this.currentCard) {
+      this.segmentResult = null;
+      this.fullRedraw();
       return;
     }
 
-    // Skip segmentation for single-character cards
-    if (this.currentCard) {
-      const maxAnswerLength = Math.max(...this.currentCard.answers.map(a => [...a.replace(/\s+/g, '')].length));
-      if (maxAnswerLength <= 1) {
-        this.segmentationResult = null;
-        this.fullRedraw();
-        return;
-      }
+    const maxAnswerLength = Math.max(
+      ...this.currentCard.answers.map(a => [...a.replace(/\s+/g, '')].length)
+    );
+    if (maxAnswerLength <= 1) {
+      this.segmentResult = null;
+      this.fullRedraw();
+      return;
     }
 
     const canvas = this.canvasRef.nativeElement;
-    this.segmentationResult = this.segmentationService.segment(
-      this.strokes,
-      canvas.width,
-      canvas.height,
-      this.getProtectedGroups()
-    );
+    this.segmentResult = this.segmenter.segment({
+      strokes: this.strokes,
+      lassos: this.lassos,
+      canvasWidth: canvas.width,
+      canvasHeight: canvas.height,
+      maxCharacters: maxAnswerLength,
+    });
 
-    this.redrawWithBoundaries();
-  }
-
-  /**
-   * Redraw all strokes and overlay divider lines.
-   */
-  private redrawWithBoundaries(): void {
-    // Use fullRedraw which handles lassos, strokes with colors, and dividers
     this.fullRedraw();
-  }
-
-  /**
-   * Draw divider lines between columns and rows.
-   * Column dividers: x = slope * y + intercept (vertical lines)
-   * Row dividers: y = slope * x + intercept (horizontal lines)
-   */
-  private drawDividers(grid: SegmentationGrid): void {
-    this.ctx.save();
-    this.ctx.strokeStyle = 'rgba(128, 128, 128, 0.8)';
-    this.ctx.lineWidth = 2;
-    this.ctx.setLineDash([4, 4]);
-
-    // Draw column dividers (vertical lines: x = slope * y + intercept)
-    for (const divider of grid.columnDividers) {
-      const y1 = divider.start;
-      const y2 = divider.end;
-      const x1 = divider.slope * y1 + divider.intercept;
-      const x2 = divider.slope * y2 + divider.intercept;
-
-      this.ctx.beginPath();
-      this.ctx.moveTo(x1, y1);
-      this.ctx.lineTo(x2, y2);
-      this.ctx.stroke();
-    }
-
-    // Draw row dividers (horizontal lines: y = slope * x + intercept)
-    for (const columnRows of grid.rowDividers) {
-      for (const divider of columnRows) {
-        const x1 = divider.start;
-        const x2 = divider.end;
-        const y1 = divider.slope * x1 + divider.intercept;
-        const y2 = divider.slope * x2 + divider.intercept;
-
-        this.ctx.beginPath();
-        this.ctx.moveTo(x1, y1);
-        this.ctx.lineTo(x2, y2);
-        this.ctx.stroke();
-      }
-    }
-
-    this.ctx.restore();
   }
 
   /**
@@ -1275,13 +1109,11 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
       strokes: this.strokes,
       canvasWidth: canvas.width,
       canvasHeight: canvas.height,
-      segmentationResult: this.segmentationResult,
-      sortedCells: this.lastSortedCells,
+      segmentResult: this.segmentResult,
       answers: this.currentCard.answers,
       recognitionResults,
       success,
       cardId: this.currentCard.id,
-      lassos: this.lassos.length > 0 ? this.lassos : undefined
     });
   }
 }

@@ -51,6 +51,7 @@
     "@capacitor/status-bar": "8.0.0",
     "@ionic/angular": "^8.0.0",
     "ionicons": "^7.0.0",
+    "mojidoodle-algo-segmenter": "^0.0.1",
     "rxjs": "~7.8.0",
     "sql.js": "^1.13.0",
     "tslib": "^2.3.0",

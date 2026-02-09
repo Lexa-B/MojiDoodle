@@ -4,13 +4,26 @@
   <meta charset="utf-8">
   <title>MojiDoodle</title>
   <script>
-    // GitHub Pages SPA redirect
-    // Saves the current path and redirects to root where Angular can handle routing
+    // SPA redirect for GitHub Pages and Cloudflare Pages
+    // Saves the current path and redirects to app root where Angular handles routing
     var l = window.location;
     var base = l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '');
-    var segments = l.pathname.split('/').filter(Boolean); // ['MojiDoodle', 'dashboard', ...]
 
-    var path = segments.slice(1).join('/'); // Skip 'MojiDoodle'
+    // Detect app base path from hostname
+    // GitHub Pages: /MojiDoodle/  |  Cloudflare/other: /
+    var isGitHubPages = l.hostname.indexOf('github.io') !== -1;
+    var appBase = isGitHubPages ? '/MojiDoodle/' : '/';
+
+    // Extract the route path relative to the app base
+    var fullPath = l.pathname;
+    var path = '';
+    if (fullPath.indexOf(appBase) === 0) {
+      path = fullPath.substring(appBase.length);
+    } else if (!isGitHubPages) {
+      // On non-GitHub hosts, strip leading slash to get the route
+      path = fullPath.replace(/^\//, '');
+    }
+
     var search = l.search;
 
     // Store the path in sessionStorage so index.html can restore it
@@ -21,8 +34,8 @@
       }));
     }
 
-    // Redirect to the base URL
-    l.replace(base + '/MojiDoodle/');
+    // Redirect to the app base URL
+    l.replace(base + appBase);
   </script>
 </head>
 <body>

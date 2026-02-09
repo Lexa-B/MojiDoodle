@@ -1,12 +1,12 @@
 import { Injectable } from '@angular/core';
-import { CollectionSample, GroundTruthEntry, SelectionLasso } from '../models/collection.types';
-import { Point, DividerLine, SegmentationResult, GridCell } from '../models/segmentation.types';
+import { CollectionSampleV2, CharacterAssignment, GroundTruthEntry, SelectionLasso } from '../models/collection.types';
+import { Point, SegmentResult } from 'mojidoodle-algo-segmenter';
 
 /**
  * Service for collecting segmentation training data.
  *
- * Exports workbook session data as JSON files for building segmentation models.
- * Each sample captures strokes, segmentation, recognition results, and ground truth.
+ * Exports workbook session data as JSON to a Cloudflare Worker for building segmentation models.
+ * Each sample captures strokes, character assignments, recognition results, and ground truth.
  */
 @Injectable({
   providedIn: 'root'
@@ -30,21 +30,17 @@ export class CollectionService {
 
   /**
    * Build and export a sample after grading.
-   * Sends to Cloudflare Worker, falls back to local download on failure.
-   *
-   * @param params Collection parameters from workbook
+   * Sends to Cloudflare Worker, falls back to logging on failure.
    */
   async exportSample(params: {
     strokes: Point[][];
     canvasWidth: number;
     canvasHeight: number;
-    segmentationResult: SegmentationResult | null;
-    sortedCells: GridCell[];
+    segmentResult: SegmentResult | null;
     answers: string[];
     recognitionResults: { character: string; score: number }[][] | null;
     success: boolean;
     cardId: string;
-    lassos?: { points: {x: number, y: number}[] }[];
   }): Promise<void> {
     const sample = this.buildSample(params);
 
@@ -58,7 +54,7 @@ export class CollectionService {
   /**
    * Send sample to Cloudflare Worker.
    */
-  private async sendToWorker(sample: CollectionSample): Promise<void> {
+  private async sendToWorker(sample: CollectionSampleV2): Promise<void> {
     const response = await fetch(this.WORKER_URL, {
       method: 'POST',
       headers: {
@@ -76,62 +72,67 @@ export class CollectionService {
   }
 
   /**
-   * Build a CollectionSample from workbook data.
+   * Build a CollectionSampleV2 from workbook data.
    */
   private buildSample(params: {
     strokes: Point[][];
     canvasWidth: number;
     canvasHeight: number;
-    segmentationResult: SegmentationResult | null;
-    sortedCells: GridCell[];
+    segmentResult: SegmentResult | null;
     answers: string[];
     recognitionResults: { character: string; score: number }[][] | null;
     success: boolean;
     cardId: string;
-    lassos?: { points: {x: number, y: number}[] }[];
-  }): CollectionSample {
+  }): CollectionSampleV2 {
     const {
       strokes,
       canvasWidth,
       canvasHeight,
-      segmentationResult,
-      sortedCells,
+      segmentResult,
       answers,
       recognitionResults,
       success,
       cardId,
-      lassos
     } = params;
 
-    // Extract segmentation lines if available
-    let segmentation: { columnDividers: DividerLine[]; rowDividers: DividerLine[][] } | null = null;
-    if (segmentationResult) {
-      segmentation = {
-        columnDividers: segmentationResult.grid.columnDividers,
-        rowDividers: segmentationResult.grid.rowDividers
-      };
+    // Build character assignments from segmenter output
+    let characterAssignments: CharacterAssignment[] = [];
+    if (segmentResult) {
+      const groups = new Map<number, number[]>();
+      for (const s of segmentResult.strokes) {
+        if (s.characterIndex >= 0) {
+          if (!groups.has(s.characterIndex)) groups.set(s.characterIndex, []);
+          groups.get(s.characterIndex)!.push(s.index);
+        }
+      }
+      characterAssignments = segmentResult.characters.map(c => ({
+        characterIndex: c.index,
+        strokeIndices: groups.get(c.index) || [],
+        bounds: c.bounds,
+      }));
+    }
+
+    // Build lasso data from segmenter output
+    let selectionLassos: SelectionLasso[] | null = null;
+    if (segmentResult && segmentResult.lassos.length > 0) {
+      selectionLassos = segmentResult.lassos.map(l => ({
+        points: [...l.points],
+        strokeIndices: [...l.strokeIndices],
+      }));
     }
 
     // Infer ground truth on success
     let groundTruth: GroundTruthEntry[] | null = null;
     if (success) {
-      groundTruth = this.inferGroundTruth(strokes, sortedCells, answers);
-    }
-
-    // Convert lassos to SelectionLasso format (with strokeIndices)
-    let selectionLassos: SelectionLasso[] | null = null;
-    if (lassos && lassos.length > 0) {
-      selectionLassos = lassos.map(lasso => ({
-        points: lasso.points,
-        strokeIndices: this.findStrokesInLasso(strokes, lasso.points)
-      }));
+      groundTruth = this.inferGroundTruth(strokes, characterAssignments, answers);
     }
 
     return {
+      version: 2,
       strokes,
       canvasWidth,
       canvasHeight,
-      segmentation,
+      characterAssignments,
       selectionLassos,
       answers,
       recognitionResults,
@@ -145,65 +146,20 @@ export class CollectionService {
   }
 
   /**
-   * Find which strokes are inside a lasso polygon (>= 50% of points contained).
-   */
-  private findStrokesInLasso(strokes: Point[][], lasso: {x: number, y: number}[]): number[] {
-    const indices: number[] = [];
-
-    for (let i = 0; i < strokes.length; i++) {
-      const stroke = strokes[i];
-      if (stroke.length === 0) continue;
-
-      let pointsInside = 0;
-      for (const point of stroke) {
-        if (this.isPointInPolygon(point, lasso)) {
-          pointsInside++;
-        }
-      }
-
-      const containment = pointsInside / stroke.length;
-      if (containment >= 0.5) {
-        indices.push(i);
-      }
-    }
-
-    return indices;
-  }
-
-  /**
-   * Point-in-polygon test using ray casting algorithm.
-   */
-  private isPointInPolygon(point: {x: number, y: number}, polygon: {x: number, y: number}[]): boolean {
-    if (polygon.length < 3) return false;
-
-    let inside = false;
-    for (let i = 0, j = polygon.length - 1; i < polygon.length; j = i++) {
-      const xi = polygon[i].x, yi = polygon[i].y;
-      const xj = polygon[j].x, yj = polygon[j].y;
-
-      if (((yi > point.y) !== (yj > point.y)) &&
-          (point.x < (xj - xi) * (point.y - yi) / (yj - yi) + xi)) {
-        inside = !inside;
-      }
-    }
-    return inside;
-  }
-
-  /**
    * Infer ground truth from successful recognition.
    *
    * For single-char cards: all strokes belong to the one character
-   * For multi-char cards: use segmentation cell assignments
+   * For multi-char cards: use character assignment stroke indices
    */
   private inferGroundTruth(
     strokes: Point[][],
-    sortedCells: GridCell[],
+    characterAssignments: CharacterAssignment[],
     answers: string[]
   ): GroundTruthEntry[] {
     const primaryAnswer = answers[0].replace(/\s+/g, '');
     const chars = [...primaryAnswer]; // Unicode-safe split
 
-    if (sortedCells.length <= 1) {
+    if (characterAssignments.length <= 1) {
       // Single character - all strokes belong to it
       return [{
         strokeIndices: strokes.map((_, i) => i),
@@ -211,9 +167,9 @@ export class CollectionService {
       }];
     }
 
-    // Multi-character - use cell assignments
-    return sortedCells.map((cell, idx) => ({
-      strokeIndices: cell.strokeIndices,
+    // Multi-character - use character assignments
+    return characterAssignments.map((ca, idx) => ({
+      strokeIndices: ca.strokeIndices,
       character: chars[idx] || ''
     }));
   }

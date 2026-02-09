@@ -23,6 +23,10 @@ export class AppComponent implements OnInit {
   ) {}
 
   async ngOnInit() {
+    // CRITICAL: Load existing DB FIRST, before version checking.
+    // This ensures the backup captures real user progress before any
+    // race condition with page components calling initialize() concurrently.
+    await this.cardsService.initialize();
     await this.checkVersion();
     await this.checkDataCollection();
   }
@@ -44,33 +48,42 @@ export class AppComponent implements OnInit {
 
       console.log('Version check:', { server: serverTimestamp, stored: storedTimestamp });
 
-      // Check if user has existing data in IndexedDB
-      const hasExistingData = await this.cardsService.hasStoredData();
+      // Already up to date
+      if (storedTimestamp === serverTimestamp) return;
 
-      if (storedTimestamp && storedTimestamp !== serverTimestamp) {
-        // Version mismatch - show warning
-        await this.showUpdateAlert(serverTimestamp);
-      } else if (!storedTimestamp && hasExistingData) {
-        // No version stored but has existing data - likely pre-version-system data
-        await this.showUpdateAlert(serverTimestamp);
-      } else if (!storedTimestamp) {
-        // First time with no data - store the version
+      // Capture backup IMMEDIATELY from the already-loaded DB.
+      // This must happen before showing any alert, so no race condition
+      // can corrupt or rebuild the DB before we've saved the user's progress.
+      const backup = await this.cardsService.exportToBundle();
+      const hasProgress = backup.cards?.some((c: any) => c.stage >= 0) ?? false;
+
+      if (!hasProgress) {
+        // No user progress to preserve (fresh install or already-reset) - update silently
         localStorage.setItem(VERSION_KEY, serverTimestamp);
+        return;
       }
+
+      console.log('Pre-migration backup captured:', {
+        cards: backup.cards?.filter((c: any) => c.stage >= 0).length ?? 0,
+        lessons: backup.lessons?.filter((l: any) => l.status !== 'locked').length ?? 0
+      });
+
+      await this.showUpdateAlert(serverTimestamp, backup);
     } catch (err) {
       console.warn('Failed to check version:', err);
     }
   }
 
-  private async showUpdateAlert(serverTimestamp: string) {
+  private async showUpdateAlert(serverTimestamp: string, backup: { cards?: any[]; lessons?: any[]; user_uuid?: string; data_collection?: any }) {
     const alert = await this.alertCtrl.create({
       header: 'Update Available',
       message: 'New content is available. Migrate will preserve your progress. Reset will delete all progress.',
+      backdropDismiss: false,
       buttons: [
         {
           text: 'Migrate',
           handler: async () => {
-            await this.migrateProgress(serverTimestamp);
+            await this.migrateProgress(serverTimestamp, backup);
           }
         },
         {
@@ -97,23 +110,20 @@ export class AppComponent implements OnInit {
     await alert.onDidDismiss();
   }
 
-  private async migrateProgress(serverTimestamp: string) {
-    // IMPORTANT: Initialize the service first to load the existing database
-    // This must happen BEFORE export, otherwise db is null and export returns empty
-    await this.cardsService.initialize();
-
-    // Export current progress from the loaded database
-    const backup = await this.cardsService.exportToBundle();
+  private async migrateProgress(serverTimestamp: string, backup: { cards?: any[]; lessons?: any[]; user_uuid?: string; data_collection?: any }) {
+    // Backup was already captured BEFORE the alert was shown,
+    // so it's guaranteed to have the user's real progress regardless
+    // of any concurrent initialize() calls from page components.
     console.log('Migration backup:', {
-      cards: backup.cards?.filter(c => c.stage >= 0).length ?? 0,
-      lessons: backup.lessons?.filter(l => l.status !== 'locked').length ?? 0
+      cards: backup.cards?.filter((c: any) => c.stage >= 0).length ?? 0,
+      lessons: backup.lessons?.filter((l: any) => l.status !== 'locked').length ?? 0
     });
 
     // Rebuild database with new data
     localStorage.setItem(VERSION_KEY, serverTimestamp);
     await this.cardsService.rebuild();
 
-    // Restore progress
+    // Restore progress from the pre-captured backup
     const result = await this.cardsService.restoreFromBundle(backup);
 
     // Show result
@@ -147,9 +157,7 @@ export class AppComponent implements OnInit {
 
   private async checkDataCollection() {
     try {
-      // Ensure cards service is initialized
-      await this.cardsService.initialize();
-
+      // cardsService already initialized in ngOnInit before checkVersion
       const status = this.cardsService.getDataCollectionStatus();
       if (status === 'no-response') {
         await this.showDataCollectionAlert();

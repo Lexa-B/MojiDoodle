@@ -6,6 +6,11 @@
 
   <div class="canvas-wrapper">
     <canvas #canvas class="drawing-canvas" *ngIf="!noCardsAvailable"></canvas>
+
+    <!-- SVG overlays (after canvas, pointer-events: none) -->
+    <div class="lasso-overlay" [innerHTML]="lassoSvgContent"></div>
+    <div class="segmentation-overlay" [innerHTML]="segmentationSvgContent"></div>
+
     <ion-button class="undo-btn" fill="clear" (click)="onUndo()" *ngIf="!noCardsAvailable">
       <ion-icon name="backspace"></ion-icon>
     </ion-button>
