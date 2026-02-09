@@ -18,6 +18,8 @@ export class SettingsPage implements OnInit {
     { id: 'genki', label: 'Genki Vocabulary' },
     { id: 'wanikani', label: 'WaniKani Lessons' },
     { id: 'joyo-kanji', label: 'Jōyō Kanji' },
+    { id: 'jinmeiyo-kanji', label: 'Jinmeiyō Kanji' },
+    { id: 'common-katakana-words', label: 'Common Katakana Words' },
   ];
 
   constructor(
