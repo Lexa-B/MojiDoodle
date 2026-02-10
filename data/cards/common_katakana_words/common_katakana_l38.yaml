@@ -5,6 +5,10 @@
   hint: noun
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 - id: ckw-l38-6266
   prompt: banana
@@ -13,6 +17,10 @@
   hint: noun
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 - id: ckw-l38-6267
   prompt: arrange, arrangement
@@ -21,6 +29,10 @@
   hint: verbal noun (する verb)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 - id: ckw-l38-6274
   prompt: tent
@@ -29,6 +41,10 @@
   hint: noun
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 - id: ckw-l38-6280
   prompt: rival, competitor
@@ -37,6 +53,10 @@
   hint: noun
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 - id: ckw-l38-6281
   prompt: cup, glass
@@ -45,6 +65,10 @@
   hint: noun
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 - id: ckw-l38-6307
   prompt: town
@@ -53,6 +77,10 @@
   hint: noun
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 - id: ckw-l38-6314
   prompt: brush
@@ -61,6 +89,10 @@
   hint: noun
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 - id: ckw-l38-6316
   prompt: object
@@ -69,6 +101,10 @@
   hint: noun
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 - id: ckw-l38-6319
   prompt: battery
@@ -77,6 +113,10 @@
   hint: noun
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 - id: ckw-l38-6324
   prompt: turn
@@ -85,6 +125,10 @@
   hint: verbal noun (する verb)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 - id: ckw-l38-6328
   prompt: package
@@ -93,6 +137,10 @@
   hint: verbal noun (する verb)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 - id: ckw-l38-6331
   prompt: antenna
@@ -101,6 +149,10 @@
   hint: noun
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 - id: ckw-l38-6333
   prompt: filter
@@ -109,6 +161,10 @@
   hint: noun
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 - id: ckw-l38-6334
   prompt: layout
@@ -117,4 +173,8 @@
   hint: verbal noun (する verb)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []

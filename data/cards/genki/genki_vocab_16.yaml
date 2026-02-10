@@ -6,6 +6,10 @@
     服/シャツ: シャツにアイロンをかける'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - アイロンをする
@@ -30,6 +34,10 @@
   hint: asanebou suru — oversleep / sleep in (often implies being late)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 寝坊する
@@ -54,6 +62,10 @@
   hint: atsumeru (ru-verb) — gather things together (e.g., stamps, info, people)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 集まる
@@ -79,6 +91,10 @@
     me). Often used with は/に.'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ～以内
@@ -103,6 +119,10 @@
   hint: ireru - to insert/put into a container (transitive ru-verb)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 入る
@@ -128,6 +148,10 @@
     or taking a photo
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 映す
@@ -151,6 +175,10 @@
   hint: eeto — a hesitation/filler used to buy time before speaking (like “um…”)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - えっと
@@ -178,6 +206,10 @@
     depending on context
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 駅長
@@ -205,6 +237,10 @@
     箱の大きさ = the size of a box).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - サイズ
@@ -229,6 +265,10 @@
   hint: okosu (transitive) — someone wakes someone up / causes something to happen
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 起きる
@@ -254,6 +294,10 @@
     Pattern: ～におごる / おごってあげる
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - おごられる
@@ -278,6 +322,10 @@
   hint: ochikomu - to feel down (mood drops); often used like 気分が落ち込む / 落ち込んでいる
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 落とす
@@ -303,6 +351,10 @@
   strokeCount: 16
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 新
@@ -326,6 +378,10 @@
   hint: 'kakeru (airon o) — used with アイロンを: シャツにアイロンをかける'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - かける（電話を）
@@ -352,6 +408,10 @@
     Pattern: AはBにCを貸す
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 借りる
@@ -377,6 +437,10 @@
     汚い部屋).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 臭い
@@ -401,6 +465,10 @@
   hint: kimatsu shiken — end-of-term exam (学校で学期の終わりにあるテスト)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 中間試験
@@ -426,6 +494,10 @@
     with までに.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 今日中
@@ -450,6 +522,10 @@
   hint: 'kenkyuu — often used with する: 研究する (to do research)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 勉強
@@ -473,6 +549,10 @@
   hint: kono gurai — points to a rough amount/degree (approx.). Often used with gestures.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - これくらい
@@ -497,6 +577,10 @@
   hint: 'komaru — to be troubled / be at a loss (often: 困った！ “Oh no…”)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 悩む
@@ -520,6 +604,10 @@
   hint: gomi (usually written in kana; also seen as ゴミ)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ゴミ
@@ -543,6 +631,10 @@
   hint: 'gomen — casual apology (short for ごめんなさい). Common in: ごめんね'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - すみません
@@ -567,6 +659,10 @@
   hint: satou — means table sugar; often written in kana as さとう too
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 塩
@@ -592,6 +688,10 @@
     "The truth is...")
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 本当は
@@ -617,6 +717,10 @@
     or doing something that might be rude (often said before/after).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - すみません
@@ -641,6 +745,10 @@
   hint: 'jibun de — do it yourself (often used before a verb): 自分でやる'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 一人で
@@ -666,6 +774,10 @@
     you do while class is in session.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 授業中
@@ -690,6 +802,10 @@
   hint: shougakukin — money to support study (奨=encourage, 学=study, 金=money)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 小学生
@@ -715,6 +831,10 @@
     by context)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 中学生
@@ -739,6 +859,10 @@
   hint: 'shinseki — family/relatives (not your own parents: 親)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 親
@@ -764,6 +888,10 @@
     + 状(じょう)=document
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 紹介状
@@ -787,6 +915,10 @@
   hint: 'suruto — used to show what happened next or as a result: 「すると、雨が降ってきた」'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - それで
@@ -811,6 +943,10 @@
   hint: setsumei suru — use when giving an explanation/instructions (e.g., 手順を説明する).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 解説する
@@ -836,6 +972,10 @@
   strokeCount: 8
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 天
@@ -860,6 +1000,10 @@
     a story”). Often used in reactions: そんな…! “No way…!”'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - そんなに～
@@ -885,6 +1029,10 @@
     に行く/に通う.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 大学
@@ -909,6 +1057,10 @@
   hint: taifuu (たいふう) - a tropical cyclone/typhoon (common in weather forecasts)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 大風
@@ -933,6 +1085,10 @@
   hint: dasu — means to put/take something out (出すゴミ), or to submit/hand in (レポートを出す).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 出る
@@ -958,6 +1114,10 @@
     助けて！).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 助かる
@@ -982,6 +1142,10 @@
   hint: 'chigau (u-verb) — often used for “No/That’s wrong” (例: 違うよ).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 間違う
@@ -1006,6 +1170,10 @@
   hint: 'tsudzuku — intransitive: something continues/goes on (e.g., 雨が続く).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 続ける
@@ -1031,6 +1199,10 @@
     を: 子どもを連れていく'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 持っていく
@@ -1055,6 +1227,10 @@
   hint: dougu — everyday tools/equipment (道=road, 具=tool/ingredient)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 家具
@@ -1078,6 +1254,10 @@
   hint: doko demo - “where + even” → anywhere (e.g., どこでもいい = anywhere is fine)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - どこか
@@ -1103,6 +1283,10 @@
     like hotcakes)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 跳ぶ
@@ -1127,6 +1311,10 @@
   hint: naosu (なおす) — to fix/correct something; also used for “to cure” (illness).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 治す
@@ -1151,6 +1339,10 @@
     approximate comparison). Often follows a noun: 先生のようなもの = something like a teacher.'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ～みたいなもの
@@ -1175,6 +1367,10 @@
   hint: noriokureru (ru-verb) — miss the ride because you were late (e.g., 電車に乗り遅れる).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 乗り過ごす
@@ -1199,6 +1395,10 @@
   hint: 'bangumi — TV/radio show; often used with TV: テレビ番組'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 番組表
@@ -1223,6 +1423,10 @@
   hint: himitsu — a hidden secret; often used in phrases like 秘密にする (to keep it secret).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 内緒
@@ -1246,6 +1450,10 @@
   hint: fairu (katakana) - used for computer files or a document folder/portfolio
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - フォルダ
@@ -1270,6 +1478,10 @@
   hint: 'hokano — used before a noun: 「他の人」= other person / someone else'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 別の
@@ -1293,6 +1505,10 @@
   hint: poketto (katakana loanword) — often used for clothing pockets (e.g., ズボンのポケット).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ぽけっと
@@ -1316,6 +1532,10 @@
   hint: mata — also/again; often used like 「また、〜」 to add another point
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - まだ
@@ -1340,6 +1560,10 @@
   hint: mikata — ally/one’s side (vs 敵 "enemy")
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 見方
@@ -1364,6 +1588,10 @@
   hint: miseru (ru-verb) — to show someone something (e.g., 写真を見せる)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 見える
@@ -1389,6 +1617,10 @@
   strokeCount: 12
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 首
@@ -1414,6 +1646,10 @@
     the route/directions.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 道に迷い込む
@@ -1439,6 +1675,10 @@
     contrasts with 見つける (to find).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 見つける
@@ -1463,6 +1703,10 @@
   hint: mirai — often used for the future (time ahead) or prospects (e.g., 未来の夢).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 将来
@@ -1487,6 +1731,10 @@
   hint: mukae ni iku — go to meet/pick someone up (e.g., at the station/airport)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 迎えに来る
@@ -1512,6 +1760,10 @@
     meeting someone (e.g., at the station/airport)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 迎えに行く
@@ -1536,6 +1788,10 @@
   hint: modoru (u-verb) — return to a previous place/state; e.g., 家に戻る
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 帰る
@@ -1561,6 +1817,10 @@
     文章を日本語に訳す)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 翻訳する
@@ -1585,6 +1845,10 @@
   hint: yowai — i-adjective (e.g., 体が弱い = physically weak)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 弱いです
@@ -1608,6 +1872,10 @@
   hint: robotto (katakana loanword)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ろぼっと
@@ -1632,6 +1900,10 @@
   hint: warau — often used with expressions like 「笑う／笑って」; kanji 笑 is 10 strokes
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 笑顔

@@ -6,6 +6,10 @@
   hint: aoi — い-adj. describing the color blue; becomes 青く (adverb) / 青かった (past)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 赤い
@@ -31,6 +35,10 @@
     Japanese
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 赤信号
@@ -55,6 +63,10 @@
   hint: akai — い-adjective meaning “red” (e.g., 赤いりんご = a red apple)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 青い
@@ -80,6 +92,10 @@
     used as: 〜を案内する'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 案内
@@ -104,6 +120,10 @@
   hint: ii ko — often used praising a kid (e.g., いい子だね). 子 = "child".
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 良い子
@@ -129,6 +149,10 @@
     like 意地悪な人
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 優しい
@@ -154,6 +178,10 @@
     ends in 〜つ).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 五
@@ -179,6 +207,10 @@
   strokeCount: 6
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 巴
@@ -204,6 +236,10 @@
     (e.g., いろいろな人).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - さまざま
@@ -229,6 +265,10 @@
   hint: undou suru — do physical exercise; often used with が/を (e.g., 毎日運動する)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 運転する
@@ -253,6 +293,10 @@
   hint: odoru — u-verb; often used for dancing (e.g., ダンスを踊る / 盆踊り).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 躍る
@@ -277,6 +321,10 @@
   hint: 'obentou — polite お + 弁当; common phrase: お弁当を作る (to make a bento)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 弁当
@@ -301,6 +349,10 @@
   hint: oboeru (ru-verb) — memorize/learn by heart; often used for remembering names/words
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 思い出す
@@ -324,6 +376,10 @@
   hint: orenji (katakana) — a common loanword; often written in katakana for foods/colors
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - おれんじ
@@ -348,6 +404,10 @@
   hint: 'owaru — intransitive: something comes to an end (e.g., 会議が終わる).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 終える
@@ -373,6 +433,10 @@
     literally “the face is blue.”
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 顔色が悪い
@@ -398,6 +462,10 @@
     kanji
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 歌舞
@@ -422,6 +490,10 @@
   hint: kiiroi — い-adjective. Often written in kana as きいろい in casual contexts.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 黄色
@@ -445,6 +517,10 @@
   hint: gitā (katakana) — long vowel mark 「ー」 stretches ギ to ギー
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - きたー
@@ -469,6 +545,10 @@
   hint: kimono — literally "thing to wear" (着=to wear, 物=thing)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 着る
@@ -493,6 +573,10 @@
   hint: kin'iro — “golden color”; often used with の (金色の) to describe something golden.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 黄色
@@ -518,6 +602,10 @@
     銀色の車).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 金色
@@ -543,6 +631,10 @@
   strokeCount: 16
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 楽
@@ -568,6 +660,10 @@
     薬を飲みます。
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 薬を飲み込む
@@ -592,6 +688,10 @@
     golf green)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - みどり
@@ -616,6 +716,10 @@
     (グレーゾーン).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - グレイ
@@ -640,6 +744,10 @@
   hint: kuroi — i-adjective meaning “black” (ends in い).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 暗い
@@ -664,6 +772,10 @@
     contexts
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ゴルド
@@ -688,6 +800,10 @@
   hint: kokonotsu — native Japanese counter for nine items (used with ～つ)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 九
@@ -713,6 +829,10 @@
     morning”
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 午前
@@ -736,6 +856,10 @@
   hint: gochisou — often used in 「ごちそうさまでした」 after a meal
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ちそう
@@ -760,6 +884,10 @@
   hint: kon'iro — dark navy blue; often used for uniforms (e.g., 紺色のスーツ).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 藍色
@@ -783,6 +911,10 @@
   hint: konsāto - Katakana loanword (from “concert”)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - コンサル
@@ -807,6 +939,10 @@
   hint: kondo — often means “next time / soon” (the upcoming occasion)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 今
@@ -831,6 +967,10 @@
   hint: sakubun — a written composition/essay (often for school).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 作家
@@ -855,6 +995,10 @@
   hint: sabishii — feeling lonely/isolated (also used for “missing someone” in context)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 淋しい
@@ -879,6 +1023,10 @@
   hint: sanpo suru — usually used for a casual stroll (e.g., 公園を散歩する)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 歩く
@@ -903,6 +1051,10 @@
   hint: shiken — often used for school tests and official exams (e.g., 入学試験, 運転免許試験)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 実験
@@ -927,6 +1079,10 @@
     + small ァ at the end
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - しるばー
@@ -951,6 +1107,10 @@
   hint: shiroi — い-adj meaning “white” (e.g., 白いシャツ = a white shirt)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 黒い
@@ -976,6 +1136,10 @@
     (白黒をつける)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 白い
@@ -999,6 +1163,10 @@
   hint: sukii (katakana loanword). Long vowel mark 「ー」 after ス.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - すきー
@@ -1023,6 +1191,10 @@
   hint: zehi — used to strongly encourage or invite (e.g., 「ぜひ来てください」 “Please do come.”)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 必ず
@@ -1047,6 +1219,10 @@
     paired with です/だ.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - そうそう
@@ -1071,6 +1247,10 @@
     それで).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - それから
@@ -1095,6 +1275,10 @@
   hint: tango — means “a vocabulary word” (単=single, 語=language/word)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 文章
@@ -1118,6 +1302,10 @@
   hint: chiketto (katakana) - used for event/transport tickets
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - きっぷ
@@ -1142,6 +1330,10 @@
   hint: chairoi — い-adjective meaning “brown”; often used as 茶色い〜 (e.g., 茶色いかばん).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 茶色
@@ -1166,6 +1358,10 @@
   hint: tegami — a written letter (not "mail" in general)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - メール
@@ -1192,6 +1388,10 @@
   strokeCount: 2
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 土
@@ -1215,6 +1415,10 @@
   hint: tokorode — use to change the topic or add an aside (e.g., ところで、元気？)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ちなみに
@@ -1240,6 +1444,10 @@
     general items (not people)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 七
@@ -1264,6 +1472,10 @@
   hint: nikki — a written journal/diary (日=day + 記=record)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 手記
@@ -1289,6 +1501,10 @@
     (e.g., この店は人気がある).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 人気が出る
@@ -1313,6 +1529,10 @@
   hint: haiiro — literally “ash color”; often written as グレー in katakana too
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 白色
@@ -1338,6 +1558,10 @@
     授業が始まる)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 始める
@@ -1363,6 +1587,10 @@
     ちょっと話をする).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 話す
@@ -1387,6 +1615,10 @@
     ノ.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ぴあの
@@ -1411,6 +1643,10 @@
   hint: hiku — used for playing instruments (e.g., ピアノを弾く、ギターを弾く). Not 引く (to pull).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 引く
@@ -1435,6 +1671,10 @@
   hint: hitotsu (ひとつ) — native Japanese counter for “one (thing)”
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 一
@@ -1459,6 +1699,10 @@
   hint: byouki — 病 (illness) + 気 (spirit/condition); often used with になる (to get sick)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 病院
@@ -1484,6 +1728,10 @@
   strokeCount: 9
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 旦
@@ -1507,6 +1755,10 @@
   hint: pinku (katakana loanword for the color pink)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - リンク
@@ -1532,6 +1784,10 @@
     in kana as ふたつ
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 二人
@@ -1555,6 +1811,10 @@
   hint: bēju (katakana loanword for the color beige)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ページ
@@ -1579,6 +1839,10 @@
   hint: 'bentou — common collocation: 弁当を作る (to make a boxed lunch)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 弁
@@ -1603,6 +1867,10 @@
     / ファミリー)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ホームステイ
@@ -1627,6 +1895,10 @@
     to Tokyo'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - までに
@@ -1651,6 +1923,10 @@
   hint: mizuiro — literally “water color”; often used for pale/light blue shades
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 青
@@ -1675,6 +1951,10 @@
   hint: mittsu — native Japanese counter for 3 (used up to 10).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 二つ
@@ -1700,6 +1980,10 @@
   strokeCount: 14
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 縁
@@ -1726,6 +2010,10 @@
     Often written in kana: むっつ
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 六
@@ -1751,6 +2039,10 @@
   strokeCount: 12
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 柴
@@ -1774,6 +2066,10 @@
   hint: meeru (katakana) — used for email/message; often in メールを送る (to send an email)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - メル
@@ -1797,6 +2093,10 @@
   hint: 'mou — used for “already” (often with 〜た): もう食べた = already ate'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - まだ
@@ -1821,6 +2121,10 @@
     あげる/くれる.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - くれる
@@ -1846,6 +2150,10 @@
     counting general items.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 八
@@ -1870,6 +2178,10 @@
   hint: yottsu — native Japanese counter for 4 (used with general objects; e.g., 四つください)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 四
@@ -1895,6 +2207,10 @@
   strokeCount: 15
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 療
@@ -1920,6 +2236,10 @@
     person).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 若者

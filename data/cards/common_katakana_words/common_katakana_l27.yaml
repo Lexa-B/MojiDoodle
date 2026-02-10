@@ -5,6 +5,10 @@
   hint: noun
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 - id: ckw-l27-4898
   prompt: character
@@ -13,6 +17,10 @@
   hint: noun
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 - id: ckw-l27-4905
   prompt: volume
@@ -21,6 +29,10 @@
   hint: noun
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 - id: ckw-l27-4911
   prompt: robot
@@ -29,6 +41,10 @@
   hint: noun
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 - id: ckw-l27-4914
   prompt: red
@@ -37,6 +53,10 @@
   hint: noun
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 - id: ckw-l27-4916
   prompt: manager
@@ -45,6 +65,10 @@
   hint: noun
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - マネジャー
@@ -63,6 +87,10 @@
   hint: noun
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 - id: ckw-l27-4936
   prompt: career
@@ -71,6 +99,10 @@
   hint: noun
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 - id: ckw-l27-4951
   prompt: version
@@ -79,6 +111,10 @@
   hint: noun
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ヴァージョン
@@ -97,6 +133,10 @@
   hint: noun
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 - id: ckw-l27-4958
   prompt: software
@@ -105,6 +145,10 @@
   hint: noun
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 - id: ckw-l27-4959
   prompt: bench
@@ -113,6 +157,10 @@
   hint: noun
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 - id: ckw-l27-4963
   prompt: over, exaggerated
@@ -121,6 +169,10 @@
   hint: verbal noun (な-adj)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - オーバーコート
@@ -144,6 +196,10 @@
   hint: noun
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 - id: ckw-l27-4978
   prompt: ribbon
@@ -152,4 +208,8 @@
   hint: noun
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []

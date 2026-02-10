@@ -5,6 +5,10 @@
   hint: 'aisukurīmu (katakana loanword). Long vowel: ー in クリーム.'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - アイス
@@ -30,6 +34,10 @@
   strokeCount: 12
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 夕
@@ -54,6 +62,10 @@
   hint: asagohan — 朝=morning + ご飯=rice/meal; common phrase for breakfast
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 昼ご飯
@@ -78,6 +90,10 @@
   hint: ashita / あした — also read あす (asu) in more formal contexts
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 昨日
@@ -102,6 +118,10 @@
     much)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - あんまり〜ない
@@ -126,6 +146,10 @@
     though it comes from 「よい」).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 良い
@@ -151,6 +175,10 @@
   strokeCount: 10
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 宅
@@ -175,6 +203,10 @@
   hint: iku — movement to a destination (行く + く)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 来る
@@ -198,6 +230,10 @@
   hint: itsu — question word meaning “when?” (time)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - なんじ
@@ -222,6 +258,10 @@
     depending on context.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 家
@@ -246,6 +286,10 @@
   hint: 'eiga — a film/movie (common: 映画館 = movie theater)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 映像
@@ -269,6 +313,10 @@
   hint: ee — a polite/neutral "yes" (less casual than うん). Often used as ええ、そうです。
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - はい
@@ -293,6 +341,10 @@
   hint: 'okiru (ru-verb) — to wake up/get up (from sleep). Past: 起きた'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 起こる
@@ -319,6 +371,10 @@
     Often used generally for alcohol; e.g., お酒を飲む
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 酒
@@ -343,6 +399,10 @@
   hint: ocha — polite お + 茶 (tea); commonly said as お茶を飲む
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 緑茶
@@ -367,6 +427,10 @@
   hint: ongaku — often used with 〜を聞く (listen to music) / 〜をかける (put on music)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 楽器
@@ -392,6 +456,10 @@
     (e.g., 家に帰る).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 変える
@@ -416,6 +484,10 @@
   hint: gakkou — note the small っ (double consonant) in the reading
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 学園
@@ -439,6 +511,10 @@
   hint: kafe (katakana loanword for a coffee shop)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - かふぇ
@@ -463,6 +539,10 @@
   hint: 'kiku — "listen/hear" (uses the particle を: 音楽を聞く).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 聴く
@@ -487,6 +567,10 @@
   hint: kyou — often read きょう as a standalone noun (e.g., 今日は…).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 今月
@@ -511,6 +595,10 @@
   hint: kuru (irregular verb) — 来ます／来て
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 行く
@@ -534,6 +622,10 @@
   hint: 'koohii (katakana loanword). Long vowels are shown with ー: コー + ヒー'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - こーひー
@@ -557,6 +649,10 @@
   hint: 'goro — attaches to a time word: 3時ごろ = around 3 o’clock (approximate time).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ～ぐらい
@@ -581,6 +677,10 @@
   hint: konban — used for tonight/this evening (e.g., 今晩は雨です).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - こんばん
@@ -606,6 +706,10 @@
   strokeCount: 10
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 油
@@ -631,6 +735,10 @@
     っ in the reading.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 新聞
@@ -655,6 +763,10 @@
   hint: shuumatsu (しゅうまつ) — means Saturday/Sunday; contrast with 平日 (weekdays)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 週日
@@ -678,6 +790,10 @@
   hint: supootsu (katakana) — long vowel mark 「ー」 after ポ = スポー…
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - すぽーつ
@@ -702,6 +818,10 @@
     = to study)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - やる
@@ -727,6 +847,10 @@
     with ない/じゃない.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 全く
@@ -751,6 +875,10 @@
     while thinking (“let me see…”)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - そうです
@@ -775,6 +903,10 @@
     = “hardly ever”)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - いつも
@@ -799,6 +931,10 @@
   hint: taberu (ru-verb) — 食 is the kanji for "eat/food"; べる is okurigana
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 飲む
@@ -824,6 +960,10 @@
   strokeCount: 9
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 荼
@@ -847,6 +987,10 @@
   hint: chotto — often used to soften requests/refusals (e.g., ちょっと待って = wait a moment)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ちょっとした
@@ -870,6 +1014,10 @@
   hint: dēto — katakana loanword; long vowel ー in デー
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - データ
@@ -893,6 +1041,10 @@
   hint: tenisu (katakana loanword)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - てにす
@@ -917,6 +1069,10 @@
     でも、…'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - でもね
@@ -940,6 +1096,10 @@
   hint: terebi (katakana) — loanword from “television”
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - てれび
@@ -964,6 +1124,10 @@
     with か).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - どうです
@@ -988,6 +1152,10 @@
   hint: tokidoki — uses the kanji for "time" (時) repeated; means "from time to time"
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - たまに
@@ -1012,6 +1180,10 @@
   hint: doyoubi — day of the week; ends with 曜日 (youbi)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 金曜日
@@ -1037,6 +1209,10 @@
     Sunday).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 土曜日
@@ -1061,6 +1237,10 @@
   hint: neru (る-verb) — 寝ます (polite). Often used for going to bed/sleeping.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 眠る
@@ -1085,6 +1265,10 @@
   hint: nomu (to drink); 飲 = "eat + now" → taking a drink now
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 呑む
@@ -1110,6 +1294,10 @@
     many uses (〜を話す).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 言う
@@ -1134,6 +1322,10 @@
   hint: 'hayai — time-based: early (e.g., 早い時間 / 早い到着). Note: 速い is "fast" (speed).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 速い
@@ -1159,6 +1351,10 @@
     as 晩ごはん too.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 朝ご飯
@@ -1181,6 +1377,10 @@
   hint: hanbaagaa (katakana) — long vowels ー and the small ン matter
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - はんばーがー
@@ -1206,6 +1406,10 @@
     too.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 朝ご飯
@@ -1230,6 +1434,10 @@
   hint: benkyou suru — common daily-use verb meaning "to study/learn" (e.g., 日本語を勉強する)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 練習する
@@ -1254,6 +1462,10 @@
   hint: mainichi — often used with the particle 「は」 (e.g., 毎日は… = "Every day, …")
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 毎週
@@ -1278,6 +1490,10 @@
   hint: maiban — "each/every (毎)" + "night (晩)"
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 毎日
@@ -1303,6 +1519,10 @@
   strokeCount: 4
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 氷
@@ -1328,6 +1548,10 @@
     a movie)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 観る
@@ -1352,6 +1576,10 @@
     = go often
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - よい
@@ -1376,6 +1604,10 @@
   hint: yomu (u-verb) — e.g., 本を読む = to read a book
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 詠む

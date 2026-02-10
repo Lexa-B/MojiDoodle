@@ -7,6 +7,10 @@
   strokeCount: 12
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 問
@@ -31,6 +35,10 @@
   hint: au — used for meeting/seeing a person (e.g., 友だちに会う). Not for "to fit".
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 合う
@@ -54,6 +62,10 @@
   hint: asatte — 3 days from today (today → tomorrow あした → day after tomorrow あさって)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - あした
@@ -77,6 +89,10 @@
   hint: anata - "you" (often avoided; using the person’s name/title sounds more natural)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - わたし
@@ -100,6 +116,10 @@
   hint: aru - inanimate existence (e.g., 机の上に本がある = There is a book on the desk)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - いる
@@ -123,6 +143,10 @@
   hint: arubaito (katakana loanword; often shortened to バイト)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - バイト
@@ -147,6 +171,10 @@
   hint: ichigatsu — first month of the year (not the one-month duration)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 一ヶ月
@@ -171,6 +199,10 @@
   hint: 'ichijikan — duration: “one hour” (〜時間). Often used with かかる/いる (takes).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 一時
@@ -196,6 +228,10 @@
     duration.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 五日間
@@ -221,6 +257,10 @@
   strokeCount: 4
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 大
@@ -245,6 +285,10 @@
     for things.'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ある
@@ -270,6 +314,10 @@
   strokeCount: 3
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 土
@@ -294,6 +342,10 @@
   hint: ushiro — "behind/in the back (of)”; often used with の (e.g., うしろのドア)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 前
@@ -319,6 +371,10 @@
     late).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 遅い
@@ -343,6 +399,10 @@
   hint: otera — Buddhist temple (often お寺さん). Not a shrine (神社).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 神社
@@ -366,6 +426,10 @@
   hint: ototoi — 2 days ago (not "yesterday")
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - きのう
@@ -389,6 +453,10 @@
   hint: ototoshi — time word; contrasts with おととい (the day before yesterday)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - おととい
@@ -412,6 +480,10 @@
   hint: omanjuu - often a small Japanese sweet bun filled with red bean paste (あんこ)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - まんじゅう
@@ -436,6 +508,10 @@
   hint: 'kaimono — noun: doing/buying things (e.g., 買い物に行く = to go shopping)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 買物
@@ -460,6 +536,10 @@
   hint: kau — used for buying items (買い物). Kanji 買 is 12 strokes.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 買い物
@@ -484,6 +564,10 @@
   hint: kaku (u-verb) — usually writing text/letters; often used as ～を書く (e.g., 名前を書く).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 描く
@@ -508,6 +592,10 @@
   hint: kayoubi — the day of 火 (fire) + 曜日 (day of the week)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 水曜日
@@ -532,6 +620,10 @@
   hint: kinou — time word meaning “yesterday” (not “last year”)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 今日
@@ -556,6 +648,10 @@
   hint: kyonen — time word (often used with は/の), e.g., 去年の夏 = last summer
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 来年
@@ -580,6 +676,10 @@
   hint: kin'youbi — the weekday ending in 「曜日」 (day of the week). 「金」 = gold/metal
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 金よう日
@@ -604,6 +704,10 @@
   hint: kugatsu — 「九」= 9, 「月」= month (also read がつ as a month suffix)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 九日
@@ -628,6 +732,10 @@
     3 minutes). Also written as ～くらい.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ～くらい
@@ -651,6 +759,10 @@
   hint: kurasu - katakana loanword for a school class/course (e.g., 日本語のクラス)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - くらす
@@ -674,6 +786,10 @@
   hint: geemu (katakana loanword; long vowel ー)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - げーむ
@@ -698,6 +814,10 @@
   hint: getsuyoubi (げつようび) — literally “moon day”
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 火曜日
@@ -722,6 +842,10 @@
   hint: kouen — a public park (公=public, 園=garden/park)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 病院
@@ -746,6 +870,10 @@
   hint: gogatsu — the 5th month (五月(ごがつ)です = It's May)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 五日
@@ -770,6 +898,10 @@
   hint: kokonoka — special reading for dates (not *kyuu-nichi*)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 九日間
@@ -794,6 +926,10 @@
   hint: kotoshi — this calendar year (e.g., 今年は忙しい)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 来年
@@ -818,6 +954,10 @@
   hint: kodomo — common word for “child”; can also be written こども in kana
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 子ども
@@ -843,6 +983,10 @@
     朝ご飯/昼ご飯/晩ご飯
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ごはん
@@ -866,6 +1010,10 @@
   hint: gomen nasai — polite apology; often shortened to ごめん (casual)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - すみません
@@ -890,6 +1038,10 @@
   hint: kongetsu — この月 (the current month); often used with は/の (今月は…, 今月の…)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 先月
@@ -914,6 +1066,10 @@
   hint: konshuu — e.g., 今週は忙しい (This week is busy).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 来週
@@ -939,6 +1095,10 @@
     month) and 再来週 (the week after next)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 来月
@@ -963,6 +1123,10 @@
   hint: sarai shuu — 「再」= again, 「来週」= next week → “the next week after next”
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 来週
@@ -987,6 +1151,10 @@
   hint: sarainen — the year after next (来年=next year, 再来年=next-next year)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 来年
@@ -1011,6 +1179,10 @@
   hint: sangatsu — read 三 as さん and 月 as がつ (month).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 五月
@@ -1035,6 +1207,10 @@
   hint: shigatsu — month names use ～月 (gatsu)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 四日
@@ -1060,6 +1236,10 @@
     さんじかん…
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ～時間目
@@ -1085,6 +1265,10 @@
   strokeCount: 3
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 上
@@ -1109,6 +1293,10 @@
   hint: shichigatsu — the month of July (七=7, 月=month). Watch for the small っ in しち.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 四月
@@ -1133,6 +1321,10 @@
   hint: shashin — 写="copy/reflect", 真=“true/real”; common in 写真を撮る (to take a photo)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 画像
@@ -1158,6 +1350,10 @@
     じゅういちげつ).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 十月
@@ -1182,6 +1378,10 @@
   hint: juuichinichi — date reading; often written as 11日 in schedules
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 十日
@@ -1206,6 +1406,10 @@
   hint: 'juugatsu — the 10th month. Note: months use the counter ～月 (がつ).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 十日
@@ -1230,6 +1434,10 @@
   hint: juunigatsu — the 12th month (月 = month). Also read 12月 (じゅうにがつ).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 十一月
@@ -1254,6 +1462,10 @@
   hint: juuyokka — date reading (not "juuyon-nichi")
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 十四日
@@ -1278,6 +1490,10 @@
   hint: suiyoubi — literally "water day" (水) + “day of week” (曜日); written as 水・曜・日
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 木曜日
@@ -1301,6 +1517,10 @@
   hint: sūpā (katakana) — long vowel mark 「ー」 extends the sound; write ス・ー・パ・ー
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - スパー
@@ -1325,6 +1545,10 @@
   hint: sengetsu — time word; often used with は/に (e.g., 先月は忙しかった)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 今月
@@ -1349,6 +1573,10 @@
   hint: senshū — time word meaning the week before this one (often used with 先週は…)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 今週
@@ -1372,6 +1600,10 @@
   hint: sorekara — used to continue a sequence (“and then… / after that…”).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - それで
@@ -1395,6 +1627,10 @@
   hint: dakara — casual conjunction meaning “so/therefore”; often used to give a reason/explanation
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ですから
@@ -1418,6 +1654,10 @@
   hint: takusan — often used before/with nouns (たくさんの人) or with verbs (たくさん食べる).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 多い
@@ -1442,6 +1682,10 @@
   hint: chikaku — often used as 近くの (nearby ~) or 近くに (nearby/in the vicinity)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 近い
@@ -1466,6 +1710,10 @@
   hint: tsuitachi — special reading for 「一日」 meaning the 1st of the month (not いちにち)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 一日
@@ -1491,6 +1739,10 @@
   strokeCount: 6
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 持
@@ -1515,6 +1767,10 @@
     after a noun (e.g., 友だちと).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ～に
@@ -1538,6 +1794,10 @@
   hint: doushite — used to ask for a reason (often "Why?/How come?")
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - なぜ
@@ -1564,6 +1824,10 @@
     Note: also used as “ten days” depending on context.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 十月
@@ -1589,6 +1853,10 @@
   strokeCount: 10
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 寺
@@ -1614,6 +1882,10 @@
   strokeCount: 15
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 鄰
@@ -1638,6 +1910,10 @@
   hint: toru — used for photos/filming (写真を撮る, 動画を撮る)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 取る
@@ -1663,6 +1939,10 @@
   strokeCount: 4
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 虫
@@ -1689,6 +1969,10 @@
     Irregular reading: 七日 = なのか (not しちにち)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 七日間
@@ -1714,6 +1998,10 @@
     二か月前に日本に来ました)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 二か月後
@@ -1738,6 +2026,10 @@
   hint: nigatsu — month name; written with the number 2 + month
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 二日
@@ -1762,6 +2054,10 @@
   hint: nishūkan mae — time expression; can be used like 「二週間前に日本へ行った」
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 二週間後
@@ -1787,6 +2083,10 @@
     dates.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 二十四
@@ -1812,6 +2112,10 @@
   strokeCount: 11
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 描
@@ -1836,6 +2140,10 @@
   hint: 'basutei - 「停」= stop (as in 停車). Often used with に/で: バス停に行く, バス停で待つ'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - バス停留所
@@ -1860,6 +2168,10 @@
   hint: hachigatsu — the 8th month (月 is read がつ in month names)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 七月
@@ -1884,6 +2196,10 @@
   hint: hatsuka — irregular reading (not *nijuu-nichi*) used for dates
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 二十日間
@@ -1909,6 +2225,10 @@
   strokeCount: 7
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 鼻
@@ -1932,6 +2252,10 @@
   hint: pan (katakana) — common loanword used for bread in general
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ぱん
@@ -1957,6 +2281,10 @@
   strokeCount: 5
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 右
@@ -1984,6 +2312,10 @@
   strokeCount: 2
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 入
@@ -2008,6 +2340,10 @@
   hint: hitori de — means "by oneself"; often used with 行く/する (e.g., 一人で行く = go alone)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 一人
@@ -2032,6 +2368,10 @@
   hint: byouin — 病(illness) + 院(institution); long vowel びょう
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 病気
@@ -2056,6 +2396,10 @@
   hint: 'futsuka — read as ふつか (NOT ににち). Often used for dates: 2日(ふつか).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 二十日
@@ -2079,6 +2423,10 @@
   hint: hoteru (katakana loanword). Watch the long vowel mark 「ー」 in the middle.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ほてる
@@ -2103,6 +2451,10 @@
   hint: honya — 本 (book) + 屋 (shop; -ya suffix for store)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 本屋さん
@@ -2128,6 +2480,10 @@
   strokeCount: 9
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 後
@@ -2153,6 +2509,10 @@
   strokeCount: 7
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 村
@@ -2177,6 +2537,10 @@
   hint: 'matsu — u-verb (待ちます). Often used for waiting for a person/bus: バスを待つ'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 持つ
@@ -2201,6 +2565,10 @@
     paste)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - もち
@@ -2226,6 +2594,10 @@
   strokeCount: 5
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 石
@@ -2251,6 +2623,10 @@
   strokeCount: 8
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 占
@@ -2276,6 +2652,10 @@
     as the day counter.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 三日月
@@ -2300,6 +2680,10 @@
   hint: 'muika — irregular day reading (not ろくにち). Used for dates: 6日(むいか).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 六日間
@@ -2324,6 +2708,10 @@
   hint: mokuyoubi — literally "wood day" + 曜日 (days of the week).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 水曜日
@@ -2347,6 +2735,10 @@
   hint: moshi moshi — phone-only greeting; said when answering/calling
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - こんにちは
@@ -2371,6 +2763,10 @@
   hint: youka — calendar day "8th"; often written with the counter 日 (day).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 八日目
@@ -2395,6 +2791,10 @@
   hint: yokka — irregular day counter (一日ついたち, 二日ふつか, 三日みっか, 四日よっか)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 四月
@@ -2419,6 +2819,10 @@
   hint: 'raigetsu — 来(come) + 月(month); often used for plans: 来月は旅行します。'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 先月
@@ -2443,6 +2847,10 @@
   hint: raishuu — time word; often used with に (来週に) or から (来週から)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 今週
@@ -2467,6 +2875,10 @@
   hint: rainen — often used for calendar year (e.g., 来年の春 = next spring)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 去年
@@ -2490,6 +2902,10 @@
   hint: resutoran (katakana loanword). Often used with に行く (to go to a restaurant).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - れすとらん
@@ -2513,6 +2929,10 @@
   hint: repōto — academic report/term paper (katakana loanword)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - リポート
@@ -2539,6 +2959,10 @@
     Note: 月 is the “month/moon” kanji; written with 4 strokes.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 六日
@@ -2563,6 +2987,10 @@
     this card uses kana.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - わける

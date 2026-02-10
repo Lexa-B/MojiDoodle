@@ -6,6 +6,10 @@
   hint: ichinichijuu — means “throughout the whole day” (often with 〜している／〜を).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 一日
@@ -30,6 +34,10 @@
   hint: 'ichinichime — use after an event starts: 「旅行の一日目」 (day 1 of the trip)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 一日中
@@ -54,6 +62,10 @@
   hint: ichinenjuu — “throughout the whole year” (often used with 〜暖かい/〜営業)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 一日中
@@ -79,6 +91,10 @@
     breakfast).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 一泊朝食付き
@@ -102,6 +118,10 @@
   hint: intaanetto (katakana loanword). Long vowel mark 「ー」 appears twice.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - いんたーねっと
@@ -127,6 +147,10 @@
     and が (subject), e.g., 日本で生まれる
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 産まれる
@@ -151,6 +175,10 @@
   strokeCount: 12
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 会
@@ -176,6 +204,10 @@
     movie part.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 映画
@@ -202,6 +234,10 @@
     Used when something is dropped by someone (often accidentally): さいふが落とされた。
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 落ちる
@@ -226,6 +262,10 @@
   hint: orosu — e.g., お金を下ろす (withdraw money from a bank/ATM).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 降ろす
@@ -250,6 +290,10 @@
   hint: gaikokujin — literally “outside-country person” (外+国+人)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 外国語
@@ -274,6 +318,10 @@
   hint: kaku — used for drawing/painting a picture (e.g., 絵を描く). Not for writing text.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 書く
@@ -298,6 +346,10 @@
   hint: kagu — household furnishings; note 家 (house) + 具 (tool/item)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 家電
@@ -323,6 +375,10 @@
     activities)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 行動
@@ -348,6 +404,10 @@
     (e.g., 京都を観光する)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 旅行する
@@ -372,6 +432,10 @@
   hint: kitsuen — noun meaning “smoking” (e.g., 喫煙所 = smoking area).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 禁煙
@@ -396,6 +460,10 @@
   hint: kyoushitsu — a room for teaching/lessons (学校の教室 = a classroom at school)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 教師
@@ -420,6 +488,10 @@
   hint: 'ki o tsukeru — often used as a warning/advice: 気をつけて (Take care!)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 注意する
@@ -444,6 +516,10 @@
   hint: kinen — “no smoking” (e.g., 禁煙席 non-smoking seat, 禁煙車 non-smoking car)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 喫煙
@@ -467,6 +543,10 @@
   hint: kujira — often written in kana; kanji 鯨 is also used in some contexts
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - くしら
@@ -491,6 +571,10 @@
   hint: keshiki — a view/scene (often natural scenery); commonly used as 景色がいい
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 景気
@@ -515,6 +599,10 @@
   hint: kekkonshiki - formal wedding ceremony (式 = ceremony)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 結婚
@@ -539,6 +627,10 @@
     softer than しかし).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ～けれど(も)
@@ -563,6 +655,10 @@
   hint: genbaku — short for 原子爆弾 (げんしばくだん); often seen in words like 原爆ドーム
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 原子爆弾
@@ -587,6 +683,10 @@
   hint: 'kouyou — often used for fall foliage viewing: 紅葉狩り（こうようがり）'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 黄葉
@@ -611,6 +711,10 @@
   hint: komu — intransitive; used for places/traffic getting crowded (e.g., 道が混む).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 込む
@@ -635,6 +739,10 @@
   hint: kondeiru — used for places/transport being crowded (e.g., 電車が混んでいる).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 混む
@@ -659,6 +767,10 @@
   hint: 'saikin — often used with the present: 最近、忙しい (I''ve been busy lately).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 最近まで
@@ -683,6 +795,10 @@
   hint: sagasu — to search for something you don’t currently have/know where it is
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 捜す
@@ -707,6 +823,10 @@
   hint: sasou — to invite/ask someone out; often used like 友だちを誘う (invite a friend)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 請う
@@ -731,6 +851,10 @@
   hint: 'sankasuru — join/take part in an event or group (often used with に/を: イベントに参加する)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 加入する
@@ -756,6 +880,10 @@
   strokeCount: 11
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 馬
@@ -781,6 +909,10 @@
     contexts
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 自身
@@ -805,6 +937,10 @@
   hint: shizen — “nature” as in the natural world / naturally (自然に).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 当然
@@ -830,6 +966,10 @@
   strokeCount: 10
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 鳥
@@ -853,6 +993,10 @@
   hint: jaketto (katakana) - used for clothing/outerwear; common loanword
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ジャケツ
@@ -876,6 +1020,10 @@
   hint: shaberu — casual speaking; more like “chat/talk” than “say”
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 話す
@@ -900,6 +1048,10 @@
   hint: shuukan — a personal or social habit/custom done regularly (e.g., 毎日の習慣).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 週間
@@ -925,6 +1077,10 @@
     it’s a traditional usage.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 主婦
@@ -950,6 +1106,10 @@
     原因を調べる)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 探す
@@ -973,6 +1133,10 @@
   hint: 'shinguru - hotel talk: シングルルーム (a room for one person)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ダブル
@@ -998,6 +1162,10 @@
     cross in all directions at once (often at big intersections).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 交差点
@@ -1021,6 +1189,10 @@
   hint: 'suru — in this sense: “choose/settle on” (e.g., これにする = I''ll go with this)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 決める
@@ -1045,6 +1217,10 @@
   hint: zeikin — money paid to the government (e.g., 所得税 income tax, 消費税 sales tax)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 料金
@@ -1070,6 +1246,10 @@
     (attend the ceremony)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 入学式
@@ -1094,6 +1274,10 @@
   hint: sotsugyou suru — use 「〜を卒業する」 for the school you graduate from (e.g., 大学を卒業する).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 卒業
@@ -1118,6 +1302,10 @@
     dipping sauce or hot in broth
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - うどん
@@ -1142,6 +1330,10 @@
   hint: daiyokujou — a big public bath/spa area (often in hotels, ryokan, onsen facilities)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 大浴室
@@ -1167,6 +1359,10 @@
   strokeCount: 6
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 笑
@@ -1191,6 +1387,10 @@
   hint: tatemono (たてもの) — 建=build, 物=thing/object
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 建築
@@ -1216,6 +1416,10 @@
     旅行が楽しみです).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 楽しみ
@@ -1240,6 +1444,10 @@
   hint: tanoshimu (u-verb) — used for actively enjoying an activity (e.g., 音楽を楽しむ).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 楽しい
@@ -1264,6 +1472,10 @@
     people)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ツイン
@@ -1289,6 +1501,10 @@
     written without （する） as チェックアウト
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - チェックイン
@@ -1316,6 +1532,10 @@
   hint: chekku-in (suru) - used for hotels/airports; often as チェックインする
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - チェックアウト
@@ -1343,6 +1563,10 @@
   hint: chika — used for underground places like basements/subways (e.g., 地下鉄).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 地上
@@ -1367,6 +1591,10 @@
   hint: chizu — often used in 地図アプリ (map app) or 地図を読む (to read a map)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 図
@@ -1392,6 +1620,10 @@
     (朝食=breakfast, 付き=included/with)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 朝食なし
@@ -1416,6 +1648,10 @@
     ツ + イ + ン'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ツィン
@@ -1440,6 +1676,10 @@
   hint: denchi — 電 (electricity) + 池 (pond/cell); commonly used for AA/AAA batteries
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 発電機
@@ -1464,6 +1704,10 @@
   hint: 'tooru (通る) — intransitive u-verb: to pass through a place/route (e.g., 道を通る).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 通す
@@ -1488,6 +1732,10 @@
   hint: torokko ressha — 観光地などで走る小型の列車（「列車」= train）
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 観光列車
@@ -1513,6 +1761,10 @@
   strokeCount: 10
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 店
@@ -1537,6 +1789,10 @@
   hint: nokosu (のこす) - to leave something behind / preserve (e.g., 記録を残す)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 残る
@@ -1563,6 +1819,10 @@
     Example: 2泊(にはく) = two nights
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ～日
@@ -1587,6 +1847,10 @@
   hint: 'basho — physical location/spot (e.g., meeting place: 集合場所)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 住所
@@ -1612,6 +1876,10 @@
     (e.g., 研究を発表する, 新製品を発表する).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 公表する
@@ -1637,6 +1905,10 @@
   strokeCount: 4
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 目
@@ -1661,6 +1933,10 @@
     ファッション雑誌)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ファッショ
@@ -1684,6 +1960,10 @@
   hint: puuru — long vowel mark 「ー」 makes it “puu” (not “puru”).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - プル
@@ -1707,6 +1987,10 @@
   hint: furonto — hotel front desk/reception (カタカナ loanword)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ホール
@@ -1731,6 +2015,10 @@
   hint: heiwa — noun meaning peace; often in 平和な (peaceful)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 安らぎ
@@ -1757,6 +2045,10 @@
     平和 (peace) + 記念 (memorial) + 資料館 (museum/archive).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 平和記念公園
@@ -1780,6 +2072,10 @@
   hint: petto (katakana loanword). Watch the small ッ (double consonant).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ベッド
@@ -1804,6 +2100,10 @@
   hint: hoken — often used in 保険に入る (to get insurance) / 健康保険 (health insurance)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 保健
@@ -1829,6 +2129,10 @@
     policy)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 保険をかける
@@ -1853,6 +2157,10 @@
   hint: machiawase o suru — agree on a time/place and meet; often used as 待ち合わせする
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 会う
@@ -1879,6 +2187,10 @@
     Contrast: 見る (miru) = to look/watch (intentional)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 見る
@@ -1904,6 +2216,10 @@
     one). Write the kanji suffix 目.'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ～枚
@@ -1929,6 +2245,10 @@
     = san-mei).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ～人
@@ -1953,6 +2273,10 @@
   hint: mou ichido — used to ask for a repeat (e.g., もう一度お願いします “One more time, please”).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - もう一回
@@ -1977,6 +2301,10 @@
   hint: yotei — a planned schedule/appointment (e.g., 予定がある “I have plans”).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 計画
@@ -2001,6 +2329,10 @@
   hint: yoyaku suru — use for booking/reserving (hotel, seat, appointment).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 約束する
@@ -2025,6 +2357,10 @@
   hint: ryokan — traditional Japanese lodging (often with tatami rooms and meals)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 旅客
@@ -2049,6 +2385,10 @@
   hint: wakamono (わかもの) — often refers to youth as a group (e.g., 若者たち)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 若い
@@ -2073,6 +2413,10 @@
   hint: waribikiken — 割(わ) = split/discount, 引(ひ) = pull/reduce, 券(けん) = ticket/coupon
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 割引

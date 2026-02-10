@@ -5,6 +5,10 @@
   hint: verbal noun (する verb)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 - id: ckw-l16-3361
   prompt: leader
@@ -13,6 +17,10 @@
   hint: noun
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - リード
@@ -36,6 +44,10 @@
   hint: noun
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 - id: ckw-l16-3367
   prompt: 'yes'
@@ -44,6 +56,10 @@
   hint: noun (な-adj)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 - id: ckw-l16-3368
   prompt: hit, success
@@ -52,6 +68,10 @@
   hint: verbal noun (する verb)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 - id: ckw-l16-3370
   prompt: day
@@ -60,6 +80,10 @@
   hint: noun
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 - id: ckw-l16-3371
   prompt: band, musical group
@@ -68,6 +92,10 @@
   hint: noun
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 - id: ckw-l16-3414
   prompt: route, root
@@ -76,6 +104,10 @@
   hint: noun
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ルーツ
@@ -99,6 +131,10 @@
   hint: noun
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 - id: ckw-l16-3421
   prompt: mass media, press
@@ -107,6 +143,10 @@
   hint: noun
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - メディア
@@ -125,6 +165,10 @@
   hint: noun
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - アイデア
@@ -138,6 +182,10 @@
   hint: noun
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 - id: ckw-l16-3458
   prompt: full
@@ -146,6 +194,10 @@
   hint: な-adjective
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 - id: ckw-l16-3464
   prompt: underwear, pants
@@ -154,6 +206,10 @@
   hint: noun
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 - id: ckw-l16-3474
   prompt: concert
@@ -162,4 +218,8 @@
   hint: noun
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []

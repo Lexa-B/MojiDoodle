@@ -5,6 +5,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-joyo-53f3
@@ -14,6 +18,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-joyo-96e8
@@ -23,6 +31,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-joyo-5186
@@ -32,6 +44,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-joyo-738b
@@ -41,6 +57,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-joyo-97f3
@@ -50,6 +70,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-joyo-4e0b
@@ -59,6 +83,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-joyo-706b
@@ -68,6 +96,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-joyo-82b1
@@ -77,6 +109,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-joyo-8c9d
@@ -86,6 +122,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-joyo-5b66
@@ -95,6 +135,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-joyo-6c17
@@ -104,6 +148,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-joyo-4e5d
@@ -113,6 +161,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-joyo-4f11
@@ -122,6 +174,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-joyo-7389
@@ -131,6 +187,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-joyo-91d1
@@ -140,6 +200,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-joyo-7a7a
@@ -149,6 +213,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-joyo-6708
@@ -158,6 +226,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-joyo-72ac
@@ -167,6 +239,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-joyo-898b
@@ -176,6 +252,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-joyo-4e94
@@ -185,6 +265,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-joyo-53e3
@@ -194,6 +278,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-joyo-6821
@@ -203,6 +291,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-joyo-5de6
@@ -212,6 +304,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-joyo-4e09
@@ -221,6 +317,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-joyo-5c71
@@ -230,6 +330,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-joyo-5b50
@@ -239,6 +343,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-joyo-56db
@@ -248,6 +356,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-joyo-7cf8
@@ -257,6 +369,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-joyo-5b57
@@ -266,6 +382,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-joyo-8033
@@ -275,6 +395,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-joyo-4e03
@@ -284,6 +408,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-joyo-8eca
@@ -293,6 +421,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-joyo-624b
@@ -302,6 +434,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-joyo-5341
@@ -311,6 +447,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-joyo-51fa
@@ -320,6 +460,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-joyo-5973
@@ -329,6 +473,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-joyo-5c0f
@@ -338,6 +486,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-joyo-4e0a
@@ -347,6 +499,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-joyo-68ee
@@ -356,6 +512,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-joyo-4eba
@@ -365,6 +525,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-joyo-6c34
@@ -374,6 +538,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-joyo-6b63
@@ -383,6 +551,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-joyo-751f
@@ -392,6 +564,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-joyo-9752
@@ -401,6 +577,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-joyo-5915
@@ -410,6 +590,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-joyo-77f3
@@ -419,6 +603,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-joyo-8d64
@@ -428,6 +616,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-joyo-5343
@@ -437,6 +629,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-joyo-5ddd
@@ -446,6 +642,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-joyo-5148
@@ -455,6 +655,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-joyo-65e9
@@ -464,6 +668,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-joyo-8349
@@ -473,6 +681,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-joyo-8db3
@@ -482,6 +694,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-joyo-6751
@@ -491,6 +707,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-joyo-5927
@@ -500,6 +720,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-joyo-7537
@@ -509,6 +733,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-joyo-7af9
@@ -518,6 +746,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-joyo-4e2d
@@ -527,6 +759,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-joyo-866b
@@ -536,6 +772,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-joyo-753a
@@ -545,6 +785,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-joyo-5929
@@ -554,6 +798,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-joyo-7530
@@ -563,6 +811,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-joyo-571f
@@ -572,6 +824,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-joyo-4e8c
@@ -581,6 +837,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-joyo-65e5
@@ -590,6 +850,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-joyo-5165
@@ -599,6 +863,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-joyo-5e74
@@ -608,6 +876,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-joyo-767d
@@ -617,6 +889,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-joyo-516b
@@ -626,6 +902,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-joyo-767e
@@ -635,6 +915,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-joyo-6587
@@ -644,6 +928,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-joyo-6728
@@ -653,6 +941,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-joyo-672c
@@ -662,6 +954,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-joyo-540d
@@ -671,6 +967,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-joyo-76ee
@@ -680,6 +980,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-joyo-7acb
@@ -689,6 +993,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-joyo-529b
@@ -698,6 +1006,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-joyo-6797
@@ -707,6 +1019,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-joyo-516d
@@ -716,4 +1032,8 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []

@@ -5,6 +5,10 @@
   hint: aisatsu - used for hello/good morning/thanks; often with する (あいさつする)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 挨拶
@@ -29,6 +33,10 @@
   hint: 'ame ga yamu — use for rain/snow stopping (～がやむ). Often becomes past: 雨がやんだ.'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 雨が降る
@@ -54,6 +62,10 @@
     Often used like 意思を表す (express one’s intention).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 現す
@@ -79,6 +91,10 @@
     someone who isn’t present
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 悪口を言う
@@ -104,6 +120,10 @@
     side” depending on context.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 一方で
@@ -128,6 +148,10 @@
     gone
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - なくなる
@@ -152,6 +176,10 @@
     like 「SNSで」)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - SMS
@@ -176,6 +204,10 @@
   hint: emoji (えもじ) — literally "picture characters"; used for emoji/emoticons
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 絵
@@ -200,6 +232,10 @@
     trouble/diarrhea)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - おなかがいたい
@@ -224,6 +260,10 @@
   hint: omoide — a personal memory/recollection; often used as 思い出を作る (make memories)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 記憶
@@ -248,6 +288,10 @@
   hint: kaigai ryokou — 海外=overseas/abroad + 旅行=travel; used like 「海外旅行に行く」
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 海外出張
@@ -272,6 +316,10 @@
   hint: kaomoji — Japanese-style emoticon using faces (e.g., (^^), (T_T))
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 絵文字
@@ -297,6 +345,10 @@
     happy). Often describes someone’s expression.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ～顔になる
@@ -322,6 +374,10 @@
     or putting up with hardship
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 辛抱する
@@ -346,6 +402,10 @@
   hint: kanjou — feelings/emotions (often used for human emotion; e.g., 感情が高ぶる)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 気持ち
@@ -369,6 +429,10 @@
   hint: kanningu suru — カンニング = “cheating” (katakana loanword); often used with 試験で/テストで
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - コピーする
@@ -393,6 +457,10 @@
   hint: kigou — written symbols/marks (e.g., 記号を使う = to use symbols)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 符号
@@ -416,6 +484,10 @@
   hint: kisu o suru - casual expression meaning "to kiss" (katakana + する)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - キスする
@@ -440,6 +512,10 @@
   hint: 'ki ni iru — “to like; to be pleased with” (often used for things: この靴が気に入った)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 気になる
@@ -465,6 +541,10 @@
     講=lecture
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 休校
@@ -490,6 +570,10 @@
     under shoes).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 靴
@@ -514,6 +598,10 @@
   hint: kekka — outcome/result (often used with ～の結果 “as a result of…”)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 結果的
@@ -538,6 +626,10 @@
   hint: genki de ne — casual farewell meaning “stay well/okay,” often said when parting
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 元気だね
@@ -562,6 +654,10 @@
   hint: kenkou — often used as 健康です (I'm healthy) / 健康な生活 (a healthy life)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 元気
@@ -585,6 +681,10 @@
   hint: kotowaza — fixed saying/proverb; often written in kana
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 言葉
@@ -609,6 +709,10 @@
     Often followed by an explanation/example.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - このような
@@ -633,6 +737,10 @@
   hint: shakai — 社 (company/shrine) + 会 (meet/association) → “society”
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 世界
@@ -657,6 +765,10 @@
   hint: shougakkou — 学校 (school) with 小 (small) = primary/elementary school
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 中学校
@@ -682,6 +794,10 @@
     world)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 全世界
@@ -706,6 +822,10 @@
   hint: sewa o suru — to look after/support someone (e.g., 子どもの世話をする).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 面倒を見る
@@ -729,6 +849,10 @@
   hint: sousou — used to agree/confirm ("Exactly!", "That's right.")
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - そうだ
@@ -753,6 +877,10 @@
     go).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - もうすぐ
@@ -776,6 +904,10 @@
   hint: tada — often used as ただで (for free), e.g., ただでもらう (get for free)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 無料
@@ -801,6 +933,10 @@
   strokeCount: 16
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 横
@@ -825,6 +961,10 @@
     sake of …)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ～ように
@@ -848,6 +988,10 @@
   hint: chekku suru - often used for verifying/confirming (e.g., メールをチェックする)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 確認する
@@ -872,6 +1016,10 @@
   hint: 'chousa — research/investigation (often formal: 調査を行う)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 捜査
@@ -897,6 +1045,10 @@
     (often after quoting it).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - （～は）…ということだ
@@ -921,6 +1073,10 @@
   hint: dōjō suru — to feel sympathy/compassion toward someone (often 同情する＋相手に/を)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 共感する
@@ -944,6 +1100,10 @@
   hint: nakunaru — intransitive (something disappears/gets lost). Often used as 〜がなくなる.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - なくす
@@ -968,6 +1128,10 @@
   hint: '… wa … to iu imi da — use to explain the meaning of a word/phrase: 「XはYという意味だ」'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ～という意味です
@@ -994,6 +1158,10 @@
     Often used as: 〜から離れる (separate from ~), 〜を離れる (leave ~)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 別れる
@@ -1018,6 +1186,10 @@
   hint: hyōjō — facial expression (e.g., 表情が明るい = has a bright expression)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 表現
@@ -1042,6 +1214,10 @@
   hint: bon-odori — a traditional dance during the Obon festival (often in summer).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 盆
@@ -1066,6 +1242,10 @@
     other contexts)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - おいしい
@@ -1090,6 +1270,10 @@
   hint: mensetsu — job/school interview; 面=face, 接=meet/come in contact ("meet face-to-face")
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 面談
@@ -1115,6 +1299,10 @@
     the original place/state).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 帰ってくる
@@ -1139,6 +1327,10 @@
     (e.g., ものすごく寒い)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - すごく
@@ -1163,6 +1355,10 @@
   hint: yuushou suru — win the whole tournament/league; often used with 大会で/リーグで
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 勝つ
@@ -1187,6 +1383,10 @@
   hint: yuushoku — evening meal (more formal than ばんごはん)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 昼食
@@ -1212,6 +1412,10 @@
   strokeCount: 15
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 構
@@ -1236,6 +1440,10 @@
   hint: 'risou — “ideal” (as in an ideal state/goal). Commonly: 理想の〜 (ideal ~).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 現実
@@ -1261,6 +1469,10 @@
     is away (often used with する: 留守番する)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 留守
@@ -1286,6 +1498,10 @@
     の形でも使う
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 陰口を言う

@@ -6,6 +6,10 @@
   hint: atarashii — i-adjective; often used for new items/objects (e.g., 新しい車)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 古い
@@ -30,6 +34,10 @@
   hint: 'atsui — used for objects/temperature (熱いお茶). For weather: 暑い'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 暑い
@@ -54,6 +62,10 @@
   hint: atsui — used for weather/temperature (summer heat), not hot objects
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 熱い
@@ -79,6 +91,10 @@
     忙しいです／忙しくない'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 難しい
@@ -103,6 +119,10 @@
   hint: 'issho ni — used with someone: 友だちと一緒に行く (go together with a friend).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 一緒だ
@@ -127,6 +147,10 @@
   strokeCount: 9
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 湖
@@ -150,6 +174,10 @@
   hint: eru saizu (L size) — often used for clothing; write with full-width characters
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - Ｍサイズ
@@ -174,6 +202,10 @@
   hint: ookii — i-adjective meaning “big/large” (size/scale).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 大きな
@@ -198,6 +230,10 @@
   hint: oshiro — honorific お + 城 (しろ). Often written simply as 城 (しろ).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - お部屋
@@ -223,6 +259,10 @@
     (woman).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 男の子
@@ -247,6 +287,10 @@
   hint: omiyage — a gift you bring back from a trip (often for coworkers/family)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 土産
@@ -271,6 +315,10 @@
   hint: omoshiroi (おもしろい) — can mean both "interesting" and "funny" depending on context
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 楽しい
@@ -295,6 +343,10 @@
   hint: oyogu (u-verb) — uses the water radical 氵 on the left
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 遊ぶ
@@ -319,6 +371,10 @@
   hint: 'onna no hito — polite/neutral; more direct: 女 (おんな).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 男の人
@@ -343,6 +399,10 @@
     requests: すみませんが…'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ～けど
@@ -366,6 +426,10 @@
   hint: 'kakkoii - casual i-adjective; often written in kana (sometimes slang: カッコいい)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - かわいい
@@ -390,6 +454,10 @@
   hint: kiku — also means “to hear/listen”; use for asking a question (e.g., 先生に聞く).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 訊く
@@ -414,6 +482,10 @@
   hint: kirai(na) — a な-adjective; use が嫌い for what you dislike (e.g., 私は納豆が嫌いです).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 好き
@@ -438,6 +510,10 @@
   hint: 'kirei (na) - な-adjective (add な before a noun: きれいなへや)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 奇麗
@@ -464,6 +540,10 @@
   hint: 'kudamono — common noun for fruit (often written in kana: くだもの)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 野菜
@@ -488,6 +568,10 @@
   hint: genki (na-adj.) — use 「元気な + noun」 (元気な人) / 「元気です」 (“I’m fine/energetic”).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 本気
@@ -512,6 +596,10 @@
   hint: kowai — used for things that scare you (怖い映画 = a scary movie).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 恐い
@@ -535,6 +623,10 @@
   hint: saafin (katakana) - a loanword; long vowel mark 「ー」 after サ
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - スキー
@@ -561,6 +653,10 @@
     Often used in letters, customer service, and addressing clients (e.g., 山田様).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ～さん
@@ -585,6 +681,10 @@
   hint: samui — used for cold weather/air (not for cold-to-the-touch objects)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 冷たい
@@ -609,6 +709,10 @@
   hint: shizuka (na) — な-adjective; often used as 静かな + noun (e.g., 静かな部屋)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 賑やか
@@ -633,6 +737,10 @@
   hint: shukudai — school assignment; often used with する/がある (e.g., 宿題をする)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 課題
@@ -658,6 +766,10 @@
   strokeCount: 9
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 白
@@ -682,6 +794,10 @@
   hint: 'suki(na) — a な-adjective meaning “to like”; pattern: Xが好きです (I like X).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 大好き
@@ -705,6 +821,10 @@
   hint: sugoku — very/extremely; casual adverb often before adjectives (e.g., すごく寒い)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - とても
@@ -729,6 +849,10 @@
   hint: daikirai(na) - strong dislike/hate; often used as 大嫌いだ
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 嫌い
@@ -753,6 +877,10 @@
   hint: 'daijoubu — reassurance/“no problem” (casual: だいじょうぶだよ)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 平気
@@ -779,6 +907,10 @@
     Pattern: Nが大好き(だ) = really like/love (often for things, hobbies, people)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 好き
@@ -804,6 +936,10 @@
     as "very."
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 大丈夫
@@ -829,6 +965,10 @@
     楽しい時間)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 嬉しい
@@ -853,6 +993,10 @@
   hint: tabemono — literally “things to eat” (食べる + 物)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 飲み物
@@ -877,6 +1021,10 @@
   hint: tanjoubi — often used with おめでとう (e.g., 誕生日おめでとう).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 生年月日
@@ -901,6 +1049,10 @@
   hint: chiisai — i-adj. for physically small size (小 + さい).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 少ない
@@ -924,6 +1076,10 @@
   hint: tsumaranai - “not interesting / dull”; often used about movies, classes, conversations
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - くだらない
@@ -949,6 +1105,10 @@
     going out)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 出る
@@ -972,6 +1132,10 @@
   hint: tesuto (katakana) - a loanword used for exams, quizzes, or product tests
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - てすと
@@ -997,6 +1161,10 @@
     when parting)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - お大事に
@@ -1021,6 +1189,10 @@
   hint: 'tenki — common phrase: 天気がいい (the weather is good)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 電気
@@ -1044,6 +1216,10 @@
   hint: totemo — adverb meaning “very/quite” (e.g., とても大きい = very big)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - とてもじゃない
@@ -1068,6 +1244,10 @@
     kind of book?”)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - どれ
@@ -1093,6 +1273,10 @@
     lively/noisy atmosphere.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - しずか
@@ -1119,6 +1303,10 @@
   hint: nomimono — 飲む (to drink) + 物 (thing); commonly used for beverages (not alcohol-specific).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 飲み水
@@ -1144,6 +1332,10 @@
     に: 電車に乗る'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 載る
@@ -1167,6 +1359,10 @@
   hint: basu (katakana) - loanword; write in katakana, not hiragana
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ばす
@@ -1192,6 +1388,10 @@
   strokeCount: 13
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 遑
@@ -1216,6 +1416,10 @@
   hint: furui — used for old objects/things (not people); e.g., 古い本 (an old book)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 年老いた
@@ -1240,6 +1444,10 @@
   hint: heya — a room (often in a house/apartment); commonly used as お部屋 (polite).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 家
@@ -1266,6 +1474,10 @@
   strokeCount: 14
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 俺
@@ -1292,6 +1504,10 @@
     Example: 紙を三枚 (kami o san-mai) = three sheets of paper
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ～個
@@ -1316,6 +1532,10 @@
   hint: miyage — a gift/souvenir brought back from a trip (often for coworkers/family).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - お土産
@@ -1341,6 +1561,10 @@
     (e.g., 難しい問題)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 易しい
@@ -1364,6 +1588,10 @@
   hint: mekishiko (katakana country name)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - メキシカン
@@ -1388,6 +1616,10 @@
     decides.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 易しい
@@ -1412,6 +1644,10 @@
   hint: 'yasui — price is low (安). Common pattern: 安い + N (e.g., 安い店 = a cheap shop).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 易い
@@ -1437,6 +1673,10 @@
     (take a day off work).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 休む
@@ -1462,6 +1702,10 @@
   strokeCount: 3
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 出
@@ -1486,6 +1730,10 @@
     for someone)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - する
@@ -1511,6 +1759,10 @@
   strokeCount: 8
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 夕
@@ -1535,6 +1787,10 @@
   hint: ryokou — a trip/journey (often for leisure); e.g., 旅行する = to travel
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 旅

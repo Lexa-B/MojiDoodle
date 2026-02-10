@@ -7,6 +7,10 @@
     deposit: 銀行の預け入れ).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 預かり
@@ -30,6 +34,10 @@
   hint: anaunsu — used for public/official announcements (station, school, company).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - アナウンスメント
@@ -53,6 +61,10 @@
   hint: 'apaato (katakana loanword). Long vowel: ー makes the “aa” sound.'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - マンション
@@ -76,6 +88,10 @@
   hint: apuri - short for アプリケーション; commonly used for phone apps
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - アパート
@@ -102,6 +118,10 @@
     Often used for knitting/crocheting or weaving (e.g., マフラーを編む).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 組む
@@ -127,6 +147,10 @@
     as PIN/暗証番号).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 電話番号
@@ -154,6 +178,10 @@
     ・ついたち = the 1st day of the month
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 一週間
@@ -179,6 +207,10 @@
     day of the month” depending on context.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 四日
@@ -204,6 +236,10 @@
     once-in-a-lifetime chance).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 一度だけ
@@ -227,6 +263,10 @@
   hint: ureshii - i-adjective for feeling happy/glad (うれしいです)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - たのしい
@@ -252,6 +292,10 @@
     銀行でお預け入れをする).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - お引き出し
@@ -277,6 +321,10 @@
     someone/something" (遅らせる).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 遅らせる
@@ -301,6 +349,10 @@
   hint: ohikidashi — polite term often used for bank withdrawals (e.g., 現金のお引き出し).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 引き出し
@@ -326,6 +378,10 @@
     forms: お振込先 (transfer destination).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 振込み
@@ -350,6 +406,10 @@
   hint: '~kai (counter for occurrences: 1回, 2回, 何回)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ～度
@@ -375,6 +435,10 @@
     「外国語を勉強する」.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 英語
@@ -400,6 +464,10 @@
     compounds like 楽器店 (instrument shop).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 楽曲
@@ -423,6 +491,10 @@
   hint: 'kame (hiragana) — animal: turtle/tortoise'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - カメ
@@ -448,6 +520,10 @@
     (辛いラーメン).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - しょっぱい
@@ -473,6 +549,10 @@
   strokeCount: 7
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 休
@@ -497,6 +577,10 @@
   hint: karate (kara-te) — literally “empty hand”; martial art
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 唐手
@@ -520,6 +604,10 @@
   hint: karē (katakana) — a common loanword food term
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - カレ
@@ -544,6 +632,10 @@
   hint: kandou suru — often used for being emotionally moved (e.g., 映画に感動する)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 興奮する
@@ -568,6 +660,10 @@
   hint: ganbaru (to persevere/keep at it; often used as 頑張って! = “Do your best!”)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 頑張ります
@@ -593,6 +689,10 @@
     or situations
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 難しい
@@ -617,6 +717,10 @@
     card)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - クレジットカード
@@ -641,6 +745,10 @@
     decides)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ～メートル
@@ -665,6 +773,10 @@
   hint: 'kingaku — often used for prices/invoices: 金額はいくらですか。'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 金銭
@@ -691,6 +803,10 @@
     Common phrase: 空港に行く (to go to the airport)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 飛行場
@@ -714,6 +830,10 @@
   hint: kurejitto kaado - often used with を (e.g., クレジットカードを使う = to use a credit card)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - キャッシュカード
@@ -739,6 +859,10 @@
     ~)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 体験
@@ -763,6 +887,10 @@
   hint: genkin — cash (physical money); often used vs クレジットカード/電子マネー
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 料金
@@ -787,6 +915,10 @@
   hint: 'koukoku — often used for ads in media (TV/ネット/新聞): 広告を出す'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 報告
@@ -813,6 +945,10 @@
   hint: kouza - usually a bank account (銀行口座).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 講座
@@ -837,6 +973,10 @@
   hint: koucha — 紅(べに)=crimson + 茶(ちゃ)=tea
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 緑茶
@@ -862,6 +1002,10 @@
     on context.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 八日
@@ -886,6 +1030,10 @@
   hint: kotoba — often means “words” or “language” (e.g., 日本語の言葉).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 言語
@@ -909,6 +1057,10 @@
   hint: gorufu (katakana) - a loanword for the sport
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ごるふ
@@ -933,6 +1085,10 @@
   hint: zadan-kai — friendly group talk; 座(za) sit + 談(dan) talk + 会(kai) meeting
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 会談
@@ -958,6 +1114,10 @@
     照会=inquiry)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 残高
@@ -983,6 +1143,10 @@
     時間通りに来る).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 時間通りに
@@ -1007,6 +1171,10 @@
   hint: jidou — often used in compounds like 自動車 (car) and 自動販売機 (vending machine)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 自分
@@ -1030,6 +1198,10 @@
   hint: 'sugoi (often used as an exclamation: 「すごい！」 = “Amazing!”)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - すごく
@@ -1054,6 +1226,10 @@
     in cuisine
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - すっぽ
@@ -1078,6 +1254,10 @@
     at the end
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - セーターー
@@ -1102,6 +1282,10 @@
   hint: zenbu — “all/entirely”; often used like 全部で (in total) or 全部〜する (do everything)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 全体
@@ -1127,6 +1311,10 @@
   strokeCount: 12
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 像
@@ -1152,6 +1340,10 @@
     Long vowel mark「ー」extends the preceding vowel.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - たくしー
@@ -1176,6 +1368,10 @@
   hint: dame (na) - used to say something is not allowed / not OK (e.g., それはだめ！)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 無理
@@ -1203,6 +1399,10 @@
   hint: chikai — used for physical distance or being nearby (e.g., 駅が近い)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 遠い
@@ -1226,6 +1426,10 @@
   hint: chippu (katakana) - a gratuity/extra money given for service
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - チップス
@@ -1250,6 +1454,10 @@
   hint: tsuuchou — a bank passbook (通 = “through/commute”, 帳 = “book/ledger”)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 通帳記入
@@ -1275,6 +1483,10 @@
     (ATM or teller).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 通帳
@@ -1300,6 +1512,10 @@
     text.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 付く
@@ -1324,6 +1540,10 @@
     context
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - デザト
@@ -1349,6 +1569,10 @@
     transfer, brokerage)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 料金
@@ -1373,6 +1597,10 @@
   hint: tooka — also used for “the 10th day of the month” (e.g., 10日(とおか))
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 十日間
@@ -1397,6 +1625,10 @@
   hint: tokuni — often used as 特に〜ない (“not particularly…”)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 特別に
@@ -1423,6 +1655,10 @@
     Pattern: [Name] と申します。
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ～といいます
@@ -1448,6 +1684,10 @@
   strokeCount: 11
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 島
@@ -1472,6 +1712,10 @@
   hint: nanoka — also means “the 7th day of the month” depending on context
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 七時
@@ -1495,6 +1739,10 @@
   hint: nabe - cooking pot (also used in 鍋料理 "hot pot")
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - なれ
@@ -1519,6 +1767,10 @@
     なんでも食べる).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - なんでもない
@@ -1543,6 +1795,10 @@
     smile)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ニコニコする
@@ -1566,6 +1822,10 @@
   hint: baiku (katakana) — a loanword; also used for motorbikes/scooters
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - パイク
@@ -1590,6 +1850,10 @@
   hint: hikidashi — as in お金を引き出す (to withdraw money). Also commonly means “drawer.”
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 引き出す
@@ -1614,6 +1878,10 @@
   hint: fuan (na) — use as 不安な + noun / 不安だ
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 安心
@@ -1638,6 +1906,10 @@
   hint: futsuka — also used for the 2nd day of the month (二日/ふつか)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 二日間
@@ -1662,6 +1934,10 @@
   hint: 'bukka — prices of goods (often in: 物価が上がる/下がる = prices rise/fall)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 価格
@@ -1686,6 +1962,10 @@
   hint: furikomi — used for bank transfers/payments (e.g., 振込先 "transfer destination")
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 振替
@@ -1709,6 +1989,10 @@
   hint: purin (katakana) - a loanword dessert; written in katakana
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ぷりん
@@ -1733,6 +2017,10 @@
   hint: boshū — commonly used in 募集する (to recruit) / 求人募集 (job recruitment).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 募金
@@ -1757,6 +2045,10 @@
     (not a “mansion” house).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - アパート
@@ -1781,6 +2073,10 @@
   hint: migaku — used for brushing teeth (歯を磨く) and polishing things (靴を磨く).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 歯を磨く
@@ -1805,6 +2101,10 @@
   hint: mizugi — 「水」(water) + 「着」(to wear). Usually refers to a swimsuit.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 着物
@@ -1830,6 +2130,10 @@
     depending on context
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 三日月
@@ -1855,6 +2159,10 @@
     *rokunichi*).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 六つ
@@ -1878,6 +2186,10 @@
   hint: mezurashii — “unusual; seldom seen” (い-adj.)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 少ない
@@ -1902,6 +2214,10 @@
     eat anymore).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - まだ～ない
@@ -1926,6 +2242,10 @@
   hint: yakusoku — 約(agreement) + 束(bundle/tie) → “a tied agreement” (promise/appointment)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 予約
@@ -1950,6 +2270,10 @@
   hint: yakusoku o mamoru — 約束(やくそく)=promise, 守る(まもる)=to protect/observe (keep/obey)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 約束する
@@ -1973,6 +2297,10 @@
   hint: yappari — often means “as expected / I knew it.” Casual form of やはり.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - やはり
@@ -1997,6 +2325,10 @@
   hint: youka — also used for the 8th day of the month (e.g., 八日(ようか)に).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 八つ
@@ -2022,6 +2354,10 @@
     account).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 貯金
@@ -2046,6 +2382,10 @@
   hint: yokka — also used for the 4th day of the month (irregular reading)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 四つ
@@ -2070,6 +2410,10 @@
   hint: ryougae — exchanging money (e.g., at a bank, hotel, or by a vending machine/両替機)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 交換
@@ -2095,6 +2439,10 @@
   strokeCount: 7
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 体

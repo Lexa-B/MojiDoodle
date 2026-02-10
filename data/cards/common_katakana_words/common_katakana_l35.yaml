@@ -5,6 +5,10 @@
   hint: noun
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - グッツ
@@ -23,6 +27,10 @@
   hint: verbal noun (する verb)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 - id: ckw-l35-5882
   prompt: living room
@@ -31,6 +39,10 @@
   hint: noun
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 - id: ckw-l35-5889
   prompt: lease
@@ -39,6 +51,10 @@
   hint: verbal noun (する verb)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 - id: ckw-l35-5892
   prompt: calcium
@@ -47,6 +63,10 @@
   hint: noun
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 - id: ckw-l35-5895
   prompt: ground, field
@@ -55,6 +75,10 @@
   hint: noun
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - グラウンド
@@ -73,6 +97,10 @@
   hint: noun
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 - id: ckw-l35-5899
   prompt: hot
@@ -81,6 +109,10 @@
   hint: noun (な-adj)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 - id: ckw-l35-5900
   prompt: match
@@ -89,6 +121,10 @@
   hint: verbal noun (する verb)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - マッチョ
@@ -112,6 +148,10 @@
   hint: noun
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 - id: ckw-l35-5946
   prompt: inflation
@@ -120,6 +160,10 @@
   hint: noun
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 - id: ckw-l35-5953
   prompt: eco, environmentally friendly
@@ -128,6 +172,10 @@
   hint: verbal noun (する verb)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - エコー
@@ -146,6 +194,10 @@
   hint: noun
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 - id: ckw-l35-5956
   prompt: shopping
@@ -154,6 +206,10 @@
   hint: verbal noun (する verb)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 - id: ckw-l35-5964
   prompt: plate
@@ -162,4 +218,8 @@
   hint: noun
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []

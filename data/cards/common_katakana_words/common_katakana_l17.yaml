@@ -5,6 +5,10 @@
   hint: verbal noun (する verb)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ダンサー
@@ -23,6 +27,10 @@
   hint: noun
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ガラス
@@ -41,6 +49,10 @@
   hint: noun
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 - id: ckw-l17-3496
   prompt: sign, autograph
@@ -49,6 +61,10 @@
   hint: verbal noun (する verb)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 - id: ckw-l17-3498
   prompt: terrorism
@@ -57,6 +73,10 @@
   hint: noun
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 - id: ckw-l17-3507
   prompt: love
@@ -65,6 +85,10 @@
   hint: noun
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 - id: ckw-l17-3544
   prompt: ski, skiing
@@ -73,6 +97,10 @@
   hint: noun
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 - id: ckw-l17-3557
   prompt: pen
@@ -81,6 +109,10 @@
   hint: noun
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 - id: ckw-l17-3572
   prompt: butter
@@ -89,6 +121,10 @@
   hint: noun
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 - id: ckw-l17-3581
   prompt: white
@@ -97,6 +133,10 @@
   hint: noun
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 - id: ckw-l17-3626
   prompt: alcohol
@@ -105,6 +145,10 @@
   hint: noun
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 - id: ckw-l17-3636
   prompt: graph, chart
@@ -113,6 +157,10 @@
   hint: noun
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 - id: ckw-l17-3650
   prompt: office
@@ -121,6 +169,10 @@
   hint: noun
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 - id: ckw-l17-3652
   prompt: run, jog
@@ -129,6 +181,10 @@
   hint: verbal noun (する verb)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ランニング
@@ -152,4 +208,8 @@
   hint: noun
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []

@@ -7,6 +7,10 @@
     愛する (aisuru)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 愛する
@@ -30,6 +34,10 @@
   hint: 'akirameru (ru-verb) — often used as: 〜をあきらめる (give up on ~)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - やめる
@@ -54,6 +62,10 @@
     in-group)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - くれる
@@ -77,6 +89,10 @@
   hint: 'adobaisu - katakana loanword; often used with する: アドバイスする (to give advice)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - アドレス
@@ -101,6 +117,10 @@
   hint: 'enpitsu — 鉛(lead)＋筆(brush/pen). Common item: えんぴつを使う (to use a pencil).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 万年筆
@@ -125,6 +145,10 @@
   hint: ooyasan — honorific さん; also commonly used for “apartment manager/owner”
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 家主
@@ -150,6 +174,10 @@
     also 「お返しする」)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - お礼
@@ -175,6 +203,10 @@
     ご/お (e.g., ご奥さん).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 妻
@@ -200,6 +232,10 @@
     (駅まで送る).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 贈る
@@ -225,6 +261,10 @@
     plate).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 皿
@@ -249,6 +289,10 @@
     (grandfather)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - おじいさん
@@ -273,6 +317,10 @@
   hint: oshare (na) - na-adjective; use 「おしゃれな服」 (stylish clothes)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - しゃれ
@@ -300,6 +348,10 @@
     Be careful: long vowel おばあさん = grandmother/elderly woman.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - おばあさん
@@ -324,6 +376,10 @@
   hint: kyuu ni — an adverb meaning “all of a sudden/abruptly” (急 + に)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 急ぐ
@@ -347,6 +403,10 @@
   hint: kurisumasu (katakana loanword); often written as クリスマス or shortened to クリスマス
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - くりすます
@@ -371,6 +431,10 @@
     someone in my in-group). Often with 〜てくれる (“do for me”).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - あげる
@@ -396,6 +460,10 @@
     a name (e.g., 太郎君).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ～さん
@@ -420,6 +488,10 @@
   hint: keshouhin — makeup/cosmetics; often used in 化粧品売り場 (cosmetics section)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 化粧
@@ -443,6 +515,10 @@
   hint: kechi-na — means "stingy" or "cheap" in a negative sense (not "inexpensive").
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 安い
@@ -468,6 +544,10 @@
     when no specific counter is known.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ～こ
@@ -493,6 +573,10 @@
     polite speech).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 主人
@@ -516,6 +600,10 @@
     こんなに (to this extent).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - そんな～
@@ -540,6 +628,10 @@
     with a pause.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - さあ？
@@ -567,6 +659,10 @@
     Example: 本を3冊 (hon o san-satsu) = three books.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ～冊子
@@ -592,6 +688,10 @@
   strokeCount: 5
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 血
@@ -616,6 +716,10 @@
   hint: jidai — a historical period/era (e.g., 江戸時代), or “the times” (時代が変わる).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 時期
@@ -639,6 +743,10 @@
   hint: shatsu (katakana) — clothing item; watch small ャ and small ッ
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - しゃつ
@@ -663,6 +771,10 @@
   hint: shutchou — 出(leave/go out) + 張(extend) → going out for work
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 旅行
@@ -688,6 +800,10 @@
     後輩)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 後輩
@@ -712,6 +828,10 @@
   hint: soudan suru — to consult/discuss with someone for advice (e.g., 先生に相談する)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 相談
@@ -736,6 +856,10 @@
   hint: 〜dai — counter for machines/vehicles (e.g., パソコン2台, 車3台). Use after a number.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ～枚
@@ -760,6 +884,10 @@
     Often implies a group around that person.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ～ら
@@ -784,6 +912,10 @@
   hint: chichioya — more formal than お父さん; used when talking about your own father
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 父
@@ -809,6 +941,10 @@
     車に注意する).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 気をつける
@@ -832,6 +968,10 @@
   hint: choudo — “exactly/just (right)”; often used with time or amounts (e.g., ちょうど3時).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ちょっと
@@ -855,6 +995,10 @@
   hint: chokorēto — katakana loanword; long vowel mark「ー」in レート
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ちょこれーと
@@ -879,6 +1023,10 @@
   hint: tsukiau (付き合う) - to go out with someone / associate with; often used as 彼と付き合っている
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 出会う
@@ -903,6 +1051,10 @@
     the food is ready)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 出来る
@@ -927,6 +1079,10 @@
     or uncertainty)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - どうすればいい
@@ -951,6 +1107,10 @@
     person)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - パーカー
@@ -975,6 +1135,10 @@
   hint: nayami — a worry/concern (noun); often used like 悩みがある (to have worries).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 悩む
@@ -999,6 +1163,10 @@
   hint: 'niau — used for clothes/colors/styles that suit someone: 「この服は君に似合う」'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 合う
@@ -1023,6 +1191,10 @@
     toys.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ぬいぐるみ（縫い包み）
@@ -1047,6 +1219,10 @@
     stroke, ク is one curved stroke.'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ねくたい
@@ -1072,6 +1248,10 @@
     years). Not the same as ～年 (year counter).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ～年
@@ -1096,6 +1276,10 @@
   hint: baai — “in the case of …” (often used as 〜の場合(は) / 万一の場合)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 場面
@@ -1121,6 +1305,10 @@
     Often used for business/relationship partners; for spouse, also 夫・妻.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - パート
@@ -1145,6 +1333,10 @@
     reciprocate on White Day (3/14).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ホワイトデー
@@ -1171,6 +1363,10 @@
     Used for small animals: 猫1匹・犬2匹・うさぎ3匹
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ～頭
@@ -1194,6 +1390,10 @@
   hint: puropoozu suru - カタカナ語。「〜にプロポーズする」= propose to ~
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 告白する
@@ -1218,6 +1418,10 @@
   hint: 'hoshii — used for wanting an object (Nが欲しい). For wanting to do: V-たい.'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 欲しがる
@@ -1241,6 +1445,10 @@
   hint: howaito-dee — Katakana loanword; use the long vowel mark ー (not a hyphen).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - バレンタインデー
@@ -1267,6 +1475,10 @@
     Sound changes: 1本 いっぽん, 3本 さんぼん, 6本 ろっぽん, 8本 はっぽん, 10本 じゅっぽん.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ～枚
@@ -1292,6 +1504,10 @@
     means “truly/actually.”
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 本当
@@ -1315,6 +1531,10 @@
   hint: mafuraa (katakana) — a neck scarf worn in cold weather
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - マフラ
@@ -1339,6 +1559,10 @@
   hint: manga — Japanese comics; often written as 漫画 (まんが)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 動画
@@ -1363,6 +1587,10 @@
   hint: yubiwa — 指=finger + 輪=ring/circle (a ring worn on a finger)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 腕輪
@@ -1387,6 +1615,10 @@
     よく食べる = eat a lot/often)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - よっく
@@ -1410,6 +1642,10 @@
   hint: rajio (katakana) - loanword; write in katakana, not hiragana
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - らじお
@@ -1435,6 +1671,10 @@
     Often used in writing: 両親に会う.'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 親
@@ -1459,6 +1699,10 @@
   hint: rirekisho — job-hunting document; 履(は)歴(れき)書(しょ)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 職務経歴書

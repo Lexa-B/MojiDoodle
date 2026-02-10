@@ -6,6 +6,10 @@
   strokeCount: 3
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
     - answers:
         - "ア"
@@ -22,6 +26,10 @@
   strokeCount: 2
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
     - answers:
         - "イ"
@@ -38,6 +46,10 @@
   strokeCount: 2
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
     - answers:
         - "ウ"
@@ -51,6 +63,10 @@
   strokeCount: 2
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
     - answers:
         - "エ"
@@ -67,6 +83,10 @@
   strokeCount: 3
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
     - answers:
         - "オ"
@@ -83,6 +103,10 @@
   strokeCount: 3
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
     - answers:
         - "カ"
@@ -99,6 +123,10 @@
   strokeCount: 4
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
     - answers:
         - "キ"
@@ -118,6 +146,10 @@
   strokeCount: 1
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
     - answers:
         - "ク"
@@ -137,6 +169,10 @@
   strokeCount: 3
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
     - answers:
         - "ケ"
@@ -156,6 +192,10 @@
   strokeCount: 2
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
     - answers:
         - "コ"
@@ -175,6 +215,10 @@
   strokeCount: 3
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
     - answers:
         - "サ"
@@ -194,6 +238,10 @@
   strokeCount: 1
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
     - answers:
         - "シ"
@@ -213,6 +261,10 @@
   strokeCount: 2
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
     - answers:
         - "ス"
@@ -232,6 +284,10 @@
   strokeCount: 3
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
     - answers:
         - "セ"
@@ -248,6 +304,10 @@
   strokeCount: 1
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
     - answers:
         - "ソ"
@@ -267,6 +327,10 @@
   strokeCount: 4
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
     - answers:
         - "タ"
@@ -286,6 +350,10 @@
   strokeCount: 2
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
     - answers:
         - "チ"
@@ -305,6 +373,10 @@
   strokeCount: 1
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
     - answers:
         - "ツ"
@@ -324,6 +396,10 @@
   strokeCount: 1
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
     - answers:
         - "テ"
@@ -340,6 +416,10 @@
   strokeCount: 2
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
     - answers:
         - "ト"
@@ -356,6 +436,10 @@
   strokeCount: 4
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
     - answers:
         - "ナ"
@@ -372,6 +456,10 @@
   strokeCount: 3
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
     - answers:
         - "ニ"
@@ -388,6 +476,10 @@
   strokeCount: 2
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
     - answers:
         - "ヌ"
@@ -404,6 +496,10 @@
   strokeCount: 2
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
     - answers:
         - "ネ"
@@ -420,6 +516,10 @@
   strokeCount: 1
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
     - answers:
         - "ノ"
@@ -433,6 +533,10 @@
   strokeCount: 3
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
     - answers:
         - "ハ"
@@ -455,6 +559,10 @@
   strokeCount: 1
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
     - answers:
         - "ヒ"
@@ -474,6 +582,10 @@
   strokeCount: 4
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
     - answers:
         - "フ"
@@ -493,6 +605,10 @@
   strokeCount: 1
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
     - answers:
         - "ヘ"
@@ -515,6 +631,10 @@
   strokeCount: 4
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
     - answers:
         - "ホ"
@@ -537,6 +657,10 @@
   strokeCount: 3
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
     - answers:
         - "マ"
@@ -553,6 +677,10 @@
   strokeCount: 2
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
     - answers:
         - "ミ"
@@ -566,6 +694,10 @@
   strokeCount: 3
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
     - answers:
         - "ム"
@@ -582,6 +714,10 @@
   strokeCount: 2
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
     - answers:
         - "メ"
@@ -598,6 +734,10 @@
   strokeCount: 3
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
     - answers:
         - "モ"
@@ -614,6 +754,10 @@
   strokeCount: 3
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
     - answers:
         - "ヤ"
@@ -630,6 +774,10 @@
   strokeCount: 2
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
     - answers:
         - "ユ"
@@ -643,6 +791,10 @@
   strokeCount: 2
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
     - answers:
         - "ヨ"
@@ -659,6 +811,10 @@
   strokeCount: 2
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
     - answers:
         - "ラ"
@@ -675,6 +831,10 @@
   strokeCount: 2
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
     - answers:
         - "リ"
@@ -691,6 +851,10 @@
   strokeCount: 1
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
     - answers:
         - "ル"
@@ -707,6 +871,10 @@
   strokeCount: 2
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
     - answers:
         - "レ"
@@ -723,6 +891,10 @@
   strokeCount: 1
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
     - answers:
         - "ロ"
@@ -739,6 +911,10 @@
   strokeCount: 2
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
     - answers:
         - "ワ"
@@ -755,6 +931,10 @@
   strokeCount: 3
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
     - answers:
         - "ヲ"
@@ -768,6 +948,10 @@
   strokeCount: 1
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
     - answers:
         - "ン"
@@ -784,6 +968,10 @@
   strokeCount: 3
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
     - answers:
         - "ガ"
@@ -800,6 +988,10 @@
   strokeCount: 4
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
     - answers:
         - "ギ"
@@ -816,6 +1008,10 @@
   strokeCount: 1
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
     - answers:
         - "グ"
@@ -832,6 +1028,10 @@
   strokeCount: 3
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
     - answers:
         - "ゲ"
@@ -848,6 +1048,10 @@
   strokeCount: 2
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
     - answers:
         - "ゴ"
@@ -864,6 +1068,10 @@
   strokeCount: 3
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
     - answers:
         - "ザ"
@@ -880,6 +1088,10 @@
   strokeCount: 1
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
     - answers:
         - "ジ"
@@ -896,6 +1108,10 @@
   strokeCount: 2
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
     - answers:
         - "ズ"
@@ -912,6 +1128,10 @@
   strokeCount: 3
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
     - answers:
         - "ゼ"
@@ -928,6 +1148,10 @@
   strokeCount: 1
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
     - answers:
         - "ゾ"
@@ -944,6 +1168,10 @@
   strokeCount: 4
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
     - answers:
         - "ダ"
@@ -960,6 +1188,10 @@
   strokeCount: 2
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
     - answers:
         - "ヂ"
@@ -979,6 +1211,10 @@
   strokeCount: 1
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
     - answers:
         - "ヅ"
@@ -998,6 +1234,10 @@
   strokeCount: 1
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
     - answers:
         - "デ"
@@ -1014,6 +1254,10 @@
   strokeCount: 2
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
     - answers:
         - "ド"
@@ -1030,6 +1274,10 @@
   strokeCount: 3
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
     - answers:
         - "バ"
@@ -1049,6 +1297,10 @@
   strokeCount: 1
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
     - answers:
         - "ビ"
@@ -1068,6 +1320,10 @@
   strokeCount: 4
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
     - answers:
         - "ブ"
@@ -1087,6 +1343,10 @@
   strokeCount: 1
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
     - answers:
         - "ベ"
@@ -1106,6 +1366,10 @@
   strokeCount: 4
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
     - answers:
         - "ボ"
@@ -1125,6 +1389,10 @@
   strokeCount: 3
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
     - answers:
         - "パ"
@@ -1144,6 +1412,10 @@
   strokeCount: 1
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
     - answers:
         - "ピ"
@@ -1163,6 +1435,10 @@
   strokeCount: 4
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
     - answers:
         - "プ"
@@ -1182,6 +1458,10 @@
   strokeCount: 1
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
     - answers:
         - "ペ"
@@ -1201,6 +1481,10 @@
   strokeCount: 4
   stage: -1
   unlocks: "2026-01-29T12:06:14+00:00"
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
     - answers:
         - "ポ"

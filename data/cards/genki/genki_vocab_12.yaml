@@ -7,6 +7,10 @@
     (甘い判断).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 辛い
@@ -31,6 +35,10 @@
   hint: amanogawa — literally “river of heaven”; often seen in Tanabata stories
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 銀河
@@ -55,6 +63,10 @@
     = a certain person).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 一つ
@@ -79,6 +91,10 @@
   hint: 'aruku (あるく) - intransitive verb: to walk/go on foot'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 走る
@@ -103,6 +119,10 @@
   hint: itai — used for physical pain (e.g., 痛い！ / お腹が痛い).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 辛い
@@ -127,6 +147,10 @@
   hint: itamidome — literally "pain + stopping"; often used for medicine (e.g., 頭痛の痛み止め).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 鎮痛剤
@@ -151,6 +175,10 @@
   hint: ichinen ni ichido — frequency expression; often used with events (e.g., 健康診断は一年に一度です).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 年に一度
@@ -174,6 +202,10 @@
   hint: infuruenza (katakana loanword). Often shortened to 「インフル」.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - インフル
@@ -199,6 +231,10 @@
   strokeCount: 4
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 午
@@ -223,6 +259,10 @@
   hint: ooi — used to say something is numerous (e.g., 人が多い).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 大い
@@ -249,6 +289,10 @@
     Often used with に: 先生に怒る (get angry at the teacher).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 起こる
@@ -274,6 +318,10 @@
     shortened from お大事になさってください).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - お元気で
@@ -298,6 +346,10 @@
   hint: otearai - polite term for "restroom" (often on signs); also literally "hand-washing"
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - トイレ
@@ -322,6 +374,10 @@
   hint: otona — common word for “adult” (not a polite title).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 大事
@@ -347,6 +403,10 @@
     written with じ in hiragana.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 同様
@@ -371,6 +431,10 @@
   hint: kaze — common cold/illness (not weather wind)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 風
@@ -397,6 +461,10 @@
     Often used as 風邪をひいた (“I caught a cold”).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 風邪を引く
@@ -421,6 +489,10 @@
     kanji.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - かなえる
@@ -445,6 +517,10 @@
   hint: kanojo — can mean "she" (3rd-person) or "girlfriend" depending on context
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 彼氏
@@ -469,6 +545,10 @@
   hint: 'kafunshou — allergy to pollen; common phrase: 花粉症です (I have hay fever).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 風邪
@@ -494,6 +574,10 @@
     (and sometimes as “Oh my God!”: 神様！)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 神
@@ -519,6 +603,10 @@
   strokeCount: 8
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 彼女
@@ -543,6 +631,10 @@
   hint: kareshi — your (or someone’s) boyfriend; casual term (not husband).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 彼女
@@ -567,6 +659,10 @@
   hint: kawaisou(na) — used to express sympathy/pity (often about someone’s situation).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - かわいい
@@ -594,6 +690,10 @@
     眼科)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 歯科
@@ -619,6 +719,10 @@
     ki-ppu.'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 切手
@@ -644,6 +748,10 @@
     気分(きぶん)=feeling/mood, 悪い(わるい)=bad.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 具合が悪い
@@ -668,6 +776,10 @@
   hint: kyoumi ga aru — use 「〜に興味がある」 = “to be interested in ~”
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 興味がない
@@ -692,6 +804,10 @@
   hint: kinchou suru — to feel tense/nervous (often before an event); 緊=tense, 張=stretch
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 心配する
@@ -715,6 +831,10 @@
   hint: kushami — よく「くしゃみをする」(to sneeze) の形で使う
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - くしゃくしゃ
@@ -738,6 +858,10 @@
   hint: 'kega — often used with する: けがをする (to get injured)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - けいが
@@ -762,6 +886,10 @@
   hint: geka — surgery/department of surgery (often seen in 外科医 = surgeon)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 内科
@@ -786,6 +914,10 @@
   hint: geri — medical term; often used as 下痢をする (to have diarrhea)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 下利
@@ -811,6 +943,10 @@
     tired/sick
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 元気じゃない
@@ -836,6 +972,10 @@
     in katakana as 抗生物質/こうせいぶっしつ)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 抗菌薬
@@ -861,6 +1001,10 @@
     your arm)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 骨折
@@ -886,6 +1030,10 @@
     women’s health (人科).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 小児科
@@ -910,6 +1058,10 @@
   hint: shiai — a sports match/game (e.g., サッカーの試合)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 試験
@@ -934,6 +1086,10 @@
   hint: shika — as in 歯科医 (しかい) = dentist (person); 歯 = tooth, 科 = department/field
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 歯医者
@@ -958,6 +1114,10 @@
   hint: jibika — 「耳(ear)＋鼻(nose)＋科(department)」= ENT clinic/doctor
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 歯科
@@ -981,6 +1141,10 @@
   hint: juusu (katakana) - a loanword; long vowel ー in the middle
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - じゅーす
@@ -1005,6 +1169,10 @@
   hint: 'shujutsu — medical operation/surgery (often used with 受ける: 手術を受ける)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 治療
@@ -1030,6 +1198,10 @@
     after meals).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 食前
@@ -1054,6 +1226,10 @@
   hint: shinpai suru — used for worrying about something/someone (e.g., 〜を心配する).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 心配
@@ -1079,6 +1255,10 @@
     or atmosphere)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 素直
@@ -1104,6 +1284,10 @@
     signs (整形外科).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 整形外科医
@@ -1128,6 +1312,10 @@
   hint: seiseki — test/school performance (成=achieve, 績=results)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 成果
@@ -1152,6 +1340,10 @@
   hint: seiri — common term for menstruation (e.g., 生理中 = on one’s period)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 整理
@@ -1175,6 +1367,10 @@
   hint: seki — as in 咳（せき）; often used in phrases like せきが出る (to cough)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - せい
@@ -1199,6 +1395,10 @@
   hint: 'seki ga deru — lit. “a cough comes out”; used like: せきが出る (I start coughing)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - せきをする
@@ -1223,6 +1423,10 @@
   hint: 'semai — used for small/tight spaces (room, road). Antonym: 広い (hiroi).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 細い
@@ -1247,6 +1451,10 @@
     a sentence
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - それでは
@@ -1272,6 +1480,10 @@
     乗車代 fare, 食事代 meal cost)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ～台
@@ -1297,6 +1509,10 @@
     thermometer
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 温度計
@@ -1321,6 +1537,10 @@
   hint: tabun - used to express uncertainty ("probably")
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - きっと
@@ -1346,6 +1566,10 @@
   strokeCount: 7
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 印
@@ -1369,6 +1593,10 @@
   hint: tanzaku — decorative paper strip (e.g., for Tanabata wishes)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 短冊
@@ -1393,6 +1621,10 @@
   hint: chuusha — medical injection/shot (e.g., 注射をする "to get/give an injection")
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 駐車
@@ -1418,6 +1650,10 @@
     Often used when bringing someone back with you.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 連れて行く
@@ -1442,6 +1678,10 @@
     できるだけ早く “as soon as possible”)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - なるべく
@@ -1467,6 +1707,10 @@
   strokeCount: 4
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 夫
@@ -1491,6 +1735,10 @@
   hint: tenteki — IV drip; used in medical contexts (点=dot, 滴=drop)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 点数
@@ -1516,6 +1764,10 @@
     clinic/department (doctor).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 外科
@@ -1542,6 +1794,10 @@
     Usage: 泣く = to cry/weep; often used for people (e.g., 赤ちゃんが泣く).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 鳴く
@@ -1565,6 +1821,10 @@
   hint: 'nakusu — transitive: to lose/misplace something (e.g., 財布をなくす)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 失くす
@@ -1588,6 +1848,10 @@
   hint: nado — used after examples to mean “etc.” (e.g., 本やノートなど)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 〜とか
@@ -1613,6 +1877,10 @@
     (e.g., 二三日待ってください).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 二、三日
@@ -1638,6 +1906,10 @@
     “a wish comes true”)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 願う
@@ -1662,6 +1934,10 @@
   hint: netsu ga aru — used for having a fever (often said as 熱があります).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 風邪をひく
@@ -1687,6 +1963,10 @@
   strokeCount: 12
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 咽
@@ -1712,6 +1992,10 @@
     水を飲みたい).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 喉が乾く
@@ -1736,6 +2020,10 @@
   hint: haku — to vomit; kanji uses 口 (mouth) + 土 (soil)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 履く
@@ -1760,6 +2048,10 @@
   hint: hajimete — used when doing/experiencing something the first time (e.g., 初めて日本に行った).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 初めまして
@@ -1785,6 +2077,10 @@
   strokeCount: 9
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 田
@@ -1809,6 +2105,10 @@
   hint: hata o oru — 「機(はた)」= loom; used for weaving cloth (e.g., 布を織る).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 旗を折る
@@ -1833,6 +2133,10 @@
   hint: hasshin — medical term for a skin rash/eruption (e.g., 皮膚に発疹が出る)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 発熱
@@ -1857,6 +2161,10 @@
   hint: hanamizu — literally “nose + water”; common when you have a cold/allergies
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 鼻血
@@ -1882,6 +2190,10 @@
     radical.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 支払う
@@ -1907,6 +2219,10 @@
     previous kanji (人).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 人
@@ -1932,6 +2248,10 @@
     = to go to the dermatologist.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 皮膚
@@ -1956,6 +2276,10 @@
   hint: hiroi — い-adjective meaning “spacious/wide” (e.g., 広い部屋 = a spacious room)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 広く
@@ -1981,6 +2305,10 @@
   strokeCount: 8
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 福
@@ -2006,6 +2334,10 @@
     drinking (二日酔いになる).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 酔う
@@ -2029,6 +2361,10 @@
   hint: purezento (katakana loanword) — e.g., 誕生日プレゼント (birthday present)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - お土産
@@ -2053,6 +2389,10 @@
   hint: benpi — medical term; used in 便秘になる (to get constipated)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 便り
@@ -2077,6 +2417,10 @@
     for work/school
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ホムシック
@@ -2101,6 +2445,10 @@
   hint: hokenshō — used in clinics/hospitals; often said as 「保険証を見せてください」
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 免許証
@@ -2125,6 +2473,10 @@
   hint: majime (na) - な-adj; used for a serious/diligent attitude (e.g., まじめな学生)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 真面目
@@ -2151,6 +2503,10 @@
     3時までに来て。= Come by 3 o''clock.'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ～まで
@@ -2176,6 +2532,10 @@
     ~)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 向かい
@@ -2200,6 +2560,10 @@
   hint: mushiba — tooth decay/cavity; often used as 虫歯になる (to get a cavity)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 歯
@@ -2226,6 +2590,10 @@
   strokeCount: 10
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 好
@@ -2250,6 +2618,10 @@
     in polite/past speech
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - くらくらする
@@ -2274,6 +2646,10 @@
     soon)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - すぐ
@@ -2301,6 +2677,10 @@
   strokeCount: 8
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 者
@@ -2325,6 +2705,10 @@
     often used with に: 熱いお湯にやけどをした'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 火傷する
@@ -2349,6 +2733,10 @@
   hint: youji — an errand/engagement; often used in 「用事がある」 (I have something to do).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 用件
@@ -2374,6 +2762,10 @@
     Often used as: レントゲンを撮る = to take an X-ray
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - エックス線
@@ -2399,6 +2791,10 @@
     Not the same as 分かれる “to be divided/branch off.”
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 分かれる
@@ -2423,6 +2819,10 @@
   hint: watashitachi — inclusive "we" (speaker + others); more formal than うちら
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 私
@@ -2447,6 +2847,10 @@
   hint: warui — i-adjective; often for “bad/poor” (quality) or “wrong” (behavior)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 悪くない

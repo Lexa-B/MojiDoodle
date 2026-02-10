@@ -6,6 +6,10 @@
     there)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - そこ
@@ -31,6 +35,10 @@
     Used before a noun: あの人 = that person (over there).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - その
@@ -55,6 +63,10 @@
     (that near you)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - それ
@@ -78,6 +90,10 @@
   hint: ikura — used to ask price/amount (e.g., これ、いくらですか)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - どのくらい
@@ -101,6 +117,10 @@
   hint: isu (hiragana) - a chair (not a desk)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - イス
@@ -125,6 +145,10 @@
     in hiragana here).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - いらっしゃい
@@ -149,6 +173,10 @@
   hint: eigo — 「英」= England/English + 「語」= language/word
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 英国
@@ -174,6 +202,10 @@
     for Japanese yen/“circle.”'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ～万円
@@ -197,6 +229,10 @@
   hint: 'oishii — i-adjective; ends in い (polite: おいしいです)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - おいし
@@ -222,6 +258,10 @@
     Example: コーヒーをおねがいします。
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ください
@@ -245,6 +285,10 @@
   hint: kaaten - katakana loanword (curtain in a room/window)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - カーテ
@@ -270,6 +314,10 @@
   strokeCount: 12
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 伞
@@ -293,6 +341,10 @@
   hint: kaban — often used for bags you carry (school bag/briefcase).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - カバン
@@ -317,6 +369,10 @@
   hint: ginkou — financial institution (not "silver")
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 銀
@@ -341,6 +397,10 @@
     water)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - お願いします（～を）
@@ -366,6 +426,10 @@
   strokeCount: 13
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 革
@@ -390,6 +454,10 @@
   hint: keshigomu — 消し (erase) + ゴム (rubber); common for pencil eraser
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 消し
@@ -414,6 +482,10 @@
   hint: kokuban — 「黒」= black, 「板」= board/plank
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 黒い
@@ -437,6 +509,10 @@
   hint: koko — indicates a location near the speaker (e.g., ここです = It's here).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - そこ
@@ -460,6 +536,10 @@
   hint: kono — demonstrative adjective; use before a noun (e.g., この本 = this book)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - これ
@@ -483,6 +563,10 @@
   hint: kore — demonstrative pronoun meaning “this (near the speaker)”.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - それ
@@ -506,6 +590,10 @@
   hint: konbini (abbr. of コンビニエンスストア)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - スーパー
@@ -530,6 +618,10 @@
   hint: saifu — used for money/cards; often written as お財布 in polite speech
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 財産
@@ -555,6 +647,10 @@
   strokeCount: 11
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 鳥
@@ -579,6 +675,10 @@
     ン
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ジーンズー
@@ -603,6 +703,10 @@
   hint: jisho — common word for a dictionary/book of definitions (辞=words, 書=book)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 辞典
@@ -627,6 +731,10 @@
   hint: jitensha — 自 (self) + 転 (turn/roll) + 車 (vehicle); common word for a bicycle
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 自動車
@@ -651,6 +759,10 @@
     at the start of a sentence)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - では
@@ -675,6 +787,10 @@
   hint: shinbun — daily newspaper; often used with 読む (to read) or 取る (to subscribe)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 新入
@@ -698,6 +814,10 @@
   hint: sumaho — short for スマートフォン (smartphone)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ケータイ
@@ -721,6 +841,10 @@
   hint: soko — indicates a location near the listener / that place
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ここ
@@ -744,6 +868,10 @@
   hint: 'sono — used before a noun: その本 = that book (near listener/previously mentioned)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - この
@@ -768,6 +896,10 @@
     (this) and あれ (that over there).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - これ
@@ -792,6 +924,10 @@
   hint: takai — also means "tall" or "high" (price/height/level).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 安い
@@ -815,6 +951,10 @@
   hint: dare — used to ask a person’s identity (e.g., だれですか “Who is it?”)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 誰
@@ -840,6 +980,10 @@
   strokeCount: 6
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 木
@@ -863,6 +1007,10 @@
   hint: 'tii shatsu (katakana loanword). Note: uses full-width Ｔ + シャツ.'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ティーシャツ
@@ -888,6 +1036,10 @@
     light)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 電車
@@ -911,6 +1063,10 @@
   hint: doa (katakana loanword). Write in katakana, not hiragana.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - とあ
@@ -934,6 +1090,10 @@
   hint: toire (katakana loanword); commonly seen on signs like トイレはこちら
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - といれ
@@ -957,6 +1117,10 @@
   hint: douzo — used when offering/allowing (e.g., どうぞ召し上がって = Please help yourself).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - どうも
@@ -980,6 +1144,10 @@
   hint: doumo — casual/quick “thanks”; often used as どうもありがとう
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ありがとう
@@ -1004,6 +1172,10 @@
   hint: tokei — a timepiece (腕時計 = wristwatch, 時計 = clock/watch)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 時計
@@ -1027,6 +1199,10 @@
   hint: doko — question word meaning “where?” (e.g., どこですか)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ここ
@@ -1052,6 +1228,10 @@
     with 行く/借りる (図書館へ行く, 図書館で本を借りる)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 本屋
@@ -1075,6 +1255,10 @@
   hint: 'dono — used before a noun: どの本 (which book?) / どの人 (which person?)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - この
@@ -1098,6 +1282,10 @@
   hint: dore — used to ask “which (one)?” among several options (e.g., どれがいい？)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - これ
@@ -1121,6 +1309,10 @@
   hint: tonkatsu — often written in kana; also seen as 豚カツ (short for 豚肉カツレツ).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - カツ
@@ -1147,6 +1339,10 @@
   strokeCount: 6
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 内
@@ -1170,6 +1366,10 @@
   hint: nooto (katakana) - loanword for a notebook/notepad
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - のーと
@@ -1193,6 +1393,10 @@
   hint: pen (katakana) — loanword; written in katakana
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ぺん
@@ -1217,6 +1421,10 @@
   hint: boushi — 帽 (hat) + 子 (child). Common in 「帽子をかぶる」 (to wear a hat).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 帽
@@ -1242,6 +1450,10 @@
   strokeCount: 5
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 木
@@ -1267,6 +1479,10 @@
   strokeCount: 11
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 窒
@@ -1290,6 +1506,10 @@
   hint: menyuu (katakana) — long vowel ー, then small ュ to make ニュ
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - めにゅー
@@ -1314,6 +1534,10 @@
   hint: 'yasai — common in 野菜を食べる (to eat vegetables). Kanji: 野=field, 菜=greens/vegetables.'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 果物
@@ -1338,6 +1562,10 @@
   hint: yuubinkyoku — 郵(ゆう) + 便(びん) + 局(きょく); place to send mail/packages
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 郵便
