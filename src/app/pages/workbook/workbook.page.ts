@@ -1094,6 +1094,7 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
    */
   private exportCollectionSample(success: boolean): void {
     if (!this.currentCard) return;
+    if (this.cardsService.getDataCollectionStatus() !== 'opted-in') return;
 
     const canvas = this.canvasRef.nativeElement;
 
