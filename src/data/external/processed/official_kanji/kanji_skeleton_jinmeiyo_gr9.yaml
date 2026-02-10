@@ -5,6 +5,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-4e1e
@@ -14,6 +18,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-4e43
@@ -23,6 +31,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-4e4b
@@ -32,6 +44,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-4e4e
@@ -41,6 +57,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-4e5f
@@ -50,6 +70,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-4e91
@@ -59,6 +83,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-4e99
@@ -68,6 +96,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-4e98
@@ -77,6 +109,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-4e9b
@@ -86,6 +122,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-4ea5
@@ -95,6 +135,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-4ea6
@@ -104,6 +148,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-4ea8
@@ -113,6 +161,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-4eae
@@ -122,6 +174,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-4ed4
@@ -131,6 +187,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-4f0a
@@ -140,6 +200,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-4f0d
@@ -149,6 +213,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-4f3d
@@ -158,6 +226,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-4f43
@@ -167,6 +239,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-4f51
@@ -176,6 +252,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-4f36
@@ -185,6 +265,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-4f83
@@ -194,6 +278,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-4f91
@@ -203,6 +291,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-4fc4
@@ -212,6 +304,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-4fe3
@@ -221,6 +317,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-4fd0
@@ -230,6 +330,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-4fe0
@@ -239,6 +343,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-5016
@@ -248,6 +356,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-502d
@@ -257,6 +369,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-4ff1
@@ -266,6 +382,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-5026
@@ -275,6 +395,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-5072
@@ -284,6 +408,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-50ad
@@ -293,6 +421,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-5132
@@ -302,6 +434,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-5141
@@ -311,6 +447,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-5c2d
@@ -320,6 +460,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-514e
@@ -329,6 +473,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-515c
@@ -338,6 +486,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-5176
@@ -347,6 +499,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-5dfd
@@ -356,6 +512,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-51b4
@@ -365,6 +525,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-51cc
@@ -374,6 +538,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-51db
@@ -383,6 +551,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-51dc
@@ -392,6 +564,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-51f1
@@ -401,6 +577,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-51e7
@@ -410,6 +590,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-51ea
@@ -419,6 +603,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-51f0
@@ -428,6 +616,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-51fd
@@ -437,6 +629,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-5289
@@ -446,6 +642,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-52ab
@@ -455,6 +655,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-52c1
@@ -464,6 +668,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-52fa
@@ -473,6 +681,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-52ff
@@ -482,6 +694,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-5301
@@ -491,6 +707,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-5321
@@ -500,6 +720,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-5eff
@@ -509,6 +733,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-535c
@@ -518,6 +746,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-536f
@@ -527,6 +759,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-537f
@@ -536,6 +772,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-53a9
@@ -545,6 +785,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-53a8
@@ -554,6 +798,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-53c9
@@ -563,6 +811,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-53e1
@@ -572,6 +824,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-53e2
@@ -581,6 +837,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-53f6
@@ -590,6 +850,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-53ea
@@ -599,6 +863,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-543e
@@ -608,6 +876,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-543b
@@ -617,6 +889,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-541e
@@ -626,6 +902,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-54c9
@@ -635,6 +915,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-54e8
@@ -644,6 +928,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-5544
@@ -653,6 +941,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-54e9
@@ -662,6 +954,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-55ac
@@ -671,6 +967,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-55b0
@@ -680,6 +980,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-55a7
@@ -689,6 +993,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-558b
@@ -698,6 +1006,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-5629
@@ -707,6 +1019,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-5609
@@ -716,6 +1032,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-5617
@@ -725,6 +1045,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-564c
@@ -734,6 +1058,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-5642
@@ -743,6 +1071,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-5703
@@ -752,6 +1084,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-572d
@@ -761,6 +1097,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-5750
@@ -770,6 +1110,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-5766
@@ -779,6 +1123,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-57f4
@@ -788,6 +1136,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-5835
@@ -797,6 +1149,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-5830
@@ -806,6 +1162,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-583a
@@ -815,6 +1175,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-582f
@@ -824,6 +1188,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-5859
@@ -833,6 +1201,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-58d5
@@ -842,6 +1214,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-58ec
@@ -851,6 +1227,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-5937
@@ -860,6 +1240,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-5944
@@ -869,6 +1253,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-594e
@@ -878,6 +1266,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-5957
@@ -887,6 +1279,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-5a03
@@ -896,6 +1292,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-59e5
@@ -905,6 +1305,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-59ea
@@ -914,6 +1318,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-5a29
@@ -923,6 +1331,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-5b09
@@ -932,6 +1344,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-5b5c
@@ -941,6 +1357,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-5b5f
@@ -950,6 +1370,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-5b8f
@@ -959,6 +1383,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-5b8b
@@ -968,6 +1396,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-5b95
@@ -977,6 +1409,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-5ba5
@@ -986,6 +1422,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-5bc5
@@ -995,6 +1435,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-5bd3
@@ -1004,6 +1448,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-5bf5
@@ -1013,6 +1461,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-5c16
@@ -1022,6 +1474,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-5c24
@@ -1031,6 +1487,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-5c51
@@ -1040,6 +1500,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-5ce8
@@ -1049,6 +1513,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-5cfb
@@ -1058,6 +1526,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-5d1a
@@ -1067,6 +1539,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-5d6f
@@ -1076,6 +1552,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-5d69
@@ -1085,6 +1565,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-5dba
@@ -1094,6 +1578,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-5dcc
@@ -1103,6 +1591,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-5dd6
@@ -1112,6 +1604,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-5df7
@@ -1121,6 +1617,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-5df3
@@ -1130,6 +1630,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-5df4
@@ -1139,6 +1643,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-5df2
@@ -1148,6 +1656,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-5e16
@@ -1157,6 +1669,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-5e4c
@@ -1166,6 +1682,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-5e61
@@ -1175,6 +1695,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-5e84
@@ -1184,6 +1708,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-5e87
@@ -1193,6 +1721,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-5e9a
@@ -1202,6 +1734,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-5eb5
@@ -1211,6 +1747,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-5edf
@@ -1220,6 +1760,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-5efb
@@ -1229,6 +1773,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-5f18
@@ -1238,6 +1786,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-5f1b
@@ -1247,6 +1799,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-5f57
@@ -1256,6 +1812,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-5f66
@@ -1265,6 +1825,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-5f6a
@@ -1274,6 +1838,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-5f6c
@@ -1283,6 +1851,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-5fa0
@@ -1292,6 +1864,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-5fbd
@@ -1301,6 +1877,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-601c
@@ -1310,6 +1890,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6062
@@ -1319,6 +1903,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6070
@@ -1328,6 +1916,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-608c
@@ -1337,6 +1929,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-60df
@@ -1346,6 +1942,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-60da
@@ -1355,6 +1955,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-60c7
@@ -1364,6 +1968,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-60fa
@@ -1373,6 +1981,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6190
@@ -1382,6 +1994,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-5ffd
@@ -1391,6 +2007,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6055
@@ -1400,6 +2020,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6089
@@ -1409,6 +2033,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-60f9
@@ -1418,6 +2046,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-60e3
@@ -1427,6 +2059,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6167
@@ -1436,6 +2072,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-620a
@@ -1445,6 +2085,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6216
@@ -1454,6 +2098,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-621f
@@ -1463,6 +2111,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6258
@@ -1472,6 +2124,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6309
@@ -1481,6 +2137,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-633a
@@ -1490,6 +2150,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-63ac
@@ -1499,6 +2163,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6377
@@ -1508,6 +2176,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-637a
@@ -1517,6 +2189,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-633d
@@ -1526,6 +2202,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6367
@@ -1535,6 +2215,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-63a0
@@ -1544,6 +2228,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6372
@@ -1553,6 +2241,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-63c3
@@ -1562,6 +2254,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-647a
@@ -1571,6 +2267,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6451
@@ -1580,6 +2280,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6492
@@ -1589,6 +2293,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-64b0
@@ -1598,6 +2306,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-649e
@@ -1607,6 +2319,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-64ad
@@ -1616,6 +2332,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-64ab
@@ -1625,6 +2345,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-64e2
@@ -1634,6 +2358,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6566
@@ -1643,6 +2371,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6590
@@ -1652,6 +2384,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-65a1
@@ -1661,6 +2397,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-65a7
@@ -1670,6 +2410,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-65af
@@ -1679,6 +2423,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-65bc
@@ -1688,6 +2436,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-65ed
@@ -1697,6 +2449,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6602
@@ -1706,6 +2462,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-660f
@@ -1715,6 +2475,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-660c
@@ -1724,6 +2488,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-660a
@@ -1733,6 +2501,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6634
@@ -1742,6 +2514,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6666
@@ -1751,6 +2527,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6643
@@ -1760,6 +2540,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6652
@@ -1769,6 +2553,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-664b
@@ -1778,6 +2566,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-664f
@@ -1787,6 +2579,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6644
@@ -1796,6 +2592,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-665f
@@ -1805,6 +2605,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6668
@@ -1814,6 +2618,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-667a
@@ -1823,6 +2631,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6689
@@ -1832,6 +2644,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-66a2
@@ -1841,6 +2657,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-66d9
@@ -1850,6 +2670,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-66dd
@@ -1859,6 +2683,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-66f3
@@ -1868,6 +2696,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-670b
@@ -1877,6 +2709,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6714
@@ -1886,6 +2722,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-674f
@@ -1895,6 +2735,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6756
@@ -1904,6 +2748,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-675c
@@ -1913,6 +2761,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-674e
@@ -1922,6 +2774,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6775
@@ -1931,6 +2787,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-676d
@@ -1940,6 +2800,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6777
@@ -1949,6 +2813,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6787
@@ -1958,6 +2826,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-67d1
@@ -1967,6 +2839,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-67d8
@@ -1976,6 +2852,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-67cf
@@ -1985,6 +2865,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-67ca
@@ -1994,6 +2878,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-67fe
@@ -2003,6 +2891,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-67da
@@ -2012,6 +2904,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6854
@@ -2021,6 +2917,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6850
@@ -2030,6 +2930,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6817
@@ -2039,6 +2943,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6842
@@ -2048,6 +2956,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-67f4
@@ -2057,6 +2969,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6816
@@ -2066,6 +2982,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6867
@@ -2075,6 +2995,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-681e
@@ -2084,6 +3008,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6893
@@ -2093,6 +3021,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6876
@@ -2102,6 +3034,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-68b6
@@ -2111,6 +3047,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-691b
@@ -2120,6 +3060,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-68a7
@@ -2129,6 +3073,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-68a2
@@ -2138,6 +3086,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-68af
@@ -2147,6 +3099,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6881
@@ -2156,6 +3112,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-689b
@@ -2165,6 +3125,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-68f2
@@ -2174,6 +3138,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-690b
@@ -2183,6 +3151,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6900
@@ -2192,6 +3164,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-698a
@@ -2201,6 +3177,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-696f
@@ -2210,6 +3190,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-695a
@@ -2219,6 +3203,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6955
@@ -2228,6 +3216,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-69cc
@@ -2237,6 +3229,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-693f
@@ -2246,6 +3242,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6962
@@ -2255,6 +3255,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6960
@@ -2264,6 +3268,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6953
@@ -2273,6 +3281,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-694a
@@ -2282,6 +3294,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6930
@@ -2291,6 +3307,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-698e
@@ -2300,6 +3320,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6a3a
@@ -2309,6 +3333,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-699b
@@ -2318,6 +3346,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-69cd
@@ -2327,6 +3359,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6a0b
@@ -2336,6 +3372,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-69d9
@@ -2345,6 +3385,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-69c7
@@ -2354,6 +3398,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6a2b
@@ -2363,6 +3411,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6a1f
@@ -2372,6 +3424,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-69fb
@@ -2381,6 +3437,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6a58
@@ -2390,6 +3450,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6a8e
@@ -2399,6 +3463,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6a3d
@@ -2408,6 +3476,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6a59
@@ -2417,6 +3489,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6adb
@@ -2426,6 +3502,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6a80
@@ -2435,6 +3515,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6a9c
@@ -2444,6 +3528,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6ac2
@@ -2453,6 +3541,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6ad3
@@ -2462,6 +3554,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6b23
@@ -2471,6 +3567,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6b3d
@@ -2480,6 +3580,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6b4e
@@ -2489,6 +3593,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6b64
@@ -2498,6 +3606,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6b86
@@ -2507,6 +3619,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6bc5
@@ -2516,6 +3632,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6bd8
@@ -2525,6 +3645,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6bec
@@ -2534,6 +3658,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6c40
@@ -2543,6 +3671,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6c72
@@ -2552,6 +3684,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6c50
@@ -2561,6 +3697,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6c5d
@@ -2570,6 +3710,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6c8c
@@ -2579,6 +3723,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6cab
@@ -2588,6 +3736,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6d32
@@ -2597,6 +3749,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6d1b
@@ -2606,6 +3762,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6d38
@@ -2615,6 +3775,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6d35
@@ -2624,6 +3788,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6d6c
@@ -2633,6 +3801,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6d69
@@ -2642,6 +3814,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6df3
@@ -2651,6 +3827,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6e1a
@@ -2660,6 +3840,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6dc0
@@ -2669,6 +3853,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6dcb
@@ -2678,6 +3866,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6e25
@@ -2687,6 +3879,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6e58
@@ -2696,6 +3892,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6e5b
@@ -2705,6 +3905,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6df5
@@ -2714,6 +3918,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6e4a
@@ -2723,6 +3931,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6ea2
@@ -2732,6 +3944,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6e9c
@@ -2741,6 +3957,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6f23
@@ -2750,6 +3970,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6ec9
@@ -2759,6 +3983,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6f15
@@ -2768,6 +3996,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6f31
@@ -2777,6 +4009,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6faa
@@ -2786,6 +4022,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6fe1
@@ -2795,6 +4035,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7015
@@ -2804,6 +4048,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7058
@@ -2813,6 +4061,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-6c93
@@ -2822,6 +4074,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7078
@@ -2831,6 +4087,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-707c
@@ -2840,6 +4100,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-711a
@@ -2849,6 +4113,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7149
@@ -2858,6 +4126,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7130
@@ -2867,6 +4139,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7164
@@ -2876,6 +4152,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-714c
@@ -2885,6 +4165,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-71ce
@@ -2894,6 +4178,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-71e6
@@ -2903,6 +4191,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-71ed
@@ -2912,6 +4204,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-71ff
@@ -2921,6 +4217,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-70cf
@@ -2930,6 +4230,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7199
@@ -2939,6 +4243,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-71d5
@@ -2948,6 +4256,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-723e
@@ -2957,6 +4269,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7252
@@ -2966,6 +4282,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-725f
@@ -2975,6 +4295,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7261
@@ -2984,6 +4308,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-727d
@@ -2993,6 +4321,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7280
@@ -3002,6 +4334,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-72fc
@@ -3011,6 +4347,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-732a
@@ -3020,6 +4360,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7345
@@ -3029,6 +4373,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7396
@@ -3038,6 +4386,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-73c2
@@ -3047,6 +4399,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-73ca
@@ -3056,6 +4412,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-73b2
@@ -3065,6 +4425,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-73c8
@@ -3074,6 +4438,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-73c0
@@ -3083,6 +4451,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7422
@@ -3092,6 +4464,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7409
@@ -3101,6 +4477,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-745b
@@ -3110,6 +4490,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7436
@@ -3119,6 +4503,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7435
@@ -3128,6 +4516,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7433
@@ -3137,6 +4529,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7425
@@ -3146,6 +4542,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-745a
@@ -3155,6 +4555,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-745e
@@ -3164,6 +4568,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7476
@@ -3173,6 +4581,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7473
@@ -3182,6 +4594,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-74dc
@@ -3191,6 +4607,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-74e2
@@ -3200,6 +4620,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7525
@@ -3209,6 +4633,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-752b
@@ -3218,6 +4646,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7560
@@ -3227,6 +4659,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7562
@@ -3236,6 +4672,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-758b
@@ -3245,6 +4685,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-758f
@@ -3254,6 +4698,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7690
@@ -3263,6 +4711,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7693
@@ -3272,6 +4724,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7738
@@ -3281,6 +4737,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-77a5
@@ -3290,6 +4750,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-77e9
@@ -3299,6 +4763,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7827
@@ -3308,6 +4776,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7825
@@ -3317,6 +4789,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7826
@@ -3326,6 +4802,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-786f
@@ -3335,6 +4815,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7893
@@ -3344,6 +4828,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7897
@@ -3353,6 +4841,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-78a9
@@ -3362,6 +4854,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-78a7
@@ -3371,6 +4867,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-78d0
@@ -3380,6 +4880,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-78ef
@@ -3389,6 +4893,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7941
@@ -3398,6 +4906,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7947
@@ -3407,6 +4919,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7962
@@ -3416,6 +4932,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7950
@@ -3425,6 +4945,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7977
@@ -3434,6 +4958,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7984
@@ -3443,6 +4971,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-798e
@@ -3452,6 +4984,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-79b0
@@ -3461,6 +4997,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-797f
@@ -3470,6 +5010,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-79b1
@@ -3479,6 +5023,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-79bd
@@ -3488,6 +5036,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-79be
@@ -3497,6 +5049,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-79e6
@@ -3506,6 +5062,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-79e4
@@ -3515,6 +5075,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7a00
@@ -3524,6 +5088,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7a14
@@ -3533,6 +5101,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7a1c
@@ -3542,6 +5114,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7a1f
@@ -3551,6 +5127,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7a63
@@ -3560,6 +5140,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7a70
@@ -3569,6 +5153,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7a79
@@ -3578,6 +5166,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7a84
@@ -3587,6 +5179,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7a7f
@@ -3596,6 +5192,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7aaa
@@ -3605,6 +5205,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7aba
@@ -3614,6 +5218,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7ae3
@@ -3623,6 +5231,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7aea
@@ -3632,6 +5244,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7afa
@@ -3641,6 +5257,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7aff
@@ -3650,6 +5270,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7b08
@@ -3659,6 +5283,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7b20
@@ -3668,6 +5296,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7b39
@@ -3677,6 +5309,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7b19
@@ -3686,6 +5322,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7b51
@@ -3695,6 +5335,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7b48
@@ -3704,6 +5348,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7b94
@@ -3713,6 +5361,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7b95
@@ -3722,6 +5374,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7bc7
@@ -3731,6 +5387,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7be0
@@ -3740,6 +5400,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7c1e
@@ -3749,6 +5413,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7c3e
@@ -3758,6 +5426,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7c7e
@@ -3767,6 +5439,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7c9f
@@ -3776,6 +5452,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7ca5
@@ -3785,6 +5465,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7cca
@@ -3794,6 +5478,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7d18
@@ -3803,6 +5491,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7d17
@@ -3812,6 +5504,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7d10
@@ -3821,6 +5517,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7d43
@@ -3830,6 +5530,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7d2c
@@ -3839,6 +5543,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7d46
@@ -3848,6 +5556,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7d62
@@ -3857,6 +5569,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7dbe
@@ -3866,6 +5582,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7d9c
@@ -3875,6 +5595,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7db4
@@ -3884,6 +5608,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7dcb
@@ -3893,6 +5621,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7dba
@@ -3902,6 +5634,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7db8
@@ -3911,6 +5647,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7e1e
@@ -3920,6 +5660,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7e61
@@ -3929,6 +5673,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7e6b
@@ -3938,6 +5686,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7e82
@@ -3947,6 +5699,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7e8f
@@ -3956,6 +5712,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7f9a
@@ -3965,6 +5725,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7fd4
@@ -3974,6 +5738,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-7fe0
@@ -3983,6 +5751,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-8000
@@ -3992,6 +5764,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-800c
@@ -4001,6 +5777,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-8036
@@ -4010,6 +5790,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-803d
@@ -4019,6 +5803,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-8061
@@ -4028,6 +5816,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-8087
@@ -4037,6 +5829,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-808b
@@ -4046,6 +5842,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-80b4
@@ -4055,6 +5855,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-80e4
@@ -4064,6 +5868,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-80e1
@@ -4073,6 +5881,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-8129
@@ -4082,6 +5894,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-8154
@@ -4091,6 +5907,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-8139
@@ -4100,6 +5920,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-818f
@@ -4109,6 +5933,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-81e5
@@ -4118,6 +5946,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-821c
@@ -4127,6 +5959,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-8235
@@ -4136,6 +5972,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-82a6
@@ -4145,6 +5985,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-82a5
@@ -4154,6 +5998,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-82b9
@@ -4163,6 +6011,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-82ad
@@ -4172,6 +6024,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-8299
@@ -4181,6 +6037,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-82d1
@@ -4190,6 +6050,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-8304
@@ -4199,6 +6063,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-8305
@@ -4208,6 +6076,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-82d4
@@ -4217,6 +6089,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-82fa
@@ -4226,6 +6102,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-8309
@@ -4235,6 +6115,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-831c
@@ -4244,6 +6128,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-8338
@@ -4253,6 +6141,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-837b
@@ -4262,6 +6154,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-839e
@@ -4271,6 +6167,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-83ab
@@ -4280,6 +6180,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-8389
@@ -4289,6 +6193,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-83d6
@@ -4298,6 +6206,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-83c5
@@ -4307,6 +6219,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-8404
@@ -4316,6 +6232,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-83f1
@@ -4325,6 +6245,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-83e9
@@ -4334,6 +6258,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-840c
@@ -4343,6 +6271,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-83eb
@@ -4352,6 +6284,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-8420
@@ -4361,6 +6297,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-840a
@@ -4370,6 +6310,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-8475
@@ -4379,6 +6323,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-8431
@@ -4388,6 +6336,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-8463
@@ -4397,6 +6349,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-8429
@@ -4406,6 +6362,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-8461
@@ -4415,6 +6375,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-847a
@@ -4424,6 +6388,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-8466
@@ -4433,6 +6401,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-84b2
@@ -4442,6 +6414,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-8494
@@ -4451,6 +6427,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-8490
@@ -4460,6 +6440,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-84bc
@@ -4469,6 +6453,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-84ec
@@ -4478,6 +6466,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-84d1
@@ -4487,6 +6479,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-8499
@@ -4496,6 +6492,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-84c9
@@ -4505,6 +6505,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-84ee
@@ -4514,6 +6518,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-852d
@@ -4523,6 +6531,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-8526
@@ -4532,6 +6544,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-8513
@@ -4541,6 +6557,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-8523
@@ -4550,6 +6570,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-854e
@@ -4559,6 +6583,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-8549
@@ -4568,6 +6596,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-8543
@@ -4577,6 +6609,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-856a
@@ -4586,6 +6622,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-8568
@@ -4595,6 +6635,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-8599
@@ -4604,6 +6648,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-8557
@@ -4613,6 +6661,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-857e
@@ -4622,6 +6674,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-85a9
@@ -4631,6 +6687,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-85c1
@@ -4640,6 +6700,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-8607
@@ -4649,6 +6713,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-862d
@@ -4658,6 +6726,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-8766
@@ -4667,6 +6739,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-8776
@@ -4676,6 +6752,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-87ba
@@ -4685,6 +6765,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-87ec
@@ -4694,6 +6778,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-87f9
@@ -4703,6 +6791,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-881f
@@ -4712,6 +6804,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-887f
@@ -4721,6 +6817,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-88b4
@@ -4730,6 +6830,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-88e1
@@ -4739,6 +6843,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-8956
@@ -4748,6 +6856,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-8888
@@ -4757,6 +6869,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-88df
@@ -4766,6 +6882,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-88f3
@@ -4775,6 +6895,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-8a0a
@@ -4784,6 +6908,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-8a23
@@ -4793,6 +6921,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-8a3b
@@ -4802,6 +6934,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-8a6b
@@ -4811,6 +6947,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-8a62
@@ -4820,6 +6960,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-8abc
@@ -4829,6 +6973,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-8acf
@@ -4838,6 +6986,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-8ad2
@@ -4847,6 +6999,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-8ac4
@@ -4856,6 +7012,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-8b02
@@ -4865,6 +7025,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-8afa
@@ -4874,6 +7038,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-8b83
@@ -4883,6 +7051,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-8c79
@@ -4892,6 +7064,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-8cb0
@@ -4901,6 +7077,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-8cd1
@@ -4910,6 +7090,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-8d73
@@ -4919,6 +7103,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-8de8
@@ -4928,6 +7116,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-8e44
@@ -4937,6 +7129,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-8e5f
@@ -4946,6 +7142,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-8f14
@@ -4955,6 +7155,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-8f2f
@@ -4964,6 +7168,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-8f3f
@@ -4973,6 +7181,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-8f5f
@@ -4982,6 +7194,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-8fb0
@@ -4991,6 +7207,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-8fbb
@@ -5000,6 +7220,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-8fc2
@@ -5009,6 +7233,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-8fbf
@@ -5018,6 +7246,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-8fc4
@@ -5027,6 +7259,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-8fe6
@@ -5036,6 +7272,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-8fea
@@ -5045,6 +7285,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-9022
@@ -5054,6 +7298,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-9017
@@ -5063,6 +7311,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-9019
@@ -5072,6 +7324,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-9041
@@ -5081,6 +7337,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-9065
@@ -5090,6 +7350,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-907c
@@ -5099,6 +7363,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-901e
@@ -5108,6 +7376,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-9059
@@ -5117,6 +7389,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-90c1
@@ -5126,6 +7402,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-912d
@@ -5135,6 +7415,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-9091
@@ -5144,6 +7428,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-9149
@@ -5153,6 +7441,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-9187
@@ -5162,6 +7454,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-9190
@@ -5171,6 +7467,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-918d
@@ -5180,6 +7480,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-91ac
@@ -5189,6 +7493,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-91c9
@@ -5198,6 +7506,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-91d8
@@ -5207,6 +7519,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-91e7
@@ -5216,6 +7532,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-9291
@@ -5225,6 +7545,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-92d2
@@ -5234,6 +7558,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-92f8
@@ -5243,6 +7571,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-9306
@@ -5252,6 +7584,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-932b
@@ -5261,6 +7597,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-9310
@@ -5270,6 +7610,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-9318
@@ -5279,6 +7623,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-936c
@@ -5288,6 +7636,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-93a7
@@ -5297,6 +7649,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-9583
@@ -5306,6 +7662,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-958f
@@ -5315,6 +7675,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-95a4
@@ -5324,6 +7688,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-963f
@@ -5333,6 +7701,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-9640
@@ -5342,6 +7714,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-9688
@@ -5351,6 +7727,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-96bc
@@ -5360,6 +7740,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-96c0
@@ -5369,6 +7753,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-96c1
@@ -5378,6 +7766,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-96db
@@ -5387,6 +7779,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-96eb
@@ -5396,6 +7792,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-971e
@@ -5405,6 +7805,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-9756
@@ -5414,6 +7818,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-9784
@@ -5423,6 +7831,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-978d
@@ -5432,6 +7844,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-9798
@@ -5441,6 +7857,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-97a0
@@ -5450,6 +7870,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-97ad
@@ -5459,6 +7883,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-9801
@@ -5468,6 +7896,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-980c
@@ -5477,6 +7909,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-9817
@@ -5486,6 +7922,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-985a
@@ -5495,6 +7935,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-98af
@@ -5504,6 +7948,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-9957
@@ -5513,6 +7961,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-99a8
@@ -5522,6 +7974,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-99b3
@@ -5531,6 +7987,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-99b4
@@ -5540,6 +8000,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-99d5
@@ -5549,6 +8013,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-99ff
@@ -5558,6 +8026,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-9a4d
@@ -5567,6 +8039,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-9b41
@@ -5576,6 +8052,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-9b6f
@@ -5585,6 +8065,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-9b8e
@@ -5594,6 +8078,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-9bc9
@@ -5603,6 +8091,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-9bdb
@@ -5612,6 +8104,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-9c2f
@@ -5621,6 +8117,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-9c52
@@ -5630,6 +8130,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-9c57
@@ -5639,6 +8143,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-9ce9
@@ -5648,6 +8156,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-9cf6
@@ -5657,6 +8169,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-9cf3
@@ -5666,6 +8182,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-9d28
@@ -5675,6 +8195,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-9d3b
@@ -5684,6 +8208,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-9d5c
@@ -5693,6 +8221,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-9d6c
@@ -5702,6 +8234,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-9dd7
@@ -5711,6 +8247,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-9df2
@@ -5720,6 +8260,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-9dfa
@@ -5729,6 +8273,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-9df9
@@ -5738,6 +8286,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-9e92
@@ -5747,6 +8299,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-9e9f
@@ -5756,6 +8312,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-9ebf
@@ -5765,6 +8325,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-9ece
@@ -5774,6 +8338,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-9edb
@@ -5783,6 +8351,10 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: k-jinmeiyo-9f0e
@@ -5792,4 +8364,8 @@
   hint: ""
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []

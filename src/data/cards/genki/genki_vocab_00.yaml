@@ -5,6 +5,10 @@
   hint: 'arigatou — casual “thanks”; for polite: ありがとうございます'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ありがとうございます
@@ -29,6 +33,10 @@
     formal than ありがとう)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ありがとうございました
@@ -52,6 +60,10 @@
   hint: iie — polite negative response (more formal than ううん)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - いえ
@@ -75,6 +87,10 @@
   hint: itadakimasu — said before eating; polite set phrase (often with hands together).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ごちそうさまでした
@@ -98,6 +114,10 @@
   hint: itte kimasu — said when leaving home/office; reply is 「いってらっしゃい」.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - いってらっしゃい
@@ -121,6 +141,10 @@
   hint: itterasshai — said to someone leaving home; reply is 「いってきます」
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - いってきます
@@ -145,6 +169,10 @@
   hint: okaeri (nasai) - said to someone returning home; 「なさい」 makes it more polite
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ただいま
@@ -169,6 +197,10 @@
   hint: ohayou — casual greeting (use おはようございます for polite/formal)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - こんにちは
@@ -192,6 +224,10 @@
   hint: ohayou gozaimasu - polite greeting used in the morning (often until ~10–11am)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - おはよう
@@ -216,6 +252,10 @@
   hint: 'oyasumi (nasai) — casual: おやすみ / polite: おやすみなさい (used when going to sleep)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - こんばんは
@@ -243,6 +283,10 @@
     common in restaurants
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - いただきます
@@ -268,6 +312,10 @@
     pronounced "wa")
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - こんばんは
@@ -291,6 +339,10 @@
   hint: konbanwa — common evening greeting; written with は but pronounced “wa”
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - こんにちわ
@@ -314,6 +366,10 @@
   hint: sayounara - standard farewell; a bit formal/final-sounding
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - じゃあね
@@ -338,6 +394,10 @@
     (more casual than 申し訳ありません).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ごめんなさい
@@ -361,6 +421,10 @@
   hint: tadaima — said when you return home (often answered with「おかえり」).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - おかえり
@@ -384,6 +448,10 @@
   hint: ~ desu - polite copula; attach to a noun (e.g., 学生です = "I am a student")
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ～でした
@@ -408,6 +476,10 @@
     by よろしくお願いします).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - よろしくお願いします
@@ -433,6 +505,10 @@
     goodwill; often written as よろしくお願いします or all-hiragana
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - よろしく

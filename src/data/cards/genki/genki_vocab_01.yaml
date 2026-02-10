@@ -6,6 +6,10 @@
   hint: ajia kenkyuu — academic field studying Asia; 「研究」= research/study
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - アジア史
@@ -30,6 +34,10 @@
     before a question/request)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - えっと
@@ -53,6 +61,10 @@
   hint: amerika (katakana) — country name; long vowel is not used here
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - イギリス
@@ -76,6 +88,10 @@
   hint: igirisu (katakana) — country name; watch the small ィ after イ
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - イングランド
@@ -100,6 +116,10 @@
   hint: isha — profession word; 医 = medicine, 者 = person (medical person)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 医師
@@ -125,6 +145,10 @@
     depending on context)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 一時間
@@ -150,6 +174,10 @@
     school)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 二年生
@@ -175,6 +203,10 @@
     to いっぷん.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 一分
@@ -200,6 +232,10 @@
   strokeCount: 4
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 令
@@ -226,6 +262,10 @@
   strokeCount: 8
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 姉
@@ -249,6 +289,10 @@
   hint: indo (katakana) — country name written in katakana
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - インコ
@@ -272,6 +316,10 @@
   hint: ejiputo (katakana) - country name; often written in katakana
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - エスプト
@@ -297,6 +345,10 @@
     Long vowels: オー / スト / ラ / リ / ア
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - オーストリア
@@ -322,6 +374,10 @@
     your own).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 母
@@ -347,6 +403,10 @@
     father (your own: 父/ちち)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - お母さん
@@ -372,6 +432,10 @@
   strokeCount: 7
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 兄
@@ -397,6 +461,10 @@
     own: 兄/あに).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - お姉さん
@@ -421,6 +489,10 @@
   hint: oneesan — polite way to say “older sister” (also used to address a young woman)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - お兄さん
@@ -445,6 +517,10 @@
   hint: kaishain — literally "company member"; かいしゃ (company) + いん (member/employee)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 会社
@@ -469,6 +545,10 @@
   hint: gakusei — 学 (study/learning) + 生 (life/person); common in 学生です (I’m a student).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 先生
@@ -492,6 +572,10 @@
   hint: kanada (katakana) — country name written in katakana
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - かなだ
@@ -516,6 +600,10 @@
   hint: kankoku — country name; 韓 (Korea) + 国 (country)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 中国
@@ -540,6 +628,10 @@
   hint: kangoshi — hospital nurse; note 師 is a profession suffix (teacher/doctor/etc.)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 介護士
@@ -565,6 +657,10 @@
     9.'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 九時
@@ -589,6 +685,10 @@
   hint: 'kuji — time expression: 九(9) + 時(o''clock). Often written as ９時, too.'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 九日
@@ -613,6 +713,10 @@
   hint: keizai — often used in 経済学 (economics), 経済的 (economical/financial)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 経営
@@ -638,6 +742,10 @@
     日本語, 英語).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ～国
@@ -662,6 +770,10 @@
   hint: koukou — abbreviation of 高等学校 (senior high school)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 中学
@@ -686,6 +798,10 @@
   hint: 'koukousei — 高校 (high school) + 生 (student). Often used like: 高校生です。'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 中学生
@@ -711,6 +827,10 @@
     academic/political contexts
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 国際関係学
@@ -735,6 +855,10 @@
   hint: gogo — used for times after noon (e.g., 午後3時).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 午前
@@ -759,6 +883,10 @@
   hint: goji — 五 (5) + 時 (o'clock/time); used for time on the clock (e.g., 五時です).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 五分
@@ -783,6 +911,10 @@
   hint: gozen — used for times before noon (e.g., 午前9時 = 9 a.m.)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 午後
@@ -807,6 +939,10 @@
   hint: 'gofun — counter for minutes (〜分). Note: after 5, 分 is read ふん (e.g., 五分).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 十分
@@ -830,6 +966,10 @@
   hint: 'konpyuutaa (katakana loanword). Long vowels: ピュー + ター'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - こんぴゅーたー
@@ -859,6 +999,10 @@
   hint: '～さい (sai) — attach to a number: 20歳 (はたち), 1歳 (いっさい), 8歳 (はっさい)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ～才
@@ -883,6 +1027,10 @@
     neutral than ～ちゃん/～くん.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ～さま
@@ -907,6 +1055,10 @@
   hint: sanji — use for telling time (e.g., 三時です).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 三次
@@ -932,6 +1084,10 @@
     Also read as さんじっぷん or さんじゅっぷん.'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 三十分
@@ -956,6 +1112,10 @@
   hint: 'sanpun — note the sound change: ３ふん → さんぷん (minute counter 分)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 三分
@@ -980,6 +1140,10 @@
   hint: "〜じ (ji) — attach to a time number: 1時=いちじ (1 o'clock), 7時=しちじ/ななじ"
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ～分
@@ -1005,6 +1169,10 @@
     also be read "nana" in other contexts.'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 七分
@@ -1029,6 +1197,10 @@
   hint: jippun (juppun) — time counter for minutes; じっぷん/じゅっぷん both heard
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 十分（じゅうぶん）
@@ -1053,6 +1225,10 @@
   hint: juuichiji — time expression; に can be added for “at 11 o’clock” (十一時に)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 十時
@@ -1077,6 +1253,10 @@
   hint: 'juuippun — counter for minutes (〜分). Sound change: いち＋ふん → いっぷん.'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 十分
@@ -1101,6 +1281,10 @@
   hint: juukyuu-fun (じゅうきゅうふん) — “19 + minutes”; 分 is read ふん here (not ぶん).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 九十分
@@ -1125,6 +1309,10 @@
   hint: 'juugofun — use for durations (〜分). Note: 15分 is pronounced じゅうごふん (not *じゅうごぷん*).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 五十分
@@ -1150,6 +1338,10 @@
     durations: 〜分.'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 十三時
@@ -1174,6 +1366,10 @@
   hint: juuji — time expression (～時). 「十」=10 + 「時」=o’clock/hour
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 十日
@@ -1198,6 +1394,10 @@
   hint: 'juu-nana-fun — minutes counter: 〜分 (fun/pun). Example: 十七分です = It''s 17 minutes.'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 十七時
@@ -1222,6 +1422,10 @@
   hint: juu-ni-ji — use for telling time (12:00). Often said as 十二時です。
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 十時
@@ -1246,6 +1450,10 @@
   hint: juu ni fun — use 分 as the minutes counter (ふん/ぷん changes by number; 12 → ふん)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 十分
@@ -1270,6 +1478,10 @@
   hint: 'juuhachi-fun / juuhap-pun (っ before P sounds). Used for duration: １８分(じゅうはっぷん)かかります。'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 八十分
@@ -1295,6 +1507,10 @@
     → ぷん).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 十四
@@ -1319,6 +1535,10 @@
   hint: 'juuroppun — duration: 16 minutes (分 reads ぷん after numbers like 6).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 十六時
@@ -1343,6 +1563,10 @@
   hint: juppun — often written 「10分」; note the sound change じゅう + ふん → じゅっぷん
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 十分（じゅうぶん）
@@ -1367,6 +1591,10 @@
   hint: shufu — a married woman who manages the household (common term in ads/forms).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 主夫
@@ -1392,6 +1620,10 @@
     日本人 にほんじん).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ～者
@@ -1416,6 +1648,10 @@
   hint: seiji — government/politics; common in 政治家 (politician), 政治的 (political)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 政策
@@ -1441,6 +1677,10 @@
     生物学の授業).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 生物
@@ -1465,6 +1705,10 @@
   hint: senkō — university major; often used with を (専攻を変える = change one's major)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 専修
@@ -1489,6 +1733,10 @@
   hint: sensei — honorific for teachers/professors (also doctors, artists, etc.)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 学生
@@ -1512,6 +1760,10 @@
   hint: sou desu — used to agree/confirm what someone said (polite).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - そうですか
@@ -1536,6 +1788,10 @@
     rising intonation when surprised).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - そうです
@@ -1560,6 +1816,10 @@
   hint: daigaku — higher education institution (often after 高校).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 大学院
@@ -1584,6 +1844,10 @@
   hint: daigakuinsei — 大学(undergraduate university) + 院(graduate school) + 生(student)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 大学生
@@ -1609,6 +1873,10 @@
     student).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 高校生
@@ -1633,6 +1901,10 @@
   hint: chuugoku — 中(なか/ちゅう) = middle, 国(くに/こく) = country
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 中国語
@@ -1657,6 +1929,10 @@
   hint: 'denwa — common collocation: 電話する (to make a phone call)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 電車
@@ -1681,6 +1957,10 @@
   hint: 'tomodachi — often written in kana as 友だち; polite: 友達(ともだち) / ご友人(ごゆうじん)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 友人
@@ -1707,6 +1987,10 @@
     Note: after なな, ふん is common (not ななぷん).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 七時
@@ -1732,6 +2016,10 @@
   strokeCount: 7
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 可
@@ -1758,6 +2046,10 @@
     Often used with honorific: お名前 (your name)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 氏名
@@ -1784,6 +2076,10 @@
   strokeCount: 7
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 向
@@ -1808,6 +2104,10 @@
   hint: 'niji — time expression. Used with に: 二時に = at two o’clock.'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 二日
@@ -1832,6 +2132,10 @@
   hint: 'nijuppun (also read: nijippun) — note the sound change: にじゅう + ふん → にじっぷん'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 十分
@@ -1856,6 +2160,10 @@
   hint: 'nijihan — time: 2:30 (二=2, 時=o''clock, 半=half)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 二時
@@ -1880,6 +2188,10 @@
   hint: nijuppun — time duration. Note the small っ in the reading.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 十分
@@ -1904,6 +2216,10 @@
   hint: nifun — 二(に) + 分(ふん); use for duration (e.g., 二分待って).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 二十分
@@ -1928,6 +2244,10 @@
   hint: nihon / nippon — commonly read as にほん in everyday speech
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - にほん
@@ -1952,6 +2272,10 @@
   hint: 'nihongo — 日本 (Japan) + 語 (language/word). Watch 語: 言 + 五 + 口.'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 日本
@@ -1976,6 +2300,10 @@
   hint: nihonjin — person from Japan (日本 + 人). Often used for nationality (e.g., 日本人です).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 日本語
@@ -2001,6 +2329,10 @@
     The ～ is a placeholder; write the kanji + 生.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ～年
@@ -2024,6 +2356,10 @@
   hint: hai — polite affirmative; often lengthened 「はーい」 when responding to a call
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - いいえ
@@ -2048,6 +2384,10 @@
   hint: hachiji — 八(はち) = eight + 時(じ) = o’clock/time. Used to tell time (e.g., 八時です).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 八日
@@ -2073,6 +2413,10 @@
     minutes).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 十分
@@ -2097,6 +2441,10 @@
   hint: 'happun — 8 minutes; note the sound change: はちふん → はっぷん (small っ before p)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 八分目
@@ -2124,6 +2472,10 @@
   strokeCount: 5
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 中
@@ -2149,6 +2501,10 @@
     "first")
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ～号
@@ -2174,6 +2530,10 @@
     number).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 番組
@@ -2199,6 +2559,10 @@
     Often used for work/company contexts: ビジネスホテル, ビジネスプラン
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ビジネスマン
@@ -2223,6 +2587,10 @@
   hint: firipin (katakana) — country name; watch small ィ after フ
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - フィリピーナ
@@ -2248,6 +2616,10 @@
     日本文学)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 文化
@@ -2273,6 +2645,10 @@
     one
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 裁判官
@@ -2297,6 +2673,10 @@
   hint: yoji — used for telling time (e.g., 四時です = It’s 4 o’clock)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 四日
@@ -2321,6 +2701,10 @@
   hint: 'yon-pun (よんぷん) — counter for minutes (〜分). Note: 分 becomes ぷん after 4 (四).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 四分間
@@ -2345,6 +2729,10 @@
   hint: ryuugakusei — 留学 (studying abroad) + 生 (student).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 交換学生
@@ -2369,6 +2757,10 @@
   hint: rekishi — academic/history as a subject (e.g., 日本の歴史).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 歴代
@@ -2393,6 +2785,10 @@
   hint: 'rokuji — time expression: 六時です (It’s six o’clock).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 六日
@@ -2417,6 +2813,10 @@
   hint: 'roppun — 六(ろく) + 分(ふん→ぷん). Sound change: ふん becomes ぷん after 6.'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 六分間
@@ -2442,6 +2842,10 @@
   strokeCount: 7
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 和

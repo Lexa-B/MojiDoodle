@@ -52,6 +52,10 @@ def generate_yaml(words: list[dict], lesson_num: int) -> str:
         lines.append(f'  hint: "{hint}"')
         lines.append(f"  stage: -1")
         lines.append(f"  unlocks: '9999-12-31T23:59:59+00:00'")
+        lines.append(f"  invulnerable: false")
+        lines.append(f"  max_stage: -1")
+        lines.append(f"  learned: false")
+        lines.append(f"  hidden: false")
         lines.append(f"  befuddlers: []")
         lines.append("")  # Blank line between entries
 

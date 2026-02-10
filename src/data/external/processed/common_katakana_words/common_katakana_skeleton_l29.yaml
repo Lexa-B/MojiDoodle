@@ -5,6 +5,10 @@
   hint: "noun"
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: ckw-l29-5077
@@ -14,6 +18,10 @@
   hint: "noun"
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: ckw-l29-5086
@@ -23,6 +31,10 @@
   hint: "noun"
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: ckw-l29-5125
@@ -32,6 +44,10 @@
   hint: "verbal noun (する verb)"
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: ckw-l29-5148
@@ -41,6 +57,10 @@
   hint: "noun"
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: ckw-l29-5150
@@ -50,6 +70,10 @@
   hint: "noun"
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: ckw-l29-5155
@@ -59,6 +83,10 @@
   hint: "noun"
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: ckw-l29-5161
@@ -68,6 +96,10 @@
   hint: "noun"
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: ckw-l29-5162
@@ -77,6 +109,10 @@
   hint: "な-adjective"
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: ckw-l29-5165
@@ -86,6 +122,10 @@
   hint: "noun"
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: ckw-l29-5169
@@ -95,6 +135,10 @@
   hint: "noun"
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: ckw-l29-5173
@@ -104,6 +148,10 @@
   hint: "noun/counter"
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: ckw-l29-5174
@@ -113,6 +161,10 @@
   hint: "noun"
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: ckw-l29-5192
@@ -122,6 +174,10 @@
   hint: "noun"
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []
 
 - id: ckw-l29-5196
@@ -131,4 +187,8 @@
   hint: "noun"
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers: []

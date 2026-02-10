@@ -5,6 +5,10 @@
   hint: ikaga — polite “how about…?/how is…?” (e.g., いかがですか)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - どう
@@ -29,6 +33,10 @@
     status (e.g., 先生はいらっしゃいますか).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - おっしゃる
@@ -53,6 +61,10 @@
   hint: ukeru — used for taking/receiving something like an exam (試験を受ける).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 受かる
@@ -78,6 +90,10 @@
     遠慮します = “No thanks / I’ll pass”).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 我慢する
@@ -103,6 +119,10 @@
     Often preceded by お: お奥様'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 奥さん
@@ -128,6 +148,10 @@
     the station")
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 贈る
@@ -153,6 +177,10 @@
     お子さんはおいくつですか).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 子ども
@@ -178,6 +206,10 @@
     いろいろお世話になりました).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 世話をする
@@ -202,6 +234,10 @@
     status (e.g., 先生がおっしゃった).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 言う
@@ -227,6 +263,10 @@
     = bring out
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 覚える
@@ -252,6 +292,10 @@
     higher status)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 寝る
@@ -276,6 +320,10 @@
   hint: orei — often used for thanks or a small return gift (e.g., お礼を言う / お礼の品)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 礼
@@ -299,6 +347,10 @@
   hint: 'kakeru — polite/formal sense: sit down (esp. on a chair) as in 腰をかける'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 座る
@@ -319,6 +371,10 @@
     (transitive).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 決める
@@ -344,6 +400,10 @@
     Often seen as ～てくださる.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - くれる
@@ -368,6 +428,10 @@
   hint: keigo — polite/honorific speech used to show respect (尊敬語・謙譲語・丁寧語)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 丁寧語
@@ -393,6 +457,10 @@
     flight)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 国内
@@ -416,6 +484,10 @@
   hint: 'gochisou suru - treat someone to food (often marked with を: 友だちにごちそうする)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ごちそうさま
@@ -440,6 +512,10 @@
     person" in formal speech
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - これ
@@ -465,6 +541,10 @@
     (e.g., 先生がご覧になりました).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 見ます
@@ -489,6 +569,10 @@
   hint: shurui — used for categories/types (e.g., 種類が多い = there are many kinds)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 種別
@@ -512,6 +596,10 @@
   hint: shougi (shogi) - a traditional Japanese strategy board game
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 将棋
@@ -536,6 +624,10 @@
   hint: shoushou — polite/soft way to say “just a moment” (e.g., 少々お待ちください).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 少し
@@ -560,6 +652,10 @@
   hint: shoutai suru — invite (often to an event/place); 招待状 = invitation
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 誘う
@@ -584,6 +680,10 @@
   hint: 'shiria(u) - to come to know someone (often: 知り合いになる)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 知り合い
@@ -608,6 +708,10 @@
   hint: seikaku — a person's character/temperament (e.g., 性格がいい = has a good personality)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 性質
@@ -631,6 +735,10 @@
   hint: sore de — used to continue from what was just said ("and then..." / "so...")
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - それから
@@ -655,6 +763,10 @@
     topic): 「それでは、また。」'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - では
@@ -680,6 +792,10 @@
     を (e.g., 物を大切にする)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 大事にする
@@ -703,6 +819,10 @@
   hint: taihen — often means “very/greatly” (e.g., たいへん うれしい = very happy)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - とても
@@ -726,6 +846,10 @@
   hint: 'tatsu — used for time elapsing: 時がたつ (toki ga tatsu) = time passes'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 立つ
@@ -752,6 +876,10 @@
     Example: 会議中 = in a meeting
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ～間
@@ -776,6 +904,10 @@
   hint: chuugakusei (ちゅうがくせい) — 「中学」= junior high school + 「生」= student
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 高校生
@@ -799,6 +931,10 @@
   hint: 'te irassharu - honorific progressive/state (used for others: 先生が読んでいらっしゃいます)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ～ている
@@ -824,6 +960,10 @@
     the academic field/major.'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 電子工学
@@ -849,6 +989,10 @@
     making a request, or starting work together
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - よろしくお願いします
@@ -872,6 +1016,10 @@
   hint: dochira - polite "which way/where" (e.g., お手洗いはどちらですか)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - どこ
@@ -896,6 +1044,10 @@
   hint: totsuzen — often used with と / に (e.g., 突然(と)雨が降った)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 急に
@@ -920,6 +1072,10 @@
   hint: nakagaii — used for people/relationships (e.g., 彼らは仲がいい).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 仲が悪い
@@ -945,6 +1101,10 @@
     Example: 何をなさいますか。
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - する
@@ -968,6 +1128,10 @@
   hint: naze — used in questions (e.g., なぜですか = “Why?”)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - どうして
@@ -992,6 +1156,10 @@
     “a nostalgic smell”).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - かなしい
@@ -1017,6 +1185,10 @@
     = person
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 怠ける
@@ -1043,6 +1215,10 @@
     Usage: Xの紹介で = “through/thanks to an introduction by X” (often used when meeting someone via a mutual contact).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ～の紹介で（しょうかいで）
@@ -1067,6 +1243,10 @@
     家族のために (for my family). For goal-oriented actions, compare ～のために vs ～ように.'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ～にとって
@@ -1092,6 +1272,10 @@
     used as 恥ずかしがり屋だ
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 恥ずかしい
@@ -1116,6 +1300,10 @@
   hint: hareru — used for weather clearing up (雨がやんで晴れる). Intransitive ru-verb.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 晴らす
@@ -1139,6 +1327,10 @@
     (noun).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 越す
@@ -1164,6 +1356,10 @@
     田中部長.'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 課長
@@ -1189,6 +1385,10 @@
     …”'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 本当
@@ -1213,6 +1413,10 @@
   hint: maiasa — used for habitual actions (e.g., 毎朝コーヒーを飲む).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 毎日
@@ -1236,6 +1440,10 @@
   hint: 'mada — often used with negative verbs: まだです / まだ〜ない (“not yet”)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - もう
@@ -1260,6 +1468,10 @@
   hint: machigai — used for an error/mistake (e.g., 間違いです “That’s a mistake”).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 間違える
@@ -1284,6 +1496,10 @@
   hint: minasama - very polite address (e.g., お客様・皆様). More formal than みなさん.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - みなさん
@@ -1310,6 +1526,10 @@
     Very polite suffix used with number + 名様 (e.g., 2名様 = party of two). Used for customers/guests.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - ～名
@@ -1334,6 +1554,10 @@
   hint: 'meshiagaru — 尊敬語。目上の人が「食べる／飲む」(例: 先生はもう召し上がりましたか)。'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 食べる
@@ -1359,6 +1583,10 @@
     job)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 申込み
@@ -1383,6 +1611,10 @@
   hint: moushiwake arimasen - very polite apology (often for serious inconvenience)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - すみません
@@ -1407,6 +1639,10 @@
     goes). Often used for hypotheticals.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - もし～なら
@@ -1430,6 +1666,10 @@
   hint: 'moteru — often used like: 彼は女の子にもてる (He’s popular with girls).'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 持てる
@@ -1455,6 +1695,10 @@
     is 友だち (tomodachi).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 友だち
@@ -1478,6 +1722,10 @@
   hint: youkoso — greeting used to welcome someone (e.g., ようこそ日本へ)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - いらっしゃいませ
@@ -1502,6 +1750,10 @@
   hint: yobu — call out someone’s name; invite someone (e.g., 友だちを呼ぶ)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 呼吸
@@ -1526,6 +1778,10 @@
   hint: yoru — to drop in/stop by on the way (often 寄っていく/寄ってみる)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - 夜
@@ -1551,6 +1807,10 @@
     on your regards (e.g., 〜さんに).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
   befuddlers:
   - answers:
       - よろしくおねがいします

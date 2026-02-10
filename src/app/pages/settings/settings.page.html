@@ -42,6 +42,23 @@
 
   <ion-list>
     <ion-list-header>
+      <ion-label>Pause Decks</ion-label>
+    </ion-list-header>
+
+    @for (category of categories; track category.id) {
+      <ion-item>
+        <ion-label>{{ category.label }}</ion-label>
+        <ion-toggle
+          slot="end"
+          [checked]="pausedDecks[category.id]"
+          (ionChange)="togglePauseDeck(category, $event)"
+        ></ion-toggle>
+      </ion-item>
+    }
+  </ion-list>
+
+  <ion-list>
+    <ion-list-header>
       <ion-label>Reset Progression</ion-label>
     </ion-list-header>
 

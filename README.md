@@ -11,6 +11,7 @@ Draw Japanese characters on a canvas and get instant feedback via handwriting re
 
 - Lesson-based progression: unlock new character sets as you learn
 - Spaced repetition (SRS): cards reappear at optimal intervals (15min → 12 months)
+- Pause decks to focus on specific categories without losing progress
 - Shodo-style strokes that respond to drawing speed
 - Harai (払い) flicks on stroke endings
 - Instant recognition via Google Input Tools API
@@ -137,6 +138,7 @@ When you see "All caught up!", all your unlocked cards are waiting for their nex
 ### Settings
 
 Access Settings from the menu (☰) to:
+- **Pause Decks** - Toggle individual card categories on/off. Paused decks won't appear in the workbook, but your progress is preserved. Useful when you want to focus on specific decks without being interrupted by others.
 - **Reset Progression** - Start over with a specific category (Hiragana, Katakana, or Genki Vocabulary)
 
 ## Run locally
@@ -182,6 +184,14 @@ Lessons group cards together and can have prerequisites:
 - Complete "Hiragana あ Row" to unlock "All Hiragana"
 - Dashboard shows available lessons to start, plus a 48-hour forecast chart
 - Completing a lesson (all cards reach stage 5) unlocks dependent lessons
+
+### Card Metadata
+
+Each card tracks additional state beyond its SRS stage:
+- **Invulnerable** - Prevents demotion after a wrong answer until the next correct answer
+- **Max stage** - Highest SRS stage ever reached, allowing faster re-advancement after demotion
+- **Learned** - Flag for initial learning session completion
+- **Hidden** - Excludes card from workbook circulation (used by Pause Decks)
 
 ### SRS Stages
 

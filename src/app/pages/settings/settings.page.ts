@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { IonHeader, IonToolbar, IonTitle, IonContent, IonButtons, IonMenuButton, IonList, IonListHeader, IonLabel, IonItem, IonButton } from '@ionic/angular/standalone';
+import { IonHeader, IonToolbar, IonTitle, IonContent, IonButtons, IonMenuButton, IonList, IonListHeader, IonLabel, IonItem, IonButton, IonToggle } from '@ionic/angular/standalone';
 import { AlertController } from '@ionic/angular';
 import { CardsService } from '../../services/cards.service';
 
@@ -8,7 +8,7 @@ import { CardsService } from '../../services/cards.service';
   templateUrl: './settings.page.html',
   styleUrls: ['./settings.page.scss'],
   standalone: true,
-  imports: [IonHeader, IonToolbar, IonTitle, IonContent, IonButtons, IonMenuButton, IonList, IonListHeader, IonLabel, IonItem, IonButton],
+  imports: [IonHeader, IonToolbar, IonTitle, IonContent, IonButtons, IonMenuButton, IonList, IonListHeader, IonLabel, IonItem, IonButton, IonToggle],
 })
 export class SettingsPage implements OnInit {
 
@@ -22,12 +22,28 @@ export class SettingsPage implements OnInit {
     { id: 'common-katakana-words', label: 'Common Katakana Words' },
   ];
 
+  pausedDecks: Record<string, boolean> = {};
+
   constructor(
     private cardsService: CardsService,
     private alertCtrl: AlertController
   ) { }
 
-  ngOnInit() {
+  async ngOnInit() {
+    await this.cardsService.initialize();
+    this.loadPauseStates();
+  }
+
+  private loadPauseStates(): void {
+    for (const cat of this.categories) {
+      this.pausedDecks[cat.id] = this.cardsService.isCategoryHidden(cat.id);
+    }
+  }
+
+  togglePauseDeck(category: { id: string; label: string }, event: any): void {
+    const paused = event.detail.checked;
+    this.cardsService.setCategoryHidden(category.id, paused);
+    this.pausedDecks[category.id] = paused;
   }
 
   async resetCategory(category: { id: string; label: string }) {

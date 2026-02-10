@@ -22,6 +22,8 @@ function parseYamlValue(val) {
   if (/^-?\d+$/.test(val)) {
     return parseInt(val, 10);
   }
+  if (val === 'true') return true;
+  if (val === 'false') return false;
   return val;
 }
 

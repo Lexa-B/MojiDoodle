@@ -37,7 +37,7 @@ src/
 │   ├── pages/
 │   │   ├── dashboard/           # Home page with lesson selection
 │   │   ├── workbook/            # Drawing practice page
-│   │   └── settings/            # Reset progression, app settings
+│   │   └── settings/            # Pause decks, reset progression, app settings
 │   ├── services/
 │   │   ├── cards.service.ts     # Card & lesson database (SQLite + IndexedDB)
 │   │   ├── stroke-recognition.service.ts  # Google Input Tools API
@@ -95,7 +95,7 @@ The app uses a hybrid YAML → JSON → SQLite architecture:
 **GitHub Pages SPA**: Uses `404.html` redirect trick to handle client-side routing (saves path to sessionStorage, redirects to root, `index.html` restores path).
 
 **Database tables:**
-- `cards` - Character cards with stage and unlock time
+- `cards` - Character cards with stage, unlock time, and SRS metadata (invulnerable, max_stage, learned, hidden)
 - `befuddlers` - Wrong answers with helpful toasts
 - `lessons` - Lesson definitions with status, original_status, and reset_by
 - `lesson_cards` - Maps lessons to their cards
@@ -121,6 +121,7 @@ The app uses a hybrid YAML → JSON → SQLite architecture:
   - "All caught up" message when no cards available
   - Auto-loads new card when cards become available (subscribes to polling)
 - **Settings** (`/settings`) - App settings:
+  - Pause Decks: toggles to hide/unhide all cards in a category from workbook circulation
   - Reset Progression: buttons to reset each category (cards and associated lessons) to original values
 
 ### Services
@@ -133,10 +134,12 @@ The app uses a hybrid YAML → JSON → SQLite architecture:
 
 Card methods:
 - `getRandomUnlockedCard()`, `getCardByAnswer()`, `setCardStage()`, `resetCategory()`
-- `advanceCard(id)` - Increments stage and sets unlock time based on SRS timetable
+- `advanceCard(id)` - Increments stage, updates max_stage if new high, sets unlock time based on SRS timetable
 - `getStrokeCount(answer)` - Get expected stroke count for a character
 - `getStageColor(stage)` - Get the color for a given SRS stage
 - `getUpcomingUnlocksByHour(hours)` - Get card unlock forecast grouped by hour (for dashboard chart)
+- `isCategoryHidden(category)` - Check if any cards in a category are hidden
+- `setCategoryHidden(category, hidden)` - Bulk set hidden flag on all cards in a category
 
 Lesson methods:
 - `getAvailableLessons()`, `getAllLessons()`, `unlockLesson(id)`
@@ -171,6 +174,10 @@ interface Card {
   stage: number;         // -1 = unavailable, 0 = unlocked, 1-15 = SRS stages
   unlocks: string;       // ISO timestamp when card becomes available
   category: string;      // "hiragana", "katakana", etc.
+  invulnerable: boolean; // If true, card cannot be demoted until next correct answer
+  max_stage: number;     // Highest stage ever reached (-1 if never unlocked)
+  learned: boolean;      // True once initial learning session is complete (not yet implemented)
+  hidden: boolean;       // If true, card is excluded from workbook circulation
   befuddlers: Befuddler[];
 }
 
@@ -261,6 +268,10 @@ Defined in `src/data/stages.yaml`. When a card is answered correctly, it advance
   strokeCount: 3
   stage: -1                              # -1 = locked until lesson unlocked
   unlocks: "2026-01-29T12:06:14+00:00"
+  invulnerable: false                    # Prevents demotion until next correct answer
+  max_stage: -1                          # Highest stage ever reached
+  learned: false                         # Initial learning session complete
+  hidden: false                          # Excluded from workbook circulation
   befuddlers:
     - answers:                           # List of wrong answers that trigger this
         - "ア"
@@ -277,6 +288,10 @@ Defined in `src/data/stages.yaml`. When a card is answered correctly, it advance
   hint: "1 stroke"
   strokeCount: 1
   stage: -1
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
 ```
 
 ### YAML Manifest Format
@@ -601,6 +616,24 @@ npm run logs     # Tail worker logs
 - `exportToBundle()` - Export current DB state (cards, lessons, user settings)
 - `restoreFromBundle(backup)` - Restore progress after rebuild
 - `rebuild()` - Clear IndexedDB and rebuild from fresh bundle
+
+### Card Fields & DB Migration
+
+Cards have 4 metadata fields added to the `cards` table as INTEGER columns (SQLite booleans):
+- `invulnerable` (default 0) - Prevents stage demotion after a wrong answer until the next correct answer
+- `max_stage` (default -1) - Tracks the highest SRS stage ever reached; updated automatically in `advanceCard()`
+- `learned` (default 0) - Flag for initial learning session completion (mechanism not yet implemented)
+- `hidden` (default 0) - Excludes card from workbook circulation; used by Pause Decks in Settings
+
+**DB migration** (`runMigrations()`): For existing databases missing these columns:
+1. Adds all 4 columns via ALTER TABLE
+2. Smart defaults: `max_stage = stage` where `stage > max_stage` (backfills from current progress)
+3. Smart defaults: `learned = 1` where `stage > -1` (assumes previously unlocked cards were learned)
+4. `invulnerable` and `hidden` default to 0
+
+**Workbook filtering**: `getRandomUnlockedCard()` and `getAvailableCardCount()` filter `hidden = 0` so paused decks don't appear.
+
+**YAML boolean parsing**: Both `compile-data.js` and the in-app YAML parser handle `true`/`false` values (converted to JS booleans, stored as 0/1 in SQLite).
 
 ## Critical Rules
 

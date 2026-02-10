@@ -271,6 +271,10 @@ def apply_results_to_cards(cards: list[dict], results: list[dict]) -> list[dict]
             "hint": card["hint"],
             "stage": -1,
             "unlocks": "9999-12-31T23:59:59+00:00",
+            "invulnerable": False,
+            "max_stage": -1,
+            "learned": False,
+            "hidden": False,
             "befuddlers": befuddlers
         }
 

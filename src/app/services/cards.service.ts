@@ -17,6 +17,10 @@ export interface Card {
   stage: number;
   unlocks: string;
   category: string;
+  invulnerable: boolean;
+  max_stage: number;
+  learned: boolean;
+  hidden: boolean;
   befuddlers: Befuddler[];
 }
 
@@ -140,7 +144,11 @@ export class CardsService {
         stroke_count INTEGER,
         stage INTEGER NOT NULL DEFAULT 0,
         unlocks TEXT NOT NULL,
-        category TEXT NOT NULL
+        category TEXT NOT NULL,
+        invulnerable INTEGER NOT NULL DEFAULT 0,
+        max_stage INTEGER NOT NULL DEFAULT -1,
+        learned INTEGER NOT NULL DEFAULT 0,
+        hidden INTEGER NOT NULL DEFAULT 0
       );
 
       CREATE TABLE befuddlers (
@@ -201,11 +209,16 @@ export class CardsService {
     for (const card of bundle.cards) {
       if (!card.id || !card.prompt || !card.answers) continue;
 
+      const stage = card.stage ?? 0;
       this.db.run(
-        `INSERT INTO cards (id, prompt, answers, hint, stroke_count, stage, unlocks, category)
-         VALUES (?, ?, ?, ?, ?, ?, ?, ?)`,
+        `INSERT INTO cards (id, prompt, answers, hint, stroke_count, stage, unlocks, category, invulnerable, max_stage, learned, hidden)
+         VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,
         [card.id, card.prompt, JSON.stringify(card.answers), card.hint ?? null,
-         card.strokeCount ?? null, card.stage ?? 0, card.unlocks ?? '', card.category]
+         card.strokeCount ?? null, stage, card.unlocks ?? '', card.category,
+         card.invulnerable ? 1 : 0,
+         Math.max(card.max_stage ?? -1, stage),
+         card.learned ? 1 : (stage > -1 ? 1 : 0),
+         card.hidden ? 1 : 0]
       );
 
       for (const b of card.befuddlers ?? []) {
@@ -279,6 +292,25 @@ export class CardsService {
       );
       this.saveToStorage();
       console.log('Migration: Created user_uuid');
+    }
+
+    // Migration: Add card fields (invulnerable, max_stage, learned, hidden)
+    const hasMaxStage = this.queryOne<{ count: number }>(
+      "SELECT COUNT(*) as count FROM pragma_table_info('cards') WHERE name = 'max_stage'"
+    );
+    if (!hasMaxStage || hasMaxStage.count === 0) {
+      this.db.run(`ALTER TABLE cards ADD COLUMN invulnerable INTEGER NOT NULL DEFAULT 0`);
+      this.db.run(`ALTER TABLE cards ADD COLUMN max_stage INTEGER NOT NULL DEFAULT -1`);
+      this.db.run(`ALTER TABLE cards ADD COLUMN learned INTEGER NOT NULL DEFAULT 0`);
+      this.db.run(`ALTER TABLE cards ADD COLUMN hidden INTEGER NOT NULL DEFAULT 0`);
+
+      // Smart defaults: max_stage = stage where stage > max_stage (i.e. all rows since default is -1)
+      this.db.run(`UPDATE cards SET max_stage = stage WHERE stage > max_stage`);
+      // Smart defaults: learned = true where stage > -1 (card has been unlocked/practiced)
+      this.db.run(`UPDATE cards SET learned = 1 WHERE stage > -1`);
+
+      this.saveToStorage();
+      console.log('Migration: Added invulnerable, max_stage, learned, hidden columns');
     }
   }
 
@@ -393,7 +425,11 @@ export class CardsService {
         stroke_count INTEGER,
         stage INTEGER NOT NULL DEFAULT 0,
         unlocks TEXT NOT NULL,
-        category TEXT NOT NULL
+        category TEXT NOT NULL,
+        invulnerable INTEGER NOT NULL DEFAULT 0,
+        max_stage INTEGER NOT NULL DEFAULT -1,
+        learned INTEGER NOT NULL DEFAULT 0,
+        hidden INTEGER NOT NULL DEFAULT 0
       );
 
       CREATE TABLE befuddlers (
@@ -465,11 +501,16 @@ export class CardsService {
           for (const card of cards) {
             if (!card.id || !card.prompt || !card.answers) continue;
 
+            const stage = (card as any).stage ?? 0;
             this.db.run(
-              `INSERT INTO cards (id, prompt, answers, hint, stroke_count, stage, unlocks, category)
-               VALUES (?, ?, ?, ?, ?, ?, ?, ?)`,
+              `INSERT INTO cards (id, prompt, answers, hint, stroke_count, stage, unlocks, category, invulnerable, max_stage, learned, hidden)
+               VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,
               [card.id, card.prompt, JSON.stringify(card.answers), card.hint ?? null,
-               card.strokeCount ?? null, card.stage ?? 0, card.unlocks ?? '', pack.category]
+               card.strokeCount ?? null, stage, card.unlocks ?? '', pack.category,
+               (card as any).invulnerable ? 1 : 0,
+               Math.max((card as any).max_stage ?? -1, stage),
+               (card as any).learned ? 1 : (stage > -1 ? 1 : 0),
+               (card as any).hidden ? 1 : 0]
             );
 
             for (const b of card.befuddlers ?? []) {
@@ -784,7 +825,7 @@ export class CardsService {
     return cards;
   }
 
-  private parseValue(val: string): string | number {
+  private parseValue(val: string): string | number | boolean {
     if ((val.startsWith('"') && val.endsWith('"')) ||
         (val.startsWith("'") && val.endsWith("'"))) {
       val = val.slice(1, -1);
@@ -793,6 +834,8 @@ export class CardsService {
     if (/^-?\d+$/.test(val)) {
       return parseInt(val, 10);
     }
+    if (val === 'true') return true;
+    if (val === 'false') return false;
     return val;
   }
 
@@ -888,6 +931,10 @@ export class CardsService {
       ...card,
       answers: JSON.parse(card.answers),
       strokeCount: card.stroke_count,
+      invulnerable: !!card.invulnerable,
+      max_stage: card.max_stage ?? -1,
+      learned: !!card.learned,
+      hidden: !!card.hidden,
       befuddlers
     };
   }
@@ -931,7 +978,7 @@ export class CardsService {
   getRandomUnlockedCard(): Card | undefined {
     const now = new Date().toISOString();
     const card = this.queryOne<any>(
-      'SELECT * FROM cards WHERE stage >= 0 AND unlocks <= ? ORDER BY RANDOM() LIMIT 1',
+      'SELECT * FROM cards WHERE stage >= 0 AND hidden = 0 AND unlocks <= ? ORDER BY RANDOM() LIMIT 1',
       [now]
     );
     if (!card) return undefined;
@@ -1092,17 +1139,35 @@ export class CardsService {
   advanceCard(id: string): void {
     if (!this.db) return;
 
-    const card = this.queryOne<{ stage: number }>('SELECT stage FROM cards WHERE id = ?', [id]);
+    const card = this.queryOne<{ stage: number; max_stage: number }>('SELECT stage, max_stage FROM cards WHERE id = ?', [id]);
     if (!card) return;
 
     const newStage = Math.min(card.stage + 1, 15); // Cap at stage 15
+    const newMaxStage = Math.max(newStage, card.max_stage);
     const minutes = this.stages.get(newStage) ?? 15; // Default to 15 min if not found
     const unlocks = new Date(Date.now() + minutes * 60 * 1000).toISOString();
 
-    this.db.run('UPDATE cards SET stage = ?, unlocks = ? WHERE id = ?', [newStage, unlocks, id]);
+    this.db.run('UPDATE cards SET stage = ?, max_stage = ?, unlocks = ? WHERE id = ?', [newStage, newMaxStage, unlocks, id]);
 
     // Check if this unlocks any new lessons
     this.updateLessonStatuses();
+  }
+
+  isCategoryHidden(category: string): boolean {
+    const result = this.queryOne<{ count: number }>(
+      'SELECT COUNT(*) as count FROM cards WHERE category = ? AND hidden = 1',
+      [category]
+    );
+    return (result?.count ?? 0) > 0;
+  }
+
+  setCategoryHidden(category: string, hidden: boolean): void {
+    if (!this.db) return;
+    this.db.run(
+      'UPDATE cards SET hidden = ? WHERE category = ?',
+      [hidden ? 1 : 0, category]
+    );
+    this.saveToStorage();
   }
 
   getStrokeCount(answer: string): number {
@@ -1204,7 +1269,10 @@ export class CardsService {
         for (const card of bundle.cards) {
           if (card.category === category && card.id) {
             const stage = card.stage ?? 0;
-            this.db.run('UPDATE cards SET stage = ? WHERE id = ?', [stage, card.id]);
+            this.db.run(
+              'UPDATE cards SET stage = ?, invulnerable = 0, max_stage = ?, learned = 0, hidden = 0 WHERE id = ?',
+              [stage, stage, card.id]
+            );
           }
         }
       }
@@ -1281,12 +1349,12 @@ export class CardsService {
     this.availableCardCount$.next(count);
   }
 
-  /** Get count of currently available (unlocked and ready for review) cards */
+  /** Get count of currently available (unlocked, not hidden, and ready for review) cards */
   private getAvailableCardCount(): number {
     if (!this.db) return 0;
     const now = new Date().toISOString();
     const result = this.queryOne<{ count: number }>(
-      'SELECT COUNT(*) as count FROM cards WHERE stage >= 0 AND unlocks <= ?',
+      'SELECT COUNT(*) as count FROM cards WHERE stage >= 0 AND hidden = 0 AND unlocks <= ?',
       [now]
     );
     return result?.count ?? 0;
@@ -1349,6 +1417,10 @@ export class CardsService {
       stage: number;
       unlocks: string;
       category: string;
+      invulnerable: number;
+      max_stage: number;
+      learned: number;
+      hidden: number;
     }>('SELECT * FROM cards');
 
     const cards = cardRows.map(card => {
@@ -1369,6 +1441,10 @@ export class CardsService {
         stage: card.stage,
         unlocks: card.unlocks,
         category: card.category,
+        invulnerable: !!card.invulnerable,
+        max_stage: card.max_stage ?? -1,
+        learned: !!card.learned,
+        hidden: !!card.hidden,
         befuddlers
       };
       if (card.hint) result.hint = card.hint;
@@ -1460,7 +1536,7 @@ export class CardsService {
       );
     }
 
-    // Restore cards: only those with stage >= 0, only update stage and unlocks
+    // Restore cards: only those with stage >= 0, update stage, unlocks, and new fields
     if (bundle.cards) {
       for (const card of bundle.cards) {
         if (card.stage >= 0 && card.id) {
@@ -1468,8 +1544,13 @@ export class CardsService {
           const existing = this.queryOne<{ id: string }>('SELECT id FROM cards WHERE id = ?', [card.id]);
           if (existing) {
             this.db.run(
-              'UPDATE cards SET stage = ?, unlocks = ? WHERE id = ?',
-              [card.stage, card.unlocks ?? '', card.id]
+              'UPDATE cards SET stage = ?, unlocks = ?, invulnerable = ?, max_stage = ?, learned = ?, hidden = ? WHERE id = ?',
+              [card.stage, card.unlocks ?? '',
+               card.invulnerable ? 1 : 0,
+               Math.max(card.max_stage ?? -1, card.stage),
+               card.learned ? 1 : (card.stage > -1 ? 1 : 0),
+               card.hidden ? 1 : 0,
+               card.id]
             );
             cardsUpdated++;
           } else {
