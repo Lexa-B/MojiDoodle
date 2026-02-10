@@ -5,8 +5,7 @@ A Japanese character practice app with shodo-style brush strokes and spaced repe
 **Status: Work in Progress**
 
 ## What it does
-
-<video src="assets/usage_example.mp4" alt="Example usage: selecting lessons from the dashboard and completing character practice cards in the workbook" autoplay loop muted playsinline width="300"></video>
+<video controls src="assets/usage_example.mp4" title="Usage Example" alt="Example usage: selecting lessons from the dashboard and completing character practice cards in the workbook" autoplay loop muted playsinline width="300"></video>
 
 Draw Japanese characters on a canvas and get instant feedback via handwriting recognition. The app uses velocity-based brush rendering to simulate the feel of writing with a calligraphy brush.
 
