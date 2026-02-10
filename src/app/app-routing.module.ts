@@ -16,6 +16,10 @@ const routes: Routes = [
     loadChildren: () => import('./pages/workbook/workbook.module').then( m => m.WorkbookPageModule)
   },
   {
+    path: 'glossary',
+    loadChildren: () => import('./pages/glossary/glossary.module').then( m => m.GlossaryPageModule)
+  },
+  {
     path: 'settings',
     loadChildren: () => import('./pages/settings/settings.module').then( m => m.SettingsPageModule)
   }

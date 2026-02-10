@@ -1038,6 +1038,24 @@ export class CardsService {
     return cards.map(c => this.attachBefuddlers(c));
   }
 
+  getGlossaryData(): Array<{
+    card_id: string; prompt: string; answers: string; hint: string | null;
+    stage: number; unlocks: string; lesson_id: string | null; lesson_name: string | null;
+    lesson_category: string | null; card_category: string;
+  }> {
+    return this.queryAll(`
+      SELECT
+        c.id AS card_id, c.prompt, c.answers, c.hint, c.stage, c.unlocks,
+        l.id AS lesson_id, l.name AS lesson_name,
+        l.reset_by AS lesson_category, c.category AS card_category
+      FROM cards c
+      LEFT JOIN lesson_cards lc ON c.id = lc.card_id
+      LEFT JOIN lessons l ON lc.lesson_id = l.id
+      WHERE c.stage >= 0
+      ORDER BY c.category, l.name, c.stage ASC
+    `);
+  }
+
   getUnlockedCards(): Card[] {
     const now = new Date().toISOString();
     const cards = this.queryAll<any>(

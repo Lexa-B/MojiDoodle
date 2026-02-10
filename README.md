@@ -146,8 +146,10 @@ When you see "All caught up!", all your unlocked cards are waiting for their nex
 ### Settings
 
 Access Settings from the menu (☰) to:
+- **Backup Progress** - Download your progress as a JSON file
+- **Restore Progress** - Load progress from a backup file
 - **Pause Decks** - Toggle individual card categories on/off. Paused decks won't appear in the workbook, but your progress is preserved. Useful when you want to focus on specific decks without being interrupted by others.
-- **Reset Progression** - Start over with a specific category (Hiragana, Katakana, or Genki Vocabulary)
+- **Reset Progression** - Start over with a specific category (Hiragana, Katakana, Genki Vocabulary, WaniKani Lessons, Jōyō Kanji, Jinmeiyō Kanji, or Common Katakana Words)
 - **Cheat Codes** - Developer tool for testing. Enter a code and submit to trigger special actions.
 
 ## Run locally
@@ -175,7 +177,7 @@ npm run logs      # Tail logs
 - Google Input Tools API (no key required)
 - Canvas 2D for brush rendering
 - IndexedDB for offline persistence
-- Character segmentation for multi-character vocabulary words
+- [mojidoodle-algo-segmenter](https://www.npmjs.com/package/mojidoodle-algo-segmenter) for multi-character segmentation
 - Cloudflare Worker + R2 for training data collection (opt-in)
 
 ## Data Architecture

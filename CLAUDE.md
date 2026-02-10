@@ -13,7 +13,11 @@ npm start                      # Dev server (ng serve with custom webpack)
 npm run build                  # Production build
 ng test                        # Unit tests
 ng lint                        # Linting
-npm run deploy                 # Build and deploy to GitHub Pages
+
+# Deployment
+npm run deploy:prod            # Build and deploy to Cloudflare Pages (app.mojidoodle.ai)
+npm run deploy:dev             # Build and deploy to Cloudflare Pages (dev.mojidoodle.ai)
+npm run deploy:gh-pages        # Build and deploy to GitHub Pages
 
 # Native platforms
 ionic capacitor add ios
@@ -22,7 +26,7 @@ ionic capacitor sync           # Sync web code to native
 ionic capacitor open ios       # Open in Xcode
 ```
 
-**Live site**: https://lexa-b.github.io/MojiDoodle/
+**Live site**: https://app.mojidoodle.ai (production), https://dev.mojidoodle.ai (dev), https://lexa-b.github.io/MojiDoodle/ (GitHub Pages)
 
 ## Architecture
 
@@ -54,12 +58,17 @@ src/
 │   │   ├── manifest.yaml        # Card pack definitions
 │   │   ├── hiragana/            # Hiragana cards
 │   │   ├── katakana/            # Katakana cards
-│   │   └── genki/               # Genki textbook vocabulary
+│   │   ├── genki/               # Genki textbook vocabulary
+│   │   ├── kanji_joyo/          # Jōyō Kanji (grades 1-6, 8)
+│   │   ├── kanji_jinmeiyo/      # Jinmeiyō Kanji (grades 9-10)
+│   │   └── common_katakana_words/ # BCCWJ loanwords (40 levels)
 │   ├── lessons/
 │   │   ├── manifest.yaml        # Lesson pack definitions
 │   │   ├── hiragana/            # Hiragana row lessons
 │   │   ├── katakana/            # Katakana row lessons
-│   │   └── genki/               # Genki chapter lessons
+│   │   ├── genki/               # Genki chapter lessons
+│   │   ├── wanikani/            # WaniKani level lessons
+│   │   └── common_katakana_words/ # Common katakana word lessons
 │   ├── stages.yaml              # SRS timing intervals & colors
 │   ├── bundle.json              # Pre-compiled data (generated at build)
 │   └── version.json             # Build timestamp (generated at build)
@@ -69,7 +78,10 @@ src/
 scripts/
 ├── compile-data.js              # Compiles YAML → bundle.json
 ├── generate-version.js          # Generates version.json timestamp
-└── deploy.sh                    # Deploy to GitHub Pages
+├── add-card-fields.js           # Migration: add invulnerable/max_stage/learned/hidden to YAML
+├── deploy.sh                    # Deploy to GitHub Pages
+├── deploy-prod.sh               # Deploy to Cloudflare Pages (app.mojidoodle.ai)
+└── deploy-dev.sh                # Deploy to Cloudflare Pages (dev.mojidoodle.ai)
 
 extra-webpack.config.js          # Webpack fallbacks for sql.js
 ```
@@ -123,9 +135,11 @@ The app uses a hybrid YAML → JSON → SQLite architecture:
   - "All caught up" message when no cards available
   - Auto-loads new card when cards become available (subscribes to polling)
 - **Settings** (`/settings`) - App settings:
+  - Data: Backup Progress (download JSON) and Restore Progress (load from JSON file)
   - Pause Decks: toggles to hide/unhide all cards in a category from workbook circulation
   - Reset Progression: buttons to reset each category (cards and associated lessons) to original values
   - Cheat Codes: text input + submit button for developer testing (uses CheatCodesService)
+  - Categories: hiragana, katakana, genki, wanikani, joyo-kanji, jinmeiyo-kanji, common-katakana-words
 
 ### Services
 
@@ -506,28 +520,32 @@ const isCorrect = normalizedAnswers.some(target => {
 Collects workbook sessions for training segmentation models. Sends JSON samples to Cloudflare Worker after each grading.
 
 **Files:**
-- `src/app/models/collection.types.ts` - Type definitions
+- `src/app/models/collection.types.ts` - Type definitions (v2)
 - `src/app/services/collection.service.ts` - Export logic
 
-**CollectionSample Schema:**
+**CollectionSampleV2 Schema:**
 ```typescript
-interface CollectionSample {
-  strokes: Point[][];           // Raw input strokes
+interface CollectionSampleV2 {
+  version: 2;
+  strokes: Point[][];           // Raw input strokes (Point from mojidoodle-algo-segmenter)
   canvasWidth: number;          // Canvas dimensions for normalization
   canvasHeight: number;
-  segmentation: {               // Algorithm output (null for single-char)
-    columnDividers: DividerLine[];
-    rowDividers: DividerLine[][];
-  } | null;
-  selectionLassos: SelectionLasso[] | null;  // Manual segmentation from lasso tool
+  characterAssignments: CharacterAssignment[];  // Segmenter output (not raw divider lines)
+  selectionLassos: SelectionLasso[] | null;     // Manual segmentation from lasso tool
   answers: string[];            // Card's valid answers
   recognitionResults: { character: string; score: number }[][] | null;
   groundTruth: GroundTruthEntry[] | null;  // Inferred on success
   success: boolean;             // Did recognition match?
   id: string;                   // UUID for this sample
-  userId: string;               // Persistent user UUID
+  userId: string;               // Persistent user UUID (localStorage, separate from CardsService)
   cardId: string;               // Card being practiced
   timestamp: number;            // When collected
+}
+
+interface CharacterAssignment {
+  characterIndex: number;       // Reading-order index (0 = first character)
+  strokeIndices: number[];      // Which input strokes belong to this character
+  bounds: { minX, maxX, minY, maxY, width, height: number };
 }
 
 interface GroundTruthEntry {
@@ -542,15 +560,18 @@ interface SelectionLasso {      // Manual segmentation from lasso tool
 ```
 
 **Ground Truth Strategy:**
-- On success: automatically inferred from segmentation cells
+- On success: automatically inferred from character assignments
 - On failure: `groundTruth = null` (needs manual labeling)
 - Single-char: all strokes → one character
-- Multi-char: cell assignments from segmentation
+- Multi-char: stroke indices from character assignments
 
 **Export Flow:**
 1. After grading completes, `workbook.page.ts` calls `collectionService.exportSample()`
-2. Sample built from strokes, segmentation, recognition results
-3. Browser downloads JSON file: `segmentation_{cardId}_{timestamp}.json`
+2. Sample built from strokes, `mojidoodle-algo-segmenter` output (SegmentResult), recognition results
+3. POST to `https://data-collection.mojidoodle.ai/collect` (Cloudflare Worker)
+4. Falls back to console logging on failure
+
+**User ID:** CollectionService stores its own persistent UUID in localStorage (`mojidoodle_collection_user_id`), separate from the `user_uuid` in CardsService's SQLite database.
 
 ### User Settings & Data Collection
 
@@ -559,9 +580,11 @@ interface SelectionLasso {      // Manual segmentation from lasso tool
 - `data_collection` - User's opt-in status: `'opted-in'`, `'opted-out'`, or `'no-response'`
 
 **CardsService methods:**
-- `getUserUuid()` - Get persistent user UUID
+- `getUserUuid()` - Get persistent user UUID (stored in SQLite `user_settings`)
 - `getDataCollectionStatus()` - Get opt-in status
 - `setDataCollectionStatus(status)` - Update opt-in status
+
+**Note:** CollectionService uses a separate user UUID stored in localStorage (`mojidoodle_collection_user_id`), not the CardsService UUID. These are independent.
 
 **Data Collection Prompt:**
 - On app launch, if status is `'no-response'`, shows opt-in alert
@@ -595,16 +618,17 @@ npm run logs     # Tail worker logs
 - `GET /` or `/health` - Health check
 - `POST /collect` - Receive samples
 
-**Storage:**
-- R2 bucket: `mojidoodle-samples` (samples stored as `{userId}/{cardId}/{sampleId}.json`)
-- KV namespace: `RATE_LIMIT` (for rate limiting)
-
 **Security controls:**
-- CORS: Only allows `https://lexa-b.github.io`
+- CORS: Dynamic origin reflection from `ALLOWED_ORIGINS` env var (`https://lexa-b.github.io`, `https://app.mojidoodle.ai`, `https://dev.mojidoodle.ai`)
 - Rate limit: 60 requests/minute per IP
 - Body size limit: 1MB max
 - Content-Type: Must be `application/json`
 - Validation: Checks required fields, strokes is array, answers is non-empty array, canvas dimensions are positive
+
+**Storage:**
+- R2 bucket: `mojidoodle-samples`
+- Version-prefixed paths: `v2/{userId}/{cardId}/{sampleId}.json` (v2 schema) or `v1/{userId}/{cardId}/{sampleId}.json` (v1 fallback)
+- KV namespace: `RATE_LIMIT` (for rate limiting)
 
 **Server-side metadata** (stored in R2 custom metadata, not in JSON):
 - `receivedAt` - Server timestamp

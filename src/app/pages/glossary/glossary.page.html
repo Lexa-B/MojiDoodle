@@ -1,0 +1,70 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Glossary</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Glossary</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  @if (totalUnlockedCards === 0) {
+    <div class="empty-state">
+      <p>No cards unlocked yet.</p>
+      <p>Head to the Dashboard to start a lesson!</p>
+    </div>
+  } @else {
+    <ion-accordion-group [multiple]="true">
+      @for (category of categories; track category.id) {
+        <ion-accordion [value]="category.id">
+          <ion-item slot="header" style="--background: var(--ion-color-step-200, #333)">
+            <ion-label>
+              <h2>{{ category.label }}</h2>
+            </ion-label>
+            <ion-note slot="end">{{ category.totalCards }}</ion-note>
+          </ion-item>
+
+          <div slot="content" class="category-content">
+            <ion-accordion-group [multiple]="true">
+              @for (lesson of category.lessons; track lesson.id) {
+                <ion-accordion [value]="lesson.id">
+                  <ion-item slot="header" style="--background: var(--ion-color-step-100, #222)">
+                    <ion-label>
+                      <h3>{{ lesson.name }}</h3>
+                    </ion-label>
+                    <ion-note slot="end">{{ lesson.cards.length }}</ion-note>
+                  </ion-item>
+
+                  <div slot="content">
+                    <ion-list lines="full" class="card-list">
+                      @for (card of lesson.cards; track card.id) {
+                        <ion-item>
+                          <div class="stage-dot" slot="start"
+                               [style.background-color]="card.stageColor"></div>
+                          <ion-label>
+                            <h3>{{ card.prompt }}</h3>
+                            <p class="card-answer">{{ card.answer }}</p>
+                            <p class="card-unlocks">{{ card.unlocks | date:'short' }}</p>
+                          </ion-label>
+                          <ion-note slot="end" class="stage-note">
+                            Stage {{ card.stage }}
+                          </ion-note>
+                        </ion-item>
+                      }
+                    </ion-list>
+                  </div>
+                </ion-accordion>
+              }
+            </ion-accordion-group>
+          </div>
+        </ion-accordion>
+      }
+    </ion-accordion-group>
+  }
+</ion-content>
