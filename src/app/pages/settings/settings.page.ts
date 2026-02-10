@@ -1,14 +1,16 @@
 import { Component, OnInit } from '@angular/core';
-import { IonHeader, IonToolbar, IonTitle, IonContent, IonButtons, IonMenuButton, IonList, IonListHeader, IonLabel, IonItem, IonButton, IonToggle } from '@ionic/angular/standalone';
+import { IonHeader, IonToolbar, IonTitle, IonContent, IonButtons, IonMenuButton, IonList, IonListHeader, IonLabel, IonItem, IonButton, IonToggle, IonInput } from '@ionic/angular/standalone';
+import { FormsModule } from '@angular/forms';
 import { AlertController } from '@ionic/angular';
 import { CardsService } from '../../services/cards.service';
+import { CheatCodesService } from '../../services/cheat-codes.service';
 
 @Component({
   selector: 'app-settings',
   templateUrl: './settings.page.html',
   styleUrls: ['./settings.page.scss'],
   standalone: true,
-  imports: [IonHeader, IonToolbar, IonTitle, IonContent, IonButtons, IonMenuButton, IonList, IonListHeader, IonLabel, IonItem, IonButton, IonToggle],
+  imports: [IonHeader, IonToolbar, IonTitle, IonContent, IonButtons, IonMenuButton, IonList, IonListHeader, IonLabel, IonItem, IonButton, IonToggle, IonInput, FormsModule],
 })
 export class SettingsPage implements OnInit {
 
@@ -23,9 +25,11 @@ export class SettingsPage implements OnInit {
   ];
 
   pausedDecks: Record<string, boolean> = {};
+  cheatCode = '';
 
   constructor(
     private cardsService: CardsService,
+    private cheatCodesService: CheatCodesService,
     private alertCtrl: AlertController
   ) { }
 
@@ -62,6 +66,20 @@ export class SettingsPage implements OnInit {
       ]
     });
     await alert.present();
+  }
+
+  async submitCheatCode() {
+    if (!this.cheatCode) return;
+    const matched = await this.cheatCodesService.submit(this.cheatCode);
+    this.cheatCode = '';
+    if (!matched) {
+      const alert = await this.alertCtrl.create({
+        header: 'Invalid Code',
+        message: 'That code was not recognized.',
+        buttons: ['OK']
+      });
+      await alert.present();
+    }
   }
 
   async backupData() {

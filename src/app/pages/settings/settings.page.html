@@ -71,4 +71,21 @@
       </ion-item>
     }
   </ion-list>
+
+  <ion-list>
+    <ion-list-header>
+      <ion-label>Cheat Codes</ion-label>
+    </ion-list-header>
+
+    <ion-item>
+      <ion-input
+        [(ngModel)]="cheatCode"
+        placeholder="Enter code..."
+        (keyup.enter)="submitCheatCode()"
+      ></ion-input>
+      <ion-button slot="end" (click)="submitCheatCode()" [disabled]="!cheatCode">
+        Submit
+      </ion-button>
+    </ion-item>
+  </ion-list>
 </ion-content>

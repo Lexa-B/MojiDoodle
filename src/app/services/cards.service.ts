@@ -1130,6 +1130,17 @@ export class CardsService {
     this.saveToStorage();
   }
 
+  bulkSetStage(fromMin: number, fromMax: number, toStage: number): number {
+    if (!this.db) return 0;
+    this.db.run(
+      'UPDATE cards SET stage = ?, max_stage = MAX(max_stage, ?) WHERE stage >= ? AND stage <= ?',
+      [toStage, toStage, fromMin, fromMax]
+    );
+    const result = this.queryOne<{ count: number }>('SELECT changes() as count', []);
+    this.saveToStorage();
+    return result?.count ?? 0;
+  }
+
   setCardStage(id: string, stage: number): void {
     if (!this.db) return;
     this.db.run('UPDATE cards SET stage = ? WHERE id = ?', [stage, id]);
