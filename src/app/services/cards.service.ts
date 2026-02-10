@@ -1150,18 +1150,54 @@ export class CardsService {
   advanceCard(id: string): void {
     if (!this.db) return;
 
-    const card = this.queryOne<{ stage: number; max_stage: number }>('SELECT stage, max_stage FROM cards WHERE id = ?', [id]);
+    const card = this.queryOne<{ stage: number; max_stage: number; invulnerable: number }>('SELECT stage, max_stage, invulnerable FROM cards WHERE id = ?', [id]);
     if (!card) return;
 
-    const newStage = Math.min(card.stage + 1, 15); // Cap at stage 15
+    let newStage: number;
+    let newInvulnerable: number;
+
+    if (card.invulnerable) {
+      // Invulnerable: clear the flag, keep current stage, advance unlock based on current stage
+      newStage = card.stage;
+      newInvulnerable = 0;
+    } else if (card.max_stage - card.stage > 1) {
+      // Big gap to max: double increment to recover faster
+      newStage = Math.min(card.stage + 2, 15);
+      newInvulnerable = 0;
+    } else {
+      // Normal advance
+      newStage = Math.min(card.stage + 1, 15);
+      newInvulnerable = 0;
+    }
+
     const newMaxStage = Math.max(newStage, card.max_stage);
-    const minutes = this.stages.get(newStage) ?? 15; // Default to 15 min if not found
+    const minutes = this.stages.get(newStage) ?? 15;
     const unlocks = new Date(Date.now() + minutes * 60 * 1000).toISOString();
 
-    this.db.run('UPDATE cards SET stage = ?, max_stage = ?, unlocks = ? WHERE id = ?', [newStage, newMaxStage, unlocks, id]);
+    this.db.run('UPDATE cards SET stage = ?, max_stage = ?, invulnerable = ?, unlocks = ? WHERE id = ?', [newStage, newMaxStage, newInvulnerable, unlocks, id]);
 
     // Check if this unlocks any new lessons
     this.updateLessonStatuses();
+  }
+
+  demoteCard(id: string): void {
+    if (!this.db) return;
+
+    const card = this.queryOne<{ stage: number; invulnerable: number }>('SELECT stage, invulnerable FROM cards WHERE id = ?', [id]);
+    if (!card) return;
+
+    // Skip if invulnerable or stage 0 or below
+    if (card.invulnerable || card.stage <= 0) return;
+
+    let newStage: number;
+    if (card.stage > 5) {
+      newStage = 4;
+    } else {
+      newStage = card.stage - 1;
+    }
+
+    this.db.run('UPDATE cards SET stage = ?, invulnerable = 1 WHERE id = ?', [newStage, id]);
+    this.saveToStorage();
   }
 
   isCategoryHidden(category: string): boolean {

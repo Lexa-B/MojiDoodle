@@ -746,6 +746,8 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
           this.resultFeedback = this.randomFrom(this.wrongFeedback);
           this.displayMatches = this.topMatches;
           this.correctAnswer = this.currentCard.answers[0];
+          // Demote card (respects invulnerability)
+          this.cardsService.demoteCard(this.currentCard.id);
         }
       }
 
