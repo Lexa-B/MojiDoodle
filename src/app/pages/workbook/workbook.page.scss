@@ -44,23 +44,13 @@
   pointer-events: none;
 }
 
-.undo-btn {
+.tool-column {
   position: absolute;
   top: 8px;
   right: 8px;
-  --color: #666;
-  --padding-start: 8px;
-  --padding-end: 8px;
-  font-size: 24px;
-}
-
-.tool-bar {
-  position: absolute;
-  top: 56px;
-  right: 8px;
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 8px;
 }
 
 .tool-btn {

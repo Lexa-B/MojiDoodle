@@ -1,7 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, OnDestroy } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Router } from '@angular/router';
-import { IonHeader, IonToolbar, IonTitle, IonContent, IonButtons, IonMenuButton, IonButton, ViewWillEnter } from '@ionic/angular/standalone';
+import { IonHeader, IonToolbar, IonTitle, IonContent, IonButtons, IonMenuButton, IonButton, ViewWillEnter, ViewDidLeave } from '@ionic/angular/standalone';
 import { CardsService, Lesson } from '../../services/cards.service';
 
 @Component({
@@ -11,11 +11,12 @@ import { CardsService, Lesson } from '../../services/cards.service';
   standalone: true,
   imports: [CommonModule, IonHeader, IonToolbar, IonTitle, IonContent, IonButtons, IonMenuButton, IonButton],
 })
-export class DashboardPage implements OnInit, ViewWillEnter {
+export class DashboardPage implements OnInit, OnDestroy, ViewWillEnter, ViewDidLeave {
   availableLessons: Lesson[] = [];
   upcomingUnlocks: { hour: number; count: number; segments: { stage: number; count: number; color: string }[]; label: string }[] = [];
   nowUnlocks: { count: number; segments: { stage: number; count: number; color: string }[] } = { count: 0, segments: [] };
   maxUnlockCount = 0;
+  private pollInterval: ReturnType<typeof setInterval> | null = null;
 
   constructor(
     private cardsService: CardsService,
@@ -30,6 +31,32 @@ export class DashboardPage implements OnInit, ViewWillEnter {
   async ionViewWillEnter() {
     await this.cardsService.initialize();
     this.loadData();
+    this.startPolling();
+  }
+
+  ionViewDidLeave() {
+    this.stopPolling();
+  }
+
+  ngOnDestroy() {
+    this.stopPolling();
+  }
+
+  private startPolling() {
+    this.stopPolling();
+    this.pollInterval = setInterval(() => {
+      const alertOpen = !!document.querySelector('ion-alert');
+      if (!alertOpen) {
+        this.loadData();
+      }
+    }, 5000);
+  }
+
+  private stopPolling() {
+    if (this.pollInterval) {
+      clearInterval(this.pollInterval);
+      this.pollInterval = null;
+    }
   }
 
   private loadData() {

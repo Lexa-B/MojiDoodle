@@ -42,6 +42,13 @@ export class CheatCodesService {
       return true;
     }
 
+    // Clear all future unlock times to now
+    if (hashed === '7e98e6735eef295f92bb1492228a48724b1d9b1b8bde969c3b7ee33cd38ebc7e') {
+      const count = this.cardsService.clearFutureUnlocks();
+      console.log(`Cheat applied: ${count} cards unlocked immediately`);
+      return true;
+    }
+
     return false;
   }
 }

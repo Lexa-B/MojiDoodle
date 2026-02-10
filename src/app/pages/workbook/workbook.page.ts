@@ -2,7 +2,7 @@ import { Component, OnInit, ViewChild, ElementRef, AfterViewInit, OnDestroy } fr
 import { IonContent, IonMenuButton, IonButton, IonIcon, IonSpinner } from '@ionic/angular/standalone';
 import { CommonModule } from '@angular/common';
 import { addIcons } from 'ionicons';
-import { backspace, trashOutline, brushOutline, ellipseOutline } from 'ionicons/icons';
+import { backspace, trashOutline, brushOutline, ellipseOutline, playSkipForwardOutline } from 'ionicons/icons';
 import { Subscription } from 'rxjs';
 import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
 import { StrokeRecognitionService } from '../../services/stroke-recognition.service';
@@ -190,7 +190,7 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
     private collectionService: CollectionService,
     private sanitizer: DomSanitizer
   ) {
-    addIcons({ backspace, trashOutline, brushOutline, ellipseOutline });
+    addIcons({ backspace, trashOutline, brushOutline, ellipseOutline, playSkipForwardOutline });
   }
 
   async ngOnInit() {
@@ -781,6 +781,11 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
     if (this.resultStatus === 'correct' || this.resultStatus === 'wrong') {
       this.loadRandomCard();
     }
+  }
+
+  onSkip() {
+    this.clearCanvas();
+    this.loadRandomCard();
   }
 
   onUndo() {

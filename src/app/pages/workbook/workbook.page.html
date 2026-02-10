@@ -11,12 +11,14 @@
     <div class="lasso-overlay" [innerHTML]="lassoSvgContent"></div>
     <div class="segmentation-overlay" [innerHTML]="segmentationSvgContent"></div>
 
-    <ion-button class="undo-btn" fill="clear" (click)="onUndo()" *ngIf="!noCardsAvailable">
-      <ion-icon name="backspace"></ion-icon>
-    </ion-button>
-
-    <!-- Drawing tools toolbar -->
-    <div class="tool-bar" *ngIf="!noCardsAvailable">
+    <!-- Right-side tool column -->
+    <div class="tool-column" *ngIf="!noCardsAvailable">
+      <ion-button fill="clear" (click)="onSkip()" class="tool-btn">
+        <ion-icon name="play-skip-forward-outline"></ion-icon>
+      </ion-button>
+      <ion-button fill="clear" (click)="onUndo()" class="tool-btn">
+        <ion-icon name="backspace"></ion-icon>
+      </ion-button>
       <ion-button fill="clear" (click)="onClearAll()" class="tool-btn">
         <ion-icon name="trash-outline"></ion-icon>
       </ion-button>

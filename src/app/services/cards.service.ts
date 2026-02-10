@@ -1141,6 +1141,15 @@ export class CardsService {
     return result?.count ?? 0;
   }
 
+  clearFutureUnlocks(): number {
+    if (!this.db) return 0;
+    const now = new Date().toISOString();
+    this.db.run('UPDATE cards SET unlocks = ? WHERE unlocks > ? AND stage >= 0', [now, now]);
+    const result = this.queryOne<{ count: number }>('SELECT changes() as count', []);
+    this.saveToStorage();
+    return result?.count ?? 0;
+  }
+
   setCardStage(id: string, stage: number): void {
     if (!this.db) return;
     this.db.run('UPDATE cards SET stage = ? WHERE id = ?', [stage, id]);

@@ -42,7 +42,8 @@ src/
 │   │   ├── cards.service.ts     # Card & lesson database (SQLite + IndexedDB)
 │   │   ├── stroke-recognition.service.ts  # Google Input Tools API
 │   │   ├── character-segmentation.service.ts  # Multi-char segmentation
-│   │   └── collection.service.ts  # Training data collection & export
+│   │   ├── collection.service.ts  # Training data collection & export
+│   │   └── cheat-codes.service.ts # Developer cheat code system
 │   ├── models/
 │   │   ├── segmentation.types.ts  # Segmentation grid types
 │   │   └── collection.types.ts    # Training data sample types
@@ -110,11 +111,11 @@ The app uses a hybrid YAML → JSON → SQLite architecture:
   - Unlocking a lesson sets its cards to stage 0 and navigates to workbook
   - Completing prerequisites unlocks dependent lessons
   - 48-hour forecast chart showing upcoming card unlocks by hour (stacked by stage color)
+  - Auto-refreshes data every 5 seconds (pauses while alerts are open)
 - **Workbook** (`/workbook`) - Drawing practice with:
   - Prompt bar showing current character (random unlocked card on load), colored by SRS stage
   - Full-screen black canvas (OLED-friendly)
-  - Undo button (backspace icon)
-  - **Tool bar** with Clear All, Brush (default), and Lasso buttons
+  - **Tool column** (right side) with Skip (play-skip-forward-outline), Undo (backspace), Clear All, Brush (default), and Lasso buttons
   - Check button with random Japanese labels (よし!, 判定!, できた!, etc.)
   - Results overlay: ◯ correct, ？ befuddled (try again), ✕ wrong
   - Japanese feedback messages (正解!, ちがう!, etc.)
@@ -123,6 +124,7 @@ The app uses a hybrid YAML → JSON → SQLite architecture:
 - **Settings** (`/settings`) - App settings:
   - Pause Decks: toggles to hide/unhide all cards in a category from workbook circulation
   - Reset Progression: buttons to reset each category (cards and associated lessons) to original values
+  - Cheat Codes: text input + submit button for developer testing (uses CheatCodesService)
 
 ### Services
 
@@ -133,8 +135,9 @@ The app uses a hybrid YAML → JSON → SQLite architecture:
 - Polls for card availability every 30 seconds, emits via `cardAvailability$` observable
 
 Card methods:
-- `getRandomUnlockedCard()`, `getCardByAnswer()`, `setCardStage()`, `resetCategory()`
-- `advanceCard(id)` - Increments stage, updates max_stage if new high, sets unlock time based on SRS timetable
+- `getRandomUnlockedCard()`, `getCardByAnswer()`, `setCardStage()`, `resetCategory()`, `bulkSetStage(fromMin, fromMax, toStage)`
+- `advanceCard(id)` - Advances card on correct answer with three branches: if invulnerable, clears flag without incrementing stage; if `max_stage - stage > 1`, increments by 2 (fast recovery); otherwise increments by 1. Always updates max_stage and sets unlock time.
+- `demoteCard(id)` - Demotes card on wrong answer: if invulnerable or stage <= 0, skips; if stage > 5, demotes to 4; if stage 1-5, demotes by 1. Sets invulnerable flag after demotion. Does not change unlock time.
 - `getStrokeCount(answer)` - Get expected stroke count for a character
 - `getStageColor(stage)` - Get the color for a given SRS stage
 - `getUpcomingUnlocksByHour(hours)` - Get card unlock forecast grouped by hour (for dashboard chart)
@@ -161,6 +164,15 @@ Lesson methods:
 - Uses gap-based two-pass approach with size uniformity enforcement
 - Supports protected groups (from lassos) that prevent dividers from splitting grouped strokes
 - `segment(strokes, width, height, protectedGroups?)` - Returns `SegmentationResult` with grid, cells, and stroke assignments
+
+**CheatCodesService** (`cheat-codes.service.ts`)
+- Developer tool for testing SRS progression and other features
+- Input is sanitized (non-letters stripped, lowercased) then SHA-256 hashed
+- Hashed codes are compared against known hashes to trigger effects
+- Codes and their effects are not documented here intentionally; check the service source for the hash table
+- `sanitize(input)` - Strip non-letters, lowercase
+- `hash(input)` - Sanitize then SHA-256 hash, returns hex string
+- `submit(input)` - Process a code, returns true if matched
 
 ### Data Models
 

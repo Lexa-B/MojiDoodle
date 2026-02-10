@@ -41,6 +41,7 @@ https://app.mojidoodle.ai
 ### Toolbar
 
 The workbook has a toolbar on the right side:
+- **⏭ Skip** - Skip the current card and load a new one (no SRS impact)
 - **⌫ Undo** - Remove your last stroke
 - **🗑️ Clear All** - Clear all strokes and start over
 - **🖌️ Brush** - Default drawing mode (highlighted when active)
@@ -133,6 +134,13 @@ Each correct answer advances a card to the next stage with a longer review inter
 | 4 → 5 | 12 hours |
 | 5+ | 1 day → 12 months |
 
+**Wrong answers demote cards:**
+- Stage 1–5: demoted one level
+- Above stage 5: demoted to stage 4
+- Stage 0: no demotion
+- After demotion, the card becomes **invulnerable** (no further demotion until you get it right)
+- If a card has been demoted far below its max stage, correct answers advance it by 2 stages instead of 1 to help it recover faster
+
 When you see "All caught up!", all your unlocked cards are waiting for their next review time.
 
 ### Settings
@@ -140,6 +148,7 @@ When you see "All caught up!", all your unlocked cards are waiting for their nex
 Access Settings from the menu (☰) to:
 - **Pause Decks** - Toggle individual card categories on/off. Paused decks won't appear in the workbook, but your progress is preserved. Useful when you want to focus on specific decks without being interrupted by others.
 - **Reset Progression** - Start over with a specific category (Hiragana, Katakana, or Genki Vocabulary)
+- **Cheat Codes** - Developer tool for testing. Enter a code and submit to trigger special actions.
 
 ## Run locally
 
