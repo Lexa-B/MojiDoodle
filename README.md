@@ -235,6 +235,8 @@ When new content is available, you'll see an "Update Available" prompt:
 
 Migration safely exports your card stages and lesson statuses, rebuilds the database with new content, then restores your progress.
 
+**Database load protection:** If the app detects a previous session but can't load your database from storage (e.g., a transient browser issue), it will show an error instead of silently rebuilding and losing your progress. You'll get options to refresh the page, download your database file, or rebuild as a last resort.
+
 ## Acknowledgements
 
 ### Data Sources

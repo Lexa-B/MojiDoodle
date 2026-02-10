@@ -31,6 +31,7 @@
             <div class="now-bar">
               <div class="bar-segment"
                    *ngFor="let segment of nowUnlocks.segments"
+                   [class.paused]="segment.hidden"
                    [style.height]="getSegmentHeight(segment.count)"
                    [style.background-color]="segment.color"></div>
             </div>
@@ -47,6 +48,7 @@
                      [title]="unlock.count + ' unlock' + (unlock.count !== 1 ? 's' : '') + ' at ' + unlock.label">
                 <div class="bar-segment"
                      *ngFor="let segment of unlock.segments"
+                     [class.paused]="segment.hidden"
                      [style.height]="getSegmentHeight(segment.count)"
                      [style.background-color]="segment.color"></div>
               </div>

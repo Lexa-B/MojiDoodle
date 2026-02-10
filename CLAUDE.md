@@ -88,6 +88,7 @@ The app uses a hybrid YAML → JSON → SQLite architecture:
 3. Fetches single `bundle.json` (instead of 70+ individual files), builds SQLite in-memory
 4. Saves compiled database to IndexedDB
 5. Subsequent launches load instantly from IndexedDB
+6. If IndexedDB load fails but a prior session exists (localStorage `mojidoodle-version` key), shows "Database Load Error" alert instead of silently rebuilding — offers Refresh, Download DB, or Rebuild
 
 **To add/edit data**: Edit the YAML files directly. Run `npm run build` to regenerate bundle. Users get updates on next fresh install or when prompted by version mismatch.
 
@@ -110,7 +111,7 @@ The app uses a hybrid YAML → JSON → SQLite architecture:
   - Shows available lessons as buttons ("I want to practice...")
   - Unlocking a lesson sets its cards to stage 0 and navigates to workbook
   - Completing prerequisites unlocks dependent lessons
-  - 48-hour forecast chart showing upcoming card unlocks by hour (stacked by stage color)
+  - 48-hour forecast chart showing upcoming card unlocks by hour (stacked by stage color, paused/hidden cards shown with black crosshatching)
   - Auto-refreshes data every 5 seconds (pauses while alerts are open)
 - **Workbook** (`/workbook`) - Drawing practice with:
   - Prompt bar showing current character (random unlocked card on load), colored by SRS stage
@@ -130,6 +131,7 @@ The app uses a hybrid YAML → JSON → SQLite architecture:
 
 **CardsService** (`cards.service.ts`)
 - Loads card/lesson database from IndexedDB or builds from `bundle.json` on first run
+- **Database load protection**: If IndexedDB returns empty but localStorage has `mojidoodle-version` (evidence of prior session), refuses to silently rebuild. Shows error alert with Refresh / Download DB / Rebuild options. The `rebuild()` method sets `rebuildInProgress` flag to bypass this guard for intentional rebuilds (version check Migrate/Reset).
 - SQLite queries via sql.js (pure JS, works everywhere)
 - Call `initialize()` before using (shows loading spinner if building)
 - Polls for card availability every 30 seconds, emits via `cardAvailability$` observable
@@ -627,7 +629,13 @@ npm run logs     # Tail worker logs
 **Migration methods (CardsService):**
 - `exportToBundle()` - Export current DB state (cards, lessons, user settings)
 - `restoreFromBundle(backup)` - Restore progress after rebuild
-- `rebuild()` - Clear IndexedDB and rebuild from fresh bundle
+- `rebuild()` - Clear IndexedDB and rebuild from fresh bundle. Sets `rebuildInProgress` flag to bypass the database load protection guard (otherwise `initialize()` would block the rebuild with an error alert).
+
+**Database load protection:**
+If `loadFromStorage()` returns null during `initialize()` but `localStorage.getItem('mojidoodle-version')` exists, the app assumes this is a transient IndexedDB failure (common on mobile browsers like Firefox Android) rather than a fresh install. Instead of silently rebuilding and losing progress, it shows a blocking alert:
+- **Refresh** - Reloads the page to retry the IndexedDB load
+- **Download DB** - Retries reading IndexedDB and triggers a `.sqlite` file download if data is found
+- **Rebuild (lose progress)** - Explicitly proceeds with a fresh build from bundle
 
 ### Card Fields & DB Migration
 
@@ -648,6 +656,14 @@ Cards have 4 metadata fields added to the `cards` table as INTEGER columns (SQLi
 **YAML boolean parsing**: Both `compile-data.js` and the in-app YAML parser handle `true`/`false` values (converted to JS booleans, stored as 0/1 in SQLite).
 
 ## Critical Rules
+
+### Never Silently Rebuild an Existing Database
+
+**CRITICAL**: The app must never build a new database from bundle when evidence of a prior session exists. This prevents silent data loss from transient IndexedDB failures on mobile browsers.
+
+**Bug example (2026-02-10):** On Firefox Android, IndexedDB intermittently failed to load the stored database. The app silently rebuilt from bundle, wiping all user progress with no warning or recovery option.
+
+**How it's prevented:** `doInitialize()` checks `localStorage.getItem('mojidoodle-version')` before building from bundle. If the key exists and `rebuildInProgress` is false, it shows a "Database Load Error" alert instead of proceeding. Only explicit `rebuild()` calls (from version check Migrate/Reset) set the `rebuildInProgress` flag to bypass this guard.
 
 ### Database Initialization Order
 

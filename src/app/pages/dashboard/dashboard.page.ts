@@ -13,8 +13,8 @@ import { CardsService, Lesson } from '../../services/cards.service';
 })
 export class DashboardPage implements OnInit, OnDestroy, ViewWillEnter, ViewDidLeave {
   availableLessons: Lesson[] = [];
-  upcomingUnlocks: { hour: number; count: number; segments: { stage: number; count: number; color: string }[]; label: string }[] = [];
-  nowUnlocks: { count: number; segments: { stage: number; count: number; color: string }[] } = { count: 0, segments: [] };
+  upcomingUnlocks: { hour: number; count: number; segments: { stage: number; count: number; color: string; hidden: boolean }[]; label: string }[] = [];
+  nowUnlocks: { count: number; segments: { stage: number; count: number; color: string; hidden: boolean }[] } = { count: 0, segments: [] };
   maxUnlockCount = 0;
   private pollInterval: ReturnType<typeof setInterval> | null = null;
 

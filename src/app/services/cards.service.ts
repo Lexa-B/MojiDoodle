@@ -1308,51 +1308,63 @@ export class CardsService {
   }
 
   // Get currently available cards grouped by stage
-  getAvailableCardsByStage(): { count: number; segments: { stage: number; count: number; color: string }[] } {
+  getAvailableCardsByStage(): { count: number; segments: { stage: number; count: number; color: string; hidden: boolean }[] } {
     if (!this.db) return { count: 0, segments: [] };
     const now = new Date().toISOString();
-    const cards = this.queryAll<{ stage: number }>(
-      'SELECT stage FROM cards WHERE stage >= 0 AND unlocks <= ?',
+    const cards = this.queryAll<{ stage: number; hidden: number }>(
+      'SELECT stage, hidden FROM cards WHERE stage >= 0 AND unlocks <= ?',
       [now]
     );
-    const stageCounts = new Map<number, number>();
+    // Track visible and hidden counts separately per stage
+    const visibleCounts = new Map<number, number>();
+    const hiddenCounts = new Map<number, number>();
     for (const card of cards) {
-      stageCounts.set(card.stage, (stageCounts.get(card.stage) ?? 0) + 1);
+      const map = card.hidden ? hiddenCounts : visibleCounts;
+      map.set(card.stage, (map.get(card.stage) ?? 0) + 1);
     }
-    const segments: { stage: number; count: number; color: string }[] = [];
+    const segments: { stage: number; count: number; color: string; hidden: boolean }[] = [];
     let total = 0;
-    const sortedStages = Array.from(stageCounts.keys()).sort((a, b) => a - b);
+    const allStages = new Set([...visibleCounts.keys(), ...hiddenCounts.keys()]);
+    const sortedStages = Array.from(allStages).sort((a, b) => a - b);
     for (const stage of sortedStages) {
-      const count = stageCounts.get(stage)!;
-      segments.push({ stage, count, color: this.getStageColor(stage) });
-      total += count;
+      const visibleCount = visibleCounts.get(stage) ?? 0;
+      const hiddenCount = hiddenCounts.get(stage) ?? 0;
+      if (visibleCount > 0) {
+        segments.push({ stage, count: visibleCount, color: this.getStageColor(stage), hidden: false });
+      }
+      if (hiddenCount > 0) {
+        segments.push({ stage, count: hiddenCount, color: this.getStageColor(stage), hidden: true });
+      }
+      total += visibleCount;
     }
     return { count: total, segments };
   }
 
   // Get upcoming unlocks grouped by hour for the next N hours
-  getUpcomingUnlocksByHour(hours: number = 48): { hour: number; count: number; segments: { stage: number; count: number; color: string }[]; label: string }[] {
+  getUpcomingUnlocksByHour(hours: number = 48): { hour: number; count: number; segments: { stage: number; count: number; color: string; hidden: boolean }[]; label: string }[] {
     const now = new Date();
-    const result: { hour: number; count: number; segments: { stage: number; count: number; color: string }[]; label: string }[] = [];
+    const result: { hour: number; count: number; segments: { stage: number; count: number; color: string; hidden: boolean }[]; label: string }[] = [];
 
     // Get all cards with stage >= 0 that unlock in the future (within the time window)
     const endTime = new Date(now.getTime() + hours * 60 * 60 * 1000);
-    const cards = this.queryAll<{ unlocks: string; stage: number }>(
-      'SELECT unlocks, stage FROM cards WHERE stage >= 0 AND unlocks > ? AND unlocks <= ?',
+    const cards = this.queryAll<{ unlocks: string; stage: number; hidden: number }>(
+      'SELECT unlocks, stage, hidden FROM cards WHERE stage >= 0 AND unlocks > ? AND unlocks <= ?',
       [now.toISOString(), endTime.toISOString()]
     );
 
-    // Group by hour offset and stage
-    const hourStageCounts = new Map<number, Map<number, number>>();
+    // Group by hour offset, stage, and hidden status
+    // Key format: `${hourOffset}-${stage}-${hidden}`
+    const hourData = new Map<number, { visible: Map<number, number>; hidden: Map<number, number> }>();
     for (const card of cards) {
       const unlockTime = new Date(card.unlocks);
       const hourOffset = Math.floor((unlockTime.getTime() - now.getTime()) / (60 * 60 * 1000));
       if (hourOffset >= 0 && hourOffset < hours) {
-        if (!hourStageCounts.has(hourOffset)) {
-          hourStageCounts.set(hourOffset, new Map());
+        if (!hourData.has(hourOffset)) {
+          hourData.set(hourOffset, { visible: new Map(), hidden: new Map() });
         }
-        const stageCounts = hourStageCounts.get(hourOffset)!;
-        stageCounts.set(card.stage, (stageCounts.get(card.stage) ?? 0) + 1);
+        const data = hourData.get(hourOffset)!;
+        const map = card.hidden ? data.hidden : data.visible;
+        map.set(card.stage, (map.get(card.stage) ?? 0) + 1);
       }
     }
 
@@ -1360,17 +1372,23 @@ export class CardsService {
     for (let h = 0; h < hours; h++) {
       const futureDate = new Date(now.getTime() + h * 60 * 60 * 1000);
       const hourLabel = futureDate.getHours().toString().padStart(2, '0') + ':00';
-      const stageCounts = hourStageCounts.get(h);
-      const segments: { stage: number; count: number; color: string }[] = [];
+      const data = hourData.get(h);
+      const segments: { stage: number; count: number; color: string; hidden: boolean }[] = [];
       let total = 0;
 
-      if (stageCounts) {
-        // Sort by stage ascending so lower stages are at the bottom
-        const sortedStages = Array.from(stageCounts.keys()).sort((a, b) => a - b);
+      if (data) {
+        const allStages = new Set([...data.visible.keys(), ...data.hidden.keys()]);
+        const sortedStages = Array.from(allStages).sort((a, b) => a - b);
         for (const stage of sortedStages) {
-          const count = stageCounts.get(stage)!;
-          segments.push({ stage, count, color: this.getStageColor(stage) });
-          total += count;
+          const visibleCount = data.visible.get(stage) ?? 0;
+          const hiddenCount = data.hidden.get(stage) ?? 0;
+          if (visibleCount > 0) {
+            segments.push({ stage, count: visibleCount, color: this.getStageColor(stage), hidden: false });
+          }
+          if (hiddenCount > 0) {
+            segments.push({ stage, count: hiddenCount, color: this.getStageColor(stage), hidden: true });
+          }
+          total += visibleCount;
         }
       }
 
