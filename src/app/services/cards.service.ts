@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { LoadingController } from '@ionic/angular';
+import { AlertController, LoadingController } from '@ionic/angular';
 import initSqlJs, { Database } from 'sql.js';
 import { BehaviorSubject, Observable } from 'rxjs';
 
@@ -50,6 +50,7 @@ function getBaseUrl(): string {
 export class CardsService {
   private db: Database | null = null;
   private initPromise: Promise<void> | null = null;
+  private rebuildInProgress = false;
   private stages: Map<number, number> = new Map(); // stage -> minutes
   private stageColors: Map<number, string> = new Map(); // stage -> color
 
@@ -59,7 +60,10 @@ export class CardsService {
   private visibilityHandler: (() => void) | null = null;
   private readonly POLLING_INTERVAL_MS = 30000; // 30 seconds
 
-  constructor(private loadingCtrl: LoadingController) {}
+  constructor(
+    private alertCtrl: AlertController,
+    private loadingCtrl: LoadingController
+  ) {}
 
   /** Observable that emits the count of currently available cards */
   get cardAvailability$(): Observable<number> {
@@ -92,6 +96,14 @@ export class CardsService {
       console.log('Loaded cards database from storage');
       this.startPolling();
       return;
+    }
+
+    // Check if user had a previous session - if so, don't silently rebuild
+    const hadPreviousData = localStorage.getItem('mojidoodle-version') !== null;
+    if (hadPreviousData && !this.rebuildInProgress) {
+      const action = await this.showDatabaseLoadError();
+      if (action === 'refresh') return;
+      // action === 'rebuild': user explicitly chose to rebuild, continue below
     }
 
     // Build from pre-compiled bundle (much faster than individual YAML files)
@@ -874,6 +886,66 @@ export class CardsService {
     return data !== null;
   }
 
+  private async showDatabaseLoadError(): Promise<'refresh' | 'rebuild'> {
+    return new Promise(async (resolve) => {
+      const alert = await this.alertCtrl.create({
+        header: 'Database Load Error',
+        message: 'Your database failed to load but a previous session was detected. Try refreshing the page first.',
+        backdropDismiss: false,
+        buttons: [
+          {
+            text: 'Refresh',
+            handler: () => {
+              window.location.reload();
+              resolve('refresh');
+            }
+          },
+          {
+            text: 'Download DB',
+            handler: () => {
+              this.tryDownloadFromStorage();
+              return false; // Keep alert open
+            }
+          },
+          {
+            text: 'Rebuild (lose progress)',
+            cssClass: 'danger',
+            handler: () => {
+              resolve('rebuild');
+            }
+          }
+        ]
+      });
+      await alert.present();
+    });
+  }
+
+  private async tryDownloadFromStorage(): Promise<void> {
+    try {
+      const data = await this.loadFromStorage();
+      if (data) {
+        const blob = new Blob([new Uint8Array(data)], { type: 'application/octet-stream' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = `mojidoodle-backup-${Date.now()}.sqlite`;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+      } else {
+        const errorAlert = await this.alertCtrl.create({
+          header: 'No Data Found',
+          message: 'Could not retrieve database from storage.',
+          buttons: ['OK']
+        });
+        await errorAlert.present();
+      }
+    } catch (err) {
+      console.error('Failed to download DB:', err);
+    }
+  }
+
   private async saveToStorage(): Promise<void> {
     if (!this.db) return;
     try {
@@ -1357,7 +1429,12 @@ export class CardsService {
     this.stopPolling();
     this.db = null;
     this.initPromise = null;
-    await this.initialize();
+    this.rebuildInProgress = true;
+    try {
+      await this.initialize();
+    } finally {
+      this.rebuildInProgress = false;
+    }
   }
 
   // Polling for card availability
