@@ -52,7 +52,7 @@
     "@ionic/angular": "^8.0.0",
     "ionicons": "^7.0.0",
     "js-yaml": "^4.1.1",
-    "mojidoodle-algo-segmenter": "^0.0.1",
+    "mojidoodle-algo-segmenter": "^0.0.2",
     "rxjs": "~7.8.0",
     "sql.js": "^1.13.0",
     "tslib": "^2.3.0",
