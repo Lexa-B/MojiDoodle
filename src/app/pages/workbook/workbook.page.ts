@@ -1203,8 +1203,21 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
         }
       }
     } else {
-      for (const stroke of this.strokes) {
-        this.drawStrokeWithColor(stroke, defaultColor);
+      if (this.themeConfig?.strokeMode === 'candy-cane' && this.themeConfig) {
+        const c1Sat = this.themeConfig.color1?.saturation ?? 55;
+        const c1Lit = this.themeConfig.color1?.lightness ?? 78;
+        const c2Sat = this.themeConfig.color2?.saturation ?? 95;
+        const c2Lit = this.themeConfig.color2?.lightness ?? 55;
+        const color1 = this.getColorFromHue(0, c1Sat, c1Lit);
+        const color2 = this.getColorFromHue(0, c2Sat, c2Lit);
+
+        for (const stroke of this.strokes) {
+          this.drawStrokeCandyCane(stroke, color1, color2, this.themeConfig.stripeLength ?? 10);
+        }
+      } else {
+        for (const stroke of this.strokes) {
+          this.drawStrokeWithColor(stroke, defaultColor);
+        }
       }
     }
   }
