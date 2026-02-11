@@ -1,0 +1,30 @@
+- id: simple-dark
+  name: Simple Dark
+  strokeMode: solid
+  defaultColor: "#ffffff"
+  lassoSaturation: 55
+  lassoLightness: 78
+  brush:
+    minSize: 3
+    maxSize: 24
+    smoothing: 0.05
+    speedResponse: true
+    harai: true
+
+- id: dark-candy-cane
+  name: Dark Candy Cane
+  strokeMode: candy-cane
+  stripeLength: 10
+  defaultColor: "#ffffff"
+  color1:
+    saturation: 55
+    lightness: 78
+  color2:
+    saturation: 95
+    lightness: 55
+  brush:
+    minSize: 6
+    maxSize: 6
+    smoothing: 0.05
+    speedResponse: false
+    harai: false

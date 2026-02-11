@@ -12,8 +12,9 @@ Draw Japanese characters on a canvas and get instant feedback via handwriting re
 - Lesson-based progression: unlock new character sets as you learn
 - Spaced repetition (SRS): cards reappear at optimal intervals (15min → 12 months)
 - Pause decks to focus on specific categories without losing progress
-- Shodo-style strokes that respond to drawing speed
-- Harai (払い) flicks on stroke endings
+- Workbook themes: "Simple Dark" (shodo-style brush) and "Dark Candy Cane" (uniform strokes with alternating colors)
+- Shodo-style strokes that respond to drawing speed (Simple Dark theme)
+- Harai (払い) flicks on stroke endings (Simple Dark theme)
 - Instant recognition via Google Input Tools API
 - OLED-friendly dark canvas
 
@@ -148,6 +149,7 @@ When you see "All caught up!", all your unlocked cards are waiting for their nex
 Access Settings from the menu (☰) to:
 - **Backup Progress** - Download your progress as a JSON file
 - **Restore Progress** - Load progress from a backup file
+- **Themes** - Choose a workbook theme. "Simple Dark" uses shodo-style velocity-based brush strokes with harai flicks. "Dark Candy Cane" uses uniform fixed-width strokes with alternating colors to show lasso and character assignments.
 - **Pause Decks** - Toggle individual card categories on/off. Paused decks won't appear in the workbook, but your progress is preserved. Useful when you want to focus on specific decks without being interrupted by others.
 - **Reset Progression** - Start over with a specific category (Hiragana, Katakana, Genki Vocabulary, WaniKani Lessons, Jōyō Kanji, Jinmeiyō Kanji, or Common Katakana Words)
 - **Cheat Codes** - Developer tool for testing. Enter a code and submit to trigger special actions.

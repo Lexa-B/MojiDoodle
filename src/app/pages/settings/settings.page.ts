@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { IonHeader, IonToolbar, IonTitle, IonContent, IonButtons, IonMenuButton, IonList, IonListHeader, IonLabel, IonItem, IonButton, IonToggle, IonInput } from '@ionic/angular/standalone';
+import { IonHeader, IonToolbar, IonTitle, IonContent, IonButtons, IonMenuButton, IonList, IonListHeader, IonLabel, IonItem, IonButton, IonToggle, IonInput, IonSelect, IonSelectOption } from '@ionic/angular/standalone';
 import { FormsModule } from '@angular/forms';
 import { AlertController } from '@ionic/angular';
-import { CardsService } from '../../services/cards.service';
+import { CardsService, WorkbookThemeConfig } from '../../services/cards.service';
 import { CheatCodesService } from '../../services/cheat-codes.service';
 
 @Component({
@@ -10,7 +10,7 @@ import { CheatCodesService } from '../../services/cheat-codes.service';
   templateUrl: './settings.page.html',
   styleUrls: ['./settings.page.scss'],
   standalone: true,
-  imports: [IonHeader, IonToolbar, IonTitle, IonContent, IonButtons, IonMenuButton, IonList, IonListHeader, IonLabel, IonItem, IonButton, IonToggle, IonInput, FormsModule],
+  imports: [IonHeader, IonToolbar, IonTitle, IonContent, IonButtons, IonMenuButton, IonList, IonListHeader, IonLabel, IonItem, IonButton, IonToggle, IonInput, IonSelect, IonSelectOption, FormsModule],
 })
 export class SettingsPage implements OnInit {
 
@@ -26,6 +26,8 @@ export class SettingsPage implements OnInit {
 
   pausedDecks: Record<string, boolean> = {};
   cheatCode = '';
+  selectedTheme = 'simple-dark';
+  workbookThemes: WorkbookThemeConfig[] = [];
 
   constructor(
     private cardsService: CardsService,
@@ -36,12 +38,19 @@ export class SettingsPage implements OnInit {
   async ngOnInit() {
     await this.cardsService.initialize();
     this.loadPauseStates();
+    this.workbookThemes = this.cardsService.getWorkbookThemes();
+    this.selectedTheme = this.cardsService.getWorkbookTheme();
   }
 
   private loadPauseStates(): void {
     for (const cat of this.categories) {
       this.pausedDecks[cat.id] = this.cardsService.isCategoryHidden(cat.id);
     }
+  }
+
+  onThemeChange(event: any): void {
+    this.selectedTheme = event.detail.value;
+    this.cardsService.setWorkbookTheme(this.selectedTheme);
   }
 
   togglePauseDeck(category: { id: string; label: string }, event: any): void {

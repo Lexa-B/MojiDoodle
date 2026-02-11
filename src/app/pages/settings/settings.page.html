@@ -16,6 +16,20 @@
 
   <ion-list>
     <ion-list-header>
+      <ion-label>Themes</ion-label>
+    </ion-list-header>
+    <ion-item>
+      <ion-select label="Workbook" [value]="selectedTheme"
+        (ionChange)="onThemeChange($event)" interface="popover">
+        @for (theme of workbookThemes; track theme.id) {
+          <ion-select-option [value]="theme.id">{{ theme.name }}</ion-select-option>
+        }
+      </ion-select>
+    </ion-item>
+  </ion-list>
+
+  <ion-list>
+    <ion-list-header>
       <ion-label>Data</ion-label>
     </ion-list-header>
 

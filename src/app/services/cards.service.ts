@@ -34,6 +34,25 @@ export interface Lesson {
   ids?: string[];
 }
 
+export interface WorkbookThemeConfig {
+  id: string;
+  name: string;
+  strokeMode: 'solid' | 'candy-cane';
+  defaultColor: string;
+  stripeLength?: number;
+  lassoSaturation?: number;
+  lassoLightness?: number;
+  color1?: { saturation: number; lightness: number };
+  color2?: { saturation: number; lightness: number };
+  brush?: {
+    minSize: number;
+    maxSize: number;
+    smoothing: number;
+    speedResponse: boolean;
+    harai: boolean;
+  };
+}
+
 export type DataCollectionStatus = 'opted-in' | 'opted-out' | 'no-response';
 
 const DB_NAME = 'mojidoodle-cards';
@@ -54,6 +73,7 @@ export class CardsService {
   private rebuildInProgress = false;
   private stages: Map<number, number> = new Map(); // stage -> minutes
   private stageColors: Map<number, string> = new Map(); // stage -> color
+  private workbookThemes: WorkbookThemeConfig[] = [];
 
   // Polling for card availability
   private availableCardCount$ = new BehaviorSubject<number>(0);
@@ -145,6 +165,11 @@ export class CardsService {
       this.stageColors.set(s.stage, s.color);
     }
     console.log(`Loaded ${bundle.stages.length} stages from bundle`);
+
+    // Load workbook themes
+    if (bundle.themes?.workbook) {
+      this.workbookThemes = bundle.themes.workbook;
+    }
 
     // Create tables
     // Note: answers and befuddler answers are stored as JSON arrays
@@ -336,6 +361,11 @@ export class CardsService {
       for (const s of bundle.stages) {
         this.stages.set(s.stage, s.minutes);
         this.stageColors.set(s.stage, s.color);
+      }
+
+      // Load workbook themes
+      if (bundle.themes?.workbook) {
+        this.workbookThemes = bundle.themes.workbook;
       }
     } catch (err) {
       console.warn('Failed to load stages from bundle:', err);
@@ -1285,6 +1315,27 @@ export class CardsService {
     this.db.run(
       'INSERT OR REPLACE INTO user_settings (key, value) VALUES (?, ?)',
       ['data_collection', status]
+    );
+    this.saveToStorage();
+  }
+
+  // Workbook theme settings
+  getWorkbookThemes(): WorkbookThemeConfig[] {
+    return this.workbookThemes;
+  }
+
+  getWorkbookTheme(): string {
+    const result = this.queryOne<{ value: string }>(
+      'SELECT value FROM user_settings WHERE key = ?', ['workbook_theme']
+    );
+    return result?.value ?? 'simple-dark';
+  }
+
+  setWorkbookTheme(themeId: string): void {
+    if (!this.db) return;
+    this.db.run(
+      'INSERT OR REPLACE INTO user_settings (key, value) VALUES (?, ?)',
+      ['workbook_theme', themeId]
     );
     this.saveToStorage();
   }

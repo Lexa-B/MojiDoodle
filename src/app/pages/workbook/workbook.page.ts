@@ -6,7 +6,7 @@ import { backspace, trashOutline, brushOutline, ellipseOutline, playSkipForwardO
 import { Subscription } from 'rxjs';
 import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
 import { StrokeRecognitionService } from '../../services/stroke-recognition.service';
-import { CardsService, Card } from '../../services/cards.service';
+import { CardsService, Card, WorkbookThemeConfig } from '../../services/cards.service';
 import { CollectionService } from '../../services/collection.service';
 import { Segmenter, SegmentResult, Point } from 'mojidoodle-algo-segmenter';
 
@@ -60,6 +60,9 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
   // Batch recognition results for multi-character grading
   private lastBatchResults: { character: string; score: number }[][] = [];
 
+  // Theme config
+  private themeConfig: WorkbookThemeConfig | null = null;
+
   // Drawing mode: brush (default) or lasso
   drawMode: 'brush' | 'lasso' = 'brush';
 
@@ -76,12 +79,21 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
   ];
 
   /**
+   * Get a color from LASSO_HUES at the given index with configurable saturation/lightness.
+   */
+  private getColorFromHue(index: number, saturation: number, lightness: number, opacity = 1.0): string {
+    const hue = this.LASSO_HUES[index % this.LASSO_HUES.length];
+    return `hsla(${hue}, ${saturation}%, ${lightness}%, ${opacity})`;
+  }
+
+  /**
    * Get lasso color as hsla string.
-   * Pastel colors: 55% saturation, 78% lightness.
+   * Uses theme config for saturation/lightness, falling back to defaults.
    */
   private getLassoColorFromIndex(index: number, opacity: number = 1.0): string {
-    const hue = this.LASSO_HUES[index % this.LASSO_HUES.length];
-    return `hsla(${hue}, 55%, 78%, ${opacity})`;
+    const sat = this.themeConfig?.lassoSaturation ?? 55;
+    const lit = this.themeConfig?.lassoLightness ?? 78;
+    return this.getColorFromHue(index, sat, lit, opacity);
   }
 
   // Small kana → big kana mapping for fuzzy matching
@@ -196,6 +208,12 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
   async ngOnInit() {
     this.checkButtonText = this.randomFrom(this.checkButtonLabels);
     await this.cardsService.initialize();
+
+    // Load theme config
+    const themeId = this.cardsService.getWorkbookTheme();
+    const themes = this.cardsService.getWorkbookThemes();
+    this.themeConfig = themes.find(t => t.id === themeId) ?? themes[0] ?? null;
+
     this.loadRandomCard();
 
     // Subscribe to card availability for auto-loading when cards become available
@@ -271,10 +289,12 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
     }
   }
 
-  // Brush settings for shodo-style strokes
-  private readonly minBrushSize = 3;
-  private readonly maxBrushSize = 24;
-  private readonly brushSmoothing = 0.05; // How quickly brush responds to speed changes
+  // Brush settings - read from theme config, with defaults matching simple-dark
+  private get minBrushSize(): number { return this.themeConfig?.brush?.minSize ?? 3; }
+  private get maxBrushSize(): number { return this.themeConfig?.brush?.maxSize ?? 24; }
+  private get brushSmoothing(): number { return this.themeConfig?.brush?.smoothing ?? 0.05; }
+  private get speedResponse(): boolean { return this.themeConfig?.brush?.speedResponse ?? true; }
+  private get haraiEnabled(): boolean { return this.themeConfig?.brush?.harai ?? true; }
 
   private setCanvasStyle() {
     this.ctx.fillStyle = '#fff';
@@ -455,8 +475,15 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
    * Calculate brush size based on drawing velocity.
    * Slower drawing = thicker stroke (like pressing harder with a brush)
    * Faster drawing = thinner stroke (like a quick flick)
+   * When speedResponse is false, returns a fixed size.
    */
   private calculateBrushSize(p1: Point, p2: Point): number {
+    if (!this.speedResponse) {
+      const fixedSize = (this.minBrushSize + this.maxBrushSize) / 2;
+      this.lastBrushSize = fixedSize;
+      return fixedSize;
+    }
+
     const dx = p2.x - p1.x;
     const dy = p2.y - p1.y;
     const dt = Math.max(p2.t - p1.t, 1); // Avoid division by zero
@@ -504,9 +531,10 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
   /**
    * Draw harai (払い) - the tapered flick at the end of a stroke
    * Calculates direction and velocity from the last points and extends
-   * with a tapering tail
+   * with a tapering tail. Skipped when theme disables harai.
    */
   private drawHarai(stroke: Point[]) {
+    if (!this.haraiEnabled) return;
     if (stroke.length < 3) return;
 
     // Get the last few points to calculate direction and velocity
@@ -857,13 +885,26 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
    * Get stroke color based on segmentation result lasso assignments.
    */
   private getStrokeColorFromResult(strokeIndex: number): string {
-    if (!this.segmentResult) return '#fff';
+    if (!this.segmentResult) return this.themeConfig?.defaultColor ?? '#fff';
     for (let i = 0; i < this.segmentResult.lassos.length; i++) {
       if (this.segmentResult.lassos[i].strokeIndices.includes(strokeIndex)) {
         return this.getLassoColorFromIndex(i);
       }
     }
-    return '#fff';
+    return this.themeConfig?.defaultColor ?? '#fff';
+  }
+
+  /**
+   * Get the lasso index for a stroke, or -1 if not in any lasso.
+   */
+  private getLassoIndexForStroke(strokeIndex: number): number {
+    if (!this.segmentResult) return -1;
+    for (let i = 0; i < this.segmentResult.lassos.length; i++) {
+      if (this.segmentResult.lassos[i].strokeIndices.includes(strokeIndex)) {
+        return i;
+      }
+    }
+    return -1;
   }
 
   /**
@@ -951,7 +992,7 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
     }
 
     // Draw harai flick at the end (inline to preserve color)
-    if (stroke.length >= 3) {
+    if (this.haraiEnabled && stroke.length >= 3) {
       const numPoints = Math.min(5, stroke.length);
       const recentPoints = stroke.slice(-numPoints);
       const lastPoint = recentPoints[recentPoints.length - 1];
@@ -1000,6 +1041,117 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
   }
 
   /**
+   * Draw a stroke alternating between two colors every stripeLength px.
+   * Brush size and harai behavior are controlled by the active theme.
+   */
+  private drawStrokeCandyCane(stroke: Point[], color1: string, color2: string, stripeLength: number): void {
+    if (stroke.length === 0) return;
+
+    this.ctx.save();
+
+    // Reset brush size for this stroke
+    this.lastBrushSize = (this.minBrushSize + this.maxBrushSize) / 2;
+
+    // Track accumulated distance for stripe alternation
+    let accumulatedDistance = 0;
+    let useColor1 = true;
+
+    // Draw initial point
+    this.ctx.fillStyle = color1;
+    this.ctx.strokeStyle = color1;
+    this.ctx.beginPath();
+    this.ctx.arc(stroke[0].x, stroke[0].y, this.minBrushSize * 1.5 / 2, 0, Math.PI * 2);
+    this.ctx.fill();
+
+    // Draw segments with brush effect and alternating colors
+    for (let i = 1; i < stroke.length; i++) {
+      const dx = stroke[i].x - stroke[i - 1].x;
+      const dy = stroke[i].y - stroke[i - 1].y;
+      const segDist = Math.sqrt(dx * dx + dy * dy);
+
+      accumulatedDistance += segDist;
+      if (accumulatedDistance >= stripeLength) {
+        useColor1 = !useColor1;
+        accumulatedDistance -= stripeLength;
+      }
+
+      const color = useColor1 ? color1 : color2;
+      this.ctx.fillStyle = color;
+      this.ctx.strokeStyle = color;
+
+      const brushSize = this.calculateBrushSize(stroke[i - 1], stroke[i]);
+      this.ctx.lineWidth = brushSize;
+      this.ctx.beginPath();
+      this.ctx.moveTo(stroke[i - 1].x, stroke[i - 1].y);
+      this.ctx.lineTo(stroke[i].x, stroke[i].y);
+      this.ctx.stroke();
+
+      this.ctx.beginPath();
+      this.ctx.arc(stroke[i].x, stroke[i].y, brushSize / 2, 0, Math.PI * 2);
+      this.ctx.fill();
+    }
+
+    // Draw harai flick with continuing candy cane pattern (if theme enables harai)
+    if (this.haraiEnabled && stroke.length >= 3) {
+      const numPoints = Math.min(5, stroke.length);
+      const recentPoints = stroke.slice(-numPoints);
+      const lastPoint = recentPoints[recentPoints.length - 1];
+      const earlierPoint = recentPoints[0];
+
+      const fdx = lastPoint.x - earlierPoint.x;
+      const fdy = lastPoint.y - earlierPoint.y;
+      const distance = Math.sqrt(fdx * fdx + fdy * fdy);
+
+      if (distance >= 5) {
+        const dirX = fdx / distance;
+        const dirY = fdy / distance;
+        const dt = Math.max(lastPoint.t - earlierPoint.t, 1);
+        const velocity = distance / dt;
+        const flickLength = Math.min(velocity * 20, 40);
+
+        if (flickLength >= 8) {
+          const steps = 8;
+          const startSize = this.lastBrushSize;
+
+          for (let i = 0; i < steps; i++) {
+            const t = i / steps;
+            const nextT = (i + 1) / steps;
+            const easeT = 1 - Math.pow(1 - t, 2);
+            const easeNextT = 1 - Math.pow(1 - nextT, 2);
+
+            const x1 = lastPoint.x + dirX * flickLength * easeT;
+            const y1 = lastPoint.y + dirY * flickLength * easeT;
+            const x2 = lastPoint.x + dirX * flickLength * easeNextT;
+            const y2 = lastPoint.y + dirY * flickLength * easeNextT;
+
+            // Continue alternating in the flick
+            const flickDist = flickLength * easeNextT;
+            accumulatedDistance += flickDist / steps;
+            if (accumulatedDistance >= stripeLength) {
+              useColor1 = !useColor1;
+              accumulatedDistance -= stripeLength;
+            }
+
+            const color = useColor1 ? color1 : color2;
+            this.ctx.strokeStyle = color;
+
+            const size = startSize * (1 - nextT);
+            if (size > 0.5) {
+              this.ctx.lineWidth = size;
+              this.ctx.beginPath();
+              this.ctx.moveTo(x1, y1);
+              this.ctx.lineTo(x2, y2);
+              this.ctx.stroke();
+            }
+          }
+        }
+      }
+    }
+
+    this.ctx.restore();
+  }
+
+  /**
    * Full redraw including strokes with lasso colors and SVG overlays.
    */
   private fullRedraw(): void {
@@ -1020,14 +1172,39 @@ export class WorkbookPage implements OnInit, AfterViewInit, OnDestroy {
     }
 
     // Draw strokes — use module's annotated stroke data for coloring
+    const defaultColor = this.themeConfig?.defaultColor ?? '#fff';
+    const isCandyCane = this.themeConfig?.strokeMode === 'candy-cane' && this.segmentResult;
+
     if (this.segmentResult) {
       for (const annotated of this.segmentResult.strokes) {
-        const color = this.getStrokeColorFromResult(annotated.index);
-        this.drawStrokeWithColor(this.strokes[annotated.index], color);
+        if (isCandyCane && this.themeConfig) {
+          // Candy cane: color1 from lasso index, color2 from character index
+          const lassoIdx = this.getLassoIndexForStroke(annotated.index);
+          const charIdx = annotated.characterIndex;
+
+          const c1Sat = this.themeConfig.color1?.saturation ?? 55;
+          const c1Lit = this.themeConfig.color1?.lightness ?? 78;
+          const c2Sat = this.themeConfig.color2?.saturation ?? 95;
+          const c2Lit = this.themeConfig.color2?.lightness ?? 55;
+
+          // Use lasso index for color1 hue, character index for color2 hue
+          const hueIdx1 = lassoIdx >= 0 ? lassoIdx : charIdx;
+          const color1 = this.getColorFromHue(hueIdx1, c1Sat, c1Lit);
+          const color2 = this.getColorFromHue(charIdx, c2Sat, c2Lit);
+
+          this.drawStrokeCandyCane(
+            this.strokes[annotated.index],
+            color1, color2,
+            this.themeConfig.stripeLength ?? 10
+          );
+        } else {
+          const color = this.getStrokeColorFromResult(annotated.index);
+          this.drawStrokeWithColor(this.strokes[annotated.index], color);
+        }
       }
     } else {
       for (const stroke of this.strokes) {
-        this.drawStrokeWithColor(stroke, '#fff');
+        this.drawStrokeWithColor(stroke, defaultColor);
       }
     }
   }

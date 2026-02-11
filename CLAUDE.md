@@ -69,6 +69,8 @@ src/
 │   │   ├── genki/               # Genki chapter lessons
 │   │   ├── wanikani/            # WaniKani level lessons
 │   │   └── common_katakana_words/ # Common katakana word lessons
+│   ├── themes/
+│   │   └── workbook.yaml        # Workbook theme definitions (stroke mode, brush, colors)
 │   ├── stages.yaml              # SRS timing intervals & colors
 │   ├── bundle.json              # Pre-compiled data (generated at build)
 │   └── version.json             # Build timestamp (generated at build)
@@ -76,7 +78,7 @@ src/
 └── theme/variables.scss         # Ionic theme colors
 
 scripts/
-├── compile-data.js              # Compiles YAML → bundle.json (uses js-yaml)
+├── compile-data.js              # Compiles YAML → bundle.json (cards, lessons, stages, themes)
 ├── generate-version.js          # Generates version.json timestamp
 ├── add-card-fields.js           # Migration: add invulnerable/max_stage/learned/hidden to YAML
 ├── deploy.sh                    # Deploy to GitHub Pages
@@ -115,7 +117,7 @@ The app uses a hybrid YAML → JSON → SQLite architecture:
 - `lesson_cards` - Maps lessons to their cards
 - `lesson_requires` - Lesson prerequisites
 - `lesson_supercedes` - Lessons that replace others when unlocked
-- `user_settings` - Key-value store for user preferences (user_uuid, data_collection)
+- `user_settings` - Key-value store for user preferences (user_uuid, data_collection, workbook_theme)
 
 ### Pages
 
@@ -135,6 +137,7 @@ The app uses a hybrid YAML → JSON → SQLite architecture:
   - "All caught up" message when no cards available
   - Auto-loads new card when cards become available (subscribes to polling)
 - **Settings** (`/settings`) - App settings:
+  - Themes: workbook theme selector (ion-select popover). Options loaded from `themes/workbook.yaml` via bundle. Persisted in `user_settings` table as `workbook_theme` key, defaults to `simple-dark`.
   - Data: Backup Progress (download JSON) and Restore Progress (load from JSON file)
   - Pause Decks: toggles to hide/unhide all cards in a category from workbook circulation
   - Reset Progression: buttons to reset each category (cards and associated lessons) to original values
@@ -159,6 +162,11 @@ Card methods:
 - `getUpcomingUnlocksByHour(hours)` - Get card unlock forecast grouped by hour (for dashboard chart)
 - `isCategoryHidden(category)` - Check if any cards in a category are hidden
 - `setCategoryHidden(category, hidden)` - Bulk set hidden flag on all cards in a category
+
+Theme methods:
+- `getWorkbookThemes()` - Get all loaded workbook theme configs (from bundle)
+- `getWorkbookTheme()` - Get active theme ID from `user_settings` (defaults to `'simple-dark'`)
+- `setWorkbookTheme(themeId)` - Save active theme ID to `user_settings`
 
 Lesson methods:
 - `getAvailableLessons()`, `getAllLessons()`, `unlockLesson(id)`
@@ -260,6 +268,26 @@ interface SegmentationResult {
 interface ProtectedGroup {
   strokeIndices: number[];  // Strokes that should not be split by dividers
 }
+
+// Workbook theme configuration (loaded from themes/workbook.yaml via bundle)
+interface WorkbookThemeConfig {
+  id: string;               // "simple-dark", "dark-candy-cane"
+  name: string;             // Display name
+  strokeMode: 'solid' | 'candy-cane';
+  defaultColor: string;     // Color for strokes without lasso/character assignment
+  stripeLength?: number;    // Candy-cane: px per color stripe
+  lassoSaturation?: number; // Solid mode: lasso color HSL saturation %
+  lassoLightness?: number;  // Solid mode: lasso color HSL lightness %
+  color1?: { saturation: number; lightness: number };  // Candy-cane: first alternating color
+  color2?: { saturation: number; lightness: number };  // Candy-cane: second alternating color
+  brush?: {
+    minSize: number;        // Minimum brush diameter in px
+    maxSize: number;        // Maximum brush diameter in px
+    smoothing: number;      // How quickly brush responds to speed changes (0-1)
+    speedResponse: boolean; // If true, brush size varies with drawing velocity
+    harai: boolean;         // If true, draw tapered flick at stroke end
+  };
+}
 ```
 
 ### SRS Stages
@@ -352,6 +380,44 @@ ids:
   - h-o
 ```
 
+### YAML Workbook Theme Format
+
+**themes/workbook.yaml** defines available workbook themes. Each theme controls stroke rendering mode, colors, and brush behavior:
+```yaml
+- id: simple-dark
+  name: Simple Dark
+  strokeMode: solid              # solid or candy-cane
+  defaultColor: "#ffffff"        # Color for unassigned strokes
+  lassoSaturation: 55            # Lasso color HSL saturation %
+  lassoLightness: 78             # Lasso color HSL lightness %
+  brush:
+    minSize: 3                   # Min brush diameter px
+    maxSize: 24                  # Max brush diameter px
+    smoothing: 0.05              # Speed smoothing factor
+    speedResponse: true          # Velocity-based thickness
+    harai: true                  # Tapered flick at stroke end
+
+- id: dark-candy-cane
+  name: Dark Candy Cane
+  strokeMode: candy-cane
+  stripeLength: 10               # Pixels per color stripe
+  defaultColor: "#ffffff"
+  color1:                        # First alternating color (hue from lasso index)
+    saturation: 55
+    lightness: 78
+  color2:                        # Second alternating color (hue from character index)
+    saturation: 95
+    lightness: 55
+  brush:
+    minSize: 6
+    maxSize: 6                   # Same as min = fixed width
+    smoothing: 0.05
+    speedResponse: false         # No velocity variation
+    harai: false                 # No tapered flick
+```
+
+Themes are compiled into `bundle.json` by `compile-data.js` and loaded by CardsService at startup. The active theme ID is stored in `user_settings` as `workbook_theme`. Adding new themes requires only a new entry in this YAML file and a rebuild — no code changes needed for `solid` or `candy-cane` stroke modes.
+
 ### Workbook Drawing System
 
 - Canvas captures strokes as `Point[][]` (array of strokes, each stroke is array of points with timestamps)
@@ -361,11 +427,15 @@ ids:
 - Undo removes last stroke and redraws
 - On CHECK: sends strokes to Google Input Tools API, shows recognized candidates
 
-**Shodo-style brush rendering** (visual only, doesn't affect API data):
-- Velocity-based thickness: slow = thick, fast = thin (like a real brush)
-- Smoothed transitions between thickness changes
-- Harai (払い) flicks: tapered tails on stroke ends based on lift-off velocity
-- Settings in `workbook.page.ts`: `minBrushSize`, `maxBrushSize`, `brushSmoothing`
+**Brush rendering** (visual only, doesn't affect API data):
+Controlled by the active workbook theme (defined in `src/data/themes/workbook.yaml`). The workbook page reads brush settings from `themeConfig.brush` via getters (`minBrushSize`, `maxBrushSize`, `brushSmoothing`, `speedResponse`, `haraiEnabled`), falling back to Simple Dark defaults if no theme is loaded.
+
+- **Simple Dark** (shodo-style): Velocity-based thickness (slow = thick, fast = thin), smoothed transitions, harai (払い) flicks on stroke ends
+- **Dark Candy Cane**: Fixed uniform width (no speed response), no harai, alternating two colors every `stripeLength` px per stroke after segmentation
+
+**Stroke rendering modes** (`themeConfig.strokeMode`):
+- `solid` - Single color per stroke. Lasso strokes use pastel colors at `lassoSaturation`/`lassoLightness`; unassigned strokes use `defaultColor`.
+- `candy-cane` - Two alternating colors per stroke (only after segmentation). Color1 hue from lasso index, color2 hue from character index. During live drawing (before segmentation), strokes render in `defaultColor`.
 
 ### Lasso Tool (Segmentation Protection)
 
@@ -578,6 +648,7 @@ interface SelectionLasso {      // Manual segmentation from lasso tool
 **Database table:** `user_settings` (key-value store)
 - `user_uuid` - Persistent UUID generated on first launch
 - `data_collection` - User's opt-in status: `'opted-in'`, `'opted-out'`, or `'no-response'`
+- `workbook_theme` - Active workbook theme ID (defaults to `'simple-dark'` when absent)
 
 **CardsService methods:**
 - `getUserUuid()` - Get persistent user UUID (stored in SQLite `user_settings`)

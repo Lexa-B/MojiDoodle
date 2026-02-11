@@ -95,6 +95,14 @@ if (fs.existsSync(lessonsManifestPath)) {
   }
 }
 
+// Load workbook themes
+const workbookThemesPath = path.join(DATA_DIR, 'themes/workbook.yaml');
+if (fs.existsSync(workbookThemesPath)) {
+  const content = fs.readFileSync(workbookThemesPath, 'utf8');
+  bundle.themes = { workbook: yaml.load(content) || [] };
+  console.log(`  Loaded ${bundle.themes.workbook.length} workbook themes`);
+}
+
 // Write the bundle
 fs.writeFileSync(OUTPUT_FILE, JSON.stringify(bundle));
 const stats = fs.statSync(OUTPUT_FILE);
