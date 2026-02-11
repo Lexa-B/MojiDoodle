@@ -174,6 +174,7 @@ npm run logs      # Tail logs
 
 - Ionic 8 / Angular 20 / Capacitor 8
 - sql.js (SQLite in the browser)
+- js-yaml for YAML data parsing (build-time and runtime fallback)
 - Google Input Tools API (no key required)
 - Canvas 2D for brush rendering
 - IndexedDB for offline persistence
@@ -182,7 +183,7 @@ npm run logs      # Tail logs
 
 ## Data Architecture
 
-Cards and lessons are defined in human-readable YAML files (`src/data/`). At build time, these are compiled into a single `bundle.json`. On first launch, the app loads this bundle and builds a SQLite database stored in IndexedDB. This hybrid approach gives you:
+Cards and lessons are defined in human-readable YAML files (`src/data/`). At build time, these are compiled into a single `bundle.json` using js-yaml. On first launch, the app loads this bundle and builds a SQLite database stored in IndexedDB. This hybrid approach gives you:
 
 - **Dev-friendly**: Edit YAML files directly, easy to read and version control
 - **Fast loading**: Single HTTP request instead of 70+ individual files

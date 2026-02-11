@@ -9,17 +9,16 @@
   max_stage: -1
   learned: false
   hidden: false
-  befuddlers: [
+  befuddlers:
     - answers:
-      - パーセンテージ
-    toast: |-
-      That's "percentage"!
-      The prompt is asking for the general word.
+        - パーセンテージ
+      toast: |-
+        That's "percentage"!
+        The prompt is asking for the general word.
     - answers:
-      - パセント
-    toast: |-
-      That's not the correct spelling. It should have a long vowel sound.
-  ]
+        - パセント
+      toast: |-
+        That's not the correct spelling. It should have a long vowel sound.
 - id: ckw-l01-351
   prompt: page
   answers:

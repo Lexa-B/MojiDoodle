@@ -76,7 +76,7 @@ src/
 └── theme/variables.scss         # Ionic theme colors
 
 scripts/
-├── compile-data.js              # Compiles YAML → bundle.json
+├── compile-data.js              # Compiles YAML → bundle.json (uses js-yaml)
 ├── generate-version.js          # Generates version.json timestamp
 ├── add-card-fields.js           # Migration: add invulnerable/max_stage/learned/hidden to YAML
 ├── deploy.sh                    # Deploy to GitHub Pages
@@ -91,11 +91,11 @@ extra-webpack.config.js          # Webpack fallbacks for sql.js
 The app uses a hybrid YAML → JSON → SQLite architecture:
 
 **Source of truth**: Human-readable YAML files in `src/data/`
-**Build time**: YAML compiled to `bundle.json` (single file, ~500KB)
+**Build time**: YAML compiled to `bundle.json` via js-yaml (single file, ~2.4MB)
 **Runtime**: SQLite database built on-device from bundle, persisted to IndexedDB
 
 **How it works:**
-1. Build runs `compile-data.js` → creates `bundle.json` from all YAML files
+1. Build runs `compile-data.js` (uses `js-yaml` library) → creates `bundle.json` from all YAML files
 2. First launch shows "ちょっと待ってください..." spinner
 3. Fetches single `bundle.json` (instead of 70+ individual files), builds SQLite in-memory
 4. Saves compiled database to IndexedDB
@@ -677,7 +677,7 @@ Cards have 4 metadata fields added to the `cards` table as INTEGER columns (SQLi
 
 **Workbook filtering**: `getRandomUnlockedCard()` and `getAvailableCardCount()` filter `hidden = 0` so paused decks don't appear.
 
-**YAML boolean parsing**: Both `compile-data.js` and the in-app YAML parser handle `true`/`false` values (converted to JS booleans, stored as 0/1 in SQLite).
+**YAML parsing**: Both `compile-data.js` and the in-app fallback parser use the `js-yaml` library (v4.1.1). All YAML files are parsed with `yaml.load()`. Boolean `true`/`false` values are converted to JS booleans by js-yaml, stored as 0/1 in SQLite.
 
 ## Critical Rules
 

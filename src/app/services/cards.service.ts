@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { AlertController, LoadingController } from '@ionic/angular';
 import initSqlJs, { Database } from 'sql.js';
 import { BehaviorSubject, Observable } from 'rxjs';
+import * as yaml from 'js-yaml';
 
 export interface Befuddler {
   answers: string[];
@@ -342,47 +343,19 @@ export class CardsService {
   }
 
   private async loadCardManifest(): Promise<Array<{ id: string; category: string; files: string[] }>> {
-    const packs: Array<{ id: string; category: string; files: string[] }> = [];
-
     try {
       const response = await fetch(`${getBaseUrl()}data/cards/manifest.yaml`);
-      if (!response.ok) return packs;
+      if (!response.ok) return [];
 
-      const yaml = await response.text();
-      let current: { id: string; category: string; files: string[] } | null = null;
-      let inFiles = false;
-
-      for (const line of yaml.split('\n')) {
-        const trimmed = line.trim();
-        if (!trimmed || trimmed.startsWith('#')) continue;
-
-        if (trimmed.startsWith('- id:')) {
-          if (current) packs.push(current);
-          current = { id: trimmed.split(':')[1].trim(), category: '', files: [] };
-          inFiles = false;
-          continue;
-        }
-
-        if (!current) continue;
-
-        if (trimmed.startsWith('category:')) {
-          current.category = trimmed.split(':')[1].trim();
-        } else if (trimmed === 'files:') {
-          inFiles = true;
-        } else if (inFiles && trimmed.startsWith('- ')) {
-          current.files.push(trimmed.slice(2).trim());
-        } else if (!trimmed.startsWith('-') && trimmed.includes(':')) {
-          inFiles = false;
-        }
-      }
-
-      if (current) packs.push(current);
+      const text = await response.text();
+      const data = yaml.load(text) as any;
+      const packs = (data?.packs || []) as Array<{ id: string; category: string; files: string[] }>;
       console.log(`Loaded ${packs.length} card packs from manifest`);
+      return packs;
     } catch (err) {
       console.warn('Failed to load card manifest:', err);
+      return [];
     }
-
-    return packs;
   }
 
   private async loadStages(): Promise<void> {
@@ -390,31 +363,11 @@ export class CardsService {
       const response = await fetch(`${getBaseUrl()}data/stages.yaml`);
       if (!response.ok) return;
 
-      const yaml = await response.text();
-      const lines = yaml.split('\n');
-      let currentStage: number | null = null;
-
-      for (const line of lines) {
-        const trimmed = line.trim();
-        if (!trimmed || trimmed.startsWith('#')) continue;
-
-        const stageMatch = trimmed.match(/^-?\s*stage:\s*(\d+)/);
-        if (stageMatch) {
-          currentStage = parseInt(stageMatch[1], 10);
-          continue;
-        }
-
-        if (currentStage !== null) {
-          const minutesMatch = trimmed.match(/^minutes:\s*(\d+)/);
-          if (minutesMatch) {
-            this.stages.set(currentStage, parseInt(minutesMatch[1], 10));
-          }
-
-          const colorMatch = trimmed.match(/^color:\s*"?(#[0-9A-Fa-f]{6})"?/);
-          if (colorMatch) {
-            this.stageColors.set(currentStage, colorMatch[1]);
-          }
-        }
+      const text = await response.text();
+      const stages = (yaml.load(text) as any[]) || [];
+      for (const s of stages) {
+        this.stages.set(s.stage, s.minutes);
+        this.stageColors.set(s.stage, s.color);
       }
 
       console.log(`Loaded ${this.stages.size} stage entries`);
@@ -545,47 +498,19 @@ export class CardsService {
   }
 
   private async loadLessonManifest(): Promise<Array<{ id: string; category: string; files: string[] }>> {
-    const packs: Array<{ id: string; category: string; files: string[] }> = [];
-
     try {
       const response = await fetch(`${getBaseUrl()}data/lessons/manifest.yaml`);
-      if (!response.ok) return packs;
+      if (!response.ok) return [];
 
-      const yaml = await response.text();
-      let current: { id: string; category: string; files: string[] } | null = null;
-      let inFiles = false;
-
-      for (const line of yaml.split('\n')) {
-        const trimmed = line.trim();
-        if (!trimmed || trimmed.startsWith('#')) continue;
-
-        if (trimmed.startsWith('- id:')) {
-          if (current) packs.push(current);
-          current = { id: trimmed.split(':')[1].trim(), category: '', files: [] };
-          inFiles = false;
-          continue;
-        }
-
-        if (!current) continue;
-
-        if (trimmed.startsWith('category:')) {
-          current.category = trimmed.split(':')[1].trim();
-        } else if (trimmed === 'files:') {
-          inFiles = true;
-        } else if (inFiles && trimmed.startsWith('- ')) {
-          current.files.push(trimmed.slice(2).trim());
-        } else if (!trimmed.startsWith('-') && trimmed.includes(':')) {
-          inFiles = false;
-        }
-      }
-
-      if (current) packs.push(current);
+      const text = await response.text();
+      const data = yaml.load(text) as any;
+      const packs = (data?.packs || []) as Array<{ id: string; category: string; files: string[] }>;
       console.log(`Loaded ${packs.length} lesson packs from manifest`);
+      return packs;
     } catch (err) {
       console.warn('Failed to load lesson manifest:', err);
+      return [];
     }
-
-    return packs;
   }
 
   private async buildLessons(): Promise<void> {
@@ -645,210 +570,20 @@ export class CardsService {
     }
   }
 
-  private parseLessonFile(yaml: string): { id: string; name: string; status: string; requires: string[]; ids: string[]; supercedes: string[] } {
-    let id = '';
-    let name = '';
-    let status = 'locked';
-    const requires: string[] = [];
-    const ids: string[] = [];
-    const supercedes: string[] = [];
-    let currentSection: 'none' | 'requires' | 'ids' | 'supercedes' = 'none';
-
-    for (const line of yaml.split('\n')) {
-      const trimmed = line.trim();
-      if (!trimmed || trimmed.startsWith('#')) continue;
-
-      // Parse top-level scalar fields
-      const propMatch = trimmed.match(/^([\w-]+):\s*(.*)$/);
-      if (propMatch && !trimmed.startsWith('-')) {
-        const [, key, value] = propMatch;
-        if (key === 'id') {
-          id = value;
-          currentSection = 'none';
-        } else if (key === 'name') {
-          name = value.replace(/^["']|["']$/g, '');
-          currentSection = 'none';
-        } else if (key === 'status') {
-          status = value;
-          currentSection = 'none';
-        } else if (key === 'requires') {
-          currentSection = value === '[]' ? 'none' : 'requires';
-        } else if (key === 'ids') {
-          currentSection = 'ids';
-        } else if (key === 'supercedes') {
-          currentSection = value === '[]' ? 'none' : 'supercedes';
-        }
-        continue;
-      }
-
-      if (trimmed.startsWith('- ')) {
-        const value = trimmed.slice(2).trim();
-        if (currentSection === 'requires') {
-          requires.push(value);
-        } else if (currentSection === 'ids') {
-          ids.push(value);
-        } else if (currentSection === 'supercedes') {
-          supercedes.push(value);
-        }
-      }
-    }
-
-    return { id, name, status, requires, ids, supercedes };
+  private parseLessonFile(text: string): { id: string; name: string; status: string; requires: string[]; ids: string[]; supercedes: string[] } {
+    const data = yaml.load(text) as any;
+    return {
+      id: data?.id || '',
+      name: data?.name || '',
+      status: data?.status || 'locked',
+      requires: data?.requires || [],
+      ids: data?.ids || [],
+      supercedes: data?.supercedes || [],
+    };
   }
 
   private parseYaml(content: string): Partial<Card>[] {
-    const cards: Partial<Card>[] = [];
-    let currentCard: Partial<Card> | null = null;
-    let currentBefuddler: Befuddler | null = null;
-    let inBefuddlers = false;
-    let inAnswers = false;
-    let inBefuddlerAnswers = false;
-
-    const lines = content.split('\n');
-
-    for (const line of lines) {
-      if (!line.trim()) continue;
-
-      const indent = line.search(/\S/);
-      const trimmed = line.trim();
-
-      // New card
-      if (indent === 0 && trimmed.startsWith('- ')) {
-        if (currentBefuddler && currentCard) {
-          currentCard.befuddlers = currentCard.befuddlers || [];
-          currentCard.befuddlers.push(currentBefuddler);
-        }
-        if (currentCard) cards.push(currentCard);
-
-        currentCard = { befuddlers: [], answers: [] };
-        currentBefuddler = null;
-        inBefuddlers = false;
-        inAnswers = false;
-        inBefuddlerAnswers = false;
-
-        const match = trimmed.match(/^- (\w+): (.+)$/);
-        if (match) {
-          (currentCard as any)[match[1]] = this.parseValue(match[2]);
-        }
-        continue;
-      }
-
-      // Card property
-      if (indent === 2 && currentCard && !trimmed.startsWith('-')) {
-        const match = trimmed.match(/^(\w+): (.+)$/);
-        if (match) {
-          const key = match[1];
-          const value = match[2];
-
-          if (key === 'befuddlers' && value === '[]') {
-            currentCard.befuddlers = [];
-            inBefuddlers = false;
-            inAnswers = false;
-          } else if (key === 'befuddlers') {
-            inBefuddlers = true;
-            inAnswers = false;
-          } else if (key === 'answers' && value === '[]') {
-            currentCard.answers = [];
-            inAnswers = false;
-          } else {
-            (currentCard as any)[key] = this.parseValue(value);
-            inAnswers = false;
-          }
-        } else if (trimmed === 'befuddlers:') {
-          inBefuddlers = true;
-          inAnswers = false;
-        } else if (trimmed === 'answers:') {
-          inAnswers = true;
-          currentCard.answers = [];
-        }
-        continue;
-      }
-
-      // Card answers list item
-      if (indent === 4 && trimmed.startsWith('- ') && inAnswers && currentCard && !inBefuddlers) {
-        const value = trimmed.slice(2).trim();
-        currentCard.answers = currentCard.answers || [];
-        currentCard.answers.push(this.parseValue(value) as string);
-        continue;
-      }
-
-      // New befuddler (at indent 2, same level as "befuddlers:" key)
-      if (indent === 2 && trimmed.startsWith('- ') && inBefuddlers && currentCard && !inAnswers) {
-        if (currentBefuddler) {
-          currentCard.befuddlers = currentCard.befuddlers || [];
-          currentCard.befuddlers.push(currentBefuddler);
-        }
-        currentBefuddler = { answers: [], toast: '' };
-        inBefuddlerAnswers = false;
-
-        const match = trimmed.match(/^- (\w+): (.+)$/);
-        if (match) {
-          const key = match[1];
-          const value = this.parseValue(match[2]);
-          // Convert singular "answer" to plural "answers" array
-          if (key === 'answer') {
-            currentBefuddler.answers = [value as string];
-          } else {
-            (currentBefuddler as any)[key] = value;
-          }
-        }
-        continue;
-      }
-
-      // Befuddler property (at indent 4)
-      if (indent === 4 && currentBefuddler && !trimmed.startsWith('- ')) {
-        const match = trimmed.match(/^(\w+): (.+)$/);
-        if (match) {
-          const key = match[1];
-          if (key === 'answers' && match[2] === '[]') {
-            currentBefuddler.answers = [];
-            inBefuddlerAnswers = false;
-          } else if (key === 'answer') {
-            // Convert singular "answer" to plural "answers" array
-            currentBefuddler.answers = [this.parseValue(match[2]) as string];
-            inBefuddlerAnswers = false;
-          } else {
-            (currentBefuddler as any)[key] = this.parseValue(match[2]);
-            inBefuddlerAnswers = false;
-          }
-        } else if (trimmed === 'answers:') {
-          inBefuddlerAnswers = true;
-          currentBefuddler.answers = [];
-        }
-        continue;
-      }
-
-      // Befuddler answers list item (at indent 6)
-      if (indent === 6 && trimmed.startsWith('- ') && inBefuddlerAnswers && currentBefuddler) {
-        const value = trimmed.slice(2).trim();
-        currentBefuddler.answers = currentBefuddler.answers || [];
-        currentBefuddler.answers.push(this.parseValue(value) as string);
-        continue;
-      }
-    }
-
-    // Final items
-    if (currentBefuddler && currentCard) {
-      currentCard.befuddlers = currentCard.befuddlers || [];
-      currentCard.befuddlers.push(currentBefuddler);
-    }
-    if (currentCard) cards.push(currentCard);
-
-    return cards;
-  }
-
-  private parseValue(val: string): string | number | boolean {
-    if ((val.startsWith('"') && val.endsWith('"')) ||
-        (val.startsWith("'") && val.endsWith("'"))) {
-      val = val.slice(1, -1);
-      val = val.replace(/\\n/g, '\n').replace(/\\"/g, '"').replace(/\\\\/g, '\\');
-    }
-    if (/^-?\d+$/.test(val)) {
-      return parseInt(val, 10);
-    }
-    if (val === 'true') return true;
-    if (val === 'false') return false;
-    return val;
+    return (yaml.load(content) as Partial<Card>[]) || [];
   }
 
   // IndexedDB storage
