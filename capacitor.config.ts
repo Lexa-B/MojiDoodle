@@ -1,7 +1,7 @@
 import type { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'com.lexab.mojidoodle',
+  appId: 'ai.mojidoodle.app',
   appName: 'MojiDoodle',
   webDir: 'www'
 };

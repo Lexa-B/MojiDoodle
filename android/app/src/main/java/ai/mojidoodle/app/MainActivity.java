@@ -1,4 +1,4 @@
-package com.lexab.mojidoodle;
+package ai.mojidoodle.app;
 
 import com.getcapacitor.BridgeActivity;
 

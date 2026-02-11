@@ -31,7 +31,7 @@ ionic capacitor open ios       # Open in Xcode
 ## Architecture
 
 **Stack**: Ionic 8 / Angular 20 / Capacitor 8 / sql.js
-**App ID**: `com.lexab.mojidoodle`
+**App ID**: `ai.mojidoodle.app`
 
 ### Key Paths
 
