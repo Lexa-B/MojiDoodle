@@ -21,6 +21,7 @@ export class SettingsPage implements OnInit {
     { id: 'wanikani', label: 'WaniKani Lessons' },
     { id: 'joyo-kanji', label: 'Jōyō Kanji' },
     { id: 'jinmeiyo-kanji', label: 'Jinmeiyō Kanji' },
+    { id: 'hyogai-kanji', label: 'Hyōgai Kanji' },
     { id: 'common-katakana-words', label: 'Common Katakana Words' },
   ];
 
