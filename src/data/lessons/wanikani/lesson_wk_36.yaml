@@ -1,0 +1,49 @@
+# WaniKani Level 36 Kanji
+# 38 kanji characters
+
+id: wk_36
+name: "WaniKani Level 36"
+status: locked
+requires:
+  - wk_35
+supercedes: []
+
+ids:
+  - k-joyo-8afe  # 諾 Agreement
+  - k-joyo-76df  # 盟 Alliance
+  - k-joyo-5c06  # 将 Commander
+  - k-joyo-821e  # 舞 Dance
+  - k-joyo-50b5  # 債 Debt
+  - k-joyo-4f0e  # 伎 Deed
+  - k-joyo-9e7f  # 鹿 Deer
+  - k-joyo-63db  # 換 Exchange
+  - k-joyo-59d3  # 姓 Family Name
+  - k-joyo-7259  # 牙 Fang
+  - k-joyo-65e7  # 旧 Former
+  - k-hyogai-7092  # 炒 Fry
+  - k-joyo-822c  # 般 Generally
+  - k-joyo-6d25  # 津 Harbor
+  - k-joyo-7642  # 療 Heal
+  - k-joyo-7d99  # 継 Inherit
+  - k-joyo-907a  # 遺 Leave Behind
+  - k-joyo-7dad  # 維 Maintain
+  - k-joyo-5948  # 奈 Nara
+  - k-joyo-6838  # 核 Nucleus
+  - k-joyo-5ec3  # 廃 Obsolete
+  - k-joyo-732e  # 献 Offer
+  - k-joyo-6c96  # 沖 Open Sea
+  - k-joyo-6f2c  # 漬 Pickle
+  - k-joyo-6458  # 摘 Pluck
+  - k-joyo-53ca  # 及 Reach
+  - k-joyo-4f9d  # 依 Reliant
+  - k-joyo-7e04  # 縄 Rope
+  - k-hyogai-9bad  # 鮭 Salmon
+  - k-joyo-8e0f  # 踏 Step
+  - k-joyo-4f38  # 伸 Stretch
+  - k-joyo-7518  # 甘 Sweet
+  - k-joyo-8cbf  # 貿 Trade
+  - k-joyo-983c  # 頼 Trust
+  - k-joyo-8d85  # 超 Ultra
+  - k-joyo-53d4  # 叔 Uncle
+  - k-joyo-6e67  # 湧 Well Up
+  - k-joyo-5e45  # 幅 Width

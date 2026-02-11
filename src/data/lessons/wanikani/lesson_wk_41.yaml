@@ -1,0 +1,44 @@
+# WaniKani Level 41 Kanji
+# 33 kanji characters
+
+id: wk_41
+name: "WaniKani Level 41"
+status: locked
+requires:
+  - wk_40
+supercedes: []
+
+ids:
+  - k-joyo-68c4  # 棄 Abandon
+  - k-joyo-51c4  # 凄 Amazing
+  - k-joyo-81f3  # 至 Attain
+  - k-joyo-62e0  # 拠 Based On
+  - k-joyo-8702  # 蜂 Bee
+  - k-joyo-5100  # 儀 Ceremony
+  - k-joyo-70ad  # 炭 Charcoal
+  - k-joyo-6f5c  # 潜 Conceal
+  - k-joyo-507d  # 偽 Fake
+  - k-joyo-7551  # 畑 Field
+  - k-joyo-86cd  # 蛍 Firefly
+  - k-joyo-62f3  # 拳 Fist
+  - k-joyo-914e  # 酎 Hard Liquor
+  - k-joyo-90f7  # 郷 Hometown
+  - k-joyo-871c  # 蜜 Honey
+  - k-joyo-4ec1  # 仁 Humanity
+  - k-joyo-905c  # 遜 Humble
+  - k-joyo-4f3a  # 伺 Inquire
+  - k-joyo-4fb5  # 侵 Invade
+  - k-hyogai-5618  # 嘘 Lie
+  - k-joyo-9271  # 鉱 Mineral
+  - k-jinmeiyo-55a7  # 喧 Noisy
+  - k-joyo-5fb9  # 徹 Penetrate
+  - k-joyo-702c  # 瀬 Rapids
+  - k-jinmeiyo-5629  # 嘩 Rowdy
+  - k-hyogai-589f  # 墟 Ruins
+  - k-joyo-63aa  # 措 Set Aside
+  - k-joyo-8aa0  # 誠 Sincerity
+  - k-joyo-864e  # 虎 Tiger
+  - k-joyo-8266  # 艦 Warship
+  - k-joyo-64a4  # 撤 Withdrawal
+  - k-joyo-6a39  # 樹 Wood
+  - k-joyo-5305  # 包 Wrap

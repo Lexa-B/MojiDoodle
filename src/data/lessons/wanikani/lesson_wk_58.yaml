@@ -1,0 +1,44 @@
+# WaniKani Level 58 Kanji
+# 33 kanji characters
+
+id: wk_58
+name: "WaniKani Level 58"
+status: locked
+requires:
+  - wk_57
+supercedes: []
+
+ids:
+  - k-joyo-966a  # 陪 Accompany
+  - k-joyo-6276  # 扶 Aid
+  - k-joyo-8fed  # 迭 Alternate
+  - k-joyo-9d8f  # 鶏 Chicken
+  - k-jinmeiyo-745e  # 瑞 Congratulations
+  - k-joyo-6681  # 暁 Dawn
+  - k-joyo-5256  # 剖 Divide
+  - k-jinmeiyo-51cc  # 凌 Endure
+  - k-joyo-85e9  # 藩 Fiefdom
+  - k-joyo-8b5c  # 譜 Genealogy
+  - k-joyo-7483  # 璃 Glassy
+  - k-joyo-6dd1  # 淑 Graceful
+  - k-joyo-5091  # 傑 Greatness
+  - k-joyo-6bbb  # 殻 Husk
+  - k-joyo-7460  # 瑠 Lapis Lazuli
+  - k-joyo-9320  # 錠 Lock
+  - k-joyo-5a92  # 媒 Mediator
+  - k-joyo-6fc1  # 濁 Muddy
+  - k-joyo-8d66  # 赦 Pardon
+  - k-joyo-622f  # 戯 Play
+  - k-joyo-4eab  # 享 Receive
+  - k-joyo-5631  # 嘱 Request
+  - k-joyo-8096  # 肖 Resemblance
+  - k-joyo-61a4  # 憤 Resent
+  - k-joyo-673d  # 朽 Rot
+  - k-joyo-5954  # 奔 Run
+  - k-joyo-5e06  # 帆 Sail
+  - k-jinmeiyo-83c5  # 菅 Sedge
+  - k-joyo-914c  # 酌 Serve
+  - k-joyo-6168  # 慨 Sigh
+  - k-joyo-690e  # 椎 Spine
+  - k-joyo-7a83  # 窃 Steal
+  - k-joyo-786b  # 硫 Sulfur

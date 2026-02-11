@@ -151,7 +151,7 @@ Access Settings from the menu (☰) to:
 - **Restore Progress** - Load progress from a backup file
 - **Themes** - Choose a workbook theme. "Simple Dark" uses shodo-style velocity-based brush strokes with harai flicks. "Dark Candy Cane" uses uniform fixed-width strokes with alternating colors to show lasso and character assignments.
 - **Pause Decks** - Toggle individual card categories on/off. Paused decks won't appear in the workbook, but your progress is preserved. Useful when you want to focus on specific decks without being interrupted by others.
-- **Reset Progression** - Start over with a specific category (Hiragana, Katakana, Genki Vocabulary, WaniKani Lessons, Jōyō Kanji, Jinmeiyō Kanji, or Common Katakana Words)
+- **Reset Progression** - Start over with a specific category (Hiragana, Katakana, Genki Vocabulary, WaniKani Lessons, Jōyō Kanji, Jinmeiyō Kanji, Hyōgai Kanji, or Common Katakana Words)
 - **Cheat Codes** - Developer tool for testing. Enter a code and submit to trigger special actions.
 
 ## Run locally

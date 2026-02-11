@@ -67,6 +67,13 @@ packs:
       - kanji_jinmeiyo/kanji_jinmeiyo_gr9.yaml
       - kanji_jinmeiyo/kanji_jinmeiyo_gr10.yaml
 
+  - id: hyogai-kanji
+    name: Hyōgai Kanji
+    description: Kanji outside the jōyō and jinmeiyō lists (used by WaniKani)
+    category: hyogai-kanji
+    files:
+      - kanji_hyogai/kanji_hyogai_01.yaml
+
   - id: common-katakana-words
     name: Common Katakana Words
     description: Frequently used loanwords from BCCWJ corpus

@@ -1,0 +1,43 @@
+# WaniKani Level 27 Kanji
+# 32 kanji characters
+
+id: wk_27
+name: "WaniKani Level 27"
+status: locked
+requires:
+  - wk_26
+supercedes: []
+
+ids:
+  - k-joyo-6012  # 怒 Angry
+  - k-joyo-6607  # 昇 Ascend
+  - k-joyo-8ff7  # 迷 Astray
+  - k-joyo-62db  # 招 Beckon
+  - k-joyo-8179  # 腹 Belly
+  - k-joyo-6fc3  # 濃 Dense
+  - k-joyo-7761  # 睡 Drowsy
+  - k-joyo-5eb7  # 康 Ease
+  - k-joyo-7aef  # 端 Edge
+  - k-joyo-6975  # 極 Extreme
+  - k-joyo-5c31  # 就 Get A Position
+  - k-joyo-90ce  # 郎 Guy
+  - k-joyo-5065  # 健 Healthy
+  - k-joyo-8a98  # 誘 Invite
+  - k-joyo-8cb8  # 貸 Lend
+  - k-joyo-61a7  # 憧 Long For
+  - k-joyo-60d1  # 惑 Misguided
+  - k-joyo-75db  # 痛 Pain
+  - k-joyo-9000  # 退 Retreat
+  - k-joyo-9014  # 途 Route
+  - k-joyo-9774  # 靴 Shoes
+  - k-joyo-7720  # 眠 Sleep
+  - k-joyo-6687  # 暇 Spare Time
+  - k-joyo-6bb5  # 段 Steps
+  - k-joyo-80c3  # 胃 Stomach
+  - k-joyo-75c7  # 症 Symptom
+  - k-joyo-7de0  # 締 Tighten
+  - k-joyo-8feb  # 迫 Urge
+  - k-joyo-8a2a  # 訪 Visit
+  - k-joyo-7e54  # 織 Weave
+  - k-joyo-60a9  # 悩 Worry
+  - k-joyo-5c48  # 屈 Yield

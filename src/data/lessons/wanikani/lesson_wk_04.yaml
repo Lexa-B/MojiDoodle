@@ -1,0 +1,50 @@
+# WaniKani Level 4 Kanji
+# 39 kanji characters
+
+id: wk_04
+name: "WaniKani Level 4"
+status: locked
+requires:
+  - wk_03
+supercedes: []
+
+ids:
+  - k-joyo-7af9  # 竹 Bamboo
+  - k-joyo-8eca  # 車 Car
+  - k-joyo-592e  # 央 Center
+  - k-joyo-5199  # 写 Copy
+  - k-joyo-4ed5  # 仕 Doing
+  - k-joyo-8033  # 耳 Ear
+  - k-joyo-65e9  # 早 Early
+  - k-joyo-6c17  # 気 Energy
+  - k-joyo-5e73  # 平 Flat
+  - k-joyo-82b1  # 花 Flower
+  - k-joyo-8db3  # 足 Foot
+  - k-joyo-6253  # 打 Hit
+  - k-joyo-7a74  # 穴 Hole
+  - k-joyo-767e  # 百 Hundred
+  - k-joyo-6c37  # 氷 Ice
+  - k-joyo-866b  # 虫 Insect
+  - k-joyo-7537  # 男 Man
+  - k-joyo-4e3b  # 主 Master
+  - k-joyo-540d  # 名 Name
+  - k-joyo-4e0d  # 不 Not
+  - k-joyo-53f7  # 号 Number
+  - k-joyo-5143  # 元 Origin
+  - k-joyo-4ed6  # 他 Other
+  - k-joyo-53bb  # 去 Past
+  - k-joyo-76bf  # 皿 Plate
+  - k-joyo-5148  # 先 Previous
+  - k-joyo-8d64  # 赤 Red
+  - k-joyo-4f11  # 休 Rest
+  - k-joyo-7533  # 申 Say Humbly
+  - k-joyo-898b  # 見 See
+  - k-joyo-8c9d  # 貝 Shellfish
+  - k-joyo-77f3  # 石 Stone
+  - k-joyo-793c  # 礼 Thanks
+  - k-joyo-7cf8  # 糸 Thread
+  - k-joyo-753a  # 町 Town
+  - k-joyo-5b9d  # 宝 Treasure
+  - k-joyo-6751  # 村 Village
+  - k-joyo-4e16  # 世 World
+  - k-joyo-5e74  # 年 Year

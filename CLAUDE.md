@@ -61,6 +61,7 @@ src/
 │   │   ├── genki/               # Genki textbook vocabulary
 │   │   ├── kanji_joyo/          # Jōyō Kanji (grades 1-6, 8)
 │   │   ├── kanji_jinmeiyo/      # Jinmeiyō Kanji (grades 9-10)
+│   │   ├── kanji_hyogai/        # Hyōgai Kanji (outside jōyō/jinmeiyō, used by WaniKani)
 │   │   └── common_katakana_words/ # BCCWJ loanwords (40 levels)
 │   ├── lessons/
 │   │   ├── manifest.yaml        # Lesson pack definitions
@@ -142,7 +143,7 @@ The app uses a hybrid YAML → JSON → SQLite architecture:
   - Pause Decks: toggles to hide/unhide all cards in a category from workbook circulation
   - Reset Progression: buttons to reset each category (cards and associated lessons) to original values
   - Cheat Codes: text input + submit button for developer testing (uses CheatCodesService)
-  - Categories: hiragana, katakana, genki, wanikani, joyo-kanji, jinmeiyo-kanji, common-katakana-words
+  - Categories: hiragana, katakana, genki, wanikani, joyo-kanji, jinmeiyo-kanji, hyogai-kanji, common-katakana-words
 
 ### Services
 

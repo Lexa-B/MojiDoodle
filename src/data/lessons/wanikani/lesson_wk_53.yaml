@@ -1,0 +1,45 @@
+# WaniKani Level 53 Kanji
+# 34 kanji characters
+
+id: wk_53
+name: "WaniKani Level 53"
+status: locked
+requires:
+  - wk_52
+supercedes: []
+
+ids:
+  - k-joyo-8aed  # 諭 Admonish
+  - k-joyo-968f  # 随 All
+  - k-jinmeiyo-80e1  # 胡 Barbarian
+  - k-joyo-642d  # 搭 Board
+  - k-joyo-9326  # 錦 Brocade
+  - k-jinmeiyo-9bc9  # 鯉 Carp
+  - k-joyo-80de  # 胞 Cell
+  - k-joyo-6d44  # 浄 Cleanse
+  - k-joyo-5e25  # 帥 Commander
+  - k-jinmeiyo-8ad2  # 諒 Comprehend
+  - k-jinmeiyo-8499  # 蒙 Darkness
+  - k-jinmeiyo-66d9  # 曙 Dawn
+  - k-joyo-60e8  # 惨 Disaster
+  - k-joyo-7a3f  # 稿 Draft
+  - k-joyo-5553  # 啓 Enlighten
+  - k-joyo-62ab  # 披 Expose
+  - k-joyo-7e4a  # 繊 Fiber
+  - k-joyo-5f90  # 徐 Gently
+  - k-jinmeiyo-8475  # 葵 Hollyhock
+  - k-joyo-9a30  # 騰 Inflation
+  - k-joyo-636e  # 据 Install
+  - k-jinmeiyo-8389  # 莉 Jasmine
+  - k-joyo-7def  # 緯 Latitude
+  - k-jinmeiyo-74dc  # 瓜 Melon
+  - k-joyo-8650  # 虐 Oppress
+  - k-joyo-6234  # 戴 Receive
+  - k-joyo-8247  # 艇 Rowboat
+  - k-joyo-4e39  # 丹 Rust Colored
+  - k-jinmeiyo-7dcb  # 緋 Scarlet
+  - k-joyo-8217  # 舗 Shop
+  - k-joyo-58cc  # 壌 Soil
+  - k-jinmeiyo-99ff  # 駿 Speed
+  - k-joyo-5270  # 剰 Surplus
+  - k-joyo-5bdb  # 寛 Tolerance

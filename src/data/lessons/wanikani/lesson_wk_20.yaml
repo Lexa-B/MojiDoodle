@@ -1,0 +1,43 @@
+# WaniKani Level 20 Kanji
+# 32 kanji characters
+
+id: wk_20
+name: "WaniKani Level 20"
+status: locked
+requires:
+  - wk_19
+supercedes: []
+
+ids:
+  - k-joyo-88d5  # 裕 Abundant
+  - k-joyo-5c3b  # 尻 Butt
+  - k-joyo-78ba  # 確 Certain
+  - k-joyo-68b0  # 械 Contraption
+  - k-joyo-88ab  # 被 Cover
+  - k-joyo-72af  # 犯 Crime
+  - k-joyo-5bb3  # 害 Damage
+  - k-joyo-8b70  # 議 Deliberation
+  - k-joyo-96e3  # 難 Difficult
+  - k-joyo-707d  # 災 Disaster
+  - k-joyo-5acc  # 嫌 Dislike
+  - k-joyo-56f0  # 困 Distressed
+  - k-joyo-5922  # 夢 Dream
+  - k-joyo-9707  # 震 Earthquake
+  - k-joyo-5728  # 在 Exist
+  - k-joyo-98db  # 飛 Fly
+  - k-joyo-7523  # 産 Give Birth
+  - k-joyo-7f6a  # 罪 Guilt
+  - k-joyo-500b  # 個 Individual
+  - k-joyo-6a5f  # 機 Machine
+  - k-joyo-5012  # 倒 Overthrow
+  - k-joyo-7d4c  # 経 Passage Of Time
+  - k-joyo-7387  # 率 Percent
+  - k-joyo-5727  # 圧 Pressure
+  - k-joyo-9632  # 防 Prevent
+  - k-joyo-523a  # 刺 Stab
+  - k-joyo-81ed  # 臭 Stinking
+  - k-joyo-4f59  # 余 Surplus
+  - k-joyo-5c3e  # 尾 Tail
+  - k-joyo-8ad6  # 論 Theory
+  - k-joyo-539a  # 厚 Thick
+  - k-joyo-59bb  # 妻 Wife

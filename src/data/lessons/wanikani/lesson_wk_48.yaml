@@ -1,0 +1,48 @@
+# WaniKani Level 48 Kanji
+# 37 kanji characters
+
+id: wk_48
+name: "WaniKani Level 48"
+status: locked
+requires:
+  - wk_47
+supercedes: []
+
+ids:
+  - k-joyo-9042  # 遂 Accomplish
+  - k-joyo-84c4  # 蓄 Amass
+  - k-joyo-8107  # 脇 Armpit
+  - k-joyo-54b2  # 咲 Blossom
+  - k-joyo-8ce2  # 賢 Clever
+  - k-joyo-5f69  # 彩 Coloring
+  - k-joyo-9699  # 隙 Crevice
+  - k-joyo-57f9  # 培 Cultivate
+  - k-joyo-8e0a  # 踊 Dance
+  - k-joyo-95c7  # 闇 Darkness
+  - k-joyo-659c  # 斜 Diagonal
+  - k-joyo-9262  # 鉢 Flower Pot
+  - k-joyo-971c  # 霜 Frost
+  - k-joyo-7a6b  # 穫 Harvest
+  - k-joyo-9ebb  # 麻 Hemp
+  - k-joyo-9a0e  # 騎 Horse Riding
+  - k-joyo-8fb1  # 辱 Humiliate
+  - k-joyo-706f  # 灯 Lamp
+  - k-joyo-755c  # 畜 Livestock
+  - k-joyo-6eb6  # 溶 Melt
+  - k-joyo-868a  # 蚊 Mosquito
+  - k-joyo-5e33  # 帳 Notebook
+  - k-joyo-5857  # 塗 Paint
+  - k-joyo-8cbc  # 貼 Paste
+  - k-joyo-6bb4  # 殴 Punch
+  - k-joyo-8f1d  # 輝 Radiance
+  - k-joyo-61b6  # 憶 Recollection
+  - k-joyo-6094  # 悔 Regret
+  - k-joyo-8010  # 耐 Resistant
+  - k-joyo-76fe  # 盾 Shield
+  - k-joyo-86c7  # 蛇 Snake
+  - k-joyo-73ed  # 班 Squad
+  - k-joyo-9913  # 餓 Starve
+  - k-joyo-98e2  # 飢 Starve
+  - k-joyo-8fc5  # 迅 Swift
+  - k-joyo-8105  # 脅 Threaten
+  - k-joyo-5c3d  # 尽 Use Up

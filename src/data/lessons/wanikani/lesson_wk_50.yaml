@@ -1,0 +1,45 @@
+# WaniKani Level 50 Kanji
+# 34 kanji characters
+
+id: wk_50
+name: "WaniKani Level 50"
+status: locked
+requires:
+  - wk_49
+supercedes: []
+
+ids:
+  - k-joyo-5076  # 偶 Accidentally
+  - k-joyo-5de7  # 巧 Adept
+  - k-hyogai-9c10  # 鰐 Alligator
+  - k-joyo-628a  # 把 Bundle
+  - k-joyo-99c4  # 駄 Burdensome
+  - k-joyo-6d1e  # 洞 Cave
+  - k-joyo-4f2f  # 伯 Chief
+  - k-joyo-5510  # 唐 China
+  - k-joyo-5f70  # 彰 Clear
+  - k-joyo-6f2b  # 漫 Comic
+  - k-joyo-8aee  # 諮 Consult
+  - k-joyo-5ef7  # 廷 Courts
+  - k-jinmeiyo-87f9  # 蟹 Crab
+  - k-jinmeiyo-5830  # 堰 Dam
+  - k-joyo-6f02  # 漂 Drift
+  - k-jinmeiyo-6dc0  # 淀 Eddy
+  - k-joyo-5824  # 堤 Embankment
+  - k-joyo-540e  # 后 Empress
+  - k-joyo-75ab  # 疫 Epidemic
+  - k-joyo-7ffb  # 翻 Flip
+  - k-joyo-9b31  # 鬱 Gloom
+  - k-joyo-6daf  # 涯 Horizon
+  - k-joyo-9298  # 銘 Inscription
+  - k-joyo-4ef0  # 仰 Look Up To
+  - k-joyo-7c3f  # 簿 Record Book
+  - k-joyo-4ead  # 亭 Restaurant
+  - k-joyo-8a02  # 訂 Revise
+  - k-joyo-58ee  # 壮 Robust
+  - k-joyo-8ecc  # 軌 Rut
+  - k-joyo-596e  # 奮 Stirred Up
+  - k-joyo-5cf0  # 峰 Summit
+  - k-joyo-58b3  # 墳 Tomb
+  - k-joyo-642c  # 搬 Transport
+  - k-joyo-90aa  # 邪 Wicked

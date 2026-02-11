@@ -1,0 +1,42 @@
+# WaniKani Level 18 Kanji
+# 31 kanji characters
+
+id: wk_18
+name: "WaniKani Level 18"
+status: locked
+requires:
+  - wk_17
+supercedes: []
+
+ids:
+  - k-joyo-544a  # 告 Announce
+  - k-joyo-9054  # 達 Attain
+  - k-joyo-713c  # 焼 Bake
+  - k-joyo-501f  # 借 Borrow
+  - k-joyo-5f13  # 弓 Bow
+  - k-joyo-8133  # 脳 Brain
+  - k-hyogai-98f4  # 飴 Candy
+  - k-joyo-80f8  # 胸 Chest
+  - k-hyogai-7e4b  # 繋 Connect
+  - k-joyo-55ab  # 喫 Consume
+  - k-joyo-7b49  # 等 Equal
+  - k-joyo-679a  # 枚 Flat Object Counter
+  - k-joyo-5fd8  # 忘 Forget
+  - k-joyo-82db  # 苛 Frustration
+  - k-joyo-8a13  # 訓 Instruction
+  - k-joyo-7a2e  # 種 Kind
+  - k-joyo-5831  # 報 News
+  - k-joyo-53e5  # 句 Paragraph
+  - k-joyo-8a31  # 許 Permit
+  - k-joyo-53ef  # 可 Possible
+  - k-joyo-50e7  # 僧 Priest
+  - k-joyo-7981  # 禁 Prohibit
+  - k-joyo-9759  # 静 Quiet
+  - k-joyo-5ea7  # 座 Sit
+  - k-joyo-7159  # 煙 Smoke
+  - k-joyo-6c7d  # 汽 Steam
+  - k-hyogai-53e9  # 叩 Tap
+  - k-joyo-5589  # 喉 Throat
+  - k-joyo-985e  # 類 Type
+  - k-joyo-6d17  # 洗 Wash
+  - k-joyo-7985  # 禅 Zen

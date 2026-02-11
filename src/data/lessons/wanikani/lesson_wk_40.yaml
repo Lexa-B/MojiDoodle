@@ -1,0 +1,47 @@
+# WaniKani Level 40 Kanji
+# 36 kanji characters
+
+id: wk_40
+name: "WaniKani Level 40"
+status: locked
+requires:
+  - wk_39
+supercedes: []
+
+ids:
+  - k-joyo-62c9  # 拉 Abduct
+  - k-joyo-654f  # 敏 Alert
+  - k-joyo-5439  # 吹 Blow
+  - k-joyo-5531  # 唱 Chant
+  - k-joyo-885d  # 衝 Collide
+  - k-joyo-6212  # 戒 Commandment
+  - k-joyo-517c  # 兼 Concurrently
+  - k-joyo-8584  # 薄 Dilute
+  - k-joyo-5800  # 堀 Ditch
+  - k-joyo-5264  # 剤 Dose
+  - k-joyo-96c5  # 雅 Elegant
+  - k-joyo-6392  # 排 Emit
+  - k-joyo-5b5d  # 孝 Filial Piety
+  - k-joyo-983b  # 頻 Frequent
+  - k-joyo-99c6  # 駆 Gallop
+  - k-joyo-4fca  # 俊 Genius
+  - k-jinmeiyo-5b09  # 嬉 Glad
+  - k-joyo-8a89  # 誉 Honor
+  - k-joyo-8302  # 茂 Luxuriant
+  - k-joyo-6bbf  # 殿 Milord
+  - k-joyo-6b96  # 殖 Multiply
+  - k-joyo-96a3  # 隣 Neighbor
+  - k-joyo-9eba  # 麺 Noodles
+  - k-joyo-7e41  # 繁 Overgrown
+  - k-joyo-5de1  # 巡 Patrol
+  - k-joyo-67f1  # 柱 Pillar
+  - k-joyo-643a  # 携 Portable
+  - k-joyo-8912  # 褒 Praise
+  - k-joyo-99d0  # 駐 Resident
+  - k-joyo-9867  # 顧 Review
+  - k-joyo-72a0  # 犠 Sacrifice
+  - k-joyo-7372  # 獲 Seize
+  - k-joyo-92ed  # 鋭 Sharp
+  - k-joyo-6577  # 敷 Spread
+  - k-joyo-5996  # 妖 Supernatural
+  - k-joyo-900f  # 透 Transparent

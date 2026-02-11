@@ -1,0 +1,45 @@
+# WaniKani Level 32 Kanji
+# 34 kanji characters
+
+id: wk_32
+name: "WaniKani Level 32"
+status: locked
+requires:
+  - wk_31
+supercedes: []
+
+ids:
+  - k-joyo-7e3e  # 績 Achievement
+  - k-joyo-9178  # 酸 Acid
+  - k-joyo-8cdb  # 賛 Agree
+  - k-joyo-7956  # 祖 Ancestor
+  - k-joyo-92ad  # 銭 Coin
+  - k-joyo-885b  # 衛 Defense
+  - k-joyo-673a  # 机 Desk
+  - k-joyo-6c5a  # 汚 Dirty
+  - k-joyo-98fc  # 飼 Domesticate
+  - k-joyo-8907  # 複 Duplicate
+  - k-joyo-67d3  # 染 Dye
+  - k-joyo-5375  # 卵 Egg
+  - k-joyo-6c38  # 永 Eternity
+  - k-joyo-773c  # 眼 Eyeball
+  - k-joyo-6db2  # 液 Fluid
+  - k-joyo-63a1  # 採 Gather
+  - k-joyo-5fd7  # 志 Intention
+  - k-joyo-8208  # 興 Interest
+  - k-joyo-8fbc  # 込 Into
+  - k-joyo-6069  # 恩 Kindness
+  - k-joyo-4e45  # 久 Long Time
+  - k-joyo-515a  # 党 Party
+  - k-joyo-5e8f  # 序 Preface
+  - k-joyo-96d1  # 雑 Random
+  - k-joyo-685c  # 桜 Sakura
+  - k-joyo-5bc6  # 密 Secrecy
+  - k-joyo-79d8  # 秘 Secret
+  - k-joyo-53b3  # 厳 Strict
+  - k-joyo-6368  # 捨 Throw Away
+  - k-joyo-8a33  # 訳 Translation
+  - k-joyo-6b32  # 欲 Want
+  - k-joyo-6696  # 暖 Warm
+  - k-joyo-8fce  # 迎 Welcome
+  - k-joyo-50b7  # 傷 Wound

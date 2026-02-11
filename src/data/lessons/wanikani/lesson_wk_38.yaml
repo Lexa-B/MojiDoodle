@@ -1,0 +1,46 @@
+# WaniKani Level 38 Kanji
+# 35 kanji characters
+
+id: wk_38
+name: "WaniKani Level 38"
+status: locked
+requires:
+  - wk_37
+supercedes: []
+
+ids:
+  - k-joyo-4f34  # 伴 Accompany
+  - k-joyo-9f62  # 齢 Age
+  - k-joyo-5b9c  # 宜 Best Regards
+  - k-hyogai-565b  # 噛 Bite
+  - k-joyo-8cc4  # 賄 Bribe
+  - k-joyo-8cc2  # 賂 Bribe
+  - k-joyo-623f  # 房 Cluster
+  - k-joyo-616e  # 慮 Consider
+  - k-joyo-8a17  # 託 Consign
+  - k-joyo-5374  # 却 Contrary
+  - k-joyo-7dd2  # 緒 Cord
+  - k-joyo-9700  # 需 Demand
+  - k-joyo-74a7  # 璧 Disc
+  - k-joyo-81f4  # 致 Do
+  - k-joyo-907f  # 避 Dodge
+  - k-joyo-63cf  # 描 Draw
+  - k-joyo-520a  # 刊 Edition
+  - k-joyo-9003  # 逃 Escape
+  - k-joyo-6271  # 扱 Handle
+  - k-joyo-5965  # 奥 Interior
+  - k-joyo-4f75  # 併 Join
+  - k-joyo-819d  # 膝 Knee
+  - k-joyo-50be  # 傾 Lean
+  - k-joyo-7de9  # 緩 Loose
+  - k-joyo-594f  # 奏 Play Music
+  - k-joyo-5a20  # 娠 Pregnant
+  - k-joyo-598a  # 妊 Pregnant
+  - k-joyo-8d08  # 贈 Presents
+  - k-joyo-629e  # 択 Select
+  - k-joyo-9084  # 還 Send Back
+  - k-joyo-7e70  # 繰 Spin
+  - k-joyo-6291  # 抑 Suppress
+  - k-joyo-61f8  # 懸 Suspend
+  - k-joyo-79f0  # 称 Title
+  - k-joyo-76e4  # 盤 Tray

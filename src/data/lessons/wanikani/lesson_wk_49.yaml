@@ -1,0 +1,46 @@
+# WaniKani Level 49 Kanji
+# 35 kanji characters
+
+id: wk_49
+name: "WaniKani Level 49"
+status: locked
+requires:
+  - wk_48
+supercedes: []
+
+ids:
+  - k-joyo-6982  # 概 Approximation
+  - k-joyo-62d8  # 拘 Arrest
+  - k-joyo-716e  # 煮 Boil
+  - k-joyo-8986  # 覆 Capsize
+  - k-joyo-99d2  # 駒 Chess Piece
+  - k-joyo-614c  # 慌 Confused
+  - k-joyo-8b00  # 謀 Conspire
+  - k-joyo-9db4  # 鶴 Crane
+  - k-joyo-62d3  # 拓 Cultivation
+  - k-joyo-8870  # 衰 Decline
+  - k-joyo-5968  # 奨 Encourage
+  - k-joyo-62bd  # 抽 Extract
+  - k-joyo-6de1  # 淡 Faint
+  - k-joyo-790e  # 礎 Foundation
+  - k-joyo-965b  # 陛 Highness
+  - k-joyo-6d78  # 浸 Immersed
+  - k-joyo-52a3  # 劣 Inferiority
+  - k-joyo-52d8  # 勘 Intuition
+  - k-joyo-9694  # 隔 Isolate
+  - k-joyo-8e74  # 蹴 Kick
+  - k-joyo-6851  # 桑 Mulberry
+  - k-joyo-5c3c  # 尼 Nun
+  - k-joyo-73e0  # 珠 Pearl
+  - k-joyo-58c7  # 壇 Podium
+  - k-joyo-9676  # 陶 Pottery
+  - k-joyo-5208  # 刈 Prune
+  - k-joyo-609f  # 悟 Realize
+  - k-joyo-5983  # 妃 Royal Consort
+  - k-joyo-51c6  # 准 Semi
+  - k-joyo-552f  # 唯 Solely
+  - k-joyo-525b  # 剛 Sturdy
+  - k-joyo-5f81  # 征 Subjugate
+  - k-joyo-8a93  # 誓 Vow
+  - k-joyo-4fd7  # 俗 Vulgar
+  - k-joyo-6f64  # 潤 Watered

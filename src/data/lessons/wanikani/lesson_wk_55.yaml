@@ -1,0 +1,47 @@
+# WaniKani Level 55 Kanji
+# 36 kanji characters
+
+id: wk_55
+name: "WaniKani Level 55"
+status: locked
+requires:
+  - wk_54
+supercedes: []
+
+ids:
+  - k-joyo-7d2f  # 累 Accumulate
+  - k-joyo-4f0f  # 伏 Bow
+  - k-joyo-865c  # 虜 Captive
+  - k-joyo-5faa  # 循 Circulation
+  - k-joyo-7c97  # 粗 Coarse
+  - k-joyo-51dd  # 凝 Congeal
+  - k-joyo-6813  # 栓 Cork
+  - k-jinmeiyo-745b  # 瑛 Crystal
+  - k-joyo-65e6  # 旦 Dawn
+  - k-joyo-5949  # 奉 Dedicate
+  - k-jinmeiyo-907c  # 遼 Distant
+  - k-joyo-90ed  # 郭 Enclosure
+  - k-joyo-62b9  # 抹 Erase
+  - k-joyo-4f73  # 佳 Excellent
+  - k-joyo-60dc  # 惜 Frugal
+  - k-joyo-6182  # 憂 Grief
+  - k-joyo-60bc  # 悼 Grieve
+  - k-joyo-7652  # 癒 Healing
+  - k-joyo-6803  # 栃 Horse Chestnut
+  - k-jinmeiyo-9f8d  # 龍 Imperial
+  - k-joyo-5f25  # 弥 Increasing
+  - k-joyo-9ac4  # 髄 Marrow
+  - k-jinmeiyo-52ff  # 勿 Must Not
+  - k-joyo-508d  # 傍 Nearby
+  - k-joyo-6109  # 愉 Pleasant
+  - k-joyo-8d74  # 赴 Proceed
+  - k-jinmeiyo-660c  # 昌 Prosperous
+  - k-joyo-61be  # 憾 Remorse
+  - k-joyo-6734  # 朴 Simple
+  - k-joyo-810a  # 脊 Stature
+  - k-joyo-8a72  # 該 The Above
+  - k-jinmeiyo-4e4b  # 之 This
+  - k-joyo-93ae  # 鎮 Tranquilize
+  - k-joyo-5c3f  # 尿 Urine
+  - k-joyo-8cd3  # 賓 Vip
+  - k-joyo-90a3  # 那 What

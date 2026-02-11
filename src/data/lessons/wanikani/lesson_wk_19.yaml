@@ -1,0 +1,45 @@
+# WaniKani Level 19 Kanji
+# 34 kanji characters
+
+id: wk_19
+name: "WaniKani Level 19"
+status: locked
+requires:
+  - wk_18
+supercedes: []
+
+ids:
+  - k-joyo-5f97  # 得 Acquire
+  - k-joyo-52a0  # 加 Add
+  - k-joyo-518a  # 冊 Book Counter
+  - k-joyo-57cb  # 埋 Bury
+  - k-joyo-5fd9  # 忙 Busy
+  - k-joyo-95a5  # 閥 Clique
+  - k-joyo-5e03  # 布 Cloth
+  - k-joyo-6b74  # 歴 Continuation
+  - k-joyo-7d9a  # 続 Continue
+  - k-joyo-6e1b  # 減 Decrease
+  - k-joyo-6613  # 易 Easy
+  - k-joyo-7d61  # 絡 Entangle
+  - k-joyo-7b1b  # 笛 Flute
+  - k-joyo-5c65  # 履 Footwear
+  - k-joyo-5bb9  # 容 Form
+  - k-joyo-56e3  # 団 Group
+  - k-joyo-53f2  # 史 History
+  - k-joyo-6606  # 昆 Insect
+  - k-joyo-5f92  # 徒 Junior
+  - k-joyo-5b99  # 宙 Midair
+  - k-joyo-6df7  # 混 Mix
+  - k-joyo-5584  # 善 Morally Good
+  - k-joyo-9806  # 順 Order
+  - k-joyo-5b87  # 宇 Outer Space
+  - k-joyo-8a5e  # 詞 Part Of Speech
+  - k-joyo-828b  # 芋 Potato
+  - k-joyo-6539  # 改 Renew
+  - k-joyo-4e71  # 乱 Riot
+  - k-joyo-7bc0  # 節 Season
+  - k-joyo-9023  # 連 Take Along
+  - k-joyo-820c  # 舌 Tongue
+  - k-joyo-66b4  # 暴 Violence
+  - k-joyo-8ca1  # 財 Wealth
+  - k-joyo-82e5  # 若 Young

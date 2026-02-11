@@ -1,0 +1,44 @@
+# WaniKani Level 33 Kanji
+# 33 kanji characters
+
+id: wk_33
+name: "WaniKani Level 33"
+status: locked
+requires:
+  - wk_32
+supercedes: []
+
+ids:
+  - k-joyo-7070  # 灰 Ash
+  - k-joyo-88c5  # 装 Attire
+  - k-joyo-8457  # 著 Author
+  - k-joyo-88cf  # 裏 Backside
+  - k-joyo-80a1  # 股 Crotch
+  - k-joyo-7570  # 異 Differ
+  - k-joyo-7687  # 皇 Emperor
+  - k-joyo-62e1  # 拡 Extend
+  - k-hyogai-5c41  # 屁 Flatulence
+  - k-joyo-66ae  # 暮 Livelihood
+  - k-joyo-5fe0  # 忠 Loyalty
+  - k-joyo-80ba  # 肺 Lung
+  - k-joyo-8a8c  # 誌 Magazine
+  - k-jinmeiyo-5132  # 儲 Make Money
+  - k-joyo-64cd  # 操 Manipulate
+  - k-joyo-7b4b  # 筋 Muscle
+  - k-joyo-5426  # 否 No
+  - k-joyo-76db  # 盛 Pile
+  - k-joyo-5ba3  # 宣 Proclaim
+  - k-joyo-8cc3  # 賃 Rent
+  - k-joyo-656c  # 敬 Respect
+  - k-joyo-5c0a  # 尊 Revered
+  - k-joyo-719f  # 熟 Ripen
+  - k-jinmeiyo-5642  # 噂 Rumor
+  - k-joyo-7802  # 砂 Sand
+  - k-joyo-7c21  # 簡 Simplicity
+  - k-joyo-50c5  # 僅 Slight
+  - k-joyo-84b8  # 蒸 Steam
+  - k-joyo-8535  # 蔵 Storehouse
+  - k-joyo-7cd6  # 糖 Sugar
+  - k-joyo-7d0d  # 納 Supply
+  - k-joyo-8af8  # 諸 Various
+  - k-joyo-7a93  # 窓 Window

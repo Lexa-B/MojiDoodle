@@ -1,0 +1,50 @@
+# WaniKani Level 25 Kanji
+# 39 kanji characters
+
+id: wk_25
+name: "WaniKani Level 25"
+status: locked
+requires:
+  - wk_24
+supercedes: []
+
+ids:
+  - k-joyo-6163  # 慣 Accustomed
+  - k-joyo-5c45  # 居 Alive
+  - k-joyo-902e  # 逮 Apprehend
+  - k-joyo-7968  # 票 Ballot
+  - k-joyo-5c5e  # 属 Belong
+  - k-joyo-6349  # 捉 Catch
+  - k-joyo-6355  # 捕 Catch
+  - k-joyo-5019  # 候 Climate
+  - k-joyo-8f29  # 輩 Comrade
+  - k-joyo-6cc1  # 況 Condition
+  - k-joyo-6dbc  # 涼 Cool
+  - k-joyo-97ff  # 響 Echo
+  - k-joyo-52b9  # 効 Effective
+  - k-jinmeiyo-83ab  # 莫 Endless
+  - k-joyo-7d76  # 絶 Extinction
+  - k-joyo-9bae  # 鮮 Fresh
+  - k-joyo-6e80  # 満 Full
+  - k-joyo-4e0e  # 与 Give
+  - k-joyo-639b  # 掛 Hang
+  - k-joyo-96a0  # 隠 Hide
+  - k-joyo-6a21  # 模 Imitation
+  - k-joyo-542b  # 含 Include
+  - k-joyo-8a1f  # 訟 Lawsuit
+  - k-joyo-9650  # 限 Limit
+  - k-joyo-80a5  # 肥 Obese
+  - k-joyo-8c4a  # 豊 Plentiful
+  - k-joyo-6804  # 栄 Prosper
+  - k-joyo-629c  # 抜 Pull Out
+  - k-joyo-66ff  # 替 Replace
+  - k-joyo-7d66  # 給 Salary
+  - k-joyo-666f  # 景 Scene
+  - k-joyo-5dfb  # 巻 Scroll
+  - k-joyo-635c  # 捜 Search
+  - k-joyo-69cb  # 構 Set Up
+  - k-joyo-5f71  # 影 Shadow
+  - k-joyo-7d5e  # 絞 Strangle
+  - k-joyo-8a34  # 訴 Sue
+  - k-joyo-88dc  # 補 Supplement
+  - k-joyo-6e21  # 渡 Transit

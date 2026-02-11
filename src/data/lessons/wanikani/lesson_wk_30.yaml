@@ -1,0 +1,44 @@
+# WaniKani Level 30 Kanji
+# 33 kanji characters
+
+id: wk_30
+name: "WaniKani Level 30"
+status: locked
+requires:
+  - wk_29
+supercedes: []
+
+ids:
+  - k-joyo-9b45  # 魅 Alluring
+  - k-joyo-80cc  # 背 Back
+  - k-joyo-9a12  # 騒 Boisterous
+  - k-joyo-98fe  # 飾 Decorate
+  - k-joyo-9810  # 預 Deposit
+  - k-joyo-6e07  # 渇 Dry Up
+  - k-joyo-7248  # 版 Edition
+  - k-joyo-67f5  # 柵 Fence
+  - k-joyo-65d7  # 旗 Flag
+  - k-joyo-6d6e  # 浮 Float
+  - k-joyo-8d8a  # 越 Go Beyond
+  - k-joyo-7167  # 照 Illuminate
+  - k-joyo-6f0f  # 漏 Leak
+  - k-joyo-7cfb  # 系 Lineage
+  - k-joyo-89a7  # 覧 Look At
+  - k-joyo-5a5a  # 婚 Marriage
+  - k-jinmeiyo-59ea  # 姪 Niece
+  - k-joyo-61d0  # 懐 Nostalgia
+  - k-joyo-64ae  # 撮 Photograph
+  - k-joyo-6795  # 枕 Pillow
+  - k-joyo-904a  # 遊 Play
+  - k-joyo-5feb  # 快 Pleasant
+  - k-joyo-8ca7  # 貧 Poor
+  - k-joyo-5ef6  # 延 Prolong
+  - k-joyo-8cfc  # 購 Purchase
+  - k-joyo-62bc  # 押 Push
+  - k-joyo-4e4f  # 乏 Scarce
+  - k-joyo-5302  # 匂 Smell
+  - k-joyo-76d7  # 盗 Steal
+  - k-joyo-9069  # 適 Suitable
+  - k-joyo-7fcc  # 翌 The Next
+  - k-joyo-7b26  # 符 Token
+  - k-jinmeiyo-6fe1  # 濡 Wet

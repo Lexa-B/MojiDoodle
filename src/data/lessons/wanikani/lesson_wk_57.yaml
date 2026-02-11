@@ -1,0 +1,43 @@
+# WaniKani Level 57 Kanji
+# 32 kanji characters
+
+id: wk_57
+name: "WaniKani Level 57"
+status: locked
+requires:
+  - wk_56
+supercedes: []
+
+ids:
+  - k-joyo-76f2  # 盲 Blind
+  - k-joyo-91b8  # 醸 Brew
+  - k-joyo-51f9  # 凹 Concave
+  - k-joyo-5f14  # 弔 Condolence
+  - k-joyo-51f8  # 凸 Convex
+  - k-jinmeiyo-70cf  # 烏 Crow
+  - k-joyo-6562  # 敢 Daring
+  - k-joyo-5815  # 堕 Degradation
+  - k-joyo-9f13  # 鼓 Drum
+  - k-joyo-8861  # 衡 Equilibrium
+  - k-joyo-4f10  # 伐 Fell
+  - k-joyo-9175  # 酵 Fermentation
+  - k-joyo-95b2  # 閲 Inspection
+  - k-joyo-906e  # 遮 Intercept
+  - k-joyo-8178  # 腸 Intestines
+  - k-joyo-4e59  # 乙 Latter
+  - k-jinmeiyo-6953  # 楓 Maple
+  - k-joyo-819c  # 膜 Membrane
+  - k-joyo-7d3a  # 紺 Navy Blue
+  - k-jinmeiyo-84bc  # 蒼 Pale
+  - k-jinmeiyo-54c9  # 哉 Question Mark
+  - k-joyo-5ce1  # 峡 Ravine
+  - k-joyo-8cca  # 賊 Robber
+  - k-joyo-65cb  # 旋 Rotation
+  - k-joyo-4ff8  # 俸 Salary
+  - k-joyo-559d  # 喝 Scold
+  - k-joyo-7f85  # 羅 Spread Out
+  - k-jinmeiyo-840c  # 萌 Sprout
+  - k-joyo-69fd  # 槽 Tank
+  - k-joyo-576a  # 坪 Two Mat Area
+  - k-joyo-904d  # 遍 Universal
+  - k-joyo-80ce  # 胎 Womb

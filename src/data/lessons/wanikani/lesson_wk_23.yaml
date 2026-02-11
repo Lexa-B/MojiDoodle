@@ -1,0 +1,45 @@
+# WaniKani Level 23 Kanji
+# 34 kanji characters
+
+id: wk_23
+name: "WaniKani Level 23"
+status: locked
+requires:
+  - wk_22
+supercedes: []
+
+ids:
+  - k-joyo-6f14  # 演 Acting
+  - k-joyo-547c  # 呼 Call
+  - k-joyo-5d0e  # 崎 Cape
+  - k-joyo-65bd  # 施 Carry Out
+  - k-joyo-57ce  # 城 Castle
+  - k-joyo-8b77  # 護 Defend
+  - k-joyo-9b3c  # 鬼 Demon
+  - k-joyo-5272  # 割 Divide
+  - k-joyo-8077  # 職 Employment
+  - k-joyo-79c0  # 秀 Excel
+  - k-hyogai-8d05  # 贅 Extravagant
+  - k-joyo-4ff3  # 俳 Haiku
+  - k-joyo-505c  # 停 Halt
+  - k-joyo-5b85  # 宅 House
+  - k-hyogai-75d2  # 痒 Itchy
+  - k-joyo-88c1  # 裁 Judge
+  - k-joyo-5f8b  # 律 Law
+  - k-joyo-5c0e  # 導 Lead
+  - k-joyo-9769  # 革 Leather
+  - k-joyo-4e73  # 乳 Milk
+  - k-joyo-53ce  # 収 Obtain
+  - k-joyo-73fe  # 現 Present Time
+  - k-joyo-5099  # 備 Provide
+  - k-joyo-7d2b  # 紫 Purple
+  - k-joyo-5247  # 則 Rule
+  - k-joyo-68da  # 棚 Shelf
+  - k-joyo-7a81  # 突 Stab
+  - k-joyo-6e96  # 準 Standard
+  - k-joyo-5f35  # 張 Stretch
+  - k-joyo-512a  # 優 Superior
+  - k-joyo-6ca2  # 沢 Swamp
+  - k-joyo-5e2b  # 師 Teacher
+  - k-joyo-5e79  # 幹 Tree Trunk
+  - k-joyo-770b  # 看 Watch Over

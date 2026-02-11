@@ -1,0 +1,47 @@
+# WaniKani Level 52 Kanji
+# 36 kanji characters
+
+id: wk_52
+name: "WaniKani Level 52"
+status: locked
+requires:
+  - wk_51
+supercedes: []
+
+ids:
+  - k-joyo-82b3  # 芳 Aromatic
+  - k-joyo-7965  # 祥 Auspicious
+  - k-joyo-5442  # 呂 Bath
+  - k-joyo-504f  # 偏 Biased
+  - k-joyo-8328  # 茨 Briar
+  - k-joyo-9665  # 陥 Cave In
+  - k-joyo-9396  # 鎖 Chain
+  - k-joyo-8ce0  # 賠 Compensation
+  - k-joyo-6052  # 恒 Constant
+  - k-jinmeiyo-7dbe  # 綾 Design
+  - k-joyo-6ca1  # 没 Die
+  - k-joyo-64c1  # 擁 Embrace
+  - k-joyo-906d  # 遭 Encounter
+  - k-joyo-5674  # 噴 Erupt
+  - k-joyo-6b8a  # 殊 Especially
+  - k-joyo-502b  # 倫 Ethics
+  - k-joyo-9673  # 陳 Exhibit
+  - k-jinmeiyo-96bc  # 隼 Falcon
+  - k-jinmeiyo-4e43  # 乃 From
+  - k-jinmeiyo-8f14  # 輔 Help
+  - k-joyo-731f  # 猟 Hunting
+  - k-joyo-5506  # 唆 Instigate
+  - k-joyo-60f0  # 惰 Lazy
+  - k-joyo-6020  # 怠 Lazy
+  - k-joyo-8987  # 覇 Leadership
+  - k-joyo-9808  # 須 Necessary
+  - k-joyo-7272  # 牲 Offering
+  - k-joyo-79e9  # 秩 Order
+  - k-joyo-5b64  # 孤 Orphan
+  - k-joyo-8cab  # 貫 Pierce
+  - k-joyo-7ce7  # 糧 Provisions
+  - k-jinmeiyo-98af  # 颯 Quick
+  - k-jinmeiyo-8607  # 蘇 Revive
+  - k-joyo-6162  # 慢 Ridicule
+  - k-joyo-81a8  # 膨 Swell
+  - k-joyo-9047  # 遇 Treatment

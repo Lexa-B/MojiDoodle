@@ -1,0 +1,46 @@
+# WaniKani Level 54 Kanji
+# 35 kanji characters
+
+id: wk_54
+name: "WaniKani Level 54"
+status: locked
+requires:
+  - wk_53
+supercedes: []
+
+ids:
+  - k-joyo-4e14  # 且 Also
+  - k-joyo-9855  # 顕 Appear
+  - k-jinmeiyo-674f  # 杏 Apricot
+  - k-jinmeiyo-681e  # 栞 Bookmark
+  - k-joyo-6b04  # 欄 Column
+  - k-joyo-5eb6  # 庶 Common
+  - k-joyo-51a0  # 冠 Crown
+  - k-joyo-9177  # 酷 Cruel
+  - k-joyo-53d9  # 叙 Describe
+  - k-joyo-9038  # 逸 Deviate
+  - k-joyo-7d0b  # 紋 Family Crest
+  - k-jinmeiyo-963f  # 阿 Flatter
+  - k-joyo-611a  # 愚 Foolish
+  - k-joyo-5c1a  # 尚 Furthermore
+  - k-joyo-62d0  # 拐 Kidnap
+  - k-joyo-60a0  # 悠 Leisure
+  - k-joyo-52f2  # 勲 Merit
+  - k-joyo-758e  # 疎 Neglect
+  - k-joyo-8b21  # 謡 Noh Chanting
+  - k-joyo-683d  # 栽 Planting
+  - k-joyo-8df5  # 践 Practice
+  - k-joyo-5448  # 呈 Present
+  - k-joyo-50b2  # 傲 Proud
+  - k-joyo-75be  # 疾 Rapidly
+  - k-joyo-916c  # 酬 Repay
+  - k-jinmeiyo-831c  # 茜 Rose Madder
+  - k-hyogai-5446  # 呆 Shock
+  - k-joyo-938c  # 鎌 Sickle
+  - k-joyo-7c9b  # 粛 Solemn
+  - k-joyo-830e  # 茎 Stem
+  - k-joyo-75f4  # 痴 Stupid
+  - k-joyo-54fa  # 哺 Suckle
+  - k-joyo-8358  # 荘 Villa
+  - k-joyo-9be8  # 鯨 Whale
+  - k-joyo-5378  # 卸 Wholesale

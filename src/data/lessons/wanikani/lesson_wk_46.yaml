@@ -1,0 +1,47 @@
+# WaniKani Level 46 Kanji
+# 36 kanji characters
+
+id: wk_46
+name: "WaniKani Level 46"
+status: locked
+requires:
+  - wk_45
+supercedes: []
+
+ids:
+  - k-joyo-58a8  # 墨 Black Ink
+  - k-joyo-77ac  # 瞬 Blink
+  - k-joyo-6ce1  # 泡 Bubbles
+  - k-joyo-68df  # 棟 Building
+  - k-joyo-7a4f  # 穏 Calm
+  - k-joyo-5b54  # 孔 Cavity
+  - k-joyo-6905  # 椅 Chair
+  - k-joyo-83ca  # 菊 Chrysanthemum
+  - k-joyo-7dbf  # 綿 Cotton
+  - k-joyo-9b54  # 魔 Devil
+  - k-joyo-5bee  # 寮 Dormitory
+  - k-jinmeiyo-9ce9  # 鳩 Dove
+  - k-joyo-920d  # 鈍 Dull
+  - k-joyo-935b  # 鍛 Forge
+  - k-joyo-7881  # 碁 Go
+  - k-joyo-7656  # 癖 Habit
+  - k-joyo-7a42  # 穂 Head Of Plant
+  - k-jinmeiyo-543e  # 吾 I
+  - k-joyo-9375  # 鍵 Key
+  - k-jinmeiyo-5e84  # 庄 Manor
+  - k-joyo-733f  # 猿 Monkey
+  - k-joyo-8a87  # 誇 Pride
+  - k-joyo-77b3  # 瞳 Pupil
+  - k-joyo-5be7  # 寧 Rather
+  - k-joyo-5e7d  # 幽 Secluded
+  - k-joyo-67b6  # 架 Shelf
+  - k-joyo-9ed9  # 黙 Shut Up
+  - k-joyo-65ac  # 斬 Slice
+  - k-joyo-5e1d  # 帝 Sovereign
+  - k-joyo-4ff5  # 俵 Straw Sack
+  - k-joyo-79df  # 租 Tariff
+  - k-joyo-932c  # 錬 Tempering
+  - k-joyo-963b  # 阻 Thwart
+  - k-joyo-76c6  # 盆 Tray
+  - k-joyo-6b73  # 歳 Years Old
+  - k-joyo-96f6  # 零 Zero

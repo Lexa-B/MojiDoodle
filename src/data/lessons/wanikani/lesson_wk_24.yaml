@@ -1,0 +1,43 @@
+# WaniKani Level 24 Kanji
+# 32 kanji characters
+
+id: wk_24
+name: "WaniKani Level 24"
+status: locked
+requires:
+  - wk_23
+supercedes: []
+
+ids:
+  - k-joyo-5e81  # 庁 Agency
+  - k-joyo-984d  # 額 Amount
+  - k-joyo-8155  # 腕 Arm
+  - k-joyo-5883  # 境 Boundary
+  - k-joyo-71c3  # 燃 Burn
+  - k-joyo-62c5  # 担 Carry
+  - k-joyo-795d  # 祝 Celebrate
+  - k-joyo-5c4a  # 届 Deliver
+  - k-joyo-9055  # 違 Different
+  - k-joyo-5dee  # 差 Distinction
+  - k-joyo-5c55  # 展 Expand
+  - k-joyo-5be9  # 審 Judge
+  - k-joyo-5c64  # 層 Layer
+  - k-joyo-8996  # 視 Look At
+  - k-joyo-74b0  # 環 Loop
+  - k-joyo-88fd  # 製 Manufacture
+  - k-joyo-8ff0  # 述 Mention
+  - k-joyo-6b66  # 武 Military
+  - k-joyo-578b  # 型 Model
+  - k-joyo-72ed  # 狭 Narrow
+  - k-joyo-4f9b  # 供 Offer
+  - k-joyo-7ba1  # 管 Pipe
+  - k-joyo-8f09  # 載 Place On
+  - k-joyo-8cea  # 質 Quality
+  - k-joyo-91cf  # 量 Quantity
+  - k-joyo-8ca9  # 販 Sell
+  - k-joyo-80a9  # 肩 Shoulder
+  - k-joyo-898f  # 規 Standard
+  - k-joyo-682a  # 株 Stock
+  - k-joyo-89e6  # 触 Touch
+  - k-joyo-8f38  # 輸 Transport
+  - k-joyo-8170  # 腰 Waist

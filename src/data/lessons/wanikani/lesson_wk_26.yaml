@@ -1,0 +1,45 @@
+# WaniKani Level 26 Kanji
+# 34 kanji characters
+
+id: wk_26
+name: "WaniKani Level 26"
+status: locked
+requires:
+  - wk_25
+supercedes: []
+
+ids:
+  - k-joyo-63a5  # 接 Adjoin
+  - k-joyo-518d  # 再 Again
+  - k-joyo-72ec  # 独 Alone
+  - k-joyo-7363  # 獣 Beast
+  - k-joyo-83d3  # 菓 Cake
+  - k-joyo-8a0e  # 討 Chastise
+  - k-joyo-6545  # 故 Circumstance
+  - k-joyo-8f03  # 較 Contrast
+  - k-joyo-9020  # 造 Create
+  - k-joyo-5275  # 創 Create
+  - k-joyo-5782  # 垂 Droop
+  - k-joyo-52b1  # 励 Encourage
+  - k-joyo-6fc0  # 激 Fierce
+  - k-joyo-5360  # 占 Fortune
+  - k-joyo-969c  # 障 Hinder
+  - k-joyo-6211  # 我 I
+  - k-joyo-5fb4  # 徴 Indication
+  - k-joyo-6388  # 授 Instruct
+  - k-joyo-5f80  # 往 Journey
+  - k-joyo-925b  # 鉛 Lead
+  - k-joyo-90f5  # 郵 Mail
+  - k-joyo-91dd  # 針 Needle
+  - k-joyo-5f93  # 従 Obey
+  - k-joyo-5fa9  # 復 Restore
+  - k-joyo-6cb3  # 河 River
+  - k-joyo-8caf  # 貯 Savings
+  - k-joyo-5370  # 印 Seal
+  - k-joyo-632f  # 振 Shake
+  - k-joyo-632b  # 挫 Sprain
+  - k-joyo-602a  # 怪 Suspicious
+  - k-joyo-6c57  # 汗 Sweat
+  - k-joyo-637b  # 捻 Twist
+  - k-joyo-62ed  # 拭 Wipe
+  - k-joyo-7b46  # 筆 Writing Brush

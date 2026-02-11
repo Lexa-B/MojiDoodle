@@ -1,0 +1,46 @@
+# WaniKani Level 39 Kanji
+# 35 kanji characters
+
+id: wk_39
+name: "WaniKani Level 39"
+status: locked
+requires:
+  - wk_38
+supercedes: []
+
+ids:
+  - k-joyo-63a7  # 控 Abstain
+  - k-joyo-5b9b  # 宛 Address
+  - k-joyo-5145  # 充 Allocate
+  - k-joyo-6e0b  # 渋 Bitter
+  - k-joyo-5c90  # 岐 Branch Off
+  - k-joyo-9234  # 鈴 Buzzer
+  - k-joyo-57fc  # 埼 Cape
+  - k-joyo-68cb  # 棋 Chess Piece
+  - k-joyo-56da  # 囚 Criminal
+  - k-joyo-8b72  # 譲 Defer
+  - k-joyo-96c7  # 雇 Employ
+  - k-joyo-514d  # 免 Excuse
+  - k-joyo-7fa4  # 群 Flock
+  - k-joyo-67a0  # 枠 Frame
+  - k-joyo-9283  # 銃 Gun
+  - k-joyo-4ed9  # 仙 Hermit
+  - k-joyo-90a6  # 邦 Home Country
+  - k-joyo-5fa1  # 御 Honorable
+  - k-joyo-614e  # 慎 Humility
+  - k-joyo-8e8d  # 躍 Leap
+  - k-joyo-8b19  # 謙 Modesty
+  - k-joyo-961c  # 阜 Mound
+  - k-joyo-7247  # 片 One Sided
+  - k-joyo-9805  # 項 Paragraph
+  - k-jinmeiyo-6590  # 斐 Patterned
+  - k-joyo-9686  # 隆 Prosperity
+  - k-joyo-570f  # 圏 Range
+  - k-joyo-62d2  # 拒 Refuse
+  - k-joyo-7a32  # 稲 Rice Plant
+  - k-joyo-596a  # 奪 Rob
+  - k-joyo-92fc  # 鋼 Steel
+  - k-joyo-7532  # 甲 Turtle Shell
+  - k-joyo-865a  # 虚 Void
+  - k-joyo-58c1  # 壁 Wall
+  - k-joyo-7949  # 祉 Welfare

@@ -1,0 +1,47 @@
+# WaniKani Level 6 Kanji
+# 36 kanji characters
+
+id: wk_06
+name: "WaniKani Level 6"
+status: locked
+requires:
+  - wk_05
+supercedes: []
+
+ids:
+  - k-joyo-5168  # 全 All
+  - k-joyo-5f8c  # 後 Behind
+  - k-joyo-8840  # 血 Blood
+  - k-joyo-4e21  # 両 Both
+  - k-joyo-5316  # 化 Change
+  - k-joyo-56fd  # 国 Country
+  - k-joyo-4ea1  # 亡 Death
+  - k-joyo-6b7b  # 死 Death
+  - k-joyo-5730  # 地 Earth
+  - k-joyo-6771  # 東 East
+  - k-joyo-98df  # 食 Eat
+  - k-joyo-524d  # 前 Front
+  - k-joyo-6709  # 有 Have
+  - k-joyo-5bb6  # 家 House
+  - k-joyo-79c1  # 私 I
+  - k-joyo-77e5  # 知 Know
+  - k-joyo-6d3b  # 活 Lively
+  - k-joyo-9577  # 長 Long
+  - k-joyo-66f2  # 曲 Music
+  - k-joyo-9996  # 首 Neck
+  - k-joyo-59c9  # 姉 Older Sister
+  - k-joyo-70b9  # 点 Point
+  - k-joyo-5b89  # 安 Relax
+  - k-joyo-5ba4  # 室 Room
+  - k-joyo-79d1  # 科 Science
+  - k-joyo-6d77  # 海 Sea
+  - k-joyo-7f8a  # 羊 Sheep
+  - k-joyo-5e97  # 店 Shop
+  - k-joyo-661f  # 星 Star
+  - k-joyo-5dde  # 州 State
+  - k-joyo-53d6  # 取 Take
+  - k-joyo-8336  # 茶 Tea
+  - k-joyo-601d  # 思 Think
+  - k-joyo-6b69  # 歩 Walk
+  - k-joyo-5411  # 向 Yonder
+  - k-joyo-59b9  # 妹 Younger Sister

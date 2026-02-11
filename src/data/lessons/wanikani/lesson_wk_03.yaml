@@ -1,0 +1,42 @@
+# WaniKani Level 3 Kanji
+# 31 kanji characters
+
+id: wk_03
+name: "WaniKani Level 3"
+status: locked
+requires:
+  - wk_02
+supercedes: []
+
+ids:
+  - k-joyo-77e2  # 矢 Arrow
+  - k-joyo-660e  # 明 Bright
+  - k-joyo-5e02  # 市 City
+  - k-joyo-725b  # 牛 Cow
+  - k-joyo-5207  # 切 Cut
+  - k-joyo-65b9  # 方 Direction
+  - k-joyo-6238  # 戸 Door
+  - k-joyo-592a  # 太 Fat
+  - k-joyo-7236  # 父 Father
+  - k-joyo-5c11  # 少 Few
+  - k-joyo-53cb  # 友 Friend
+  - k-joyo-6bdb  # 毛 Fur
+  - k-joyo-534a  # 半 Half
+  - k-joyo-5fc3  # 心 Heart
+  - k-joyo-5185  # 内 Inside
+  - k-joyo-5b57  # 字 Letter
+  - k-joyo-751f  # 生 Life
+  - k-joyo-53f0  # 台 Machine
+  - k-joyo-6bcd  # 母 Mother
+  - k-joyo-5348  # 午 Noon
+  - k-joyo-5317  # 北 North
+  - k-joyo-4eca  # 今 Now
+  - k-joyo-53e4  # 古 Old
+  - k-joyo-5916  # 外 Outside
+  - k-joyo-5206  # 分 Part
+  - k-joyo-5f15  # 引 Pull
+  - k-joyo-6b62  # 止 Stop
+  - k-joyo-7528  # 用 Task
+  - k-joyo-4e07  # 万 Ten Thousand
+  - k-joyo-5e83  # 広 Wide
+  - k-joyo-51ac  # 冬 Winter

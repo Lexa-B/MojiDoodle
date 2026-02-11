@@ -1,0 +1,50 @@
+# WaniKani Level 11 Kanji
+# 39 kanji characters
+
+id: wk_11
+name: "WaniKani Level 11"
+status: locked
+requires:
+  - wk_10
+supercedes: []
+
+ids:
+  - k-joyo-529f  # 功 Achievement
+  - k-joyo-6210  # 成 Become
+  - k-joyo-5cb8  # 岸 Coast
+  - k-joyo-7af6  # 競 Compete
+  - k-joyo-4e89  # 争 Conflict
+  - k-joyo-4fbf  # 便 Convenience
+  - k-joyo-8001  # 老 Elderly
+  - k-joyo-547d  # 命 Fate
+  - k-joyo-6307  # 指 Finger
+  - k-joyo-521d  # 初 First
+  - k-joyo-5473  # 味 Flavor
+  - k-joyo-8ffd  # 追 Follow
+  - k-joyo-795e  # 神 God
+  - k-joyo-826f  # 良 Good
+  - k-joyo-610f  # 意 Idea
+  - k-joyo-52b4  # 労 Labor
+  - k-joyo-7d1a  # 級 Level
+  - k-joyo-597d  # 好 Like
+  - k-joyo-6614  # 昔 Long Ago
+  - k-joyo-4f4e  # 低 Low
+  - k-joyo-80b2  # 育 Nurture
+  - k-joyo-4ee4  # 令 Orders
+  - k-joyo-62fe  # 拾 Pick Up
+  - k-joyo-6ce8  # 注 Pour
+  - k-joyo-5229  # 利 Profit
+  - k-joyo-4f4d  # 位 Rank
+  - k-joyo-4ef2  # 仲 Relationship
+  - k-joyo-653e  # 放 Release
+  - k-joyo-79d2  # 秒 Second
+  - k-joyo-5225  # 別 Separate
+  - k-joyo-7279  # 特 Special
+  - k-joyo-5171  # 共 Together
+  - k-joyo-52aa  # 努 Toil
+  - k-joyo-4f1d  # 伝 Transmit
+  - k-joyo-6226  # 戦 War
+  - k-joyo-6ce2  # 波 Wave
+  - k-joyo-6d0b  # 洋 Western Style
+  - k-joyo-8ab0  # 誰 Who
+  - k-joyo-50cd  # 働 Work
