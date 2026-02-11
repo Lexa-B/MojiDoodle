@@ -912,15 +912,22 @@ export class CardsService {
     this.saveToStorage();
   }
 
-  // Check if a lesson is completed (all cards have stage >= 5)
+  // Check if a lesson is completed (at least 80% of cards have stage >= 5)
   isLessonCompleted(lessonId: string): boolean {
-    const result = this.queryOne<{ incomplete: number }>(
-      `SELECT COUNT(*) as incomplete FROM lesson_cards lc
-       JOIN cards c ON lc.card_id = c.id
-       WHERE lc.lesson_id = ? AND c.stage < 5`,
+    const total = this.queryOne<{ count: number }>(
+      `SELECT COUNT(*) as count FROM lesson_cards WHERE lesson_id = ?`,
       [lessonId]
     );
-    return (result?.incomplete ?? 1) === 0;
+    const completed = this.queryOne<{ count: number }>(
+      `SELECT COUNT(*) as count FROM lesson_cards lc
+       JOIN cards c ON lc.card_id = c.id
+       WHERE lc.lesson_id = ? AND c.stage >= 5`,
+      [lessonId]
+    );
+    const totalCount = total?.count ?? 0;
+    if (totalCount === 0) return false;
+    const needed = Math.max(1, Math.floor(totalCount * 0.8));
+    return (completed?.count ?? 0) >= needed;
   }
 
   // Update locked lessons to available if their prerequisites are met
