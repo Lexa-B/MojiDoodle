@@ -724,7 +724,7 @@ npm run logs     # Tail worker logs
 
 **Migration methods (CardsService):**
 - `exportToBundle()` - Export current DB state (cards, lessons, user settings)
-- `restoreFromBundle(backup)` - Restore progress after rebuild
+- `restoreFromBundle(backup)` - Restore progress after rebuild. After restoring, automatically unlocks any new cards that were added to already-unlocked lessons (e.g., 々 added to wk_02 after a user already unlocked it).
 - `rebuild()` - Clear IndexedDB and rebuild from fresh bundle. Sets `rebuildInProgress` flag to bypass the database load protection guard (otherwise `initialize()` would block the rebuild with an error alert).
 
 **Database load protection:**

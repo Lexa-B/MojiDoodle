@@ -1541,6 +1541,23 @@ export class CardsService {
       }
     }
 
+    // Unlock new cards added to already-unlocked lessons
+    // (e.g., 々 added to wk_02 after user already unlocked it)
+    const now = new Date().toISOString();
+    const newCards = this.queryAll<{ card_id: string }>(
+      `SELECT lc.card_id FROM lesson_cards lc
+       JOIN lessons l ON l.id = lc.lesson_id
+       JOIN cards c ON c.id = lc.card_id
+       WHERE l.status = 'unlocked' AND c.stage = -1`,
+      []
+    );
+    for (const row of newCards) {
+      this.db.run(
+        'UPDATE cards SET stage = 0, unlocks = ? WHERE id = ?',
+        [now, row.card_id]
+      );
+    }
+
     await this.saveToStorage();
 
     const result = { cardsUpdated, lessonsUpdated, cardsNotFound, lessonsNotFound };
