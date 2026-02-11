@@ -1,5 +1,5 @@
 - id: k-hyogai-3005
-  prompt: "Meanings: repeater, iteration mark (のま)\nUsage: Repeats the preceding kanji (e.g., 人々 = ひとびと)"
+  prompt: "Meanings: repeater, iteration mark (のま)\nUsage: Repeats the preceding kanji"
   answers:
     - 々
   hint: ""
