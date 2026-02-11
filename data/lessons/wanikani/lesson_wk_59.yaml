@@ -1,0 +1,45 @@
+# WaniKani Level 59 Kanji
+# 34 kanji characters
+
+id: wk_59
+name: "WaniKani Level 59"
+status: locked
+requires:
+  - wk_58
+supercedes: []
+
+ids:
+  - k-joyo-4e9c  # 亜 Asia
+  - k-joyo-5c6f  # 屯 Barracks
+  - k-joyo-5cac  # 岬 Cape
+  - k-joyo-92f3  # 鋳 Cast
+  - k-joyo-62d9  # 拙 Clumsy
+  - k-joyo-8a60  # 詠 Compose
+  - k-joyo-6176  # 慶 Congratulate
+  - k-joyo-916a  # 酪 Dairy
+  - k-joyo-7be4  # 篤 Deliberate
+  - k-joyo-4fae  # 侮 Despise
+  - k-joyo-582a  # 堪 Endure
+  - k-joyo-798d  # 禍 Evil
+  - k-joyo-96cc  # 雌 Female
+  - k-joyo-7766  # 睦 Friendly
+  - k-joyo-80c6  # 胆 Guts
+  - k-joyo-64ec  # 擬 Imitate
+  - k-jinmeiyo-6893  # 梓 Japanese Birch
+  - k-joyo-6f06  # 漆 Lacquer
+  - k-joyo-9591  # 閑 Leisure
+  - k-joyo-5351  # 卑 Lowly
+  - k-joyo-59fb  # 姻 Marry
+  - k-joyo-5ce0  # 峠 Mountain Pass
+  - k-joyo-5fcc  # 忌 Mourning
+  - k-joyo-66f9  # 曹 Official
+  - k-joyo-541f  # 吟 Recital
+  - k-joyo-7901  # 礁 Reef
+  - k-joyo-6c99  # 沙 Sand
+  - k-joyo-8511  # 蔑 Scorn
+  - k-joyo-6c70  # 汰 Select
+  - k-joyo-7d21  # 紡 Spinning
+  - k-joyo-9077  # 遷 Transition
+  - k-joyo-751a  # 甚 Very
+  - k-joyo-6d6a  # 浪 Wander
+  - k-joyo-5d07  # 崇 Worship

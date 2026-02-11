@@ -1,0 +1,46 @@
+# WaniKani Level 13 Kanji
+# 35 kanji characters
+
+id: wk_13
+name: "WaniKani Level 13"
+status: locked
+requires:
+  - wk_12
+supercedes: []
+
+ids:
+  - k-joyo-7686  # 皆 All
+  - k-joyo-8b1d  # 謝 Apologize
+  - k-joyo-6574  # 整 Arrange
+  - k-joyo-6a4b  # 橋 Bridge
+  - k-joyo-7f36  # 缶 Can
+  - k-joyo-9078  # 選 Choose
+  - k-joyo-5668  # 器 Container
+  - k-joyo-6697  # 暗 Dark
+  - k-joyo-7591  # 疑 Doubt
+  - k-joyo-6599  # 料 Fee
+  - k-joyo-60c5  # 情 Feeling
+  - k-joyo-611f  # 感 Feeling
+  - k-joyo-69d8  # 様 Formal Name Ender
+  - k-joyo-990a  # 養 Foster
+  - k-joyo-7dd1  # 緑 Green
+  - k-joyo-71b1  # 熱 Heat
+  - k-joyo-5104  # 億 Hundred Million
+  - k-joyo-4ffa  # 俺 I
+  - k-joyo-60f3  # 想 Imagine
+  - k-joyo-6bba  # 殺 Kill
+  - k-joyo-5bbf  # 宿 Lodge
+  - k-joyo-93e1  # 鏡 Mirror
+  - k-joyo-7136  # 然 Nature
+  - k-joyo-8a69  # 詩 Poem
+  - k-joyo-7df4  # 練 Practice
+  - k-joyo-8cde  # 賞 Prize
+  - k-joyo-554f  # 問 Problem
+  - k-joyo-9928  # 館 Public Building
+  - k-joyo-58eb  # 士 Samurai
+  - k-joyo-8ab2  # 課 Section
+  - k-joyo-6a19  # 標 Signpost
+  - k-joyo-9280  # 銀 Silver
+  - k-joyo-99c5  # 駅 Station
+  - k-joyo-984c  # 題 Topic
+  - k-joyo-8f2a  # 輪 Wheel

@@ -1,0 +1,49 @@
+# WaniKani Level 22 Kanji
+# 38 kanji characters
+
+id: wk_22
+name: "WaniKani Level 22"
+status: locked
+requires:
+  - wk_21
+supercedes: []
+
+ids:
+  - k-joyo-63f4  # 援 Aid
+  - k-joyo-614b  # 態 Appearance
+  - k-joyo-8a95  # 誕 Birth
+  - k-joyo-8863  # 衣 Clothes
+  - k-joyo-72b6  # 状 Condition
+  - k-joyo-8cc0  # 賀 Congratulations
+  - k-joyo-7bc9  # 築 Construct
+  - k-joyo-964d  # 降 Descend
+  - k-joyo-5404  # 各 Each
+  - k-joyo-8a55  # 評 Evaluate
+  - k-joyo-8cbb  # 費 Expense
+  - k-joyo-59ff  # 姿 Figure
+  - k-joyo-52e2  # 勢 Force
+  - k-joyo-8ae6  # 諦 Give Up
+  - k-joyo-793a  # 示 Indicate
+  - k-joyo-5bdd  # 寝 Lie Down
+  - k-joyo-55b6  # 営 Manage
+  - k-joyo-574a  # 坊 Monk
+  - k-joyo-7f70  # 罰 Penalty
+  - k-joyo-6848  # 案 Plan
+  - k-joyo-7b56  # 策 Plan
+  - k-joyo-63d0  # 提 Present
+  - k-joyo-7f6e  # 置 Put
+  - k-joyo-57df  # 域 Region
+  - k-joyo-66f4  # 更 Renew
+  - k-joyo-5fdc  # 応 Respond
+  - k-joyo-5bae  # 宮 Shinto Shrine
+  - k-joyo-8896  # 袖 Sleeve
+  - k-joyo-5438  # 吸 Suck
+  - k-joyo-904e  # 過 Surpass
+  - k-joyo-9818  # 領 Territory
+  - k-joyo-8131  # 脱 Undress
+  - k-joyo-7d71  # 統 Unite
+  - k-joyo-5024  # 値 Value
+  - k-joyo-4fa1  # 価 Value
+  - k-joyo-526f  # 副 Vice
+  - k-joyo-89b3  # 観 View
+  - k-joyo-85e4  # 藤 Wisteria

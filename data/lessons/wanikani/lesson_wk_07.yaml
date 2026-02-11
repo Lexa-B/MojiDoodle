@@ -1,0 +1,48 @@
+# WaniKani Level 7 Kanji
+# 37 kanji characters
+
+id: wk_07
+name: "WaniKani Level 7"
+status: locked
+requires:
+  - wk_06
+supercedes: []
+
+ids:
+  - k-joyo-8fba  # 辺 Area
+  - k-joyo-4ed8  # 付 Attach
+  - k-joyo-672d  # 札 Bill
+  - k-joyo-9ce5  # 鳥 Bird
+  - k-joyo-9ed2  # 黒 Black
+  - k-joyo-8239  # 船 Boat
+  - k-joyo-5fc5  # 必 Certain
+  - k-joyo-8c61  # 象 Elephant
+  - k-joyo-672b  # 末 End
+  - k-joyo-6c0f  # 氏 Family Name
+  - k-joyo-5931  # 失 Fault
+  - k-joyo-9b5a  # 魚 Fish
+  - k-joyo-5e8a  # 床 Floor
+  - k-joyo-4ee5  # 以 From
+  - k-joyo-7d44  # 組 Group
+  - k-joyo-753b  # 画 Image
+  - k-joyo-6b20  # 欠 Lack
+  - k-joyo-672a  # 未 Not Yet
+  - k-joyo-7d19  # 紙 Paper
+  - k-joyo-901a  # 通 Pass Through
+  - k-joyo-6c11  # 民 Peoples
+  - k-joyo-7406  # 理 Reason
+  - k-joyo-7531  # 由 Reason
+  - k-joyo-6620  # 映 Reflect
+  - k-joyo-6821  # 校 School
+  - k-joyo-96ea  # 雪 Snow
+  - k-joyo-5357  # 南 South
+  - k-joyo-5f37  # 強 Strong
+  - k-joyo-590f  # 夏 Summer
+  - k-joyo-9ad8  # 高 Tall
+  - k-joyo-6559  # 教 Teach
+  - k-joyo-6642  # 時 Time
+  - k-joyo-5f31  # 弱 Weak
+  - k-joyo-9031  # 週 Week
+  - k-joyo-98a8  # 風 Wind
+  - k-joyo-8a18  # 記 Write Down
+  - k-joyo-9ec4  # 黄 Yellow

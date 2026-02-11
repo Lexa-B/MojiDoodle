@@ -1,0 +1,44 @@
+# WaniKani Level 34 Kanji
+# 33 kanji characters
+
+id: wk_34
+name: "WaniKani Level 34"
+status: locked
+requires:
+  - wk_33
+supercedes: []
+
+ids:
+  - k-joyo-8c46  # 豆 Beans
+  - k-joyo-679d  # 枝 Branch
+  - k-joyo-63ee  # 揮 Brandish
+  - k-joyo-523b  # 刻 Carve
+  - k-joyo-722a  # 爪 Claw
+  - k-joyo-627f  # 承 Consent
+  - k-hyogai-54b3  # 咳 Cough
+  - k-joyo-5e55  # 幕 Curtain
+  - k-joyo-7d05  # 紅 Deep Red
+  - k-joyo-6b53  # 歓 Delight
+  - k-joyo-5974  # 奴 Dude
+  - k-joyo-8056  # 聖 Holy
+  - k-joyo-63a8  # 推 Infer
+  - k-joyo-81d3  # 臓 Internal Organs
+  - k-joyo-640d  # 損 Loss
+  - k-joyo-78c1  # 磁 Magnet
+  - k-joyo-8aa4  # 誤 Mistake
+  - k-joyo-6e90  # 源 Origin
+  - k-joyo-7d14  # 純 Pure
+  - k-joyo-85a6  # 薦 Recommend
+  - k-joyo-4e3c  # 丼 Rice Bowl
+  - k-joyo-8150  # 腐 Rot
+  - k-joyo-6cbf  # 沿 Run Alongside
+  - k-joyo-5c04  # 射 Shoot
+  - k-joyo-7e2e  # 縮 Shrink
+  - k-joyo-96b7  # 隷 Slave
+  - k-joyo-7c8b  # 粋 Stylish
+  - k-joyo-75e9  # 痩 Thin
+  - k-joyo-5410  # 吐 Throw Up
+  - k-joyo-8cb4  # 貴 Valuable
+  - k-joyo-7e26  # 縦 Vertical
+  - k-joyo-52e4  # 勤 Work
+  - k-joyo-62dd  # 拝 Worship

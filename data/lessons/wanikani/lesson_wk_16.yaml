@@ -1,0 +1,44 @@
+# WaniKani Level 16 Kanji
+# 33 kanji characters
+
+id: wk_16
+name: "WaniKani Level 16"
+status: locked
+requires:
+  - wk_15
+supercedes: []
+
+ids:
+  - k-joyo-6d74  # 浴 Bathe
+  - k-joyo-7bb1  # 箱 Box
+  - k-joyo-4fc2  # 係 Connection
+  - k-joyo-6cbb  # 治 Cure
+  - k-joyo-5371  # 危 Dangerous
+  - k-joyo-5192  # 冒 Dare
+  - k-joyo-7559  # 留 Detain
+  - k-joyo-5f01  # 弁 Dialect
+  - k-joyo-8a3c  # 証 Evidence
+  - k-joyo-5b58  # 存 Exist
+  - k-joyo-9762  # 面 Face
+  - k-joyo-9060  # 遠 Far
+  - k-joyo-5712  # 園 Garden
+  - k-joyo-9580  # 門 Gates
+  - k-joyo-5e9c  # 府 Government
+  - k-joyo-5e78  # 幸 Happiness
+  - k-joyo-962a  # 阪 Heights
+  - k-joyo-6025  # 急 Hurry
+  - k-joyo-7b11  # 笑 Laugh
+  - k-joyo-8377  # 荷 Luggage
+  - k-joyo-4f01  # 企 Plan
+  - k-joyo-653f  # 政 Politics
+  - k-joyo-54c1  # 品 Product
+  - k-joyo-5b88  # 守 Protect
+  - k-joyo-8f9e  # 辞 Quit
+  - k-joyo-771f  # 真 Reality
+  - k-joyo-95a2  # 関 Related
+  - k-joyo-967a  # 険 Risky
+  - k-joyo-5178  # 典 Rule
+  - k-joyo-5c02  # 専 Specialty
+  - k-joyo-5197  # 冗 Superfluous
+  - k-joyo-66dc  # 曜 Weekday
+  - k-joyo-66f8  # 書 Write

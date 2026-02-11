@@ -1,0 +1,46 @@
+# WaniKani Level 17 Kanji
+# 35 kanji characters
+
+id: wk_17
+name: "WaniKani Level 17"
+status: locked
+requires:
+  - wk_16
+supercedes: []
+
+ids:
+  - k-joyo-662f  # 是 Absolutely
+  - k-joyo-7d50  # 結 Bind
+  - k-joyo-5e95  # 底 Bottom
+  - k-joyo-56e0  # 因 Cause
+  - k-joyo-8a73  # 詳 Detailed
+  - k-joyo-8b58  # 識 Discerning
+  - k-joyo-5287  # 劇 Drama
+  - k-joyo-5e72  # 干 Dry
+  - k-joyo-6557  # 敗 Failure
+  - k-joyo-6e09  # 渉 Ford
+  - k-joyo-679c  # 果 Fruit
+  - k-joyo-5b98  # 官 Government
+  - k-joyo-7f72  # 署 Government Office
+  - k-joyo-5bdf  # 察 Guess
+  - k-joyo-5802  # 堂 Hall
+  - k-joyo-5e7b  # 幻 Illusion
+  - k-joyo-975e  # 非 Injustice
+  - k-joyo-611b  # 愛 Love
+  - k-joyo-85ac  # 薬 Medicine
+  - k-joyo-899a  # 覚 Memorize
+  - k-joyo-5e38  # 常 Normal
+  - k-joyo-9f3b  # 鼻 Nose
+  - k-joyo-7121  # 無 Nothing
+  - k-joyo-539f  # 原 Original
+  - k-joyo-559c  # 喜 Rejoice
+  - k-joyo-604b  # 恋 Romance
+  - k-joyo-60b2  # 悲 Sad
+  - k-joyo-5869  # 塩 Salt
+  - k-joyo-5e2d  # 席 Seat
+  - k-joyo-5074  # 側 Side
+  - k-joyo-5175  # 兵 Soldier
+  - k-joyo-8aac  # 説 Theory
+  - k-joyo-7d30  # 細 Thin
+  - k-joyo-6885  # 梅 Ume
+  - k-joyo-8b66  # 警 Warn

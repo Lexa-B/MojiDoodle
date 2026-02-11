@@ -1,0 +1,45 @@
+# WaniKani Level 51 Kanji
+# 34 kanji characters
+
+id: wk_51
+name: "WaniKani Level 51"
+status: locked
+requires:
+  - wk_50
+supercedes: []
+
+ids:
+  - k-joyo-53c8  # 又 Again
+  - k-joyo-80af  # 肯 Agreement
+  - k-joyo-6d66  # 浦 Bay
+  - k-joyo-6cb8  # 沸 Boil
+  - k-joyo-74f6  # 瓶 Bottle
+  - k-joyo-53ec  # 召 Call
+  - k-joyo-8c9e  # 貞 Chastity
+  - k-jinmeiyo-4eae  # 亮 Clear
+  - k-joyo-895f  # 襟 Collar
+  - k-joyo-9685  # 隅 Corner
+  - k-joyo-90e1  # 郡 County
+  - k-joyo-71e5  # 燥 Dry Up
+  - k-joyo-91c8  # 釈 Explanation
+  - k-joyo-8102  # 脂 Fat
+  - k-joyo-80aa  # 肪 Fat
+  - k-joyo-5049  # 偉 Greatness
+  - k-jinmeiyo-84ee  # 蓮 Lotus
+  - k-joyo-6148  # 慈 Mercy
+  - k-joyo-585a  # 塚 Mound
+  - k-joyo-8015  # 耕 Plow
+  - k-joyo-5a9b  # 媛 Princess
+  - k-joyo-631f  # 挟 Put Between
+  - k-joyo-90b8  # 邸 Residence
+  - k-joyo-559a  # 喚 Scream
+  - k-joyo-82d7  # 苗 Seedling
+  - k-joyo-96bb  # 隻 Ship Counter
+  - k-joyo-819a  # 膚 Skin
+  - k-joyo-8edf  # 軟 Soft
+  - k-joyo-90ca  # 郊 Suburbs
+  - k-joyo-9802  # 頂 Summit
+  - k-joyo-6fef  # 濯 Wash
+  - k-joyo-6e26  # 渦 Whirlpool
+  - k-jinmeiyo-8061  # 聡 Wise
+  - k-joyo-67af  # 枯 Wither

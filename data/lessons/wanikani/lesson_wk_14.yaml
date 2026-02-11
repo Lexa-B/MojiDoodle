@@ -1,0 +1,44 @@
+# WaniKani Level 14 Kanji
+# 33 kanji characters
+
+id: wk_14
+name: "WaniKani Level 14"
+status: locked
+requires:
+  - wk_13
+supercedes: []
+
+ids:
+  - k-joyo-80fd  # 能 Ability
+  - k-joyo-82b8  # 芸 Art
+  - k-joyo-96f0  # 雰 Atmosphere
+  - k-joyo-9aa8  # 骨 Bone
+  - k-joyo-675f  # 束 Bundle
+  - k-joyo-5468  # 周 Circumference
+  - k-joyo-9589  # 閉 Closed
+  - k-joyo-5354  # 協 Cooperation
+  - k-joyo-4f8b  # 例 Example
+  - k-joyo-6298  # 折 Fold
+  - k-joyo-57fa  # 基 Foundation
+  - k-joyo-6027  # 性 Gender
+  - k-joyo-59a5  # 妥 Gentle
+  - k-joyo-5352  # 卒 Graduate
+  - k-joyo-56fa  # 固 Hard
+  - k-joyo-671b  # 望 Hope
+  - k-joyo-6750  # 材 Lumber
+  - k-joyo-53c2  # 参 Participate
+  - k-joyo-5b8c  # 完 Perfect
+  - k-joyo-677e  # 松 Pine
+  - k-joyo-7d04  # 約 Promise
+  - k-joyo-6b8b  # 残 Remainder
+  - k-joyo-9858  # 願 Request
+  - k-joyo-5b63  # 季 Seasons
+  - k-joyo-683c  # 格 Status
+  - k-jinmeiyo-82fa  # 苺 Strawberry
+  - k-joyo-9811  # 頑 Stubborn
+  - k-joyo-56f2  # 囲 Surround
+  - k-joyo-7684  # 的 Target
+  - k-joyo-5ff5  # 念 Thought
+  - k-joyo-4e95  # 井 Well
+  - k-joyo-5e0c  # 希 Wish
+  - k-jinmeiyo-72fc  # 狼 Wolf

@@ -1,0 +1,45 @@
+# WaniKani Level 42 Kanji
+# 34 kanji characters
+
+id: wk_42
+name: "WaniKani Level 42"
+status: locked
+requires:
+  - wk_41
+supercedes: []
+
+ids:
+  - k-joyo-6790  # 析 Analysis
+  - k-joyo-5f27  # 弧 Arc
+  - k-joyo-5230  # 到 Arrival
+  - k-joyo-8ef8  # 軸 Axis
+  - k-jinmeiyo-8cd1  # 賑 Bustling
+  - k-joyo-6311  # 挑 Challenge
+  - k-joyo-7126  # 焦 Char
+  - k-joyo-6398  # 掘 Dig
+  - k-joyo-7d1b  # 紛 Distract
+  - k-joyo-7bc4  # 範 Example
+  - k-joyo-62ec  # 括 Fasten
+  - k-joyo-63e1  # 握 Grip
+  - k-joyo-67a2  # 枢 Hinge
+  - k-joyo-63da  # 揚 Hoist
+  - k-joyo-6f5f  # 潟 Lagoon
+  - k-joyo-829d  # 芝 Lawn
+  - k-joyo-809d  # 肝 Liver
+  - k-joyo-9905  # 餅 Mochi
+  - k-joyo-55aa  # 喪 Mourning
+  - k-joyo-7db2  # 網 Net
+  - k-joyo-514b  # 克 Overcome
+  - k-joyo-6cca  # 泊 Overnight
+  - k-joyo-53cc  # 双 Pair
+  - k-joyo-67c4  # 柄 Pattern
+  - k-joyo-54f2  # 哲 Philosophy
+  - k-joyo-658e  # 斎 Purification
+  - k-joyo-7db1  # 綱 Rope
+  - k-joyo-888b  # 袋 Sack
+  - k-joyo-63fa  # 揺 Shake
+  - k-joyo-6ed1  # 滑 Slide
+  - k-joyo-5805  # 堅 Solid
+  - k-joyo-66ab  # 暫 Temporarily
+  - k-joyo-7cfe  # 糾 Twist
+  - k-joyo-8352  # 荒 Wild

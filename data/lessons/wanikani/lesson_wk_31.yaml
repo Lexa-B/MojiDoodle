@@ -1,0 +1,48 @@
+# WaniKani Level 31 Kanji
+# 37 kanji characters
+
+id: wk_31
+name: "WaniKani Level 31"
+status: locked
+requires:
+  - wk_30
+supercedes: []
+
+ids:
+  - k-joyo-5e2f  # 帯 Belt
+  - k-joyo-5eca  # 廊 Corridor
+  - k-joyo-96e2  # 離 Detach
+  - k-joyo-5f84  # 径 Diameter
+  - k-joyo-878d  # 融 Dissolve
+  - k-joyo-5747  # 均 Equal
+  - k-joyo-8c6a  # 豪 Exceptional
+  - k-joyo-9664  # 除 Exclude
+  - k-joyo-8ca8  # 貨 Freight
+  - k-joyo-5b6b  # 孫 Grandchild
+  - k-joyo-5893  # 墓 Grave
+  - k-joyo-5e7e  # 幾 How Many
+  - k-joyo-5c0b  # 尋 Inquire
+  - k-joyo-7de8  # 編 Knit
+  - k-joyo-9678  # 陸 Land
+  - k-joyo-63a2  # 探 Look For
+  - k-joyo-9451  # 鑑 Model
+  - k-joyo-6ce5  # 泥 Mud
+  - k-joyo-5de3  # 巣 Nest
+  - k-joyo-666e  # 普 Normal
+  - k-joyo-59a8  # 妨 Obstruct
+  - k-joyo-68d2  # 棒 Pole
+  - k-joyo-7c89  # 粉 Powder
+  - k-joyo-65e2  # 既 Previously
+  - k-joyo-6551  # 救 Rescue
+  - k-joyo-4f3c  # 似 Resemble
+  - k-joyo-5bcc  # 富 Rich
+  - k-joyo-6563  # 散 Scatter
+  - k-joyo-83ef  # 華 Showy
+  - k-joyo-5606  # 嘆 Sigh
+  - k-joyo-5075  # 偵 Spy
+  - k-joyo-9a5a  # 驚 Surprised
+  - k-joyo-6383  # 掃 Sweep
+  - k-joyo-83dc  # 菜 Vegetable
+  - k-joyo-8108  # 脈 Vein
+  - k-joyo-5fb3  # 徳 Virtue
+  - k-joyo-5009  # 倉 Warehouse

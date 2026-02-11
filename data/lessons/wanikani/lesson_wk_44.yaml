@@ -1,0 +1,42 @@
+# WaniKani Level 44 Kanji
+# 31 kanji characters
+
+id: wk_44
+name: "WaniKani Level 44"
+status: locked
+requires:
+  - wk_43
+supercedes: []
+
+ids:
+  - k-joyo-5203  # 刃 Blade
+  - k-joyo-7832  # 砲 Cannon
+  - k-jinmeiyo-7b20  # 笠 Conical Hat
+  - k-joyo-7adc  # 竜 Dragon
+  - k-joyo-62f6  # 拶 Draw Close
+  - k-joyo-7e01  # 縁 Edge
+  - k-joyo-5fcd  # 忍 Endure
+  - k-joyo-91e3  # 釣 Fishing
+  - k-hyogai-72d0  # 狐 Fox
+  - k-joyo-5409  # 吉 Good Luck
+  - k-joyo-7c92  # 粒 Grains
+  - k-joyo-9aea  # 髪 Hair
+  - k-joyo-4e18  # 丘 Hill
+  - k-joyo-6597  # 斗 Ladle
+  - k-joyo-80a2  # 肢 Limb
+  - k-joyo-5bf8  # 寸 Measurement
+  - k-joyo-8b0e  # 謎 Mystery
+  - k-joyo-6843  # 桃 Peach
+  - k-joyo-68a8  # 梨 Pear
+  - k-joyo-59eb  # 姫 Princess
+  - k-joyo-6328  # 挨 Push Open
+  - k-joyo-5a2f  # 娯 Recreation
+  - k-joyo-4f8d  # 侍 Samurai
+  - k-hyogai-53f1  # 叱 Scold
+  - k-joyo-53eb  # 叫 Shout
+  - k-joyo-82bd  # 芽 Sprout
+  - k-joyo-5d50  # 嵐 Storm
+  - k-joyo-96f7  # 雷 Thunder
+  - k-joyo-5854  # 塔 Tower
+  - k-joyo-6731  # 朱 Vermilion
+  - k-joyo-7ffc  # 翼 Wing

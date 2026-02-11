@@ -1,0 +1,48 @@
+# WaniKani Level 47 Kanji
+# 37 kanji characters
+
+id: wk_47
+name: "WaniKani Level 47"
+status: locked
+requires:
+  - wk_46
+supercedes: []
+
+ids:
+  - k-joyo-5e63  # 幣 Cash
+  - k-joyo-7bb8  # 箸 Chopsticks
+  - k-joyo-77ad  # 瞭 Clear
+  - k-joyo-5d16  # 崖 Cliff
+  - k-joyo-708a  # 炊 Cook
+  - k-joyo-7ca7  # 粧 Cosmetics
+  - k-joyo-589c  # 墜 Crash
+  - k-joyo-6b3a  # 欺 Deceit
+  - k-joyo-6249  # 扉 Door
+  - k-joyo-6ef4  # 滴 Drip
+  - k-joyo-5840  # 塀 Fence
+  - k-joyo-9727  # 霧 Fog
+  - k-joyo-6247  # 扇 Folding Fan
+  - k-joyo-6068  # 恨 Grudge
+  - k-joyo-5e3d  # 帽 Hat
+  - k-joyo-618e  # 憎 Hate
+  - k-joyo-4f50  # 佐 Help
+  - k-joyo-633f  # 挿 Insert
+  - k-jinmeiyo-4f0a  # 伊 Italy
+  - k-joyo-8a50  # 詐 Lie
+  - k-joyo-5982  # 如 Likeness
+  - k-joyo-5507  # 唇 Lips
+  - k-joyo-5a46  # 婆 Old Woman
+  - k-joyo-638c  # 掌 Palm
+  - k-joyo-54c0  # 哀 Pathetic
+  - k-joyo-8679  # 虹 Rainbow
+  - k-joyo-723d  # 爽 Refreshing
+  - k-joyo-61a9  # 憩 Rest
+  - k-joyo-714e  # 煎 Roast
+  - k-joyo-5c3a  # 尺 Shaku
+  - k-joyo-7815  # 砕 Smash
+  - k-joyo-7c98  # 粘 Sticky
+  - k-joyo-7573  # 畳 Tatami Mat
+  - k-joyo-80f4  # 胴 Torso
+  - k-joyo-5dfe  # 巾 Towel
+  - k-joyo-82af  # 芯 Wick
+  - k-joyo-67f3  # 柳 Willow

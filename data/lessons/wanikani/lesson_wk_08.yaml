@@ -1,0 +1,45 @@
+# WaniKani Level 8 Kanji
+# 34 kanji characters
+
+id: wk_08
+name: "WaniKani Level 8"
+status: locked
+requires:
+  - wk_07
+supercedes: []
+
+ids:
+  - k-joyo-7b54  # 答 Answer
+  - k-joyo-53cd  # 反 Anti
+  - k-joyo-8eab  # 身 Body
+  - k-joyo-541b  # 君 Buddy
+  - k-joyo-5c40  # 局 Bureau
+  - k-joyo-8cb7  # 買 Buy
+  - k-joyo-4eac  # 京 Capital
+  - k-joyo-96f2  # 雲 Cloud
+  - k-joyo-697d  # 楽 Comfort
+  - k-joyo-6570  # 数 Count
+  - k-joyo-6c7a  # 決 Decide
+  - k-joyo-4f4f  # 住 Dwell
+  - k-joyo-96fb  # 電 Electricity
+  - k-joyo-68ee  # 森 Forest
+  - k-joyo-52a9  # 助 Help
+  - k-joyo-99ac  # 馬 Horse
+  - k-joyo-9593  # 間 Interval
+  - k-joyo-5834  # 場 Location
+  - k-joyo-533b  # 医 Medicine
+  - k-joyo-671d  # 朝 Morning
+  - k-joyo-6b21  # 次 Next
+  - k-joyo-756a  # 番 Number In A Series
+  - k-joyo-7d75  # 絵 Picture
+  - k-joyo-6240  # 所 Place
+  - k-joyo-6c60  # 池 Pond
+  - k-joyo-7a76  # 究 Research
+  - k-joyo-9053  # 道 Road
+  - k-joyo-5f79  # 役 Service
+  - k-joyo-7814  # 研 Sharpen
+  - k-joyo-8005  # 者 Someone
+  - k-joyo-652f  # 支 Support
+  - k-joyo-8a71  # 話 Talk
+  - k-joyo-6295  # 投 Throw
+  - k-joyo-5bfe  # 対 Versus

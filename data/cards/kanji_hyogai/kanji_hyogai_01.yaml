@@ -1,0 +1,246 @@
+- id: k-hyogai-3005
+  prompt: "Meanings: repeater, iteration mark (のま)\nUsage: Repeats the preceding kanji"
+  answers:
+    - 々
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
+  befuddlers: []
+
+- id: k-hyogai-5446
+  prompt: "Meanings: be amazed, disgusted, shocked\nOnyomi: ホウ\nKunyomi: ほけ.る, ぼ.ける, あき.れる, おろか"
+  answers:
+    - 呆
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
+  befuddlers: []
+
+- id: k-hyogai-53e9
+  prompt: "Meanings: strike, beat, hit, thrash, criticize\nOnyomi: コウ\nKunyomi: たた.く, はた.く"
+  answers:
+    - 叩
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
+  befuddlers: []
+
+- id: k-hyogai-53f1
+  prompt: "Meanings: scold, reprove\nOnyomi: シツ, シチ\nKunyomi: しか.る"
+  answers:
+    - 叱
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
+  befuddlers: []
+
+- id: k-hyogai-54b3
+  prompt: "Meanings: cough, clear throat\nOnyomi: カイ, ガイ\nKunyomi: せ.く, しわぶ.く, せき"
+  answers:
+    - 咳
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
+  befuddlers: []
+
+- id: k-hyogai-5618
+  prompt: "Meanings: lie, falsehood\nOnyomi: キョ, コ\nKunyomi: うそ, ふ.く"
+  answers:
+    - 嘘
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
+  befuddlers: []
+
+- id: k-hyogai-565b
+  prompt: "Meanings: chew, bite, gnaw\nOnyomi: コウ, ゴウ\nKunyomi: か.む, か.じる"
+  answers:
+    - 噛
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
+  befuddlers: []
+
+- id: k-hyogai-589f
+  prompt: "Meanings: ruins\nOnyomi: キョ\nKunyomi: あと"
+  answers:
+    - 墟
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
+  befuddlers: []
+
+- id: k-hyogai-5c41
+  prompt: "Meanings: fart, passing gas\nOnyomi: ヒ\nKunyomi: へ"
+  answers:
+    - 屁
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
+  befuddlers: []
+
+- id: k-hyogai-7092
+  prompt: "Meanings: broil, parch, roast, fry\nOnyomi: ソウ, ショウ\nKunyomi: い.る, いた.める"
+  answers:
+    - 炒
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
+  befuddlers: []
+
+- id: k-hyogai-72d0
+  prompt: "Meanings: fox\nOnyomi: コ\nKunyomi: きつね"
+  answers:
+    - 狐
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
+  befuddlers: []
+
+- id: k-hyogai-75d2
+  prompt: "Meanings: itchy\nOnyomi: ヨウ\nKunyomi: かゆ.がる, かゆ.い"
+  answers:
+    - 痒
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
+  befuddlers: []
+
+- id: k-hyogai-7e4b
+  prompt: "Meanings: tie, fasten, chain, tether, connect\nOnyomi: ケイ\nKunyomi: つな.ぐ, かか.る, か.ける"
+  answers:
+    - 繋
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
+  befuddlers: []
+
+- id: k-hyogai-8210
+  prompt: "Meanings: lick, lap up, taste, underrate, despise\nOnyomi: シ\nKunyomi: ねぶ.る, な.める"
+  answers:
+    - 舐
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
+  befuddlers: []
+
+- id: k-hyogai-8d05
+  prompt: "Meanings: luxury, extravagant\nOnyomi: ゼイ, セイ\nKunyomi: いぼ"
+  answers:
+    - 贅
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
+  befuddlers: []
+
+- id: k-hyogai-91a4
+  prompt: "Meanings: a kind of miso, soy sauce\nOnyomi: ショウ\nKunyomi: ひしお"
+  answers:
+    - 醤
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
+  befuddlers: []
+
+- id: k-hyogai-98f4
+  prompt: "Meanings: rice jelly, candy\nOnyomi: イ, シ\nKunyomi: あめ, やしな.う"
+  answers:
+    - 飴
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
+  befuddlers: []
+
+- id: k-hyogai-9bad
+  prompt: "Meanings: salmon\nOnyomi: カイ, ケイ\nKunyomi: さけ, しゃけ"
+  answers:
+    - 鮭
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
+  befuddlers: []
+
+- id: k-hyogai-9c10
+  prompt: "Meanings: alligator, crocodile\nOnyomi: ガク\nKunyomi: わに"
+  answers:
+    - 鰐
+  hint: ""
+  stage: -1
+  unlocks: '9999-12-31T23:59:59+00:00'
+  invulnerable: false
+  max_stage: -1
+  learned: false
+  hidden: false
+  befuddlers: []

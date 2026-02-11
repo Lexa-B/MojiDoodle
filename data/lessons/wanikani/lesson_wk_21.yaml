@@ -1,0 +1,44 @@
+# WaniKani Level 21 Kanji
+# 33 kanji characters
+
+id: wk_21
+name: "WaniKani Level 21"
+status: locked
+requires:
+  - wk_20
+supercedes: []
+
+ids:
+  - k-joyo-8cac  # 責 Blame
+  - k-joyo-5efa  # 建 Build
+  - k-joyo-6761  # 条 Clause
+  - k-joyo-6e08  # 済 Come To An End
+  - k-jinmeiyo-53f6  # 叶 Come True
+  - k-joyo-59d4  # 委 Committee
+  - k-joyo-7701  # 省 Conserve
+  - k-joyo-5236  # 制 Control
+  - k-joyo-6279  # 批 Criticism
+  - k-joyo-65ad  # 断 Cut Off
+  - k-joyo-4efb  # 任 Duty
+  - k-joyo-7d20  # 素 Element
+  - k-joyo-6575  # 敵 Enemy
+  - k-joyo-7fa8  # 羨 Envy
+  - k-joyo-8a2d  # 設 Establish
+  - k-joyo-691c  # 検 Examine
+  - k-joyo-5ca1  # 岡 Hill
+  - k-joyo-5897  # 増 Increase
+  - k-joyo-67fb  # 査 Inspect
+  - k-joyo-5224  # 判 Judge
+  - k-joyo-4ef6  # 件 Matter
+  - k-joyo-969b  # 際 Occasion
+  - k-joyo-7948  # 祈 Pray
+  - k-joyo-6319  # 挙 Raise
+  - k-jinmeiyo-8cb0  # 貰 Receive
+  - k-joyo-8a8d  # 認 Recognize
+  - k-joyo-8cc7  # 資 Resources
+  - k-joyo-7fa9  # 義 Righteousness
+  - k-joyo-6a29  # 権 Rights
+  - k-joyo-6d3e  # 派 Sect
+  - k-joyo-52d9  # 務 Task
+  - k-joyo-7a0e  # 税 Tax
+  - k-joyo-7dcf  # 総 Whole

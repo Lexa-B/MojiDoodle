@@ -85,6 +85,64 @@ packs:
     files:
       - wanikani/lesson_wk_01.yaml
       - wanikani/lesson_wk_02.yaml
+      - wanikani/lesson_wk_03.yaml
+      - wanikani/lesson_wk_04.yaml
+      - wanikani/lesson_wk_05.yaml
+      - wanikani/lesson_wk_06.yaml
+      - wanikani/lesson_wk_07.yaml
+      - wanikani/lesson_wk_08.yaml
+      - wanikani/lesson_wk_09.yaml
+      - wanikani/lesson_wk_10.yaml
+      - wanikani/lesson_wk_11.yaml
+      - wanikani/lesson_wk_12.yaml
+      - wanikani/lesson_wk_13.yaml
+      - wanikani/lesson_wk_14.yaml
+      - wanikani/lesson_wk_15.yaml
+      - wanikani/lesson_wk_16.yaml
+      - wanikani/lesson_wk_17.yaml
+      - wanikani/lesson_wk_18.yaml
+      - wanikani/lesson_wk_19.yaml
+      - wanikani/lesson_wk_20.yaml
+      - wanikani/lesson_wk_21.yaml
+      - wanikani/lesson_wk_22.yaml
+      - wanikani/lesson_wk_23.yaml
+      - wanikani/lesson_wk_24.yaml
+      - wanikani/lesson_wk_25.yaml
+      - wanikani/lesson_wk_26.yaml
+      - wanikani/lesson_wk_27.yaml
+      - wanikani/lesson_wk_28.yaml
+      - wanikani/lesson_wk_29.yaml
+      - wanikani/lesson_wk_30.yaml
+      - wanikani/lesson_wk_31.yaml
+      - wanikani/lesson_wk_32.yaml
+      - wanikani/lesson_wk_33.yaml
+      - wanikani/lesson_wk_34.yaml
+      - wanikani/lesson_wk_35.yaml
+      - wanikani/lesson_wk_36.yaml
+      - wanikani/lesson_wk_37.yaml
+      - wanikani/lesson_wk_38.yaml
+      - wanikani/lesson_wk_39.yaml
+      - wanikani/lesson_wk_40.yaml
+      - wanikani/lesson_wk_41.yaml
+      - wanikani/lesson_wk_42.yaml
+      - wanikani/lesson_wk_43.yaml
+      - wanikani/lesson_wk_44.yaml
+      - wanikani/lesson_wk_45.yaml
+      - wanikani/lesson_wk_46.yaml
+      - wanikani/lesson_wk_47.yaml
+      - wanikani/lesson_wk_48.yaml
+      - wanikani/lesson_wk_49.yaml
+      - wanikani/lesson_wk_50.yaml
+      - wanikani/lesson_wk_51.yaml
+      - wanikani/lesson_wk_52.yaml
+      - wanikani/lesson_wk_53.yaml
+      - wanikani/lesson_wk_54.yaml
+      - wanikani/lesson_wk_55.yaml
+      - wanikani/lesson_wk_56.yaml
+      - wanikani/lesson_wk_57.yaml
+      - wanikani/lesson_wk_58.yaml
+      - wanikani/lesson_wk_59.yaml
+      - wanikani/lesson_wk_60.yaml
 
   - id: common-katakana-words
     name: Common Katakana Words

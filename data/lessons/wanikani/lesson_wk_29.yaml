@@ -1,0 +1,46 @@
+# WaniKani Level 29 Kanji
+# 35 kanji characters
+
+id: wk_29
+name: "WaniKani Level 29"
+status: locked
+requires:
+  - wk_28
+supercedes: []
+
+ids:
+  - k-joyo-7565  # 略 Abbreviation
+  - k-joyo-7a4d  # 積 Accumulate
+  - k-joyo-6dfb  # 添 Append
+  - k-joyo-5bb4  # 宴 Banquet
+  - k-joyo-677f  # 板 Board
+  - k-joyo-58ca  # 壊 Break
+  - k-joyo-50da  # 僚 Colleague
+  - k-joyo-676f  # 杯 Cup Of Liquid
+  - k-joyo-5a18  # 娘 Daughter
+  - k-joyo-8a3a  # 診 Diagnose
+  - k-joyo-7763  # 督 Direct
+  - k-joyo-5bc4  # 寄 Draw Near
+  - k-joyo-4e7e  # 乾 Dry
+  - k-joyo-6b27  # 欧 Europe
+  - k-joyo-6050  # 恐 Fear
+  - k-joyo-731b  # 猛 Fierce
+  - k-joyo-6c5f  # 江 Inlet
+  - k-joyo-97d3  # 韓 Korea
+  - k-joyo-96c4  # 雄 Male
+  - k-joyo-7384  # 玄 Mysterious
+  - k-joyo-822a  # 航 Navigation
+  - k-joyo-76e3  # 監 Oversee
+  - k-joyo-52e7  # 勧 Recommend
+  - k-joyo-5b97  # 宗 Religion
+  - k-joyo-8acb  # 請 Request
+  - k-joyo-6016  # 怖 Scary
+  - k-joyo-7d22  # 索 Search
+  - k-joyo-81e3  # 臣 Servant
+  - k-joyo-50ac  # 催 Sponsor
+  - k-joyo-8857  # 街 Streets
+  - k-joyo-8a70  # 詰 Stuffed
+  - k-joyo-7dca  # 緊 Tense
+  - k-joyo-95a3  # 閣 The Cabinet
+  - k-joyo-4fc3  # 促 Urge
+  - k-joyo-70c8  # 烈 Violent

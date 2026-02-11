@@ -1,0 +1,43 @@
+# WaniKani Level 60 Kanji
+# 32 kanji characters
+
+id: wk_60
+name: "WaniKani Level 60"
+status: locked
+requires:
+  - wk_59
+supercedes: []
+
+ids:
+  - k-joyo-7169  # 煩 Annoy
+  - k-joyo-6b3e  # 款 Article
+  - k-joyo-86ee  # 蛮 Barbarian
+  - k-joyo-5ec9  # 廉 Bargain
+  - k-joyo-52be  # 劾 Censure
+  - k-joyo-67d0  # 某 Certain
+  - k-joyo-77ef  # 矯 Correct
+  - k-joyo-75e2  # 痢 Diarrhea
+  - k-joyo-901d  # 逝 Die
+  - k-joyo-6f38  # 漸 Gradually
+  - k-joyo-5347  # 升 Grid
+  - k-joyo-5a7f  # 婿 Groom
+  - k-joyo-533f  # 匿 Hide
+  - k-joyo-8b39  # 謹 Humble
+  - k-joyo-85cd  # 藍 Indigo
+  - k-joyo-685f  # 桟 Jetty
+  - k-joyo-6b89  # 殉 Martyr
+  - k-joyo-5751  # 坑 Pit
+  - k-joyo-7f77  # 罷 Quit
+  - k-joyo-5984  # 妄 Reckless
+  - k-jinmeiyo-6f23  # 漣 Ripples
+  - k-joyo-85fb  # 藻 Seaweed
+  - k-joyo-6ccc  # 泌 Secrete
+  - k-joyo-5504  # 唄 Shamisen Song
+  - k-joyo-7554  # 畔 Shore
+  - k-joyo-5039  # 倹 Thrifty
+  - k-joyo-62f7  # 拷 Torture
+  - k-joyo-919c  # 醜 Ugly
+  - k-joyo-51a5  # 冥 Underworld
+  - k-joyo-6e13  # 渓 Valley
+  - k-joyo-5be1  # 寡 Widow
+  - k-joyo-6155  # 慕 Yearn For

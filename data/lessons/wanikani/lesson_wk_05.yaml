@@ -1,0 +1,57 @@
+# WaniKani Level 5 Kanji
+# 46 kanji characters
+
+id: wk_05
+name: "WaniKani Level 5"
+status: locked
+requires:
+  - wk_04
+supercedes: []
+
+ids:
+  - k-joyo-89d2  # 角 Angle
+  - k-joyo-65a4  # 斤 Axe
+  - k-joyo-9752  # 青 Blue
+  - k-joyo-4f53  # 体 Body
+  - k-joyo-8272  # 色 Color
+  - k-joyo-6765  # 来 Come
+  - k-joyo-793e  # 社 Company
+  - k-joyo-5f53  # 当 Correct
+  - k-joyo-56f3  # 図 Diagram
+  - k-joyo-6bce  # 毎 Every
+  - k-joyo-7fbd  # 羽 Feather
+  - k-joyo-6797  # 林 Forest
+  - k-joyo-884c  # 行 Go
+  - k-joyo-91d1  # 金 Gold
+  - k-joyo-8349  # 草 Grass
+  - k-joyo-91cc  # 里 Hometown
+  - k-joyo-5149  # 光 Light
+  - k-joyo-4f5c  # 作 Make
+  - k-joyo-591a  # 多 Many
+  - k-joyo-8089  # 肉 Meat
+  - k-joyo-4f1a  # 会 Meet
+  - k-joyo-4ea4  # 交 Mix
+  - k-joyo-8fd1  # 近 Near
+  - k-joyo-591c  # 夜 Night
+  - k-joyo-5144  # 兄 Older Brother
+  - k-joyo-8c5a  # 豚 Pig
+  - k-joyo-96e8  # 雨 Rain
+  - k-joyo-7c73  # 米 Rice
+  - k-joyo-8d70  # 走 Run
+  - k-joyo-540c  # 同 Same
+  - k-joyo-8a00  # 言 Say
+  - k-joyo-81ea  # 自 Self
+  - k-joyo-5f62  # 形 Shape
+  - k-joyo-76ae  # 皮 Skin
+  - k-joyo-7a7a  # 空 Sky
+  - k-joyo-97f3  # 音 Sound
+  - k-joyo-5b66  # 学 Study
+  - k-joyo-4ee3  # 代 Substitute
+  - k-joyo-8003  # 考 Think
+  - k-joyo-56de  # 回 Times
+  - k-joyo-8c37  # 谷 Valley
+  - k-joyo-58f0  # 声 Voice
+  - k-joyo-897f  # 西 West
+  - k-joyo-4f55  # 何 What
+  - k-joyo-9ea6  # 麦 Wheat
+  - k-joyo-5f1f  # 弟 Younger Brother

@@ -1,0 +1,45 @@
+# WaniKani Level 45 Kanji
+# 34 kanji characters
+
+id: wk_45
+name: "WaniKani Level 45"
+status: locked
+requires:
+  - wk_44
+supercedes: []
+
+ids:
+  - k-joyo-9803  # 頃 Approximate
+  - k-joyo-83cc  # 菌 Bacteria
+  - k-joyo-9418  # 鐘 Bell
+  - k-joyo-821f  # 舟 Boat
+  - k-joyo-5ac1  # 嫁 Bride
+  - k-joyo-66a6  # 暦 Calendar
+  - k-joyo-66c7  # 曇 Cloudy
+  - k-jinmeiyo-4e5f  # 也 Considerably
+  - k-joyo-587e  # 塾 Cram School
+  - k-joyo-546a  # 呪 Curse
+  - k-joyo-6e7f  # 湿 Damp
+  - k-joyo-7a3c  # 稼 Earnings
+  - k-jinmeiyo-7fd4  # 翔 Fly
+  - k-joyo-8ced  # 賭 Gamble
+  - k-joyo-970a  # 霊 Ghost
+  - k-joyo-6e9d  # 溝 Gutter
+  - k-joyo-72e9  # 狩 Hunt
+  - k-joyo-811a  # 脚 Leg
+  - k-joyo-6f84  # 澄 Lucidity
+  - k-joyo-584a  # 塊 Lump
+  - k-joyo-72c2  # 狂 Lunatic
+  - k-joyo-5b22  # 嬢 Miss
+  - k-joyo-88f8  # 裸 Naked
+  - k-joyo-5cb3  # 岳 Peak
+  - k-joyo-78e8  # 磨 Polish
+  - k-joyo-9670  # 陰 Shade
+  - k-joyo-808c  # 肌 Skin
+  - k-joyo-9b42  # 魂 Soul
+  - k-joyo-77db  # 矛 Spear
+  - k-joyo-773a  # 眺 Stare
+  - k-joyo-786c  # 硬 Stiff
+  - k-joyo-5353  # 卓 Table
+  - k-joyo-51f6  # 凶 Villain
+  - k-joyo-6edd  # 滝 Waterfall

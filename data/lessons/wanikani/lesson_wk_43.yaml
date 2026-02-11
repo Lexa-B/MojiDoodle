@@ -1,0 +1,44 @@
+# WaniKani Level 43 Kanji
+# 33 kanji characters
+
+id: wk_43
+name: "WaniKani Level 43"
+status: locked
+requires:
+  - wk_42
+supercedes: []
+
+ids:
+  - k-joyo-8972  # 襲 Attack
+  - k-joyo-6717  # 朗 Bright
+  - k-joyo-6469  # 摩 Chafe
+  - k-joyo-8da3  # 趣 Charm
+  - k-joyo-61f2  # 懲 Chastise
+  - k-joyo-6170  # 慰 Consolation
+  - k-joyo-61c7  # 懇 Courteous
+  - k-joyo-6676  # 晶 Crystal
+  - k-joyo-7b52  # 筒 Cylinder
+  - k-joyo-6ec5  # 滅 Destroy
+  - k-joyo-5a01  # 威 Dignity
+  - k-joyo-8ddd  # 距 Distance
+  - k-joyo-9732  # 露 Expose
+  - k-joyo-7089  # 炉 Furnace
+  - k-joyo-67d4  # 柔 Gentle
+  - k-joyo-7434  # 琴 Harp
+  - k-joyo-57a3  # 垣 Hedge
+  - k-joyo-5373  # 即 Instant
+  - k-joyo-6ecb  # 滋 Nourishing
+  - k-joyo-7267  # 牧 Pasture
+  - k-joyo-6cf0  # 泰 Peace
+  - k-joyo-65e8  # 旨 Point
+  - k-joyo-5237  # 刷 Printing
+  - k-joyo-73cd  # 珍 Rare
+  - k-joyo-7c4d  # 籍 Register
+  - k-joyo-64e6  # 擦 Rub
+  - k-joyo-5c01  # 封 Seal
+  - k-joyo-6589  # 斉 Simultaneous
+  - k-joyo-6c88  # 沈 Sink
+  - k-joyo-64b2  # 撲 Slap
+  - k-joyo-88c2  # 裂 Split
+  - k-joyo-6f6e  # 潮 Tide
+  - k-joyo-8ca2  # 貢 Tribute

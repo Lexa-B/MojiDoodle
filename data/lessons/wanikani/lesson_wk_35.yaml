@@ -1,0 +1,48 @@
+# WaniKani Level 35 Kanji
+# 37 kanji characters
+
+id: wk_35
+name: "WaniKani Level 35"
+status: locked
+requires:
+  - wk_34
+supercedes: []
+
+ids:
+  - k-joyo-718a  # 熊 Bear
+  - k-jinmeiyo-564c  # 噌 Boisterous
+  - k-joyo-5f6b  # 彫 Carve
+  - k-joyo-6749  # 杉 Cedar
+  - k-jinmeiyo-558b  # 喋 Chat
+  - k-joyo-934b  # 鍋 Cooking Pot
+  - k-joyo-9285  # 銅 Copper
+  - k-joyo-820e  # 舎 Cottage
+  - k-joyo-6f70  # 潰 Crush
+  - k-joyo-6f20  # 漠 Desert
+  - k-joyo-9154  # 酔 Drunk
+  - k-joyo-708e  # 炎 Flame
+  - k-joyo-8ed2  # 軒 House Counter
+  - k-joyo-7d39  # 紹 Introduce
+  - k-joyo-4ecb  # 介 Jammed In
+  - k-joyo-6e56  # 湖 Lake
+  - k-joyo-8b1b  # 講 Lecture
+  - k-joyo-5bff  # 寿 Lifespan
+  - k-joyo-6e2c  # 測 Measure
+  - k-joyo-5384  # 厄 Misfortune
+  - k-joyo-4e92  # 互 Mutual
+  - k-joyo-6cb9  # 油 Oil
+  - k-joyo-5df1  # 己 Oneself
+  - k-joyo-7344  # 獄 Prison
+  - k-joyo-621a  # 戚 Relatives
+  - k-joyo-70ba  # 為 Sake
+  - k-joyo-553e  # 唾 Saliva
+  - k-joyo-6065  # 恥 Shame
+  - k-joyo-9045  # 遅 Slow
+  - k-joyo-6c41  # 汁 Soup
+  - k-hyogai-91a4  # 醤 Soy Sauce
+  - k-joyo-6ede  # 滞 Stagnate
+  - k-joyo-5263  # 剣 Sword
+  - k-joyo-7834  # 破 Tear
+  - k-joyo-6d99  # 涙 Teardrop
+  - k-joyo-4e80  # 亀 Turtle
+  - k-joyo-9162  # 酢 Vinegar

@@ -1,0 +1,49 @@
+# WaniKani Level 15 Kanji
+# 38 kanji characters
+
+id: wk_15
+name: "WaniKani Level 15"
+status: locked
+requires:
+  - wk_14
+supercedes: []
+
+ids:
+  - k-joyo-7d00  # 紀 Account
+  - k-joyo-8ecd  # 軍 Army
+  - k-joyo-79cb  # 秋 Autumn
+  - k-joyo-4fe1  # 信 Believe
+  - k-joyo-5ca9  # 岩 Boulder
+  - k-joyo-4ecf  # 仏 Buddha
+  - k-joyo-732b  # 猫 Cat
+  - k-joyo-5909  # 変 Change
+  - k-joyo-6674  # 晴 Clear Up
+  - k-joyo-52c7  # 勇 Courage
+  - k-joyo-6ce3  # 泣 Cry
+  - k-joyo-53f8  # 司 Director
+  - k-joyo-533a  # 区 District
+  - k-joyo-82f1  # 英 England
+  - k-joyo-4e08  # 丈 Height
+  - k-joyo-592b  # 夫 Husband
+  - k-hyogai-8210  # 舐 Lick
+  - k-joyo-798f  # 福 Luck
+  - k-joyo-98ef  # 飯 Meal
+  - k-joyo-8a08  # 計 Measure
+  - k-joyo-6cd5  # 法 Method
+  - k-joyo-6669  # 晩 Night
+  - k-joyo-663c  # 昼 Noon
+  - k-joyo-6255  # 払 Pay
+  - k-joyo-6bd2  # 毒 Poison
+  - k-joyo-6628  # 昨 Previous
+  - k-joyo-5e30  # 帰 Return Home
+  - k-joyo-5f0f  # 式 Ritual
+  - k-joyo-5217  # 列 Row
+  - k-joyo-6d45  # 浅 Shallow
+  - k-joyo-5358  # 単 Simple
+  - k-joyo-6280  # 技 Skill
+  - k-joyo-5742  # 坂 Slope
+  - k-joyo-5339  # 匹 Small Animal
+  - k-joyo-6625  # 春 Spring
+  - k-joyo-967d  # 陽 Sunshine
+  - k-joyo-8853  # 術 Technique
+  - k-joyo-5bfa  # 寺 Temple

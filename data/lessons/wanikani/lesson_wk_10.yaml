@@ -1,0 +1,53 @@
+# WaniKani Level 10 Kanji
+# 42 kanji characters
+
+id: wk_10
+name: "WaniKani Level 10"
+status: locked
+requires:
+  - wk_09
+supercedes: []
+
+ids:
+  - k-joyo-9032  # 進 Advance
+  - k-joyo-9152  # 酒 Alcohol
+  - k-joyo-59cb  # 始 Begin
+  - k-joyo-696d  # 業 Business
+  - k-joyo-7b97  # 算 Calculate
+  - k-joyo-904b  # 運 Carry
+  - k-joyo-6f22  # 漢 Chinese
+  - k-joyo-9cf4  # 鳴 Chirp
+  - k-joyo-96c6  # 集 Collect
+  - k-joyo-914d  # 配 Distribute
+  - k-joyo-98f2  # 飲 Drink
+  - k-joyo-7d42  # 終 End
+  - k-joyo-9854  # 顔 Face
+  - k-joyo-843d  # 落 Fall
+  - k-joyo-8fb2  # 農 Farming
+  - k-joyo-901f  # 速 Fast
+  - k-joyo-4e86  # 了 Finish
+  - k-joyo-982d  # 頭 Head
+  - k-joyo-805e  # 聞 Hear
+  - k-joyo-9662  # 院 Institution
+  - k-joyo-8abf  # 調 Investigate
+  - k-joyo-9244  # 鉄 Iron
+  - k-joyo-8a9e  # 語 Language
+  - k-joyo-8449  # 葉 Leaf
+  - k-joyo-7fd2  # 習 Learn
+  - k-joyo-8efd  # 軽 Lightweight
+  - k-joyo-7dda  # 線 Line
+  - k-joyo-6700  # 最 Most
+  - k-joyo-958b  # 開 Open
+  - k-jinmeiyo-9801  # 頁 Page
+  - k-joyo-89aa  # 親 Parent
+  - k-joyo-516c  # 公 Public
+  - k-joyo-8aad  # 読 Read
+  - k-joyo-6c42  # 求 Request
+  - k-joyo-8ee2  # 転 Revolve
+  - k-joyo-8def  # 路 Road
+  - k-joyo-75c5  # 病 Sick
+  - k-joyo-6a2a  # 横 Side
+  - k-joyo-89e3  # 解 Solve
+  - k-joyo-6b4c  # 歌 Song
+  - k-joyo-76f4  # 直 Straight
+  - k-joyo-8d77  # 起 Wake Up

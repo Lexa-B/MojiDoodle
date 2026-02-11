@@ -1,0 +1,46 @@
+# WaniKani Level 28 Kanji
+# 35 kanji characters
+
+id: wk_28
+name: "WaniKani Level 28"
+status: locked
+requires:
+  - wk_27
+supercedes: []
+
+ids:
+  - k-joyo-653b  # 攻 Aggression
+  - k-joyo-6483  # 撃 Attack
+  - k-joyo-6d5c  # 浜 Beach
+  - k-jinmeiyo-7dba  # 綺 Beautiful
+  - k-joyo-76ca  # 益 Benefit
+  - k-joyo-6cbc  # 沼 Bog
+  - k-joyo-5150  # 児 Child
+  - k-jinmeiyo-63c3  # 揃 Complete
+  - k-joyo-61b2  # 憲 Constitution
+  - k-joyo-51b7  # 冷 Cool
+  - k-joyo-51e6  # 処 Deal With
+  - k-joyo-5fae  # 微 Delicate
+  - k-joyo-535a  # 博 Exhibition
+  - k-joyo-7a0b  # 程 Extent
+  - k-joyo-51cd  # 凍 Frozen
+  - k-joyo-5de8  # 巨 Giant
+  - k-joyo-7a1a  # 稚 Immature
+  - k-joyo-5e7c  # 幼 Infancy
+  - k-joyo-5a66  # 婦 Lady
+  - k-joyo-4e26  # 並 Line Up
+  - k-joyo-9e97  # 麗 Lovely
+  - k-joyo-4fee  # 修 Mastering
+  - k-joyo-5947  # 奇 Odd
+  - k-joyo-5999  # 妙 Peculiar
+  - k-joyo-8846  # 衆 Populace
+  - k-joyo-6e05  # 清 Pure
+  - k-joyo-6f54  # 潔 Pure
+  - k-joyo-9332  # 録 Record
+  - k-joyo-9006  # 逆 Reverse
+  - k-joyo-79fb  # 移 Shift
+  - k-joyo-7cbe  # 精 Spirit
+  - k-joyo-968a  # 隊 Squad
+  - k-joyo-5eab  # 庫 Storage
+  - k-joyo-5238  # 券 Ticket
+  - k-joyo-5098  # 傘 Umbrella

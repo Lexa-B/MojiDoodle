@@ -1,0 +1,51 @@
+# WaniKani Level 12 Kanji
+# 40 kanji characters
+
+id: wk_12
+name: "WaniKani Level 12"
+status: locked
+requires:
+  - wk_11
+supercedes: []
+
+ids:
+  - k-joyo-60aa  # 悪 Bad
+  - k-joyo-606f  # 息 Breath
+  - k-joyo-7ae0  # 章 Chapter
+  - k-joyo-767b  # 登 Climb
+  - k-joyo-5bd2  # 寒 Cold
+  - k-joyo-6df1  # 深 Deep
+  - k-joyo-500d  # 倍 Double
+  - k-joyo-52c9  # 勉 Exertion
+  - k-joyo-6d88  # 消 Extinguish
+  - k-joyo-796d  # 祭 Festival
+  - k-joyo-91ce  # 野 Field
+  - k-joyo-968e  # 階 Floor
+  - k-joyo-5ead  # 庭 Garden
+  - k-joyo-6e2f  # 港 Harbor
+  - k-joyo-5f7c  # 彼 He
+  - k-joyo-6691  # 暑 Hot
+  - k-joyo-6e6f  # 湯 Hot Water
+  - k-joyo-50d5  # 僕 I
+  - k-joyo-5cf6  # 島 Island
+  - k-joyo-7ae5  # 童 Juvenile
+  - k-joyo-54e1  # 員 Member
+  - k-joyo-5546  # 商 Merchandise
+  - k-joyo-90fd  # 都 Metropolis
+  - k-joyo-52d5  # 動 Move
+  - k-joyo-7b2c  # 第 Ordinal Number Prefix
+  - k-joyo-671f  # 期 Period Of Time
+  - k-joyo-690d  # 植 Plant
+  - k-joyo-6839  # 根 Root
+  - k-joyo-77ed  # 短 Short
+  - k-joyo-7403  # 球 Sphere
+  - k-joyo-6cc9  # 泉 Spring
+  - k-joyo-6d41  # 流 Stream
+  - k-joyo-5408  # 合 Suit
+  - k-joyo-75b2  # 疲 Tired
+  - k-joyo-6b6f  # 歯 Tooth
+  - k-joyo-65cf  # 族 Tribe
+  - k-joyo-65c5  # 旅 Trip
+  - k-joyo-5f85  # 待 Wait
+  - k-joyo-6e29  # 温 Warm
+  - k-joyo-7740  # 着 Wear

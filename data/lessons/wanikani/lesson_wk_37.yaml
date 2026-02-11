@@ -1,0 +1,46 @@
+# WaniKani Level 37 Kanji
+# 35 kanji characters
+
+id: wk_37
+name: "WaniKani Level 37"
+status: locked
+requires:
+  - wk_36
+supercedes: []
+
+ids:
+  - k-joyo-60a3  # 患 Afflicted
+  - k-joyo-72d9  # 狙 Aim
+  - k-joyo-9663  # 陣 Army Camp
+  - k-joyo-5841  # 塁 Base
+  - k-joyo-5f3e  # 弾 Bullet
+  - k-joyo-846c  # 葬 Burial
+  - k-joyo-6297  # 抗 Confront
+  - k-joyo-5d29  # 崩 Crumble
+  - k-joyo-9063  # 遣 Dispatch
+  - k-joyo-63b2  # 掲 Display
+  - k-joyo-7206  # 爆 Explode
+  - k-joyo-7709  # 眉 Eyebrows
+  - k-joyo-6075  # 恵 Favor
+  - k-joyo-95d8  # 闘 Fight
+  - k-joyo-6f01  # 漁 Fishing
+  - k-joyo-9999  # 香 Fragrance
+  - k-joyo-6e7e  # 湾 Gulf
+  - k-joyo-8df3  # 跳 Hop
+  - k-joyo-62b1  # 抱 Hug
+  - k-joyo-65ec  # 旬 In Season
+  - k-joyo-8074  # 聴 Listen
+  - k-joyo-81e8  # 臨 Look To
+  - k-joyo-5146  # 兆 Omen
+  - k-joyo-5951  # 契 Pledge
+  - k-joyo-5211  # 刑 Punish
+  - k-joyo-52df  # 募 Recruit
+  - k-joyo-511f  # 償 Reparation
+  - k-joyo-62b5  # 抵 Resist
+  - k-joyo-623b  # 戻 Return
+  - k-joyo-662d  # 昭 Shining
+  - k-joyo-7d79  # 絹 Silk
+  - k-joyo-4e32  # 串 Skewer
+  - k-joyo-57f7  # 執 Tenacious
+  - k-joyo-8de1  # 跡 Traces
+  - k-joyo-524a  # 削 Whittle Down

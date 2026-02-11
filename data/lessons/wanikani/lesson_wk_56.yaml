@@ -1,0 +1,46 @@
+# WaniKani Level 56 Kanji
+# 35 kanji characters
+
+id: wk_56
+name: "WaniKani Level 56"
+status: locked
+requires:
+  - wk_55
+supercedes: []
+
+ids:
+  - k-joyo-5320  # 匠 Artisan
+  - k-joyo-62cd  # 拍 Beat
+  - k-joyo-7e1b  # 縛 Bind
+  - k-joyo-98fd  # 飽 Bored
+  - k-jinmeiyo-67f4  # 柴 Brushwood
+  - k-jinmeiyo-8776  # 蝶 Butterfly
+  - k-joyo-5f26  # 弦 Chord
+  - k-jinmeiyo-51db  # 凛 Cold
+  - k-joyo-5eb8  # 庸 Commonplace
+  - k-joyo-932f  # 錯 Confused
+  - k-joyo-8f44  # 轄 Control
+  - k-joyo-60a6  # 悦 Delight
+  - k-joyo-7aae  # 窮 Destitute
+  - k-jinmeiyo-5609  # 嘉 Esteem
+  - k-joyo-5f0a  # 弊 Evil
+  - k-jinmeiyo-9065  # 遥 Far Off
+  - k-joyo-6d2a  # 洪 Flood
+  - k-joyo-7d33  # 紳 Gentleman
+  - k-joyo-5449  # 呉 Give
+  - k-joyo-7a40  # 穀 Grain
+  - k-joyo-6442  # 摂 In Addition
+  - k-joyo-5bc2  # 寂 Lonely
+  - k-joyo-5bb0  # 宰 Manager
+  - k-joyo-9675  # 陵 Mausoleum
+  - k-joyo-51e1  # 凡 Mediocre
+  - k-joyo-5c09  # 尉 Military Officer
+  - k-jinmeiyo-9756  # 靖 Peaceful
+  - k-joyo-606d  # 恭 Respect
+  - k-joyo-7e2b  # 縫 Sew
+  - k-joyo-8236  # 舶 Ship
+  - k-joyo-643e  # 搾 Squeeze
+  - k-joyo-7336  # 猶 Still
+  - k-joyo-7a92  # 窒 Suffocate
+  - k-joyo-7891  # 碑 Tombstone
+  - k-jinmeiyo-667a  # 智 Wisdom

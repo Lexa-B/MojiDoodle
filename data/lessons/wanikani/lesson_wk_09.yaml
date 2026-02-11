@@ -1,0 +1,51 @@
+# WaniKani Level 9 Kanji
+# 40 kanji characters
+
+id: wk_09
+name: "WaniKani Level 9"
+status: locked
+requires:
+  - wk_08
+supercedes: []
+
+ids:
+  - k-joyo-53d7  # 受 Accept
+  - k-joyo-7f8e  # 美 Beauty
+  - k-joyo-4e88  # 予 Beforehand
+  - k-joyo-670d  # 服 Clothes
+  - k-joyo-6bd4  # 比 Compare
+  - k-joyo-5ea6  # 度 Degree
+  - k-joyo-767a  # 発 Departure
+  - k-joyo-5b9a  # 定 Determine
+  - k-joyo-8868  # 表 Express
+  - k-joyo-5ba2  # 客 Guest
+  - k-joyo-91cd  # 重 Heavy
+  - k-joyo-6301  # 持 Hold
+  - k-joyo-50cf  # 像 Image
+  - k-joyo-8ca0  # 負 Lose
+  - k-joyo-76f8  # 相 Mutual
+  - k-joyo-8981  # 要 Need
+  - k-joyo-65b0  # 新 New
+  - k-joyo-4e8b  # 事 Occurrence
+  - k-joyo-90e8  # 部 Part
+  - k-joyo-548c  # 和 Peace
+  - k-joyo-770c  # 県 Prefecture
+  - k-joyo-4fdd  # 保 Preserve
+  - k-joyo-8fd4  # 返 Return
+  - k-joyo-4e57  # 乗 Ride
+  - k-joyo-5c4b  # 屋 Roof
+  - k-joyo-58f2  # 売 Sell
+  - k-joyo-9001  # 送 Send
+  - k-joyo-8f9b  # 辛 Spicy
+  - k-joyo-82e6  # 苦 Suffering
+  - k-joyo-6cf3  # 泳 Swim
+  - k-joyo-8ac7  # 談 Talk
+  - k-joyo-4eee  # 仮 Temporary
+  - k-joyo-9a13  # 験 Test
+  - k-joyo-7269  # 物 Thing
+  - k-joyo-5177  # 具 Tool
+  - k-joyo-5b9f  # 実 Truth
+  - k-joyo-8a66  # 試 Try
+  - k-joyo-4f7f  # 使 Use
+  - k-joyo-52dd  # 勝 Win
+  - k-joyo-754c  # 界 World

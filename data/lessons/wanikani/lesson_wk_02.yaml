@@ -1,5 +1,5 @@
 # WaniKani Level 2 Kanji
-# 34 kanji characters (々 repeater mark excluded - not a kanji)
+# 35 kanji characters
 
 id: wk_02
 name: "WaniKani Level 2"
@@ -28,6 +28,7 @@ ids:
   - k-joyo-5de6  # 左 Left
   - k-joyo-4e2d  # 中 Middle
   - k-joyo-6708  # 月 Moon
+  - k-hyogai-3005  # 々 Repeater
   - k-joyo-7530  # 田 Rice Paddy
   - k-joyo-53f3  # 右 Right
   - k-joyo-516d  # 六 Six
