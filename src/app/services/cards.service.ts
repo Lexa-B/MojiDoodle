@@ -1357,7 +1357,7 @@ export class CardsService {
   };
 
   /** Export current database state to bundle.json format */
-  async exportToBundle(): Promise<{ stages: any[]; cards: any[]; lessons: any[]; user_uuid?: string; data_collection?: DataCollectionStatus }> {
+  async exportToBundle(): Promise<{ stages: any[]; cards: any[]; lessons: any[]; user_uuid?: string; data_collection?: DataCollectionStatus; workbook_theme?: string }> {
     // Get stages from the in-memory maps (or fetch from bundle if needed)
     const stages: { stage: number; minutes: number; color: string }[] = [];
     for (const [stage, minutes] of this.stages) {
@@ -1458,18 +1458,20 @@ export class CardsService {
     // Get user settings
     const userUuid = this.getUserUuid();
     const dataCollection = this.getDataCollectionStatus();
+    const workbookTheme = this.getWorkbookTheme();
 
     return {
       stages,
       cards,
       lessons,
       user_uuid: userUuid ?? undefined,
-      data_collection: dataCollection !== 'no-response' ? dataCollection : undefined
+      data_collection: dataCollection !== 'no-response' ? dataCollection : undefined,
+      workbook_theme: workbookTheme !== 'simple-dark' ? workbookTheme : undefined
     };
   }
 
   /** Restore progress from a backup bundle */
-  async restoreFromBundle(bundle: { cards?: any[]; lessons?: any[]; user_uuid?: string; data_collection?: DataCollectionStatus }): Promise<{
+  async restoreFromBundle(bundle: { cards?: any[]; lessons?: any[]; user_uuid?: string; data_collection?: DataCollectionStatus; workbook_theme?: string }): Promise<{
     cardsUpdated: number;
     lessonsUpdated: number;
     cardsNotFound: number;
@@ -1495,6 +1497,12 @@ export class CardsService {
       this.db.run(
         'INSERT OR REPLACE INTO user_settings (key, value) VALUES (?, ?)',
         ['data_collection', bundle.data_collection]
+      );
+    }
+    if (bundle.workbook_theme) {
+      this.db.run(
+        'INSERT OR REPLACE INTO user_settings (key, value) VALUES (?, ?)',
+        ['workbook_theme', bundle.workbook_theme]
       );
     }
 

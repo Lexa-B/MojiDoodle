@@ -86,6 +86,7 @@
   min-width: 280px;
   max-width: 90%;
   text-align: center;
+  user-select: text;
 
   &.correct .status-display {
     color: #e63946;
