@@ -1221,7 +1221,8 @@
   hidden: false
   befuddlers:
   - answers:
-      - ～の紹介で（しょうかいで）
+      - ～の紹介で
+      - ～のしょうかいで
     toast: |-
       Looks like you wrote it in kana/with reading.
       Be careful: the prompt expects the kanji form for the main noun.

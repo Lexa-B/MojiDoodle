@@ -29,8 +29,8 @@
 - id: g-21-monku-iu
   prompt: to complain
   answers:
-    - 言う（文句を）
-    - いう（もんくを）
+    - 言う
+    - いう
   hint: iu (monku o) — use when you “say” complaints/criticisms (文句を言う).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -1875,6 +1875,7 @@
   prompt: to give (to pets, plants, younger siblings, etc.)
   answers:
     - やる
+    - 遣る
   hint: 'yaru - to give "downward" (to someone/something of lower status: pets, plants,
     kids).'
   stage: -1
@@ -1892,13 +1893,8 @@
   - answers:
       - くれる
     toast: |-
-      That's "to give to me/us" (from the giver’s perspective).
+      That's "to give to me/us" (from the giver's perspective).
       The direction of giving is toward the speaker.
-  - answers:
-      - 遣る
-    toast: |-
-      That's the kanji form.
-      The prompt expects the kana spelling, as often used in daily writing.
 - id: g-21-rusu
   prompt: absence; not at home
   answers:

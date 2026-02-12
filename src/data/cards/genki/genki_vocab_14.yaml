@@ -900,7 +900,8 @@
       That suffix can sound humble (私ども) or insulting (あいつども) depending on context.
       Different nuance from a neutral plural.
   - answers:
-      - ～たち（達）
+      - ～たち
+      - ～達
     toast: |-
       Same meaning, but written with kanji.
       This prompt expects the kana form.
@@ -1046,6 +1047,7 @@
 - id: g-14-dekiru
   prompt: to come into existence; to be made
   answers:
+    - 出来る
     - できる
   hint: dekiru — often used for something being completed/produced (e.g., 料理ができる =
     the food is ready)
@@ -1056,11 +1058,6 @@
   learned: false
   hidden: false
   befuddlers:
-  - answers:
-      - 出来る
-    toast: |-
-      That's the kanji form.
-      The prompt expects the kana form (common in everyday writing).
   - answers:
       - 作る
     toast: |-
@@ -1187,6 +1184,7 @@
   prompt: stuffed animal (e.g., teddy bear)
   answers:
     - ぬいぐるみ
+    - 縫い包み
   hint: nuigurumi — often written in kana; also seen as 縫い包み (rare). Used for plush
     toys.
   stage: -1
@@ -1196,11 +1194,6 @@
   learned: false
   hidden: false
   befuddlers:
-  - answers:
-      - ぬいぐるみ（縫い包み）
-    toast: |-
-      That's the kanji spelling variant.
-      The prompt expects the common kana form used in everyday writing.
   - answers:
       - ぬいもの
     toast: |-

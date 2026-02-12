@@ -1589,6 +1589,7 @@
 - id: g-12-tanzaku
   prompt: strip of fancy paper
   answers:
+    - 短冊
     - たんざく
   hint: tanzaku — decorative paper strip (e.g., for Tanabata wishes)
   stage: -1
@@ -1598,11 +1599,6 @@
   learned: false
   hidden: false
   befuddlers:
-  - answers:
-      - 短冊
-    toast: |-
-      That's the kanji form!
-      The prompt expects the kana spelling, so write it in hiragana.
   - answers:
       - たんざん
     toast: |-
@@ -2491,7 +2487,8 @@
       That's "serious" in the sense of being earnest/intense.
       Often used for situations like a serious talk or match.
   - answers:
-      - まじ（で）
+      - まじで
+      - まじ
     toast: |-
       That's casual slang meaning "seriously?! / for real".
       Different usage and tone from a personality trait.

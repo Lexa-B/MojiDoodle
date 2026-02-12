@@ -85,8 +85,8 @@
 - id: g-23-bakutalk
   prompt: to talk behind someone’s back
   answers:
-    - 言う（悪口を）
-    - いう（わるくちを）
+    - 言う
+    - いう
   hint: iu (waruguchi o) - literally “to say (bad words)”; used for speaking ill of
     someone who isn’t present
   stage: -1
@@ -901,6 +901,7 @@
   prompt: free of charge
   answers:
     - ただ
+    - 只
   hint: tada — often used as ただで (for free), e.g., ただでもらう (get for free)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -914,11 +915,6 @@
     toast: |-
       That's the formal word "free of charge" often used in ads/services.
       The prompt expects a common spoken hiragana form.
-  - answers:
-      - 只
-    toast: |-
-      That's the kanji form meaning "only/just" or "merely".
-      The prompt expects the hiragana spelling.
   - answers:
       - ただいま
     toast: |-

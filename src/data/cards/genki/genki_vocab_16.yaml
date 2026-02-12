@@ -135,7 +135,8 @@
       That's "is inside / contained" (state).
       The prompt is an action of putting something in.
   - answers:
-      - 入れる（いれる）
+      - 入れる
+      - いれる
     toast: |-
       Careful with okurigana.
       Make sure you include the verb ending correctly (not just the kanji).
@@ -374,7 +375,7 @@
 - id: g-16-iron-kkr
   prompt: to iron (clothes)
   answers:
-    - かける（アイロンを）
+    - かける
   hint: 'kakeru (airon o) — used with アイロンを: シャツにアイロンをかける'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
@@ -382,22 +383,7 @@
   max_stage: -1
   learned: false
   hidden: false
-  befuddlers:
-  - answers:
-      - かける（電話を）
-    toast: |-
-      That's "to make a phone call".
-      Same verb, but the object is different: 電話/コール.
-  - answers:
-      - かける（眼鏡を）
-    toast: |-
-      That's "to put on glasses".
-      This usage is for wearing/putting on something.
-  - answers:
-      - かける（鍵を）
-    toast: |-
-      That's "to lock" (or "to put a key on").
-      This one is about securing with a key, not smoothing clothes.
+  befuddlers: []
 - id: g-16-lend
   prompt: to lend
   answers:

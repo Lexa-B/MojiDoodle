@@ -1203,7 +1203,8 @@
   hidden: false
   befuddlers:
   - answers:
-      - 十分（じゅうぶん）
+      - 十分
+      - じゅうぶん
     toast: |-
       This reading means “enough / sufficient.”
       For time, use the minutes reading (often with かん: 〜間).
@@ -1569,7 +1570,8 @@
   hidden: false
   befuddlers:
   - answers:
-      - 十分（じゅうぶん）
+      - 十分
+      - じゅうぶん
     toast: |-
       Same kanji, different reading!
       One means “ten minutes/time,” the other means “enough/sufficient.”

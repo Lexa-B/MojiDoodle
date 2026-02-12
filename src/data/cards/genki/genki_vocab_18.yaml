@@ -518,8 +518,10 @@
 - id: g-18-keitai
   prompt: cell phone
   answers:
-    - 携帯（電話）
-    - けいたい（でんわ）
+    - 携帯電話
+    - 携帯
+    - けいたいでんわ
+    - けいたい
   hint: keitai (denwa) — common shorthand is 携帯 (cell phone); 電話 adds “telephone”
     nuance.
   stage: -1
@@ -1168,9 +1170,10 @@
       That's "to visit" or "to ask (a question)".
       Different meaning and different kanji.
 - id: g-18-darou
-  prompt: short form of ～（ん）でしょう
+  prompt: short form of ～んでしょう / ～でしょう
   answers:
-    - ～（ん）だろう
+    - ～んだろう
+    - ～だろう
   hint: n darou - casual conjecture/guess ("probably...", "I wonder..."). Often used
     as ～んだろう in speech.
   stage: -1
@@ -1181,17 +1184,20 @@
   hidden: false
   befuddlers:
   - answers:
-      - ～（ん）でしょう
+      - ～んでしょう
+      - ～でしょう
     toast: |-
       That's the more polite form.
       The prompt is asking for the short/casual version.
   - answers:
-      - ～（ん）だろうか
+      - ～んだろうか
+      - ～だろうか
     toast: |-
       That's the question form ("I wonder if...").
       It often sounds more like asking yourself.
   - answers:
-      - ～（ん）だよ
+      - ～んだよ
+      - ～だよ
     toast: |-
       That's a plain assertion/explanation.
       This one states something rather than expressing a guess.

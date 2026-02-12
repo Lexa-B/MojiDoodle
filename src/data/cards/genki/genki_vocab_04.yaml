@@ -112,6 +112,8 @@
 - id: g-04-aru
   prompt: there is . . .
   answers:
+    - 有る
+    - 在る
     - ある
   hint: aru - inanimate existence (e.g., 机の上に本がある = There is a book on the desk)
   stage: -1
@@ -126,16 +128,6 @@
     toast: |-
       That's used for living things (people/animals).
       Use it when something is animate.
-  - answers:
-      - 在る
-    toast: |-
-      That's a kanji form often used for abstract existence (e.g., meaning/values).
-      The prompt here expects the common kana form.
-  - answers:
-      - 有る
-    toast: |-
-      That's the kanji form meaning "to exist/to have".
-      Be careful: this prompt expects kana, not kanji.
 - id: g-04-baito
   prompt: part-time job
   answers:
@@ -2982,9 +2974,9 @@
 - id: g-04-wakaru
   prompt: to understand
   answers:
+    - 分かる
     - わかる
-  hint: wakaru (u-verb) — often used as わかるよ (“I get it”). Common kanji is 分かる, but
-    this card uses kana.
+  hint: wakaru (u-verb) — often used as わかるよ ("I get it"). Common kanji is 分かる.
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   invulnerable: false
@@ -2995,15 +2987,10 @@
   - answers:
       - わける
     toast: |-
-      That's “to divide/split”!
+      That's "to divide/split"!
       Different meaning; used for separating something into parts.
   - answers:
       - わかれる
     toast: |-
-      That's “to split up/separate (intransitive)”!
+      That's "to split up/separate (intransitive)"!
       It describes things separating, not understanding.
-  - answers:
-      - 分かる
-    toast: |-
-      That's the kanji form!
-      The prompt expects the kana-only spelling.

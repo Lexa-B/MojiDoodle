@@ -812,6 +812,7 @@
   prompt: things; matters
   answers:
     - こと
+    - 事
   hint: koto — used for abstract things/matters (often written in kana); e.g., 大事なこと
     = important matter
   stage: -1
@@ -821,11 +822,6 @@
   learned: false
   hidden: false
   befuddlers:
-  - answers:
-      - 事
-    toast: |-
-      That's the kanji form.
-      The prompt expects the kana spelling, often used for abstract “things/matters.”
   - answers:
       - もの
     toast: |-
@@ -2153,7 +2149,8 @@
   prompt: ○ (correct)
   answers:
     - まる
-  hint: 'maru — the “circle” mark meaning correct/OK (opposite: × ばつ)'
+    - 丸
+  hint: 'maru — the "circle" mark meaning correct/OK (opposite: × ばつ)'
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   invulnerable: false
@@ -2161,11 +2158,6 @@
   learned: false
   hidden: false
   befuddlers:
-  - answers:
-      - 丸
-    toast: |-
-      That's the kanji form meaning “circle/round” (often used for shapes or names).
-      This prompt expects the kana writing.
   - answers:
       - ばつ
     toast: |-

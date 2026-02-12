@@ -1162,8 +1162,9 @@
 - id: g-20-damasu
   prompt: to deceive
   answers:
+    - 騙す
     - だます
-  hint: damasu (romaji) — often used for tricking/cheating someone (e.g., 人をだます).
+  hint: damasu — often used for tricking/cheating someone (e.g., 人をだます).
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   invulnerable: false
@@ -1171,11 +1172,6 @@
   learned: false
   hidden: false
   befuddlers:
-  - answers:
-      - 騙す
-    toast: |-
-      That's the kanji form.
-      This prompt expects the kana-only spelling, so write it entirely in hiragana.
   - answers:
       - だまる
     toast: |-
@@ -1722,7 +1718,8 @@
   prompt: again
   answers:
     - また
-  hint: mata — means “again” / “also”; often used like 「またね」 (see you again)
+    - 又
+  hint: mata — means "again" / "also"; often used like 「またね」 (see you again)
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   invulnerable: false
@@ -1733,18 +1730,13 @@
   - answers:
       - まだ
     toast: |-
-      That's “still / not yet”.
-      Used for an ongoing state (e.g., “still raining”, “not yet done”).
+      That's "still / not yet".
+      Used for an ongoing state (e.g., "still raining", "not yet done").
   - answers:
       - または
     toast: |-
-      That's “or”.
+      That's "or".
       Used to present alternatives in a formal way.
-  - answers:
-      - 又
-    toast: |-
-      That's the kanji form meaning “again/also”.
-      The prompt expects the hiragana spelling.
 - id: g-20-mataseru
   prompt: to keep (someone) waiting
   answers:

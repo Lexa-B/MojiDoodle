@@ -393,7 +393,8 @@
 - id: g-02-kudasai
   prompt: Please give me . . .
   answers:
-    - ください（～を）
+    - 下さい
+    - ください
   hint: 'kudasai — polite request: (object) を ください (e.g., 水をください = Please give me
     water)'
   stage: -1
@@ -404,15 +405,11 @@
   hidden: false
   befuddlers:
   - answers:
-      - お願いします（～を）
+      - お願いします
+      - おねがいします
     toast: |-
       That's a more general/polite request.
       Often used for services or favors, not specifically "give me (an item)".
-  - answers:
-      - 下さい（～を）
-    toast: |-
-      That's the kanji form.
-      The prompt expects the kana spelling with the pattern marker.
   - answers:
       - どうぞ
     toast: |-
@@ -948,8 +945,9 @@
 - id: g-02-dare
   prompt: who
   answers:
+    - 誰
     - だれ
-  hint: dare — used to ask a person’s identity (e.g., だれですか “Who is it?”)
+  hint: dare — used to ask a person's identity (e.g., だれですか "Who is it?")
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   invulnerable: false
@@ -957,11 +955,6 @@
   learned: false
   hidden: false
   befuddlers:
-  - answers:
-      - 誰
-    toast: |-
-      That's the kanji form.
-      This prompt expects the word written in kana.
   - answers:
       - どれ
     toast: |-

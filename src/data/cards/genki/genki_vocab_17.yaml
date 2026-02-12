@@ -397,9 +397,8 @@
 - id: g-17-kake-key
   prompt: To lock (e.g., a key/door)
   answers:
-    - かける（鍵を）
-    - かける（かぎを）
-  hint: kakeru (kagi o) — used as 鍵をかける “to lock (a door)”
+    - かける
+  hint: kakeru (kagi o) — used as 鍵をかける "to lock (a door)"
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   invulnerable: false
@@ -410,24 +409,19 @@
   - answers:
       - 開ける
     toast: |-
-      That's “to open”!
+      That's "to open"!
       This is the opposite action (unlock/open) rather than securing something.
   - answers:
       - 閉める
     toast: |-
-      That's “to close”!
-      Closing a door isn’t the same as locking it with a key.
-  - answers:
-      - かける（電話を）
-    toast: |-
-      That means “to make a phone call”!
-      Same verb reading, but the object changes the meaning.
+      That's "to close"!
+      Closing a door isn't the same as locking it with a key.
 - id: g-17-kake-perm
   prompt: to have one’s hair permed
   answers:
-    - かける（パーマを）
+    - かける
   hint: kakeru (paama o) - used for getting a perm (パーマをかける). Not the same as 掛ける/懸ける
-    meanings like “to hang” or “to bet.”
+    meanings like "to hang" or "to bet."
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   invulnerable: false
@@ -436,20 +430,15 @@
   hidden: false
   befuddlers:
   - answers:
-      - 切る（髪を）
+      - 切る
     toast: |-
-      That means “to cut (hair).”
+      That means "to cut (hair)."
       Different action: haircut, not a chemical treatment.
   - answers:
-      - 染める（髪を）
+      - 染める
     toast: |-
-      That means “to dye (hair).”
+      That means "to dye (hair)."
       Color change, not changing curl/texture.
-  - answers:
-      - かける（電話を）
-    toast: |-
-      That means “to make a phone call.”
-      Same verb reading, but a totally different common set phrase.
 - id: g-17-kaji
   prompt: fire
   answers:
@@ -536,7 +525,8 @@
 - id: g-17-kana
   prompt: I wonder... (casual)
   answers:
-    - ～かな（あ）
+    - ～かなあ
+    - ～かな
   hint: |-
     kana (a) — sentence-ending particle used for wondering to yourself / lightly asking.
     例: どうしようかな。= I wonder what I should do.

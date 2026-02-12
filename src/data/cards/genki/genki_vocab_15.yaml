@@ -727,7 +727,7 @@
       That's "to mix" (transitive).
       The prompt is about something becoming crowded by itself.
   - answers:
-      - 混む（こまない）
+      - 混む
     toast: |-
       Watch the reading!
       This verb reads with こ- (not こん-), and the negative form ends in 〜ない.
@@ -1016,8 +1016,9 @@
 - id: g-15-chat
   prompt: to chat
   answers:
+    - 喋る
     - しゃべる
-  hint: shaberu — casual speaking; more like “chat/talk” than “say”
+  hint: shaberu — casual speaking; more like "chat/talk" than "say"
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   invulnerable: false
@@ -1035,11 +1036,6 @@
     toast: |-
       That's "to say" (to state something).
       This one focuses on what is said, not the act of chatting.
-  - answers:
-      - 喋る
-    toast: |-
-      That's the kanji form.
-      The prompt expects you to write it in kana as given.
 - id: g-15-custom
   prompt: custom
   answers:

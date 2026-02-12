@@ -2588,8 +2588,9 @@
 - id: g-10-mochi
   prompt: rice cake
   answers:
+    - 餅
     - もち
-  hint: mochi - also written as 餅; a sticky rice cake often eaten at New Year
+  hint: mochi - a sticky rice cake often eaten at New Year
   stage: -1
   unlocks: '9999-12-31T23:59:59+00:00'
   invulnerable: false
@@ -2597,11 +2598,6 @@
   learned: false
   hidden: false
   befuddlers:
-  - answers:
-      - 餅
-    toast: |-
-      That's the kanji form!
-      This prompt expects the kana spelling.
   - answers:
       - もも
     toast: |-

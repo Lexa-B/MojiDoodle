@@ -852,7 +852,8 @@
 - id: g-22-sonnakoto
   prompt: I don’t think so.
   answers:
-    - そんなこと（は）ない
+    - そんなことはない
+    - そんなことない
   hint: |-
     sonna koto (wa) nai - used to deny what was just said ("That's not true/No way").
     （は） is often omitted in casual speech: そんなことない

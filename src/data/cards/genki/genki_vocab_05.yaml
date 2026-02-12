@@ -1611,6 +1611,8 @@
 - id: g-05-yasash
   prompt: easy (problem); kind (person)
   answers:
+    - 優しい
+    - 易しい
     - やさしい
   hint: yasashii — can mean "kind/gentle" (person) or "easy" (task/problem). Context
     decides.
@@ -1621,16 +1623,6 @@
   learned: false
   hidden: false
   befuddlers:
-  - answers:
-      - 易しい
-    toast: |-
-      That's the kanji form.
-      This prompt expects the all-kana spelling, so write it in hiragana.
-  - answers:
-      - 優しい
-    toast: |-
-      That's a common kanji form (usually for "kind/gentle").
-      This prompt expects the hiragana spelling.
   - answers:
       - むずかしい
     toast: |-
@@ -1726,6 +1718,7 @@
   prompt: to do; to perform
   answers:
     - やる
+    - 遣る
   hint: yaru — casual verb meaning "to do/perform" (also used for giving/doing something
     for someone)
   stage: -1
@@ -1740,11 +1733,6 @@
     toast: |-
       That's the more general/neutral "to do".
       This prompt expects the casual verb often used in everyday speech.
-  - answers:
-      - 遣る
-    toast: |-
-      That's the kanji form, often used for "to send off/dispatch" or "to do (harsh/colloquial nuance)".
-      Here, write it in hiragana.
   - answers:
       - やれる
     toast: |-

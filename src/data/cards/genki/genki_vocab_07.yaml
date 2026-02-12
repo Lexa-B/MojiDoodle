@@ -369,8 +369,7 @@
 - id: g-07-kakeru
   prompt: to put on (glasses)
   answers:
-    - かける（眼鏡を）
-    - かける（めがねを）
+    - かける
   hint: kakeru (megane o) - used for wearing/putting on glasses; also used for things
     like headphones
   stage: -1
@@ -564,6 +563,7 @@
 - id: g-07-kawaii
   prompt: cute
   answers:
+    - 可愛い
     - かわいい
   hint: kawaii — い-adj. used for people/animals/things that feel charming or adorable
   stage: -1
@@ -573,11 +573,6 @@
   learned: false
   hidden: false
   befuddlers:
-  - answers:
-      - 可愛い
-    toast: |-
-      That's the kanji form.
-      This prompt expects the all-hiragana spelling, so write it in kana.
   - answers:
       - かっこいい
     toast: |-
@@ -1390,6 +1385,7 @@
 - id: g-07-haku
   prompt: to put on (items below your waist)
   answers:
+    - 履く
     - はく
   hint: 'haku — used for lower-body clothing: ズボンをはく / 靴下をはく'
   stage: -1
@@ -1399,11 +1395,6 @@
   learned: false
   hidden: false
   befuddlers:
-  - answers:
-      - 履く
-    toast: |-
-      That's the kanji form.
-      This prompt expects the kana spelling, so write it in hiragana.
   - answers:
       - きる
     toast: |-
